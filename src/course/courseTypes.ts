@@ -7,6 +7,7 @@ export type CourseMeeting = {
   location?: string;
   startDate?: string;
   endDate?: string;
+  kind?: string;
 };
 export type CourseOffering = {
   term: string;
@@ -27,6 +28,9 @@ export type CourseOffering = {
   catalogUrl?: string;
   sourceUrl?: string;
   lastUpdated?: string;
+  sectionType?: string;
+  associatedClass?: string;
+  scheduleNote?: string;
 };
 export type CourseDataset = {
   schemaVersion: 1;
@@ -36,4 +40,4 @@ export type CourseDataset = {
 };
 export const courseId = (c: CourseOffering) => `${c.term}:${c.code}:${c.section}`;
 export const terms = { '2027-spring': 'Spring 2027', '2026-fall': 'Fall 2026' };
-export const departments = ['ENGL', 'ECON', 'CMPT'];
+export const departments = ['ENGL', 'ECON', 'CMPT', 'LING', 'CRIM', 'PSYC', 'POL', 'ARCH'];

@@ -1,5 +1,6 @@
 # Dependencies and build output
 node_modules/
+.course-import/
 dist/
 build/
 coverage/
@@ -19,3 +20,4 @@ Thumbs.db
 *.tsbuildinfo
 playwright-report/
 test-results/
+

@@ -1,8 +1,568 @@
 {
   "schemaVersion": 1,
   "lastVerified": "2026-10-03",
-  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 2 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
   "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D100",
+      "title": "Literary Classics in English",
+      "instructor": "Leith Davis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D101",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D102",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D103",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D104",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D105",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D106",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D107",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D108",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D109",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D110",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/111w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/111w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D100",
+      "title": "Literature and Culture",
+      "instructor": "Torsten Kehler",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D101",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D102",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D103",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D104",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D105",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D106",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D107",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D108",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/115w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/115w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "204",
+      "code": "ENGL 204",
+      "section": "OL01",
+      "title": "Reading Sexuality and Gender",
+      "instructor": "Ronda Arab",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/204/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/204/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
     {
       "term": "Spring 2027",
       "department": "ENGL",
@@ -13,17 +573,137 @@
       "instructor": "Paul Budra",
       "meetings": [
         {
-          "days": ["Mon", "Wed"],
+          "days": [
+            "Mon",
+            "Wed"
+          ],
           "startMinutes": 570,
           "endMinutes": 620,
           "displayStart": "9:30 AM",
-          "displayEnd": "10:20 AM"
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         }
       ],
       "prerequisiteText": "12 units or one 100-division English course.",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D101",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D102",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D103",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D104",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
     },
     {
       "term": "Spring 2027",
@@ -35,17 +715,286 @@
       "instructor": "Michael Everton",
       "meetings": [
         {
-          "days": ["Wed", "Fri"],
+          "days": [
+            "Wed",
+            "Fri"
+          ],
           "startMinutes": 570,
           "endMinutes": 620,
           "displayStart": "9:30 AM",
-          "displayEnd": "10:20 AM"
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
         }
       ],
       "prerequisiteText": "12 units or one 100-division English course.",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "234",
+      "code": "ENGL 234",
+      "section": "D101",
+      "title": "Metrics and Prosody",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "234",
+      "code": "ENGL 234",
+      "section": "D102",
+      "title": "Metrics and Prosody",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "234",
+      "code": "ENGL 234",
+      "section": "D103",
+      "title": "Metrics and Prosody",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "234",
+      "code": "ENGL 234",
+      "section": "D104",
+      "title": "Metrics and Prosody",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "310",
+      "code": "ENGL 310",
+      "section": "D100",
+      "title": "Early Modern Words and Worlds",
+      "instructor": "James Fleming",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/310/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/310/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "355",
+      "code": "ENGL 355",
+      "section": "E100",
+      "title": "Canadian Literatures",
+      "instructor": "Jeff Derksen",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "VANCOUVER",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/355/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/355/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "363",
+      "code": "ENGL 363",
+      "section": "D100",
+      "title": "Studies in Media Cultures",
+      "instructor": "Michael Everton",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/363/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/363/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "364",
+      "code": "ENGL 364",
+      "section": "D100",
+      "title": "Literary Criticism: History, Theory, and Practice",
+      "instructor": "Carolyn Lesjak",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses. Recommended: ENGL 216.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/364/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/364/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "374",
+      "code": "ENGL 374",
+      "section": "E100",
+      "title": "Creative Writing II: Fiction",
+      "instructor": "Troy Sebastian",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units; or two 200-division English courses; or formal declaration in the creative writing minor and ENGL 272.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/374/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/374/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
     },
     {
       "term": "Spring 2027",
@@ -57,17 +1006,280 @@
       "instructor": "Paul Budra",
       "meetings": [
         {
-          "days": ["Tue", "Thu"],
+          "days": [
+            "Tue",
+            "Thu"
+          ],
           "startMinutes": 630,
           "endMinutes": 740,
           "displayStart": "10:30 AM",
-          "displayEnd": "12:20 PM"
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         }
       ],
       "prerequisiteText": "30 units or two 200-division English courses.",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/383/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/383/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "385",
+      "code": "ENGL 385",
+      "section": "E100",
+      "title": "Across Time, Across Space",
+      "instructor": "Torsten Kehler",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/385/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/385/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "397",
+      "code": "ENGL 397",
+      "section": "E100",
+      "title": "STT-Big Stories",
+      "instructor": "Stephen Collis",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/397/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/397/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "414W",
+      "code": "ENGL 414W",
+      "section": "D100",
+      "title": "Seminar in Literature and History",
+      "instructor": "James Fleming",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/414w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/414w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "417W",
+      "code": "ENGL 417W",
+      "section": "D100",
+      "title": "Seminar in Gender, Sexuality and Literature",
+      "instructor": "Cornel Bogle",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/417w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/417w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "433W",
+      "code": "ENGL 433W",
+      "section": "D100",
+      "title": "Seminar in British Literatures",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/433w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/433w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "474W",
+      "code": "ENGL 474W",
+      "section": "D100",
+      "title": "Seminar in North American Poetry and Poetics",
+      "instructor": "Jeff Derksen",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/474w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/474w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "490",
+      "code": "ENGL 490",
+      "section": "D100",
+      "title": "Directed Studies A",
+      "meetings": [],
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/490/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "491",
+      "code": "ENGL 491",
+      "section": "D100",
+      "title": "Directed Studies B",
+      "meetings": [],
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/491/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "494",
+      "code": "ENGL 494",
+      "section": "D100",
+      "title": "Honours Research and Methods Seminar",
+      "instructor": "Ronda Arab",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Permission of the department, plus normally a minimum of 90 units, including credit or standing in two 100-division English courses, two 200-division English courses, and four 300 or 400-division English courses, one of which must be ENGL 364.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/494/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "496",
+      "code": "ENGL 496",
+      "section": "D100",
+      "title": "Honours Graduating Essay",
+      "meetings": [],
+      "prerequisiteText": "Lower division requirements for the English major. Open only to students who have been accepted into the English honours program, and who have completed ENGL 494.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/496/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/496/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
     }
   ]
 }

@@ -1,4 +1,40 @@
 @import './tokens.css';
+
+.course-filter-row > label:first-child {
+  flex: 2;
+}
+.pagination {
+  justify-content: center;
+  margin: 24px 0;
+  align-items: center;
+}
+.weekly-schedule {
+  padding: 16px;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.weekly-schedule summary {
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 32px;
+}
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+}
+.week-day {
+  background: #f5f2ed;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+.week-day p {
+  font-size: 12px;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 10px;
+}
 * {
   box-sizing: border-box;
 }

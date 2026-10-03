@@ -1,8 +1,48 @@
 {
   "schemaVersion": 1,
   "lastVerified": "2026-10-03",
-  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 0 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
   "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "105W",
+      "code": "CMPT 105W",
+      "section": "D100",
+      "title": "Social Issues and Communication Strategies in Computing Science",
+      "instructor": "Frederick Popowich",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/105w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/105w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
     {
       "term": "Spring 2027",
       "department": "CMPT",
@@ -13,24 +53,4317 @@
       "instructor": "Toby Donaldson",
       "meetings": [
         {
-          "days": ["Mon"],
+          "days": [
+            "Mon"
+          ],
           "startMinutes": 630,
           "endMinutes": 740,
           "displayStart": "10:30 AM",
-          "displayEnd": "12:20 PM"
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         },
         {
-          "days": ["Wed"],
+          "days": [
+            "Wed"
+          ],
           "startMinutes": 630,
           "endMinutes": 680,
           "displayStart": "10:30 AM",
-          "displayEnd": "11:20 AM"
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         }
       ],
       "prerequisiteText": "BC Math 12 or equivalent is recommended.",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/120/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/120/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D100",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 1040,
+          "displayStart": "3:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D101",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D102",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D103",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D104",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D200",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Toby Donaldson",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D201",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Toby Donaldson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D202",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Toby Donaldson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D203",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Toby Donaldson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "125",
+      "code": "CMPT 125",
+      "section": "D204",
+      "title": "Introduction to Computing Science and Programming II",
+      "instructor": "Toby Donaldson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/125/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/125/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D100",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D101",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D102",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D103",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Bobby Chan, Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D104",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D105",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "135",
+      "code": "CMPT 135",
+      "section": "D106",
+      "title": "Introduction to Computer Programming II",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 130 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/135/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/135/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "201",
+      "code": "CMPT 201",
+      "section": "D100",
+      "title": "Systems Programming",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/201/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "201",
+      "code": "CMPT 201",
+      "section": "D101",
+      "title": "Systems Programming",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/201/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/201/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "201",
+      "code": "CMPT 201",
+      "section": "D102",
+      "title": "Systems Programming",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/201/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/201/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "201",
+      "code": "CMPT 201",
+      "section": "D103",
+      "title": "Systems Programming",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/201/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/201/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D100",
+      "title": "Probability and Computing",
+      "instructor": "SiQi Zhou",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D101",
+      "title": "Probability and Computing",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D102",
+      "title": "Probability and Computing",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D200",
+      "title": "Probability and Computing",
+      "instructor": "Brad Bart",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D201",
+      "title": "Probability and Computing",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "210",
+      "code": "CMPT 210",
+      "section": "D202",
+      "title": "Probability and Computing",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/210/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/210/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D100",
+      "title": "Data Structures and Programming",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D101",
+      "title": "Data Structures and Programming",
+      "instructor": "Keval Vora",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D102",
+      "title": "Data Structures and Programming",
+      "instructor": "Keval Vora",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D103",
+      "title": "Data Structures and Programming",
+      "instructor": "Keval Vora",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D104",
+      "title": "Data Structures and Programming",
+      "instructor": "Keval Vora",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D200",
+      "title": "Data Structures and Programming",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D201",
+      "title": "Data Structures and Programming",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D202",
+      "title": "Data Structures and Programming",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D203",
+      "title": "Data Structures and Programming",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "225",
+      "code": "CMPT 225",
+      "section": "D204",
+      "title": "Data Structures and Programming",
+      "instructor": "Victor Cheung",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/225/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/225/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "263",
+      "code": "CMPT 263",
+      "section": "D100",
+      "title": "Introduction to Human-Centered Computing",
+      "instructor": "Nicholas Vincent",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/263/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/263/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "276",
+      "code": "CMPT 276",
+      "section": "D100",
+      "title": "Introduction to Software Engineering",
+      "instructor": "Saba Alimadadi Jani",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/276/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/276/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "276",
+      "code": "CMPT 276",
+      "section": "D200",
+      "title": "Introduction to Software Engineering",
+      "instructor": "Bobby Chan",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/276/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/276/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "276",
+      "code": "CMPT 276",
+      "section": "D300",
+      "title": "Introduction to Software Engineering",
+      "instructor": "Brian Fraser",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/276/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/276/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "295",
+      "code": "CMPT 295",
+      "section": "D100",
+      "title": "Introduction to Computer Systems",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/295/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/295/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "295",
+      "code": "CMPT 295",
+      "section": "D101",
+      "title": "Introduction to Computer Systems",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/295/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/295/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "295",
+      "code": "CMPT 295",
+      "section": "D102",
+      "title": "Introduction to Computer Systems",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/295/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/295/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "295",
+      "code": "CMPT 295",
+      "section": "D103",
+      "title": "Introduction to Computer Systems",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/295/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/295/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "295",
+      "code": "CMPT 295",
+      "section": "D104",
+      "title": "Introduction to Computer Systems",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/295/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/295/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "303",
+      "code": "CMPT 303",
+      "section": "D100",
+      "title": "Operating Systems",
+      "instructor": "Steven Ko",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225, (CMPT 295 or ENSC 254), and (CMPT 201 or ENSC 351), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/303/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/303/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "305",
+      "code": "CMPT 305",
+      "section": "D100",
+      "title": "Computer Simulation and Modelling",
+      "instructor": "Alaa Alameldeen",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (STAT 270 or STAT 271), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/305/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "307",
+      "code": "CMPT 307",
+      "section": "D100",
+      "title": "Data Structures and Algorithms",
+      "instructor": "Valentine Kabanets",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/307/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/307/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "307",
+      "code": "CMPT 307",
+      "section": "E100",
+      "title": "Data Structures and Algorithms",
+      "instructor": "Valentine Kabanets",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/307/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/307/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "308",
+      "code": "CMPT 308",
+      "section": "D100",
+      "title": "Computability and Complexity",
+      "instructor": "Evgenia Ternovska",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(MACM 201 or CMPT 210) with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/308/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/308/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "310",
+      "code": "CMPT 310",
+      "section": "D100",
+      "title": "Introduction to Artificial Intelligence",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and (STAT 271 or ENSC 280), all with a minimum grade of C-. Recommended: MATH 251.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/310/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/310/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "353",
+      "code": "CMPT 353",
+      "section": "E100",
+      "title": "Computational Data Science",
+      "instructor": "Hedayat Zarkoob",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1160,
+          "displayStart": "5:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1160,
+          "displayStart": "6:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and (BUS 232, STAT 201, STAT 203, STAT 205, STAT 270, STAT 271, ENSC 280, MSE 210, or SEE 241), with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/353/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/353/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "354",
+      "code": "CMPT 354",
+      "section": "D100",
+      "title": "Database Systems I",
+      "instructor": "Martin Ester",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/354/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/354/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "354",
+      "code": "CMPT 354",
+      "section": "D200",
+      "title": "Database Systems I",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/354/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/354/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "361",
+      "code": "CMPT 361",
+      "section": "D100",
+      "title": "Introduction to Visual Computing",
+      "instructor": "Yasutaka Furukawa",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and (STAT 271 or ENSC 280), both with a minimum grade of C-. Recommended: MATH 251.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/361/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/361/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "363",
+      "code": "CMPT 363",
+      "section": "D100",
+      "title": "User Interface Design",
+      "instructor": "Parmit Kaur Chilana",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and CMPT 263, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/363/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/363/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "371",
+      "code": "CMPT 371",
+      "section": "E100",
+      "title": "Data Communications and Networking",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1160,
+          "displayStart": "5:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 and (MATH 151 or MATH 150), with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 151 (MATH 150).",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/371/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/371/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "376W",
+      "code": "CMPT 376W",
+      "section": "D200",
+      "title": "Professional Responsibility and Technical Writing",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CMPT 105W and (CMPT 275 or CMPT 276), with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/376w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/376w/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "376W",
+      "code": "CMPT 376W",
+      "section": "E100",
+      "title": "Professional Responsibility and Technical Writing",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 105W and (CMPT 275 or CMPT 276), with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/376w/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/376w/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "379",
+      "code": "CMPT 379",
+      "section": "D100",
+      "title": "Principles of Compiler Design",
+      "instructor": "Anders Miltner",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(MACM 201 or CMPT 210), (CMPT 295 or ENSC 254) and CMPT 225, all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/379/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/379/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "405",
+      "code": "CMPT 405",
+      "section": "D100",
+      "title": "Design and Analysis of Computing Algorithms",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 307 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/405/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/405/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "409",
+      "code": "CMPT 409",
+      "section": "D100",
+      "title": "Special Topics in Theoretical Computing Science",
+      "instructor": "Igor Shinkar",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "CMPT 307 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/409/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/409/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "410",
+      "code": "CMPT 410",
+      "section": "D100",
+      "title": "Machine Learning",
+      "instructor": "Ke Li",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 310 and MACM 316, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/410/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D100",
+      "title": "Knowledge Representation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D101",
+      "title": "Knowledge Representation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D102",
+      "title": "Knowledge Representation",
+      "meetings": [],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D103",
+      "title": "Knowledge Representation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D104",
+      "title": "Knowledge Representation",
+      "meetings": [],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D105",
+      "title": "Knowledge Representation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "411",
+      "code": "CMPT 411",
+      "section": "D106",
+      "title": "Knowledge Representation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1160,
+          "displayStart": "6:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/411/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/411/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "412",
+      "code": "CMPT 412",
+      "section": "E100",
+      "title": "Computer Vision",
+      "instructor": "Richard Zhang",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 361 and MATH 152, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/412/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/412/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D010",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d010",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d010",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "10",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D011",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d011",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d011",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "11",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D012",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d012",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d012",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "12",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D013",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d013",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d013",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "13",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D014",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d014",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d014",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "14",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D015",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d015",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d015",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "15",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D016",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d016",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d016",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "16",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D100",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D200",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D300",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D400",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "4",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D500",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d500",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "5",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D600",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d600",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d600",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "6",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D700",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d700",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d700",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "7",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D800",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d800",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d800",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "8",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "415",
+      "code": "CMPT 415",
+      "section": "D900",
+      "title": "Special Research Projects",
+      "meetings": [],
+      "prerequisiteText": "Permission of Instructor and School.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/415/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/415/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "9",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D100",
+      "title": "Special Research Projects",
+      "instructor": "Xingdong Yang",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D200",
+      "title": "Special Research Projects",
+      "instructor": "Lawrence Kim",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D300",
+      "title": "Special Research Projects",
+      "instructor": "Nicholas Vincent",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D400",
+      "title": "Special Research Projects",
+      "instructor": "Angelica Lim",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "4",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D500",
+      "title": "Special Research Projects",
+      "instructor": "Brian Fraser",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d500",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "5",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D600",
+      "title": "Special Research Projects",
+      "instructor": "Bobby Chan",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d600",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d600",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "6",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D700",
+      "title": "Special Research Projects",
+      "instructor": "Ghassan Hamarneh",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d700",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d700",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "7",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "416",
+      "code": "CMPT 416",
+      "section": "D800",
+      "title": "Special Research Projects",
+      "instructor": "Ouldooz Baghban Karimi",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/416/d800",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/416/d800",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "8",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "417",
+      "code": "CMPT 417",
+      "section": "D100",
+      "title": "Intelligent Systems",
+      "instructor": "Hang Ma",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/417/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/417/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "419",
+      "code": "CMPT 419",
+      "section": "D100",
+      "title": "Special Topics in Artificial Intelligence",
+      "instructor": "Angelica Lim",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/419/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/419/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "419",
+      "code": "CMPT 419",
+      "section": "D200",
+      "title": "Special Topics in Artificial Intelligence",
+      "instructor": "Nicholas Vincent",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/419/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/419/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "419",
+      "code": "CMPT 419",
+      "section": "E100",
+      "title": "Special Topics in Artificial Intelligence",
+      "instructor": "Marzena Karpinska",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/419/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/419/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "420",
+      "code": "CMPT 420",
+      "section": "G100",
+      "title": "Deep Learning",
+      "instructor": "Wuyang Chen",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 310, CMPT 410 or CMPT 419 (Machine Learning), both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/420/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/420/g100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "426",
+      "code": "CMPT 426",
+      "section": "D100",
+      "title": "Practicum I",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/426/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/426/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "426",
+      "code": "CMPT 426",
+      "section": "D200",
+      "title": "Practicum I",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/426/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/426/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "426",
+      "code": "CMPT 426",
+      "section": "D300",
+      "title": "Practicum I",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/426/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/426/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "426",
+      "code": "CMPT 426",
+      "section": "D400",
+      "title": "Practicum I",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/426/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/426/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "426",
+      "code": "CMPT 426",
+      "section": "I100",
+      "title": "Practicum I",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "Students must complete Bridging Online (visit www.sfu.ca/coop/bol for further details) at least two terms before their anticipated co-op placement. Students must then enroll with the co-op program by the second week of the term preceding the work term. Normally, students will have completed a minimum of 45 units by the end of the term of application, CMPT 275 or 276, and have a minimum CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/426/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/426/i100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "427",
+      "code": "CMPT 427",
+      "section": "D100",
+      "title": "Practicum II",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 426, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/427/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/427/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "427",
+      "code": "CMPT 427",
+      "section": "D200",
+      "title": "Practicum II",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 426, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/427/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/427/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "427",
+      "code": "CMPT 427",
+      "section": "D300",
+      "title": "Practicum II",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 426, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/427/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/427/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "427",
+      "code": "CMPT 427",
+      "section": "D400",
+      "title": "Practicum II",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 426, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/427/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/427/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "427",
+      "code": "CMPT 427",
+      "section": "I100",
+      "title": "Practicum II",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 426, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/427/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/427/i100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "428",
+      "code": "CMPT 428",
+      "section": "D100",
+      "title": "Practicum III",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 427, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/428/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/428/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "428",
+      "code": "CMPT 428",
+      "section": "D200",
+      "title": "Practicum III",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 427, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/428/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/428/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "428",
+      "code": "CMPT 428",
+      "section": "D300",
+      "title": "Practicum III",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 427, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/428/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/428/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "428",
+      "code": "CMPT 428",
+      "section": "D400",
+      "title": "Practicum III",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 427, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/428/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/428/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "428",
+      "code": "CMPT 428",
+      "section": "I100",
+      "title": "Practicum III",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 427, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/428/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/428/i100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "429",
+      "code": "CMPT 429",
+      "section": "D100",
+      "title": "Practicum IV",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 428, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/429/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/429/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "429",
+      "code": "CMPT 429",
+      "section": "D200",
+      "title": "Practicum IV",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 428, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/429/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/429/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "429",
+      "code": "CMPT 429",
+      "section": "D300",
+      "title": "Practicum IV",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 428, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/429/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/429/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "429",
+      "code": "CMPT 429",
+      "section": "D400",
+      "title": "Practicum IV",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 428, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/429/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/429/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "429",
+      "code": "CMPT 429",
+      "section": "I100",
+      "title": "Practicum IV",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 428, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/429/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/429/i100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "430",
+      "code": "CMPT 430",
+      "section": "D100",
+      "title": "Practicum V",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 429, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/430/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/430/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "430",
+      "code": "CMPT 430",
+      "section": "D200",
+      "title": "Practicum V",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 429, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/430/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/430/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "430",
+      "code": "CMPT 430",
+      "section": "D300",
+      "title": "Practicum V",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 429, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/430/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/430/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "430",
+      "code": "CMPT 430",
+      "section": "D400",
+      "title": "Practicum V",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 429, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/430/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/430/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "430",
+      "code": "CMPT 430",
+      "section": "I100",
+      "title": "Practicum V",
+      "instructor": "Cristina Eftenaru, Stephanie Greaves",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "prerequisiteText": "CMPT 429, CGPA of 2.50.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/430/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/430/i100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "COP",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "433",
+      "code": "CMPT 433",
+      "section": "D100",
+      "title": "Embedded Systems",
+      "instructor": "Brian Fraser",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "(CMPT 201 or CMPT 300 or ENSC 351) and CMPT 295, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/433/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/433/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "454",
+      "code": "CMPT 454",
+      "section": "E100",
+      "title": "Database Systems II",
+      "instructor": "Ke Wang",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(CMPT 201 or CMPT 300 or ENSC 351) and CMPT 354, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/454/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/454/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "467",
+      "code": "CMPT 467",
+      "section": "D100",
+      "title": "Visualization",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 225 with a minimum grade of C-. Recommended: CMPT 263 and CMPT 363.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/467/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/467/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "471",
+      "code": "CMPT 471",
+      "section": "D100",
+      "title": "Networking II",
+      "instructor": "Mohamed Hefeeda",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 1040,
+          "displayStart": "3:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "(CMPT 201 or CMPT 300 or ENSC 351) and CMPT 371, both with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/471/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/471/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "478",
+      "code": "CMPT 478",
+      "section": "D100",
+      "title": "Current Topics in Quantum Computing",
+      "instructor": "Matthew Amy",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 476 or PHYS 416, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/478/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/478/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "489",
+      "code": "CMPT 489",
+      "section": "D100",
+      "title": "Special Topics in Programming Languages",
+      "instructor": "Anders Miltner",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "CMPT 383 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/489/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/489/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "494",
+      "code": "CMPT 494",
+      "section": "D100",
+      "title": "Software Systems Program Capstone Project I",
+      "instructor": "Ghassan Hamarneh",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed at least 15 units of upper division CMPT courses. Successful Capstone Project Proposal.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/494/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "494",
+      "code": "CMPT 494",
+      "section": "D200",
+      "title": "Software Systems Program Capstone Project I",
+      "instructor": "Mohammad Tayebi",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed at least 15 units of upper division CMPT courses. Successful Capstone Project Proposal.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/494/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/494/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "494",
+      "code": "CMPT 494",
+      "section": "D300",
+      "title": "Software Systems Program Capstone Project I",
+      "instructor": "Ke Li",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed at least 15 units of upper division CMPT courses. Successful Capstone Project Proposal.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/494/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/494/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "495",
+      "code": "CMPT 495",
+      "section": "D100",
+      "title": "Software Systems Capstone Project II",
+      "instructor": "Mohammad Tayebi",
+      "meetings": [],
+      "prerequisiteText": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/495/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "495",
+      "code": "CMPT 495",
+      "section": "D200",
+      "title": "Software Systems Capstone Project II",
+      "instructor": "KangKang Yin",
+      "meetings": [],
+      "prerequisiteText": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/495/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/495/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "495",
+      "code": "CMPT 495",
+      "section": "D300",
+      "title": "Software Systems Capstone Project II",
+      "instructor": "Ke Li",
+      "meetings": [],
+      "prerequisiteText": "CMPT 494 with a minimum grade of C-. CMPT 495 must be taken in the term immediately following the successful completion of CMPT 494 and must be for the same project and faculty supervisor.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/495/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/495/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "CAP",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "496",
+      "code": "CMPT 496",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructor": "Lawrence Kim",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/496/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/496/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "496",
+      "code": "CMPT 496",
+      "section": "D200",
+      "title": "Directed Studies",
+      "instructor": "Steven Ko",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/496/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/496/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "496",
+      "code": "CMPT 496",
+      "section": "D300",
+      "title": "Directed Studies",
+      "instructor": "Mohammad Tayebi",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/496/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/496/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "496",
+      "code": "CMPT 496",
+      "section": "D400",
+      "title": "Directed Studies",
+      "instructor": "Ouldooz Baghban Karimi",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/496/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/496/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "4",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "497",
+      "code": "CMPT 497",
+      "section": "D100",
+      "title": "Dual Degree Program Capstone Project",
+      "meetings": [],
+      "prerequisiteText": "Submission of a satisfactory capstone project proposal.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/497/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/497/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "498",
+      "code": "CMPT 498",
+      "section": "D100",
+      "title": "Honours Research Project",
+      "instructor": "Mo Chen",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/498/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "498",
+      "code": "CMPT 498",
+      "section": "D200",
+      "title": "Honours Research Project",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/498/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/498/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "CMPT",
+      "courseNumber": "498",
+      "code": "CMPT 498",
+      "section": "D300",
+      "title": "Honours Research Project",
+      "meetings": [],
+      "prerequisiteText": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cmpt/498/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cmpt/498/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
     }
   ]
 }

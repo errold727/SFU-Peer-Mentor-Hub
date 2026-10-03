@@ -1,0 +1,5449 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 2 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D100",
+      "title": "Introduction to Criminology",
+      "instructor": "Sarah Yercich",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D101",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D102",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D103",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D104",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D105",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D106",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D107",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D108",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D109",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D110",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D200",
+      "title": "Introduction to Criminology",
+      "instructor": "Zachary Rowan",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D201",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D202",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D203",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D204",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D205",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d205",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d205",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D206",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d206",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d206",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D207",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d207",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d207",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D208",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d208",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d208",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D209",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d209",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d209",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D210",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d210",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d210",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D900",
+      "title": "Introduction to Criminology",
+      "instructor": "Justin Tetrault",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D901",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d901",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d901",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D902",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d902",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d902",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D903",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d903",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d903",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D904",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d904",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d904",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D905",
+      "title": "Introduction to Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/101/d905",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/101/d905",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B900",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "instructor": "Brenda Morrison",
+      "meetings": [],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "9",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B901",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b901",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b901",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B902",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b902",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b902",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B903",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b903",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b903",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B904",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b904",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b904",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B905",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/b905",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/b905",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D100",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "instructor": "Maaike Helmus",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D101",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D103",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D104",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D105",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D106",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D107",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D108",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D109",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D110",
+      "title": "Psychological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/103/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/103/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E100",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "instructor": "Andrea Krusi",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E101",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E102",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E103",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E104",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E105",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E106",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E107",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E108",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E109",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "E110",
+      "title": "Sociological Explanations of Criminal and Deviant Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "SA 150 is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/104/e110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/104/e110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "131",
+      "code": "CRIM 131",
+      "section": "D100",
+      "title": "Introduction to the Criminal Justice System - A Total System Approach",
+      "instructor": "Sarah Yercich",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-17",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-10-18",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/131/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/131/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "131",
+      "code": "CRIM 131",
+      "section": "D200",
+      "title": "Introduction to the Criminal Justice System - A Total System Approach",
+      "instructor": "Danielle Murdoch",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-17",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-10-18",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/131/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/131/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D100",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "instructor": "Amy Conroy",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D101",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D102",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D103",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D104",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D105",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D106",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D107",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D108",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D109",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D110",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D200",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "instructor": "Tamara O'Doherty",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D201",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D202",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D203",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D204",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D205",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d205",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d205",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D206",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d206",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d206",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D207",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d207",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d207",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D208",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d208",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d208",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D209",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d209",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d209",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D210",
+      "title": "Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/135/d210",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/135/d210",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "210",
+      "code": "CRIM 210",
+      "section": "B100",
+      "title": "Law, Youth and Young Offending",
+      "instructor": "Evan Mccuish",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-14",
+          "endDate": "2026-09-14",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-28",
+          "endDate": "2026-09-28",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-10-26",
+          "endDate": "2026-10-26",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-11-09",
+          "endDate": "2026-11-09",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-11-23",
+          "endDate": "2026-11-23",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-12-07",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/210/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/210/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D100",
+      "title": "Research Methods in Criminology",
+      "instructor": "Sarah Yercich",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D101",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D102",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D103",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D104",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D105",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D106",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D107",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D108",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D109",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D110",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D111",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D112",
+      "title": "Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/220/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/220/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B100",
+      "title": "Criminal Law",
+      "instructor": "Tamara O'Doherty",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-21",
+          "endDate": "2026-09-21",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-10-05",
+          "endDate": "2026-10-05",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-10-19",
+          "endDate": "2026-10-19",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-11-02",
+          "endDate": "2026-11-02",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-11-16",
+          "endDate": "2026-11-16",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-11-30",
+          "endDate": "2026-11-30",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/230/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/230/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B101",
+      "title": "Criminal Law",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/230/b101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/230/b101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B200",
+      "title": "Criminal Law",
+      "instructor": "Amy Conroy",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/230/b200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/230/b200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B201",
+      "title": "Criminal Law",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/230/b201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/230/b201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D100",
+      "title": "Introduction to Corrections",
+      "instructor": "Amanda Butler",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D101",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D102",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D103",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D104",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D105",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "241",
+      "code": "CRIM 241",
+      "section": "D106",
+      "title": "Introduction to Corrections",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/241/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/241/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "251",
+      "code": "CRIM 251",
+      "section": "D900",
+      "title": "Introduction to Policing",
+      "instructor": "Rylan Simpson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CRIM 131.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/251/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/251/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D100",
+      "title": "Current Theories and Perspectives in Criminology",
+      "instructor": "Alexandra Lysova",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D101",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D102",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D103",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D104",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D105",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D106",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D107",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D108",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D109",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D110",
+      "title": "Current Theories and Perspectives in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/300w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/300w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "315",
+      "code": "CRIM 315",
+      "section": "B100",
+      "title": "Restorative Justice",
+      "instructor": "Brenda Morrison",
+      "meetings": [],
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/315/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/315/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "315",
+      "code": "CRIM 315",
+      "section": "B101",
+      "title": "Restorative Justice",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/315/b101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/315/b101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "315",
+      "code": "CRIM 315",
+      "section": "B102",
+      "title": "Restorative Justice",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/315/b102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/315/b102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "315",
+      "code": "CRIM 315",
+      "section": "B103",
+      "title": "Restorative Justice",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/315/b103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/315/b103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "317",
+      "code": "CRIM 317",
+      "section": "D100",
+      "title": "Sex, Work, and the Law",
+      "instructor": "Tamara O'Doherty",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/317/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/317/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "318",
+      "code": "CRIM 318",
+      "section": "D100",
+      "title": "Special Topics in Criminology",
+      "instructor": "Danielle Murdoch",
+      "meetings": [],
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/318/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/318/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D100",
+      "title": "Quantitative Research Methods in Criminology",
+      "instructor": "Maaike Helmus",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D101",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D102",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D103",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D104",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D105",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D106",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D107",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D108",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D109",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D110",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D111",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "D112",
+      "title": "Quantitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/320/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/320/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "D200",
+      "title": "Qualitative Research Methods in Criminology",
+      "instructor": "Andrea Krusi",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E100",
+      "title": "Qualitative Research Methods in Criminology",
+      "instructor": "Ted Palys",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E101",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E102",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E103",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E104",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E105",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E106",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E107",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "E108",
+      "title": "Qualitative Research Methods in Criminology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/321/e108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/321/e108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "326",
+      "code": "CRIM 326",
+      "section": "D100",
+      "title": "Criminological Analysis of Homicide",
+      "instructor": "Eric Beauregard",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 103.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/326/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/326/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "330",
+      "code": "CRIM 330",
+      "section": "D100",
+      "title": "Criminal Procedure and Evidence",
+      "instructor": "Helene Love",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and 230.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/330/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/330/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "338",
+      "code": "CRIM 338",
+      "section": "B100",
+      "title": "Philosophy of Law",
+      "instructor": "Amy Conroy",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/338/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/338/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "338",
+      "code": "CRIM 338",
+      "section": "B101",
+      "title": "Philosophy of Law",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/338/b101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/338/b101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D100",
+      "title": "Sentencing: Theory, Law and Practice",
+      "instructor": "Shana Ruess",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D101",
+      "title": "Sentencing: Theory, Law and Practice",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D102",
+      "title": "Sentencing: Theory, Law and Practice",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D103",
+      "title": "Sentencing: Theory, Law and Practice",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D104",
+      "title": "Sentencing: Theory, Law and Practice",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "344",
+      "code": "CRIM 344",
+      "section": "D105",
+      "title": "Sentencing: Theory, Law and Practice",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/344/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/344/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D100",
+      "title": "The Forensic Sciences",
+      "instructor": "Suzanna Michener",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D101",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D102",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D103",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D104",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D105",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D106",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "D107",
+      "title": "The Forensic Sciences",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1160,
+          "displayStart": "6:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "355",
+      "code": "CRIM 355",
+      "section": "OL01",
+      "title": "The Forensic Sciences",
+      "instructor": "Gail Anderson",
+      "meetings": [],
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/355/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/355/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D100",
+      "title": "The Forensic Sciences II",
+      "instructor": "Vienna Lam",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D101",
+      "title": "The Forensic Sciences II",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D102",
+      "title": "The Forensic Sciences II",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D103",
+      "title": "The Forensic Sciences II",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D104",
+      "title": "The Forensic Sciences II",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D105",
+      "title": "The Forensic Sciences II",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/356/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/356/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D200",
+      "title": "Directed Readings",
+      "instructor": "Eric Beauregard",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/370/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/370/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D300",
+      "title": "Directed Readings",
+      "instructor": "Rylan Simpson",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/370/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/370/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D400",
+      "title": "Directed Readings",
+      "instructor": "Gail Anderson",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/370/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/370/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "4",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D500",
+      "title": "Directed Readings",
+      "instructor": "Marie Ouellet",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/370/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/370/d500",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "5",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D600",
+      "title": "Directed Readings",
+      "instructor": "Gail Anderson",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/370/d600",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/370/d600",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "6",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "409",
+      "code": "CRIM 409",
+      "section": "D900",
+      "title": "Major Crime and Criminal Intelligence Analysis for Law Enforcement",
+      "instructor": "Ryan Prox",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/409/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/409/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "409",
+      "code": "CRIM 409",
+      "section": "D901",
+      "title": "Major Crime and Criminal Intelligence Analysis for Law Enforcement",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/409/d901",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/409/d901",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "451",
+      "code": "CRIM 451",
+      "section": "D100",
+      "title": "Advanced Techniques in Forensic Science",
+      "instructor": "Gail Anderson",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101. Recommended: CRIM 355.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/451/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/451/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "458",
+      "code": "CRIM 458",
+      "section": "D900",
+      "title": "Community Policing",
+      "instructor": "Rylan Simpson",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "CRIM 251.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/458/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/458/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "459",
+      "code": "CRIM 459",
+      "section": "D100",
+      "title": "Organized Crime",
+      "instructor": "Kelley Massingale",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "CRIM 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/459/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/459/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructor": "Andrea Krusi Penney",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/470/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/470/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D200",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/470/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/470/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D300",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/470/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/470/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D400",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/470/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/470/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "4",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D500",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/470/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/470/d500",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "5",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "485",
+      "code": "CRIM 485",
+      "section": "OL01",
+      "title": "Professional Development - Criminal Justice Practice",
+      "instructor": "Helene Love",
+      "meetings": [],
+      "prerequisiteText": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared criminology majors.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/485/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/485/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "486",
+      "code": "CRIM 486",
+      "section": "D100",
+      "title": "Field Placement - Agency - Part-Time",
+      "instructor": "Helene Love",
+      "meetings": [],
+      "prerequisiteText": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared criminology majors and must be enrolled in or have completed CRIM 320, 321 and 485. Corequisite: CRIM 488. A criminal record check may be required dependent on agency.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/486/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/486/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "INT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "487",
+      "code": "CRIM 487",
+      "section": "D100",
+      "title": "Field Placement - Agency - Full-Time",
+      "instructor": "Helene Love",
+      "meetings": [],
+      "prerequisiteText": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the school. Applicants must be declared criminology majors. Corequisite: CRIM 489. A criminal record check may be required dependent on agency.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/487/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/487/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "INT",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "488",
+      "code": "CRIM 488",
+      "section": "D100",
+      "title": "Field Placement - Academic - Part-Time",
+      "instructor": "Helene Love",
+      "meetings": [],
+      "prerequisiteText": "Permission of the school, CRIM 485, a minimum of 90 units and CGPA of 2.75. Applicants must be declared criminology majors. Corequisite: CRIM 486. A criminal record check may be required dependent on agency.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/488/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/488/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "489",
+      "code": "CRIM 489",
+      "section": "D100",
+      "title": "Field Placement - Academic - Full-Time",
+      "instructor": "Helene Love",
+      "meetings": [],
+      "prerequisiteText": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the school. Applicants must be declared criminology majors. Corequisite: CRIM 487. A criminal record check may be required dependent on agency.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/489/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/489/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "490",
+      "code": "CRIM 490",
+      "section": "D100",
+      "title": "Honours Thesis I",
+      "instructor": "Danielle Murdoch",
+      "meetings": [],
+      "prerequisiteText": "Open only to students who have been admitted to the criminology honours program.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/490/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "491",
+      "code": "CRIM 491",
+      "section": "D100",
+      "title": "Current Theory and Research in Criminology: Advanced Topics",
+      "instructor": "Danielle Murdoch",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Open only to students who have been admitted to the criminology honours program.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/491/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "CRIM",
+      "courseNumber": "491",
+      "code": "CRIM 491",
+      "section": "D101",
+      "title": "Current Theory and Research in Criminology: Advanced Topics",
+      "instructor": "Danielle Murdoch",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Open only to students who have been admitted to the criminology honours program.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/crim/491/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/crim/491/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    }
+  ]
+}

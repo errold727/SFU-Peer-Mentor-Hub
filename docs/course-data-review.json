@@ -1,0 +1,130 @@
+[
+  {
+    "term": "2026-fall",
+    "department": "arch",
+    "verified": "2026-10-03",
+    "offerings": 34,
+    "skipped": []
+  },
+  {
+    "term": "2026-fall",
+    "department": "cmpt",
+    "verified": "2026-10-03",
+    "offerings": 148,
+    "skipped": [
+      "2026/fall/cmpt/497/d100: Missing courseSchedule array"
+    ]
+  },
+  {
+    "term": "2026-fall",
+    "department": "crim",
+    "verified": "2026-10-03",
+    "offerings": 193,
+    "skipped": [
+      "2026/fall/crim/103/d102: fetch failed",
+      "2026/fall/crim/370/d100: Missing courseSchedule array"
+    ]
+  },
+  {
+    "term": "2026-fall",
+    "department": "econ",
+    "verified": "2026-10-03",
+    "offerings": 142,
+    "skipped": [
+      "2026/fall/econ/398: Source returned HTTP 404 for 2026/fall/econ/398",
+      "2026/fall/econ/498: Source returned HTTP 404 for 2026/fall/econ/498"
+    ]
+  },
+  {
+    "term": "2026-fall",
+    "department": "engl",
+    "verified": "2026-10-03",
+    "offerings": 86,
+    "skipped": []
+  },
+  {
+    "term": "2026-fall",
+    "department": "ling",
+    "verified": "2026-10-03",
+    "offerings": 24,
+    "skipped": []
+  },
+  {
+    "term": "2026-fall",
+    "department": "pol",
+    "verified": "2026-10-03",
+    "offerings": 73,
+    "skipped": [
+      "2026/fall/pol/498/d300: Missing courseSchedule array"
+    ]
+  },
+  {
+    "term": "2026-fall",
+    "department": "psyc",
+    "verified": "2026-10-03",
+    "offerings": 101,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "arch",
+    "verified": "2026-10-03",
+    "offerings": 38,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "cmpt",
+    "verified": "2026-10-03",
+    "offerings": 148,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "crim",
+    "verified": "2026-10-03",
+    "offerings": 250,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "econ",
+    "verified": "2026-10-03",
+    "offerings": 147,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "engl",
+    "verified": "2026-10-03",
+    "offerings": 47,
+    "skipped": [
+      "2027/spring/engl/112w: Source returned HTTP 404 for 2027/spring/engl/112w",
+      "2027/spring/engl/431w: Source returned HTTP 404 for 2027/spring/engl/431w"
+    ]
+  },
+  {
+    "term": "2027-spring",
+    "department": "ling",
+    "verified": "2026-10-03",
+    "offerings": 28,
+    "skipped": [
+      "2027/spring/ling/220/a970: Missing courseSchedule array",
+      "2027/spring/ling/309w/a970: Missing courseSchedule array"
+    ]
+  },
+  {
+    "term": "2027-spring",
+    "department": "pol",
+    "verified": "2026-10-03",
+    "offerings": 80,
+    "skipped": []
+  },
+  {
+    "term": "2027-spring",
+    "department": "psyc",
+    "verified": "2026-10-03",
+    "offerings": 89,
+    "skipped": []
+  }
+]

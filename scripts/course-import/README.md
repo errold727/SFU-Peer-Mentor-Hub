@@ -1,17 +1,17 @@
-# Future course importer
+# Reviewed course importer
 
-Architecture: **official SFU source → importer → normalized JSON → Course Planner**.
+Pipeline: official SFU public JSON API → normalization → validation → local candidate → reviewed Git diff → published JSON.
 
-Phase 0 contains a manually reviewed subset of public SFU Course Outlines. Public JSON is available at `https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d100`; the corresponding human-facing source is `https://www.sfu.ca/outlines.html?2027/spring/engl/211/d100`. These were inspected on 2026-10-03. The app makes no runtime requests to SFU and does not scrape web pages.
+Run `npm run courses:import -- 2027-spring ENGL`. The importer traverses published 100–400 level courses and all their listed sections, including tutorials/labs. Requests are sequential with 20-second timeouts. Output goes ONLY to ignored `.course-import/<term>/`. No public data or Git history is changed. Read the adjacent `.review.json` for rejected/unavailable records. A missing top-level directory or empty result preserves existing data.
 
-Datasets live at `public/data/courses/<year>-<term>/<department>.json`. Each has schemaVersion 1, lastVerified, a scope note, and courses. Types and runtime validation live in `src/course`. Meetings use canonical day names and minutes since midnight in Vancouver local time. An empty meetings array means unknown, not asynchronous. Missing values must remain absent; an empty prerequisite source must not be interpreted as no prerequisites. Seats and waitlists are absent in the initial source data.
+Run `npm run courses:validate -- .course-import`, inspect candidate records and their official outline links, compare the candidate to the existing public file, and copy only approved JSON into `public/data/courses/<term>/<department>.json`. Then run `npm run courses:validate`, `npm test`, `npm run build` and browser tests. Commit and submit the change for review. Do not blindly copy the review report into the browser dataset.
 
-For a future GitHub Actions importer:
+The API is `https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d100`; the corresponding source is `https://www.sfu.ca/outlines.html?2027/spring/engl/211/d100`. No client requests go to SFU. No HTML course scraper, private goSFU access, or inferred seat data is used.
 
-1. Confirm current official endpoint documentation/permission and rate limits. Use an explicit supported source adapter, bounded requests, backoff, caching, and timeouts.
-2. Map known source fields only. Normalize day names and time formats. Keep tutorials/labs and teaching-date ranges when published; never silently label a lecture-only snapshot complete.
-3. Validate intervals, term/department identity, unique offering IDs, official source URLs, and optional nonnegative enrollment counts. Fail closed on schema changes.
-4. Preserve the last known-good dataset on fetch or validation failure. Set verification timestamps only after successful inspection; retain provenance and a concise change summary.
-5. Open a reviewable pull request containing data changes. Run unit tests, dataset validation, browser smoke tests, and build before merging. Deploy through the existing Pages workflow.
+Schema version 1 has `lastVerified`, `note`, and `courses`. Identity fields are term (Spring 2027), department, courseNumber, code and section. Meetings contain canonical days, integer minutes since midnight, matching display times, and optional date ranges, kind and room. Times use campus-local America/Vancouver. Exams are excluded. Empty meetings mean unavailable, not asynchronous. Partially missing meeting blocks receive a visible scheduleNote. Section type and associated group are source metadata, not a guarantee of a valid registration combination.
 
-Do not fetch private goSFU records, create student records, infer prerequisites, fabricate capacities, or predict demand. No importer is scheduled in Phase 0.
+Unknown instructor/campus/prerequisite/seat data remain absent. Missing prerequisite text never means there are no prerequisites. No demand predictions. Public instructor names are the only names in course JSON; importer ignores email, office hours and all unrelated fields.
+
+Validation rejects mismatched identifiers/source paths, invalid dates/times, duplicate sections/outline URLs and malformed optional fields. The importer never updates lastVerified on a failed candidate. The verification date means the public API snapshot was retrieved and normalized; schedules may change.
+
+For a new department or term, import and review first, then add the code to `src/course/courseTypes.ts` and publish a validated dataset for each offered selector combination. For a future scheduled importer, add bounded retries/caching and open a data-only PR with the review summary. Never commit automatically to main. No importer runs on a schedule in V1.

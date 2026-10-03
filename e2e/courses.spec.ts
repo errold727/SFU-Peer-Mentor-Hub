@@ -5,17 +5,21 @@ test('loads datasets, shows details and conflicts, compares terms, and creates p
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('./#/course-planner');
-  await expect(page.locator('.course-card')).toHaveCount(3);
+  await expect(page.locator('.course-card').first()).toBeVisible();
+  await page.getByLabel('Find a course').fill('ENGL 211');
+  await page.getByLabel('Sections', { exact: true }).selectOption('Primary');
   await page.getByRole('button', { name: 'The Place of the Past', exact: true }).click();
   await expect(page.getByRole('dialog')).toContainText('Paul Budra');
   await expect(page.getByRole('dialog')).toContainText('prerequisites');
   await page.getByRole('button', { name: 'Close details' }).click();
   await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
+  await page.getByLabel('Find a course').fill('ENGL 234');
   await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   await page.getByRole('combobox', { name: 'Term', exact: true }).selectOption('2026-fall');
   await page.getByRole('button', { name: 'Search Courses' }).click();
-  await expect(page.locator('.course-card')).toHaveCount(2);
+  await page.getByLabel('Find a course').fill('ENGL 211');
+  await expect(page.locator('.course-card').first()).toContainText('JD Fleming');
   await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
   await expect(page.locator('.comparison-table')).toContainText('JD Fleming');
   await expect(page.locator('.comparison-table')).toContainText('Paul Budra');
@@ -30,9 +34,13 @@ test('department filter loads separate normalized JSON', async ({ page }) => {
   await page.goto('./#/course-planner');
   await page.getByRole('combobox', { name: 'Department', exact: true }).selectOption('ECON');
   await page.getByRole('button', { name: 'Search Courses' }).click();
-  await expect(page.locator('.course-card')).toHaveCount(1);
-  await expect(page.locator('.course-card')).toContainText('Principles of Microeconomics');
+  await page.getByLabel('Find a course').fill('ECON 103');
+  await page.getByLabel('Sections', { exact: true }).selectOption('Primary');
+  await expect(page.locator('.course-card').first()).toContainText('Principles of Microeconomics');
   await page.getByRole('combobox', { name: 'Department', exact: true }).selectOption('CMPT');
   await page.getByRole('button', { name: 'Search Courses' }).click();
-  await expect(page.locator('.course-card')).toContainText('Introduction to Computing Science');
+  await page.getByLabel('Find a course').fill('CMPT 120');
+  await expect(page.locator('.course-card').first()).toContainText(
+    'Introduction to Computing Science',
+  );
 });

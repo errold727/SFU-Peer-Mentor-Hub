@@ -1,0 +1,2917 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 0 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "100",
+      "code": "PSYC 100",
+      "section": "D100",
+      "title": "Introduction to Psychology I",
+      "instructor": "Peter Leavitt",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/100/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "100",
+      "code": "PSYC 100",
+      "section": "D200",
+      "title": "Introduction to Psychology I",
+      "instructor": "Peter Leavitt",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/100/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/100/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "100",
+      "code": "PSYC 100",
+      "section": "D900",
+      "title": "Introduction to Psychology I",
+      "instructor": "Diana Lim",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/100/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/100/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "102",
+      "code": "PSYC 102",
+      "section": "D100",
+      "title": "Introduction to Psychology II",
+      "instructor": "Alyssa Croft",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Recommended: PSYC 100.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/102/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/102/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "102",
+      "code": "PSYC 102",
+      "section": "D900",
+      "title": "Introduction to Psychology II",
+      "instructor": "Alyssa Croft",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "prerequisiteText": "Recommended: PSYC 100.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/102/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/102/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D100",
+      "title": "Introduction to Research Methods in Psychology",
+      "instructor": "Diana Lim",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D101",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D102",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D103",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D104",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D105",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D106",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D107",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D108",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 990,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D109",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D110",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D111",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D112",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D113",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "201W",
+      "code": "PSYC 201W",
+      "section": "D114",
+      "title": "Introduction to Research Methods in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100 or 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/201w/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/201w/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D100",
+      "title": "Introduction to Data Analysis in Psychology",
+      "instructor": "Matthew Sigal",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D101",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D102",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D103",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D104",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D105",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D106",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D107",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D108",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D109",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D110",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D111",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "210",
+      "code": "PSYC 210",
+      "section": "D112",
+      "title": "Introduction to Data Analysis in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "BC high school Math 12 with a minimum grade of C (2.0) or BC high school Math 11 with a minimum grade of B- (2.67) or any level MATH or STAT course with a C- (1.67) or FAN X99 taken at SFU with a minimum grade of C (2.00) or achieving a satisfactory grade on the Simon Fraser University Quantitative Placement Test. Corequisite: PSYC 201W, but prior completion recommended.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/210/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/210/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "221",
+      "code": "PSYC 221",
+      "section": "D100",
+      "title": "Introduction to Cognitive Psychology",
+      "instructor": "Tom Spalek",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/221/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/221/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "241",
+      "code": "PSYC 241",
+      "section": "B100",
+      "title": "Introduction to Psychological Disorders and Neurodiversity",
+      "instructor": "Shannon Zaitsoff",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/241/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/241/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D100",
+      "title": "Introduction to Developmental Psychology",
+      "instructor": "Hali Kil",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D101",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D102",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D103",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D104",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D105",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D106",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1100,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D107",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "250",
+      "code": "PSYC 250",
+      "section": "D108",
+      "title": "Introduction to Developmental Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/250/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/250/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "260",
+      "code": "PSYC 260",
+      "section": "OL01",
+      "title": "Introduction to Social Psychology",
+      "instructor": "Alyssa Croft",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/260/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/260/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "268",
+      "code": "PSYC 268",
+      "section": "D100",
+      "title": "Introduction to Law and Psychology",
+      "instructor": "Adele Quigley-McBride",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 102.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/268/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/268/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "280",
+      "code": "PSYC 280",
+      "section": "D100",
+      "title": "Introduction to Biological Psychology",
+      "instructor": "Diana Lim",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 100. Recommended: BISC 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/280/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/280/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D100",
+      "title": "Critical Analysis of Issues in Psychology",
+      "instructor": "Peter Leavitt",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D101",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D102",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D103",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D104",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D105",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D106",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D107",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D108",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D109",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D110",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D111",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "300W",
+      "code": "PSYC 300W",
+      "section": "D112",
+      "title": "Critical Analysis of Issues in Psychology",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/300w/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/300w/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "301",
+      "code": "PSYC 301",
+      "section": "D100",
+      "title": "Intermediate Research Methods and Data Analysis",
+      "instructor": "Matthew Sigal",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 210 and a minimum CGPA of 2.67.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/301/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/301/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "301",
+      "code": "PSYC 301",
+      "section": "D101",
+      "title": "Intermediate Research Methods and Data Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 210 and a minimum CGPA of 2.67.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/301/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/301/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "301",
+      "code": "PSYC 301",
+      "section": "D102",
+      "title": "Intermediate Research Methods and Data Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 210 and a minimum CGPA of 2.67.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/301/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/301/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "308",
+      "code": "PSYC 308",
+      "section": "E100",
+      "title": "History and Systems of Modern Psychology",
+      "instructor": "Bertrand Sager",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/308/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/308/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "352",
+      "code": "PSYC 352",
+      "section": "OL01",
+      "title": "Culture and Cognition",
+      "instructor": "Tanya MacGillivray",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and PSYC 250.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/352/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/352/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "356",
+      "code": "PSYC 356",
+      "section": "D100",
+      "title": "Developmental Psychopathology",
+      "instructor": "Nathan Johnson",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 241 and 250.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/356/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/356/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "361",
+      "code": "PSYC 361",
+      "section": "D100",
+      "title": "Individual Differences in Social Psychology",
+      "instructor": "Yuthika Girme",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 260.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/361/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/361/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "362",
+      "code": "PSYC 362",
+      "section": "E100",
+      "title": "Close Relationships",
+      "instructor": "Hannah Dupuis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 260.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/362/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/362/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "371",
+      "code": "PSYC 371",
+      "section": "D100",
+      "title": "Intervention: Process and Outcome",
+      "instructor": "Bridget Disini",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 241.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/371/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/371/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "376",
+      "code": "PSYC 376",
+      "section": "E100",
+      "title": "Selected Topics in Experimental Psychology and Law",
+      "instructor": "Adele Quigley-McBride",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W and PSYC 268. Recommended: PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/376/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/376/e100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "376",
+      "code": "PSYC 376",
+      "section": "OL01",
+      "title": "Selected Topics in Experimental Psychology and Law",
+      "instructor": "Deb Connolly",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W and PSYC 268. Recommended: PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/376/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/376/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "379",
+      "code": "PSYC 379",
+      "section": "D100",
+      "title": "Selected Topics in Clinical Forensic Psychology",
+      "instructor": "Stephen Hart",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201W and 268. Recommended: PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/379/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/379/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "383",
+      "code": "PSYC 383",
+      "section": "D100",
+      "title": "Psychopharmacology",
+      "instructor": "Tristan Hynes",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 280.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/383/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "386",
+      "code": "PSYC 386",
+      "section": "D100",
+      "title": "Laboratory in Human Electrophysiology",
+      "instructor": "John Joseph McDonald",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 280.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/386/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/386/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "386",
+      "code": "PSYC 386",
+      "section": "D101",
+      "title": "Laboratory in Human Electrophysiology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 280.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/386/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/386/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "386",
+      "code": "PSYC 386",
+      "section": "D102",
+      "title": "Laboratory in Human Electrophysiology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201 and 280.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/386/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/386/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "387",
+      "code": "PSYC 387",
+      "section": "D100",
+      "title": "Human Neuropsychology",
+      "instructor": "Angelina Polsinelli",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 221, and 280.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/387/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/387/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D100",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D101",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D102",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D103",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D104",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D105",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D106",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Joanna Peplak",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D200",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Sally Xie",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "391",
+      "code": "PSYC 391",
+      "section": "D300",
+      "title": "Selected Topics in Psychology",
+      "instructor": "Will Fox",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/391/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/391/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "393",
+      "code": "PSYC 393",
+      "section": "D100",
+      "title": "Research Engagement",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 60 units, a UDGPA of at least 2.5, and permission of the department. Tri-council ethics certificate.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/393/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/393/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "393",
+      "code": "PSYC 393",
+      "section": "D200",
+      "title": "Research Engagement",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 60 units, a UDGPA of at least 2.5, and permission of the department. Tri-council ethics certificate.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/393/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/393/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "393",
+      "code": "PSYC 393",
+      "section": "D300",
+      "title": "Research Engagement",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 60 units, a UDGPA of at least 2.5, and permission of the department. Tri-council ethics certificate.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/393/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/393/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "402",
+      "code": "PSYC 402",
+      "section": "D100",
+      "title": "Advanced Topics in History, Quantitative and Theoretical Psychology",
+      "instructor": "Timothy Racine",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 210, 60 units, and a CGPA of 3.0. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/402/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/402/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "410",
+      "code": "PSYC 410",
+      "section": "D100",
+      "title": "Research Design I",
+      "instructor": "Michael Maraun",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 210, 301, 60 units, and a CGPA of 3.0.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/410/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "450",
+      "code": "PSYC 450",
+      "section": "D100",
+      "title": "Advanced Topics in Developmental Psychology",
+      "instructor": "Hali Kil",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 210, 250 and 60 units, and a CGPA of 3.0. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/450/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "457",
+      "code": "PSYC 457",
+      "section": "D100",
+      "title": "Behavioural Neuroscience Undergraduate Honours Thesis Proposal",
+      "instructor": "Yuthika Girme",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "75 units, including PSYC 301 with a minimum grade of B and permission of a Co-Chair of the Behavioural Neuroscience Program Committee.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/457/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/457/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "457",
+      "code": "PSYC 457",
+      "section": "D200",
+      "title": "Behavioural Neuroscience Undergraduate Honours Thesis Proposal",
+      "instructor": "Rebecca Cobb",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "75 units, including PSYC 301 with a minimum grade of B and permission of a Co-Chair of the Behavioural Neuroscience Program Committee.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/457/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/457/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "476",
+      "code": "PSYC 476",
+      "section": "D100",
+      "title": "Advanced Topics in Law and Forensic Psychology",
+      "instructor": "Deb Connolly",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 210, 268, 60 units, and a CGPA of 3.0. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/476/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/476/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "490",
+      "code": "PSYC 490",
+      "section": "D100",
+      "title": "Honours Project",
+      "instructor": "Yuthika Girme",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "75 units, PSYC 300 and 301, both with a minimum grade of 3.0, CGPA 3.33, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/490/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "490",
+      "code": "PSYC 490",
+      "section": "D200",
+      "title": "Honours Project",
+      "instructor": "Rebecca Cobb",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "75 units, PSYC 300 and 301, both with a minimum grade of 3.0, CGPA 3.33, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/490/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/490/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "5"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "491",
+      "code": "PSYC 491",
+      "section": "D100",
+      "title": "Advanced Topics in Psychology",
+      "instructor": "David Cox",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "PSYC 201, 210, 60 units, a CGPA of 3.0. Other prerequisites vary by topic offering.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/491/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "493",
+      "code": "PSYC 493",
+      "section": "D100",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 210, 60 units, a UDGPA of at least 3.0, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/493/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/493/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "494",
+      "code": "PSYC 494",
+      "section": "D100",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 210, 60 units, a UDGPA of at least 3.0, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/494/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "PSYC",
+      "courseNumber": "495",
+      "code": "PSYC 495",
+      "section": "D100",
+      "title": "Directed Studies",
+      "meetings": [],
+      "prerequisiteText": "PSYC 201, 210, 60 units, a UDGPA of at least 3.0, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/psyc/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/psyc/495/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

@@ -12,7 +12,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "preview": "vite preview --host 127.0.0.1",
-    "verify:resources": "tsx scripts/verify-resources.ts"
+    "verify:resources": "tsx scripts/verify-resources.ts",
+    "courses:import": "tsx scripts/course-import/import.ts",
+    "courses:validate": "tsx scripts/course-import/validate.ts"
   },
   "repository": {
     "type": "git",

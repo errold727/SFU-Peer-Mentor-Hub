@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lastVerified": "2026-10-03",
-  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 2 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
   "courses": [
     {
       "term": "Fall 2026",
@@ -13,24 +13,4192 @@
       "instructor": "Douglas Allen",
       "meetings": [
         {
-          "days": ["Mon"],
+          "days": [
+            "Mon"
+          ],
           "startMinutes": 630,
           "endMinutes": 740,
           "displayStart": "10:30 AM",
-          "displayEnd": "12:20 PM"
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
         },
         {
-          "days": ["Wed"],
+          "days": [
+            "Wed"
+          ],
           "startMinutes": 630,
           "endMinutes": 680,
           "displayStart": "10:30 AM",
-          "displayEnd": "11:20 AM"
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
         }
       ],
       "campus": "Burnaby",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D101",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D102",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D103",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D104",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D105",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D106",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D108",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D109",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D110",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D111",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D200",
+      "title": "Principles of Microeconomics",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D201",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D202",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D203",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D204",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D205",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d205",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d205",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D206",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d206",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d206",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D207",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d207",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d207",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D208",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d208",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d208",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D209",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d209",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d209",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D210",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d210",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d210",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "10"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D900",
+      "title": "Principles of Microeconomics",
+      "instructor": "Gulriz Barkin",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D100",
+      "title": "Principles of Macroeconomics",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D101",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D102",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D103",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D104",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D105",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D106",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D107",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D108",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D109",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D110",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D111",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D114",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D115",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D116",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d116",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d116",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D117",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d117",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d117",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D100",
+      "title": "Introduction to Microeconomics",
+      "instructor": "Pierre Mouganie",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D101",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D102",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D103",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D104",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D105",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D106",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D107",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D108",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D109",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D110",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D111",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D112",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D113",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D114",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D115",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D100",
+      "title": "Introduction to Macroeconomics",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D101",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D102",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D103",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D104",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D106",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D109",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D110",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D113",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D114",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D115",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "182",
+      "code": "ECON 182",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructor": "Kevin Laughren",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/182/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/182/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D100",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "instructor": "Christoph Luelfesmann",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D101",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D102",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D103",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D104",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D105",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D109",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D100",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian, Chris Bidner",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D101",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D200",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian, Chris Bidner",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D201",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D300",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian, Kevin Laughren",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D301",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d301",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d301",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D400",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian, Kevin Laughren",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d400",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D401",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d401",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d401",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "4"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "260",
+      "code": "ECON 260",
+      "section": "D100",
+      "title": "Environmental Economics",
+      "instructor": "Michael Gilraine",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/260/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/260/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "260",
+      "code": "ECON 260",
+      "section": "D101",
+      "title": "Environmental Economics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/260/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/260/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "280",
+      "code": "ECON 280",
+      "section": "D100",
+      "title": "Introduction to Labor Economics",
+      "instructor": "Serena Canaan",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/280/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/280/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "280",
+      "code": "ECON 280",
+      "section": "D101",
+      "title": "Introduction to Labor Economics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/280/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/280/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D100",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "instructor": "Shih En Lu",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D102",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D103",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D104",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D107",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D100",
+      "title": "Intermediate Macroeconomic Theory",
+      "instructor": "Luba Petersen",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/305/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D102",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/305/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/305/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D104",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/305/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/305/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D105",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/305/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/305/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "325",
+      "code": "ECON 325",
+      "section": "D100",
+      "title": "Industrial Organization",
+      "instructor": "Marie Rekkas",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/325/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/325/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "325",
+      "code": "ECON 325",
+      "section": "D101",
+      "title": "Industrial Organization",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/325/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/325/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "325",
+      "code": "ECON 325",
+      "section": "D102",
+      "title": "Industrial Organization",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/325/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/325/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "325",
+      "code": "ECON 325",
+      "section": "D103",
+      "title": "Industrial Organization",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/325/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/325/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "332",
+      "code": "ECON 332",
+      "section": "D100",
+      "title": "Computational Economics",
+      "instructor": "Chenyu Hou",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 and one of ECON 233, STAT 270, or STAT 271. Recommended: ECON 305.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/332/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/332/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "332",
+      "code": "ECON 332",
+      "section": "D101",
+      "title": "Computational Economics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 and one of ECON 233, STAT 270, or STAT 271. Recommended: ECON 305.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/332/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/332/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D100",
+      "title": "Introduction to Econometrics",
+      "instructor": "Marie Rekkas",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D102",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D103",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D104",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D105",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D106",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D107",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D100",
+      "title": "Data Visualization and Economic Analysis",
+      "instructor": "Simon Woodcock",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D101",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D102",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D103",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D104",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D105",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D106",
+      "title": "Data Visualization and Economic Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "342",
+      "code": "ECON 342",
+      "section": "D100",
+      "title": "International Trade",
+      "instructor": "Victor Aguiar Lozano",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/342/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/342/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "342",
+      "code": "ECON 342",
+      "section": "D101",
+      "title": "International Trade",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/342/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/342/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "342",
+      "code": "ECON 342",
+      "section": "D102",
+      "title": "International Trade",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/342/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/342/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "342",
+      "code": "ECON 342",
+      "section": "D103",
+      "title": "International Trade",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/342/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/342/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D100",
+      "title": "Economic Development",
+      "instructor": "Chris Bidner",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D101",
+      "title": "Economic Development",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D102",
+      "title": "Economic Development",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D103",
+      "title": "Economic Development",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D104",
+      "title": "Economic Development",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D100",
+      "title": "Health Economics",
+      "instructor": "Helen Kissel",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D102",
+      "title": "Health Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D103",
+      "title": "Health Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D104",
+      "title": "Health Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D105",
+      "title": "Health Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructor": "Kevin Laughren",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D101",
+      "title": "Selected Topics in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D102",
+      "title": "Selected Topics in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D103",
+      "title": "Selected Topics in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D104",
+      "title": "Selected Topics in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "402",
+      "code": "ECON 402",
+      "section": "D100",
+      "title": "Advanced Microeconomic Theory",
+      "instructor": "Anke Kessler",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 302 and 331, with a minimum grade of C-. Students who have completed both MATH 232 and 251 may substitute these courses for ECON 331. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/402/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/402/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "425",
+      "code": "ECON 425",
+      "section": "D100",
+      "title": "Industrial Organization: Imperfect Competition",
+      "instructor": "Christoph Luelfesmann",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 302 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/425/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/425/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "435",
+      "code": "ECON 435",
+      "section": "D100",
+      "title": "Econometric Methods",
+      "instructor": "Brian Krauth",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201, ECON (or BUEC) 333, and one of (ECON 331, MATH 232, or MATH 240), all with a minimum grade of C-. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/435/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/435/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "435",
+      "code": "ECON 435",
+      "section": "D102",
+      "title": "Econometric Methods",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201, ECON (or BUEC) 333, and one of (ECON 331, MATH 232, or MATH 240), all with a minimum grade of C-. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/435/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/435/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "454",
+      "code": "ECON 454",
+      "section": "D100",
+      "title": "Seminar in the Economics of the Family",
+      "instructor": "Douglas Allen",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 and ECON (or BUEC) 333, all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/454/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/454/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "482",
+      "code": "ECON 482",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructor": "Fernando Aragon Sanchez",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/482/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/482/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "483",
+      "code": "ECON 483",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructor": "Luba Petersen",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/483/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/483/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ECON",
+      "courseNumber": "494",
+      "code": "ECON 494",
+      "section": "D100",
+      "title": "Honours Research Proposal",
+      "instructor": "Guillaume Blanc",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 302, 305 and ECON (or BUEC) 333, all with a minimum grade of C-. A minimum CGPA of 3.0.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/494/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
     }
   ]
 }
