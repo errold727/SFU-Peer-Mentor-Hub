@@ -1,0 +1,13 @@
+import { makeElement, type PosterDocument } from '../posterTypes';
+export const templates = [
+ {id:'welcome',name:'Welcome to SFU',description:'A warm introduction and room to connect.',title:'WELCOME TO SFU',subtitle:'{{recipientName}}',body:'I Speak\n[Add your languages]\n\nA Little About Me\n[Introduce yourself]\n\nContact Me\n[Add your preferred contact]\n\nWhat You Can Expect From Your Mentor\n[Share what you can offer]'},
+ {id:'weekly',name:'Weekly Check-In',description:'A personal hello with helpful resources.',title:'WEEK 3 CHECK-IN',subtitle:'Hope your week at SFU is going well, {{recipientName}}!',body:''},
+ {id:'information',name:'Important Information',description:'The essentials, clearly organized.',title:'IMPORTANT INFORMATION',subtitle:'Your SFU resource collection',body:''},
+ {id:'deadlines',name:'Important Deadlines',description:'Keep important dates in view.',title:'IMPORTANT DEADLINES',subtitle:'Check official sources for current dates',body:''},
+ {id:'library',name:'Library Guide',description:'A place to focus, study, and discover.',title:'LIBRARY GUIDE',subtitle:'Find your study space',body:''},
+ {id:'recreation',name:'Recreation Guide',description:'Make space for a little movement.',title:'RECREATION GUIDE',subtitle:'Select a recreation resource to add the schedule',body:''},
+ {id:'courses',name:'Course Planning',description:'Bring your course comparison together.',title:'COURSE PLANNING',subtitle:'Explore your options',body:''},
+ {id:'event',name:'Workshop / Event',description:'An invitation with all the useful details.',title:'WORKSHOP / EVENT',subtitle:'[Add your event title]',body:'When\n[Add verified date and time]\n\nWhere\n[Add location]\n\nDetails\n[Add event information]'},
+];
+export function createTemplate(id='information'):PosterDocument { const t=templates.find(t=>t.id===id)??templates[2]; return {size:'letter',background:'#faf9f6',template:t.id,elements:[makeElement('shape',{x:0,y:0,width:816,height:22,backgroundColor:'#a6192e',color:'#a6192e',text:'',shape:'rectangle',zIndex:0}),makeElement('text',{x:48,y:65,width:720,height:95,text:t.title,fontSize:48,fontWeight:'bold',color:'#a6192e',padding:0,zIndex:1}),makeElement('text',{x:48,y:160,width:720,height:70,text:t.subtitle,fontSize:22,padding:0,zIndex:2}),...(t.body?[makeElement('text',{x:48,y:260,width:720,height:620,text:t.body,fontSize:25,padding:16,backgroundColor:'#ffffff',zIndex:3})]:[]),makeElement('footer',{x:48,y:984,width:720,height:44,text:'SFU PEER MENTOR HUB  ·  Peer-created. Verify details with official sources.',fontSize:12,padding:0,color:'#666666',zIndex:4})]}; }
+

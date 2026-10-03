@@ -24,3 +24,6 @@ Typed resources live in `src/data/resources`. Add an official source URL and lab
 React, TypeScript, Vite, HashRouter, Zustand, React-Konva, Lucide, jsPDF, QRCode, date-fns/date-fns-tz, Fuse.js, Vitest, React Testing Library, ESLint and Prettier.
 
 Development takes place on `codex/phase0`, with tested milestones pushed to GitHub. Deployment configuration and full architecture documentation will be completed with Phase 0.
+
+Poster Maker milestone: eight editable templates, resource import, memory-only recipient names, canvas transforms, keyboard editing, layers, undo/redo, image uploads, QR codes, contrast checks, and PNG/PDF export. Browser checks verify file signatures, dimensions, mobile navigation, and refresh privacy.
+
