@@ -77,6 +77,14 @@ export const resources: SFUResource[] = [
     ['computing ID', 'email', 'canvas', 'wifi'],
   ),
   resource(
+    'printing',
+    'Student Printing',
+    'student-essential',
+    'Use your activated Computing ID for PaperCut printers in SFU computer labs and libraries across all three campuses. Check official instructions before printing.',
+    'https://www.sfu.ca/information-systems/services/printing/',
+    ['printing', 'papercut', 'computer lab', 'library'],
+  ),
+  resource(
     'id-card',
     'SFU ID Card',
     'student-essential',
@@ -154,7 +162,7 @@ export const resources: SFUResource[] = [
     'Official immigration resources',
     'international',
     'Follow SFU’s official immigration guidance and consult an international student advisor for your circumstances.',
-    'https://www.sfu.ca/students/isap.html',
+    'https://www.sfu.ca/students/isap/explore/after.html',
     ['immigration', 'permit'],
   ),
   resource(
@@ -162,7 +170,7 @@ export const resources: SFUResource[] = [
     'Medical insurance resources',
     'international',
     'Find official SFU medical insurance information for international students.',
-    'https://www.sfu.ca/students/isap.html',
+    'https://www.sfu.ca/students/isap/explore/medical.html',
     ['medical', 'insurance'],
   ),
   resource(

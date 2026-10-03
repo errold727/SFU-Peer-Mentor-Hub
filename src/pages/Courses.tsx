@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CalendarDays, ArrowUpRight, Plus, Check, X, TriangleAlert } from 'lucide-react';
 import { loadCourses } from '../course/courseSearch';
@@ -16,9 +16,10 @@ import {
   scheduleLabel,
   seatsLabel,
 } from '../course/comparison';
-import { findConflicts } from '../course/conflictDetection';
+import { findConflicts, conflictDetails } from '../course/conflictDetection';
 import { usePosterBasket } from '../store/posterBasketStore';
 import { Modal } from '../components/ui/Modal';
+import { WeeklySchedule } from '../course/WeeklySchedule';
 export default function Courses() {
   const [term, setTerm] = useState('2027-spring'),
     [department, setDepartment] = useState('ENGL'),
@@ -27,6 +28,31 @@ export default function Courses() {
     [error, setError] = useState(''),
     [selected, setSelected] = useState<CourseOffering[]>([]),
     [detail, setDetail] = useState<CourseOffering | null>(null);
+  const [query, setQuery] = useState(''),
+    [sort, setSort] = useState('code'),
+    [sectionFilter, setSectionFilter] = useState('All'),
+    [page, setPage] = useState(1);
+  const results = useMemo(
+    () =>
+      (dataset?.courses ?? [])
+        .filter(
+          (c) =>
+            (sectionFilter === 'All' ||
+              (sectionFilter === 'Primary'
+                ? !['TUT', 'LAB'].includes(c.sectionType ?? '')
+                : ['TUT', 'LAB'].includes(c.sectionType ?? ''))) &&
+            `${c.code} ${c.section} ${c.title} ${c.instructor ?? ''}`
+              .toLowerCase()
+              .includes(query.toLowerCase().trim()),
+        )
+        .sort((a, b) =>
+          sort === 'title'
+            ? a.title.localeCompare(b.title) || a.section.localeCompare(b.section)
+            : a.code.localeCompare(b.code, undefined, { numeric: true }) ||
+              a.section.localeCompare(b.section),
+        ),
+    [dataset, query, sort, sectionFilter],
+  );
   const request = useRef<AbortController | null>(null);
   const basket = usePosterBasket();
   const conflicts = findConflicts(selected);
@@ -37,12 +63,19 @@ export default function Courses() {
     setLoading(true);
     setError('');
     setDataset(undefined);
+    setPage(1);
     try {
       const data = await loadCourses(nextTerm, nextDepartment, controller.signal);
       if (!controller.signal.aborted) setDataset(data);
     } catch (e) {
       if (!controller.signal.aborted)
-        setError(e instanceof Error ? e.message : 'Unable to load courses.');
+        setError(
+          e instanceof TypeError
+            ? 'Connection unavailable. Try again or open official SFU Course Outlines.'
+            : e instanceof Error
+              ? e.message
+              : 'Unable to load courses.',
+        );
     } finally {
       if (!controller.signal.aborted) setLoading(false);
     }
@@ -104,14 +137,17 @@ export default function Courses() {
         </button>
       </form>
       <p className="notice">
-        Curated snapshot, not live enrollment data. Only a small subset of published offerings is
-        included. Missing data is shown as unavailable. Confirm all required lectures, tutorials and
-        labs in the official outline and goSFU.
+        Course offerings and schedules may change. Verify final details through official SFU sources
+        before enrolment. Reviewed snapshots of published undergraduate sections, not live enrolment
+        data. Confirm all required lectures, tutorials and labs in the official outline and goSFU.
       </p>
       {loading && <p role="status">Loading course offerings…</p>}
       {error && (
         <p role="alert">
-          {error} <button onClick={() => void search(term, department)}>Retry</button>
+          {error} <button onClick={() => void search(term, department)}>Retry</button>{' '}
+          <a href="https://www.sfu.ca/outlines.html" target="_blank" rel="noreferrer">
+            Official SFU Course Outlines ↗
+          </a>
         </p>
       )}
       {dataset && (
@@ -119,11 +155,53 @@ export default function Courses() {
           <div className="section-heading">
             <h2>Course offerings</h2>
             <span className="muted">
-              {dataset.courses.length} results · Verified {dataset.lastVerified}
+              {results.length} of {dataset.courses.length} sections · Verified{' '}
+              {dataset.lastVerified}
             </span>
           </div>
+          <div className="filters course-filter-row">
+            <label>
+              Find a course
+              <input
+                value={query}
+                placeholder="Code, title, instructor or section"
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  setPage(1);
+                }}
+              />
+            </label>
+            <label>
+              Sections
+              <select
+                aria-label="Sections" value={sectionFilter}
+                onChange={(e) => {
+                  setSectionFilter(e.target.value);
+                  setPage(1);
+                }}
+              >
+                <option>All</option>
+                <option value="Primary">Lectures / seminars</option>
+                <option value="Related">Tutorials / labs</option>
+              </select>
+            </label>
+            <label>
+              Sort by
+              <select
+                aria-label="Sort by" value={sort}
+                onChange={(e) => {
+                  setSort(e.target.value);
+                  setPage(1);
+                }}
+              >
+                <option value="code">Course code</option>
+                <option value="title">Title</option>
+              </select>
+            </label>
+          </div>
+          <p className="muted">{dataset.note}</p>
           <div className="course-results">
-            {dataset.courses.map((c) => {
+            {results.slice((page - 1) * 20, page * 20).map((c) => {
               const chosen = selected.some((x) => courseId(x) === courseId(c));
               const added = basket.items.some((x) => x.id === 'course:' + courseId(c));
               return (
@@ -131,7 +209,9 @@ export default function Courses() {
                   <div className="course-code">
                     <span>{c.department}</span>
                     <strong>{c.courseNumber}</strong>
-                    <small>{c.section}</small>
+                    <small>
+                      {c.section} {c.sectionType}
+                    </small>
                   </div>
                   <div className="course-content">
                     <div className="eyebrow">{c.term} · COURSE OFFERING</div>
@@ -147,6 +227,7 @@ export default function Courses() {
                       <span>{scheduleLabel(c)}</span>
                     </div>
                     <p className="muted">Seats: {seatsLabel(c.seatsAvailable, c.seatsTotal)}</p>
+                    {c.scheduleNote && <p className="notice">{c.scheduleNote}</p>}
                   </div>
                   <div className="course-actions">
                     <button onClick={() => toggle(c)} className={chosen ? 'added' : ''}>
@@ -162,8 +243,31 @@ export default function Courses() {
               );
             })}
           </div>
-          {dataset.courses.length === 0 && (
-            <div className="empty-state">No verified offerings in this dataset.</div>
+          {results.length === 0 && (
+            <div className="empty-state">
+              No matching sections. Try a course code or clear your section filter.{' '}
+              <button
+                onClick={() => {
+                  setQuery('');
+                  setSectionFilter('All');
+                }}
+              >
+                Clear course filters
+              </button>
+            </div>
+          )}
+          {results.length > 20 && (
+            <div className="actions pagination" aria-label="Course result pages">
+              <button disabled={page === 1} onClick={() => setPage(page - 1)}>
+                Previous
+              </button>
+              <span role="status">
+                Page {page} of {Math.ceil(results.length / 20)}
+              </span>
+              <button disabled={page * 20 >= results.length} onClick={() => setPage(page + 1)}>
+                Next
+              </button>
+            </div>
           )}
         </>
       )}
@@ -196,6 +300,8 @@ export default function Courses() {
                   {conflicts.map(({ a, b }) => (
                     <p key={courseId(a) + courseId(b)}>
                       {a.code} {a.section} and {b.code} {b.section} · {a.term}
+                      <br />
+                      {conflictDetails(a, b).join('; ')}
                     </p>
                   ))}
                 </div>
@@ -206,12 +312,18 @@ export default function Courses() {
                 conflict-free registration schedule.
               </p>
             ) : null}
-            {selected.some((c) => !c.meetings.length) && (
+            {selected.some((c) => !c.meetings.length || c.scheduleNote) && (
               <p className="notice">
                 Some schedules are unavailable; conflicts cannot be fully checked.
               </p>
             )}
-            <div className="table-scroll comparison-table">
+            <WeeklySchedule courses={selected} />
+            <div
+              className="table-scroll comparison-table"
+              tabIndex={0}
+              role="region"
+              aria-label="Course comparison table, scroll horizontally"
+            >
               <table>
                 <thead>
                   <tr>
@@ -256,8 +368,8 @@ export default function Courses() {
               </table>
             </div>
             <p className="muted">
-              Previous offerings may help illustrate course demand. Enrollment patterns can differ
-              between terms.
+              All meeting times use the campus local time zone (America/Vancouver). Adjacent classes
+              are not treated as overlaps; allow your own travel time between campuses.
             </p>
           </>
         )}
@@ -273,6 +385,11 @@ export default function Courses() {
             <div>
               <dt>Section</dt>
               <dd>{detail.section}</dd>
+              <dt>Section type / associated group</dt>
+              <dd>
+                {detail.sectionType ?? 'Unavailable'} / {detail.associatedClass ?? 'Unavailable'} —
+                confirm registration combinations in goSFU.
+              </dd>
             </div>
             <div>
               <dt>Instructor</dt>
@@ -281,6 +398,7 @@ export default function Courses() {
             <div>
               <dt>Schedule</dt>
               <dd className="preserve-lines">{scheduleLabel(detail)}</dd>
+              {detail.scheduleNote && <dd>{detail.scheduleNote}</dd>}
             </div>
             <div>
               <dt>Campus</dt>
@@ -316,3 +434,4 @@ export default function Courses() {
     </>
   );
 }
+

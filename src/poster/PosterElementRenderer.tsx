@@ -4,20 +4,20 @@ import QRCode from 'qrcode';
 import type Konva from 'konva';
 import { type PosterElement, resolveRecipient } from './posterTypes';
 function useImage(src?: string) {
-  const [image, setImage] = useState<HTMLImageElement>();
+  const [loaded, setLoaded] = useState<{ src: string; image: HTMLImageElement }>();
   useEffect(() => {
     if (!src) return;
     let active = true;
     const img = new window.Image();
     img.onload = () => {
-      if (active) setImage(img);
+      if (active) setLoaded({ src, image: img });
     };
     img.src = src;
     return () => {
       active = false;
     };
   }, [src]);
-  return image;
+  return loaded && loaded.src === src ? loaded.image : undefined;
 }
 export function PosterElementRenderer({
   element: e,
@@ -32,22 +32,22 @@ export function PosterElementRenderer({
   onChange: (patch: Partial<PosterElement>) => void;
   onGuide: (x: number | null, y: number | null) => void;
 }) {
-  const [qr, setQr] = useState('');
+  const [qr, setQr] = useState({ text: '', src: '' });
   useEffect(() => {
     if (e.type !== 'qrcode') return;
     let active = true;
     QRCode.toDataURL(e.text, { width: 512, margin: 2, errorCorrectionLevel: 'M' })
       .then((src) => {
-        if (active) setQr(src);
+        if (active) setQr({ text: e.text, src });
       })
       .catch(() => {
-        if (active) setQr('');
+        if (active) setQr({ text: e.text, src: '' });
       });
     return () => {
       active = false;
     };
   }, [e.type, e.text]);
-  const image = useImage(e.type === 'qrcode' ? qr : e.src);
+  const image = useImage(e.type === 'qrcode' ? (qr.text === e.text ? qr.src : undefined) : e.src);
   const props = {
     id: e.id,
     x: e.x,

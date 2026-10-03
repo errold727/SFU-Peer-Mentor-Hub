@@ -1,134 +1,121 @@
-# SFU Peer Mentor Hub
+# SFU Peer Mentor Hub — V1
 
-[Live site](https://errold727.github.io/SFU-Peer-Mentor-Hub/) · [Repository](https://github.com/errold727/SFU-Peer-Mentor-Hub) · [Build and deployment](https://github.com/errold727/SFU-Peer-Mentor-Hub/actions)
+[Live site](https://errold727.github.io/SFU-Peer-Mentor-Hub/) · [Repository](https://github.com/errold727/SFU-Peer-Mentor-Hub) · [Actions](https://github.com/errold727/SFU-Peer-Mentor-Hub/actions)
 
-A peer-created, independent tool for SFU Peer Mentors. **Find → Select → Create**: find public SFU information, collect useful resources, and create editable posters or neutral course comparisons. This is not an official Simon Fraser University website.
+A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find public SFU information, collect resources, and create editable posters or neutral course comparisons. This is not an official Simon Fraser University website or a replacement for official advice.
 
-## Product philosophy
+## What V1 does
 
-Useful information comes first. Official sources stay attached to factual content. Missing facts remain unavailable, and verification dates describe an actual source check. This application helps mentors share information; it does not manage mentees or provide immigration advice.
+- **Resource Hub:** 32 sourced resources, useful search aliases, category/campus/term filters, details, copy, Vancouver-aware deadlines, and sport/day recreation filtering. Cards distinguish Verified, Review Soon, Review Recommended / Stale, and Unverified. Printing is included; international topics link directly to their official guidance.
+- **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, including source URLs and verification notes.
+- **Poster Maker:** eight editable templates and five optional styles; temporary recipient personalization; text, image, shape, icon, resource, QR, divider and footer elements; pointer and keyboard editing; layers, hide/lock, undo/redo, snapping, alignment, typography and borders. Auto Arrange reserves margins/header/footer and avoids existing content. Body text is never automatically reduced below 16 px. Poster Quality detects overflow, overlap, small text, low contrast, empty content, placeholders, density and edge problems. Grow to fit text and Fit text safely address overflow.
+- **Optional local drafts:** explicit Save locally, Open, Duplicate and Delete. No autosave or automatic restore. Recipient fields require a separate opt-in. Storage is browser-local with a visible usage indicator.
+- **Exports:** standard, 2x and print PNG; PDF with matching page bounds. Hidden content, guides and selection handles are excluded. Letter print PNG is 2550 × 3300; Letter PDF is 612 × 792 points. PDF is a rendered visual, not an editable document or hidden student JSON.
+- **Course Planner:** 1,628 published undergraduate sections across CMPT, ENGL, ECON, LING, CRIM, PSYC, POL and ARCH, for Fall 2026 and Spring 2027. Search by code/title/instructor/section, sort, filter section types, browse result pages, inspect details/prerequisites, compare across terms, show weekly meetings, identify precise conflicts, clear selections and add courses to posters. No course ranking or demand prediction.
+- **Responsive routes:** Home, Resources, Poster Maker, Template Gallery, Course Planner and About. Hash URLs support refresh on GitHub Pages. Keyboard alternatives, focus containment/restoration, reduced motion and explicit form labels support accessibility.
 
-## Phase 0 features
+## Privacy architecture
 
-- **Resource Hub:** fuzzy title/summary/fact/tag search; category, campus and term filters; source details and verification status; Vancouver-aware deadlines; Bennett Library floor guide; safety, academic, international and student essentials; sport/day recreation filtering and compact poster content.
-- **Poster Content Basket:** add, deduplicate, remove and clear public resources; take selected content directly into the editor.
-- **Poster Maker:** eight editable templates; temporary recipient personalization; text, image, shape, icon, resource, QR, divider and footer elements; pointer/keyboard editing; move, resize, rotate, align, snap, duplicate, lock, hide, reorder, undo and redo. Typography, border, spacing and colour controls include contrast and text-clipping warnings.
-- **Exports:** standard, 2x and print-resolution PNG; PDF with matching page dimensions. Hidden content, guides and transform handles are excluded. Letter print PNG is 2550 × 3300 pixels; Letter PDF is 612 × 792 points. Other formats preserve their aspect ratio.
-- **Course Planner:** nine curated official offerings across ENGL, ECON and CMPT, Fall 2026 and Spring 2027. Course details, sourced prerequisites, cross-term comparisons, deterministic partial/complete timetable overlap detection and course-to-poster content.
-- **Responsive navigation:** Home, Resources, Poster Maker, Template Gallery, Course Planner, About/Privacy/Sources. HashRouter supports direct links and refreshes on GitHub Pages.
+There is **no backend, login, analytics, mentee database, student profile, mentor/mentee assignment, communication history or central recipient storage**.
 
-## Privacy design
+The two Zustand stores are memory-only. A full refresh clears the active basket, editor, uploaded images and recipient field. Recipient placeholders resolve only for rendering. The editor makes no third-party requests: QR images are generated locally and image uploads become local data URLs.
 
-There is no backend, authentication, third-party analytics, database, student profile, mentor/mentee assignment, communication history or personal-note model.
+`src/poster/drafts.ts` is the only persistence boundary. It writes only after explicit Save locally or Duplicate actions. The recipient field is excluded by default; checking the personalized-draft option explicitly includes it. All manually entered poster text, hidden layers and images are part of an intentionally saved draft, so review them on shared devices. Drafts are never restored automatically and can be individually or entirely deleted. They are not encrypted, synced or backed up; browser data clearing removes them. Storage is limited to 20 drafts and approximately 4 million serialized characters, subject to browser quota. Invalid/remote-image draft payloads are rejected.
 
-Both Zustand stores are **memory-only**. Resource selections, uploaded images, edits and the optional recipient name are cleared by a full page refresh. No localStorage, sessionStorage or IndexedDB persistence is used. Names and images are never uploaded by this application. Recipient placeholders are resolved at rendering time.
+PNG/PDF downloads contain the visible text the user chose. A recipient name may appear in the local filename and pixels. There is no embedded editable poster model, hidden recipient JSON or custom personal metadata. GitHub serves static assets and may retain ordinary hosting logs; this app never sends editor content or recipient names to GitHub.
 
-Explicit PNG/PDF downloads contain the visible content the user chose to export. They contain no hidden student JSON or custom personal metadata. A recipient name may appear in the downloaded filename and visual content. Exported files are the user's responsibility to share appropriately. GitHub serves the static site and may maintain its ordinary hosting logs; the app does not send editor content to GitHub.
+## Local development and checks
 
-## Technology
-
-React 19, TypeScript, Vite, React Router (HashRouter), Zustand, React-Konva/Konva, Lucide React, jsPDF, QRCode, date-fns, date-fns-tz and Fuse.js. Vitest, React Testing Library, Playwright, ESLint and Prettier support verification and maintenance. Fonts are system fonts. No official SFU logo or restricted font is bundled; `OfficialLogoSlot` remains unused pending an authorized asset.
-
-## Local setup
-
-Use Node 24 (see `.nvmrc`) and npm. Git history is maintained on `codex/phase0` during Phase 0.
+Use Node 24 and npm. V1 development uses `codex/v1`; `main` is the deployed branch.
 
 ```sh
 npm ci
 npm run dev
+npm test
+npm run lint
+npm run build
+npm run test:e2e
+npm run courses:validate
+npm run verify:resources -- --offline
+npm run verify:resources
+npm run preview
 ```
 
-Open the URL printed by Vite, normally `http://127.0.0.1:5173/SFU-Peer-Mentor-Hub/`.
+Vite normally serves `http://127.0.0.1:5173/SFU-Peer-Mentor-Hub/`. The browser suite builds a production preview on port 4173. Windows uses installed Microsoft Edge; CI uses Playwright Chromium (`npx playwright install --with-deps chromium`). Set `PLAYWRIGHT_BASE_URL` to test production or another running deployment. Screenshots/downloads use fictional test content and live under ignored `test-results/`. Restricted Windows runners may need process permissions for browser/server cleanup.
 
-```sh
-npm test             # Unit and React integration tests
-npm run lint         # ESLint
-npm run build        # TypeScript checks + production dist/
-npm run preview      # Preview built files
-npm run test:e2e     # Browser tests against a production preview
-npm run format      # Prettier
-```
+`npm run format` runs Prettier. TypeScript checks source, maintenance scripts and browser tests. Unit/integration tests exercise real behavior, normalization failures, source reliability, schedule conflicts, layout geometry, draft consent and privacy boundaries. Browser tests check all routes at 375/390/768/1024/1440 px, axe WCAG checks, keyboard dialogs, recovery from malformed course data, basket-to-poster use, all eight templates, editing and actual downloaded PNG/PDF bytes. Print export tests decode the QR from exported pixels.
 
-The browser suite uses installed Microsoft Edge on Windows. In CI it uses Playwright Chromium (`npx playwright install --with-deps chromium`). Set `PLAYWRIGHT_BASE_URL` to test an already running or deployed site; otherwise the suite builds and starts its own preview on port 4173. Tests create only temporary example content and local downloads. Screenshots and reports in `test-results/` are ignored by Git. On restricted Windows runners, test-server cleanup may require permission to stop the server process.
+## Architecture and performance
 
-## Project layout
+React 19, TypeScript, Vite, HashRouter, Zustand, React-Konva, Lucide, jsPDF, QRCode, date-fns and Fuse.js. System fonts; original SFU-inspired geometry; no official SFU logo or restricted font bundled.
 
 ```text
-src/app/                       Routing and application shell
-src/pages/                     Six route-level views
-src/components/                Resource, layout and accessible UI pieces
-src/data/resources/            Public SFU resources and source metadata
-src/store/                     Ephemeral basket and editor stores
-src/poster/                    Canvas, element types, templates, layout and export
-src/course/                    Normalized types, validation, comparison and conflicts
-src/utils/                     Vancouver dates, search and verification
-src/tests/                     Unit and React integration tests
-public/data/courses/            Static JSON snapshots by term/department
-e2e/                           Browser workflow and export tests
-scripts/course-import/         Future importer design
-.github/workflows/deploy.yml   Gated test/build/deploy pipeline
+src/app/                      Shell, routing and error recovery
+src/pages/                    Six route-level views
+src/components/               Resource cards, basket and accessible dialogs
+src/data/resources/           Public facts and official source metadata
+src/store/                    Ephemeral editor and basket stores
+src/poster/                   Canvas, layout, quality, styles, drafts and exports
+src/course/                   Types, validation, comparisons, timetable and conflicts
+src/utils/                    Vancouver dates, search, verification and link health
+src/tests/                    Unit and integration tests
+public/data/courses/           Static normalized snapshots per term/department
+scripts/course-import/        Public API importer and dataset validator
+scripts/verify-resources.ts   Read-only metadata / link report
+ e2e/                         Browser flows, exports, accessibility and privacy
+.github/workflows/            Gated deployment and monthly resource health
+ docs/                        Audit evidence and maintenance/release notes
 ```
 
-## Resource model and maintenance
+Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; only the selected term/department JSON is fetched. New requests abort stale fetches, search/sort is memoized, and results render 20 sections at a time. Poster measurements are memoized by document/name rather than selection. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster Maker is about 120 KB gzip on demand. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
 
-`SFUResource` in `src/data/resources/types.ts` includes a stable ID, title, category, summary, optional labelled facts, campus, optional term/date/expiry, source name/URL, `lastVerified`, tags and poster compatibility. `lastVerified` is an ISO date or **null when verification is incomplete**. `verificationNote` explains the limitation.
+## Resource maintenance
 
-To add or update a resource:
+`SFUResource` contains ID, title, category, summary, optional facts, campus, optional term/date/expiry, official source label/URL, lastVerified, tags and poster compatibility.
 
-1. Read an official SFU source. Check the relevant term, campus and scope. Do not infer unavailable facts.
-2. Update the typed resource in `src/data/resources/`; keep the official URL, source label and actual verification date together. Use a precise, stable source where available.
-3. Keep important facts as plain editable text. Set `date` for a dated item and `validUntil` for an expiring schedule.
-4. Add a factual regression test for sensitive dates, phone numbers or structured data. Run tests/build, review, commit and push.
+1. Read the official source and check its term, campus, dates and qualifications. Do not infer facts.
+2. Update `src/data/resources/` with a precise URL and actual verification date. Use `lastVerified: null` and a verificationNote if content cannot be confirmed.
+3. Keep factual text editable. Set date for deadlines and validUntil for expiring schedules. Review aliases in `src/utils/search.ts` when adding common terminology.
+4. Run resource validation, relevant tests and the build. Review the diff, commit and push a PR.
 
-Verification is fresh under 90 days, reviewSoon from 90 through 180 days, and stale above 180 days. Unknown dates display Verification needed; aging dates display Review recommended. Dates and relative labels use America/Vancouver, including DST and UTC midnight boundaries. Home never recommends expired dates as upcoming.
+Verification ages use America/Vancouver: under 90 days Verified, 90–180 Review Soon, over 180 Stale. Missing, invalid or future dates are Unverified. Past deadlines remain searchable but never appear as upcoming. Expired recreation schedules warn users.
 
-The October 3, 2026 verification pass confirmed Fall deadlines and exam dates, the recreation schedule, safety and lost-and-found contacts, computing account information, student essentials, advising directories and curated course offerings. SFU Library blocked automated access: the specification's floor guide and Library support links remain explicitly **unverified**, with no fabricated check date. Confirm them through the linked Library pages before sharing. The floor guide's verification note is retained in copied/poster content.
+`npm run verify:resources` checks metadata and each unique URL with GET. It distinguishes reachable, redirect, blocked, unverified and invalid. An HTTP 200 bot challenge is blocked, not verified content. Timeouts, 403 and 429 do not imply a dead link and do not fail the command. Malformed metadata and HTTP 404/410 fail it. Shared sources are reported separately from duplicate resource IDs. The command never changes lastVerified.
 
-## Poster templates and editor
+See [the resource audit](docs/resource-audit.md). Four Library cards remain unverified: Bennett floor guide, Student Learning Commons, Writing Support and Research Help. Direct retrieval, official search and an ordinary browser visit did not resolve Library access restrictions. The user-supplied Bennett guide remains clearly attributed and unverified; it is not silently certified.
 
-Templates live in `src/poster/templates/index.ts`. Add a definition with a stable ID, title, subtitle and editable body; create its elements with `makeElement`. Coordinates are in logical canvas pixels. Supported sizes are Letter Portrait (816 × 1056 at 96 pixels/inch), Instagram Portrait (1080 × 1350), Square (1080 × 1080), Story (1080 × 1920), and Digital Screen (1920 × 1080).
+## Course data import and schema
 
-Use `{{recipientName}}` for optional render-time personalization. Do not put names into resource data or the content basket. Template changes can be undone. Resource text retains facts, source URL and verification metadata. Uploaded backgrounds are decorative; deadlines, telephone numbers and course facts remain text elements.
+Run `npm run courses:import -- 2027-spring ENGL`. This reads the public SFU Course Outlines JSON API and writes candidates only to ignored `.course-import/`. It never edits published data. Inspect the candidate and its adjacent review report, run `npm run courses:validate -- .course-import`, compare official outlines and the Git diff, then copy approved JSON to `public/data/courses/`. Run validation, tests, build and browser checks before committing. All nine original offerings were retained in V1.
 
-Use **Fit resource cards** to arrange unlocked resource cards within the page. Check clipping and small-text warnings and the preview before exporting; fewer cards are often easier to read. The Layers list and numeric inspector provide keyboard-accessible alternatives to canvas dragging. Arrow keys move 1 pixel, Shift + Arrow moves 10, Delete removes unlocked elements, Ctrl/Cmd + Z undoes and Shift + Ctrl/Cmd + Z redoes.
+See [importer instructions](scripts/course-import/README.md) and [V1 review records](docs/course-data-review.json). The latter documents omitted sources; a missing API schedule or unavailable course directory is not filled in from assumptions.
 
-PNG/PDF are final visual exports; the PDF embeds the rendered poster, rather than an editable document model. The live editor retains editable text until refresh. No project-save or recipient persistence feature is included.
+Schema version 1 contains lastVerified, a scope note and course records. Identity is term/department/courseNumber/code/section. Each meeting has canonical days, integer start/end minutes, matching display times and optional teaching dates/kind/location. Optional fields include instructor, campus, prerequisite text, section type, associated group, source URLs and seats. Unavailable values remain absent. An empty schedule is not described as asynchronous; partially unavailable schedules show a warning. Exams are excluded from weekly class conflicts.
 
-## Course data and architecture
+Conflicts require the same term, a shared day and `a.start < b.end && b.start < a.end`, with teaching-date overlap when known. Any lecture/tutorial/lab meeting block can cause a conflict. Back-to-back meetings do not overlap; the app does not estimate travel time. Associated groups are official metadata, not a registration-validity engine. Confirm all required components in official outlines and goSFU. Empty prerequisite text never means no prerequisites. The source does not supply seat/waitlist availability.
 
-Course Planner loads only `public/data/courses/<year>-<term>/<department>.json` from this same static site. It does not make browser-side requests to SFU or scrape HTML. Each dataset declares schema version, verification date, limitations and normalized course records.
+To add a department or term: import and review its data first, register it in `src/course/courseTypes.ts`, publish validated files for each available selector combination, then test. A future scheduled importer should open reviewable data PRs with bounded retries and caching; V1 does not schedule data imports or claim live data.
 
-To add data:
+## Poster development
 
-1. Inspect the official course outline or published SFU endpoint. See [importer design](scripts/course-import/README.md) for the verified source pattern.
-2. Create or update the normalized JSON file. Preserve course/section/term identity and source URLs. Keep absent instructor, campus, seat/waitlist and prerequisite fields absent.
-3. Normalize meeting days to Mon–Sun and time intervals to integer minutes since midnight. Include all verified required components. Unknown schedules use an empty array and are not described as asynchronous.
-4. Register any new term/department in `src/course/courseTypes.ts`. Run the dataset validator and tests. Add factual regression tests, review the diff, then commit.
+Templates live in `src/poster/templates/index.ts`, styles in `src/poster/styles.ts`, and logical sizes/types in `src/poster/posterTypes.ts`. Maintain the eight established template purposes. Create elements with makeElement and keep facts as editable text, not in images. The optional placeholder is `{{recipientName}}`. Template changes are undoable.
 
-Offering information (instructor, section, schedule, seats) is distinct from course requirements (the source's prerequisite text). An empty prerequisite source displays **Prerequisite information unavailable**. No prerequisites are inferred.
+Auto Arrange chooses a readable grid in the largest available area, respects visible locked objects and reserves header/footer space. It supports 1/2/3/4/5+ cards. Dense cards keep complete text and show warnings instead of shrinking below 16 px. Welcome/event body content may occupy the available area; move it or choose a resource template. Grow to fit text can extend a card beyond the page, which the quality panel then flags. Visual/print review is still necessary, especially for rotated or image-backed content.
 
-Conflict detection checks same term, shared day and `a.start < b.end && b.start < a.end`. It handles containment and partial overlap and allows back-to-back meetings. Optional non-overlapping teaching-date ranges prevent false conflicts. An absence of detected overlap is not a guarantee of a complete registration schedule.
+Canvas zoom uses Fit/150/200/300% of fit and a scrollable viewport. Layers and the inspector provide a keyboard alternative to dragging. Arrows move 1 px, Shift+Arrow 10 px, Delete removes unlocked elements, Ctrl/Cmd+Z undoes, and Shift+Ctrl/Cmd+Z redoes. PNG/PDF are flattened final output; optional local drafts retain editing state.
 
-The future importer will follow **Official SFU source → reviewed importer → validated JSON → Course Planner**. It should preserve last-known-good data on failures and open reviewable data PRs. No scheduled importer or live-seat claim is made in Phase 0.
+## CI/CD and release
 
-## GitHub Actions and Pages
+Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1 and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
 
-Vite's base is `/SFU-Peer-Mentor-Hub/`. Hash URLs such as `#/resources` and `#/course-planner` do not require server rewrites.
+The monthly read-only `resource-health.yml` reports public resource links and data schema health. It never creates commits, updates verification dates or posts issues. Bot blocks/timeouts remain non-failing review states; genuine malformed/dead sources require maintainer review.
 
-`deploy.yml` runs on pushes to `main` and `codex/phase0` and PRs into `main`. It checks out the repository, configures Node, runs `npm ci`, lint, all unit/integration tests, a production build and browser tests. Only a successful `main` run configures Pages, uploads `dist/` with the official Pages artifact action, and deploys with the official Pages deployment action. PRs and development pushes never deploy.
+Release process: push the tested development branch, open a PR, wait for checks, merge without rewriting history, wait for Pages, run production browser checks and inspect real routes/features. Only then create and push `v1.0.0` at the deployed main commit. Package version was already 1.0.0 in the original scaffold and is retained for the first tagged release.
 
-Repository Settings → Pages must use **GitHub Actions** as its source. The deployment job uses the `github-pages` environment with `pages: write` and `id-token: write`; the build job has read-only repository access. No personal access token is stored in the repository.
+## Known limitations and next work
 
-Expected production URL: <https://errold727.github.io/SFU-Peer-Mentor-Hub/>. Consult the linked Actions page for current deployment status.
-
-## Verification coverage
-
-The suite covers fuzzy resource search; category/campus/term filtering; deadline status, expiry and Vancouver DST; library floors and safety contacts; recreation sport/day filters; basket add/remove/deduplication; editable resource integration and temporary names; partial/complete/adjacent timetable intervals; cross-term comparison and missing prerequisites; dataset schema checks; hidden elements and selection-free export; no database dependencies or persistent stores; responsive navigation; pointer dragging/resizing; keyboard editing/lock/undo; actual PNG/PDF file signatures and dimensions; templates; and QR export.
-
-## Known limitations and Phase 1 roadmap
-
-- Course snapshots cover nine offerings, not every course or required tutorial/lab. Seat/waitlist fields are unavailable in the inspected source. Future offerings can change. Phase 1: expand verified coverage and add the reviewable importer.
-- Library verification is incomplete because official pages blocked automated retrieval. Phase 1: obtain a human-verified floor guide and replace the null check dates.
-- The editor has one page per poster. Dense resources can require smaller text, a larger canvas, or separate posters. Phase 1: richer multi-page layouts, better typographic presets and optional local-only project files.
-- PNG/PDF exports are visual output. The app does not persist unsaved work or offer an editable PDF. Phase 1: consider an explicit local-file save format with clear privacy controls.
-- Public source URLs and term information need ongoing human maintenance. Phase 1: source-review reminders and accessibility testing with assistive-technology users, without collecting student records.
+- Four official Library sources remain inaccessible to automated verification; obtain a current human-verified guide before changing their null dates.
+- Course snapshots can change, omit rejected/unavailable records and cover only the listed departments/terms and published undergraduate sections. Seats, live registration and automatic combination validation are unavailable. Maintain reviewed refreshes; do not predict demand.
+- One page per poster. Dense factual content may require fewer cards, a larger format or separate posters. Quality checks are conservative geometry/text checks and cannot guarantee contrast over arbitrary images or printed legibility.
+- Local drafts are explicit browser storage, not encrypted or backed up. No cross-device sync or editable PDF. Private-browsing/storage limits may prevent saving.
+- Automated accessibility and keyboard checks supplement, but do not replace, testing with screen-reader and other assistive-technology users.

@@ -8,7 +8,7 @@ export const scheduleLabel = (c: CourseOffering) =>
     ? c.meetings
         .map(
           (m) =>
-            `${m.days.join(', ')} ${m.displayStart}–${m.displayEnd}${m.location ? ' · ' + m.location : ''}`,
+            `${m.kind ? m.kind + ' · ' : ''}${m.days.join(', ')} ${m.displayStart}–${m.displayEnd}${m.location ? ' · ' + m.location : ''}`,
         )
         .join('\n')
     : 'Schedule unavailable';

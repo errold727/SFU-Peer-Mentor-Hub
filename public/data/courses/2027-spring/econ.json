@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lastVerified": "2026-10-03",
-  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 0 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
   "courses": [
     {
       "term": "Spring 2027",
@@ -13,23 +13,4192 @@
       "instructor": "Douglas Allen",
       "meetings": [
         {
-          "days": ["Mon"],
+          "days": [
+            "Mon"
+          ],
           "startMinutes": 510,
           "endMinutes": 620,
           "displayStart": "8:30 AM",
-          "displayEnd": "10:20 AM"
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         },
         {
-          "days": ["Wed"],
+          "days": [
+            "Wed"
+          ],
           "startMinutes": 510,
           "endMinutes": 560,
           "displayStart": "8:30 AM",
-          "displayEnd": "9:20 AM"
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
         }
       ],
       "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D101",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D102",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D103",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D104",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D105",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D106",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D107",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D108",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D109",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D110",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D200",
+      "title": "Principles of Microeconomics",
+      "instructor": "Marie Rekkas",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D201",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D202",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d202",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d202",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D203",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d203",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d203",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D204",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d204",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d204",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D205",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d205",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d205",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D206",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d206",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d206",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D207",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d207",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d207",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D208",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d208",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d208",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D209",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d209",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d209",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D210",
+      "title": "Principles of Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d210",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d210",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "104",
+      "code": "ECON 104",
+      "section": "D100",
+      "title": "Economics and Government",
+      "instructor": "Krishna Pendakur",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/104/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/104/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D100",
+      "title": "Principles of Macroeconomics",
+      "instructor": "Gustavo Tovar Albuquerque",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D101",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D102",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D103",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D104",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D105",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D106",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D107",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D108",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D109",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D110",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D111",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D112",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D113",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D114",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D115",
+      "title": "Principles of Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D900",
+      "title": "Principles of Macroeconomics",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/105/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/105/d900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "9"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D100",
+      "title": "Introduction to Microeconomics",
+      "instructor": "Pierre Mouganie",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D101",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D102",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D103",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D104",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D105",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D106",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D107",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D108",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D109",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D110",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D111",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D112",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D113",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D114",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D115",
+      "title": "Introduction to Microeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/113/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/113/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D100",
+      "title": "Introduction to Macroeconomics",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D101",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D102",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D103",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D104",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D105",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D106",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D107",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D108",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D109",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D110",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D111",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D112",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D113",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d113",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d113",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D114",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d114",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d114",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D115",
+      "title": "Introduction to Macroeconomics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/115/d115",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/115/d115",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D100",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "instructor": "Christoph Luelfesmann",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D101",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D102",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D103",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D104",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D105",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D106",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D107",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D108",
+      "title": "Microeconomic Theory I: Competitive Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/201/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/201/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D100",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/220w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/220w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D101",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/220w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/220w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D200",
+      "title": "Communication in Economics",
+      "instructor": "Sepideh Fotovatian",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/220w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/220w/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D201",
+      "title": "Communication in Economics",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/220w/d201",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/220w/d201",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "233",
+      "code": "ECON 233",
+      "section": "D100",
+      "title": "Introduction to Economic Data and Statistics",
+      "instructor": "Dongwoo Kim",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 15 units. MATH 150, MATH 151, MATH 154, or MATH 157 may be taken concurrently with ECON 233.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/233/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/233/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "233",
+      "code": "ECON 233",
+      "section": "D101",
+      "title": "Introduction to Economic Data and Statistics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 15 units. MATH 150, MATH 151, MATH 154, or MATH 157 may be taken concurrently with ECON 233.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/233/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/233/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "233",
+      "code": "ECON 233",
+      "section": "D102",
+      "title": "Introduction to Economic Data and Statistics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 15 units. MATH 150, MATH 151, MATH 154, or MATH 157 may be taken concurrently with ECON 233.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/233/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/233/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "233",
+      "code": "ECON 233",
+      "section": "D103",
+      "title": "Introduction to Economic Data and Statistics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 15 units. MATH 150, MATH 151, MATH 154, or MATH 157 may be taken concurrently with ECON 233.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/233/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/233/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "290",
+      "code": "ECON 290",
+      "section": "D100",
+      "title": "Microeconomic Policy",
+      "instructor": "Gustavo Tovar Albuquerque",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 or ECON 113, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/290/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/290/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "290",
+      "code": "ECON 290",
+      "section": "D101",
+      "title": "Microeconomic Policy",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 or ECON 113, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/290/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/290/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "290",
+      "code": "ECON 290",
+      "section": "D102",
+      "title": "Microeconomic Policy",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 or ECON 113, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/290/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/290/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D100",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "instructor": "Gustavo Tovar Albuquerque",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D101",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D102",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D103",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D104",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D105",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D106",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D107",
+      "title": "Microeconomic Theory II: Strategic Behavior",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/302/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/302/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D100",
+      "title": "Intermediate Macroeconomic Theory",
+      "instructor": "Lucas Herrenbrueck",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D101",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D102",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D103",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D104",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D105",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D106",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D107",
+      "title": "Intermediate Macroeconomic Theory",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/305/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/305/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "331",
+      "code": "ECON 331",
+      "section": "D100",
+      "title": "Introduction to Mathematical Economics",
+      "instructor": "Sessional",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- OR ECON 113 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/331/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/331/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "331",
+      "code": "ECON 331",
+      "section": "D101",
+      "title": "Introduction to Mathematical Economics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- OR ECON 113 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/331/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/331/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "331",
+      "code": "ECON 331",
+      "section": "D102",
+      "title": "Introduction to Mathematical Economics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- OR ECON 113 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/331/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/331/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D100",
+      "title": "Introduction to Econometrics",
+      "instructor": "Xiaoting Sun",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D101",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D102",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D103",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D104",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D105",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D106",
+      "title": "Introduction to Econometrics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/333/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/333/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "335",
+      "code": "ECON 335",
+      "section": "D100",
+      "title": "Cause and Effect in Economic Data",
+      "instructor": "Simon Woodcock",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/335/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/335/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "335",
+      "code": "ECON 335",
+      "section": "D101",
+      "title": "Cause and Effect in Economic Data",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/335/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/335/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "335",
+      "code": "ECON 335",
+      "section": "D102",
+      "title": "Cause and Effect in Economic Data",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/335/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/335/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "335",
+      "code": "ECON 335",
+      "section": "D103",
+      "title": "Cause and Effect in Economic Data",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/335/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/335/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D100",
+      "title": "International Finance",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D101",
+      "title": "International Finance",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D102",
+      "title": "International Finance",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D103",
+      "title": "International Finance",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D104",
+      "title": "International Finance",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "345",
+      "code": "ECON 345",
+      "section": "D105",
+      "title": "International Finance",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/345/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/345/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D100",
+      "title": "Economics of Natural Resources",
+      "instructor": "Fernando Aragon Sanchez",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D101",
+      "title": "Economics of Natural Resources",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D102",
+      "title": "Economics of Natural Resources",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D103",
+      "title": "Economics of Natural Resources",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D104",
+      "title": "Economics of Natural Resources",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "362",
+      "code": "ECON 362",
+      "section": "D105",
+      "title": "Economics of Natural Resources",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/362/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/362/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D100",
+      "title": "Public Economics: Taxation",
+      "instructor": "Christoph Luelfesmann",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D101",
+      "title": "Public Economics: Taxation",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D102",
+      "title": "Public Economics: Taxation",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D103",
+      "title": "Public Economics: Taxation",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D104",
+      "title": "Public Economics: Taxation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "393",
+      "code": "ECON 393",
+      "section": "D105",
+      "title": "Public Economics: Taxation",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/393/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/393/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "403",
+      "code": "ECON 403",
+      "section": "D100",
+      "title": "Advanced Macroeconomic Theory",
+      "instructor": "Lucas Herrenbrueck",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 302, 305 and 331, all with a minimum grade of C-. Students who have completed both MATH 232 and 251 may substitute them for ECON 331. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/403/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/403/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "425",
+      "code": "ECON 425",
+      "section": "D100",
+      "title": "Industrial Organization: Imperfect Competition",
+      "instructor": "Marie Rekkas",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "ECON 302 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/425/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/425/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "427W",
+      "code": "ECON 427W",
+      "section": "D100",
+      "title": "Industrial Organization: Law and Economics",
+      "instructor": "Douglas Allen",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 800,
+          "displayStart": "11:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 and ECON (or BUEC) 333 or ECON 302, all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/427w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/427w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "434",
+      "code": "ECON 434",
+      "section": "D100",
+      "title": "Seminar in Applied Market Design",
+      "instructor": "Xiaoting Sun",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 333 (or BUEC 333) and ECON 302, all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/434/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/434/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "436",
+      "code": "ECON 436",
+      "section": "D100",
+      "title": "Seminar in Economics and Social Network Analysis",
+      "instructor": "Martin Santamaria",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "prerequisiteText": "ECON 302 or ECON 305, with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/436/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/436/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "453",
+      "code": "ECON 453",
+      "section": "D100",
+      "title": "Seminar in the Economics of Education",
+      "instructor": "Pierre Mouganie",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 201 and ECON (or BUEC) 333, all with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/453/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/453/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "499W",
+      "code": "ECON 499W",
+      "section": "D100",
+      "title": "Honours Research Project",
+      "instructor": "Guillaume Blanc",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ECON 494 with a minimum grade of C-.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/499w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/499w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
     }
   ]
 }

@@ -5,7 +5,11 @@ import { coursesConflict, meetingsOverlap, findConflicts } from '../course/confl
 import { comparisonRows, courseToResource, prerequisiteLabel } from '../course/comparison';
 import { validateCourseDataset } from '../course/courseSearch';
 import type { CourseOffering } from '../course/courseTypes';
-const [a, b, c] = spring.courses as CourseOffering[];
+const [a, b, c] = ['211', '234', '383'].map((number) =>
+  (spring.courses as CourseOffering[]).find(
+    (c) => c.courseNumber === number && c.section === 'D100',
+  )!,
+);
 describe('course planning', () => {
   it('detects complete schedule overlaps', () => expect(coursesConflict(a, b)).toBe(true));
   it('detects partial and contained overlaps', () => {

@@ -3,7 +3,7 @@ import { ArrowUpRight, Check, Copy, Plus } from 'lucide-react';
 import { categories, type SFUResource } from '../../data/resources/types';
 import { usePosterBasket } from '../../store/posterBasketStore';
 import { getRelativeDeadlineLabel, daysUntil } from '../../utils/dates';
-import { getVerificationStatus } from '../../utils/verification';
+import { getVerificationStatus, verificationLabels } from '../../utils/verification';
 import { resourceText } from '../../utils/search';
 import { Modal } from '../ui/Modal';
 export function ResourceCard({ resource: r }: { resource: SFUResource }) {
@@ -29,17 +29,13 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
         <p className="notice">Schedule expired — check the official source.</p>
       )}
       <div className="verification">
+        <span className={status === 'fresh' ? '' : 'warning'}>{verificationLabels[status]}</span>
         Last verified: {r.lastVerified ?? 'Not yet verified'}
-        {status !== 'fresh' && (
-          <span className="warning">
-            {status === 'unverified' ? 'Verification needed' : 'Review recommended'}
-          </span>
-        )}
       </div>
       <div className="card-actions">
         <button onClick={() => setDetail(true)}>View Details</button>
         <a href={r.sourceUrl} target="_blank" rel="noreferrer">
-          Official Source <ArrowUpRight size={15} />
+          {r.sourceName} <ArrowUpRight size={15} />
         </a>
       </div>
       <div className="card-actions bottom">
@@ -67,6 +63,17 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
       {detail && (
         <Modal title={r.title} onClose={() => setDetail(false)}>
           <p>{r.summary}</p>
+          <p className="notice">
+            {verificationLabels[status]} · {r.campus === 'All' ? 'All campuses' : r.campus}
+            {r.term && ` · ${r.term}`}
+            {r.date && ` · ${r.date}`}
+          </p>
+          {status === 'unverified' && !r.verificationNote && (
+            <p>
+              Source content could not be independently confirmed. Check the official page before
+              sharing.
+            </p>
+          )}
           {r.verificationNote && <p className="notice">{r.verificationNote}</p>}
           <dl className="fact-list">
             {r.facts?.map((f, i) => (

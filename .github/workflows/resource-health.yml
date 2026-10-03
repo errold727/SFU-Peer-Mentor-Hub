@@ -1,0 +1,22 @@
+name: Review public resource health
+on:
+  schedule:
+    - cron: '23 16 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run verify:resources
+      - run: npm run courses:validate
+# Read-only monthly report. No auto-commits, no date changes, no issues posted.
+# Bot challenges/timeouts remain blocked/unverified and do not fail the workflow.

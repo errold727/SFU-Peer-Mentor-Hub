@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 2 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "100",
+      "code": "LING 100",
+      "section": "B100",
+      "title": "Communication and Language",
+      "instructor": "Heather Bliss",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/100/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "100",
+      "code": "LING 100",
+      "section": "B900",
+      "title": "Communication and Language",
+      "instructor": "Claudia Wei Wah Wong",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Surrey",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/100/b900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/100/b900",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "111",
+      "code": "LING 111",
+      "section": "B100",
+      "title": "The Wonder of Words",
+      "instructor": "Claudia Wei Wah Wong",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/111/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/111/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "160",
+      "code": "LING 160",
+      "section": "B100",
+      "title": "Language, Culture and Society",
+      "instructor": "Suzanne Hilgendorf",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/160/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/160/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "190",
+      "code": "LING 190",
+      "section": "B100",
+      "title": "The Science of Speech",
+      "instructor": "Sara Ng",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/190/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/190/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D100",
+      "title": "Introduction to Linguistics",
+      "instructor": "Ivelina Koleva Tchizmarova",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D101",
+      "title": "Introduction to Linguistics",
+      "instructor": "Ivelina Koleva Tchizmarova",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D102",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D103",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D104",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D105",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D106",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D107",
+      "title": "Introduction to Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "A320",
+      "title": "Writing for Linguistics",
+      "meetings": [],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/a320",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/a320",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "B100",
+      "title": "Writing for Linguistics",
+      "instructor": "Panayiotis Pappas",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "B101",
+      "title": "Writing for Linguistics",
+      "instructor": "Panayiotis Pappas",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/b101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/b101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "100"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "B102",
+      "title": "Writing for Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/b102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/b102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "100"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "B103",
+      "title": "Writing for Linguistics",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/b103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/b103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "100"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "309W",
+      "code": "LING 309W",
+      "section": "B100",
+      "title": "Sociolinguistics",
+      "instructor": "Suzanne Hilgendorf",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "LING 282W. Recommended: LING 160 and one of STAT 201, 203, 205 or PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/309w/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/309w/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "321",
+      "code": "LING 321",
+      "section": "B100",
+      "title": "Phonology",
+      "instructor": "Ashley Farris-Trimble",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/321/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/321/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "322",
+      "code": "LING 322",
+      "section": "D100",
+      "title": "Syntax",
+      "instructor": "Jozina Vander Klok",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/322/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/322/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "323",
+      "code": "LING 323",
+      "section": "D100",
+      "title": "Morphology",
+      "instructor": "Jozina Vander Klok",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/323/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/323/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "330",
+      "code": "LING 330",
+      "section": "D100",
+      "title": "Phonetics",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "LING 220. Recommended: One of STAT 201, 203, 205 or PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/330/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/330/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "360",
+      "code": "LING 360",
+      "section": "A320",
+      "title": "Introduction to Applied Linguistics",
+      "meetings": [],
+      "prerequisiteText": "LING 220.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/360/a320",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/360/a320",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "380",
+      "code": "LING 380",
+      "section": "OL01",
+      "title": "Practical Skills in Linguistics",
+      "meetings": [],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/380/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/380/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "401",
+      "code": "LING 401",
+      "section": "B100",
+      "title": "Topics in Phonetics",
+      "instructor": "Yue Wang",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "LING 330. Recommended: One of STAT 201, 203, 205 or PSYC 210.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/401/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/401/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "430",
+      "code": "LING 430",
+      "section": "B100",
+      "title": "Indigenous Languages and Language Revitalization",
+      "instructor": "Heather Bliss",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "60 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/430/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/430/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "LING",
+      "courseNumber": "450",
+      "code": "LING 450",
+      "section": "D100",
+      "title": "Computational Linguistics",
+      "instructor": "Maite Taboada, Sara Ng",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "LING 250 or SDA 250.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/450/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    }
+  ]
+}

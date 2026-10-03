@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 0 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "100",
+      "code": "ARCH 100",
+      "section": "OL01",
+      "title": "Ancient Peoples and Places",
+      "instructor": "Dongya Yang",
+      "meetings": [],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/100/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/100/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "101",
+      "code": "ARCH 101",
+      "section": "D100",
+      "title": "Reconstructing the Human Past",
+      "instructor": "Christine Conlan",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/101/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "3"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "101",
+      "code": "ARCH 101",
+      "section": "OL01",
+      "title": "Reconstructing the Human Past",
+      "instructor": "Greg Morrissey",
+      "meetings": [],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/101/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/101/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "131",
+      "code": "ARCH 131",
+      "section": "D100",
+      "title": "Human Origins",
+      "instructor": "Dennis Sandgathe",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/131/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/131/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "131",
+      "code": "ARCH 131",
+      "section": "OL01",
+      "title": "Human Origins",
+      "instructor": "Dennis Sandgathe",
+      "meetings": [],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/131/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/131/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "131",
+      "code": "ARCH 131",
+      "section": "OL02",
+      "title": "Human Origins",
+      "meetings": [],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/131/ol02",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/131/ol02",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "110",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "200",
+      "code": "ARCH 200",
+      "section": "D100",
+      "title": "Special Topics in Archaeology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "30 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/200/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/200/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "200",
+      "code": "ARCH 200",
+      "section": "D101",
+      "title": "Special Topics in Archaeology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/200/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/200/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "200",
+      "code": "ARCH 200",
+      "section": "D102",
+      "title": "Special Topics in Archaeology",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/200/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/200/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "226",
+      "code": "ARCH 226",
+      "section": "OL01",
+      "title": "Shamans, Sacrifice and Psychedelics",
+      "instructor": "John Welch",
+      "meetings": [],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/226/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/226/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "249",
+      "code": "ARCH 249",
+      "section": "D100",
+      "title": "Museums and Society",
+      "instructor": "Cara Tremain",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/249/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/249/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "273",
+      "code": "ARCH 273",
+      "section": "OL01",
+      "title": "Archaeology of the New World",
+      "instructor": "Rudy Reimer",
+      "meetings": [],
+      "prerequisiteText": "Any one of the following: ARCH 100, ARCH 101, EVSC 100, GEOG 100, or REM 100.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/273/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/273/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "282",
+      "code": "ARCH 282",
+      "section": "D100",
+      "title": "Material Culture Analysis",
+      "instructor": "Greg Morrissey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/282/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/282/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "282",
+      "code": "ARCH 282",
+      "section": "D101",
+      "title": "Material Culture Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/282/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/282/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "282",
+      "code": "ARCH 282",
+      "section": "D102",
+      "title": "Material Culture Analysis",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 920,
+          "displayStart": "1:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/282/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/282/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "285",
+      "code": "ARCH 285",
+      "section": "D100",
+      "title": "Archaeological Science",
+      "instructor": "Francesco Berna",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "12 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/285/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/285/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "301",
+      "code": "ARCH 301",
+      "section": "OL01",
+      "title": "Ancient Visual Art",
+      "instructor": "Christine Conlan",
+      "meetings": [],
+      "prerequisiteText": "45 credit hours.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/301/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/301/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "349",
+      "code": "ARCH 349",
+      "section": "D100",
+      "title": "Management of Archaeological Collections",
+      "instructor": "Cara Tremain",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201, and 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/349/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/349/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "349",
+      "code": "ARCH 349",
+      "section": "D101",
+      "title": "Management of Archaeological Collections",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201, and 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/349/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/349/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "363",
+      "code": "ARCH 363",
+      "section": "D100",
+      "title": "Landscape Archaeology",
+      "instructor": "Ross Jamieson",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 100 or ARCH 101 or ARCH 201, and 45 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/363/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/363/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "378",
+      "code": "ARCH 378",
+      "section": "D100",
+      "title": "Pacific Northwest North America",
+      "instructor": "Bryn Letham",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "prerequisiteText": "ARCH 273.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/378/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/378/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "382",
+      "code": "ARCH 382",
+      "section": "D100",
+      "title": "Stone Tool Technology",
+      "instructor": "Dennis Sandgathe",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 282.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/382/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/382/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "382",
+      "code": "ARCH 382",
+      "section": "D101",
+      "title": "Stone Tool Technology",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 282.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/382/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/382/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "385",
+      "code": "ARCH 385",
+      "section": "D100",
+      "title": "Paleoanthropology",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 131 and 272/272W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/385/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/385/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "385",
+      "code": "ARCH 385",
+      "section": "D101",
+      "title": "Paleoanthropology",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 131 and 272/272W.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/385/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/385/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LAB",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "386",
+      "code": "ARCH 386",
+      "section": "D100",
+      "title": "Archaeological Resource Management",
+      "instructor": "Bob Muir",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ARCH 101 or ARCH 201.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/386/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/386/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "479",
+      "code": "ARCH 479",
+      "section": "D100",
+      "title": "Directed Readings",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/479/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/479/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "479",
+      "code": "ARCH 479",
+      "section": "D200",
+      "title": "Directed Readings",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/479/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/479/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "479",
+      "code": "ARCH 479",
+      "section": "D300",
+      "title": "Directed Readings",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/479/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/479/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "480",
+      "code": "ARCH 480",
+      "section": "D100",
+      "title": "Directed Laboratory/Library/Field Research",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/480/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/480/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "480",
+      "code": "ARCH 480",
+      "section": "D200",
+      "title": "Directed Laboratory/Library/Field Research",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/480/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/480/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "480",
+      "code": "ARCH 480",
+      "section": "D300",
+      "title": "Directed Laboratory/Library/Field Research",
+      "meetings": [],
+      "prerequisiteText": "45 units, including ARCH 282 or 372, and permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/480/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/480/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "498",
+      "code": "ARCH 498",
+      "section": "D100",
+      "title": "Honours Reading",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/498/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "498",
+      "code": "ARCH 498",
+      "section": "D200",
+      "title": "Honours Reading",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/498/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/498/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "498",
+      "code": "ARCH 498",
+      "section": "D300",
+      "title": "Honours Reading",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/498/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/498/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "499",
+      "code": "ARCH 499",
+      "section": "D100",
+      "title": "Honours Thesis",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/499/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/499/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "499",
+      "code": "ARCH 499",
+      "section": "D200",
+      "title": "Honours Thesis",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/499/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/499/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ARCH",
+      "courseNumber": "499",
+      "code": "ARCH 499",
+      "section": "D300",
+      "title": "Honours Thesis",
+      "meetings": [],
+      "prerequisiteText": "Permission of the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/arch/499/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/arch/499/d300",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "3",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

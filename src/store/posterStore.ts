@@ -151,7 +151,10 @@ export const usePosterStore = create<State>((set, get) => ({
         y: (e.y * next.height) / old.height,
         width: (e.width * next.width) / old.width,
         height: (e.height * next.height) / old.height,
-        fontSize: e.fontSize * Math.min(next.width / old.width, next.height / old.height),
+        // Use a common reference so switching formats and back does not repeatedly shrink type.
+        fontSize:
+          (e.fontSize * Math.min(next.width / 816, next.height / 1056)) /
+          Math.min(old.width / 816, old.height / 1056),
       })),
     });
   },

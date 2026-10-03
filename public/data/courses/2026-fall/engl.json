@@ -1,30 +1,331 @@
 {
   "schemaVersion": 1,
   "lastVerified": "2026-10-03",
-  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "note": "Reviewed official SFU API snapshot. Undergraduate 100–400 level published sections only; 0 source records unavailable or rejected. Exams excluded. Not a complete registration schedule. Seats not supplied by this API.",
   "courses": [
     {
       "term": "Fall 2026",
       "department": "ENGL",
-      "courseNumber": "211",
-      "code": "ENGL 211",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
       "section": "D100",
-      "title": "The Place of the Past",
-      "instructor": "JD Fleming",
+      "title": "Literary Classics in English",
+      "instructor": "Troy Sebastian",
       "meetings": [
         {
-          "days": ["Wed", "Fri"],
+          "days": [
+            "Mon",
+            "Wed"
+          ],
           "startMinutes": 570,
           "endMinutes": 620,
           "displayStart": "9:30 AM",
-          "displayEnd": "10:20 AM"
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-17",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-10-18",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
         }
       ],
       "campus": "Burnaby",
-      "prerequisiteText": "12 units or one 100-division English course.",
-      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d100",
-      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d100",
-      "lastUpdated": "2026-10-03"
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D101",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D102",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D103",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D104",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D105",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D106",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D107",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D108",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D109",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D110",
+      "title": "Literary Classics in English",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
     },
     {
       "term": "Fall 2026",
@@ -36,17 +337,2146 @@
       "instructor": "Paul Budra",
       "meetings": [
         {
-          "days": ["Mon", "Wed"],
+          "days": [
+            "Mon",
+            "Wed"
+          ],
           "startMinutes": 570,
           "endMinutes": 620,
           "displayStart": "9:30 AM",
-          "displayEnd": "10:20 AM"
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
         }
       ],
       "campus": "Burnaby",
       "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d100",
       "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d100",
-      "lastUpdated": "2026-10-03"
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D101",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D102",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D103",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D104",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D105",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D106",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D107",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D108",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D109",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D110",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D111",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D112",
+      "title": "Literature and Performance",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D100",
+      "title": "Literature and Culture",
+      "instructor": "Cornel Bogle",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D101",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D102",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D103",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D104",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D105",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d105",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d105",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D106",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d106",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d106",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D107",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d107",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d107",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D108",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d108",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d108",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D109",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d109",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d109",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D110",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d110",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d110",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D111",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d111",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d111",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D112",
+      "title": "Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d112",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d112",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "199W",
+      "code": "ENGL 199W",
+      "section": "D100",
+      "title": "Writing to Persuade",
+      "instructor": "Sean Zwagerman",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/199w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/199w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "199W",
+      "code": "ENGL 199W",
+      "section": "D101",
+      "title": "Writing to Persuade",
+      "instructor": "Sean Zwagerman",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/199w/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/199w/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B100",
+      "title": "The Environmental Imagination",
+      "instructor": "Michelle Levy",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B101",
+      "title": "The Environmental Imagination",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B102",
+      "title": "The Environmental Imagination",
+      "instructor": "Michelle Levy",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B103",
+      "title": "The Environmental Imagination",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B104",
+      "title": "The Environmental Imagination",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D100",
+      "title": "The Place of the Past",
+      "instructor": "JD Fleming",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D101",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D102",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D103",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D104",
+      "title": "The Place of the Past",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D100",
+      "title": "Reading Across Media",
+      "instructor": "Leith Davis",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D101",
+      "title": "Reading Across Media",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D102",
+      "title": "Reading Across Media",
+      "instructor": "Leith Davis",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D103",
+      "title": "Reading Across Media",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D104",
+      "title": "Reading Across Media",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "214",
+      "code": "ENGL 214",
+      "section": "D100",
+      "title": "History and Principles of Rhetoric",
+      "instructor": "Sean Zwagerman",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/214/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/214/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "214",
+      "code": "ENGL 214",
+      "section": "D101",
+      "title": "History and Principles of Rhetoric",
+      "instructor": "Sean Zwagerman",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/214/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/214/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D100",
+      "title": "Creative Reading",
+      "instructor": "Clint Burnham",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D101",
+      "title": "Creative Reading",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D102",
+      "title": "Creative Reading",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D103",
+      "title": "Creative Reading",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D104",
+      "title": "Creative Reading",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d104",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d104",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "312",
+      "code": "ENGL 312",
+      "section": "OL01",
+      "title": "Shakespeare and the Stage: 1570-1642",
+      "instructor": "Paul Budra",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/312/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/312/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "320",
+      "code": "ENGL 320",
+      "section": "D100",
+      "title": "The Long Eighteenth Century and the Romantic Era",
+      "instructor": "Leith Davis",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/320/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/320/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "330",
+      "code": "ENGL 330",
+      "section": "OL01",
+      "title": "The Long Nineteenth Century",
+      "instructor": "Carolyn Lesjak",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/330/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/330/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "345",
+      "code": "ENGL 345",
+      "section": "D100",
+      "title": "American Literatures",
+      "instructor": "Jon Smith",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/345/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/345/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "355",
+      "code": "ENGL 355",
+      "section": "OL01",
+      "title": "Canadian Literatures",
+      "instructor": "Clint Burnham",
+      "meetings": [],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/355/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/355/ol01",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "OLC",
+      "associatedClass": "100",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "360",
+      "code": "ENGL 360",
+      "section": "D100",
+      "title": "Popular Writing by Indigenous Authors",
+      "instructor": "Troy Sebastian",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/360/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/360/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "362",
+      "code": "ENGL 362",
+      "section": "D100",
+      "title": "Transnational Literatures in English",
+      "instructor": "Joanne Leow",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/362/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/362/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "372",
+      "code": "ENGL 372",
+      "section": "D100",
+      "title": "Creative Writing I: Poetry",
+      "instructor": "Stephen Collis",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units; or two 200-division English courses; or formal declaration in the creative writing minor and ENGL 272.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/372/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/372/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "376",
+      "code": "ENGL 376",
+      "section": "D100",
+      "title": "Special Studies",
+      "instructor": "JD Fleming",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/376/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/376/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D100",
+      "title": "Studies in Popular Literature and Culture",
+      "instructor": "Torsten Kehler",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/383/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D101",
+      "title": "Studies in Popular Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/383/d101",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/383/d101",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D102",
+      "title": "Studies in Popular Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/383/d102",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/383/d102",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D103",
+      "title": "Studies in Popular Literature and Culture",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/383/d103",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/383/d103",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "TUT",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "398",
+      "code": "ENGL 398",
+      "section": "D100",
+      "title": "Major Authors for Non-Majors",
+      "instructor": "Diana Solomon",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "30 units or two 200-division English courses. English majors, minors, extended minors, joint majors, and honours may take this course with permission of the instructor. This course may be counted towards general degree requirements, but not for credit towards an English major, minor, extended minor, joint major or honours.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/398/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/398/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "LEC",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "411W",
+      "code": "ENGL 411W",
+      "section": "D100",
+      "title": "Seminar in Literature and Race",
+      "instructor": "Cornel Bogle",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/411w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/411w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "413W",
+      "code": "ENGL 413W",
+      "section": "D100",
+      "title": "Seminar in Literature and Environment",
+      "instructor": "Ziwei Yan",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/413w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/413w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "431W",
+      "code": "ENGL 431W",
+      "section": "D100",
+      "title": "Seminar in Indigenous Literatures",
+      "instructor": "Deanna Reder",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units or two 300-division English courses. Strongly recommended: At least one Indigenous studies course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/431w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/431w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "433W",
+      "code": "ENGL 433W",
+      "section": "D100",
+      "title": "Seminar in British Literatures",
+      "instructor": "David Coley",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/433w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/433w/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "433W",
+      "code": "ENGL 433W",
+      "section": "D200",
+      "title": "Seminar in British Literatures",
+      "instructor": "Diana Solomon",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/433w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/433w/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "490",
+      "code": "ENGL 490",
+      "section": "D100",
+      "title": "Directed Studies A",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/490/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "490",
+      "code": "ENGL 490",
+      "section": "D200",
+      "title": "Directed Studies A",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/490/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/490/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "491",
+      "code": "ENGL 491",
+      "section": "D100",
+      "title": "Directed Studies B",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/491/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "491",
+      "code": "ENGL 491",
+      "section": "D200",
+      "title": "Directed Studies B",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/491/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/491/d200",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "IND",
+      "associatedClass": "2"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "494",
+      "code": "ENGL 494",
+      "section": "D100",
+      "title": "Honours Research and Methods Seminar",
+      "instructor": "Ronda Arab",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Permission of the department, plus normally a minimum of 90 units, including credit or standing in two 100-division English courses, two 200-division English courses, and four 300 or 400-division English courses, one of which must be ENGL 364.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/494/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
+    },
+    {
+      "term": "Fall 2026",
+      "department": "ENGL",
+      "courseNumber": "496",
+      "code": "ENGL 496",
+      "section": "D100",
+      "title": "Honours Graduating Essay",
+      "instructor": "Ronda Arab",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "campus": "Burnaby",
+      "prerequisiteText": "Lower division requirements for the English major. Open only to students who have been accepted into the English honours program, and who have completed ENGL 494.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/496/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/496/d100",
+      "lastUpdated": "2026-10-03",
+      "sectionType": "SEM",
+      "associatedClass": "1"
     }
   ]
 }

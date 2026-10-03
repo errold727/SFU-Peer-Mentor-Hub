@@ -130,7 +130,10 @@ export default function Resources() {
           {results.length === 0 && (
             <div className="empty-state">
               <h2>No matching resources</h2>
-              <p>Try a broader search or choose All in your filters.</p>
+              <p>
+                Try library, safe walk, printing, or academic advising. Choose All to include other
+                campuses and terms.
+              </p>
               <button
                 onClick={() => {
                   setQuery('');
