@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D100",
+      "title": "The Place of the Past",
+      "instructor": "Paul Budra",
+      "meetings": [
+        {
+          "days": ["Mon", "Wed"],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/211/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/211/d100",
+      "lastUpdated": "2026-10-03"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "234",
+      "code": "ENGL 234",
+      "section": "D100",
+      "title": "Metrics and Prosody",
+      "instructor": "Michael Everton",
+      "meetings": [
+        {
+          "days": ["Wed", "Fri"],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM"
+        }
+      ],
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/234/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/234/d100",
+      "lastUpdated": "2026-10-03"
+    },
+    {
+      "term": "Spring 2027",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D100",
+      "title": "Studies in Popular Literature and Culture",
+      "instructor": "Paul Budra",
+      "meetings": [
+        {
+          "days": ["Tue", "Thu"],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM"
+        }
+      ],
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/engl/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/engl/383/d100",
+      "lastUpdated": "2026-10-03"
+    }
+  ]
+}

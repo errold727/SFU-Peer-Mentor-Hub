@@ -1,0 +1,160 @@
+import { create } from 'zustand';
+import { createTemplate } from '../poster/templates';
+import {
+  makeElement,
+  posterSizes,
+  type PosterDocument,
+  type PosterElement,
+} from '../poster/posterTypes';
+import type { SFUResource } from '../data/resources/types';
+import { resourceText } from '../utils/search';
+type State = {
+  document: PosterDocument;
+  past: PosterDocument[];
+  future: PosterDocument[];
+  selected: string | null;
+  recipientName: string;
+  select: (id: string | null) => void;
+  setRecipientName: (name: string) => void;
+  change: (doc: PosterDocument) => void;
+  update: (id: string, patch: Partial<PosterElement>) => void;
+  add: (element: PosterElement) => void;
+  remove: (id: string) => void;
+  duplicate: (id: string) => void;
+  reorder: (id: string, direction: number) => void;
+  undo: () => void;
+  redo: () => void;
+  applyTemplate: (id: string) => void;
+  importResources: (resources: SFUResource[]) => void;
+  resize: (size: string) => void;
+  reset: () => void;
+};
+export const usePosterStore = create<State>((set, get) => ({
+  document: createTemplate(),
+  past: [],
+  future: [],
+  selected: null,
+  recipientName: '',
+  select: (selected) => set({ selected }),
+  setRecipientName: (recipientName) => set({ recipientName }),
+  change: (document) =>
+    set((s) => ({ document, past: [...s.past, s.document].slice(-75), future: [] })),
+  update: (id, patch) => {
+    const s = get();
+    s.change({
+      ...s.document,
+      elements: s.document.elements.map((e) => (e.id === id ? { ...e, ...patch } : e)),
+    });
+  },
+  add: (element) => {
+    const s = get();
+    s.change({
+      ...s.document,
+      elements: [
+        ...s.document.elements,
+        { ...element, zIndex: Math.max(0, ...s.document.elements.map((e) => e.zIndex)) + 1 },
+      ],
+    });
+    s.select(element.id);
+  },
+  remove: (id) => {
+    const s = get();
+    if (s.document.elements.find((e) => e.id === id)?.locked) return;
+    s.change({ ...s.document, elements: s.document.elements.filter((e) => e.id !== id) });
+    s.select(null);
+  },
+  duplicate: (id) => {
+    const e = get().document.elements.find((e) => e.id === id);
+    if (e) get().add({ ...e, id: crypto.randomUUID(), x: e.x + 20, y: e.y + 20, locked: false });
+  },
+  reorder: (id, direction) => {
+    const s = get();
+    const sorted = [...s.document.elements].sort((a, b) => a.zIndex - b.zIndex);
+    const i = sorted.findIndex((e) => e.id === id);
+    const j = Math.max(0, Math.min(sorted.length - 1, i + direction));
+    if (i < 0 || i === j) return;
+    [sorted[i], sorted[j]] = [sorted[j], sorted[i]];
+    s.change({ ...s.document, elements: sorted.map((e, zIndex) => ({ ...e, zIndex })) });
+  },
+  undo: () =>
+    set((s) =>
+      s.past.length
+        ? {
+            document: s.past[s.past.length - 1],
+            past: s.past.slice(0, -1),
+            future: [s.document, ...s.future],
+            selected: null,
+          }
+        : {},
+    ),
+  redo: () =>
+    set((s) =>
+      s.future.length
+        ? {
+            document: s.future[0],
+            past: [...s.past, s.document],
+            future: s.future.slice(1),
+            selected: null,
+          }
+        : {},
+    ),
+  applyTemplate: (id) => {
+    get().change(createTemplate(id));
+    set({ selected: null });
+  },
+  importResources: (resources) => {
+    const s = get();
+    const fresh = resources.filter((r) => !s.document.elements.some((e) => e.resourceId === r.id));
+    if (!fresh.length) return;
+    const size = posterSizes[s.document.size];
+    let y = Math.max(
+      250,
+      ...s.document.elements.filter((e) => e.type === 'resource').map((e) => e.y + e.height + 20),
+    );
+    const added = fresh.map((r, i) => {
+      const text = resourceText(r);
+      const height = Math.max(
+        220,
+        text
+          .split('\n')
+          .reduce((lines, line) => lines + Math.max(1, Math.ceil(line.length / 55)), 0) *
+          26 +
+          40,
+      );
+      const e = makeElement('resource', {
+        text,
+        resourceId: r.id,
+        x: 48,
+        y,
+        width: size.width - 96,
+        height,
+        fontSize: 20,
+        backgroundColor: '#ffffff',
+        borderWidth: 1,
+        zIndex: s.document.elements.length + i,
+      });
+      y += height + 20;
+      return e;
+    });
+    s.change({ ...s.document, elements: [...s.document.elements, ...added] });
+  },
+  resize: (size) => {
+    const s = get(),
+      old = posterSizes[s.document.size],
+      next = posterSizes[size];
+    s.change({
+      ...s.document,
+      size,
+      elements: s.document.elements.map((e) => ({
+        ...e,
+        x: (e.x * next.width) / old.width,
+        y: (e.y * next.height) / old.height,
+        width: (e.width * next.width) / old.width,
+        height: (e.height * next.height) / old.height,
+        fontSize: e.fontSize * Math.min(next.width / old.width, next.height / old.height),
+      })),
+    });
+  },
+  reset: () =>
+    set({ document: createTemplate(), past: [], future: [], selected: null, recipientName: '' }),
+}));

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-03",
+  "note": "Curated subset of published SFU outlines. Not live enrollment data. Missing fields are unavailable. Verify all required lectures, tutorials and labs in the official outline.",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D100",
+      "title": "Principles of Microeconomics",
+      "instructor": "Douglas Allen",
+      "meetings": [
+        {
+          "days": ["Mon"],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM"
+        },
+        {
+          "days": ["Wed"],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM"
+        }
+      ],
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/econ/103/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/econ/103/d100",
+      "lastUpdated": "2026-10-03"
+    }
+  ]
+}
