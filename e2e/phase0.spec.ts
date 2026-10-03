@@ -36,9 +36,7 @@ test('resource to editable poster, PNG/PDF export, and temporary recipient', asy
 });
 test('home and mobile navigation', async ({ page }) => {
   await page.goto('./');
-  await expect(
-    page.getByRole('heading', { name: 'A little guidance. A big difference.' }),
-  ).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'SFU Peer Mentor Hub' })).toBeVisible();
   await page.screenshot({ path: 'test-results/home-desktop.png', fullPage: true });
   await page.setViewportSize({ width: 390, height: 844 });
   await page.getByRole('button', { name: 'Toggle navigation' }).click();

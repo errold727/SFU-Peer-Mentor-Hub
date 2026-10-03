@@ -27,6 +27,7 @@ import { contrastRatio } from '../poster/contrast';
 import { templates } from '../poster/templates';
 import { resources } from '../data/resources';
 import { Modal } from '../components/ui/Modal';
+import { fitResourceCards, textHeight } from '../poster/layout';
 
 export default function Poster() {
   const s = usePosterStore(),
@@ -133,32 +134,17 @@ export default function Poster() {
       (e.x < 0 || e.y < 0 || e.x + e.width > size.width + 1 || e.y + e.height > size.height + 1),
   );
   function fitResources() {
-    const elements = s.document.elements.filter((e) => e.type === 'resource');
-    const columns = elements.length > 1 ? 2 : 1,
-      rows = Math.ceil(elements.length / columns),
-      width = (size.width - 116) / columns,
-      height = (size.height - 330) / Math.max(rows, 1) - 20;
-    s.change({
-      ...s.document,
-      elements: s.document.elements.map((e) => {
-        const i = elements.indexOf(e);
-        if (i < 0) return e;
-        const estimatedFont = Math.min(
-          20,
-          Math.sqrt(((width - 32) * (height - 32)) / (Math.max(e.text.length, 1) * 0.7)),
-        );
-        return {
-          ...e,
-          x: 48 + (i % columns) * (width + 20),
-          y: 250 + Math.floor(i / columns) * (height + 20),
-          width,
-          height,
-          fontSize: Math.max(8, estimatedFont),
-          padding: 12,
-        };
-      }),
-    });
+    s.change(fitResourceCards(s.document));
   }
+  const clipped = s.document.elements.filter(
+    (e) =>
+      e.visible &&
+      ['text', 'resource', 'footer', 'icon'].includes(e.type) &&
+      textHeight(e, s.recipientName) > e.height + 1,
+  );
+  const smallText = s.document.elements.some(
+    (e) => e.visible && ['text', 'resource', 'footer'].includes(e.type) && e.fontSize < 12,
+  );
   return (
     <>
       <header className="page-heading editor-heading">
@@ -227,6 +213,17 @@ export default function Poster() {
         <p className="notice">
           Some elements extend beyond the page and will be cropped. Move or resize them, or use Fit
           resource cards.
+        </p>
+      )}
+      {clipped.length > 0 && (
+        <p className="notice">
+          Text may be clipped in {clipped.length} element(s). Increase their height, reduce font
+          size, or use Fit resource cards before exporting.
+        </p>
+      )}
+      {smallText && (
+        <p className="notice">
+          Some text is very small. For readability, use fewer resource cards or a larger canvas.
         </p>
       )}
       <div className="editor-layout">

@@ -11,11 +11,11 @@ export default function Home() {
         <div className="hero-copy">
           <div className="eyebrow">PEER CREATED. STUDENT FOCUSED.</div>
           <h1>
-            A little guidance.
+            SFU Peer
             <br />
-            <em>A big difference.</em>
+            <em>Mentor Hub</em>
           </h1>
-          <h2>SFU Peer Mentor Hub</h2>
+          <h2>A little guidance. A big difference.</h2>
           <p>
             Find accurate SFU information.
             <br />

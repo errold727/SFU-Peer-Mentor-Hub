@@ -41,7 +41,10 @@ export async function exportPoster(
   quality: number,
 ) {
   const images = stage.find('Image') as Konva.Image[];
-  if (images.some((node) => !node.image()))
+  const expectedImages = doc.elements.filter(
+    (e) => e.visible && ['image', 'qrcode'].includes(e.type),
+  ).length;
+  if (images.length !== expectedImages || images.some((node) => !node.image()))
     throw new Error('Please wait for images to finish loading.');
   const data = renderExport(stage, doc, quality);
   const filename = exportFilename(doc.template, name, format);

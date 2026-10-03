@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { resources } from '../data/resources';
 import { categories } from '../data/resources/types';
-import { filterRecreation } from '../data/resources/recreation';
+import { filterRecreation, compactRecreation } from '../data/resources/recreation';
+import { usePosterBasket } from '../store/posterBasketStore';
 import { searchResources } from '../utils/search';
 import { ResourceCard } from '../components/resource/ResourceCard';
 import { PosterBasket } from '../components/resource/PosterBasket';
@@ -65,7 +66,7 @@ export default function Resources() {
           <p className="result-count" role="status">
             {results.length} resources · linked to official sources
           </p>
-          {category === 'recreation' && (
+          {category === 'recreation' && results.some((r) => r.category === 'recreation') && (
             <section className="panel">
               <h2>Drop-in schedule</h2>
               <p>September 14–December 4, 2026 · Schedule subject to change.</p>
@@ -113,6 +114,12 @@ export default function Resources() {
                   </tbody>
                 </table>
               </div>
+              <button
+                disabled={filterRecreation(sport, day).length === 0}
+                onClick={() => usePosterBasket.getState().add(compactRecreation(sport, day))}
+              >
+                Add filtered schedule to Poster
+              </button>
             </section>
           )}
           <div className="resource-grid two">

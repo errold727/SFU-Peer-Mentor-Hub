@@ -52,3 +52,14 @@ export const recreation: SFUResource = {
   posterCompatible: true,
   tags: ['sport', 'badminton', 'basketball', 'volleyball', 'pickleball', 'futsal'],
 };
+export function compactRecreation(sport = 'All', day = 'All'): SFUResource {
+  return {
+    ...recreation,
+    id: `recreation:${sport}:${day}`,
+    title: `${sport === 'All' ? 'Drop-In Recreation' : sport} · ${day === 'All' ? 'Weekly schedule' : day}`,
+    facts: filterRecreation(sport, day).map((s) => ({
+      label: `${s.day.slice(0, 3)}${sport === 'All' ? ' · ' + s.sport : ''}`,
+      value: `${s.start}–${s.end} · ${s.location}`,
+    })),
+  };
+}

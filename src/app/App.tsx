@@ -15,7 +15,14 @@ export default function App() {
   }, [location.pathname]);
   return (
     <>
-      <a className="skip-link" href="#main">
+      <a
+        className="skip-link"
+        href="#main"
+        onClick={(event) => {
+          event.preventDefault();
+          document.getElementById('main')?.focus();
+        }}
+      >
         Skip to content
       </a>
       <div className="top-strip">AN INDEPENDENT TOOL FOR THE SFU COMMUNITY</div>

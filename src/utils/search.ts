@@ -45,6 +45,7 @@ export function resourceText(r: SFUResource) {
     `Source: ${r.sourceName}`,
     r.sourceUrl,
     `Last verified: ${r.lastVerified ?? 'Not yet verified'}`,
+    r.verificationNote,
   ]
     .filter(Boolean)
     .join('\n');
