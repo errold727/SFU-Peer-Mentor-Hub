@@ -1238,3 +1238,12 @@ dd {
     flex-wrap: wrap;
   }
 }
+
+dialog.detail-drawer {
+  margin: 0 0 0 auto;
+  height: 100dvh;
+  max-height: 100dvh;
+  max-width: 560px;
+  border-radius: 0;
+  border-right: 0;
+}

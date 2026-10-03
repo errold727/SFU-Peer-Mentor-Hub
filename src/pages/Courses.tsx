@@ -263,7 +263,11 @@ export default function Courses() {
         )}
       </section>
       {detail && (
-        <Modal title={`${detail.code} · ${detail.title}`} onClose={() => setDetail(null)}>
+        <Modal
+          variant="drawer"
+          title={`${detail.code} · ${detail.title}`}
+          onClose={() => setDetail(null)}
+        >
           <span className="badge">COURSE OFFERING · {detail.term}</span>
           <dl className="fact-list">
             <div>
