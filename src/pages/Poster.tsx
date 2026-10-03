@@ -26,6 +26,7 @@ import { exportPoster } from '../poster/exportPoster';
 import { contrastRatio } from '../poster/contrast';
 import { templates } from '../poster/templates';
 import { resources } from '../data/resources';
+import { searchResources } from '../utils/search';
 import { Modal } from '../components/ui/Modal';
 import { autoArrange, MIN_BODY_FONT, textHeight } from '../poster/layout';
 import { posterQuality } from '../poster/quality';
@@ -38,6 +39,7 @@ export default function Poster() {
   const stage = useRef<Konva.Stage>(null);
   const canvasArea = useRef<HTMLDivElement>(null);
   const [areaWidth, setAreaWidth] = useState(540);
+  const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
   const [zoom, setZoom] = useState(1);
   const [tab, setTab] = useState('Resources');
   const [quality, setQuality] = useState(1);
@@ -48,7 +50,11 @@ export default function Poster() {
   const [resourceQuery, setResourceQuery] = useState('');
   const size = posterSizes[s.document.size];
   const selected = s.document.elements.find((e) => e.id === s.selected);
-  const scale = Math.max(0.1, Math.min(0.72, (areaWidth - 48) / size.width)) * zoom;
+  const scale =
+    Math.max(
+      0.1,
+      Math.min(0.72, (areaWidth - 48) / size.width, (viewportHeight * 0.78 - 32) / size.height),
+    ) * zoom;
   const issues = useMemo(
     () => posterQuality(s.document, s.recipientName),
     [s.document, s.recipientName],
@@ -68,7 +74,12 @@ export default function Poster() {
     if (!el) return;
     const observer = new ResizeObserver((entries) => setAreaWidth(entries[0].contentRect.width));
     observer.observe(el);
-    return () => observer.disconnect();
+    const resize = () => setViewportHeight(window.innerHeight);
+    window.addEventListener('resize', resize);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('resize', resize);
+    };
   }, []);
   useEffect(() => {
     function keyboard(event: KeyboardEvent) {
@@ -278,13 +289,11 @@ export default function Poster() {
                 <button onClick={fitResources}>Auto Arrange resource cards</button>
                 <p className="muted">Review text size and placement before exporting.</p>
                 <div className="resource-picker">
-                  {resources
-                    .filter((r) => r.title.toLowerCase().includes(resourceQuery.toLowerCase()))
-                    .map((r) => (
-                      <button key={r.id} onClick={() => s.importResources([r])}>
-                        {r.title} <span>+</span>
-                      </button>
-                    ))}
+                  {searchResources(resources, resourceQuery).map((r) => (
+                    <button key={r.id} onClick={() => s.importResources([r])}>
+                      {r.title} <span>+</span>
+                    </button>
+                  ))}
                 </div>
               </>
             )}
@@ -538,7 +547,7 @@ export default function Poster() {
             </div>
           </div>
           <p className="canvas-help">
-            Drag to move · Handles to resize / rotate
+            Drag to move · Handles to resize / rotate · Scroll the canvas when zoomed
             <br />
             Arrow keys: 1 px · Shift + Arrow: 10 px · Delete to remove
           </p>

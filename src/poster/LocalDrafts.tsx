@@ -74,6 +74,11 @@ export function LocalDrafts() {
         </button>
       </div>
       <p aria-live="polite">{message}</p>
+      <p className="muted">
+        Storage on this browser: {drafts.length} / 20 drafts · approximately{' '}
+        {(JSON.stringify(drafts).length / 1_000_000).toFixed(2)} / 4 MB of draft text and image
+        data.
+      </p>
       {drafts.length === 0 ? (
         <p className="muted">No local drafts loaded.</p>
       ) : (

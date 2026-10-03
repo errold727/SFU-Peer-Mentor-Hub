@@ -80,4 +80,14 @@ describe('poster editor', () => {
     expect(contrastRatio('#ffffff', '#ffffff')).toBe(1);
     expect(contrastRatio('#000000', '#ffffff')).toBe(21);
   });
+  it('preserves typography when switching canvas formats and back', () => {
+    const s = usePosterStore.getState();
+    const original = s.document.elements.map((e) => e.fontSize);
+    s.resize('screen');
+    s.resize('square');
+    s.resize('letter');
+    usePosterStore
+      .getState()
+      .document.elements.forEach((e, i) => expect(e.fontSize).toBeCloseTo(original[i]));
+  });
 });

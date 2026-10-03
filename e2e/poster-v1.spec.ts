@@ -55,6 +55,19 @@ test('drafts only persist by explicit action and names never enter network reque
   await page.getByRole('button', { name: 'Delete all local drafts' }).click();
   expect(await page.evaluate(() => localStorage.length)).toBe(0);
   expect(requests.some((r) => r.includes('PrivateRecipientExample'))).toBe(false);
+  expect(requests.every((r) => r.startsWith(new URL(page.url()).origin))).toBe(true);
+});
+
+test('all eight templates render within bounds with readable text', async ({ page }) => {
+  for (let i = 0; i < 8; i++) {
+    await page.goto('./#/poster/templates');
+    await page.getByRole('button', { name: 'Use template →', exact: true }).nth(i).click();
+    await page.locator('.poster-quality summary').click();
+    await expect(page.locator('.poster-quality')).not.toContainText('text overflows');
+    await expect(page.locator('.poster-quality')).not.toContainText('extends outside');
+    await expect(page.locator('.poster-quality')).not.toContainText('text is small');
+    await page.locator('.canvas-paper').screenshot({ path: `test-results/template-${i + 1}.png` });
+  }
 });
 test('print PNG has correct bounds and a decodable QR; PDF has no hidden editable document', async ({
   page,

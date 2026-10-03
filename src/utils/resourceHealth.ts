@@ -1,4 +1,5 @@
 import type { SFUResource } from '../data/resources/types';
+import { categories } from '../data/resources/types';
 import { getVerificationStatus, validISODate } from './verification';
 export type LinkStatus = 'reachable' | 'redirect' | 'blocked' | 'unverified' | 'invalid';
 export function officialSource(value: string) {
@@ -22,6 +23,16 @@ export function auditResources(items: SFUResource[], now = new Date()) {
   const errors: string[] = [],
     warnings: string[] = [];
   for (const r of items) {
+    if (
+      !r.title?.trim() ||
+      !r.summary?.trim() ||
+      !r.sourceName?.trim() ||
+      !(r.category in categories) ||
+      !['All', 'Burnaby', 'Surrey', 'Vancouver'].includes(r.campus)
+    )
+      errors.push(`${r.id}: missing or invalid resource metadata`);
+    for (const key of ['date', 'validUntil'] as const)
+      if (r[key] !== undefined && !validISODate(r[key])) errors.push(`${r.id}: invalid ${key}`);
     if (!r.id || ids.has(r.id)) errors.push(`Duplicate or missing ID: ${r.id}`);
     ids.add(r.id);
     if (!officialSource(r.sourceUrl))

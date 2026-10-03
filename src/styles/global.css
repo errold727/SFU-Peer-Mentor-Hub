@@ -1372,3 +1372,7 @@ dialog.detail-drawer {
 .basket-empty {
   color: #595954;
 }
+
+.section-heading > a {
+  flex-shrink: 0;
+}

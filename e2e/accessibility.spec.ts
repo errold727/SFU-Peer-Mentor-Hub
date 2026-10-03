@@ -81,3 +81,40 @@ test('course errors explain recovery without exposing stack traces', async ({ pa
   await page.getByRole('button', { name: 'Retry', exact: true }).click();
   await expect(page.locator('.course-card').first()).toBeVisible();
 });
+test('mobile comparison and detail drawer stay within the viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.goto('./#/course-planner');
+  await page.getByLabel('Find a course').fill('ENGL 211');
+  await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Primary');
+  await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
+  await page.getByLabel('Find a course').fill('ENGL 234');
+  await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
+  await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
+    true,
+  );
+  await page.getByRole('button', { name: 'View Details ↗', exact: true }).first().click();
+  const box = (await page.getByRole('dialog').boundingBox())!;
+  expect(box.width).toBeLessThanOrEqual(375);
+  expect(box.height).toBeLessThanOrEqual(812);
+  expect(
+    (await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze())
+      .violations,
+  ).toEqual([]);
+  await page.keyboard.press('Escape');
+  await page.getByRole('button', { name: 'Clear comparison', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Course comparison (0)' })).toBeVisible();
+});
+for (const failure of ['missing', 'offline'])
+  test(`course ${failure} data has a recoverable state`, async ({ page }) => {
+    await page.route('**/data/courses/**', (route) =>
+      failure === 'missing'
+        ? route.fulfill({ status: 404, body: '' })
+        : route.abort('internetdisconnected'),
+    );
+    await page.goto('./#/course-planner');
+    await expect(page.getByRole('alert')).toContainText(
+      failure === 'missing' ? 'could not be loaded' : 'Connection unavailable',
+    );
+    await expect(page.getByRole('link', { name: 'Official SFU Course Outlines' })).toBeVisible();
+  });
