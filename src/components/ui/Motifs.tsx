@@ -1,4 +1,22 @@
 import type { ReactNode } from 'react';
-export function MountainDivider(){return <svg className="mountain" viewBox="0 0 600 260" fill="none" aria-hidden="true"><path d="M0 250 150 48 248 151 340 22 600 250Z" fill="#dfddd5"/><path d="m140 250 186-151 101 91 82-125 91 185" fill="#babfb7"/><path d="m0 250 90-109 176 109 124-97 210 97" fill="#929e91"/><path d="M116 260V174h92v86m13 0v-60h138v60m16 0v-95h102v95" fill="#f7f4ed"/><path d="M100 172h122v12H100zm264-12h125v14H364zM218 196h145v12H218z" fill="#A6192E"/><path d="M132 191h14v38h-14zm30 0h14v38h-14zm30 0h9v38h-9zm198-13h16v40h-16zm35 0h16v40h-16z" fill="#93988d"/></svg>}
-export function OfficialLogoSlot({assetUrl}:{assetUrl?:string}){return assetUrl?<img alt="Authorized official logo" src={assetUrl}/>:null;}
-export function InfoPill({children}:{children:ReactNode}){return <span className="badge">{children}</span>;}
+export function MountainDivider() {
+  return (
+    <svg className="mountain" viewBox="0 0 600 260" fill="none" aria-hidden="true">
+      <path d="M0 250 150 48 248 151 340 22 600 250Z" fill="#dfddd5" />
+      <path d="m140 250 186-151 101 91 82-125 91 185" fill="#babfb7" />
+      <path d="m0 250 90-109 176 109 124-97 210 97" fill="#929e91" />
+      <path d="M116 260V174h92v86m13 0v-60h138v60m16 0v-95h102v95" fill="#f7f4ed" />
+      <path d="M100 172h122v12H100zm264-12h125v14H364zM218 196h145v12H218z" fill="#A6192E" />
+      <path
+        d="M132 191h14v38h-14zm30 0h14v38h-14zm30 0h9v38h-9zm198-13h16v40h-16zm35 0h16v40h-16z"
+        fill="#93988d"
+      />
+    </svg>
+  );
+}
+export function OfficialLogoSlot({ assetUrl }: { assetUrl?: string }) {
+  return assetUrl ? <img alt="Authorized official logo" src={assetUrl} /> : null;
+}
+export function InfoPill({ children }: { children: ReactNode }) {
+  return <span className="badge">{children}</span>;
+}

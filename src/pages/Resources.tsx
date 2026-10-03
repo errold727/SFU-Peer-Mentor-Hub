@@ -6,4 +6,139 @@ import { filterRecreation } from '../data/resources/recreation';
 import { searchResources } from '../utils/search';
 import { ResourceCard } from '../components/resource/ResourceCard';
 import { PosterBasket } from '../components/resource/PosterBasket';
-export default function Resources(){ const [query,setQuery]=useState(''),[category,setCategory]=useState('All'),[campus,setCampus]=useState('All'),[term,setTerm]=useState('Current'),[sport,setSport]=useState('All'),[day,setDay]=useState('All'); const results=searchResources(resources,query,category,campus,term); return <><header className="page-heading"><div className="eyebrow">01 / FIND</div><h1>SFU Resource Hub</h1><p>Reliable SFU information for Peer Mentors.</p></header><div className="hub-layout"><div><div className="search-box"><Search/><input aria-label="Search SFU resources" placeholder="Search SFU resources..." value={query} onChange={e=>setQuery(e.target.value)}/><kbd>FIND</kbd></div><div className="filters"><label>Category<select value={category} onChange={e=>setCategory(e.target.value)}><option>All</option>{Object.entries(categories).map(([v,n])=><option value={v} key={v}>{n}</option>)}</select></label><label>Campus<select value={campus} onChange={e=>setCampus(e.target.value)}>{['All','Burnaby','Surrey','Vancouver'].map(c=><option key={c}>{c}</option>)}</select></label><label>Term<select value={term} onChange={e=>setTerm(e.target.value)}>{['Current','Fall 2026','Spring 2027','All'].map(t=><option key={t}>{t}</option>)}</select></label></div><p className="result-count" role="status">{results.length} resources · linked to official sources</p>{category==='recreation'&&<section className="panel"><h2>Drop-in schedule</h2><p>September 14–December 4, 2026 · Schedule subject to change.</p><div className="filters"><label>Sport<select value={sport} onChange={e=>setSport(e.target.value)}>{['All','Badminton','Basketball','Volleyball','Pickleball','Futsal'].map(s=><option key={s}>{s}</option>)}</select></label><label>Day<select value={day} onChange={e=>setDay(e.target.value)}>{['All','Monday','Tuesday','Wednesday','Thursday','Friday'].map(d=><option key={d}>{d}</option>)}</select></label></div><div className="table-scroll"><table><thead><tr><th>Day</th><th>Sport</th><th>Time</th><th>Location</th></tr></thead><tbody>{filterRecreation(sport,day).map(s=><tr key={s.day+s.sport}><td>{s.day}</td><td>{s.sport}</td><td>{s.start}–{s.end}</td><td>{s.location}</td></tr>)}</tbody></table></div></section>}<div className="resource-grid two">{results.map(r=><ResourceCard resource={r} key={r.id}/>)}</div>{results.length===0&&<div className="empty-state"><h2>No matching resources</h2><p>Try a broader search or choose All in your filters.</p><button onClick={()=>{setQuery('');setCategory('All');setCampus('All');setTerm('All');}}>Reset filters</button></div>}</div><PosterBasket/></div></>}
+export default function Resources() {
+  const [query, setQuery] = useState(''),
+    [category, setCategory] = useState('All'),
+    [campus, setCampus] = useState('All'),
+    [term, setTerm] = useState('Current'),
+    [sport, setSport] = useState('All'),
+    [day, setDay] = useState('All');
+  const results = searchResources(resources, query, category, campus, term);
+  return (
+    <>
+      <header className="page-heading">
+        <div className="eyebrow">01 / FIND</div>
+        <h1>SFU Resource Hub</h1>
+        <p>Reliable SFU information for Peer Mentors.</p>
+      </header>
+      <div className="hub-layout">
+        <div>
+          <div className="search-box">
+            <Search />
+            <input
+              aria-label="Search SFU resources"
+              placeholder="Search SFU resources..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            <kbd>FIND</kbd>
+          </div>
+          <div className="filters">
+            <label>
+              Category
+              <select value={category} onChange={(e) => setCategory(e.target.value)}>
+                <option>All</option>
+                {Object.entries(categories).map(([v, n]) => (
+                  <option value={v} key={v}>
+                    {n}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              Campus
+              <select value={campus} onChange={(e) => setCampus(e.target.value)}>
+                {['All', 'Burnaby', 'Surrey', 'Vancouver'].map((c) => (
+                  <option key={c}>{c}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              Term
+              <select value={term} onChange={(e) => setTerm(e.target.value)}>
+                {['Current', 'Fall 2026', 'Spring 2027', 'All'].map((t) => (
+                  <option key={t}>{t}</option>
+                ))}
+              </select>
+            </label>
+          </div>
+          <p className="result-count" role="status">
+            {results.length} resources · linked to official sources
+          </p>
+          {category === 'recreation' && (
+            <section className="panel">
+              <h2>Drop-in schedule</h2>
+              <p>September 14–December 4, 2026 · Schedule subject to change.</p>
+              <div className="filters">
+                <label>
+                  Sport
+                  <select value={sport} onChange={(e) => setSport(e.target.value)}>
+                    {['All', 'Badminton', 'Basketball', 'Volleyball', 'Pickleball', 'Futsal'].map(
+                      (s) => (
+                        <option key={s}>{s}</option>
+                      ),
+                    )}
+                  </select>
+                </label>
+                <label>
+                  Day
+                  <select value={day} onChange={(e) => setDay(e.target.value)}>
+                    {['All', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].map((d) => (
+                      <option key={d}>{d}</option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <div className="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Day</th>
+                      <th>Sport</th>
+                      <th>Time</th>
+                      <th>Location</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {filterRecreation(sport, day).map((s) => (
+                      <tr key={s.day + s.sport}>
+                        <td>{s.day}</td>
+                        <td>{s.sport}</td>
+                        <td>
+                          {s.start}–{s.end}
+                        </td>
+                        <td>{s.location}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+          <div className="resource-grid two">
+            {results.map((r) => (
+              <ResourceCard resource={r} key={r.id} />
+            ))}
+          </div>
+          {results.length === 0 && (
+            <div className="empty-state">
+              <h2>No matching resources</h2>
+              <p>Try a broader search or choose All in your filters.</p>
+              <button
+                onClick={() => {
+                  setQuery('');
+                  setCategory('All');
+                  setCampus('All');
+                  setTerm('All');
+                }}
+              >
+                Reset filters
+              </button>
+            </div>
+          )}
+        </div>
+        <PosterBasket />
+      </div>
+    </>
+  );
+}

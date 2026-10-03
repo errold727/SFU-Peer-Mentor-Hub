@@ -2,7 +2,66 @@ import type Konva from 'konva';
 
 import { localDate } from '../utils/dates';
 import { posterSizes, type PosterDocument } from './posterTypes';
-export function exportFilename(template:string,name:string,extension:string){const slug=(value:string)=>value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');return ['sfu-peer-mentor',slug(template),slug(name),localDate()].filter(Boolean).join('-')+'.'+extension;}
-export function renderExport(stage:Konva.Stage,doc:PosterDocument,pixelRatio=1){const size=posterSizes[doc.size];const container=document.createElement('div');const clone=stage.clone({container,width:size.width,height:size.height,scaleX:1,scaleY:1}) as Konva.Stage;try{clone.find('.editor-only').forEach(node=>node.destroy());clone.draw();return clone.toDataURL({pixelRatio,mimeType:'image/png'});}finally{clone.destroy();container.remove();}}
-export async function exportPoster(stage:Konva.Stage,doc:PosterDocument,name:string,format:'png'|'pdf',quality:number){const images=stage.find('Image') as Konva.Image[];if(images.some(node=>!node.image()))throw new Error('Please wait for images to finish loading.');const data=renderExport(stage,doc,quality);const filename=exportFilename(doc.template,name,format);if(format==='pdf'){const {jsPDF}=await import('jspdf');const size=posterSizes[doc.size];const width=doc.size==='letter'?612:size.width*.75;const height=doc.size==='letter'?792:size.height*.75;const pdf=new jsPDF({orientation:width>height?'landscape':'portrait',unit:'pt',format:[width,height]});pdf.addImage(data,'PNG',0,0,width,height);pdf.save(filename);}else{const a=document.createElement('a');a.href=data;a.download=filename;a.click();}return filename;}
-
+export function exportFilename(template: string, name: string, extension: string) {
+  const slug = (value: string) =>
+    value
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
+  return (
+    ['sfu-peer-mentor', slug(template), slug(name), localDate()].filter(Boolean).join('-') +
+    '.' +
+    extension
+  );
+}
+export function renderExport(stage: Konva.Stage, doc: PosterDocument, pixelRatio = 1) {
+  const size = posterSizes[doc.size];
+  const container = document.createElement('div');
+  const clone = stage.clone({
+    container,
+    width: size.width,
+    height: size.height,
+    scaleX: 1,
+    scaleY: 1,
+  }) as Konva.Stage;
+  try {
+    clone.find('.editor-only').forEach((node) => node.destroy());
+    clone.draw();
+    return clone.toDataURL({ pixelRatio, mimeType: 'image/png' });
+  } finally {
+    clone.destroy();
+    container.remove();
+  }
+}
+export async function exportPoster(
+  stage: Konva.Stage,
+  doc: PosterDocument,
+  name: string,
+  format: 'png' | 'pdf',
+  quality: number,
+) {
+  const images = stage.find('Image') as Konva.Image[];
+  if (images.some((node) => !node.image()))
+    throw new Error('Please wait for images to finish loading.');
+  const data = renderExport(stage, doc, quality);
+  const filename = exportFilename(doc.template, name, format);
+  if (format === 'pdf') {
+    const { jsPDF } = await import('jspdf');
+    const size = posterSizes[doc.size];
+    const width = doc.size === 'letter' ? 612 : size.width * 0.75;
+    const height = doc.size === 'letter' ? 792 : size.height * 0.75;
+    const pdf = new jsPDF({
+      orientation: width > height ? 'landscape' : 'portrait',
+      unit: 'pt',
+      format: [width, height],
+    });
+    pdf.addImage(data, 'PNG', 0, 0, width, height);
+    pdf.save(filename);
+  } else {
+    const a = document.createElement('a');
+    a.href = data;
+    a.download = filename;
+    a.click();
+  }
+  return filename;
+}

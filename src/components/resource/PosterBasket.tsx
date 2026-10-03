@@ -1,4 +1,44 @@
 import { Link } from 'react-router-dom';
 import { Layers, X } from 'lucide-react';
 import { usePosterBasket } from '../../store/posterBasketStore';
-export function PosterBasket(){const {items,remove,clear}=usePosterBasket();return <aside className="basket"><div className="section-heading"><Layers size={20}/><h2>Poster Content <span>({items.length})</span></h2></div><p className="muted">Find something useful? Collect it here, then make it your own.</p>{items.length===0?<div className="basket-empty">Your next helpful poster<br/>starts with a resource.</div>:<ul>{items.map(i=><li key={i.id}><span>{i.title}</span><button aria-label={`Remove ${i.title}`} onClick={()=>remove(i.id)}><X size={16}/></button></li>)}</ul>}<Link className="button primary" to="/poster">Create Poster →</Link>{items.length>0&&<button className="text-button" onClick={clear}>Clear basket</button>}<small>Only public resource content. No personal profiles.</small></aside>}
+export function PosterBasket() {
+  const { items, remove, clear } = usePosterBasket();
+  return (
+    <aside className="basket">
+      <div className="section-heading">
+        <Layers size={20} />
+        <h2>
+          Poster Content <span>({items.length})</span>
+        </h2>
+      </div>
+      <p className="muted">Find something useful? Collect it here, then make it your own.</p>
+      {items.length === 0 ? (
+        <div className="basket-empty">
+          Your next helpful poster
+          <br />
+          starts with a resource.
+        </div>
+      ) : (
+        <ul>
+          {items.map((i) => (
+            <li key={i.id}>
+              <span>{i.title}</span>
+              <button aria-label={`Remove ${i.title}`} onClick={() => remove(i.id)}>
+                <X size={16} />
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+      <Link className="button primary" to="/poster">
+        Create Poster →
+      </Link>
+      {items.length > 0 && (
+        <button className="text-button" onClick={clear}>
+          Clear basket
+        </button>
+      )}
+      <small>Only public resource content. No personal profiles.</small>
+    </aside>
+  );
+}

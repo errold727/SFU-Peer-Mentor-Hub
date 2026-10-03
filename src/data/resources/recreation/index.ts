@@ -1,7 +1,54 @@
 import type { SFUResource } from '../types';
-export type RecreationSession = { day:string; sport:string; start:string; end:string; location:string };
-const common = [['Badminton','11:30 AM','1:30 PM','East Gym'],['Basketball','11:30 AM','3:20 PM','Central Gym'],['Volleyball','1:30 PM','3:20 PM','East Gym'],['Pickleball','3:30 PM','5:20 PM','Central Gym']];
-const late = [['Badminton','11:30 AM','1:20 PM','Central Gym'],['Basketball','11:30 AM','5:20 PM','East Gym'],['Futsal','1:30 PM','3:20 PM','Central Gym']];
-export const recreationSessions: RecreationSession[] = Object.entries({Monday:common,Tuesday:[['Basketball','11:30 AM','3:20 PM','Central Gym'],['Badminton','11:30 AM','5:20 PM','East Gym']],Wednesday:common,Thursday:late,Friday:late}).flatMap(([day,rows]) => rows.map(([sport,start,end,location])=>({day,sport,start,end,location})));
-export const filterRecreation = (sport='All',day='All') => recreationSessions.filter(s => (sport==='All'||s.sport===sport)&&(day==='All'||s.day===day));
-export const recreation: SFUResource = { id:'drop-in-recreation', title:'Drop-In Recreation', category:'recreation', summary:'Casual sport at Burnaby. Fall schedule: September 14–December 4, 2026. Schedule subject to change.', facts:recreationSessions.map(s=>({label:`${s.day} · ${s.sport}`,value:`${s.start}–${s.end} · ${s.location}`})), campus:'Burnaby', term:'Fall 2026', validUntil:'2026-12-04', sourceName:'SFU Recreation — Drop-In Sports Schedule', sourceUrl:'https://www.sfu.ca/recreation/sports/dropinsport/drop-in-schedule.html', lastVerified:'2026-10-03', posterCompatible:true, tags:['sport','badminton','basketball','volleyball','pickleball','futsal'] };
+export type RecreationSession = {
+  day: string;
+  sport: string;
+  start: string;
+  end: string;
+  location: string;
+};
+const common = [
+  ['Badminton', '11:30 AM', '1:30 PM', 'East Gym'],
+  ['Basketball', '11:30 AM', '3:20 PM', 'Central Gym'],
+  ['Volleyball', '1:30 PM', '3:20 PM', 'East Gym'],
+  ['Pickleball', '3:30 PM', '5:20 PM', 'Central Gym'],
+];
+const late = [
+  ['Badminton', '11:30 AM', '1:20 PM', 'Central Gym'],
+  ['Basketball', '11:30 AM', '5:20 PM', 'East Gym'],
+  ['Futsal', '1:30 PM', '3:20 PM', 'Central Gym'],
+];
+export const recreationSessions: RecreationSession[] = Object.entries({
+  Monday: common,
+  Tuesday: [
+    ['Basketball', '11:30 AM', '3:20 PM', 'Central Gym'],
+    ['Badminton', '11:30 AM', '5:20 PM', 'East Gym'],
+  ],
+  Wednesday: common,
+  Thursday: late,
+  Friday: late,
+}).flatMap(([day, rows]) =>
+  rows.map(([sport, start, end, location]) => ({ day, sport, start, end, location })),
+);
+export const filterRecreation = (sport = 'All', day = 'All') =>
+  recreationSessions.filter(
+    (s) => (sport === 'All' || s.sport === sport) && (day === 'All' || s.day === day),
+  );
+export const recreation: SFUResource = {
+  id: 'drop-in-recreation',
+  title: 'Drop-In Recreation',
+  category: 'recreation',
+  summary:
+    'Casual sport at Burnaby. Fall schedule: September 14–December 4, 2026. Schedule subject to change.',
+  facts: recreationSessions.map((s) => ({
+    label: `${s.day} · ${s.sport}`,
+    value: `${s.start}–${s.end} · ${s.location}`,
+  })),
+  campus: 'Burnaby',
+  term: 'Fall 2026',
+  validUntil: '2026-12-04',
+  sourceName: 'SFU Recreation — Drop-In Sports Schedule',
+  sourceUrl: 'https://www.sfu.ca/recreation/sports/dropinsport/drop-in-schedule.html',
+  lastVerified: '2026-10-03',
+  posterCompatible: true,
+  tags: ['sport', 'badminton', 'basketball', 'volleyball', 'pickleball', 'futsal'],
+};

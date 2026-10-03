@@ -27,3 +27,5 @@ Development takes place on `codex/phase0`, with tested milestones pushed to GitH
 
 Poster Maker milestone: eight editable templates, resource import, memory-only recipient names, canvas transforms, keyboard editing, layers, undo/redo, image uploads, QR codes, contrast checks, and PNG/PDF export. Browser checks verify file signatures, dimensions, mobile navigation, and refresh privacy.
 
+Course Planner milestone: nine verified offering snapshots across ENGL, ECON and CMPT; term/department loading, official details, neutral comparisons, complete/partial overlap detection, and course-to-poster integration. Future importer design is documented in scripts/course-import/README.md.
+
