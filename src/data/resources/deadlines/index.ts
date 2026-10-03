@@ -28,5 +28,5 @@ export const deadlines: SFUResource[] = entries.map(([date, title], i) => ({
     i === 9 || i === 10 ? 'https://www.sfu.ca/students/calendar/2026/fall.html' : deadlineSource,
   lastVerified: '2026-10-03',
   posterCompatible: true,
-  tags: ['refund', 'tuition', 'dates', 'fall', title],
+  tags: ['dates', 'fall', title],
 }));

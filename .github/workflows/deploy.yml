@@ -2,7 +2,7 @@ name: Test, build and deploy Pages
 
 on:
   push:
-    branches: [main, codex/phase0]
+    branches: [main, codex/phase0, codex/v1]
   pull_request:
     branches: [main]
   workflow_dispatch:

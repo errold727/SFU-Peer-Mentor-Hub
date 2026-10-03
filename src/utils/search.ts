@@ -1,6 +1,15 @@
 import Fuse from 'fuse.js';
 import type { SFUResource } from '../data/resources/types';
 import { currentTerm, daysUntil } from './dates';
+const aliases: Record<string, string> = {
+  'quiet study': 'bennett library',
+  'silent floor': 'bennett library',
+  'safe walk': 'safe walk',
+  safewalk: 'safe walk',
+  'drop course': 'drop',
+  'computing id': 'computing id',
+  'u pass': 'u-pass',
+};
 export function searchResources(
   resources: SFUResource[],
   query: string,
@@ -15,13 +24,14 @@ export function searchResources(
       (campus === 'All' || r.campus === campus || r.campus === 'All') &&
       (selectedTerm === 'All' || !r.term || r.term === selectedTerm),
   );
-  return query.trim()
+  const normalized = query.trim().toLowerCase().replace(/\s+/g, ' ');
+  return normalized
     ? new Fuse(filtered, {
-        keys: ['title', 'summary', 'facts.value', 'tags'],
+        keys: [{ name: 'title', weight: 3 }, { name: 'tags', weight: 2 }, 'summary', 'facts.value'],
         threshold: 0.35,
         ignoreLocation: true,
       })
-        .search(query.trim())
+        .search(aliases[normalized] ?? normalized)
         .map((result) => result.item)
     : filtered;
 }
