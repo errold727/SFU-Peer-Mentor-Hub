@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Undo2,
@@ -27,7 +27,10 @@ import { contrastRatio } from '../poster/contrast';
 import { templates } from '../poster/templates';
 import { resources } from '../data/resources';
 import { Modal } from '../components/ui/Modal';
-import { fitResourceCards, textHeight } from '../poster/layout';
+import { autoArrange, MIN_BODY_FONT, textHeight } from '../poster/layout';
+import { posterQuality } from '../poster/quality';
+import { posterStyles, applyPosterStyle } from '../poster/styles';
+import { LocalDrafts } from '../poster/LocalDrafts';
 
 export default function Poster() {
   const s = usePosterStore(),
@@ -35,6 +38,7 @@ export default function Poster() {
   const stage = useRef<Konva.Stage>(null);
   const canvasArea = useRef<HTMLDivElement>(null);
   const [areaWidth, setAreaWidth] = useState(540);
+  const [zoom, setZoom] = useState(1);
   const [tab, setTab] = useState('Resources');
   const [quality, setQuality] = useState(1);
   const [message, setMessage] = useState('');
@@ -44,8 +48,16 @@ export default function Poster() {
   const [resourceQuery, setResourceQuery] = useState('');
   const size = posterSizes[s.document.size];
   const selected = s.document.elements.find((e) => e.id === s.selected);
-  const scale = Math.min(0.72, (areaWidth - 48) / size.width);
+  const scale = Math.max(0.1, Math.min(0.72, (areaWidth - 48) / size.width)) * zoom;
+  const issues = useMemo(
+    () => posterQuality(s.document, s.recipientName),
+    [s.document, s.recipientName],
+  );
   const update = (patch: Partial<PosterElement>) => {
+    if (Object.values(patch).some((v) => typeof v === 'number' && !Number.isFinite(v))) {
+      setMessage('Enter a finite number for this property.');
+      return;
+    }
     if (selected && !selected.locked) s.update(selected.id, patch);
   };
   useEffect(() => {
@@ -112,7 +124,9 @@ export default function Poster() {
   async function download(format: 'png' | 'pdf') {
     if (!stage.current) return;
     setBusy(true);
-    setMessage('Preparing export…');
+    setMessage(
+      `Preparing export…${issues.length ? ` ${issues.length} advisory quality warning(s); review Poster Quality before sharing.` : ''}`,
+    );
     try {
       const filename = await exportPoster(
         stage.current,
@@ -121,30 +135,27 @@ export default function Poster() {
         format,
         quality,
       );
-      setMessage(`Downloaded ${filename}`);
+      setMessage(
+        `Downloaded ${filename}${issues.length ? ` · ${issues.length} advisory warning(s) remain in Poster Quality.` : ''}`,
+      );
     } catch (error) {
-      setMessage(error instanceof Error ? error.message : 'Export failed. Try a lower quality.');
+      setMessage(
+        error instanceof Error && error.message.startsWith('Please wait')
+          ? error.message
+          : 'Export could not complete. Check images and canvas settings, then try a lower quality. Your poster is still here.',
+      );
     } finally {
       setBusy(false);
     }
   }
-  const outside = s.document.elements.some(
-    (e) =>
-      e.visible &&
-      (e.x < 0 || e.y < 0 || e.x + e.width > size.width + 1 || e.y + e.height > size.height + 1),
-  );
   function fitResources() {
-    s.change(fitResourceCards(s.document));
+    const arranged = autoArrange(s.document, s.recipientName);
+    s.change(arranged.document);
+    setMessage(
+      arranged.warnings.join(' ') ||
+        'Resource cards arranged with readable text, safe margins and space for the header and footer.',
+    );
   }
-  const clipped = s.document.elements.filter(
-    (e) =>
-      e.visible &&
-      ['text', 'resource', 'footer', 'icon'].includes(e.type) &&
-      textHeight(e, s.recipientName) > e.height + 1,
-  );
-  const smallText = s.document.elements.some(
-    (e) => e.visible && ['text', 'resource', 'footer'].includes(e.type) && e.fontSize < 12,
-  );
   return (
     <>
       <header className="page-heading editor-heading">
@@ -209,23 +220,30 @@ export default function Poster() {
         {message ||
           'Select an element on the canvas or in Layers to edit it. Changes stay in this browser session.'}
       </p>
-      {outside && (
-        <p className="notice">
-          Some elements extend beyond the page and will be cropped. Move or resize them, or use Fit
-          resource cards.
+      <details className="poster-quality" open={issues.some((i) => i.code === 'invalid')}>
+        <summary>
+          Poster Quality ·{' '}
+          {issues.length ? `${issues.length} advisory warning(s)` : 'No issues detected'}
+        </summary>
+        <p>
+          Review before exporting. Warnings do not block downloads; check the exported image at its
+          intended size.
         </p>
-      )}
-      {clipped.length > 0 && (
-        <p className="notice">
-          Text may be clipped in {clipped.length} element(s). Increase their height, reduce font
-          size, or use Fit resource cards before exporting.
-        </p>
-      )}
-      {smallText && (
-        <p className="notice">
-          Some text is very small. For readability, use fewer resource cards or a larger canvas.
-        </p>
-      )}
+        {issues.length > 0 && (
+          <ul>
+            {issues.map((issue, i) => (
+              <li key={i}>
+                {issue.message}
+                {issue.elementId && (
+                  <button onClick={() => s.select(issue.elementId!)}>Select element {i + 1}</button>
+                )}
+              </li>
+            ))}
+          </ul>
+        )}
+        <button onClick={fitResources}>Auto Arrange</button>
+      </details>
+      <LocalDrafts />
       <div className="editor-layout">
         <aside className="editor-panel">
           <div className="tool-tabs">
@@ -257,7 +275,7 @@ export default function Poster() {
                   value={resourceQuery}
                   onChange={(e) => setResourceQuery(e.target.value)}
                 />
-                <button onClick={fitResources}>Fit resource cards</button>
+                <button onClick={fitResources}>Auto Arrange resource cards</button>
                 <p className="muted">Review text size and placement before exporting.</p>
                 <div className="resource-picker">
                   {resources
@@ -465,6 +483,26 @@ export default function Poster() {
               ))}
             </select>
             <label className="sidebar-title">
+              Poster style
+              <select
+                defaultValue=""
+                onChange={(e) => {
+                  if (e.target.value)
+                    s.change(
+                      applyPosterStyle(s.document, e.target.value as keyof typeof posterStyles),
+                    );
+                  e.target.value = '';
+                }}
+              >
+                <option value="">Choose a style…</option>
+                {Object.entries(posterStyles).map(([id, v]) => (
+                  <option key={id} value={id}>
+                    {v.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="sidebar-title">
               Page background
               <input
                 type="color"
@@ -479,14 +517,25 @@ export default function Poster() {
             <span>
               {size.width} × {size.height}
             </span>
-            <span>{Math.round(scale * 100)}% · Preview</span>
+            <label>
+              Preview zoom
+              <select value={zoom} onChange={(e) => setZoom(Number(e.target.value))}>
+                <option value={1}>Fit</option>
+                <option value={1.5}>150% of fit</option>
+                <option value={2}>200% of fit</option>
+                <option value={3}>300% of fit</option>
+              </select>
+            </label>
           </div>
-          <div
-            className="canvas-paper"
-            tabIndex={0}
-            aria-label="Poster canvas. Use Layers to select elements; arrow keys move selected elements."
-          >
-            <PosterCanvas stageRef={stage} scale={Math.max(0.1, scale)} />
+          <div className="canvas-viewport">
+            <div
+              className="canvas-paper"
+              role="region"
+              tabIndex={0}
+              aria-label="Poster canvas. Use Layers to select elements; arrow keys move selected elements."
+            >
+              <PosterCanvas stageRef={stage} scale={Math.max(0.1, scale)} />
+            </div>
           </div>
           <p className="canvas-help">
             Drag to move · Handles to resize / rotate
@@ -562,6 +611,31 @@ export default function Poster() {
                         onChange={(e) => update({ text: e.target.value })}
                       />
                     </label>
+                    {selected.type !== 'qrcode' && (
+                      <div className="actions">
+                        <button
+                          onClick={() =>
+                            update({ height: Math.ceil(textHeight(selected, s.recipientName)) + 2 })
+                          }
+                        >
+                          Grow to fit text
+                        </button>
+                        <button
+                          disabled={selected.fontSize <= MIN_BODY_FONT}
+                          onClick={() => {
+                            const next = { ...selected };
+                            while (
+                              next.fontSize > MIN_BODY_FONT &&
+                              textHeight(next, s.recipientName) > next.height
+                            )
+                              next.fontSize -= 0.5;
+                            update({ fontSize: next.fontSize });
+                          }}
+                        >
+                          Fit text safely
+                        </button>
+                      </div>
+                    )}
                     <div className="property-grid">
                       <label>
                         Font size

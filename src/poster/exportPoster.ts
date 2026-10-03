@@ -2,6 +2,7 @@ import type Konva from 'konva';
 
 import { localDate } from '../utils/dates';
 import { posterSizes, type PosterDocument } from './posterTypes';
+import { validPosterDocument } from './drafts';
 export function exportFilename(template: string, name: string, extension: string) {
   const slug = (value: string) =>
     value
@@ -40,6 +41,9 @@ export async function exportPoster(
   format: 'png' | 'pdf',
   quality: number,
 ) {
+  if (!validPosterDocument(doc) || ![1, 2, 3.125].includes(quality))
+    throw new Error('Invalid poster settings.');
+  await document.fonts.ready;
   const images = stage.find('Image') as Konva.Image[];
   const expectedImages = doc.elements.filter(
     (e) => e.visible && ['image', 'qrcode'].includes(e.type),

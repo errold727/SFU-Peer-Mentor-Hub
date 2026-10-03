@@ -153,6 +153,15 @@ label {
   outline: 3px solid #216ab3;
   outline-offset: 3px;
 }
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 .skip-link {
   position: absolute;
   top: -60px;
@@ -882,6 +891,7 @@ dd {
   letter-spacing: 0;
 }
 .canvas-area {
+  min-width: 0;
   background: #e9e8e4;
   min-height: 650px;
   padding: 20px 0 28px;
@@ -901,6 +911,80 @@ dd {
   box-shadow: 0 4px 20px #0002;
   margin: auto;
   background: white;
+}
+.canvas-viewport {
+  max-width: 100%;
+  max-height: 78vh;
+  overflow: auto;
+  padding: 8px 20px 20px;
+}
+.poster-quality,
+.local-drafts {
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 12px 0;
+}
+.poster-quality summary,
+.local-drafts summary {
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 24px;
+}
+.poster-quality li {
+  margin: 12px 0;
+}
+.poster-quality li button {
+  margin-left: 10px;
+}
+.local-drafts p {
+  max-width: 85ch;
+  font-size: 13px;
+}
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+.checkbox-label input {
+  width: 20px;
+  min-height: 20px;
+}
+.draft-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.draft-list li {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  display: grid;
+  gap: 8px;
+}
+.draft-list span {
+  font-size: 12px;
+  color: #595954;
+}
+@media (max-width: 760px) {
+  button,
+  .button,
+  select {
+    min-height: 44px;
+  }
+  .inspector input,
+  .inspector select {
+    min-height: 44px;
+  }
+  .canvas-meta {
+    align-items: center;
+    gap: 10px;
+  }
+  .actions {
+    flex-wrap: wrap;
+  }
 }
 .canvas-help {
   font-size: 10px;
@@ -1282,4 +1366,9 @@ dialog.detail-drawer {
   max-width: 560px;
   border-radius: 0;
   border-right: 0;
+}
+
+.search-box kbd,
+.basket-empty {
+  color: #595954;
 }

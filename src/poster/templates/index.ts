@@ -12,7 +12,7 @@ export const templates = [
     id: 'weekly',
     name: 'Weekly Check-In',
     description: 'A personal hello with helpful resources.',
-    title: 'WEEK 3 CHECK-IN',
+    title: 'WEEKLY CHECK-IN',
     subtitle: 'Hope your week at SFU is going well, {{recipientName}}!',
     body: '',
   },

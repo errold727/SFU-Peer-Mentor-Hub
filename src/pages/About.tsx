@@ -19,12 +19,15 @@ export default function About() {
         <li>No mentee database, student profiles, or mentor/mentee assignment database.</li>
         <li>No login, backend, message history, student notes, or third-party analytics.</li>
         <li>
-          Recipient names, uploaded images, and all editor content stay in browser memory.
-          Refreshing clears them.
+          Recipient names, uploaded images, and editor content stay in browser memory by default.
+          Refreshing clears the current session. No editor content is uploaded.
         </li>
         <li>
-          Only your explicit PNG/PDF download writes your poster to a file. The exported visual
-          includes any personal text you chose to add.
+          Save locally is optional and saves all poster content on this browser. The recipient field
+          is excluded unless you explicitly include it. Saved drafts never open automatically, can
+          be duplicated or deleted, and should be removed from shared devices. PNG/PDF downloads
+          include the personal text you chose to show, without hidden layers or an embedded editable
+          document.
         </li>
       </ul>
       <p className="notice">
@@ -45,10 +48,10 @@ export default function About() {
       </p>
       <h2>Course data</h2>
       <p>
-        Course Planner uses a limited, curated snapshot of official published offerings. It is not
-        live enrollment data. Missing schedules, seats, instructors or prerequisites remain
-        unavailable. Always verify all required lectures, tutorials and labs in the official outline
-        and goSFU.
+        Course Planner includes 1,628 published undergraduate sections across eight departments and
+        two terms, normalized from SFU’s public Course Outlines API. It is not live enrollment data.
+        Missing schedules, seats, instructors or prerequisites remain unavailable. Always verify all
+        required lectures, tutorials and labs in the official outline and goSFU.
       </p>
       <h2>Independent visual identity</h2>
       <p>

@@ -4,6 +4,7 @@ import { Mountain, Menu, X } from 'lucide-react';
 import Home from '../pages/Home';
 import Resources from '../pages/Resources';
 import About from '../pages/About';
+import { ErrorBoundary } from '../components/ui/ErrorBoundary';
 const Poster = lazy(() => import('../pages/Poster'));
 const Courses = lazy(() => import('../pages/Courses'));
 const Templates = lazy(() => import('../pages/Templates'));
@@ -63,25 +64,27 @@ export default function App() {
         </Link>
       </header>
       <main id="main" tabIndex={-1}>
-        <Suspense fallback={<p role="status">Loading your workspace…</p>}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/resources" element={<Resources />} />
-            <Route path="/poster" element={<Poster />} />
-            <Route path="/poster/templates" element={<Templates />} />
-            <Route path="/course-planner" element={<Courses />} />
-            <Route path="/about" element={<About />} />
-            <Route
-              path="*"
-              element={
-                <div className="empty-state">
-                  <h1>Page not found</h1>
-                  <Link to="/">Return home</Link>
-                </div>
-              }
-            />
-          </Routes>
-        </Suspense>
+        <ErrorBoundary key={location.pathname}>
+          <Suspense fallback={<p role="status">Loading your workspace…</p>}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/resources" element={<Resources />} />
+              <Route path="/poster" element={<Poster />} />
+              <Route path="/poster/templates" element={<Templates />} />
+              <Route path="/course-planner" element={<Courses />} />
+              <Route path="/about" element={<About />} />
+              <Route
+                path="*"
+                element={
+                  <div className="empty-state">
+                    <h1>Page not found</h1>
+                    <Link to="/">Return home</Link>
+                  </div>
+                }
+              />
+            </Routes>
+          </Suspense>
+        </ErrorBoundary>
       </main>
       <footer className="site-footer">
         <strong>SFU Peer Mentor Hub</strong>
