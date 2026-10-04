@@ -1,3 +1,4 @@
+import { campusArt, blockNames } from './blocks';
 import { posterSizes, type PosterDocument } from './posterTypes';
 export const DRAFT_KEY = 'sfu-peer-mentor-hub:poster-drafts:v1';
 export type LocalDraft = {
@@ -23,9 +24,17 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
     if (!e || typeof e !== 'object' || typeof e.id !== 'string' || ids.has(e.id)) return false;
     ids.add(e.id);
     return (
-      ['text', 'image', 'shape', 'icon', 'resource', 'qrcode', 'divider', 'footer'].includes(
-        e.type,
-      ) &&
+      [
+        'text',
+        'image',
+        'shape',
+        'icon',
+        'resource',
+        'qrcode',
+        'divider',
+        'footer',
+        'block',
+      ].includes(e.type) &&
       [
         'x',
         'y',
@@ -62,7 +71,10 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
         (typeof e.sourceUrl === 'string' &&
           /^https:\/\//.test(e.sourceUrl) &&
           e.sourceUrl.length <= 2048)) &&
-      (e.src === undefined || /^data:image\/(png|jpeg|webp|gif);base64,[a-z\d+/=]+$/i.test(e.src))
+      (e.block === undefined || validBlock(e.block)) &&
+      (e.src === undefined ||
+        e.src === campusArt ||
+        /^data:image\/(png|jpeg|webp|gif);base64,[a-z\d+/=]+$/i.test(e.src))
     );
   });
 }
@@ -128,5 +140,47 @@ export function duplicateDraft(storage: Storage, id: string) {
     draft.document,
     draft.recipientName ?? '',
     Boolean(draft.recipientName),
+  );
+}
+
+function validBlock(b: import('./posterTypes').BlockContent) {
+  return (
+    b &&
+    typeof b === 'object' &&
+    Object.hasOwn(blockNames, b.kind) &&
+    ['header', 'content', 'footer'].includes(b.role) &&
+    ['label', 'title', 'subtitle', 'body', 'icon'].every(
+      (k) =>
+        typeof b[k as keyof typeof b] === 'string' &&
+        String(b[k as keyof typeof b]).length <= 100000,
+    ) &&
+    ['accentColor', 'headerColor', 'rowColor', 'overlayColor'].every((k) =>
+      /^#[\da-f]{6}$/i.test(String(b[k as keyof typeof b])),
+    ) &&
+    ['radius', 'zoom', 'offsetX', 'offsetY', 'overlay'].every((k) =>
+      Number.isFinite(b[k as keyof typeof b]),
+    ) &&
+    b.zoom >= 1 &&
+    b.zoom <= 5 &&
+    b.overlay >= 0 &&
+    b.overlay <= 1 &&
+    b.radius >= 0 &&
+    ['solid', 'brush', 'underline'].includes(b.bannerStyle) &&
+    ['cover', 'contain', 'fill'].includes(b.fitMode) &&
+    Array.isArray(b.items) &&
+    b.items.length <= 100 &&
+    b.items.every((i) => typeof i === 'string') &&
+    Array.isArray(b.columns) &&
+    b.columns.length >= 1 &&
+    b.columns.length <= 6 &&
+    b.columns.every((c) => typeof c === 'string') &&
+    Array.isArray(b.rows) &&
+    b.rows.length <= 100 &&
+    b.rows.every(
+      (r) =>
+        Array.isArray(r) && r.length === b.columns.length && r.every((c) => typeof c === 'string'),
+    ) &&
+    Array.isArray(b.columnAlign) &&
+    b.columnAlign.every((a) => ['left', 'center', 'right'].includes(a))
   );
 }

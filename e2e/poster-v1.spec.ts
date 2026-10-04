@@ -5,7 +5,7 @@ import jsQR from 'jsqr';
 test('auto arrange preserves readable resources, quality tools fix overflow, and zoom works', async ({
   page,
 }) => {
-  await page.goto('./#/poster');
+  await page.goto('./#/poster/edit');
   for (const title of ['Campus Public Safety', 'Safe Walk', 'SFU Computing ID'])
     await page.locator('.resource-picker button').filter({ hasText: title }).click();
   await page.getByRole('button', { name: 'Auto Arrange resource cards', exact: true }).click();
@@ -15,7 +15,7 @@ test('auto arrange preserves readable resources, quality tools fix overflow, and
       Number(await page.getByLabel('Font size', { exact: true }).inputValue()),
     ).toBeGreaterThanOrEqual(16);
     await expect(page.getByLabel('Editable text')).not.toContainText('https://');
-    await expect(page.getByRole('button',{name:'Add official source QR'})).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Add official source QR' })).toBeVisible();
   }
   await page.getByLabel('Element height', { exact: true }).fill('50');
   await page.locator('.poster-quality summary').click();
@@ -32,7 +32,7 @@ test('drafts only persist by explicit action and names never enter network reque
 }) => {
   const requests: string[] = [];
   page.on('request', (r) => requests.push(r.url() + ' ' + (r.postData() ?? '')));
-  await page.goto('./#/poster');
+  await page.goto('./#/poster/edit');
   await page.getByLabel('Recipient first name').fill('PrivateRecipientExample');
   expect(await page.evaluate(() => localStorage.length)).toBe(0);
   await page.locator('.local-drafts summary').click();
@@ -59,10 +59,13 @@ test('drafts only persist by explicit action and names never enter network reque
   expect(requests.every((r) => r.startsWith(new URL(page.url()).origin))).toBe(true);
 });
 
-test('all eight templates render within bounds with readable text', async ({ page }) => {
-  for (let i = 0; i < 8; i++) {
+test('all ten templates render within bounds with readable text', async ({ page }) => {
+  for (let i = 0; i < 10; i++) {
     await page.goto('./#/poster/templates');
-    await page.getByRole('button', { name: 'Use template →', exact: true }).nth(i).click();
+    await page
+      .getByRole('button', { name: /Use template:/ })
+      .nth(i)
+      .click();
     await page.locator('.poster-quality summary').click();
     await expect(page.locator('.poster-quality')).not.toContainText('text overflows');
     await expect(page.locator('.poster-quality')).not.toContainText('extends outside');
@@ -73,7 +76,7 @@ test('all eight templates render within bounds with readable text', async ({ pag
 test('print PNG has correct bounds and a decodable QR; PDF has no hidden editable document', async ({
   page,
 }) => {
-  await page.goto('./#/poster');
+  await page.goto('./#/poster/edit');
   await page.getByRole('button', { name: 'QR Code', exact: true }).click();
   await page.getByRole('button', { name: 'Add QR Code', exact: true }).click();
   await page.getByRole('combobox', { name: 'Export quality' }).selectOption('3.125');

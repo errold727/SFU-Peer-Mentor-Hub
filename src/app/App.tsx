@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Resources from '../pages/Resources';
 import About from '../pages/About';
 import { ErrorBoundary } from '../components/ui/ErrorBoundary';
+const PosterStart = lazy(() => import('../pages/PosterStart'));
 const Poster = lazy(() => import('../pages/Poster'));
 const Courses = lazy(() => import('../pages/Courses'));
 const Templates = lazy(() => import('../pages/Templates'));
@@ -62,14 +63,15 @@ export default function App() {
       <main
         id="main"
         tabIndex={-1}
-        className={location.pathname === '/poster' ? 'editor-main' : undefined}
+        className={location.pathname === '/poster/edit' ? 'editor-main' : undefined}
       >
         <ErrorBoundary key={location.pathname}>
           <Suspense fallback={<p role="status">Loading your workspace…</p>}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/resources" element={<Resources />} />
-              <Route path="/poster" element={<Poster />} />
+              <Route path="/poster" element={<PosterStart />} />
+              <Route path="/poster/edit" element={<Poster />} />
               <Route path="/poster/templates" element={<Templates />} />
               <Route path="/course-planner" element={<Courses />} />
               <Route path="/about" element={<About />} />

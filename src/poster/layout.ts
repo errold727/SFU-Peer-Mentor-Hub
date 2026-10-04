@@ -1,3 +1,4 @@
+import { blockParts } from './blockLayout';
 import Konva from 'konva';
 import {
   posterSizes,
@@ -7,6 +8,7 @@ import {
 } from './posterTypes';
 
 export function textHeight(element: PosterElement, recipientName = '') {
+  if (element.block) return blockParts(element, recipientName).height;
   const measurement = new Konva.Text({
     text: resolveRecipient(element.text, recipientName),
     width: element.width,

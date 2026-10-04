@@ -9,6 +9,7 @@ on:
         codex/v1,
         codex/course-offerings-v2,
         codex/ui-density-polish,
+        codex/poster-maker-v2,
         data/course-offerings-sync,
       ]
   pull_request:

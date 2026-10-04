@@ -49,6 +49,8 @@ test('home exposes current resources and editor exposes canvas above the desktop
   const resource = (await page.locator('.resource-card').first().boundingBox())!;
   expect(resource.y + resource.height).toBeLessThan(900);
   await page.locator('.hero').getByRole('link', { name: 'Create Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Create Poster', exact: true }).click();
   await expect(page.locator('canvas').first()).toBeVisible();
   expect((await page.locator('canvas').first().boundingBox())!.y).toBeLessThan(450);
   await expect(page.getByRole('link', { name: 'Privacy', exact: true })).toBeVisible();

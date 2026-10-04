@@ -10,6 +10,7 @@ for (const width of [375, 390, 768, 1024, 1440]) {
       ['resources', 'SFU Resource Hub'],
       ['course-planner', 'SFU Course Planner'],
       ['poster', 'Poster Maker'],
+      ['poster/edit', 'Poster Maker'],
       ['poster/templates', 'Template Gallery'],
       ['about', 'About this hub'],
     ]) {
@@ -17,7 +18,7 @@ for (const width of [375, 390, 768, 1024, 1440]) {
       await expect(page.getByRole('heading', { name: title, exact: true })).toBeVisible();
       if (route === 'course-planner')
         await expect(page.locator('.course-card').first()).toBeVisible();
-      if (route === 'poster') await expect(page.locator('canvas').first()).toBeVisible();
+      if (route === 'poster/edit') await expect(page.locator('canvas').first()).toBeVisible();
       expect(
         await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
         `${route} horizontal overflow`,

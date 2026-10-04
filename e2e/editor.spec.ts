@@ -9,10 +9,10 @@ async function png(page: Page) {
 test('exports exclude handles and hidden content, while keyboard, lock, undo and redo work', async ({
   page,
 }) => {
-  await page.goto('./#/poster');
+  await page.goto('./#/poster/edit');
   await expect(page.locator('canvas').first()).toBeVisible();
   const original = await png(page);
-  await page.locator('.layer-list button').filter({ hasText: 'IMPORTANT INFORMATION' }).click();
+  await page.locator('.layer-list button').filter({ hasText: 'STUDENT ESSENTIALS' }).click();
   const withSelection = await png(page);
   expect(withSelection.equals(original)).toBe(true);
   await page.getByRole('button', { name: 'Text', exact: true }).click();
@@ -48,7 +48,7 @@ test('exports exclude handles and hidden content, while keyboard, lock, undo and
 test('canvas supports pointer dragging and resizing; higher resolution and landscape exports work', async ({
   page,
 }) => {
-  await page.goto('./#/poster');
+  await page.goto('./#/poster/edit');
   await page.getByRole('button', { name: 'Text', exact: true }).click();
   await page.getByRole('button', { name: 'Add body text', exact: true }).click();
   const canvas = page.locator('canvas').first();
@@ -83,11 +83,11 @@ test('canvas supports pointer dragging and resizing; higher resolution and lands
 });
 test('all templates load editable content and QR code exports render', async ({ page }) => {
   await page.goto('./#/poster/templates');
-  await expect(page.getByRole('button', { name: 'Use template' })).toHaveCount(8);
-  await page.getByRole('button', { name: 'Use template' }).first().click();
+  await expect(page.getByRole('button', { name: 'Use template' })).toHaveCount(10);
+  await page.getByRole('button', { name: 'Use template: Welcome to SFU', exact: true }).click();
   await page.getByLabel('Recipient first name').fill('Avery');
-  await page.locator('.layer-list button').filter({ hasText: '{{recipientName}}' }).click();
-  await expect(page.getByLabel('Editable text')).toHaveValue('{{recipientName}}');
+  await page.locator('.layer-list button').filter({ hasText: 'Hello, {{recipientName}}!' }).click();
+  await expect(page.getByLabel('Editable text')).toHaveValue('Hello, {{recipientName}}!');
   await page.getByRole('button', { name: 'QR Code', exact: true }).click();
   await page.getByRole('button', { name: 'Add QR Code', exact: true }).click();
   await expect(
