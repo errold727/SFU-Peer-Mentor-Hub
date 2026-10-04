@@ -130,7 +130,7 @@ Review the regenerated images alongside the references before committing. Do not
 
 ## Validation and release status
 
-Local validation recorded on 2026-10-04 against implementation commit `3a81268`. Release checks and production verification follow in the pull request.
+Local validation recorded on 2026-10-04 after the mixed-term enrollment and reserved-layout boundary fixes. Release checks and production verification follow in the pull request.
 
 | Check                                                     | Status                                                                                                                                                                    |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -140,8 +140,8 @@ Local validation recorded on 2026-10-04 against implementation commit `3a81268`.
 | Deep tests                                                | Passed all five: Weekly Check-In Newsletter, Welcome to SFU Orientation, Course Planning — Classic, Workshop / Event — Dark, International Students                       |
 | PNG export and visual inspection                          | Five actual manual PNG downloads opened and visually inspected; all 816 × 1056, with replaced hero and edited content                                                     |
 | PDF download and verification                             | Five manual PDFs parsed and rendered with Poppler: one Letter page each; embedded image exactly matches its PNG; no attachments                                           |
-| Full `npm test`, `npm run lint`, `npm run build`          | Passed: 212 tests; lint; production build                                                                                                                                 |
-| Browser suite                                             | Passed 53/53, including 15 template interactions, five deep exports, accessibility, resources, courses and responsive editing                                             |
+| Full `npm test`, `npm run lint`, `npm run build`          | Passed: 218 tests; lint; production build                                                                                                                                 |
+| Browser suite                                             | Passed 54/54, including 15 template interactions, five deep exports, accessibility, resources, courses and responsive editing                                             |
 | GitHub Actions, PR merge and Pages deployment             | See associated PR checks and Actions deployment run                                                                                                                       |
 | Production template loading, edits, previews and export   | Recorded in the merged PR release verification                                                                                                                            |
 
@@ -149,7 +149,7 @@ Reviewed browser screenshots are stored under `docs/ui-review/template-import/`:
 
 Each deep manual workflow replaced the hero, edited the main title and at least two content blocks, deleted/duplicated/reordered sections, exercised Auto Arrange and Undo, and downloaded PNG/PDF. The reference composition was restored after arrangement for export comparison. All 15 defaults also passed browser-measured bounds/readability checks. Table row reordering and resource overflow guidance were checked separately.
 
-The dense newsletter regression exposed avoidable Auto Arrange row waste. The layout now tries measured one-/two-card rows when its preferred announcement grouping cannot fit, preserving content order, text and font sizes. The original regression then passed unchanged.
+The dense newsletter regression exposed avoidable Auto Arrange row waste. The layout now tries measured one-/two-card rows when its preferred announcement grouping cannot fit, preserving content order, text and font sizes. The original regression then passed unchanged. If fixed sections leave no usable space, Auto Arrange keeps the document unchanged and explains recovery. Enrollment rows include the term so identical course/section codes across terms remain distinguishable; a browser regression checks sourced mixed-term counts and style preservation.
 
 ## Known limits
 

@@ -28,7 +28,7 @@ describe('poster enrollment snapshots', () => {
     });
     const table = enrollmentSnapshotTable([resource]);
     expect(table.rows).toEqual([
-      ['TEST 101 · D100', '25 / 30 enrolled · Waitlist: 0 / 10', course.snapshotAt],
+      ['TEST 101 · D100 · Spring 2027', '25 / 30 enrolled · Waitlist: 0 / 10', course.snapshotAt],
     ]);
     expect(table.provenance).toEqual([
       {
@@ -89,7 +89,10 @@ describe('poster enrollment snapshots', () => {
     });
     const table = enrollmentSnapshotTable([first, { ...first, id: 'ordinary-resource' }, second]);
     expect(table.rows).toHaveLength(2);
-    expect(table.rows.map((row) => row[0])).toEqual(['TEST 101 · D100', 'TEST 101 · D200']);
+    expect(table.rows.map((row) => row[0])).toEqual([
+      'TEST 101 · D100 · Spring 2027',
+      'TEST 101 · D200 · Spring 2027',
+    ]);
     expect(table.provenance.map((source) => source.lastVerified)).toEqual([
       '2026-10-01',
       '2026-10-02',
@@ -103,11 +106,45 @@ describe('poster enrollment snapshots', () => {
     const oldResource = { ...resource, facts: [{ label: 'Instructor', value: 'Unavailable' }] };
     const table = enrollmentSnapshotTable([oldResource]);
     expect(table.rows[0]).toEqual([
-      'TEST 101 · Unavailable',
+      'TEST 101 · Unavailable · Spring 2027',
       'Unavailable · Waitlist: Unavailable',
       'Unavailable',
     ]);
     expect(table.provenance[0].sourceUrl).toBe(resource.sourceUrl);
     expect(table.provenance[0].lastVerified).toBeNull();
+  });
+
+  it('identifies the term on each row when the same course and section span two terms', () => {
+    const fall = courseToResource({
+      ...course,
+      term: 'Fall 2026',
+      courSysUrl: 'https://coursys.sfu.ca/browse/#!semester=1267&subject=TEST',
+      enrollment: { enrolled: 25, capacity: 30, waitlistCount: 2 },
+    });
+    const spring = courseToResource({
+      ...course,
+      enrollment: { enrolled: 0, capacity: 30, waitlistCount: 0 },
+    });
+    const table = enrollmentSnapshotTable([fall, spring]);
+    expect(table.columns).toHaveLength(3);
+    expect(table.rows.map((row) => row[0])).toEqual([
+      'TEST 101 · D100 · Fall 2026',
+      'TEST 101 · D100 · Spring 2027',
+    ]);
+    expect(table.rows.map((row) => row[1])).toEqual([
+      '25 / 30 enrolled · Waitlist: 2',
+      '0 / 30 enrolled · Waitlist: 0',
+    ]);
+    expect(table.provenance.map((source) => source.sourceUrl)).toEqual([
+      fall.facts!.find((fact) => fact.label === 'Enrollment source')!.value,
+      course.courSysUrl,
+    ]);
+    expect(new Set(table.provenance.map((source) => source.id)).size).toBe(2);
+  });
+
+  it('labels missing row terms explicitly instead of guessing from other selected courses', () => {
+    const resource = courseToResource(course);
+    const table = enrollmentSnapshotTable([{ ...resource, term: undefined }]);
+    expect(table.rows[0][0]).toBe('TEST 101 · D100 · Term unavailable');
   });
 });

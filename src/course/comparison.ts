@@ -117,9 +117,9 @@ export function enrollmentSnapshotTable(resources: SFUResource[]) {
       ...new Set(courses.map((r) => r.term).filter(Boolean)),
       'Recorded counts; confirm current details with SFU.',
     ].join(' · '),
-    columns: ['Course / section', 'Enrollment', 'Snapshot'],
+    columns: ['Course / term', 'Enrollment', 'Snapshot'],
     rows: courses.map((r) => [
-      `${r.title.split(' · ')[0]} · ${fact(r, 'Section')}`,
+      `${r.title.split(' · ')[0]} · ${fact(r, 'Section')} · ${r.term?.trim() || 'Term unavailable'}`,
       `${fact(r, 'Enrollment')} · Waitlist: ${fact(r, 'Enrollment waitlist')}`,
       fact(r, 'Enrollment snapshot'),
     ]),

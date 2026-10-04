@@ -59,3 +59,58 @@ describe('measured alternative block rows', () => {
     }
   });
 });
+
+describe('reserved boundaries and minimum row space', () => {
+  it('does not move existing content when a header reaches beyond the footer', () => {
+    const original = sixCardPoster();
+    original.elements[0] = { ...original.elements[0], y: 960, height: 72 };
+    original.elements[1] = { ...original.elements[1], y: 420, height: 160 };
+    original.elements.at(-1)!.y = 986;
+    const result = arrangeBlocks(original, '', () => 180);
+    expect(result.document).toBe(original);
+    expect(result.document.elements[1]).toMatchObject({ y: 420, height: 160 });
+    expect(result.warnings.join(' ')).toContain('No free area');
+  });
+  it('leaves the layout unchanged when positive space cannot hold minimum rows and gaps', () => {
+    const original = sixCardPoster();
+    original.elements[0] = { ...original.elements[0], y: 32, height: 740 };
+    const result = arrangeBlocks(original, '', () => 180);
+    expect(result.document).toBe(original);
+    expect(result.warnings.join(' ')).toContain('readable rows');
+  });
+  it('clips off-page reserved bounds to the printable area', () => {
+    const original = sixCardPoster();
+    original.elements[0] = { ...original.elements[0], y: -300, height: 100 };
+    original.elements.at(-1)!.y = 1400;
+    const result = arrangeBlocks(original, '', () => 80);
+    expect(result.warnings).toEqual([]);
+    for (const element of result.document.elements.filter((e) => e.block?.role === 'content')) {
+      expect(element.y).toBeGreaterThanOrEqual(32);
+      expect(element.y + element.height).toBeLessThanOrEqual(1024);
+    }
+    expect(result.document.elements[0]).toEqual(original.elements[0]);
+    expect(result.document.elements.at(-1)).toEqual(original.elements.at(-1));
+  });
+  it('keeps unequal compressed rows above their minimum and inside reserved bounds', () => {
+    const original = sixCardPoster();
+    original.elements = [
+      original.elements[0],
+      ...original.elements.slice(1, 5),
+      original.elements.at(-1)!,
+    ];
+    original.elements[0].height = 690;
+    original.elements[1].block!.kind = 'info';
+    const result = arrangeBlocks(original, '', (element) =>
+      ['Card 0', 'Card 1'].includes(element.block!.title) ? 2000 : 72,
+    );
+    const cards = result.document.elements.filter((e) => e.block?.role === 'content');
+    expect(result.warnings).toHaveLength(1);
+    expect(new Set(cards.map((element) => element.y)).size).toBe(2);
+    for (const [index, element] of cards.entries()) {
+      expect(element.height).toBeGreaterThanOrEqual(72);
+      expect(element.y).toBeGreaterThanOrEqual(736);
+      expect(element.y + element.height).toBeLessThanOrEqual(968.00001);
+      for (const other of cards.slice(index + 1)) expect(intersects(element, other)).toBe(false);
+    }
+  });
+});
