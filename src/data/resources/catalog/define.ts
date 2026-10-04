@@ -44,6 +44,7 @@ export type CatalogInput = Omit<
   tags?: string[];
   actionUrl?: string;
   lifecycle?: DirectoryResource['lifecycle'];
+  reviewDueAt?: string | null;
 };
 // Only publication-shape defaults live here. Research dates and review outcomes must be explicit.
 export function defineResource(input: CatalogInput): DirectoryResource {
@@ -91,6 +92,9 @@ export function defineResource(input: CatalogInput): DirectoryResource {
       input.campuses.length === 1 && input.campuses[0] !== 'Online' ? input.campuses[0] : 'All',
     lastVerified: reviewed ? input.verification.verifiedAt!.slice(0, 10) : null,
     posterCompatible: true,
-    reviewDueAt: due?.toISOString().slice(0, 10) ?? null,
+    reviewDueAt:
+      input.reviewDueAt !== undefined
+        ? input.reviewDueAt
+        : (due?.toISOString().slice(0, 10) ?? null),
   };
 }
