@@ -32,7 +32,7 @@ test('desktop course density preserves grouping, source disclosure and compact a
   await expect(row.getByRole('link', { name: 'CourSys', exact: false })).toBeVisible();
   await expect(row.getByRole('link', { name: 'Course Outline', exact: false })).toBeVisible();
   await row.getByRole('button', { name: '+ Compare', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'Selected Courses (1)' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Selected sections (1)' })).toBeVisible();
   await row.getByRole('button', { name: 'Poster', exact: true }).click();
   await expect(page.getByRole('link', { name: 'Poster Content (1) →' })).toBeVisible();
   await row.getByRole('button', { name: 'Details →', exact: true }).click();

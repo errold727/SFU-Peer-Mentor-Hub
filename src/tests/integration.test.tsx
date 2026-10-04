@@ -55,9 +55,9 @@ describe('resource UI integration', () => {
   });
 });
 describe('privacy architecture', () => {
-  it('has only public basket and ephemeral editor stores, no database dependencies or storage writes', () => {
+  it('keeps basket, editor and course planning stores ephemeral without database dependencies or storage writes', () => {
     const files = readdirSync(resolve('src/store')).sort();
-    expect(files).toEqual(['posterBasketStore.ts', 'posterStore.ts']);
+    expect(files).toEqual(['coursePlannerStore.ts', 'posterBasketStore.ts', 'posterStore.ts']);
     for (const file of files) {
       const source = readFileSync(resolve('src/store', file), 'utf8');
       expect(source).not.toMatch(/localStorage|sessionStorage|indexedDB|persist\(/);

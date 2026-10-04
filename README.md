@@ -18,7 +18,7 @@ A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find p
 
 There is **no backend, login, analytics, mentee database, student profile, mentor/mentee assignment, communication history or central recipient storage**.
 
-The two Zustand stores are memory-only. A full refresh clears the active basket, editor, uploaded images and recipient field. Recipient placeholders resolve only for rendering. The editor makes no third-party requests: QR images are generated locally and image uploads become local data URLs.
+The three Zustand stores are memory-only. Course section selections survive internal navigation and remain separate by term; a full refresh clears them along with the active basket, editor, uploaded images and recipient field. Recipient placeholders resolve only for rendering. The editor makes no third-party requests: QR images are generated locally and image uploads become local data URLs. Planning choices are never written into storage, shared URLs or network requests.
 
 `src/poster/drafts.ts` is the only persistence boundary. It writes only after explicit Save locally or Duplicate actions. The recipient field is excluded by default; checking the personalized-draft option explicitly includes it. All manually entered poster text, hidden layers and images are part of an intentionally saved draft, so review them on shared devices. Drafts are never restored automatically and can be individually or entirely deleted. They are not encrypted, synced or backed up; browser data clearing removes them. Storage is limited to 20 drafts and approximately 4 million serialized characters, subject to browser quota. Invalid/remote-image draft payloads are rejected.
 
@@ -58,7 +58,7 @@ src/app/                      Shell, routing and error recovery
 src/pages/                    Route-level views, including poster start/gallery/editor
 src/components/               Resource cards, basket and accessible dialogs
 src/data/resources/           Public facts and official source metadata
-src/store/                    Ephemeral editor and basket stores
+src/store/                    Ephemeral course planning, editor and basket stores
 src/poster/                   Canvas, layout, quality, styles, drafts and exports
 src/poster/templates/         Fifteen structured template configurations and registry
 src/course/                   Types, validation, comparisons, timetable and conflicts

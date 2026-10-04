@@ -5,22 +5,31 @@ export function Modal({
   onClose,
   children,
   variant = 'modal',
+  returnFocus,
 }: {
   title: string;
   onClose: () => void;
   children: ReactNode;
-  variant?: 'modal' | 'drawer';
+  variant?: 'modal' | 'drawer' | 'timetable';
+  returnFocus?: () => HTMLElement | null;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const focusTarget = useRef(returnFocus);
+  focusTarget.current = returnFocus;
   useEffect(() => {
     const d = ref.current;
     const opener = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    if (variant === 'timetable') document.body.style.overflow = 'hidden';
     d?.showModal();
     return () => {
       d?.close();
-      opener?.focus();
+      if (variant === 'timetable') document.body.style.overflow = previousOverflow;
+      // The launcher may have been removed by clearing the last selected section.
+      const target = focusTarget.current?.() ?? (opener?.isConnected ? opener : null);
+      target?.focus({ preventScroll: true });
     };
-  }, []);
+  }, [variant]);
   return (
     <dialog
       ref={ref}
@@ -43,12 +52,22 @@ export function Modal({
         }
       }}
       aria-label={title}
-      className={variant === 'drawer' ? 'detail-drawer' : undefined}
+      className={
+        variant === 'drawer'
+          ? 'detail-drawer'
+          : variant === 'timetable'
+            ? 'timetable-dialog'
+            : undefined
+      }
     >
       <header className="section-heading">
         <h2>{title}</h2>
-        <button aria-label="Close details" onClick={onClose}>
+        <button
+          aria-label={variant === 'timetable' ? 'Close timetable' : 'Close details'}
+          onClick={onClose}
+        >
           <X size={20} />
+          {variant === 'timetable' && 'Close'}
         </button>
       </header>
       {children}
