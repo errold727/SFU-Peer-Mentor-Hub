@@ -62,8 +62,6 @@ export type CourseDataset = {
   courses: CourseOffering[];
 };
 export const courseId = (c: CourseOffering) => `${c.term}:${c.code}:${c.section}`;
-export const terms = { '2027-spring': 'Spring 2027', '2026-fall': 'Fall 2026' };
-export const departments = ['ENGL', 'ECON', 'CMPT', 'LING', 'CRIM', 'PSYC', 'POL', 'ARCH'];
 export const offeringTerms = {
   '1267': { label: 'Fall 2026', path: '2026/fall' },
   '1271': { label: 'Spring 2027', path: '2027/spring' },

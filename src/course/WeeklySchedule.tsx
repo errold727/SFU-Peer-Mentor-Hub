@@ -1,4 +1,6 @@
 import { courseId, type CourseOffering } from './courseTypes';
+import { meetingsOverlap } from './conflictDetection';
+import { Timetable } from './Timetable';
 export function WeeklySchedule({ courses }: { courses: CourseOffering[] }) {
   return (
     <details className="weekly-schedule">
@@ -6,6 +8,8 @@ export function WeeklySchedule({ courses }: { courses: CourseOffering[] }) {
       {[...new Set(courses.map((c) => c.term))].map((term) => (
         <section key={term}>
           <h3>{term}</h3>
+          <Timetable courses={courses.filter((c) => c.term === term)} />
+          <h4>Full meeting details</h4>
           <div className="week-grid">
             {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => {
               const meetings = courses
@@ -19,12 +23,31 @@ export function WeeklySchedule({ courses }: { courses: CourseOffering[] }) {
                   <h4>{day}</h4>
                   {meetings.length ? (
                     meetings.map(({ c, m, i }) => (
-                      <p key={courseId(c) + i}>
+                      <p
+                        key={courseId(c) + i}
+                        className={
+                          meetings.some(
+                            (other) =>
+                              courseId(other.c) !== courseId(c) && meetingsOverlap(m, other.m),
+                          )
+                            ? 'meeting-conflict'
+                            : undefined
+                        }
+                      >
                         <strong>
                           {c.code} {c.section}
                         </strong>
                         <br />
                         {m.displayStart}–{m.displayEnd}
+                        {meetings.some(
+                          (other) =>
+                            courseId(other.c) !== courseId(c) && meetingsOverlap(m, other.m),
+                        ) && (
+                          <>
+                            <br />
+                            <strong>Overlapping meeting</strong>
+                          </>
+                        )}
                         <br />
                         <small>
                           {m.kind ?? c.sectionType}

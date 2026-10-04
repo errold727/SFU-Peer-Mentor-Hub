@@ -13,7 +13,8 @@ describe('poster editor', () => {
       .getState()
       .document.elements.find((e) => e.resourceId === resources[1].id)!;
     expect(element.text).toContain('778-782-4500');
-    expect(element.text).toContain(resources[1].sourceUrl);
+    expect(element.text).not.toContain(resources[1].sourceUrl);
+    expect(element.sourceUrl).toBe(resources[1].sourceUrl);
     s.update(element.id, { text: 'Edited' });
     expect(usePosterStore.getState().document.elements.find((e) => e.id === element.id)?.text).toBe(
       'Edited',

@@ -14,7 +14,8 @@ test('auto arrange preserves readable resources, quality tools fix overflow, and
     expect(
       Number(await page.getByLabel('Font size', { exact: true }).inputValue()),
     ).toBeGreaterThanOrEqual(16);
-    await expect(page.getByLabel('Editable text')).toContainText('https://');
+    await expect(page.getByLabel('Editable text')).not.toContainText('https://');
+    await expect(page.getByRole('button',{name:'Add official source QR'})).toBeVisible();
   }
   await page.getByLabel('Element height', { exact: true }).fill('50');
   await page.locator('.poster-quality summary').click();

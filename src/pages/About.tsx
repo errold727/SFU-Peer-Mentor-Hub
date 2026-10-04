@@ -48,10 +48,11 @@ export default function About() {
       </p>
       <h2>Course data</h2>
       <p>
-        Course Planner includes 1,628 published undergraduate sections across eight departments and
-        two terms, normalized from SFU’s public Course Outlines API. It is not live enrollment data.
-        Missing schedules, seats, instructors or prerequisites remain unavailable. Always verify all
-        required lectures, tutorials and labs in the official outline and goSFU.
+        Course Planner discovers the public offering universe from SFU CourSys for Fall 2026 (1267)
+        and Spring 2027 (1271), with details from SFU Course Outlines. Each term shows its subject
+        coverage and snapshot time. It is not live enrollment data. Missing schedules, seats,
+        instructors or prerequisites remain unavailable. Always verify all required lectures,
+        tutorials and labs in the official outline and goSFU.
       </p>
       <h2>Independent visual identity</h2>
       <p>

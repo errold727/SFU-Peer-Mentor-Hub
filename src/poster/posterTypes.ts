@@ -26,6 +26,7 @@ export type PosterElement = {
   src?: string;
   shape?: string;
   resourceId?: string;
+  sourceUrl?: string;
 };
 export type PosterDocument = {
   elements: PosterElement[];

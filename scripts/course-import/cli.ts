@@ -1,5 +1,5 @@
 import { offeringTerms, type TermCode } from '../../src/course/courseTypes';
-import { discoverSubjects, publishTerm, syncTerm } from './pipeline';
+import { discoverSubjects, publishTerm, syncTerm, writeJSON } from './pipeline';
 import { subjectsFromOfferings } from './coursys';
 const [command, argument, ...flags] = process.argv.slice(2);
 const terms =
@@ -20,8 +20,26 @@ for (const term of terms) {
         sectionCount: d.courses.length,
       }),
     );
-  } else if (command === 'sync') await syncTerm(term, flags.includes('--force'));
-  else if (command === 'publish') {
+  } else if (command === 'sync') {
+    const statusFile = `.course-import/${term}/last-attempt.json`;
+    await writeJSON(statusFile, { status: 'running', startedAt: new Date().toISOString() });
+    try {
+      const result = await syncTerm(term, flags.includes('--force'));
+      await writeJSON(statusFile, {
+        status: 'complete',
+        snapshotAt: result.snapshotAt,
+        completedAt: result.completedAt,
+      });
+    } catch (error) {
+      await writeJSON(statusFile, {
+        status: 'failed',
+        failedAt: new Date().toISOString(),
+        complete: false,
+        reason: error instanceof Error ? error.message : 'Unknown import failure',
+      });
+      throw error;
+    }
+  } else if (command === 'publish') {
     await publishTerm(term);
     console.log(`Published validated ${term} snapshot`);
   } else throw Error('Unknown command');

@@ -24,8 +24,9 @@ export function validateOfferings(raw: unknown): asserts raw is OfferingDataset 
     if (
       c.termCode !== d.termCode ||
       c.term !== offeringTerms[d.termCode].label ||
-      !c.source?.courSys ||
-      !validTimestamp(c.snapshotAt) ||
+      c.source?.courSys !== true ||
+      typeof c.source.courseOutlines !== 'boolean' ||
+      c.snapshotAt !== d.snapshotAt ||
       c.courSysUrl !== buildCoursysBrowseUrl(d.termCode, c.department)
     )
       throw Error('Offering provenance mismatch');
@@ -40,6 +41,22 @@ export function validateOfferings(raw: unknown): asserts raw is OfferingDataset 
     if (c.source.courseOutlines !== !!c.outlineUrl) throw Error('Outline provenance mismatch');
     if (c.outlineRetrievedAt && !validTimestamp(c.outlineRetrievedAt))
       throw Error('Invalid outline retrieval time');
+    for (const field of [
+      'classNumber',
+      'deliveryMethod',
+      'corequisites',
+      'units',
+      'designation',
+      'description',
+      'registrarNotes',
+    ] as const)
+      if (c[field] !== undefined && typeof c[field] !== 'string')
+        throw Error('Invalid optional offering text');
+    if (
+      c.crosslistedWith !== undefined &&
+      (!Array.isArray(c.crosslistedWith) || c.crosslistedWith.some((v) => typeof v !== 'string'))
+    )
+      throw Error('Invalid crosslisted courses');
     for (const [key, value] of Object.entries(c.enrollment ?? {}))
       if (key !== 'raw' && (!Number.isInteger(value) || Number(value) < 0))
         throw Error('Invalid enrollment count');

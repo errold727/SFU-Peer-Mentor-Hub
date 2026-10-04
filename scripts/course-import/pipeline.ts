@@ -45,6 +45,7 @@ export async function discoverSubjects(term: TermCode, directory: string, force 
     const pageFile = join(directory, `page-${start}.json`);
     let raw: unknown;
     try {
+      if (force) throw Object.assign(new Error('Fresh discovery'), { code: 'ENOENT' });
       raw = await readJSON(pageFile);
     } catch (e) {
       if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e;
@@ -280,6 +281,7 @@ export async function validateTermDirectory(root: string) {
   const subjects = await readJSON(join(root, 'subjects.json'));
   if (
     subjects.termCode !== m.termCode ||
+    subjects.snapshotAt !== m.snapshotAt ||
     JSON.stringify(subjects.subjects) !== JSON.stringify(m.subjects)
   )
     throw Error('Subject directory mismatch');
@@ -310,16 +312,51 @@ export async function validateTermDirectory(root: string) {
   validateOfferings(index);
   if (
     index.termCode !== m.termCode ||
+    index.snapshotAt !== m.snapshotAt ||
     JSON.stringify(index.courses.map(courseId).sort()) !== JSON.stringify(all.map(courseId).sort())
   )
     throw Error('Search index mismatch');
+  const details = new Map(all.map((c) => [courseId(c), c]));
+  for (const c of index.courses) {
+    const detail = details.get(courseId(c))!;
+    for (const key of Object.keys(c) as (keyof CourseOffering)[])
+      if (JSON.stringify(c[key]) !== JSON.stringify(detail[key]))
+        throw Error('Search index differs from section details');
+  }
   if (all.length !== m.sourceSectionCount || new Set(all.map((c) => c.code)).size !== m.courseCount)
     throw Error('Source coverage mismatch');
+  const stats = {
+    enrollmentSections: all.filter((c) => c.enrollmentSection === true).length,
+    tutorialLabSections: all.filter((c) => ['TUT', 'LAB'].includes(c.sectionType ?? '')).length,
+    withSchedules: all.filter((c) => c.meetings.length).length,
+    withoutSchedules: all.filter((c) => !c.meetings.length).length,
+    withEnrollment: all.filter((c) => c.enrollment).length,
+    enrichedSections: all.filter((c) => c.source?.courseOutlines).length,
+  };
+  for (const [key, value] of Object.entries(stats))
+    if (m[key as keyof typeof stats] !== value) throw Error('Manifest statistic mismatch');
+  for (const s of m.subjects)
+    if (
+      new Set(all.filter((c) => c.department === s.code).map((c) => c.code)).size !== s.courseCount
+    )
+      throw Error('Subject course count mismatch');
   return { manifest: m, courses: all };
 }
 
-export async function publishTerm(term: TermCode, destination = 'public/data/courses') {
-  const candidate = join('.course-import', term, 'candidate');
+export async function publishTerm(
+  term: TermCode,
+  destination = 'public/data/courses',
+  inputCandidate?: string,
+) {
+  const candidate = inputCandidate ?? join('.course-import', term, 'candidate');
+  if (!inputCandidate) {
+    const status = await readJSON(join('.course-import', term, 'last-attempt.json'));
+    if (status.status !== 'complete')
+      throw Error('Latest import has not completed; previous production preserved.');
+    const candidateManifest = await readJSON(join(candidate, 'manifest.json'));
+    if (status.snapshotAt !== candidateManifest.snapshotAt)
+      throw Error('Candidate is from a previous attempt.');
+  }
   const { manifest } = await validateTermDirectory(candidate);
   const target = join(destination, term);
   // Immutable versioned files first; manifest is the final atomic pointer. Old versions remain usable by in-flight clients.
