@@ -56,7 +56,10 @@ export function validateResources(
       (r.cost.status === 'published' && !r.cost.details)
     )
       fail('cost must be explicitly unknown or described');
-    if (r.cost?.status === 'unknown' && /\bfree\b|\$0\b/.test(r.cost.details ?? ''))
+    if (
+      r.cost?.status === 'unknown' &&
+      /^(?:free|no charges?|\$0(?:\.00)?)[.!]?$/i.test((r.cost.details ?? '').trim())
+    )
       fail('unknown cost cannot mean free');
     if (!officialSource(r.actionUrl ?? '')) fail('unsafe or unrecognized action URL');
     if (!['active', 'historical', 'discontinued'].includes(r.lifecycle ?? ''))
@@ -105,20 +108,27 @@ export function validateResources(
       r.evidence?.some(
         (e) =>
           (e.field === field || field.startsWith(e.field + '.')) &&
-          r.sources?.some((s) => s.id === e.sourceId && s.retrievalStatus === 'retrieved'),
+          r.sources?.some((s) => s.id === e.sourceId && instant(s.lastRetrievedAt)),
       );
-    for (const field of ['summary', 'access', 'eligibility'])
-      if (!mapped(field)) fail(`missing retrieved evidence for ${field}`);
+    if (!mapped('summary')) fail('missing retrieved evidence for summary');
+    for (const field of ['access', 'eligibility'] as const)
+      r[field]?.forEach((_, i) => {
+        if (!mapped(`${field}.${i}`)) fail(`missing retrieved evidence for ${field}.${i}`);
+      });
     for (const field of ['facts', 'contacts', 'sessions'] as const)
       r[field]?.forEach((_, i) => {
         if (!mapped(`${field}.${i}`)) fail(`missing evidence for ${field}.${i}`);
       });
     if (
-      r.highImpact &&
+      (r.highImpact ||
+        r.cost?.status === 'published' ||
+        r.contacts?.some((c) => c.kind === 'phone') ||
+        !!r.dates?.length ||
+        !!r.sessions?.length) &&
       requireSecondReview &&
       (!r.secondReview || !instant(r.secondReview.reviewedAt))
     )
-      fail('high-impact resource needs a separate review');
+      fail('high-impact or precise-claim resource needs a separate review');
     for (const id of r.relatedIds ?? [])
       if (!ids.has(id) || id === r.id) fail(`broken related ID ${id}`);
     const key = `${r.provider?.name}|${r.title.toLowerCase().replace(/[^a-z0-9]/g, '')}|${r.term ?? ''}`;
@@ -143,6 +153,14 @@ export function validateResources(
       )
         fail('invalid recurring session');
       if (!s.exceptions.every(validISODate)) fail('invalid closure exception');
+    }
+    for (const d of r.dates ?? []) {
+      const valid =
+        d.kind === 'timestamp'
+          ? Number.isFinite(Date.parse(d.start)) && !!d.timeZone
+          : validISODate(d.start);
+      if (!valid || (d.end && (!validISODate(d.end) || d.end < d.start)))
+        fail('invalid date event');
     }
     const serialized = JSON.stringify(r);
     if (/<\/?[a-z][^>]*>|javascript:|data:text\/html/i.test(serialized))

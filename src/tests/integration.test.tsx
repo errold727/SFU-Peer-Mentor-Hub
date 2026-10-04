@@ -41,9 +41,17 @@ describe('resource UI integration', () => {
       </MemoryRouter>,
     );
     await user.selectOptions(screen.getByLabelText('Category'), 'library');
-    expect(screen.getByText('1 resources')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /Bennett Library/ })).toBeInTheDocument();
     await user.selectOptions(screen.getByLabelText('Campus'), 'Surrey');
+    expect(screen.getByRole('heading', { name: /Fraser Library/ })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: /Bennett Library/ })).not.toBeInTheDocument();
+    await user.type(
+      screen.getByRole('textbox', { name: 'Search SFU resources' }),
+      'zzzxxy-no-resource',
+    );
     expect(screen.getByRole('heading', { name: 'No matching resources' })).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Clear filters' }));
+    expect(screen.getByRole('heading', { name: /Bennett Library/ })).toBeInTheDocument();
   });
 });
 describe('privacy architecture', () => {

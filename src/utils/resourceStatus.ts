@@ -16,7 +16,7 @@ export function resourceStatus(r: SFUResource, now = new Date()) {
   const reviewed = r.verification
     ? r.verification.status === 'reviewed' &&
       !!r.verification.verifiedAt &&
-      r.verification.verifiedAt.slice(0, 10) <= today
+      Date.parse(r.verification.verifiedAt) <= now.valueOf()
     : getVerificationStatus(r.lastVerified, now) === 'fresh';
   const freshness = !reviewed
     ? 'unknown'

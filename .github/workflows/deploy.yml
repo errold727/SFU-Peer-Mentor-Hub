@@ -11,6 +11,7 @@ on:
         codex/ui-density-polish,
         codex/poster-maker-v2,
         codex/import-poster-template-pack,
+        codex/resource-hub-completion,
         data/course-offerings-sync,
       ]
   pull_request:
@@ -38,6 +39,7 @@ jobs:
       - run: npm test
       - run: npm run courses:validate
       - run: npm run verify:resources -- --offline
+      - run: npm run resources:validate
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e

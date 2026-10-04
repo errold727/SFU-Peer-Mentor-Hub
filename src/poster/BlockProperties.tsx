@@ -379,10 +379,14 @@ export function BlockProperties({
               </a>
               <br />
               {p.lastVerified
-                ? `Last verified ${p.lastVerified}`
+                ? `Original resource reviewed ${p.lastVerified}`
                 : 'Unverified — check official source'}
             </p>
           ))}
+          <p>
+            Poster wording is editable and is not officially verified. Check the source after making
+            factual changes.
+          </p>
         </details>
       )}
     </div>

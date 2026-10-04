@@ -430,6 +430,25 @@ section {
   font-size: 14px;
   flex: 1;
 }
+.resource-card .resource-provider {
+  flex: 0;
+  color: var(--muted);
+  font-size: 12px;
+  margin: 0 0 4px;
+}
+.resource-details {
+  overflow-wrap: anywhere;
+}
+.resource-details h3 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.resource-details li {
+  margin-bottom: 6px;
+}
+.resource-details .fact-list {
+  margin-top: 16px;
+}
 .verification {
   font-size: 12px;
   color: #62625c;

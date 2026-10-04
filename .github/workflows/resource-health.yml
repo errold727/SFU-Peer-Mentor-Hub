@@ -16,7 +16,15 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run verify:resources
+      - run: npm run resources:validate
+      - run: npm run resources:report -- --output .resource-reports/coverage.json
+      - run: npm run resources:links -- --output .resource-reports/links.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: resource-health
+          path: .resource-reports/
+          retention-days: 30
       - run: npm run courses:validate
 # Read-only monthly report. No auto-commits, no date changes, no issues posted.
 # Bot challenges/timeouts remain blocked/unverified and do not fail the workflow.

@@ -22,7 +22,9 @@ export function officialSource(value: string) {
           'gov.bc.ca',
           'studentaidbc.ca',
           'guard.me',
-          'go2hr.ca',
+          'alumo.ca',
+          'writeaway.ca',
+          'embarksustainability.org',
         ].some((domain) => url.hostname === domain || url.hostname.endsWith('.' + domain)))
     );
   } catch {

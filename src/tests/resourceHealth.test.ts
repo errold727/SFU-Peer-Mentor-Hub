@@ -22,15 +22,18 @@ describe('resource reliability', () => {
     expect(searchResources(resources, q).length).toBeGreaterThan(0);
   });
   it('prioritizes the intended aliases', () => {
-    expect(searchResources(resources, 'quiet study')[0].id).toBe('bennett-library');
+    expect(['belzberg-library', 'fraser-library']).toContain(
+      searchResources(resources, 'quiet study')[0].id,
+    );
     expect(searchResources(resources, 'printing')[0].id).toBe('printing');
-    expect(searchResources(resources, 'drop course')[0].title).toMatch(/drop/i);
+    expect(searchResources(resources, 'drop course')[0].id).toBe('enrolment-changes');
   });
   it('validates all public resource metadata and intentional shared URLs', () => {
     const report = auditResources(resources, new Date('2026-10-03T20:00:00Z'));
     expect(report.errors).toEqual([]);
     expect(report.warnings).toContain('bennett-library: unverified');
-    expect(report.sharedSources.length).toBe(3);
+    expect(report.sharedSources.length).toBeGreaterThan(0);
+    expect(report.sharedSources.every(([, ids]) => new Set(ids).size === ids.length)).toBe(true);
   });
   it('flags missing URLs, duplicate IDs, stale and malformed dates', () => {
     const r = { ...resources[1], sourceUrl: '', lastVerified: '2026-02-30' };

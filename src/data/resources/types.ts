@@ -73,6 +73,13 @@ export type ResourceSession = {
   exceptions: string[];
 };
 export type DirectoryMetadata = {
+  dates?: {
+    label: string;
+    kind: 'date' | 'range' | 'timestamp';
+    start: string;
+    end?: string;
+    timeZone?: 'America/Vancouver';
+  }[];
   schemaVersion: 2;
   topic: Topic;
   provider: { name: string; type: 'sfu' | 'student-organization' | 'external-official' };
