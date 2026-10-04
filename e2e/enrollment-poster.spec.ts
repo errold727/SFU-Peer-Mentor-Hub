@@ -103,8 +103,11 @@ test('enrollment poster rows distinguish identical sections across terms and ret
   for (const [index, course] of records.entries()) {
     await expect(sources.locator('a').nth(index)).toHaveAttribute('href', course.courSysUrl!);
     await expect(sources.locator('a').nth(index)).toContainText(course.term);
-    await expect(sources).toContainText(`Last verified ${course.snapshotAt!.slice(0, 10)}`);
+    await expect(sources).toContainText(
+      `Original resource reviewed ${course.snapshotAt!.slice(0, 10)}`,
+    );
   }
+  await expect(sources).toContainText('Poster wording is editable and is not officially verified.');
   await page.getByRole('button', { name: 'Sections', exact: true }).click();
   await expect(page.locator('.section-select')).toHaveCount(sectionCount);
   await expect(

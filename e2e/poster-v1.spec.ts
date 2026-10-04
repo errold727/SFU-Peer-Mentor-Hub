@@ -6,11 +6,11 @@ test('auto arrange preserves readable resources, quality tools fix overflow, and
   page,
 }) => {
   await page.goto('./#/poster/edit');
-  await page.getByRole('button', {name:'Resources',exact:true}).click();
+  await page.getByRole('button', { name: 'Resources', exact: true }).click();
   for (const title of ['Campus Public Safety', 'Safe Walk', 'SFU Computing ID'])
     await page.locator('.resource-picker button').filter({ hasText: title }).click();
   await page.getByRole('button', { name: 'Auto Arrange resource cards', exact: true }).click();
-  for (const title of ['Campus Public Safety', 'Safe Walk', 'SFU Computing ID']) {
+  for (const title of ['Campus Public Safety', 'Safe Walk', 'Activate your Computing ID']) {
     await page.locator('.layer-list button').filter({ hasText: title }).click();
     expect(
       Number(await page.getByLabel('Font size', { exact: true }).inputValue()),

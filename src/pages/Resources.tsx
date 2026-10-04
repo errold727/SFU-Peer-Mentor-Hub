@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { resources } from '../data/resources';
 import { categories } from '../data/resources/types';
-import { filterRecreation, compactRecreation } from '../data/resources/recreation';
+import { filteredScheduleResource } from '../utils/resourceSchedule';
 import { usePosterBasket } from '../store/posterBasketStore';
 import { searchResources } from '../utils/search';
 import { ResourceCard } from '../components/resource/ResourceCard';
@@ -11,10 +11,13 @@ export default function Resources() {
   const [query, setQuery] = useState(''),
     [category, setCategory] = useState('All'),
     [campus, setCampus] = useState('All'),
+    [audience, setAudience] = useState('All'),
     [term, setTerm] = useState('Current'),
     [sport, setSport] = useState('All'),
     [day, setDay] = useState('All');
-  const results = searchResources(resources, query, category, campus, term);
+  const results = searchResources(resources, query, category, campus, term, audience);
+  const recreation = results.find((r) => r.id === 'drop-in-recreation');
+  const filtered = recreation ? filteredScheduleResource(recreation, sport, day) : undefined;
   return (
     <>
       <header className="page-heading">
@@ -46,8 +49,24 @@ export default function Resources() {
             <label>
               Campus
               <select value={campus} onChange={(e) => setCampus(e.target.value)}>
-                {['All', 'Burnaby', 'Surrey', 'Vancouver'].map((c) => (
+                {['All', 'Burnaby', 'Surrey', 'Vancouver', 'Online'].map((c) => (
                   <option key={c}>{c}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              Audience
+              <select value={audience} onChange={(e) => setAudience(e.target.value)}>
+                {[
+                  'All',
+                  'Undergraduate',
+                  'Graduate',
+                  'International',
+                  'Exchange',
+                  'Visiting',
+                  'FIC',
+                ].map((a) => (
+                  <option key={a}>{a}</option>
                 ))}
               </select>
             </label>
@@ -63,10 +82,13 @@ export default function Resources() {
           <p className="result-count" role="status">
             {results.length} resources
           </p>
-          {category === 'recreation' && results.some((r) => r.category === 'recreation') && (
+          {category === 'recreation' && filtered && (
             <section className="panel">
               <h2>Drop-in schedule</h2>
-              <p>September 14–December 4, 2026 · Schedule subject to change.</p>
+              <p>
+                {recreation?.validFrom}–{recreation?.validUntil} · Check official closures and
+                changes.
+              </p>
               <div className="filters">
                 <label>
                   Sport
@@ -98,7 +120,7 @@ export default function Resources() {
                     </tr>
                   </thead>
                   <tbody>
-                    {filterRecreation(sport, day).map((s) => (
+                    {filtered.sessions?.map((s) => (
                       <tr key={s.day + s.sport}>
                         <td>{s.day}</td>
                         <td>{s.sport}</td>
@@ -112,8 +134,8 @@ export default function Resources() {
                 </table>
               </div>
               <button
-                disabled={filterRecreation(sport, day).length === 0}
-                onClick={() => usePosterBasket.getState().add(compactRecreation(sport, day))}
+                disabled={!filtered.sessions?.length}
+                onClick={() => usePosterBasket.getState().add(filtered)}
               >
                 Add filtered schedule to Poster
               </button>
@@ -132,6 +154,7 @@ export default function Resources() {
                   setQuery('');
                   setCategory('All');
                   setCampus('All');
+                  setAudience('All');
                   setTerm('All');
                 }}
               >

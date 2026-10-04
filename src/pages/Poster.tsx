@@ -54,6 +54,10 @@ export default function Poster() {
   const [quality, setQuality] = useState(1);
   const [qualityOpen, setQualityOpen] = useState(false);
   const [message, setMessage] = useState('');
+  const [insertionFeedback, setInsertionFeedback] = useState<{
+    id: string;
+    success: string;
+  } | null>(null);
   const [busy, setBusy] = useState(false);
   const [qr, setQr] = useState('https://www.sfu.ca/');
   const [pendingTemplate, setPendingTemplate] = useState('');
@@ -84,21 +88,34 @@ export default function Poster() {
     const overflow = textHeight(element, s.recipientName) > element.height + 1;
     const outOfBounds =
       element.y + element.height > size.height || element.x + element.width > size.width;
-    if (overflow || outOfBounds) {
-      setQualityOpen(true);
-      setMessage(
-        `${success} ${
-          overflow
+    if (overflow || outOfBounds) setQualityOpen(true);
+    setInsertionFeedback({ id: element.id, success });
+    setMessage(success);
+  };
+  // Re-evaluate insertion diagnostics after text or geometry changes. Other action messages
+  // take precedence, and deleting the inserted element leaves no stale clipping warning.
+  const insertedElement =
+    insertionFeedback?.success === message
+      ? s.document.elements.find((element) => element.id === insertionFeedback.id)
+      : undefined;
+  const insertionOverflow =
+    insertedElement && textHeight(insertedElement, s.recipientName) > insertedElement.height + 1;
+  const insertionOutside =
+    insertedElement &&
+    (insertedElement.y + insertedElement.height > size.height ||
+      insertedElement.x + insertedElement.width > size.width);
+  const displayedMessage =
+    insertionOverflow || insertionOutside
+      ? `${message} ${
+          insertionOverflow
             ? 'Text does not fit this section and is clipped.'
             : 'This section extends outside the canvas.'
         } Full content and sources are retained. ${
-          overflow
+          insertionOverflow
             ? 'Use Grow to fit text or Auto Arrange, then review Poster Quality before exporting.'
             : 'Use Auto Arrange or reposition the section, then review Poster Quality before exporting.'
-        }`,
-      );
-    } else setMessage(success);
-  };
+        }`
+      : message;
   const insertCourseTable = (enrollment = false) => {
     const courses = basket.items.filter((r) => r.id.startsWith('course:'));
     const snapshot = enrollmentSnapshotTable(courses);
@@ -328,7 +345,7 @@ export default function Poster() {
         </button>
       </div>
       <p role="status" className="editor-status">
-        {message}
+        {displayedMessage}
       </p>
       <div className="editor-utilities">
         <details

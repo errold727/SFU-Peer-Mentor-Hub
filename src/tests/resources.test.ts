@@ -22,8 +22,12 @@ describe('resource discovery', () => {
     expect(r.some((x) => x.id === 'bennett-library')).toBe(false);
     expect(r.some((x) => x.id === 'campus-safety')).toBe(true);
   });
-  it('filters term-specific data', () =>
-    expect(searchResources(resources, '', 'deadline', 'All', 'Spring 2027')).toEqual([]));
+  it('filters the published Spring deadlines without borrowing Fall dates', () => {
+    const matches = searchResources(resources, '', 'deadline', 'All', 'Spring 2027');
+    expect(matches.some((r) => r.id === 'spring-tuition-refunds')).toBe(true);
+    expect(matches.every((r) => !r.term || r.term === 'Spring 2027')).toBe(true);
+    expect(matches.some((r) => r.id === 'deadline-2')).toBe(false);
+  });
   it('keeps official links on every resource', () =>
     expect(resources.every((r) => r.sourceUrl.startsWith('https://') && r.sourceName)).toBe(true));
 });
@@ -55,13 +59,14 @@ describe('Vancouver deadlines', () => {
     expect(getVerificationStatus('2026-07-01', now)).toBe('reviewSoon');
   });
 });
-describe('seed accuracy', () => {
-  it('includes floors 1–7', () =>
-    expect(libraryFloors.map((f) => f.floor)).toEqual([1, 2, 3, 4, 5, 6, 7]));
-  it.each([4, 5])('floor %s is quiet', (floor) =>
-    expect(libraryFloors.find((f) => f.floor === floor)?.title).toBe('Quiet Study'),
-  );
-  it('floor 6 is silent', () => expect(libraryFloors[5].title).toBe('Silent Study'));
+describe('source-backed accuracy', () => {
+  it('withdraws the unsupported Bennett floor guide and keeps the supported directory', () => {
+    expect(libraryFloors).toEqual([]);
+    const library = resources.find((r) => r.id === 'bennett-library')!;
+    expect(library.verification.status).toBe('partial');
+    expect(library.facts).toEqual([]);
+    expect(library.sources.some((s) => s.url.includes('lib.sfu.ca'))).toBe(true);
+  });
   it('contains safety numbers', () =>
     expect(resources.find((r) => r.id === 'campus-safety')?.facts?.map((f) => f.value)).toEqual([
       '911',

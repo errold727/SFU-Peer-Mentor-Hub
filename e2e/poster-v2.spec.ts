@@ -124,7 +124,7 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   await page.getByLabel('Find poster resources').fill('Bennett');
   await page.locator('.resource-picker button').filter({ hasText: 'Bennett' }).click();
   await expect(page.getByLabel('Section title', { exact: true })).toHaveValue(
-    'W.A.C. Bennett Library guide',
+    'W.A.C. Bennett Library — Burnaby',
   );
   await page
     .getByLabel('Body', { exact: true })
@@ -132,7 +132,9 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   await page.getByText('Source metadata', { exact: true }).click();
   await expect(page.locator('.source-metadata')).toContainText('Unverified');
   // Rebalance after deleting a section, adding one and replacing a resource.
-  if (!(await page.locator('.poster-quality').evaluate((node) => (node as HTMLDetailsElement).open)))
+  if (
+    !(await page.locator('.poster-quality').evaluate((node) => (node as HTMLDetailsElement).open))
+  )
     await page.locator('.poster-quality summary').click();
   await page.getByRole('button', { name: 'Auto Arrange', exact: true }).click();
   await expect(page.locator('.poster-quality')).not.toContainText('text overflows');

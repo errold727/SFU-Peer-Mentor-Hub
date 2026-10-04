@@ -6,7 +6,7 @@ A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find p
 
 ## What the hub does
 
-- **Resource Hub:** 32 sourced resources, useful search aliases, category/campus/term filters, details, copy, Vancouver-aware deadlines, and sport/day recreation filtering. Cards distinguish Verified, Review Soon, Review Recommended / Stale, and Unverified. Printing is included; international topics link directly to their official guidance.
+- **Resource Hub:** 183 canonical resources across 20 topic groups, English/Mandarin aliases, category/campus/audience/term filters, detailed access and eligibility, exact source evidence, and Vancouver-aware dates. Source review, freshness and expiry are separate. The delivery contains 161 source-reviewed and 22 partially reviewed records; 143 received a separate comparison, including all 100 high-impact entries. Counts describe the published wording, not a guarantee that every linked service detail is confirmed. See [coverage and specific gaps](docs/resources/COVERAGE.md).
 - **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, with concise poster bodies and optional official-source QR codes. Full details and copied text retain source URLs and verification metadata.
 - **Poster Maker:** start with a blank canvas (five sizes/five styles) or one of 15 editable designs reconstructed from the supplied reference pack. The gallery offers 16 choices including Blank Poster, with lightweight previews of the actual layouts. Newsletter, orientation, planning, library, playful essentials, dark event, timeline, wellbeing, recreation, safety, academic and international designs use independent sections. Sections support selection, drag/arrow reorder, duplicate, hide, delete and undo/redo. Contextual text/icon controls, replaceable local images, real tables/checklists/lists, dynamic QR codes, Resource Hub replacement and course/enrollment-table insertion keep content editable. Auto Arrange measures text and reserves headers, footers, margins and locked objects. Poster Quality flags layout, readability, image and QR issues. See [the complete template mapping and validation status](docs/TEMPLATE_PACK.md).
 - **Optional local drafts:** explicit Save locally, Open, Duplicate and Delete. No autosave or automatic restore. Recipient fields require a separate opt-in. Storage is browser-local with a visible usage indicator.
@@ -26,7 +26,7 @@ PNG/PDF downloads contain the visible text the user chose. A recipient name may 
 
 ## Local development and checks
 
-Use Node 24 and npm. The template-pack implementation branch is `codex/import-poster-template-pack`; `main` is the deployed branch. Final pack validation and deployment status are tracked in [TEMPLATE_PACK](docs/TEMPLATE_PACK.md#validation-and-release-status).
+Use Node 24 and npm. The Resource Hub implementation branch is `codex/resource-hub-completion`; `main` is the deployed branch. Resource delivery evidence is tracked in [CHANGES](docs/resources/CHANGES.md); prior template evidence remains in [TEMPLATE_PACK](docs/TEMPLATE_PACK.md#validation-and-release-status).
 
 ```sh
 npm ci
@@ -37,7 +37,9 @@ npm run build
 npm run test:e2e
 npm run courses:validate
 npm run verify:resources -- --offline
-npm run verify:resources
+npm run resources:validate
+npm run resources:report
+npm run resources:links -- --output .resource-reports/links.json
 npm run preview
 ```
 
@@ -77,18 +79,13 @@ Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies 
 
 ## Resource maintenance
 
-`SFUResource` contains ID, title, category, summary, optional facts, campus, optional term/date/expiry, official source label/URL, lastVerified, tags and poster compatibility.
+`DirectoryResource` extends the compatible `SFUResource` shape with provider, campus/audience applicability, access/eligibility, cost, sources, field-level evidence, structured sessions/dates, lifecycle, review targets and concise qualified poster content. Twenty-five existing canonical IDs remain; seven fragmented deadline IDs resolve to their consolidated procedures. Existing editor documents and Course Planner resources remain compatible.
 
-1. Read the official source and check its term, campus, dates and qualifications. Do not infer facts.
-2. Update `src/data/resources/` with a precise URL and actual verification date. Use `lastVerified: null` and a verificationNote if content cannot be confirmed.
-3. Keep factual text editable. Set date for deadlines and validUntil for expiring schedules. Review aliases in `src/utils/search.ts` when adding common terminology.
-4. Run resource validation, relevant tests and the build. Review the diff, commit and push a PR.
+Read the actual primary source before changing any claim. Record retrieval separately from content review; partial records have no `lastVerified` date. Review targets are seven days for schedules, fourteen for sensitive/term information, thirty for safety and 180 for evergreen services. These are internal maintenance targets. High-impact claims and precise costs/contacts/dates receive separate review. See [VERIFICATION](docs/resources/VERIFICATION.md) and [MAINTENANCE](docs/resources/MAINTENANCE.md).
 
-Verification ages use America/Vancouver: under 90 days Verified, 90–180 Review Soon, over 180 Stale. Missing, invalid or future dates are Unverified. Past deadlines remain searchable but never appear as upcoming. Expired recreation schedules warn users.
+`resources:validate` checks the publication gates; `resources:report` reports coverage and review gaps; `resources:links` performs bounded, deduplicated GET checks without changing facts or review dates. Candidate JSON can be validated with `--input`; it cannot overwrite the published catalog. The monthly read-only workflow saves reports as Actions artifacts. A blocked page or failed request is not evidence of discontinuation.
 
-`npm run verify:resources` checks metadata and each unique URL with GET. It distinguishes reachable, redirect, blocked, unverified and invalid. An HTTP 200 bot challenge is blocked, not verified content. Timeouts, 403 and 429 do not imply a dead link and do not fail the command. Malformed metadata and HTTP 404/410 fail it. Shared sources are reported separately from duplicate resource IDs. The command never changes lastVerified.
-
-See [the resource audit](docs/resource-audit.md). Four Library cards remain unverified: Bennett floor guide, Student Learning Commons, Writing Support and Research Help. Direct retrieval, official search and an ordinary browser visit did not resolve Library access restrictions. The user-supplied Bennett guide remains clearly attributed and unverified; it is not silently certified.
+Unsupported Bennett floor/collection claims were removed. Accessible SFU campus/referral pages support retained navigation and confirmed study spaces; protected Library details remain partial. Other conflicts and unpublished schedules are listed in [COVERAGE](docs/resources/COVERAGE.md). The [earlier 32-record audit](docs/resource-audit.md) is historical evidence, superseded for the current directory by these reports.
 
 ## Course data import and schema
 
