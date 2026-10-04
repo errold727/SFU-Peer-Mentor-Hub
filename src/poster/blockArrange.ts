@@ -36,16 +36,36 @@ export function arrangeBlocks(
   const area = areas.sort((a, b) => b.width * b.height - a.width * a.height)[0];
   if (!area)
     return { document: doc, warnings: ['No free area. Unlock or move sections before arranging.'] };
+  const measureRow = (group: PosterElement[]) => {
+    const width = (area.width - gap * (group.length - 1)) / group.length;
+    const elements = group.map((e) => ({ ...e, width, rotation: 0 }));
+    return { elements, height: Math.max(72, ...elements.map((e) => measure(e, name) + 4)) };
+  };
   const groups: PosterElement[][] = [];
   const remaining = [...cards];
   if (remaining[0].block?.kind === 'highlight' || remaining.length % 2 === 1)
     groups.push([remaining.shift()!]);
   while (remaining.length) groups.push(remaining.splice(0, 2));
-  const rows = groups.map((group) => {
-    const width = (area.width - gap * (group.length - 1)) / group.length;
-    const elements = group.map((e) => ({ ...e, width, rotation: 0 }));
-    return { elements, height: Math.max(72, ...elements.map((e) => measure(e, name) + 4)) };
-  });
+  let rows = groups.map(measureRow);
+  const totalHeight = (candidate: typeof rows) =>
+    candidate.reduce((sum, row) => sum + row.height, 0) + gap * (candidate.length - 1);
+  // Keep a leading full-width announcement when it fits. Otherwise measure alternate
+  // rows before clipping content: pairing it may avoid a nearly empty final row.
+  if (totalHeight(rows) > area.height) {
+    const best: { rows: typeof rows; height: number }[] = Array(cards.length + 1);
+    best[cards.length] = { rows: [], height: 0 };
+    for (let index = cards.length - 1; index >= 0; index--) {
+      for (let count = 1; count <= Math.min(2, cards.length - index); count++) {
+        if ((area.width - gap * (count - 1)) / count < 180) continue;
+        const row = measureRow(cards.slice(index, index + count));
+        const next = best[index + count];
+        const height = row.height + (next.rows.length ? gap : 0) + next.height;
+        if (!best[index] || height < best[index].height)
+          best[index] = { rows: [row, ...next.rows], height };
+      }
+    }
+    if (best[0] && best[0].height < totalHeight(rows)) rows = best[0].rows;
+  }
   const available = area.height - gap * (rows.length - 1),
     needed = rows.reduce((sum, r) => sum + r.height, 0);
   const extra = Math.max(0, available - needed) / rows.length;

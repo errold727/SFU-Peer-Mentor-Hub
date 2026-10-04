@@ -1,0 +1,133 @@
+{
+  "sourceHashes": {
+    "public/assets/poster-scenes/campus-v1.webp": "8115bbebbdd989c869695b4d25ec423e42f9062224fb380bb28d6e54117ceaba",
+    "public/assets/poster-scenes/community-v1.webp": "606e6f8d749ecd7dc687a664f82e0325347746ae403a6234f6e3ca16b79fe1b2",
+    "public/assets/poster-scenes/mentor-placeholder.svg": "05e330489200f24e256ec91693526c4349587417cc2717f04bc460b4f07917c5",
+    "public/assets/poster-scenes/study-v1.webp": "6da353121c8c40fb4412d0267b1a86454e6a6227cc427526544e50fe4bfc63d3",
+    "src/poster/BlockContentRenderer.tsx": "532df3a9b0390ff06ab132cdd04bb1682c5b04a11556188fbd0f2b292208bef3",
+    "src/poster/PosterElementRenderer.tsx": "980d6beabfa81017cb44e4a8a78bf49fea1ccc816701d35264bf1fd24d8e4ece",
+    "src/poster/blockLayout.ts": "bfac1a3e4499780840a0f92daf476423e4a9f6b9e9422711b213f967e870ec16",
+    "src/poster/blocks.ts": "719ccd77776ec80a3603e8cb9585cd6aa53a8914043539ac634fb29a6e31f854",
+    "src/poster/posterTypes.ts": "1b084a355407941dab4799470a2def9e84f7696da3c9f0aef0d9372767430cdf",
+    "src/poster/templates/index.ts": "60c17d1b9df7161301d6e9f0085530111e8f1f15bec352eed4388395a44f3138",
+    "src/poster/templates/packAssets.ts": "9c569d8524a7d742ed493127cb9354acaf7c3539a141a1ccb40294257e065da8",
+    "src/poster/templates/packFirst.ts": "7f515a7bef98ada4d5f92540293b62aa88e1b5f75af8f18f8b48370f635b81da",
+    "src/poster/templates/packSecond.ts": "859ca14825006412508a6c80ea56cd4eb1dae6d2b3ff481d1362938b63741a58",
+    "src/poster/templates/packThird.ts": "e6827cb568cee1c9748743412c5a1f0784fab9416da5c9b76ee4da0bd7301077",
+    "src/poster/templates/packTypes.ts": "87b145cd4220aae300700d024b5539c68c4b8386a65d91bb44e940f9d86d149d"
+  },
+  "previews": [
+    {
+      "id": "blank",
+      "name": "Blank Poster",
+      "file": "blank.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "newsletter",
+      "name": "Weekly Check-In Newsletter",
+      "file": "newsletter.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome to SFU Orientation",
+      "file": "welcome.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "courses",
+      "name": "Course Planning — Classic",
+      "file": "courses.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "library",
+      "name": "Library Guide — Editorial",
+      "file": "library.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "essentials",
+      "name": "Student Essentials — Playful",
+      "file": "essentials.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "event",
+      "name": "Workshop / Event — Dark",
+      "file": "event.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "welcome-campus",
+      "name": "Welcome to SFU — Campus",
+      "file": "welcome-campus.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "deadlines",
+      "name": "Important Deadlines — Timeline",
+      "file": "deadlines.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "library-campus",
+      "name": "SFU Library — Campus",
+      "file": "library-campus.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "wellbeing",
+      "name": "Student Wellbeing",
+      "file": "wellbeing.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "recreation",
+      "name": "Get Active — Recreation",
+      "file": "recreation.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "courses-campus",
+      "name": "Course Planning — Campus",
+      "file": "courses-campus.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "safety",
+      "name": "Campus Safety",
+      "file": "safety.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "academic",
+      "name": "Academic Success",
+      "file": "academic.webp",
+      "width": 408,
+      "height": 528
+    },
+    {
+      "id": "international",
+      "name": "International Students",
+      "file": "international.webp",
+      "width": 408,
+      "height": 528
+    }
+  ]
+}

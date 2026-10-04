@@ -19,7 +19,8 @@
     "courses:sync": "tsx scripts/course-import/cli.ts sync",
     "courses:sync:all": "tsx scripts/course-import/cli.ts sync all",
     "courses:publish": "tsx scripts/course-import/cli.ts publish",
-    "courses:report": "tsx scripts/course-import/maintenance.ts report"
+    "courses:report": "tsx scripts/course-import/maintenance.ts report",
+    "posters:previews": "tsx scripts/generate-template-previews.ts"
   },
   "repository": {
     "type": "git",

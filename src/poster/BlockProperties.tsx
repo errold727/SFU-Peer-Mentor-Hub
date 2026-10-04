@@ -132,7 +132,7 @@ export function BlockProperties({
             <>
               {['title', 'greeting', 'text', 'footer'].includes(b.kind) ? (
                 <>
-                  {b.kind === 'text' && b.title && text('Section title', 'title')}
+                  {b.kind !== 'title' && text('Section title', 'title')}
                   {text('Editable text', b.kind === 'title' ? 'title' : 'body')}
                 </>
               ) : (
@@ -146,7 +146,33 @@ export function BlockProperties({
                 <label>
                   Icon
                   <select value={b.icon} onChange={(event) => patch({ icon: event.target.value })}>
-                    {['', '★', '⌂', '✓', '♡', '→', '!', '↗'].map((v) => (
+                    {[
+                      ...new Set([
+                        b.icon,
+                        '',
+                        '★',
+                        '⌂',
+                        '✓',
+                        '♡',
+                        '→',
+                        '!',
+                        '↗',
+                        '◇',
+                        '◎',
+                        '▦',
+                        '⌕',
+                        '▣',
+                        '✎',
+                        '◷',
+                        '⌖',
+                        '✧',
+                        '▤',
+                        '✉',
+                        '⌘',
+                        '+',
+                        '☀',
+                      ]),
+                    ].map((v) => (
                       <option key={v} value={v}>
                         {v || 'None'}
                       </option>
@@ -286,6 +312,28 @@ export function BlockProperties({
                     onClick={() => patch({ rows: b.rows.filter((_, j) => j !== i) })}
                   >
                     Delete Row
+                  </button>
+                  <button
+                    aria-label={`Move row ${i + 1} up`}
+                    disabled={i === 0}
+                    onClick={() => {
+                      const rows = [...b.rows];
+                      [rows[i - 1], rows[i]] = [rows[i], rows[i - 1]];
+                      patch({ rows });
+                    }}
+                  >
+                    ↑
+                  </button>
+                  <button
+                    aria-label={`Move row ${i + 1} down`}
+                    disabled={i === b.rows.length - 1}
+                    onClick={() => {
+                      const rows = [...b.rows];
+                      [rows[i + 1], rows[i]] = [rows[i], rows[i + 1]];
+                      patch({ rows });
+                    }}
+                  >
+                    ↓
                   </button>
                 </fieldset>
               ))}

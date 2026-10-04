@@ -16,6 +16,22 @@ export const enrollmentLabel = (c: CourseOffering) =>
   c.enrollment?.enrolled !== undefined && c.enrollment.capacity !== undefined
     ? `${c.enrollment.enrolled} / ${c.enrollment.capacity} enrolled`
     : 'Unavailable';
+/** Recorded counts only: do not derive availability from capacity minus enrollment. */
+export function enrollmentSnapshotLabel(c: CourseOffering) {
+  const { enrolled, capacity } = c.enrollment ?? {};
+  if (enrolled !== undefined && capacity !== undefined) return `${enrolled} / ${capacity} enrolled`;
+  if (enrolled !== undefined) return `${enrolled} enrolled · capacity unavailable`;
+  if (capacity !== undefined) return `Enrollment unavailable · capacity ${capacity}`;
+  return 'Unavailable';
+}
+export function waitlistSnapshotLabel(c: CourseOffering) {
+  const { waitlistCount, waitlistCapacity } = c.enrollment ?? {};
+  if (waitlistCount !== undefined && waitlistCapacity !== undefined)
+    return `${waitlistCount} / ${waitlistCapacity}`;
+  if (waitlistCount !== undefined) return String(waitlistCount);
+  if (waitlistCapacity !== undefined) return `Count unavailable · capacity ${waitlistCapacity}`;
+  return 'Unavailable';
+}
 export const seatsLabel = (available?: number, total?: number) =>
   available !== undefined && total !== undefined
     ? `${available} available / ${total} total`
@@ -59,6 +75,13 @@ export function courseToResource(c: CourseOffering): SFUResource {
       { label: 'Campus', value: c.campus || 'Unavailable' },
       { label: 'Course requirement — prerequisites', value: prerequisiteLabel(c) },
       { label: 'Snapshot', value: 'Verify all required sections in the official outline.' },
+      { label: 'Enrollment', value: enrollmentSnapshotLabel(c) },
+      { label: 'Enrollment waitlist', value: waitlistSnapshotLabel(c) },
+      { label: 'Enrollment snapshot', value: c.snapshotAt || 'Unavailable' },
+      {
+        label: 'Enrollment source',
+        value: c.courSysUrl ?? c.sourceUrl ?? c.outlineUrl ?? 'https://coursys.sfu.ca/browse/',
+      },
     ],
     posterContent: [
       c.term.toUpperCase(),
@@ -80,5 +103,35 @@ export function courseToResource(c: CourseOffering): SFUResource {
     lastVerified: c.snapshotAt?.slice(0, 10) ?? c.lastUpdated ?? null,
     posterCompatible: true,
     tags: [c.code, c.title],
+  };
+}
+
+/** Poster presentation of course snapshots; source facts remain separately preserved. */
+export function enrollmentSnapshotTable(resources: SFUResource[]) {
+  const courses = resources.filter((r) => r.id.startsWith('course:'));
+  const fact = (r: SFUResource, label: string) =>
+    r.facts?.find((f) => f.label === label)?.value || 'Unavailable';
+  return {
+    title: 'ENROLLMENT SNAPSHOT',
+    subtitle: [
+      ...new Set(courses.map((r) => r.term).filter(Boolean)),
+      'Recorded counts; confirm current details with SFU.',
+    ].join(' · '),
+    columns: ['Course / section', 'Enrollment', 'Snapshot'],
+    rows: courses.map((r) => [
+      `${r.title.split(' · ')[0]} · ${fact(r, 'Section')}`,
+      `${fact(r, 'Enrollment')} · Waitlist: ${fact(r, 'Enrollment waitlist')}`,
+      fact(r, 'Enrollment snapshot'),
+    ]),
+    provenance: courses.map((r) => ({
+      id: r.id,
+      title: `${r.title} · enrollment snapshot`,
+      sourceUrl:
+        fact(r, 'Enrollment source') === 'Unavailable' ? r.sourceUrl : fact(r, 'Enrollment source'),
+      lastVerified:
+        fact(r, 'Enrollment snapshot') === 'Unavailable'
+          ? null
+          : fact(r, 'Enrollment snapshot').slice(0, 10),
+    })),
   };
 }

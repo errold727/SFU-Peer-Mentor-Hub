@@ -83,10 +83,12 @@ test('canvas supports pointer dragging and resizing; higher resolution and lands
 });
 test('all templates load editable content and QR code exports render', async ({ page }) => {
   await page.goto('./#/poster/templates');
-  await expect(page.getByRole('button', { name: 'Use template' })).toHaveCount(10);
-  await page.getByRole('button', { name: 'Use template: Welcome to SFU', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Use template' })).toHaveCount(16);
+  await page.getByRole('button', { name: 'Use template: Weekly Check-In Newsletter', exact: true }).click();
   await page.getByLabel('Recipient first name').fill('Avery');
-  await page.locator('.layer-list button').filter({ hasText: 'Hello, {{recipientName}}!' }).click();
+  await page.getByRole('button', { name: 'Sections', exact: true }).click();
+  await page.locator('.section-select').filter({ hasText: 'Greeting' }).click();
+  await page.getByLabel('Editable text', { exact: true }).fill('Hello, {{recipientName}}!');
   await expect(page.getByLabel('Editable text')).toHaveValue('Hello, {{recipientName}}!');
   await page.getByRole('button', { name: 'QR Code', exact: true }).click();
   await page.getByRole('button', { name: 'Add QR Code', exact: true }).click();
