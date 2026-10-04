@@ -8,7 +8,7 @@ A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find p
 
 - **Resource Hub:** 32 sourced resources, useful search aliases, category/campus/term filters, details, copy, Vancouver-aware deadlines, and sport/day recreation filtering. Cards distinguish Verified, Review Soon, Review Recommended / Stale, and Unverified. Printing is included; international topics link directly to their official guidance.
 - **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, with concise poster bodies and optional official-source QR codes. Full details and copied text retain source URLs and verification metadata.
-- **Poster Maker V2:** start with a blank canvas (five sizes/five styles) or one of ten real-preview templates. The Check-In Newsletter combines a replaceable campus hero, title, greeting, announcement, information cards, editable schedules/course tables and footer. Sections support selection, drag/arrow reorder, duplicate, hide, delete and undo/redo. Contextual properties, inline text editing, local image crop/fit controls, Resource Hub replacement and course-table insertion keep content editable. Auto Arrange measures text and reserves headers, footers, margins and locked objects. Poster Quality flags overflow, overlap, small text, contrast, empty/dense content, broken images and invalid QR destinations. See [Poster Maker V2](docs/POSTER_MAKER_V2.md).
+- **Poster Maker:** start with a blank canvas (five sizes/five styles) or one of 15 editable designs reconstructed from the supplied reference pack. The gallery offers 16 choices including Blank Poster, with lightweight previews of the actual layouts. Newsletter, orientation, planning, library, playful essentials, dark event, timeline, wellbeing, recreation, safety, academic and international designs use independent sections. Sections support selection, drag/arrow reorder, duplicate, hide, delete and undo/redo. Contextual text/icon controls, replaceable local images, real tables/checklists/lists, dynamic QR codes, Resource Hub replacement and course/enrollment-table insertion keep content editable. Auto Arrange measures text and reserves headers, footers, margins and locked objects. Poster Quality flags layout, readability, image and QR issues. See [the complete template mapping and validation status](docs/TEMPLATE_PACK.md).
 - **Optional local drafts:** explicit Save locally, Open, Duplicate and Delete. No autosave or automatic restore. Recipient fields require a separate opt-in. Storage is browser-local with a visible usage indicator.
 - **Exports:** standard, 2x and print PNG; PDF with matching page bounds. Hidden content, guides and selection handles are excluded. Letter print PNG is 2550 × 3300; Letter PDF is 612 × 792 points. PDF is a rendered visual, not an editable document or hidden student JSON.
 - **Course Planner:** dynamically discovered CourSys offerings for Fall 2026 (1267) and Spring 2027 (1271), across every subject returned for each term. All Subjects browsing, grouped sections, search by code/title/instructor/section/campus, filters, lazy details, temporary cross-subject selections, weekly meetings and deterministic conflicts. Counts, snapshot times and enrichment gaps are published in [COURSE_DATA_STATUS](docs/COURSE_DATA_STATUS.md). No course ranking or demand prediction.
@@ -26,7 +26,7 @@ PNG/PDF downloads contain the visible text the user chose. A recipient name may 
 
 ## Local development and checks
 
-Use Node 24 and npm. Poster Maker V2 development uses `codex/poster-maker-v2`; `main` is the deployed branch.
+Use Node 24 and npm. The template-pack implementation branch is `codex/import-poster-template-pack`; `main` is the deployed branch. Final pack validation and deployment status are tracked in [TEMPLATE_PACK](docs/TEMPLATE_PACK.md#validation-and-release-status).
 
 ```sh
 npm ci
@@ -43,11 +43,13 @@ npm run preview
 
 Vite normally serves `http://127.0.0.1:5173/SFU-Peer-Mentor-Hub/`. The browser suite builds a production preview on port 4173. Windows uses installed Microsoft Edge; CI uses Playwright Chromium (`npx playwright install --with-deps chromium`). Set `PLAYWRIGHT_BASE_URL` to test production or another running deployment. Screenshots/downloads use fictional test content and live under ignored `test-results/`. Restricted Windows runners may need process permissions for browser/server cleanup.
 
-`npm run format` runs Prettier. TypeScript checks source, maintenance scripts and browser tests. Unit/integration tests exercise real behavior, normalization failures, source reliability, schedule conflicts, layout geometry, draft consent and privacy boundaries. Browser tests check all routes at 375/390/768/1024/1440 px, axe WCAG checks, keyboard dialogs, recovery from malformed course data, basket-to-poster use, all ten templates, editing and actual downloaded PNG/PDF bytes. Print export tests decode the QR from exported pixels.
+`npm run format` runs Prettier. TypeScript checks source, maintenance scripts and browser tests. Unit/integration tests exercise real behavior, normalization failures, source reliability, schedule conflicts, layout geometry, draft consent and privacy boundaries. The template-pack tests validate all 15 references, unique IDs, preview metadata, editable structures, image-region limits, dynamic QR destinations and resource/course integration. Browser validation covers responsive routes, axe WCAG checks, keyboard dialogs, recovery from malformed course data, basket-to-poster use, template editing and actual downloaded PNG/PDF bytes. Print export tests decode the QR from exported pixels. See the pack document for the current run results; implementation does not imply completed release verification.
+
+Regenerate static poster previews after changing template, renderer or scene-asset source. Start `npm run dev -- --port 5177`, then run `npm run posters:previews` in another terminal. The default target is `http://127.0.0.1:5177/SFU-Peer-Mentor-Hub/`; `PLAYWRIGHT_BASE_URL` can select another running local app. The generator captures the actual editor and records a source hash manifest. See [preview maintenance](docs/TEMPLATE_PACK.md#implementation-and-preview-maintenance).
 
 ## Architecture and performance
 
-React 19, TypeScript, Vite, HashRouter, Zustand, React-Konva, Lucide, jsPDF, QRCode, date-fns and Fuse.js. System fonts; original SFU-inspired geometry; no official SFU logo or restricted font bundled.
+React 19, TypeScript, Vite, HashRouter, Zustand, React-Konva, Lucide, jsPDF, QRCode, date-fns and Fuse.js. System fonts, editable textual branding and small generated campus illustrations; no official SFU logo or restricted font bundled. Generated scenes are generic university settings, not verified photographs of SFU locations or people.
 
 ```text
 src/app/                      Shell, routing and error recovery
@@ -56,18 +58,22 @@ src/components/               Resource cards, basket and accessible dialogs
 src/data/resources/           Public facts and official source metadata
 src/store/                    Ephemeral editor and basket stores
 src/poster/                   Canvas, layout, quality, styles, drafts and exports
+src/poster/templates/         Fifteen structured template configurations and registry
 src/course/                   Types, validation, comparisons, timetable and conflicts
 src/utils/                    Vancouver dates, search, verification and link health
 src/tests/                    Unit and integration tests
 public/data/courses/           Static normalized snapshots per term/department
+public/assets/poster-scenes/  Reusable text-free illustrative images
+public/assets/template-previews/ Static WebP gallery thumbnails and source manifest
 scripts/course-import/        Public API importer and dataset validator
 scripts/verify-resources.ts   Read-only metadata / link report
+scripts/generate-template-previews.ts Browser-based preview generation
  e2e/                         Browser flows, exports, accessibility and privacy
 .github/workflows/            Gated deployment and monthly resource health
  docs/                        Audit evidence and maintenance/release notes
 ```
 
-Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; the browser loads a term manifest and compact all-subject index or individual subject snapshot. Long descriptions, prerequisite text and registrar notes load on detail/selection. New requests abort stale fetches, search/sort is memoized, and results render 12 course groups at a time. Poster measurements are memoized by document/name rather than selection. Template previews use the same renderer and mount when approaching the viewport. Image decoding is keyed by source; local uploads are limited to 10 MB, normalized to at most 2400 px per edge, and temporary object URLs are revoked. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster editor and shared renderer add about 124 KB gzip on demand; the start screen itself is about 1.2 KB gzip. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
+Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; the browser loads a term manifest and compact all-subject index or individual subject snapshot. Long descriptions, prerequisite text and registrar notes load on detail/selection. New requests abort stale fetches, search/sort is memoized, and results render 12 course groups at a time. Poster measurements are memoized by document/name rather than selection. Gallery previews are lazy 408 × 528 WebP images generated from the real canvas; the gallery does not mount 15 interactive Konva editors. Three compressed, reusable scene assets supply the templates. Image decoding is keyed by source; local uploads are limited to 10 MB, normalized to at most 2400 px per edge, and temporary object URLs are revoked. Original full-resolution reference posters remain outside the production assets and bundle. No remote font downloads are used.
 
 ## Resource maintenance
 
@@ -100,17 +106,19 @@ The prior V1 datasets remain under their original named term folders as historic
 
 ## Poster development
 
-Templates live in `src/poster/templates/index.ts`, styles in `src/poster/styles.ts`, and logical sizes/types in `src/poster/posterTypes.ts`. There are exactly ten gallery templates. Use `makeBlock` for structured sections and `makeElement` for low-level primitives. Keep factual content in editable fields, not in images. The optional placeholder is `{{recipientName}}`, displayed as Student Name when empty. Old primitive drafts remain supported. Template changes are undoable.
+Template configurations live in `src/poster/templates/packFirst.ts`, `packSecond.ts` and `packThird.ts`; `index.ts` registers the 15 designs plus Blank Poster. Shared section types/construction live in `packTypes.ts`, styles in `src/poster/styles.ts`, and logical sizes/types in `src/poster/posterTypes.ts`. Use `makeBlock` for structured sections and `makeElement` for low-level primitives. Keep factual content in editable fields, not in images. The optional placeholder is `{{recipientName}}`, displayed as Student Name when empty. Old primitive drafts remain supported. Template changes are undoable.
 
-Start at `#/poster`, choose blank setup or `#/poster/templates`, and edit at `#/poster/edit`. Adding basket resources is explicit, so blank canvases and templates are not silently populated. Resource replacement retains official provenance while allowing display edits. Course selections can populate individual cards, a course table or conflict notice.
+Each user-supplied PNG has a mapped template with separately editable image, title, card, table/list/checklist and footer sections as appropriate. The PNGs are visual references, never full-page canvas backgrounds. Originals are ignored under `docs/template-references/originals/`; optimized review copies, hashes and generated-image provenance are tracked under `docs/template-references/`. Defaults are neutral prompts or sample content, not verified SFU facts. See [the 15-template inventory and section lists](docs/TEMPLATE_PACK.md#template-capabilities).
 
-Auto Arrange measures block text, reserves visible header/footer areas, ignores hidden sections and avoids locked objects. It rebalances one through six or more content sections while maintaining readable gutters and font sizes. Dense content retains its wording and produces quality warnings. Grow to fit text can extend beyond the page, which the quality panel flags. Visual/print review remains necessary, especially for rotated or image-backed content. See [architecture, controls and verification evidence](docs/POSTER_MAKER_V2.md).
+Start at `#/poster`, choose blank setup or `#/poster/templates`, and edit at `#/poster/edit`. Adding basket resources is explicit, so blank canvases and templates are not silently populated. Resource replacement retains official provenance while allowing display edits. Course selections can populate individual or multiple cards, an offering table, an enrollment snapshot or a conflict notice. Recorded enrollment is never presented as guaranteed current availability. QR codes are generated locally from editable URLs; default homepage links should be replaced before sharing.
+
+Auto Arrange measures block text, reserves visible header/footer areas, ignores hidden sections and avoids locked objects. It rebalances content sections while maintaining readable gutters and font sizes. Dense content retains its wording and produces quality warnings. Grow to fit text can extend beyond the page, which the quality panel flags. Visual/print review remains necessary, especially for rotated or image-backed content. See [template-pack controls and validation](docs/TEMPLATE_PACK.md) and [the earlier V2 architecture notes](docs/POSTER_MAKER_V2.md).
 
 Canvas zoom uses Fit/150/200/300% of fit and a scrollable viewport. Layers and the inspector provide a keyboard alternative to dragging. Arrows move 1 px, Shift+Arrow 10 px, Delete removes unlocked elements, Ctrl/Cmd+Z undoes, and Shift+Ctrl/Cmd+Z redoes. PNG/PDF are flattened final output; optional local drafts retain editing state.
 
 ## CI/CD and release
 
-Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, codex/ui-density-polish, codex/poster-maker-v2, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
+Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, codex/ui-density-polish, codex/poster-maker-v2, codex/import-poster-template-pack, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
 
 The monthly read-only `resource-health.yml` reports public resource links and data schema health. It never creates commits, updates verification dates or posts issues. Bot blocks/timeouts remain non-failing review states; genuine malformed/dead sources require maintainer review.
 
