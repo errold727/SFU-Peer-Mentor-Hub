@@ -30,11 +30,12 @@ export function makeBlock(
       : kind === 'footer'
         ? 'footer'
         : 'content',
-    title: ['hero', 'image', 'divider', 'greeting', 'text', 'footer', 'qr'].includes(kind)
-      ? blockNames[kind] === 'Title Banner'
+    title:
+      kind === 'title'
         ? 'YOUR TITLE'
-        : ''
-      : 'Resource Title',
+        : ['hero', 'image', 'divider', 'greeting', 'text', 'footer', 'qr'].includes(kind)
+          ? ''
+          : 'Resource Title',
     subtitle: '',
     body:
       kind === 'greeting'

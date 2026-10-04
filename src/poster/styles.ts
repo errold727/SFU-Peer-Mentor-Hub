@@ -1,3 +1,4 @@
+import { contrastRatio } from './contrast';
 import type { PosterDocument } from './posterTypes';
 export const posterStyles = {
   classic: {
@@ -62,10 +63,16 @@ export function applyPosterStyle(
                   block: {
                     ...e.block,
                     accentColor: style.accent,
-                    headerColor: style.accent,
+                    headerColor:
+                      contrastRatio('#ffffff', style.accent) >= 4.5 ? style.accent : '#172d43',
                     rowColor: style.card,
                   },
-                  color: e.block.kind === 'title' ? '#ffffff' : style.text,
+                  color:
+                    e.block.kind === 'title'
+                      ? contrastRatio('#ffffff', style.accent) >= 4.5
+                        ? '#ffffff'
+                        : '#172d43'
+                      : style.text,
                 }
               : {}),
           },

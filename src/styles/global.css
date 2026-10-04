@@ -1869,7 +1869,9 @@ dialog.detail-drawer {
   min-height: 36px;
 }
 .poster-workspace .editor-status:empty {
-  height:0;min-height:0;margin:0;
+  height: 0;
+  min-height: 0;
+  margin: 0;
 }
 .poster-workspace .editor-utilities {
   order: 10;
@@ -1909,7 +1911,7 @@ dialog.detail-drawer {
   font-size: 11px;
 }
 .v2-editor .inspector {
-  grid-column:auto;
+  grid-column: auto;
   padding: 12px;
 }
 .v2-editor .inspector > h2 {
@@ -2096,3 +2098,27 @@ dialog.detail-drawer {
     max-width: 100%;
   }
 }
+.raw-layer-list {
+  display: grid;
+  gap: 6px;
+}
+.raw-layer-list button {
+  text-align: left;
+  font-size: 12px;
+}
+.guide-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.guide-toggle input {
+  width: auto !important;
+}
+.poster-workspace .canvas-meta {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.v2-editor .canvas-meta > span {
+  font-size: 11px;
+}
+.poster-workspace .editor-heading h1{font-size:28px}.poster-workspace .editor-heading .actions{gap:12px}.poster-workspace .editor-heading .button{padding:10px 14px}

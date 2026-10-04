@@ -131,7 +131,10 @@ export function BlockProperties({
           {!['divider', 'qr'].includes(b.kind) && (
             <>
               {['title', 'greeting', 'text', 'footer'].includes(b.kind) ? (
-                text('Editable text', b.kind === 'title' ? 'title' : 'body')
+                <>
+                  {b.kind === 'text' && b.title && text('Section title', 'title')}
+                  {text('Editable text', b.kind === 'title' ? 'title' : 'body')}
+                </>
               ) : (
                 <>
                   {text('Section title', 'title')}
@@ -139,16 +142,18 @@ export function BlockProperties({
                   {!table && !list && text('Body', 'body')}
                 </>
               )}
-              <label>
-                Icon
-                <select value={b.icon} onChange={(event) => patch({ icon: event.target.value })}>
-                  {['', '★', '⌂', '✓', '♡', '→', '!', '↗'].map((v) => (
-                    <option key={v} value={v}>
-                      {v || 'None'}
-                    </option>
-                  ))}
-                </select>
-              </label>
+              {b.kind !== 'title' && (
+                <label>
+                  Icon
+                  <select value={b.icon} onChange={(event) => patch({ icon: event.target.value })}>
+                    {['', '★', '⌂', '✓', '♡', '→', '!', '↗'].map((v) => (
+                      <option key={v} value={v}>
+                        {v || 'None'}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
             </>
           )}
           {b.kind === 'qr' && text('QR destination URL', 'body')}

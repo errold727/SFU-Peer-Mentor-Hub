@@ -59,17 +59,23 @@ export function SectionsPanel() {
               key={e.id}
               data-section-id={e.id}
               draggable={!e.locked}
-              onDragStart={() => setDragged(e.id)}
+              onDragStart={(event) => {
+                event.dataTransfer.setData('text/plain', e.id);
+                event.dataTransfer.effectAllowed = 'move';
+                setDragged(e.id);
+              }}
               onDragOver={(event) => event.preventDefault()}
               onDrop={(event) => {
                 event.preventDefault();
-                if (dragged) move(dragged, e.id);
+                const source = event.dataTransfer.getData('text/plain') || dragged;
+                if (source) move(source, e.id);
                 setDragged(null);
               }}
               className={s.selected === e.id ? 'selected' : ''}
             >
               <button
                 className="section-select"
+                draggable={!e.locked}
                 aria-pressed={s.selected === e.id}
                 onClick={() => s.select(e.id)}
               >

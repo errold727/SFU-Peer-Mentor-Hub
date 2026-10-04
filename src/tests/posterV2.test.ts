@@ -125,3 +125,48 @@ describe('structured poster sections', () => {
     for (const code of ['empty', 'overflow', 'overlap', 'qr-data']) expect(issues).toContain(code);
   });
 });
+import { convertContent } from '../poster/blocks';
+import { applyPosterStyle, posterStyles } from '../poster/styles';
+it('content mode conversion preserves wording and source data', () => {
+  const b = makeBlock('info', { body: 'One\nTwo' }).block!;
+  const list = { ...b, ...convertContent(b, 'list') };
+  expect(list.items).toEqual(['One', 'Two']);
+  const table = { ...list, ...convertContent(list, 'table') };
+  expect(table.rows).toEqual([
+    ['One', ''],
+    ['Two', ''],
+  ]);
+  expect(convertContent(table, 'info').body).toContain('One');
+});
+it.each(Object.keys(posterStyles) as (keyof typeof posterStyles)[])(
+  'structured %s style preserves adequate contrast',
+  (id) => {
+    const doc = applyPosterStyle(createTemplate('newsletter'), id);
+    expect(posterQuality(doc, '', () => 1).filter((i) => i.code === 'contrast')).toEqual([]);
+  },
+);
+it('undo and redo restore replaced images without remote storage', () => {
+  const s = usePosterStore.getState();
+  s.applyTemplate('newsletter');
+  const e = usePosterStore.getState().document.elements[0],
+    original = e.src;
+  s.update(e.id, { src: 'data:image/png;base64,AAAA' });
+  s.undo();
+  expect(usePosterStore.getState().document.elements[0].src).toBe(original);
+  s.redo();
+  expect(usePosterStore.getState().document.elements[0].src).toBe('data:image/png;base64,AAAA');
+});
+
+it('quality rejects incomplete and unsafe QR destinations and accepts official URLs', () => {
+  for (const [url, invalid] of [
+    ['https://', true],
+    ['javascript:alert(1)', true],
+    ['https://www.sfu.ca/', false],
+  ] as const) {
+    const doc = {
+      ...createTemplate('blank'),
+      elements: [makeBlock('qr', { body: url }, { text: url })],
+    };
+    expect(posterQuality(doc).some((issue) => issue.code === 'qr-data')).toBe(invalid);
+  }
+});

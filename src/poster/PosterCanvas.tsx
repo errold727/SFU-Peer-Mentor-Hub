@@ -9,10 +9,12 @@ export function PosterCanvas({
   stageRef,
   scale,
   guides = false,
+  preview = false,
 }: {
   stageRef: RefObject<Konva.Stage | null>;
   scale: number;
   guides?: boolean;
+  preview?: boolean;
 }) {
   const s = usePosterStore();
   const size = posterSizes[s.document.size];
@@ -36,6 +38,7 @@ export function PosterCanvas({
     <div className="inline-canvas">
       <Stage
         ref={stageRef}
+        listening={!preview}
         width={size.width * scale}
         height={size.height * scale}
         scaleX={scale}
@@ -121,7 +124,9 @@ export function PosterCanvas({
             </>
           )}
           <SelectionTransformer
-            selected={selected && !selected.locked && selected.visible ? selected.id : null}
+            selected={
+              !preview && selected && !selected.locked && selected.visible ? selected.id : null
+            }
             revision={s.document}
           />
         </Layer>

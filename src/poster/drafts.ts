@@ -71,6 +71,18 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
         (typeof e.sourceUrl === 'string' &&
           /^https:\/\//.test(e.sourceUrl) &&
           e.sourceUrl.length <= 2048)) &&
+      (e.provenance === undefined ||
+        (Array.isArray(e.provenance) &&
+          e.provenance.length <= 200 &&
+          e.provenance.every(
+            (p) =>
+              p &&
+              typeof p.id === 'string' &&
+              typeof p.title === 'string' &&
+              typeof p.sourceUrl === 'string' &&
+              /^https:\/\//.test(p.sourceUrl) &&
+              (p.lastVerified === null || typeof p.lastVerified === 'string'),
+          ))) &&
       (e.type !== 'block' || !!e.block) &&
       (e.block === undefined || validBlock(e.block)) &&
       (e.src === undefined ||

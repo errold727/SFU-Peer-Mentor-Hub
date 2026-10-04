@@ -1,3 +1,4 @@
+import { readLocalImage } from '../poster/images';
 import { SectionsPanel } from '../poster/SectionsPanel';
 import { BlockProperties } from '../poster/BlockProperties';
 import { resourceBlockPatch, makeBlock } from '../poster/blocks';
@@ -63,7 +64,7 @@ export default function Poster() {
       Math.min(
         0.72,
         (areaWidth - 48) / size.width,
-        Math.max(400, viewportHeight - 310) / size.height,
+        Math.max(400, viewportHeight - 390) / size.height,
       ),
     ) * zoom;
   const issues = useMemo(
@@ -552,32 +553,31 @@ export default function Poster() {
                   Upload image
                   <input
                     type="file"
-                    accept="image/png,image/jpeg,image/webp"
-                    onChange={(event) => {
+                    accept="image/png,image/jpeg,image/webp,image/gif"
+                    onChange={async (event) => {
                       const file = event.target.files?.[0];
-                      if (!file) return;
-                      if (file.size > 10 * 1024 * 1024) {
-                        setMessage('Choose an image under 10 MB.');
-                        return;
-                      }
-                      const reader = new FileReader();
-                      reader.onload = () => {
-                        const src = String(reader.result);
-                        const img = new Image();
-                        img.onload = () =>
-                          s.add(
-                            makeElement('image', {
-                              src,
-                              text: '',
-                              width: 360,
-                              height: (360 * img.height) / img.width,
-                            }),
-                          );
-                        img.onerror = () => setMessage('This image could not be opened.');
-                        img.src = src;
-                      };
-                      reader.readAsDataURL(file);
                       event.target.value = '';
+                      if (!file) return;
+                      try {
+                        const src = await readLocalImage(file);
+                        const image = new Image();
+                        image.src = src;
+                        await image.decode();
+                        s.add(
+                          makeBlock(
+                            'image',
+                            {},
+                            {
+                              src,
+                              width: 360,
+                              height: (360 * image.height) / image.width,
+                              padding: 0,
+                            },
+                          ),
+                        );
+                      } catch (error) {
+                        setMessage((error as Error).message);
+                      }
                     }}
                   />
                 </label>
@@ -683,7 +683,12 @@ export default function Poster() {
               tabIndex={0}
               aria-label="Poster canvas. Use Layers to select elements; arrow keys move selected elements."
             >
-              <PosterCanvas guides={guides} stageRef={stage} scale={Math.max(0.1, scale)} />
+              <PosterCanvas
+                preview={preview}
+                guides={guides && !preview}
+                stageRef={stage}
+                scale={Math.max(0.1, scale)}
+              />
             </div>
           </div>
           <details className="canvas-help">
@@ -726,7 +731,13 @@ export default function Poster() {
                 </button>
               </div>
               <fieldset disabled={selected.locked}>
-                <legend>{selected.locked ? 'Locked — unlock to edit' : selected.block ? 'Section properties' : 'Position & size'}</legend>
+                <legend>
+                  {selected.locked
+                    ? 'Locked — unlock to edit'
+                    : selected.block
+                      ? 'Section properties'
+                      : 'Position & size'}
+                </legend>
                 {selected.block && (
                   <BlockProperties
                     element={selected}

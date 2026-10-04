@@ -42,7 +42,8 @@ export default function PosterStart() {
           <label>
             Style
             <select
-              aria-label="Style" value={style}
+              aria-label="Style"
+              value={style}
               onChange={(e) => setStyle(e.target.value as keyof typeof posterStyles)}
             >
               {Object.entries(posterStyles).map(([id, v]) => (
@@ -93,4 +94,3 @@ export default function PosterStart() {
     </div>
   );
 }
-

@@ -28,6 +28,7 @@ async function chooseNewsletter(page: import('@playwright/test').Page) {
   await page
     .getByRole('button', { name: 'Use template: Check-In Newsletter', exact: true })
     .click();
+  await expect(page.locator('.canvas-paper canvas').first()).toBeVisible();
 }
 async function section(page: import('@playwright/test').Page, name: string) {
   await page.getByRole('button', { name: 'Sections', exact: true }).click();
@@ -41,6 +42,9 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   const errors: string[] = [],
     requests: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
+  page.on('console', (message) => {
+    if (['error', 'warning'].includes(message.type())) errors.push(message.text());
+  });
   page.on('request', (r) => requests.push(r.url() + ' ' + (r.postData() || '')));
   await chooseNewsletter(page);
   await page.screenshot({ path: 'test-results/newsletter-editor.png' });
@@ -130,6 +134,7 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   // Rebalance after deleting a section, adding one and replacing a resource.
   await page.locator('.poster-quality summary').click();
   await page.getByRole('button', { name: 'Auto Arrange', exact: true }).click();
+  await expect(page.locator('.poster-quality')).not.toContainText('text overflows');
   await page.locator('.poster-quality summary').click();
   const pngWait = page.waitForEvent('download');
   await page.getByRole('button', { name: 'PNG', exact: true }).click();
@@ -147,9 +152,24 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   expect(pdfBytes.subarray(0, 5).toString()).toBe('%PDF-');
   expect(pdfBytes.toString('latin1')).toContain('/MediaBox [0 0 612. 792.]');
   expect(pdfBytes.toString('latin1')).not.toContain('EmbeddedFile');
+  for (const [quality, dimension] of [
+    ['2', 1632],
+    ['3.125', 2550],
+  ] as const) {
+    await page.getByLabel('Export quality').selectOption(quality);
+    const pending = page.waitForEvent('download');
+    await page.getByRole('button', { name: 'PNG', exact: true }).click();
+    const bytes = await readFile((await (await pending).path())!);
+    expect(bytes.readUInt32BE(16)).toBe(dimension);
+  }
+  await page.getByLabel('Export quality').selectOption('1');
   await page.screenshot({ path: 'test-results/newsletter-customized.png' });
   expect(errors).toEqual([]);
-  expect(requests.filter(r=>/^https?:/.test(r)).every((r) => r.startsWith(new URL(page.url()).origin))).toBe(true);
+  expect(
+    requests
+      .filter((r) => /^https?:/.test(r))
+      .every((r) => r.startsWith(new URL(page.url()).origin)),
+  ).toBe(true);
 });
 for (const [width, height] of [
   [1024, 768],
@@ -170,6 +190,80 @@ for (const [width, height] of [
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(
       width,
     );
-    await page.getByRole('heading',{name:'Poster Maker',exact:true}).scrollIntoViewIfNeeded();
+    await page.getByRole('heading', { name: 'Poster Maker', exact: true }).scrollIntoViewIfNeeded();
     await page.screenshot({ path: `test-results/newsletter-${width}.png` });
   });
+import AxeBuilder from '@axe-core/playwright';
+test('inline text, drag reorder, content modes, image undo and guide-free preview exports', async ({
+  page,
+}) => {
+  await chooseNewsletter(page);
+  const canvas = page.locator('canvas').first();
+  await canvas.scrollIntoViewIfNeeded();
+  const box = (await canvas.boundingBox())!,
+    scale = box.width / 816;
+  await canvas.dblclick({ position: { x: 200 * scale, y: 242 * scale } });
+  await page.getByLabel('Edit text on canvas', { exact: true }).fill('DIRECT CANVAS EDIT');
+  await page.getByLabel('Edit text on canvas', { exact: true }).press('Control+Enter');
+  await section(page, 'Title Banner');
+  await expect(page.getByLabel('Editable text', { exact: true })).toHaveValue('DIRECT CANVAS EDIT');
+  const before = await page.locator('.section-select').allTextContents();
+  await page
+    .locator('.section-select')
+    .filter({ hasText: 'Hero Image' })
+    .dragTo(page.locator('.section-select').filter({ hasText: 'Title Banner' }));
+  expect(await page.locator('.section-select').allTextContents()).not.toEqual(before);
+  await page.getByRole('button', { name: 'Undo', exact: true }).click();
+  expect(await page.locator('.section-select').allTextContents()).toEqual(before);
+  await section(page, 'Get Involved');
+  await page.getByLabel('Body', { exact: true }).fill('Check schedules\nConfirm prerequisites');
+  await page.getByLabel('Content mode').selectOption('checklist');
+  await expect(page.getByLabel('Item 1', { exact: true })).toHaveValue('Check schedules');
+  await page.getByRole('button', { name: 'Add Item', exact: true }).click();
+  await page.getByRole('button', { name: 'Remove item 3', exact: true }).click();
+  await page.getByLabel('Content mode').selectOption('table');
+  await expect(page.getByLabel('Row 1 Item', { exact: true })).toHaveValue('Check schedules');
+  const violations = (
+    await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()
+  ).violations;
+  expect(violations.map((v) => v.id)).toEqual([]);
+  const exportBytes = async () => {
+    const pending = page.waitForEvent('download');
+    await page.getByRole('button', { name: 'PNG', exact: true }).click();
+    return readFile((await (await pending).path())!);
+  };
+  const plain = await exportBytes();
+  await page.getByLabel('Guides', { exact: true }).check();
+  expect((await exportBytes()).equals(plain)).toBe(true);
+  await page.getByRole('button', { name: 'Preview', exact: true }).click();
+  await expect(page.locator('.inspector')).toBeHidden();
+  expect((await exportBytes()).equals(plain)).toBe(true);
+  await page.getByRole('button', { name: 'Edit', exact: true }).click();
+});
+test('course selections populate an editable poster table with official metadata', async ({
+  page,
+}) => {
+  await page.goto('./#/course-planner');
+  await page.getByLabel('Find a course').fill('ENGL 211');
+  await page
+    .getByRole('article', { name: 'ENGL 211 D100', exact: true })
+    .getByRole('button', { name: 'Poster', exact: true })
+    .click();
+  await page.getByLabel('Find a course').fill('ENGL 234');
+  await page
+    .getByRole('article', { name: 'ENGL 234 D100', exact: true })
+    .getByRole('button', { name: 'Poster', exact: true })
+    .click();
+  await page.getByRole('link', { name: /Poster Content/ }).click();
+  await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Create Poster', exact: true }).click();
+  await expect(page.locator('.layer-list button')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Resources', exact: true }).click();
+  await page.getByRole('button', { name: 'Insert course table', exact: true }).click();
+  await expect(page.getByLabel('Row 1 Course', { exact: true })).toHaveValue('ENGL 211');
+  await expect(page.getByLabel('Row 1 Instructor', { exact: true })).toHaveValue('Budra, Paul');
+  await expect(page.getByLabel('Row 2 Course', { exact: true })).toHaveValue('ENGL 234');
+  await page.getByText('Source metadata', { exact: true }).click();
+  await expect(page.locator('.source-metadata a')).toHaveCount(2);
+  await expect(page.locator('.source-metadata')).toContainText('Spring 2027');
+});

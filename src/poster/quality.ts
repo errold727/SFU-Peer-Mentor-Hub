@@ -47,7 +47,9 @@ export function posterQuality(
         );
       if (
         contrastRatio(
-          e.color,
+          e.block?.kind === 'title' && e.block.bannerStyle === 'underline'
+            ? e.block.accentColor
+            : e.color,
           e.block?.kind === 'title' && e.block.bannerStyle !== 'underline'
             ? e.block.accentColor
             : e.backgroundColor === 'transparent'
@@ -56,6 +58,32 @@ export function posterQuality(
         ) < 4.5
       )
         add('contrast', 'low text contrast against the background.');
+      if (e.block) {
+        const cardBackground =
+          e.backgroundColor === 'transparent' ? doc.background : e.backgroundColor;
+        if (
+          ['info', 'highlight', 'list', 'checklist', 'table', 'schedule'].includes(e.block.kind) &&
+          contrastRatio(e.block.accentColor, cardBackground) < 4.5
+        )
+          add('contrast', 'section heading contrast is low.');
+        if (['table', 'schedule'].includes(e.block.kind)) {
+          if (
+            contrastRatio('#ffffff', e.block.headerColor) < 4.5 ||
+            contrastRatio(e.color, e.block.rowColor) < 4.5
+          )
+            add('contrast', 'table header or stripe contrast is low.');
+          if (!e.block.rows.length)
+            add('empty', 'table has no rows. Add a row or remove this section.');
+        }
+      }
+      if (e.block && ['info', 'highlight'].includes(e.block.kind) && !e.block.body.trim())
+        add('empty', 'card body is empty. Add content or remove the section.');
+      if (
+        e.block &&
+        ['list', 'checklist'].includes(e.block.kind) &&
+        !e.block.items.some((item) => item.trim())
+      )
+        add('empty', 'list has no items.');
       if (e.text.match(/\[Add |\[Introduce |\[Share /))
         add('placeholder', 'replace template placeholders before sharing.');
       if (
@@ -68,8 +96,15 @@ export function posterQuality(
     }
     if ((isImageBlock(e) || e.type === 'image') && (!e.src || e.imageError))
       add('image', 'image missing or broken. Choose Replace Image.');
-    if (isQR(e) && !/^https?:\/\//.test(e.text))
-      add('qr-data', 'invalid QR destination. Use an http or https URL.');
+    if (isQR(e)) {
+      try {
+        const destination = new URL(e.block?.body ?? e.text);
+        if (!['http:', 'https:'].includes(destination.protocol) || !destination.hostname)
+          throw new Error('Invalid destination');
+      } catch {
+        add('qr-data', 'invalid QR destination. Use an http or https URL.');
+      }
+    }
     if (isQR(e) && Math.min(e.width, e.height) < 100)
       add('qr', 'QR code is small; scan-test the exported poster.');
   }

@@ -161,9 +161,57 @@ export function createTemplate(id = 'information'): PosterDocument {
     elements,
   });
   if (id === 'blank') return doc();
-  if (id === 'newsletter' || id === 'weekly') {
+  if (id === 'weekly') {
+    hero(32, 230);
+    title('WEEKLY CHECK-IN', 278, 88, 40);
+    add(
+      'greeting',
+      'Greeting',
+      32,
+      380,
+      752,
+      58,
+      { body: 'How is your week going, {{recipientName}}?' },
+      { backgroundColor: '#e9e4db', padding: 17, fontSize: 20, borderWidth: 0 },
+    );
+    add(
+      'highlight',
+      'This Week',
+      32,
+      452,
+      752,
+      125,
+      { title: 'THIS WEEK', body: 'Add one important update and a simple next step.' },
+      { fontSize: 21, backgroundColor: '#fff1ed' },
+    );
+    info(
+      'Get Involved',
+      32,
+      591,
+      368,
+      212,
+      'Share an event or opportunity from the Resource Hub.',
+      '↗',
+    );
+    info(
+      'Resource of the Week',
+      416,
+      591,
+      368,
+      212,
+      'Choose a campus resource or add a useful tip.',
+      '⌂',
+    );
+    add('checklist', 'Quick Check-In', 32, 817, 752, 137, {
+      title: 'QUICK CHECK-IN',
+      items: ['What is going well?', 'What could you use help with?'],
+    });
+    footer();
+    return doc();
+  }
+  if (id === 'newsletter') {
     hero(32, 165);
-    title(id === 'newsletter' ? 'WEEKLY CHECK-IN' : 'THIS WEEK AT SFU', 209, 72, 34);
+    title('WEEKLY CHECK-IN', 209, 72, 34);
     add(
       'greeting',
       'Greeting',
