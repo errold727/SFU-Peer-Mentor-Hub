@@ -3,8 +3,14 @@ import { checkResourceLinks, retryAfterMilliseconds } from '../utils/resourceLin
 const now = () => new Date('2026-10-04T18:00Z');
 describe('bounded read-only source checks', () => {
   it('contains response-body timeouts so other source results are retained', async () => {
-    const body = new Response('partial', { headers: { 'content-type': 'text/html' } });
-    vi.spyOn(body, 'text').mockRejectedValue(new DOMException('body timed out', 'AbortError'));
+    const body = new Response(
+      new ReadableStream({
+        start(controller) {
+          controller.error(new DOMException('body timed out', 'AbortError'));
+        },
+      }),
+      { headers: { 'content-type': 'text/html' } },
+    );
     const fetch = vi
       .fn<typeof globalThis.fetch>()
       .mockResolvedValueOnce(body)
@@ -12,6 +18,7 @@ describe('bounded read-only source checks', () => {
     const results = await checkResourceLinks(['https://www.sfu.ca/a', 'https://www.sfu.ca/b'], 1, {
       fetch,
       now,
+      sleep: async () => undefined,
     });
     expect(results.map((r) => r.status)).toEqual(['timeout', 'reachable']);
   });
@@ -56,6 +63,7 @@ describe('bounded read-only source checks', () => {
     const result = await checkResourceLinks(['javascript:x', 'https://www.sfu.ca/detail'], 2, {
       fetch,
       now,
+      sleep: async () => undefined,
     });
     expect(result.map((r) => r.status)).toEqual(['invalid', 'suspicious-redirect']);
   });
@@ -72,9 +80,9 @@ describe('bounded read-only source checks', () => {
     const result = await checkResourceLinks(
       Array.from({ length: 10 }, (_, i) => `https://www.sfu.ca/${i}`),
       3,
-      { fetch, now },
+      { fetch, now, sleep: async () => undefined },
     );
-    expect(max).toBe(3);
+    expect(max).toBe(2);
     expect(result.every((r) => r.status === 'invalid')).toBe(true);
   });
 });

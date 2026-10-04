@@ -14,6 +14,7 @@ on:
         codex/resource-hub-completion,
         codex/about-page-cleanup,
         codex/course-timetable-modal,
+        codex/weekly-resource-audit,
         data/course-offerings-sync,
       ]
   pull_request:
@@ -42,6 +43,7 @@ jobs:
       - run: npm run courses:validate
       - run: npm run verify:resources -- --offline
       - run: npm run resources:validate
+      - run: npm run audit:weekly -- --offline
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e

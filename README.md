@@ -40,6 +40,8 @@ npm run verify:resources -- --offline
 npm run resources:validate
 npm run resources:report
 npm run resources:links -- --output .resource-reports/links.json
+npm run audit:weekly
+npm run audit:weekly -- --offline
 npm run preview
 ```
 
@@ -71,7 +73,7 @@ scripts/course-import/        Public API importer and dataset validator
 scripts/verify-resources.ts   Read-only metadata / link report
 scripts/generate-template-previews.ts Browser-based preview generation
  e2e/                         Browser flows, exports, accessibility and privacy
-.github/workflows/            Gated deployment and monthly resource health
+.github/workflows/            Gated deployment, weekly resource audit and reviewed course refresh
  docs/                        Audit evidence and maintenance/release notes
 ```
 
@@ -83,7 +85,7 @@ Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies 
 
 Read the actual primary source before changing any claim. Record retrieval separately from content review; partial records have no `lastVerified` date. Review targets are seven days for schedules, fourteen for sensitive/term information, thirty for safety and 180 for evergreen services. These are internal maintenance targets. High-impact claims and precise costs/contacts/dates receive separate review. See [VERIFICATION](docs/resources/VERIFICATION.md) and [MAINTENANCE](docs/resources/MAINTENANCE.md).
 
-`resources:validate` checks the publication gates; `resources:report` reports coverage and review gaps; `resources:links` performs bounded, deduplicated GET checks without changing facts or review dates. Candidate JSON can be validated with `--input`; it cannot overwrite the published catalog. The monthly read-only workflow saves reports as Actions artifacts. A blocked page or failed request is not evidence of discontinuation.
+`resources:validate` checks the publication gates; `resources:report` reports coverage and review gaps; `resources:links` performs bounded, deduplicated GET checks without changing facts or review dates. Candidate JSON can be validated with `--input`; it cannot overwrite the published catalog. The [weekly reliability audit](docs/resources/AUDIT_SYSTEM.md) runs Monday at 00:07 America/Vancouver and manually: all records, source fingerprints/health, freshness/expiry, search, posters, course snapshots and quality gates. Reports and public source baselines are Actions artifacts; actionable findings update one maintenance issue. Reachability or unchanged content never updates `verifiedAt`. A blocked page or failed request is not evidence of discontinuation.
 
 Unsupported Bennett floor/collection claims were removed. Accessible SFU campus/referral pages support retained navigation and confirmed study spaces; protected Library details remain partial. Other conflicts and unpublished schedules are listed in [COVERAGE](docs/resources/COVERAGE.md). The [earlier 32-record audit](docs/resource-audit.md) is historical evidence, superseded for the current directory by these reports.
 
@@ -117,7 +119,7 @@ Canvas zoom uses Fit/150/200/300% of fit and a scrollable viewport. Layers and t
 
 Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, codex/ui-density-polish, codex/poster-maker-v2, codex/import-poster-template-pack, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
 
-The monthly read-only `resource-health.yml` reports public resource links and data schema health. It never creates commits, updates verification dates or posts issues. Bot blocks/timeouts remain non-failing review states; genuine malformed/dead sources require maintainer review.
+The read-only `weekly-resource-audit.yml` reports public source health and content-review needs, with a Job Summary, JSON/Markdown artifacts and one maintenance issue. It never creates factual commits or updates verification dates. It replaces the monthly resource-health workflow; see [audit semantics and troubleshooting](docs/resources/AUDIT_SYSTEM.md).
 
 The daily/manual `course-data-sync.yml` stages both terms, validates, generates the coverage report, runs tests/lint/build/browser checks, and updates one `data/course-offerings-sync` PR without force-pushing or auto-merging. GitHub must allow Actions to create pull requests. Failed imports and browser diagnostics are retained for seven days.
 
