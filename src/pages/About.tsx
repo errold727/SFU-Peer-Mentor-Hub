@@ -38,11 +38,6 @@ export default function About() {
         live. Missing details remain unavailable. Confirm required lectures, tutorials and labs
         through SFU and goSFU.
       </p>
-      <h2>Independent visual identity</h2>
-      <p>
-        The SFU-inspired colours and campus geometry are original design elements. No official SFU
-        logo or restricted commercial font is bundled.
-      </p>
       <a href="https://github.com/errold727/SFU-Peer-Mentor-Hub" target="_blank" rel="noreferrer">
         Project source and data maintenance ↗
       </a>

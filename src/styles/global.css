@@ -1729,3 +1729,30 @@ dialog.detail-drawer {
     padding: 10px 12px;
   }
 }
+.template-preview h2 {
+  font-size: 20px;
+  margin-top: 12px;
+}
+.template-preview svg {
+  height: 90px;
+}
+.fact-list div {
+  display: grid;
+  grid-template-columns: 145px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+}
+.fact-list dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.detail-meta {
+  font-size: 13px;
+  color: #595954;
+}
+@media (max-width: 560px) {
+  .fact-list div {
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 8px;
+  }
+}

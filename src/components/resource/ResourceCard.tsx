@@ -67,8 +67,10 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
       {detail && (
         <Modal title={r.title} onClose={() => setDetail(false)}>
           <p>{r.summary}</p>
-          <p className="notice">
-            {verificationLabels[status]} · {r.campus === 'All' ? 'All campuses' : r.campus}
+          <p className={status === 'fresh' ? 'detail-meta' : 'notice'}>
+            {verificationLabels[status]}
+            {r.lastVerified && ` · ${status === 'fresh' ? '' : 'Verified '}${r.lastVerified}`} ·{' '}
+            {r.campus === 'All' ? 'All campuses' : r.campus}
             {r.term && ` · ${r.term}`}
             {r.date && ` · ${r.date}`}
           </p>
@@ -87,7 +89,6 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
               </div>
             ))}
           </dl>
-          <p>Last verified: {r.lastVerified ?? 'Not yet verified'}</p>
           <a href={r.sourceUrl} target="_blank" rel="noreferrer">
             {r.sourceName} ↗
           </a>

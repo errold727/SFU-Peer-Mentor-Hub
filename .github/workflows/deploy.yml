@@ -2,7 +2,15 @@ name: Test, build and deploy Pages
 
 on:
   push:
-    branches: [main, codex/phase0, codex/v1, codex/course-offerings-v2, codex/ui-density-polish, data/course-offerings-sync]
+    branches:
+      [
+        main,
+        codex/phase0,
+        codex/v1,
+        codex/course-offerings-v2,
+        codex/ui-density-polish,
+        data/course-offerings-sync,
+      ]
   pull_request:
     branches: [main]
   workflow_dispatch:
