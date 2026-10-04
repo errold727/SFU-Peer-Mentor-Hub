@@ -1,3 +1,5 @@
+import { arrangeBlocks } from './blockArrange';
+import { blockParts } from './blockLayout';
 import Konva from 'konva';
 import {
   posterSizes,
@@ -7,6 +9,7 @@ import {
 } from './posterTypes';
 
 export function textHeight(element: PosterElement, recipientName = '') {
+  if (element.block) return blockParts(element, recipientName).height;
   const measurement = new Konva.Text({
     text: resolveRecipient(element.text, recipientName),
     width: element.width,
@@ -52,6 +55,7 @@ export function autoArrange(
   name = '',
   measure: MeasureText = textHeight,
 ) {
+  if (document.elements.some((e) => e.block)) return arrangeBlocks(document, name, measure);
   const cards = document.elements.filter((e) => e.visible && e.type === 'resource' && !e.locked);
   if (!cards.length) return { document, warnings: ['Add unlocked resource cards to arrange.'] };
   const size = posterSizes[document.size],

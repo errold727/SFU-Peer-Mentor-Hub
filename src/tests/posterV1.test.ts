@@ -59,7 +59,9 @@ describe('readable automatic poster layout', () => {
     expect(result.document.elements.at(-1)?.fontSize).toBe(16);
   });
   it('preserves hidden and locked cards and avoids existing body content', () => {
-    const doc = createTemplate('welcome');
+    const doc = createTemplate();
+    // A legacy draft with a large primitive body must remain an obstacle.
+    doc.elements.push(makeElement('text', { x:48,y:260,width:720,height:620,text:'Welcome body' }));
     const locked = makeElement('resource', { locked: true }),
       hidden = makeElement('resource', { visible: false });
     doc.elements.push(locked, hidden, makeElement('resource'));

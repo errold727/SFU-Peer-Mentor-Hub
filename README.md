@@ -8,7 +8,7 @@ A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find p
 
 - **Resource Hub:** 32 sourced resources, useful search aliases, category/campus/term filters, details, copy, Vancouver-aware deadlines, and sport/day recreation filtering. Cards distinguish Verified, Review Soon, Review Recommended / Stale, and Unverified. Printing is included; international topics link directly to their official guidance.
 - **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, with concise poster bodies and optional official-source QR codes. Full details and copied text retain source URLs and verification metadata.
-- **Poster Maker:** eight editable templates and five optional styles; temporary recipient personalization; text, image, shape, icon, resource, QR, divider and footer elements; pointer and keyboard editing; layers, hide/lock, undo/redo, snapping, alignment, typography and borders. Auto Arrange reserves margins/header/footer and avoids existing content. Body text is never automatically reduced below 16 px. Poster Quality detects overflow, overlap, small text, low contrast, empty content, placeholders, density and edge problems. Grow to fit text and Fit text safely address overflow.
+- **Poster Maker V2:** start with a blank canvas (five sizes/five styles) or one of ten real-preview templates. The Check-In Newsletter combines a replaceable campus hero, title, greeting, announcement, information cards, editable schedules/course tables and footer. Sections support selection, drag/arrow reorder, duplicate, hide, delete and undo/redo. Contextual properties, inline text editing, local image crop/fit controls, Resource Hub replacement and course-table insertion keep content editable. Auto Arrange measures text and reserves headers, footers, margins and locked objects. Poster Quality flags overflow, overlap, small text, contrast, empty/dense content, broken images and invalid QR destinations. See [Poster Maker V2](docs/POSTER_MAKER_V2.md).
 - **Optional local drafts:** explicit Save locally, Open, Duplicate and Delete. No autosave or automatic restore. Recipient fields require a separate opt-in. Storage is browser-local with a visible usage indicator.
 - **Exports:** standard, 2x and print PNG; PDF with matching page bounds. Hidden content, guides and selection handles are excluded. Letter print PNG is 2550 × 3300; Letter PDF is 612 × 792 points. PDF is a rendered visual, not an editable document or hidden student JSON.
 - **Course Planner:** dynamically discovered CourSys offerings for Fall 2026 (1267) and Spring 2027 (1271), across every subject returned for each term. All Subjects browsing, grouped sections, search by code/title/instructor/section/campus, filters, lazy details, temporary cross-subject selections, weekly meetings and deterministic conflicts. Counts, snapshot times and enrichment gaps are published in [COURSE_DATA_STATUS](docs/COURSE_DATA_STATUS.md). No course ranking or demand prediction.
@@ -26,7 +26,7 @@ PNG/PDF downloads contain the visible text the user chose. A recipient name may 
 
 ## Local development and checks
 
-Use Node 24 and npm. Course Offerings V2 development uses `codex/course-offerings-v2`; `main` is the deployed branch.
+Use Node 24 and npm. Poster Maker V2 development uses `codex/poster-maker-v2`; `main` is the deployed branch.
 
 ```sh
 npm ci
@@ -43,7 +43,7 @@ npm run preview
 
 Vite normally serves `http://127.0.0.1:5173/SFU-Peer-Mentor-Hub/`. The browser suite builds a production preview on port 4173. Windows uses installed Microsoft Edge; CI uses Playwright Chromium (`npx playwright install --with-deps chromium`). Set `PLAYWRIGHT_BASE_URL` to test production or another running deployment. Screenshots/downloads use fictional test content and live under ignored `test-results/`. Restricted Windows runners may need process permissions for browser/server cleanup.
 
-`npm run format` runs Prettier. TypeScript checks source, maintenance scripts and browser tests. Unit/integration tests exercise real behavior, normalization failures, source reliability, schedule conflicts, layout geometry, draft consent and privacy boundaries. Browser tests check all routes at 375/390/768/1024/1440 px, axe WCAG checks, keyboard dialogs, recovery from malformed course data, basket-to-poster use, all eight templates, editing and actual downloaded PNG/PDF bytes. Print export tests decode the QR from exported pixels.
+`npm run format` runs Prettier. TypeScript checks source, maintenance scripts and browser tests. Unit/integration tests exercise real behavior, normalization failures, source reliability, schedule conflicts, layout geometry, draft consent and privacy boundaries. Browser tests check all routes at 375/390/768/1024/1440 px, axe WCAG checks, keyboard dialogs, recovery from malformed course data, basket-to-poster use, all ten templates, editing and actual downloaded PNG/PDF bytes. Print export tests decode the QR from exported pixels.
 
 ## Architecture and performance
 
@@ -51,7 +51,7 @@ React 19, TypeScript, Vite, HashRouter, Zustand, React-Konva, Lucide, jsPDF, QRC
 
 ```text
 src/app/                      Shell, routing and error recovery
-src/pages/                    Six route-level views
+src/pages/                    Route-level views, including poster start/gallery/editor
 src/components/               Resource cards, basket and accessible dialogs
 src/data/resources/           Public facts and official source metadata
 src/store/                    Ephemeral editor and basket stores
@@ -67,7 +67,7 @@ scripts/verify-resources.ts   Read-only metadata / link report
  docs/                        Audit evidence and maintenance/release notes
 ```
 
-Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; the browser loads a term manifest and compact all-subject index or individual subject snapshot. Long descriptions, prerequisite text and registrar notes load on detail/selection. New requests abort stale fetches, search/sort is memoized, and results render 12 course groups at a time. Poster measurements are memoized by document/name rather than selection. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster Maker is about 120 KB gzip on demand. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
+Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; the browser loads a term manifest and compact all-subject index or individual subject snapshot. Long descriptions, prerequisite text and registrar notes load on detail/selection. New requests abort stale fetches, search/sort is memoized, and results render 12 course groups at a time. Poster measurements are memoized by document/name rather than selection. Template previews use the same renderer and mount when approaching the viewport. Image decoding is keyed by source; local uploads are limited to 10 MB, normalized to at most 2400 px per edge, and temporary object URLs are revoked. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster editor and shared renderer add about 124 KB gzip on demand; the start screen itself is about 1.2 KB gzip. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
 
 ## Resource maintenance
 
@@ -100,15 +100,17 @@ The prior V1 datasets remain under their original named term folders as historic
 
 ## Poster development
 
-Templates live in `src/poster/templates/index.ts`, styles in `src/poster/styles.ts`, and logical sizes/types in `src/poster/posterTypes.ts`. Maintain the eight established template purposes. Create elements with makeElement and keep facts as editable text, not in images. The optional placeholder is `{{recipientName}}`. Template changes are undoable.
+Templates live in `src/poster/templates/index.ts`, styles in `src/poster/styles.ts`, and logical sizes/types in `src/poster/posterTypes.ts`. There are exactly ten gallery templates. Use `makeBlock` for structured sections and `makeElement` for low-level primitives. Keep factual content in editable fields, not in images. The optional placeholder is `{{recipientName}}`, displayed as Student Name when empty. Old primitive drafts remain supported. Template changes are undoable.
 
-Auto Arrange chooses a readable grid in the largest available area, respects visible locked objects and reserves header/footer space. It supports 1/2/3/4/5+ cards. Dense cards keep complete text and show warnings instead of shrinking below 16 px. Welcome/event body content may occupy the available area; move it or choose a resource template. Grow to fit text can extend a card beyond the page, which the quality panel then flags. Visual/print review is still necessary, especially for rotated or image-backed content.
+Start at `#/poster`, choose blank setup or `#/poster/templates`, and edit at `#/poster/edit`. Adding basket resources is explicit, so blank canvases and templates are not silently populated. Resource replacement retains official provenance while allowing display edits. Course selections can populate individual cards, a course table or conflict notice.
+
+Auto Arrange measures block text, reserves visible header/footer areas, ignores hidden sections and avoids locked objects. It rebalances one through six or more content sections while maintaining readable gutters and font sizes. Dense content retains its wording and produces quality warnings. Grow to fit text can extend beyond the page, which the quality panel flags. Visual/print review remains necessary, especially for rotated or image-backed content. See [architecture, controls and verification evidence](docs/POSTER_MAKER_V2.md).
 
 Canvas zoom uses Fit/150/200/300% of fit and a scrollable viewport. Layers and the inspector provide a keyboard alternative to dragging. Arrows move 1 px, Shift+Arrow 10 px, Delete removes unlocked elements, Ctrl/Cmd+Z undoes, and Shift+Ctrl/Cmd+Z redoes. PNG/PDF are flattened final output; optional local drafts retain editing state.
 
 ## CI/CD and release
 
-Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
+Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, codex/ui-density-polish, codex/poster-maker-v2, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
 
 The monthly read-only `resource-health.yml` reports public resource links and data schema health. It never creates commits, updates verification dates or posts issues. Bot blocks/timeouts remain non-failing review states; genuine malformed/dead sources require maintainer review.
 

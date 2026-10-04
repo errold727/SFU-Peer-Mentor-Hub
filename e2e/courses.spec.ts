@@ -38,6 +38,10 @@ test('all-subject search, section details, conflict, cross-subject comparison an
   await page.getByRole('button', { name: 'Add Selected Courses to Poster' }).click();
   await page.getByRole('button', { name: 'Add Schedule Conflict to Poster' }).first().click();
   await page.getByRole('link', { name: /Poster Content/ }).click();
+  await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Create Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Resources', exact: true }).click();
+  await page.getByRole('button', { name: /Add selected resources/ }).click();
   await page.locator('.layer-list button').filter({ hasText: 'SPRING 2027 ENGL 211' }).click();
   await expect(page.getByLabel('Editable text')).toContainText('9:30 AM');
   await expect(page.getByLabel('Editable text')).not.toContainText('https://');

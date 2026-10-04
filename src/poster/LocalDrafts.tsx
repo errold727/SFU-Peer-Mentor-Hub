@@ -9,7 +9,7 @@ import {
   type LocalDraft,
 } from './drafts';
 import { Modal } from '../components/ui/Modal';
-export function LocalDrafts() {
+export function LocalDrafts({ onOpen }: { onOpen?: () => void } = {}) {
   const [drafts, setDrafts] = useState<LocalDraft[]>([]),
     [message, setMessage] = useState(''),
     [includeName, setIncludeName] = useState(false),
@@ -124,6 +124,7 @@ export function LocalDrafts() {
               s.setRecipientName(pending.recipientName ?? '');
               s.select(null);
               setPending(null);
+              onOpen?.();
             }}
           >
             Open saved draft

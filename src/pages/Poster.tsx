@@ -1,3 +1,7 @@
+import { readLocalImage } from '../poster/images';
+import { SectionsPanel } from '../poster/SectionsPanel';
+import { BlockProperties } from '../poster/BlockProperties';
+import { resourceBlockPatch, makeBlock } from '../poster/blocks';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
@@ -41,7 +45,11 @@ export default function Poster() {
   const [areaWidth, setAreaWidth] = useState(540);
   const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
   const [zoom, setZoom] = useState(1);
-  const [tab, setTab] = useState('Resources');
+  const [tab, setTab] = useState('Sections');
+  const [replaceTarget, setReplaceTarget] = useState<string | null>(null);
+  const [mobilePanel, setMobilePanel] = useState<'tools' | 'properties' | null>(null);
+  const [guides, setGuides] = useState(false);
+  const [preview, setPreview] = useState(false);
   const [quality, setQuality] = useState(1);
   const [message, setMessage] = useState('');
   const [busy, setBusy] = useState(false);
@@ -53,7 +61,11 @@ export default function Poster() {
   const scale =
     Math.max(
       0.1,
-      Math.min(0.72, (areaWidth - 48) / size.width, (viewportHeight * 0.78 - 32) / size.height),
+      Math.min(
+        0.72,
+        (areaWidth - 48) / size.width,
+        Math.max(400, viewportHeight - 390) / size.height,
+      ),
     ) * zoom;
   const issues = useMemo(
     () => posterQuality(s.document, s.recipientName),
@@ -66,9 +78,6 @@ export default function Poster() {
     }
     if (selected && !selected.locked) s.update(selected.id, patch);
   };
-  useEffect(() => {
-    usePosterStore.getState().importResources(basket.items);
-  }, [basket.items]);
   useEffect(() => {
     const el = canvasArea.current;
     if (!el) return;
@@ -165,17 +174,26 @@ export default function Poster() {
     setMessage(arranged.warnings.join(' ') || 'Resource cards arranged.');
   }
   return (
-    <>
+    <div className="poster-workspace">
       <header className="page-heading editor-heading">
         <div>
           <h1>Poster Maker</h1>
         </div>
-        <Link className="button" to="/poster/templates">
-          Browse templates ↗
-        </Link>
+        <div className="actions">
+          <Link to="/poster">New poster</Link>
+          <button aria-pressed={preview} onClick={() => setPreview(!preview)}>
+            {preview ? 'Edit' : 'Preview'}
+          </button>
+          <Link className="button" to="/poster/templates">
+            Browse templates ↗
+          </Link>
+        </div>
       </header>
       <div className="privacy-note">
-        Unsaved content stays in this browser session. Nothing is uploaded.{' '}
+        <span className="template-name">
+          {templates.find((t) => t.id === s.document.template)?.name}
+        </span>{' '}
+        · Unsaved content stays in this browser session. Nothing is uploaded.{' '}
         <Link to="/about">Privacy</Link>
       </div>
       <div className="editor-toolbar">
@@ -250,11 +268,31 @@ export default function Poster() {
         </details>
         <LocalDrafts />
       </div>
-      <div className="editor-layout">
-        <aside className="editor-panel">
+      <div className="mobile-editor-switch">
+        <button
+          aria-expanded={mobilePanel === 'tools'}
+          onClick={() => setMobilePanel(mobilePanel === 'tools' ? null : 'tools')}
+        >
+          Sections & tools
+        </button>
+        <button
+          aria-expanded={mobilePanel === 'properties'}
+          onClick={() => setMobilePanel(mobilePanel === 'properties' ? null : 'properties')}
+        >
+          Properties
+        </button>
+      </div>
+      <div
+        className={`editor-layout v2-editor ${preview ? 'preview-mode' : ''}`}
+        data-panel={mobilePanel}
+      >
+        <aside className="editor-panel tools-panel">
           <div className="tool-tabs">
             {[
+              { name: 'Sections', Icon: BookOpen },
               { name: 'Resources', Icon: BookOpen },
+              { name: 'Templates', Icon: BookOpen },
+              { name: 'Layers', Icon: BookOpen },
               { name: 'Text', Icon: Type },
               { name: 'Icons', Icon: Star },
               { name: 'Shapes', Icon: Shapes },
@@ -273,18 +311,119 @@ export default function Poster() {
             ))}
           </div>
           <div className="tool-content">
+            {tab === 'Sections' && <SectionsPanel />}
+            {tab === 'Templates' && <Link to="/poster/templates">Browse all templates</Link>}
+            {tab === 'Layers' && (
+              <div className="raw-layer-list">
+                {[...s.document.elements]
+                  .sort((a, b) => b.zIndex - a.zIndex)
+                  .map((e) => (
+                    <button
+                      key={e.id}
+                      onClick={() => {
+                        s.select(e.id);
+                        setMobilePanel('properties');
+                      }}
+                    >
+                      {e.block
+                        ? `${e.block.label} · group`
+                        : e.text.slice(0, 24) || e.shape || e.type}
+                    </button>
+                  ))}
+              </div>
+            )}
             {tab === 'Resources' && (
               <>
+                {replaceTarget && (
+                  <p className="notice">
+                    Choose replacement content.{' '}
+                    <button onClick={() => setReplaceTarget(null)}>Cancel</button>
+                  </p>
+                )}
                 <input
                   aria-label="Find poster resources"
                   placeholder="Find a resource…"
                   value={resourceQuery}
                   onChange={(e) => setResourceQuery(e.target.value)}
                 />
+                {basket.items.length > 0 && (
+                  <button
+                    onClick={() => {
+                      s.importResources(basket.items);
+                      setMessage('Selected resources added. Use Auto Arrange to fit them.');
+                    }}
+                  >
+                    Add selected resources ({basket.items.length})
+                  </button>
+                )}
                 <button onClick={fitResources}>Auto Arrange resource cards</button>
+                <div className="course-insert">
+                  <Link to="/course-planner">Choose courses ↗</Link>
+                  {basket.items.some((r) => r.id.startsWith('course:')) && (
+                    <button
+                      onClick={() => {
+                        const courses = basket.items.filter((r) => r.id.startsWith('course:'));
+                        const block = makeBlock(
+                          'table',
+                          {
+                            label: 'Course Offerings',
+                            title: 'COURSE OFFERINGS',
+                            subtitle: [...new Set(courses.map((r) => r.term))].join(' · '),
+                            columns: ['Course', 'Instructor'],
+                            rows: courses.map((r) => [
+                              r.title.split(' · ')[0],
+                              r.facts?.find((f) => f.label === 'Instructor')?.value ||
+                                'Unavailable',
+                            ]),
+                          },
+                          {
+                            x: 32,
+                            y: 360,
+                            width: 752,
+                            height: 300,
+                            sourceUrl: courses[0].sourceUrl,
+                            provenance: courses.map((r) => ({
+                              id: r.id,
+                              title: r.title,
+                              sourceUrl: r.sourceUrl,
+                              lastVerified: r.lastVerified,
+                            })),
+                          },
+                        );
+                        if (selected?.block && ['table', 'schedule'].includes(selected.block.kind))
+                          update({
+                            block: block.block,
+                            provenance: block.provenance,
+                            sourceUrl: block.sourceUrl,
+                            text: block.text,
+                          });
+                        else s.add(block);
+                      }}
+                    >
+                      Insert course table
+                    </button>
+                  )}
+                </div>
+
                 <div className="resource-picker">
-                  {searchResources(resources, resourceQuery).map((r) => (
-                    <button key={r.id} onClick={() => s.importResources([r])}>
+                  {searchResources(
+                    [
+                      ...resources,
+                      ...basket.items.filter((r) => !resources.some((v) => v.id === r.id)),
+                    ],
+                    resourceQuery,
+                  ).map((r) => (
+                    <button
+                      key={r.id}
+                      onClick={() => {
+                        const target = s.document.elements.find((e) => e.id === replaceTarget);
+                        if (target && !target.locked) {
+                          s.update(target.id, resourceBlockPatch(target, r));
+                          setReplaceTarget(null);
+                          setMessage('Section content replaced. Source metadata retained.');
+                        } else s.importResources([r]);
+                      }}
+                    >
                       {r.title} <span>+</span>
                     </button>
                   ))}
@@ -414,32 +553,31 @@ export default function Poster() {
                   Upload image
                   <input
                     type="file"
-                    accept="image/png,image/jpeg,image/webp"
-                    onChange={(event) => {
+                    accept="image/png,image/jpeg,image/webp,image/gif"
+                    onChange={async (event) => {
                       const file = event.target.files?.[0];
-                      if (!file) return;
-                      if (file.size > 10 * 1024 * 1024) {
-                        setMessage('Choose an image under 10 MB.');
-                        return;
-                      }
-                      const reader = new FileReader();
-                      reader.onload = () => {
-                        const src = String(reader.result);
-                        const img = new Image();
-                        img.onload = () =>
-                          s.add(
-                            makeElement('image', {
-                              src,
-                              text: '',
-                              width: 360,
-                              height: (360 * img.height) / img.width,
-                            }),
-                          );
-                        img.onerror = () => setMessage('This image could not be opened.');
-                        img.src = src;
-                      };
-                      reader.readAsDataURL(file);
                       event.target.value = '';
+                      if (!file) return;
+                      try {
+                        const src = await readLocalImage(file);
+                        const image = new Image();
+                        image.src = src;
+                        await image.decode();
+                        s.add(
+                          makeBlock(
+                            'image',
+                            {},
+                            {
+                              src,
+                              width: 360,
+                              height: (360 * image.height) / image.width,
+                              padding: 0,
+                            },
+                          ),
+                        );
+                      } catch (error) {
+                        setMessage((error as Error).message);
+                      }
                     }}
                   />
                 </label>
@@ -517,6 +655,14 @@ export default function Poster() {
         </aside>
         <div className="canvas-area" ref={canvasArea}>
           <div className="canvas-meta">
+            <label className="guide-toggle">
+              <input
+                type="checkbox"
+                checked={guides}
+                onChange={(event) => setGuides(event.target.checked)}
+              />
+              Guides
+            </label>
             <span>
               {size.width} × {size.height}
             </span>
@@ -537,7 +683,12 @@ export default function Poster() {
               tabIndex={0}
               aria-label="Poster canvas. Use Layers to select elements; arrow keys move selected elements."
             >
-              <PosterCanvas stageRef={stage} scale={Math.max(0.1, scale)} />
+              <PosterCanvas
+                preview={preview}
+                guides={guides && !preview}
+                stageRef={stage}
+                scale={Math.max(0.1, scale)}
+              />
             </div>
           </div>
           <details className="canvas-help">
@@ -580,7 +731,25 @@ export default function Poster() {
                 </button>
               </div>
               <fieldset disabled={selected.locked}>
-                <legend>{selected.locked ? 'Locked — unlock to edit' : 'Position & size'}</legend>
+                <legend>
+                  {selected.locked
+                    ? 'Locked — unlock to edit'
+                    : selected.block
+                      ? 'Section properties'
+                      : 'Position & size'}
+                </legend>
+                {selected.block && (
+                  <BlockProperties
+                    element={selected}
+                    update={update}
+                    onReplaceContent={() => {
+                      setReplaceTarget(selected.id);
+                      setTab('Resources');
+                      setMobilePanel('tools');
+                    }}
+                    onMessage={setMessage}
+                  />
+                )}
                 <div className="property-grid">
                   {(['x', 'y', 'width', 'height', 'rotation'] as const).map((key) => (
                     <label key={key}>
@@ -608,92 +777,97 @@ export default function Poster() {
                     </button>
                   ))}
                 </div>
-                {!['shape', 'image', 'divider'].includes(selected.type) && (
-                  <>
-                    <label>
-                      Editable text
-                      <textarea
-                        value={selected.text}
-                        onChange={(e) => update({ text: e.target.value })}
-                      />
-                    </label>
-                    {selected.type !== 'qrcode' && (
-                      <div className="actions">
-                        <button
-                          onClick={() =>
-                            update({ height: Math.ceil(textHeight(selected, s.recipientName)) + 2 })
-                          }
-                        >
-                          Grow to fit text
-                        </button>
-                        <button
-                          disabled={selected.fontSize <= MIN_BODY_FONT}
-                          onClick={() => {
-                            const next = { ...selected };
-                            while (
-                              next.fontSize > MIN_BODY_FONT &&
-                              textHeight(next, s.recipientName) > next.height
-                            )
-                              next.fontSize -= 0.5;
-                            update({ fontSize: next.fontSize });
-                          }}
-                        >
-                          Fit text safely
-                        </button>
+                {!['shape', 'image', 'divider'].includes(selected.type) &&
+                  !['hero', 'image', 'divider'].includes(selected.block?.kind || '') && (
+                    <>
+                      {!selected.block && (
+                        <label>
+                          Editable text
+                          <textarea
+                            value={selected.text}
+                            onChange={(e) => update({ text: e.target.value })}
+                          />
+                        </label>
+                      )}
+                      {selected.type !== 'qrcode' && (
+                        <div className="actions">
+                          <button
+                            onClick={() =>
+                              update({
+                                height: Math.ceil(textHeight(selected, s.recipientName)) + 2,
+                              })
+                            }
+                          >
+                            Grow to fit text
+                          </button>
+                          <button
+                            disabled={selected.fontSize <= MIN_BODY_FONT}
+                            onClick={() => {
+                              const next = { ...selected };
+                              while (
+                                next.fontSize > MIN_BODY_FONT &&
+                                textHeight(next, s.recipientName) > next.height
+                              )
+                                next.fontSize -= 0.5;
+                              update({ fontSize: next.fontSize });
+                            }}
+                          >
+                            Fit text safely
+                          </button>
+                        </div>
+                      )}
+                      <div className="property-grid">
+                        <label>
+                          Font size
+                          <input
+                            type="number"
+                            min={6}
+                            max={300}
+                            value={selected.fontSize}
+                            onChange={(e) =>
+                              update({ fontSize: Math.max(6, Number(e.target.value)) })
+                            }
+                          />
+                        </label>
+                        <label>
+                          Weight
+                          <select
+                            value={selected.fontWeight}
+                            onChange={(e) =>
+                              update({ fontWeight: e.target.value as 'normal' | 'bold' })
+                            }
+                          >
+                            <option value="normal">Normal</option>
+                            <option value="bold">Bold</option>
+                          </select>
+                        </label>
                       </div>
-                    )}
-                    <div className="property-grid">
                       <label>
-                        Font size
-                        <input
-                          type="number"
-                          min={6}
-                          max={300}
-                          value={selected.fontSize}
-                          onChange={(e) =>
-                            update({ fontSize: Math.max(6, Number(e.target.value)) })
-                          }
-                        />
-                      </label>
-                      <label>
-                        Weight
+                        Font family
                         <select
-                          value={selected.fontWeight}
-                          onChange={(e) =>
-                            update({ fontWeight: e.target.value as 'normal' | 'bold' })
-                          }
+                          value={selected.fontFamily}
+                          onChange={(e) => update({ fontFamily: e.target.value })}
                         >
-                          <option value="normal">Normal</option>
-                          <option value="bold">Bold</option>
+                          {['Arial', 'Georgia', 'Verdana', 'Courier New'].map((f) => (
+                            <option key={f}>{f}</option>
+                          ))}
                         </select>
                       </label>
-                    </div>
-                    <label>
-                      Font family
-                      <select
-                        value={selected.fontFamily}
-                        onChange={(e) => update({ fontFamily: e.target.value })}
-                      >
-                        {['Arial', 'Georgia', 'Verdana', 'Courier New'].map((f) => (
-                          <option key={f}>{f}</option>
-                        ))}
-                      </select>
-                    </label>
-                    <label>
-                      Text alignment
-                      <select
-                        value={selected.align}
-                        onChange={(e) =>
-                          update({ align: e.target.value as 'left' | 'center' | 'right' })
-                        }
-                      >
-                        {['left', 'center', 'right'].map((a) => (
-                          <option key={a}>{a}</option>
-                        ))}
-                      </select>
-                    </label>
-                  </>
-                )}
+                      <label>
+                        Text alignment
+                        <select
+                          value={selected.align}
+                          onChange={(e) =>
+                            update({ align: e.target.value as 'left' | 'center' | 'right' })
+                          }
+                        >
+                          {['left', 'center', 'right'].map((a) => (
+                            <option key={a}>{a}</option>
+                          ))}
+                        </select>
+                      </label>
+                    </>
+                  )}
                 <div className="property-grid">
                   <label>
                     Color
@@ -825,10 +999,17 @@ export default function Poster() {
               .map((e) => (
                 <button
                   className={s.selected === e.id ? 'active' : ''}
-                  onClick={() => s.select(e.id)}
+                  onClick={() => {
+                    s.select(e.id);
+                    setMobilePanel('properties');
+                  }}
                   key={e.id}
                 >
-                  <span>{e.text.slice(0, 30) || e.shape || e.type}</span>
+                  <span>
+                    {e.block
+                      ? (e.block.title || e.block.body || e.block.label).slice(0, 30)
+                      : e.text.slice(0, 30) || e.shape || e.type}
+                  </span>
                   {e.locked && <Lock size={12} />} {!e.visible && <EyeOff size={12} />}
                 </button>
               ))}
@@ -853,6 +1034,6 @@ export default function Poster() {
           </button>
         </Modal>
       )}
-    </>
+    </div>
   );
 }

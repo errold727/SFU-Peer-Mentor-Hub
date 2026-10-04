@@ -1,3 +1,4 @@
+import { isImageBlock, isQR } from './blocks';
 import type Konva from 'konva';
 
 import { localDate } from '../utils/dates';
@@ -46,7 +47,7 @@ export async function exportPoster(
   await document.fonts.ready;
   const images = stage.find('Image') as Konva.Image[];
   const expectedImages = doc.elements.filter(
-    (e) => e.visible && ['image', 'qrcode'].includes(e.type),
+    (e) => e.visible && (e.type === 'image' || isQR(e) || (isImageBlock(e) && !!e.src)),
   ).length;
   if (images.length !== expectedImages || images.some((node) => !node.image()))
     throw new Error('Please wait for images to finish loading.');

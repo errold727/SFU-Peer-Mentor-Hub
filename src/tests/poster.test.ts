@@ -72,10 +72,14 @@ describe('poster editor', () => {
         makeElement('text', { text: 'visible' }),
       ]).map((e) => e.text),
     ).toEqual(['visible']));
-  it('provides eight editable templates', () => {
-    expect(templates).toHaveLength(8);
+  it('provides exactly ten templates with structured editable content', () => {
+    expect(templates).toHaveLength(10);
     for (const t of templates)
-      expect(createTemplate(t.id).elements.some((e) => e.type === 'text')).toBe(true);
+      expect(
+        t.id === 'blank'
+          ? createTemplate(t.id).elements.length === 0
+          : createTemplate(t.id).elements.some((e) => e.block),
+      ).toBe(true);
   });
   it('checks contrast', () => {
     expect(contrastRatio('#ffffff', '#ffffff')).toBe(1);

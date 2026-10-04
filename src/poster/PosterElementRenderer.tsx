@@ -1,10 +1,16 @@
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { Group, Rect, Text, Image as CanvasImage, Line, Ellipse } from 'react-konva';
 import QRCode from 'qrcode';
 import type Konva from 'konva';
 import { type PosterElement, resolveRecipient } from './posterTypes';
+import { BlockContentRenderer } from './BlockContentRenderer';
+import { imagePlacement, isImageBlock, isQR } from './blocks';
 function useImage(src?: string) {
-  const [loaded, setLoaded] = useState<{ src: string; image: HTMLImageElement }>();
+  const [loaded, setLoaded] = useState<{
+    src: string;
+    image?: HTMLImageElement;
+    error?: boolean;
+  }>();
   useEffect(() => {
     if (!src) return;
     let active = true;
@@ -12,29 +18,38 @@ function useImage(src?: string) {
     img.onload = () => {
       if (active) setLoaded({ src, image: img });
     };
+    img.onerror = () => {
+      if (active) setLoaded({ src, error: true });
+    };
     img.src = src;
     return () => {
       active = false;
     };
   }, [src]);
-  return loaded && loaded.src === src ? loaded.image : undefined;
+  return {
+    image: loaded && loaded.src === src ? loaded.image : undefined,
+    failed: loaded && loaded.src === src && !!loaded.error,
+  };
 }
-export function PosterElementRenderer({
+export const PosterElementRenderer = memo(function PosterElementRenderer({
   element: e,
   recipientName,
   onSelect,
   onChange,
   onGuide,
+  onEdit,
 }: {
   element: PosterElement;
   recipientName: string;
   onSelect: () => void;
+  onEdit?: () => void;
   onChange: (patch: Partial<PosterElement>) => void;
   onGuide: (x: number | null, y: number | null) => void;
 }) {
+  const qrElement = isQR(e);
   const [qr, setQr] = useState({ text: '', src: '' });
   useEffect(() => {
-    if (e.type !== 'qrcode') return;
+    if (!qrElement) return;
     let active = true;
     QRCode.toDataURL(e.text, { width: 512, margin: 2, errorCorrectionLevel: 'M' })
       .then((src) => {
@@ -46,8 +61,11 @@ export function PosterElementRenderer({
     return () => {
       active = false;
     };
-  }, [e.type, e.text]);
-  const image = useImage(e.type === 'qrcode' ? (qr.text === e.text ? qr.src : undefined) : e.src);
+  }, [qrElement, e.text]);
+  const { image, failed } = useImage(isQR(e) ? (qr.text === e.text ? qr.src : undefined) : e.src);
+  useEffect(() => {
+    if (failed && !e.imageError) onChange({ imageError: true });
+  }, [failed, e.imageError, onChange]);
   const props = {
     id: e.id,
     x: e.x,
@@ -59,6 +77,8 @@ export function PosterElementRenderer({
     draggable: !e.locked,
     onClick: onSelect,
     onTap: onSelect,
+    onDblClick: onEdit,
+    onDblTap: onEdit,
     onDragMove: (event: Konva.KonvaEventObject<DragEvent>) => {
       const node = event.target,
         stage = node.getStage();
@@ -67,7 +87,7 @@ export function PosterElementRenderer({
         h = stage.height() / stage.scaleY();
       let x: number | null = null,
         y: number | null = null;
-      for (const guide of [0, w / 2, w]) {
+      for (const guide of [0, 32, w / 2 - 8, w / 2, w / 2 + 8, w - 32, w]) {
         for (const offset of [0, e.width / 2, e.width]) {
           if (Math.abs(node.x() + offset - guide) < 6) {
             node.x(guide - offset);
@@ -75,7 +95,7 @@ export function PosterElementRenderer({
           }
         }
       }
-      for (const guide of [0, h / 2, h]) {
+      for (const guide of [0, 32, h / 3, h / 2, (h * 2) / 3, h - 32, h]) {
         for (const offset of [0, e.height / 2, e.height]) {
           if (Math.abs(node.y() + offset - guide) < 6) {
             node.y(guide - offset);
@@ -106,15 +126,62 @@ export function PosterElementRenderer({
         fill={e.backgroundColor}
         stroke={e.borderColor}
         strokeWidth={e.borderWidth}
-        cornerRadius={e.type === 'resource' ? 8 : 0}
+        cornerRadius={e.block?.radius ?? (e.type === 'resource' ? 8 : 0)}
       />
-      {e.type === 'image' || e.type === 'qrcode' ? (
+      {e.type === 'image' || isQR(e) || isImageBlock(e) ? (
         image ? (
-          <CanvasImage image={image} width={e.width} height={e.height} />
+          <Group
+            clipFunc={(ctx) => {
+              const r = Math.min(e.block?.radius || 0, e.width / 2, e.height / 2);
+              ctx.beginPath();
+              ctx.moveTo(r, 0);
+              ctx.lineTo(e.width - r, 0);
+              ctx.quadraticCurveTo(e.width, 0, e.width, r);
+              ctx.lineTo(e.width, e.height - r);
+              ctx.quadraticCurveTo(e.width, e.height, e.width - r, e.height);
+              ctx.lineTo(r, e.height);
+              ctx.quadraticCurveTo(0, e.height, 0, e.height - r);
+              ctx.lineTo(0, r);
+              ctx.quadraticCurveTo(0, 0, r, 0);
+              ctx.closePath();
+            }}
+          >
+            <CanvasImage
+              image={image}
+              {...(e.block && !isQR(e)
+                ? imagePlacement(
+                    e.width,
+                    e.height,
+                    image.naturalWidth,
+                    image.naturalHeight,
+                    e.block,
+                  )
+                : { width: e.width, height: e.height })}
+            />
+            {e.block && e.block.overlay > 0 && (
+              <Rect
+                width={e.width}
+                height={e.height}
+                fill={e.block.overlayColor}
+                opacity={e.block.overlay}
+              />
+            )}
+          </Group>
         ) : (
-          <Text text="Preparing image…" width={e.width} height={e.height} fill="#666666" />
+          <Text
+            text={
+              failed
+                ? 'Image unavailable — replace image'
+                : e.src || isQR(e)
+                  ? 'Preparing image…'
+                  : 'Replace Image'
+            }
+            width={e.width}
+            height={e.height}
+            fill="#666666"
+          />
         )
-      ) : e.type === 'divider' ? (
+      ) : e.type === 'divider' || e.block?.kind === 'divider' ? (
         <Line
           points={[0, e.height / 2, e.width, e.height / 2]}
           stroke={e.color}
@@ -154,6 +221,8 @@ export function PosterElementRenderer({
             cornerRadius={e.shape === 'sticky' ? 16 : 0}
           />
         )
+      ) : e.block ? (
+        <BlockContentRenderer element={e} recipientName={recipientName} />
       ) : (
         <Text
           text={resolveRecipient(e.text, recipientName)}
@@ -172,4 +241,4 @@ export function PosterElementRenderer({
       )}
     </Group>
   );
-}
+});

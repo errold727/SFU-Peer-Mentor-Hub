@@ -1,5 +1,44 @@
 export type ElementType =
-  'text' | 'image' | 'shape' | 'icon' | 'resource' | 'qrcode' | 'divider' | 'footer';
+  'text' | 'image' | 'shape' | 'icon' | 'resource' | 'qrcode' | 'divider' | 'footer' | 'block';
+export type BlockKind =
+  | 'hero'
+  | 'title'
+  | 'greeting'
+  | 'text'
+  | 'highlight'
+  | 'info'
+  | 'list'
+  | 'checklist'
+  | 'table'
+  | 'schedule'
+  | 'image'
+  | 'qr'
+  | 'divider'
+  | 'footer';
+export type BlockContent = {
+  kind: BlockKind;
+  label: string;
+  role: 'header' | 'content' | 'footer';
+  title: string;
+  subtitle: string;
+  body: string;
+  icon: string;
+  items: string[];
+  columns: string[];
+  rows: string[][];
+  columnAlign: ('left' | 'center' | 'right')[];
+  accentColor: string;
+  headerColor: string;
+  rowColor: string;
+  radius: number;
+  bannerStyle: 'solid' | 'brush' | 'underline';
+  fitMode: 'cover' | 'contain' | 'fill';
+  zoom: number;
+  offsetX: number;
+  offsetY: number;
+  overlay: number;
+  overlayColor: string;
+};
 export type PosterElement = {
   id: string;
   type: ElementType;
@@ -24,9 +63,12 @@ export type PosterElement = {
   borderColor: string;
   borderWidth: number;
   src?: string;
+  imageError?: boolean;
   shape?: string;
   resourceId?: string;
   sourceUrl?: string;
+  block?: BlockContent;
+  provenance?: { id: string; title: string; sourceUrl: string; lastVerified: string | null }[];
 };
 export type PosterDocument = {
   elements: PosterElement[];
@@ -74,4 +116,4 @@ export function makeElement(
 export const visibleElements = (elements: PosterElement[]) =>
   elements.filter((e) => e.visible).sort((a, b) => a.zIndex - b.zIndex);
 export const resolveRecipient = (text: string, name: string) =>
-  text.replaceAll('{{recipientName}}', name.trim());
+  text.replaceAll('{{recipientName}}', name.trim() || 'Student Name');

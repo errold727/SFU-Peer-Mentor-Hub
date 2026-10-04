@@ -65,7 +65,14 @@ export const usePosterStore = create<State>((set, get) => ({
   },
   duplicate: (id) => {
     const e = get().document.elements.find((e) => e.id === id);
-    if (e) get().add({ ...e, id: crypto.randomUUID(), x: e.x + 20, y: e.y + 20, locked: false });
+    if (e)
+      get().add({
+        ...structuredClone(e),
+        id: crypto.randomUUID(),
+        x: e.x + 20,
+        y: e.y + 20,
+        locked: false,
+      });
   },
   reorder: (id, direction) => {
     const s = get();
@@ -125,6 +132,9 @@ export const usePosterStore = create<State>((set, get) => ({
         text,
         resourceId: r.id,
         sourceUrl: r.sourceUrl,
+        provenance: [
+          { id: r.id, title: r.title, sourceUrl: r.sourceUrl, lastVerified: r.lastVerified },
+        ],
         x: 48,
         y,
         width: size.width - 96,
