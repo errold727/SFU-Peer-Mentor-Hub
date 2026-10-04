@@ -46,6 +46,9 @@ test('keyboard navigation, resource dialog focus and Escape, refresh and reduced
 }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('./#/resources');
+  // Document load can precede the lazy React route. Wait for its controls before
+  // sending the first keyboard event, without focusing the skip link directly.
+  await expect(page.getByLabel('Search SFU resources', { exact: true })).toBeVisible();
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
   await page.keyboard.press('Enter');
