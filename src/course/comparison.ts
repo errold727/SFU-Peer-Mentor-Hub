@@ -53,7 +53,7 @@ export function courseToResource(c: CourseOffering): SFUResource {
         : 'All',
     term: c.term,
     sourceName: 'SFU Course Outlines',
-    sourceUrl: c.outlineUrl,
+    sourceUrl: c.outlineUrl ?? c.courSysUrl ?? 'https://www.sfu.ca/outlines.html',
     lastVerified: c.lastUpdated ?? null,
     posterCompatible: true,
     tags: [c.code, c.title],
