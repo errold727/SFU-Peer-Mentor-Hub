@@ -23,10 +23,11 @@ import {
   scheduleLabel,
   enrollmentLabel,
 } from '../course/comparison';
-import { findConflicts, conflictDetails } from '../course/conflictDetection';
 import { usePosterBasket } from '../store/posterBasketStore';
 import { Modal } from '../components/ui/Modal';
-import { WeeklySchedule } from '../course/WeeklySchedule';
+import { useCoursePlanner } from '../store/coursePlannerStore';
+import { buildTimetableModel } from '../course/timetableModel';
+import { TimetablePreview } from '../course/TimetablePreview';
 
 function SourceLinks({ course: c }: { course: CourseOffering }) {
   return (
@@ -52,8 +53,11 @@ export default function Courses() {
   const [loading, setLoading] = useState(true),
     [error, setError] = useState(''),
     [retry, setRetry] = useState(0);
-  const [selected, setSelected] = useState<CourseOffering[]>([]),
-    [detail, setDetail] = useState<CourseOffering | null>(null);
+  const { selected, addSelectedSection, removeSelectedSection, clearSelectedSectionsForTerm } =
+    useCoursePlanner();
+  const [detail, setDetail] = useState<CourseOffering | null>(null);
+  const [comparisonPage, setComparisonPage] = useState(0);
+  const [clearPending, setClearPending] = useState(false);
   const [busy, setBusy] = useState(''),
     [actionError, setActionError] = useState('');
   const [query, setQuery] = useState(''),
@@ -106,7 +110,21 @@ export default function Courses() {
     for (const c of results) map.set(c.code, [...(map.get(c.code) ?? []), c]);
     return [...map.entries()];
   }, [results]);
-  const conflicts = useMemo(() => findConflicts(selected), [selected]);
+  const timetableModels = useMemo(
+    () =>
+      new Map(
+        [...new Set(selected.map((course) => course.term))].map((label) => [
+          label,
+          buildTimetableModel(selected.filter((course) => course.term === label)),
+        ]),
+      ),
+    [selected],
+  );
+  const conflicts = [...timetableModels.values()].flatMap((model) => model.conflicts);
+  const comparisonPages = Math.max(1, Math.ceil(selected.length / 4));
+  const activeComparisonPage = Math.min(comparisonPage, comparisonPages - 1);
+  const compared = selected.slice(activeComparisonPage * 4, activeComparisonPage * 4 + 4);
+  const browsedTerm = offeringTerms[term].label;
   async function complete(c: CourseOffering) {
     if (!manifest || manifest.termCode !== c.termCode)
       throw Error('Reload this term to inspect its details.');
@@ -127,16 +145,15 @@ export default function Courses() {
   }
   async function toggle(c: CourseOffering) {
     if (selected.some((x) => courseId(x) === courseId(c))) {
-      setSelected((old) => old.filter((x) => courseId(x) !== courseId(c)));
+      removeSelectedSection(courseId(c));
       return;
     }
     setBusy(courseId(c));
     setActionError('');
+    const revision = useCoursePlanner.getState().selectionRevision[c.term] ?? 0;
     try {
       const full = await complete(c);
-      setSelected((old) =>
-        old.some((x) => courseId(x) === courseId(full)) ? old : [...old, full],
-      );
+      addSelectedSection(full, revision);
     } catch (e) {
       setActionError(e instanceof Error ? e.message : 'Could not select section.');
     } finally {
@@ -146,7 +163,7 @@ export default function Courses() {
   function add(c: CourseOffering) {
     basket.add(courseToResource(c));
   }
-  function addConflict(a: CourseOffering, b: CourseOffering) {
+  function addConflict(a: CourseOffering, b: CourseOffering, details: string[]) {
     const resource = courseToResource(a);
     basket.add({
       ...resource,
@@ -157,7 +174,7 @@ export default function Courses() {
         a.term.toUpperCase(),
         'SCHEDULE CONFLICT',
         `${a.code} ${a.section} + ${b.code} ${b.section}`,
-        ...conflictDetails(a, b),
+        ...details,
         'Verify schedules with SFU.',
       ].join('\n'),
     });
@@ -166,7 +183,7 @@ export default function Courses() {
     setPage(1);
   }
   return (
-    <>
+    <div className={selected.length ? 'course-planner-with-selections' : undefined}>
       <header className="page-heading course-heading">
         <h1>SFU Course Planner</h1>
         <Link to="/poster">Poster Content ({basket.items.length}) →</Link>
@@ -186,6 +203,7 @@ export default function Courses() {
               if (e.target.value === term) return;
               detailRequest.current++;
               setTerm(e.target.value as TermCode);
+              setClearPending(false);
               setManifest(undefined);
               setSubject('All');
               resetPage();
@@ -219,6 +237,7 @@ export default function Courses() {
         <label>
           Find a course
           <input
+            id="course-search-input"
             value={query}
             placeholder="Code, title, instructor, section or campus"
             onChange={(e) => {
@@ -336,6 +355,7 @@ export default function Courses() {
         </p>
       )}
       {actionError && <p role="alert">{actionError} Please retry the section action.</p>}
+      {!!busy && <p role="status">Loading section details…</p>}
       {dataset && (
         <>
           <div className="section-heading results-heading">
@@ -403,8 +423,10 @@ export default function Courses() {
                       <div className="course-actions">
                         <div className="row-actions">
                           <button
-                            disabled={!!busy}
-                            onClick={() => void toggle(c)}
+                            aria-disabled={!!busy}
+                            onClick={() => {
+                              if (!busy) void toggle(c);
+                            }}
                             className={chosen ? 'added' : ''}
                             aria-pressed={chosen}
                           >
@@ -416,8 +438,10 @@ export default function Courses() {
                           </button>
                           <button
                             className="tertiary"
-                            disabled={!!busy}
-                            onClick={() => void inspect(c)}
+                            aria-disabled={!!busy}
+                            onClick={() => {
+                              if (!busy) void inspect(c);
+                            }}
                           >
                             Details →
                           </button>
@@ -464,15 +488,35 @@ export default function Courses() {
       <section className="comparison-section">
         <div className="section-heading">
           <div>
-            <h2>Selected Courses ({selected.length})</h2>
+            <h2>Selected sections ({selected.length})</h2>
           </div>
           {!!selected.length && (
             <div className="actions">
               <button onClick={() => selected.forEach(add)}>Add Selected Courses to Poster</button>
-              <button onClick={() => setSelected([])}>Clear comparison</button>
+              {selected.some((course) => course.term === browsedTerm) && (
+                <button onClick={() => setClearPending(true)}>
+                  Clear {browsedTerm} selections
+                </button>
+              )}
             </div>
           )}
         </div>
+        {clearPending && (
+          <div className="notice" role="group" aria-label="Confirm clear comparison">
+            <p>Remove selections for {browsedTerm}? Choices in other terms will remain.</p>
+            <div className="actions">
+              <button
+                onClick={() => {
+                  clearSelectedSectionsForTerm(browsedTerm);
+                  setClearPending(false);
+                }}
+              >
+                Confirm clear {browsedTerm}
+              </button>
+              <button onClick={() => setClearPending(false)}>Cancel</button>
+            </div>
+          </div>
+        )}
         {!selected.length ? (
           <div className="empty-state">
             <p>Select sections to compare schedules. Selection is temporary.</p>
@@ -485,9 +529,7 @@ export default function Courses() {
                   {c.code} {c.section} · {c.term}{' '}
                   <button
                     aria-label={`Remove ${c.code} ${c.section} ${c.term} from comparison`}
-                    onClick={() =>
-                      setSelected((old) => old.filter((x) => courseId(x) !== courseId(c)))
-                    }
+                    onClick={() => removeSelectedSection(courseId(c))}
                   >
                     <X size={16} />
                   </button>
@@ -495,79 +537,108 @@ export default function Courses() {
               ))}
             </ul>
             {conflicts.length ? (
-              <div className="conflict-banner" role="status">
+              <div className="conflict-banner">
                 <TriangleAlert />
                 <div>
                   <strong>Schedule Conflict</strong>
-                  {conflicts.map(({ a, b }) => (
+                  {conflicts.slice(0, 3).map(({ a, b, details }) => (
                     <div key={courseId(a) + courseId(b)}>
                       <p>
                         {a.code} {a.section} and {b.code} {b.section} · {a.term}
                         <br />
-                        {conflictDetails(a, b).join('; ')}
+                        {details.join('; ')}
                       </p>
-                      <button onClick={() => addConflict(a, b)}>
+                      <button onClick={() => addConflict(a, b, details)}>
                         Add Schedule Conflict to Poster
                       </button>
                     </div>
                   ))}
+                  {conflicts.length > 3 && (
+                    <p>
+                      {conflicts.length - 3} more conflicting pairs. Open View Timetable to inspect
+                      each term.
+                    </p>
+                  )}
                 </div>
               </div>
             ) : (
-              selected.length > 1 && (
+              selected.length > 1 &&
+              [...timetableModels.values()].every((model) => !model.incomplete) && (
                 <p className="notice">
                   No published overlaps. Confirm your complete registration schedule with SFU.
                 </p>
               )
             )}
-            {selected.some((c) => !c.meetings.length || c.scheduleNote) && (
+            {[...timetableModels.values()].some((model) => model.incomplete) && (
               <p className="notice">
                 Some schedules are unavailable; conflicts cannot be fully checked.
               </p>
             )}
-            <WeeklySchedule courses={selected} />
-            <div
-              className="table-scroll comparison-table"
-              tabIndex={0}
-              role="region"
-              aria-label="Course comparison table, scroll horizontally"
-            >
-              <table>
-                <thead>
-                  <tr>
-                    <th>Compare offerings</th>
-                    {selected.map((c) => (
-                      <th key={courseId(c)}>
-                        {c.code} {c.section}
-                        <br />
-                        {c.title}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonRows(selected).map((row) => (
-                    <tr key={row.label}>
-                      <th scope="row">
-                        {row.label === 'Seats' ? 'Enrollment snapshot' : row.label}
-                      </th>
-                      {row.values.map((v, i) => (
-                        <td key={courseId(selected[i])}>{v}</td>
+            <details>
+              <summary>Compare offering details</summary>
+              {comparisonPages > 1 && (
+                <div className="comparison-detail-controls">
+                  <button
+                    disabled={activeComparisonPage === 0}
+                    onClick={() => setComparisonPage(activeComparisonPage - 1)}
+                  >
+                    Previous comparison
+                  </button>
+                  <span>
+                    Sections {activeComparisonPage * 4 + 1}–
+                    {Math.min(selected.length, activeComparisonPage * 4 + 4)} of {selected.length}
+                  </span>
+                  <button
+                    disabled={activeComparisonPage >= comparisonPages - 1}
+                    onClick={() => setComparisonPage(activeComparisonPage + 1)}
+                  >
+                    Next comparison
+                  </button>
+                </div>
+              )}
+              <div
+                className="table-scroll comparison-table"
+                tabIndex={0}
+                role="region"
+                aria-label="Course comparison table, scroll horizontally"
+              >
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Compare offerings</th>
+                      {compared.map((c) => (
+                        <th key={courseId(c)}>
+                          {c.code} {c.section}
+                          <br />
+                          {c.title}
+                        </th>
                       ))}
                     </tr>
-                  ))}
-                  <tr>
-                    <th scope="row">Official sources / snapshot</th>
-                    {selected.map((c) => (
-                      <td key={courseId(c)}>
-                        <SourceLinks course={c} />
-                        <small>{formatSnapshot(c.snapshotAt)}</small>
-                      </td>
+                  </thead>
+                  <tbody>
+                    {comparisonRows(compared).map((row) => (
+                      <tr key={row.label}>
+                        <th scope="row">
+                          {row.label === 'Seats' ? 'Enrollment snapshot' : row.label}
+                        </th>
+                        {row.values.map((v, i) => (
+                          <td key={courseId(compared[i])}>{v}</td>
+                        ))}
+                      </tr>
                     ))}
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+                    <tr>
+                      <th scope="row">Official sources / snapshot</th>
+                      {compared.map((c) => (
+                        <td key={courseId(c)}>
+                          <SourceLinks course={c} />
+                          <small>{formatSnapshot(c.snapshotAt)}</small>
+                        </td>
+                      ))}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </details>
             <p className="muted">
               Times use America/Vancouver. Adjacent classes do not overlap; allow your own travel
               time.
@@ -621,7 +692,12 @@ export default function Courses() {
           )}
           <SourceLinks course={detail} />
           <div className="actions">
-            <button disabled={!!busy} onClick={() => void toggle(detail)}>
+            <button
+              aria-disabled={!!busy}
+              onClick={() => {
+                if (!busy) void toggle(detail);
+              }}
+            >
               {selected.some((c) => courseId(c) === courseId(detail))
                 ? 'Remove from Comparison'
                 : 'Add to Comparison'}
@@ -630,6 +706,14 @@ export default function Courses() {
           </div>
         </Modal>
       )}
-    </>
+      <TimetablePreview
+        models={timetableModels}
+        browsedTerm={browsedTerm}
+        onOpen={() => {
+          detailRequest.current++;
+          setDetail(null);
+        }}
+      />
+    </div>
   );
 }

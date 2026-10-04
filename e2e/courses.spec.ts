@@ -20,7 +20,7 @@ test('all-subject search, section details, conflict, cross-subject comparison an
   await expect(page.getByRole('dialog')).toContainText('snapshot');
   await page.getByRole('button', { name: 'Close details' }).click();
   await first.getByRole('button', { name: '+ Compare' }).click();
-  await expect(page.getByRole('heading', { name: 'Selected Courses (1)' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Selected sections (1)' })).toBeVisible();
   await page.getByLabel('Find a course').fill('ENGL 234');
   await page
     .getByRole('article', { name: 'ENGL 234 D100', exact: true })
@@ -31,10 +31,11 @@ test('all-subject search, section details, conflict, cross-subject comparison an
   await page.getByLabel('Find a course').fill('CMPT 354');
   await ready(page);
   await page.locator('.course-card').first().getByRole('button', { name: '+ Compare' }).click();
-  await expect(page.getByRole('heading', { name: 'Selected Courses (3)' })).toBeVisible();
-  await page.getByText('Weekly timetable · selected sections', { exact: true }).click();
-  await expect(page.locator('.weekly-schedule')).toContainText('ENGL 211');
+  await expect(page.getByRole('heading', { name: 'Selected sections (3)' })).toBeVisible();
+  await page.getByRole('button', { name: /^View Timetable/ }).click();
+  await expect(page.getByRole('dialog', { name: 'My Timetable' })).toContainText('ENGL 211');
   await page.screenshot({ path: 'test-results/course-v2-comparison.png', fullPage: true });
+  await page.getByRole('button', { name: 'Close timetable' }).click();
   await page.getByRole('button', { name: 'Add Selected Courses to Poster' }).click();
   await page.getByRole('button', { name: 'Add Schedule Conflict to Poster' }).first().click();
   await page.getByRole('link', { name: /Poster Content/ }).click();
@@ -74,7 +75,7 @@ for (const term of ['1267', '1271'])
     await expect(page.locator('.course-card').first()).toBeVisible();
     await page.reload();
     await ready(page);
-    await expect(page.getByRole('heading', { name: 'Selected Courses (0)' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Selected sections (0)' })).toBeVisible();
   });
 test('campus filters, absent outlines, pagination and homepage loading stay honest', async ({
   page,

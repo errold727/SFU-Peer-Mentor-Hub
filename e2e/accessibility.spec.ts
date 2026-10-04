@@ -105,8 +105,9 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
       .violations,
   ).toEqual([]);
   await page.keyboard.press('Escape');
-  await page.getByRole('button', { name: 'Clear comparison', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'Selected Courses (0)' })).toBeVisible();
+  await page.getByRole('button', { name: 'Clear Spring 2027 selections', exact: true }).click();
+  await page.getByRole('button', { name: 'Confirm clear Spring 2027', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Selected sections (0)' })).toBeVisible();
 });
 for (const failure of ['missing', 'offline'])
   test(`course ${failure} data has a recoverable state`, async ({ page }) => {

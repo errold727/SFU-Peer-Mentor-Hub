@@ -13,6 +13,7 @@ on:
         codex/import-poster-template-pack,
         codex/resource-hub-completion,
         codex/about-page-cleanup,
+        codex/course-timetable-modal,
         data/course-offerings-sync,
       ]
   pull_request:

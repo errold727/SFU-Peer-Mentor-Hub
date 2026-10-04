@@ -9,60 +9,6 @@
   font-size: 12px;
   color: #595954;
 }
-.timetable-scroll {
-  max-width: 100%;
-  overflow: auto;
-  max-height: 550px;
-  border: 1px solid var(--border);
-  margin: 16px 0;
-}
-.timetable {
-  display: grid;
-  min-width: 850px;
-  padding: 8px 8px 20px;
-}
-.time-axis {
-  position: relative;
-  font-size: 10px;
-}
-.time-axis span {
-  position: absolute;
-  right: 8px;
-  transform: translateY(-50%);
-}
-.time-day > strong {
-  display: block;
-  height: 36px;
-  text-align: center;
-  font-size: 13px;
-}
-.time-track {
-  position: relative;
-  border-left: 1px solid #ddd;
-  background: repeating-linear-gradient(
-    to bottom,
-    #ddd 0px,
-    #ddd 1px,
-    transparent 1px,
-    transparent 60px
-  );
-}
-.time-block {
-  position: absolute;
-  border: 1px solid #55736b;
-  border-radius: 4px;
-  background: #e3efeb;
-  color: #183b30;
-  padding: 3px;
-  overflow: hidden;
-  font-size: 11px;
-  line-height: 1.2;
-}
-.time-conflict {
-  background: #fbe8ec;
-  color: #7a1023;
-  border-color: #ad1732;
-}
 .snapshot-summary p {
   margin: 0 0 8px;
 }
@@ -121,41 +67,10 @@
 .selected-courses button {
   padding: 8px;
 }
-.week-day .meeting-conflict {
-  border-left: 3px solid #ad1732;
-  padding-left: 8px;
-}
 .pagination {
   justify-content: center;
   margin: 24px 0;
   align-items: center;
-}
-.weekly-schedule {
-  padding: 12px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  margin: 12px 0;
-}
-.weekly-schedule summary {
-  cursor: pointer;
-  font-weight: 700;
-  min-height: 32px;
-}
-.week-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 12px;
-}
-.week-day {
-  background: #f5f2ed;
-  padding: 12px;
-  border-radius: 8px;
-  overflow-wrap: anywhere;
-}
-.week-day p {
-  font-size: 12px;
-  border-top: 1px solid #d8d8d8;
-  padding-top: 10px;
 }
 * {
   box-sizing: border-box;

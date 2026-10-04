@@ -1,73 +1,135 @@
-import { courseId, type CourseOffering } from './courseTypes';
-import { meetingsOverlap } from './conflictDetection';
+import { useId } from 'react';
+import { courseId, type CourseMeeting, type CourseOffering } from './courseTypes';
+import type { TimetableModel } from './timetableModel';
 import { Timetable } from './Timetable';
-export function WeeklySchedule({ courses }: { courses: CourseOffering[] }) {
+
+const dayNames: Record<string, string> = {
+  Mon: 'Monday',
+  Tue: 'Tuesday',
+  Wed: 'Wednesday',
+  Thu: 'Thursday',
+  Fri: 'Friday',
+  Sat: 'Saturday',
+  Sun: 'Sunday',
+};
+function dateRange(meeting: CourseMeeting) {
+  if (!meeting.startDate && !meeting.endDate) return 'Dates unavailable';
+  if (meeting.startDate === meeting.endDate) return meeting.startDate;
+  return `${meeting.startDate ?? 'Start date unavailable'}–${meeting.endDate ?? 'end date unavailable'}`;
+}
+function timeRange(meeting: CourseMeeting) {
+  return Number.isFinite(meeting.startMinutes) &&
+    Number.isFinite(meeting.endMinutes) &&
+    meeting.startMinutes >= 0 &&
+    meeting.endMinutes > meeting.startMinutes &&
+    meeting.endMinutes <= 1440 &&
+    meeting.displayStart &&
+    meeting.displayEnd
+    ? `${meeting.displayStart}–${meeting.displayEnd}`
+    : 'Time unavailable';
+}
+
+export function WeeklySchedule({
+  model,
+  onInspect,
+}: {
+  model: TimetableModel;
+  onInspect: (course: CourseOffering) => void;
+}) {
+  const notPlacedHeading = useId();
+  const notPlaced = model.sections.filter(
+    (section) => section.status !== 'Scheduled' || section.warning,
+  );
+  const examSections = model.sections.filter((section) => section.exams.length > 0);
   return (
-    <details className="weekly-schedule">
-      <summary>Weekly timetable · selected sections</summary>
-      {[...new Set(courses.map((c) => c.term))].map((term) => (
-        <section key={term}>
-          <h3>{term}</h3>
-          <Timetable courses={courses.filter((c) => c.term === term)} />
-          <h4>Full meeting details</h4>
-          <div className="week-grid">
-            {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => {
-              const meetings = courses
-                .filter((c) => c.term === term)
-                .flatMap((c) =>
-                  c.meetings.filter((m) => m.days.includes(day)).map((m, i) => ({ c, m, i })),
-                )
-                .sort((a, b) => a.m.startMinutes - b.m.startMinutes);
-              return (
-                <div className="week-day" key={day}>
-                  <h4>{day}</h4>
-                  {meetings.length ? (
-                    meetings.map(({ c, m, i }) => (
-                      <p
-                        key={courseId(c) + i}
-                        className={
-                          meetings.some(
-                            (other) =>
-                              courseId(other.c) !== courseId(c) && meetingsOverlap(m, other.m),
-                          )
-                            ? 'meeting-conflict'
-                            : undefined
-                        }
-                      >
-                        <strong>
-                          {c.code} {c.section}
-                        </strong>
-                        <br />
-                        {m.displayStart}–{m.displayEnd}
-                        {meetings.some(
-                          (other) =>
-                            courseId(other.c) !== courseId(c) && meetingsOverlap(m, other.m),
-                        ) && (
-                          <>
-                            <br />
-                            <strong>Overlapping meeting</strong>
-                          </>
-                        )}
-                        <br />
-                        <small>
-                          {m.kind ?? c.sectionType}
-                          {m.startDate && ` · ${m.startDate}–${m.endDate ?? '?'}`}
-                        </small>
-                      </p>
-                    ))
-                  ) : (
-                    <p className="muted">No listed meetings</p>
-                  )}
+    <div className="timetable-preview">
+      <Timetable model={model} onInspect={onInspect} />
+      {notPlaced.length > 0 && (
+        <section className="tt-unplaced" aria-labelledby={notPlacedHeading}>
+          <h3 id={notPlacedHeading}>Not placed on the timetable</h3>
+          <ul>
+            {notPlaced.map((section) => (
+              <li key={courseId(section.course)}>
+                <button
+                  type="button"
+                  className="tt-text-inspect"
+                  onClick={() => onInspect(section.course)}
+                >
+                  {section.course.code} {section.course.section}
+                </button>
+                <div>
+                  <strong>{section.status}</strong>
+                  {section.warning && <p>{section.warning}</p>}
+                  {section.meetings.length > 0 && <p>Known meetings are shown above.</p>}
                 </div>
-              );
-            })}
-          </div>
+              </li>
+            ))}
+          </ul>
         </section>
-      ))}
-      <p className="muted">
-        Only published meeting blocks are shown. Overlapping times appear in the conflict summary
-        above.
-      </p>
-    </details>
+      )}
+      <details className="tt-text-schedule">
+        <summary>Text schedule</summary>
+        <div className="tt-text-days">
+          {model.days.map((day) => {
+            const entries = model.entries.filter((entry) => entry.day === day);
+            return (
+              <section className="tt-text-day" key={day}>
+                <h3>{dayNames[day] ?? day}</h3>
+                {entries.length > 0 ? (
+                  <ul>
+                    {entries.map(({ id, course, meeting, conflict }) => (
+                      <li key={id}>
+                        <button
+                          type="button"
+                          className="tt-text-inspect"
+                          onClick={() => onInspect(course)}
+                        >
+                          {course.code} {course.section}
+                        </button>
+                        <p>
+                          {meeting.kind ?? course.sectionType ?? 'Meeting'} · {timeRange(meeting)} ·
+                          Pacific time
+                        </p>
+                        <p>{meeting.location ?? course.campus ?? 'Location unavailable'}</p>
+                        <p>{dateRange(meeting)}</p>
+                        {conflict && <p className="tt-text-conflict">Confirmed time conflict</p>}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="tt-muted">No listed teaching meetings</p>
+                )}
+              </section>
+            );
+          })}
+        </div>
+        {examSections.length > 0 && (
+          <section className="tt-exams">
+            <h3>Examination details</h3>
+            <p>Published exams are separate from the recurring teaching timetable.</p>
+            <ul>
+              {examSections.flatMap((section) =>
+                section.exams.map((meeting, index) => (
+                  <li key={`${courseId(section.course)}:${index}`}>
+                    <button
+                      type="button"
+                      className="tt-text-inspect"
+                      onClick={() => onInspect(section.course)}
+                    >
+                      {section.course.code} {section.course.section}
+                    </button>
+                    <p>
+                      {meeting.kind ?? 'Examination'} · {dateRange(meeting)} · {timeRange(meeting)}{' '}
+                      · Pacific time
+                    </p>
+                    <p>{meeting.location ?? section.course.campus ?? 'Location unavailable'}</p>
+                  </li>
+                )),
+              )}
+            </ul>
+          </section>
+        )}
+      </details>
+    </div>
   );
 }
