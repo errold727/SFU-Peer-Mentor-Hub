@@ -12,6 +12,7 @@ on:
         codex/poster-maker-v2,
         codex/import-poster-template-pack,
         codex/resource-hub-completion,
+        codex/about-page-cleanup,
         data/course-offerings-sync,
       ]
   pull_request:

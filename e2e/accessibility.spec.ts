@@ -12,7 +12,7 @@ for (const width of [375, 390, 768, 1024, 1440]) {
       ['poster', 'Poster Maker'],
       ['poster/edit', 'Poster Maker'],
       ['poster/templates', 'Template Gallery'],
-      ['about', 'About this hub'],
+      ['about', 'About'],
     ]) {
       await page.goto(`./#/${route}`);
       await expect(page.getByRole('heading', { name: title, exact: true })).toBeVisible();
@@ -67,7 +67,7 @@ test('keyboard navigation, resource dialog focus and Escape, refresh and reduced
   await expect(details).toBeFocused();
   await page.goto('./#/about');
   await page.reload();
-  await expect(page.getByRole('heading', { name: 'About this hub' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'About', exact: true })).toBeVisible();
 });
 test('course errors explain recovery without exposing stack traces', async ({ page }) => {
   await page.route('**/data/courses/**', (route) =>
