@@ -15,26 +15,22 @@ test('all-subject search, section details, conflict, cross-subject comparison an
   await expect(page.locator('.course-card').first()).toContainText(/Budra/);
   await page.getByLabel('Find a course').fill('ENGL 211');
   const first = page.getByRole('article', { name: 'ENGL 211 D100', exact: true });
-  await first.getByRole('button', { name: 'View Details ↗' }).click();
+  await first.getByRole('button', { name: 'Details →' }).click();
   await expect(page.getByRole('dialog')).toContainText('prerequisites');
   await expect(page.getByRole('dialog')).toContainText('snapshot');
   await page.getByRole('button', { name: 'Close details' }).click();
-  await first.getByRole('button', { name: 'Add to Comparison' }).click();
+  await first.getByRole('button', { name: '+ Compare' }).click();
   await expect(page.getByRole('heading', { name: 'Selected Courses (1)' })).toBeVisible();
   await page.getByLabel('Find a course').fill('ENGL 234');
   await page
     .getByRole('article', { name: 'ENGL 234 D100', exact: true })
-    .getByRole('button', { name: 'Add to Comparison' })
+    .getByRole('button', { name: '+ Compare' })
     .click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   await page.getByRole('combobox', { name: 'Subject', exact: true }).selectOption('CMPT');
   await page.getByLabel('Find a course').fill('CMPT 354');
   await ready(page);
-  await page
-    .locator('.course-card')
-    .first()
-    .getByRole('button', { name: 'Add to Comparison' })
-    .click();
+  await page.locator('.course-card').first().getByRole('button', { name: '+ Compare' }).click();
   await expect(page.getByRole('heading', { name: 'Selected Courses (3)' })).toBeVisible();
   await page.getByText('Weekly timetable · selected sections', { exact: true }).click();
   await expect(page.locator('.weekly-schedule')).toContainText('ENGL 211');

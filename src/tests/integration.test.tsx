@@ -41,7 +41,7 @@ describe('resource UI integration', () => {
       </MemoryRouter>,
     );
     await user.selectOptions(screen.getByLabelText('Category'), 'library');
-    expect(screen.getByText('1 resources · linked to official sources')).toBeInTheDocument();
+    expect(screen.getByText('1 resources')).toBeInTheDocument();
     await user.selectOptions(screen.getByLabelText('Campus'), 'Surrey');
     expect(screen.getByRole('heading', { name: 'No matching resources' })).toBeInTheDocument();
   });

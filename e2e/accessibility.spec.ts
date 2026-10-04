@@ -32,10 +32,9 @@ for (const width of [375, 390, 768, 1024, 1440]) {
           nodes: v.nodes.map((n) => n.target),
         })),
       ).toEqual([]);
-      if (width === 375 || width === 1440)
+      if ([390, 768, 1024, 1440].includes(width))
         await page.screenshot({
-          path: `test-results/v1-${route.replace('/', '-') || 'home'}-${width}.png`,
-          fullPage: true,
+          path: `test-results/ui-${route.replace('/', '-') || 'home'}-${width}.png`,
         });
     }
     expect(errors).toEqual([]);
@@ -86,14 +85,14 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
   await page.goto('./#/course-planner');
   await page.getByLabel('Find a course').fill('ENGL 211');
   await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Enrollment');
-  await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
+  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
   await page.getByLabel('Find a course').fill('ENGL 234');
-  await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
+  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
     true,
   );
-  await page.getByRole('button', { name: 'View Details ↗', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Details →', exact: true }).first().click();
   const box = (await page.getByRole('dialog').boundingBox())!;
   expect(box.width).toBeLessThanOrEqual(375);
   expect(box.height).toBeLessThanOrEqual(812);

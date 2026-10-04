@@ -44,9 +44,8 @@ export function LocalDrafts() {
     >
       <summary>Local drafts · optional</summary>
       <p>
-        Save only on this browser. Saving includes all poster text, hidden layers and uploaded
-        images. Review that content before saving on a shared device. The recipient field is
-        excluded unless you choose to include it. Refreshing never restores a draft automatically.
+        Saves all text, hidden layers and images on this browser. Recipient names are excluded
+        unless selected. Review before saving on shared devices. Drafts never reopen automatically.
       </p>
       <label className="checkbox-label">
         <input

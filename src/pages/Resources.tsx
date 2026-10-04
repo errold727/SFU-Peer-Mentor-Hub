@@ -18,9 +18,7 @@ export default function Resources() {
   return (
     <>
       <header className="page-heading">
-        <div className="eyebrow">01 / FIND</div>
         <h1>SFU Resource Hub</h1>
-        <p>Reliable SFU information for Peer Mentors.</p>
       </header>
       <div className="hub-layout">
         <div>
@@ -32,7 +30,6 @@ export default function Resources() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
-            <kbd>FIND</kbd>
           </div>
           <div className="filters">
             <label>
@@ -64,7 +61,7 @@ export default function Resources() {
             </label>
           </div>
           <p className="result-count" role="status">
-            {results.length} resources · linked to official sources
+            {results.length} resources
           </p>
           {category === 'recreation' && results.some((r) => r.category === 'recreation') && (
             <section className="panel">
@@ -130,10 +127,6 @@ export default function Resources() {
           {results.length === 0 && (
             <div className="empty-state">
               <h2>No matching resources</h2>
-              <p>
-                Try library, safe walk, printing, or academic advising. Choose All to include other
-                campuses and terms.
-              </p>
               <button
                 onClick={() => {
                   setQuery('');
@@ -142,7 +135,7 @@ export default function Resources() {
                   setTerm('All');
                 }}
               >
-                Reset filters
+                Clear filters
               </button>
             </div>
           )}

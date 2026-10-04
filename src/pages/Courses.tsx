@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { CalendarDays, Plus, Check, X, TriangleAlert } from 'lucide-react';
+import { Check, X, TriangleAlert } from 'lucide-react';
 import {
   loadManifest,
   loadOfferings,
@@ -167,19 +167,10 @@ export default function Courses() {
   }
   return (
     <>
-      <header className="page-heading">
-        <div className="eyebrow">03 / EXPLORE</div>
+      <header className="page-heading course-heading">
         <h1>SFU Course Planner</h1>
-        <p>Browse course offerings. Bring your options together.</p>
-      </header>
-      <div className="course-intro">
-        <CalendarDays />
-        <p>
-          <strong>Across subjects. Side by side.</strong> Select individual sections to compare
-          schedules and create a concise poster. Selections are temporary.
-        </p>
         <Link to="/poster">Poster Content ({basket.items.length}) →</Link>
-      </div>
+      </header>
       <form
         className="course-search"
         onSubmit={(e) => {
@@ -225,50 +216,6 @@ export default function Courses() {
               ))}
           </select>
         </label>
-        <button className="primary" type="submit" disabled={loading}>
-          Search Courses
-        </button>
-      </form>
-      <p className="notice">
-        {term === '1271'
-          ? 'Spring 2027 course offerings and schedules may change before enrolment. Verify final details through SFU.'
-          : 'Fall 2026 enrollment is a snapshot, not live availability or a prediction.'}{' '}
-        Confirm required lectures, tutorials and labs through official SFU sources.
-      </p>
-      {manifest?.termCode === term && (
-        <div className="snapshot-summary">
-          <p>
-            <strong>
-              {manifest.complete
-                ? 'Complete CourSys offering index'
-                : 'Incomplete CourSys snapshot'}
-            </strong>{' '}
-            · {manifest.subjectCount} subjects · {manifest.courseCount} course codes ·{' '}
-            {manifest.sectionCount} sections
-          </p>
-          <p>Data snapshot: {formatSnapshot(manifest.snapshotAt)}</p>
-          {!manifest.complete && (
-            <p role="alert">
-              Subjects needing review:{' '}
-              {manifest.failedSubjects.join(', ') || 'Completeness not confirmed'}
-            </p>
-          )}
-          <a
-            href={buildCoursysBrowseUrl(term, subject === 'All' ? undefined : subject)}
-            target="_blank"
-            rel="noreferrer"
-          >
-            View {subject === 'All' ? 'this term' : subject} in CourSys ↗
-          </a>
-          <p className="muted">
-            Source: SFU CourSys. Details enriched from SFU Course Outlines.{' '}
-            {manifest.withoutSchedules} sections have no published schedule in this snapshot;{' '}
-            {manifest.sectionCount - manifest.enrichedSections} have no usable outline. CourSys
-            enrollment is itself updated overnight.
-          </p>
-        </div>
-      )}
-      <div className="filters course-filter-row">
         <label>
           Find a course
           <input
@@ -331,7 +278,56 @@ export default function Courses() {
             <option value="title">Title</option>
           </select>
         </label>
-      </div>
+        <button type="submit" disabled={loading}>
+          Search Courses
+        </button>
+      </form>
+      <p className="course-caveat">
+        {term === '1271'
+          ? 'Spring 2027 course offerings and schedules may change before enrolment. Verify final details through SFU.'
+          : 'Fall 2026 enrollment is a snapshot, not live availability or a prediction.'}
+      </p>
+      {manifest?.termCode === term && (
+        <div className="snapshot-summary">
+          <span>Snapshot: {formatSnapshot(manifest.snapshotAt)}</span>
+          <a
+            href={buildCoursysBrowseUrl(term, subject === 'All' ? undefined : subject)}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View {subject === 'All' ? 'this term' : subject} in CourSys ↗
+          </a>
+          <details className="coverage-details" open={!manifest.complete}>
+            <summary>{manifest.complete ? 'Coverage & sources' : 'Incomplete snapshot'}</summary>
+            <p>
+              <strong>
+                {manifest.complete
+                  ? 'Complete CourSys offering index'
+                  : 'Incomplete CourSys snapshot'}
+              </strong>{' '}
+              · {manifest.subjectCount} subjects · {manifest.courseCount} course codes ·{' '}
+              {manifest.sectionCount} sections
+            </p>
+            {!manifest.complete && (
+              <p role="alert">
+                Subjects needing review:{' '}
+                {manifest.failedSubjects.join(', ') || 'Completeness not confirmed'}
+              </p>
+            )}
+            <p>
+              Source: SFU CourSys; details from SFU Course Outlines. {manifest.withoutSchedules}{' '}
+              sections have no published schedule;{' '}
+              {manifest.sectionCount - manifest.enrichedSections} have no usable outline. CourSys
+              enrollment updates overnight.
+            </p>
+            <p>
+              Confirm required lectures, tutorials and labs with SFU. Enrollment-section filters use
+              published outline metadata; unavailable types remain under All. Selections are
+              temporary.
+            </p>
+          </details>
+        </div>
+      )}
       {loading && <p role="status">Loading course offerings…</p>}
       {error && (
         <p role="alert">
@@ -342,16 +338,12 @@ export default function Courses() {
       {actionError && <p role="alert">{actionError} Please retry the section action.</p>}
       {dataset && (
         <>
-          <div className="section-heading">
+          <div className="section-heading results-heading">
             <h2>Course offerings</h2>
             <span role="status">
               {groups.length} courses · {results.length} matching sections
             </span>
           </div>
-          <p className="muted">
-            Enrollment-section filters use published outline metadata. Sections with unavailable
-            types remain visible under All.
-          </p>
           <div className="course-results">
             {groups.slice((page - 1) * 12, page * 12).map(([code, courses]) => (
               <section className="course-group" key={code} aria-label={code}>
@@ -370,43 +362,67 @@ export default function Courses() {
                       <div className="course-code">
                         <strong>{c.section}</strong>
                         <small>{c.sectionType ?? 'Type unavailable'}</small>
+                        {conflicts.some(
+                          ({ a, b }) => courseId(a) === courseId(c) || courseId(b) === courseId(c),
+                        ) && <span className="row-conflict">Conflict</span>}
                       </div>
-                      <div className="course-content">
-                        <button className="course-title" onClick={() => void inspect(c)}>
-                          {c.title}
-                        </button>
-                        <p>
-                          {c.instructor || 'Instructor unavailable'} ·{' '}
+                      <div className="course-meetings">
+                        {c.title !== courses[0].title && <strong>{c.title}</strong>}
+                        {c.meetings.length ? (
+                          c.meetings.map((m, i) => (
+                            <span key={i}>
+                              {m.kind && m.kind !== c.sectionType ? m.kind + ' · ' : ''}
+                              {m.days.join(', ')} {m.displayStart}–{m.displayEnd}
+                            </span>
+                          ))
+                        ) : (
+                          <span>Schedule not yet published</span>
+                        )}
+                        {c.scheduleNote && (
+                          <span className="warning">
+                            Some schedule details unavailable · see Details
+                          </span>
+                        )}
+                      </div>
+                      <div className="course-person">
+                        <span>{c.instructor || 'Instructor unavailable'}</span>
+                        <span className="muted">
                           {c.campus || 'Campus unavailable'}
-                          {c.deliveryMethod ? ` · ${c.deliveryMethod}` : ''}
-                        </p>
-                        <div className="schedule">
-                          <CalendarDays size={16} />
-                          <span>{scheduleLabel(c)}</span>
-                        </div>
-                        {c.scheduleNote && <p className="notice">{c.scheduleNote}</p>}
-                        <p className="enrollment-snapshot">
-                          Enrollment snapshot: <strong>{enrollmentLabel(c)}</strong>
-                          {c.enrollment?.waitlistCount !== undefined &&
-                            ` · Waitlist: ${c.enrollment.waitlistCount}`}
-                        </p>
-                        <SourceLinks course={c} />
+                          {c.deliveryMethod ? ' · ' + c.deliveryMethod : ''}
+                        </span>
+                      </div>
+                      <div
+                        className="enrollment-snapshot"
+                        title="Enrollment snapshot at the date shown above; not live availability"
+                      >
+                        <span>{enrollmentLabel(c)}</span>
+                        {c.enrollment?.waitlistCount !== undefined && (
+                          <span>Waitlist {c.enrollment.waitlistCount}</span>
+                        )}
                       </div>
                       <div className="course-actions">
-                        <button
-                          disabled={!!busy}
-                          onClick={() => void toggle(c)}
-                          className={chosen ? 'added' : ''}
-                        >
-                          {chosen ? <Check size={16} /> : <Plus size={16} />}{' '}
-                          {chosen ? 'Selected' : 'Add to Comparison'}
-                        </button>
-                        <button onClick={() => add(c)} disabled={added}>
-                          {added ? 'Added to Poster' : 'Add to Poster'}
-                        </button>
-                        <button disabled={!!busy} onClick={() => void inspect(c)}>
-                          View Details ↗
-                        </button>
+                        <div className="row-actions">
+                          <button
+                            disabled={!!busy}
+                            onClick={() => void toggle(c)}
+                            className={chosen ? 'added' : ''}
+                            aria-pressed={chosen}
+                          >
+                            {chosen && <Check size={14} />}
+                            {chosen ? 'Selected' : '+ Compare'}
+                          </button>
+                          <button className="tertiary" onClick={() => add(c)} disabled={added}>
+                            {added ? 'Added' : 'Poster'}
+                          </button>
+                          <button
+                            className="tertiary"
+                            disabled={!!busy}
+                            onClick={() => void inspect(c)}
+                          >
+                            Details →
+                          </button>
+                        </div>
+                        <SourceLinks course={c} />
                       </div>
                     </article>
                   );
@@ -416,7 +432,7 @@ export default function Courses() {
           </div>
           {!results.length && (
             <div className="empty-state">
-              No matching sections. Try another subject or clear filters.{' '}
+              No matching sections.{' '}
               <button
                 onClick={() => {
                   setQuery('');
@@ -448,7 +464,6 @@ export default function Courses() {
       <section className="comparison-section">
         <div className="section-heading">
           <div>
-            <div className="eyebrow">YOUR OPTIONS</div>
             <h2>Selected Courses ({selected.length})</h2>
           </div>
           {!!selected.length && (
@@ -460,9 +475,7 @@ export default function Courses() {
         </div>
         {!selected.length ? (
           <div className="empty-state">
-            <CalendarDays size={32} />
-            <h3>A little perspective helps.</h3>
-            <p>Select sections from any subject or term. Nothing is saved as a student schedule.</p>
+            <p>Select sections to compare schedules. Selection is temporary.</p>
           </div>
         ) : (
           <>
@@ -503,8 +516,7 @@ export default function Courses() {
             ) : (
               selected.length > 1 && (
                 <p className="notice">
-                  No overlaps found in available meeting data. This does not confirm a complete,
-                  conflict-free registration schedule.
+                  No published overlaps. Confirm your complete registration schedule with SFU.
                 </p>
               )
             )}

@@ -7,13 +7,9 @@ export default function Templates() {
   return (
     <>
       <header className="page-heading">
-        <div className="eyebrow">A LITTLE HEAD START</div>
         <h1>Template Gallery</h1>
-        <p>Eight starting points. Every word is yours to edit.</p>
       </header>
-      <p className="notice">
-        Choosing a template replaces your current layout. Undo in the editor restores it.
-      </p>
+      <p className="notice">Replaces the current layout. Undo restores it.</p>
       <div className="template-grid">
         {templates.map((t, i) => (
           <article className="template-card" key={t.id}>

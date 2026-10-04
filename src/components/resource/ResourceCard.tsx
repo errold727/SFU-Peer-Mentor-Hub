@@ -29,17 +29,21 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
         <p className="notice">Schedule expired — check the official source.</p>
       )}
       <div className="verification">
-        <span className={status === 'fresh' ? '' : 'warning'}>{verificationLabels[status]}</span>
-        Last verified: {r.lastVerified ?? 'Not yet verified'}
+        <span className={status === 'fresh' ? '' : 'warning'}>
+          {verificationLabels[status]}
+          {status === 'fresh' ? ` · ${r.lastVerified}` : ''}
+        </span>
+        {status !== 'fresh' && r.lastVerified && <span>Verified {r.lastVerified}</span>}
       </div>
       <div className="card-actions">
-        <button onClick={() => setDetail(true)}>View Details</button>
-        <a href={r.sourceUrl} target="_blank" rel="noreferrer">
-          {r.sourceName} <ArrowUpRight size={15} />
+        <button className="tertiary" onClick={() => setDetail(true)}>
+          View Details
+        </button>
+        <a href={r.sourceUrl} target="_blank" rel="noreferrer" title={r.sourceName}>
+          Official Source <ArrowUpRight size={15} />
         </a>
-      </div>
-      <div className="card-actions bottom">
         <button
+          className="tertiary"
           onClick={async () => {
             try {
               await navigator.clipboard.writeText(resourceText(r));
@@ -63,8 +67,10 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
       {detail && (
         <Modal title={r.title} onClose={() => setDetail(false)}>
           <p>{r.summary}</p>
-          <p className="notice">
-            {verificationLabels[status]} · {r.campus === 'All' ? 'All campuses' : r.campus}
+          <p className={status === 'fresh' ? 'detail-meta' : 'notice'}>
+            {verificationLabels[status]}
+            {r.lastVerified && ` · ${status === 'fresh' ? '' : 'Verified '}${r.lastVerified}`} ·{' '}
+            {r.campus === 'All' ? 'All campuses' : r.campus}
             {r.term && ` · ${r.term}`}
             {r.date && ` · ${r.date}`}
           </p>
@@ -83,7 +89,6 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
               </div>
             ))}
           </dl>
-          <p>Last verified: {r.lastVerified ?? 'Not yet verified'}</p>
           <a href={r.sourceUrl} target="_blank" rel="noreferrer">
             {r.sourceName} ↗
           </a>

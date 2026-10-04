@@ -162,26 +162,21 @@ export default function Poster() {
   function fitResources() {
     const arranged = autoArrange(s.document, s.recipientName);
     s.change(arranged.document);
-    setMessage(
-      arranged.warnings.join(' ') ||
-        'Resource cards arranged with readable text, safe margins and space for the header and footer.',
-    );
+    setMessage(arranged.warnings.join(' ') || 'Resource cards arranged.');
   }
   return (
     <>
       <header className="page-heading editor-heading">
         <div>
-          <div className="eyebrow">02 / CREATE</div>
           <h1>Poster Maker</h1>
-          <p>Good information. Your personal touch.</p>
         </div>
         <Link className="button" to="/poster/templates">
           Browse templates ↗
         </Link>
       </header>
       <div className="privacy-note">
-        Personal information entered in the editor is used only to create your current content and
-        is not added to a mentee database.
+        Unsaved content stays in this browser session. Nothing is uploaded.{' '}
+        <Link to="/about">Privacy</Link>
       </div>
       <div className="editor-toolbar">
         <label>
@@ -228,33 +223,33 @@ export default function Poster() {
         </button>
       </div>
       <p role="status" className="editor-status">
-        {message ||
-          'Select an element on the canvas or in Layers to edit it. Changes stay in this browser session.'}
+        {message}
       </p>
-      <details className="poster-quality" open={issues.some((i) => i.code === 'invalid')}>
-        <summary>
-          Poster Quality ·{' '}
-          {issues.length ? `${issues.length} advisory warning(s)` : 'No issues detected'}
-        </summary>
-        <p>
-          Review before exporting. Warnings do not block downloads; check the exported image at its
-          intended size.
-        </p>
-        {issues.length > 0 && (
-          <ul>
-            {issues.map((issue, i) => (
-              <li key={i}>
-                {issue.message}
-                {issue.elementId && (
-                  <button onClick={() => s.select(issue.elementId!)}>Select element {i + 1}</button>
-                )}
-              </li>
-            ))}
-          </ul>
-        )}
-        <button onClick={fitResources}>Auto Arrange</button>
-      </details>
-      <LocalDrafts />
+      <div className="editor-utilities">
+        <details className="poster-quality" open={issues.some((i) => i.code === 'invalid')}>
+          <summary>
+            Poster Quality ·{' '}
+            {issues.length ? `${issues.length} advisory warning(s)` : 'No issues detected'}
+          </summary>
+          <p>Warnings do not block export. Review at the intended print size.</p>
+          {issues.length > 0 && (
+            <ul>
+              {issues.map((issue, i) => (
+                <li key={i}>
+                  {issue.message}
+                  {issue.elementId && (
+                    <button onClick={() => s.select(issue.elementId!)}>
+                      Select element {i + 1}
+                    </button>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+          <button onClick={fitResources}>Auto Arrange</button>
+        </details>
+        <LocalDrafts />
+      </div>
       <div className="editor-layout">
         <aside className="editor-panel">
           <div className="tool-tabs">
@@ -268,6 +263,7 @@ export default function Poster() {
             ].map(({ name, Icon }) => (
               <button
                 className={tab === name ? 'active' : ''}
+                aria-pressed={tab === name}
                 key={name}
                 onClick={() => setTab(name)}
               >
@@ -277,7 +273,6 @@ export default function Poster() {
             ))}
           </div>
           <div className="tool-content">
-            <h2>{tab}</h2>
             {tab === 'Resources' && (
               <>
                 <input
@@ -287,7 +282,6 @@ export default function Poster() {
                   onChange={(e) => setResourceQuery(e.target.value)}
                 />
                 <button onClick={fitResources}>Auto Arrange resource cards</button>
-                <p className="muted">Review text size and placement before exporting.</p>
                 <div className="resource-picker">
                   {searchResources(resources, resourceQuery).map((r) => (
                     <button key={r.id} onClick={() => s.importResources([r])}>
@@ -546,14 +540,17 @@ export default function Poster() {
               <PosterCanvas stageRef={stage} scale={Math.max(0.1, scale)} />
             </div>
           </div>
-          <p className="canvas-help">
-            Drag to move · Handles to resize / rotate · Scroll the canvas when zoomed
-            <br />
-            Arrow keys: 1 px · Shift + Arrow: 10 px · Delete to remove
-          </p>
+          <details className="canvas-help">
+            <summary>Canvas & keyboard controls</summary>
+            <p>
+              Drag to move · Handles to resize / rotate · Scroll the canvas when zoomed
+              <br />
+              Arrow keys: 1 px · Shift + Arrow: 10 px · Delete to remove
+            </p>
+          </details>
         </div>
         <aside className="editor-panel inspector">
-          <h2>Design properties</h2>
+          <h2>Properties</h2>
           {selected ? (
             <>
               <p className="eyebrow">{selected.type} ELEMENT</p>
@@ -796,7 +793,7 @@ export default function Poster() {
               </div>
             </>
           ) : (
-            <p className="muted">Select an element to edit its content and appearance.</p>
+            <p className="muted">Select an element to edit.</p>
           )}
           <h3 className="sidebar-title">Layers</h3>
           {selected?.sourceUrl && (
