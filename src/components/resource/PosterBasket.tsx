@@ -11,13 +11,8 @@ export function PosterBasket() {
           Poster Content <span>({items.length})</span>
         </h2>
       </div>
-      <p className="muted">Find something useful? Collect it here, then make it your own.</p>
       {items.length === 0 ? (
-        <div className="basket-empty">
-          Your next helpful poster
-          <br />
-          starts with a resource.
-        </div>
+        <div className="basket-empty">No resources selected.</div>
       ) : (
         <ul>
           {items.map((i) => (
@@ -38,7 +33,6 @@ export function PosterBasket() {
           Clear basket
         </button>
       )}
-      <small>Only public resource content. No personal profiles.</small>
     </aside>
   );
 }

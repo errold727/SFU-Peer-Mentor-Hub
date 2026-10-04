@@ -26,7 +26,6 @@ export default function App() {
       >
         Skip to content
       </a>
-      <div className="top-strip">AN INDEPENDENT TOOL FOR THE SFU COMMUNITY</div>
       <header className="site-header">
         <Link to="/" className="brand">
           <span className="brand-icon">
@@ -59,11 +58,12 @@ export default function App() {
             </NavLink>
           ))}
         </nav>
-        <Link className="button small header-cta" to="/poster">
-          Create something ↗
-        </Link>
       </header>
-      <main id="main" tabIndex={-1}>
+      <main
+        id="main"
+        tabIndex={-1}
+        className={location.pathname === '/poster' ? 'editor-main' : undefined}
+      >
         <ErrorBoundary key={location.pathname}>
           <Suspense fallback={<p role="status">Loading your workspace…</p>}>
             <Routes>
@@ -88,7 +88,6 @@ export default function App() {
       </main>
       <footer className="site-footer">
         <strong>SFU Peer Mentor Hub</strong>
-        <span>Find. Select. Create.</span>
         <p>Peer-created · Not an official SFU website</p>
         <Link to="/about">Privacy & sources ↗</Link>
       </footer>

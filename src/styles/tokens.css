@@ -1,4 +1,10 @@
 :root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
   --sfu-red: #a6192e;
   --sfu-red-dark: #7f1424;
   --charcoal: #262626;
