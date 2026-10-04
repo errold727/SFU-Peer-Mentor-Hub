@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-04T11:00:37.522Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "MHSS",
+      "courseNumber": "100",
+      "code": "MHSS 100",
+      "section": "B100",
+      "title": "Approaches to Health",
+      "instructors": [
+        "Nye, Coleman"
+      ],
+      "instructor": "Nye, Coleman",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=MHSS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/mhss/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/mhss/100/b100",
+      "outlineRetrievedAt": "2026-10-04T11:12:38.741Z",
+      "prerequisiteText": "Recommended: HSCI 130.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Explores how health and wellbeing are influenced by cultural, ethical, and historical factors, encouraging students to examine health beyond the biological model. Through critical analysis and engagement with social sciences and humanities disciplines, students will develop a nuanced understanding of how art, literature, philosophy, and cultural narratives shape our experiences of health and illness. No prior knowledge required; suitable for students across all disciplines.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6582",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

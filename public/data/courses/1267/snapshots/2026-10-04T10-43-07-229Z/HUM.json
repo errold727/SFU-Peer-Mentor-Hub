@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-04T10:44:37.264Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "101W",
+      "code": "HUM 101W",
+      "section": "D100",
+      "title": "Intro to Global Humanities",
+      "instructors": [
+        "Sofos, Spyros"
+      ],
+      "instructor": "Sofos, Spyros",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 109,
+        "capacity": 114,
+        "waitlistCount": 0,
+        "raw": "109/114"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/101w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/101w/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:48.566Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Introduction to issues and concepts central to the study of the humanities around the world. Through exposure to primary materials drawn from different periods, disciplines, and regions, students will become acquainted with a range of topics and ideas relating to the study of the human condition, human values, and human experience.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4750",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "102W",
+      "code": "HUM 102W",
+      "section": "OL01",
+      "title": "Classical Mythology",
+      "instructors": [
+        "Snyder, Beth"
+      ],
+      "instructor": "Snyder, Beth",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 76,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "76/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/102w/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/102w/ol01",
+      "outlineRetrievedAt": "2026-10-04T10:54:49.197Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Introduction to the central myths and literary sources of the ancient Greeks and Romans. The course investigates the nature, function, and meaning of myths in the classical world.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4211",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "106",
+      "code": "HUM 106",
+      "section": "D100",
+      "title": "Art and the Humanities",
+      "instructors": [
+        "Freeman, Evan"
+      ],
+      "instructor": "Freeman, Evan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 35,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "35/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/106/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/106/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:48.876Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to the study of art across cultures and periods.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4751",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "110",
+      "code": "HUM 110",
+      "section": "D100",
+      "title": "The Greek World",
+      "instructors": [
+        "Freeman, Evan",
+        "Kotsovili, Dionysia Eirini",
+        "Krallis, Dimitrios",
+        "Sofos, Spyros"
+      ],
+      "instructor": "Freeman, Evan; Kotsovili, Dionysia Eirini; Krallis, Dimitrios; Sofos, Spyros",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "34/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/110/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:49.468Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Interdisciplinary introduction to Greek culture in different periods. Using various sources and materials the course explores continuities and ruptures, evolutions and revolutions, and the impact such issues have on the imagination of people today.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4752",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "130",
+      "code": "HUM 130",
+      "section": "D100",
+      "title": "Intro to Religious Studies",
+      "instructors": [
+        "Brown, Jason"
+      ],
+      "instructor": "Brown, Jason",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 49,
+        "capacity": 54,
+        "waitlistCount": 0,
+        "raw": "49/54"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/130/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/130/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:49.765Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to concepts central to the academic study of religion, exploring various relevant methodologies. Provides a framework for understanding the many ways in which humans experience the phenomenon of the sacred through symbol, ritual, doctrine, and engagement, in a variety of religious traditions and cultures. Presents case studies in Ancient (Greek, Mesopotamian, and Egyptian), Abrahamic (Judaism, Christianity, and Islam), and secular (post-) religions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4754",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "130",
+      "code": "HUM 130",
+      "section": "OL01",
+      "title": "Intro to Religious Studies",
+      "instructors": [
+        "Brown, Jason"
+      ],
+      "instructor": "Brown, Jason",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 204,
+        "capacity": 280,
+        "waitlistCount": 0,
+        "raw": "204/280"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/130/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/130/ol01",
+      "outlineRetrievedAt": "2026-10-04T10:54:50.068Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to concepts central to the academic study of religion, exploring various relevant methodologies. Provides a framework for understanding the many ways in which humans experience the phenomenon of the sacred through symbol, ritual, doctrine, and engagement, in a variety of religious traditions and cultures. Presents case studies in Ancient (Greek, Mesopotamian, and Egyptian), Abrahamic (Judaism, Christianity, and Islam), and secular (post-) religions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4753",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "202",
+      "code": "HUM 202",
+      "section": "D100",
+      "title": "Great Texts:West Thought & Lit",
+      "instructors": [
+        "Gandesha, Samir"
+      ],
+      "instructor": "Gandesha, Samir",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "21/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/202/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/202/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:50.397Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Intensive study of major works that have had a formative influence on the structure and development of western thought. Reading and discussion of primary texts and their central ideas introduce students to essential philosophical, literary, social and religious themes of western civilizations. May be repeated once for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4755",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "222",
+      "code": "HUM 222",
+      "section": "D100",
+      "title": "Cross-Cultural Perspec. on Art",
+      "instructors": [
+        "Freeman, Evan"
+      ],
+      "instructor": "Freeman, Evan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 28,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "28/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/222/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/222/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:50.681Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Art as viewed through the history of artistic forms, ideas, materiality, and/or literature in multiple cultures.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4756",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "231",
+      "code": "HUM 231",
+      "section": "D100",
+      "title": "Daily Life in Greece and Rome",
+      "instructors": [
+        "Higgins, Sabrina"
+      ],
+      "instructor": "Higgins, Sabrina",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 27,
+        "capacity": 31,
+        "waitlistCount": 0,
+        "raw": "27/31"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ARCH 200 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/231/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/231/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:50.962Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Examines the social history of ancient Greece and Rome, particularly through the study of relevant artifacts, art, architecture, and ancient texts. Considers topics such as the lives of men, women, children and slaves; the home; dining; government; the economy; the army; death and burial; and entertainment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4757",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "276",
+      "code": "HUM 276",
+      "section": "D100",
+      "title": "History of Mediterranean",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "3/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "HIST 276 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/276/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/276/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:51.260Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines the history of the Mediterranean region that for millennia has been a focal point of human exchange as well as conflict. Considers the entire period from antiquity to the modern world.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6463",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "318",
+      "code": "HUM 318",
+      "section": "B100",
+      "title": "Heroines in Greece and Beyond",
+      "instructors": [
+        "Kotsovili, Dionysia Eirini"
+      ],
+      "instructor": "Kotsovili, Dionysia Eirini",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "34/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/318/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/318/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:51.582Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Examines the impact of national and political contexts upon individual women, their personal histories, political engagement, memories and identities. Traces archetypes of women from the Greek world into different contexts.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4758",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "321W",
+      "code": "HUM 321W",
+      "section": "B100",
+      "title": "Humanities/Critical Thinking",
+      "instructors": [
+        "Gandesha, Samir"
+      ],
+      "instructor": "Gandesha, Samir",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 31,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "31/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/321w/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/321w/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:51.868Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Study of the counter-traditions in human civilization and thought, including impulses and movements that critique and resist dominant value systems. Focuses on writers, artists and thinkers that break with their traditions creating new values, ideas, and forms of experience and expression. May be repeated for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4759",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "325",
+      "code": "HUM 325",
+      "section": "B100",
+      "title": "Hum/Natural World",
+      "instructors": [
+        "Brown, Jason"
+      ],
+      "instructor": "Brown, Jason",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 40,
+        "capacity": 43,
+        "waitlistCount": 0,
+        "raw": "40/43"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/325/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/325/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:52.167Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Study of the humanistic, scientific, political, and ideological discourses deriving from concerns with the natural environment. Uses classic and contemporary sources to examine the interaction of humans with the non-human world, and includes such topics as human communities and nature, the immersion of the individual in nature, animal worlds, nature and the human habitat. May be repeated for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4760",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "335",
+      "code": "HUM 335",
+      "section": "D100",
+      "title": "Modern Italian Culture",
+      "instructors": [
+        "Garfinkel, Paul"
+      ],
+      "instructor": "Garfinkel, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "30/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/335/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/335/d100",
+      "outlineRetrievedAt": "2026-10-04T10:54:52.470Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Examines topics in Italian history and culture through film, literature, primary sources, and/or art. May be repeated for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4761",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "340",
+      "code": "HUM 340",
+      "section": "B100",
+      "title": "Great Cities",
+      "instructors": [
+        "Krallis, Dimitrios"
+      ],
+      "instructor": "Krallis, Dimitrios",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 35,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "35/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/340/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/340/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:52.762Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Exploration of the cultural and intellectual accomplishments of a specific city that achieved prominence in a particular time period, and had substantial impact and influence on human civilization. Examines the political, social, religious, and cultural factors that help to explain a city's significance and investigates the achievements of its citizens. May be repeated for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4781",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "375",
+      "code": "HUM 375",
+      "section": "B100",
+      "title": "Woodsworth Seminar",
+      "instructors": [
+        "Ivakhiv, Adrian"
+      ],
+      "instructor": "Ivakhiv, Adrian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 16,
+        "waitlistCount": 0,
+        "raw": "15/16"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "CMNS 386 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/375/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/375/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:53.076Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Special topic in the humanities to be offered by the Woodsworth chair.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4780",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "387",
+      "code": "HUM 387",
+      "section": "B100",
+      "title": "Other Europes: Arts & Cultures",
+      "instructors": [
+        "Sofos, Spyros"
+      ],
+      "instructor": "Sofos, Spyros",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "34/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/387/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/387/b100",
+      "outlineRetrievedAt": "2026-10-04T10:54:53.366Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Interdisciplinary approach to European art, material culture, and/or literature in the modern period with attention to the global dimensions of cultural formation. May be repeated for credit when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3884",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "800",
+      "code": "HUM 800",
+      "section": "G100",
+      "title": "Theories-Methods in Humanities",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/800/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/800/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:53.667Z",
+      "units": "5",
+      "description": "Textual interpretation in the Humanities within the context of interdisciplinary approaches and the five thematic modules: classical and medieval thought and culture, modernity and its discontents, religion and culture, cross-cultural translation, humanities and citizenship.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4782",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "801",
+      "code": "HUM 801",
+      "section": "G100",
+      "title": "Research Development Seminar",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/801/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/801/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:53.959Z",
+      "units": "5",
+      "description": "Articulation and refinement of research agendas and prospectus and thesis through faculty guidance and group work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4783",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "802",
+      "code": "HUM 802",
+      "section": "G100",
+      "title": "Themes in the Humanities",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/802/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/802/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:54.275Z",
+      "units": "5",
+      "description": "Focuses on one of five following thematic modules: classical and medieval thought and culture, modernity and its discontents, religion and culture, cross-cultural translation, humanities and citizenship.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4784",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "803",
+      "code": "HUM 803",
+      "section": "G100",
+      "title": "MA Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "5/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/803/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/803/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:54.569Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4785",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "804",
+      "code": "HUM 804",
+      "section": "G100",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 4,
+        "waitlistCount": 0,
+        "raw": "1/4"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/804/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/804/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:54.859Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4786",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HUM",
+      "courseNumber": "805",
+      "code": "HUM 805",
+      "section": "G100",
+      "title": "Special Topics",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HUM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hum/805/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hum/805/g100",
+      "outlineRetrievedAt": "2026-10-04T10:54:55.160Z",
+      "units": "5",
+      "description": "An in-depth study of a theme or aspect in the Humanities; topics will vary from offering to offering in order to meet the needs of the graduate cohort.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4787",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    }
+  ]
+}

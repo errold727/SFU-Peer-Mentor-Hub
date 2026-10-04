@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-04T10:44:37.264Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MEDS",
+      "courseNumber": "410",
+      "code": "MEDS 410",
+      "section": "D100",
+      "title": "Fnds. of Medical Practice",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 48,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "48/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MEDS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/meds/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/meds/410/d100",
+      "outlineRetrievedAt": "2026-10-04T10:57:21.289Z",
+      "units": "58",
+      "designation": "N/A",
+      "description": "An introduction to conceptual and practical foundations in, and approaches to, medical practice with focus on application of knowledge and a broad range of clinical skills. Much learning takes place in classrooms, simulated clinical spaces, labs and in the community. In addition, students will participate (under direct supervision) in patient care in a longitudinal family medicine clinic experience weekly and will engage in blocks of intensive, immersive learning in clinical and extra-clinical community-based environments.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6038",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}
