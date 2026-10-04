@@ -21,3 +21,6 @@ Thumbs.db
 playwright-report/
 test-results/
 
+# Original user reference pack stays local; optimized review copies and hashes are tracked.
+docs/template-references/originals/
+

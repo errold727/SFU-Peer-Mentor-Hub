@@ -60,8 +60,8 @@ test('drafts only persist by explicit action and names never enter network reque
   expect(requests.every((r) => r.startsWith(new URL(page.url()).origin))).toBe(true);
 });
 
-test('all ten templates render within bounds with readable text', async ({ page }) => {
-  for (let i = 0; i < 10; i++) {
+test('all sixteen templates render within bounds with readable text', async ({ page }) => {
+  for (let i = 0; i < 16; i++) {
     await page.goto('./#/poster/templates');
     await page
       .getByRole('button', { name: /Use template:/ })

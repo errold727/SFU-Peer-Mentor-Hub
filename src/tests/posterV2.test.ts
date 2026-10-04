@@ -12,8 +12,8 @@ describe('structured poster sections', () => {
     usePosterStore.getState().reset();
     localStorage.clear();
   });
-  it('provides ten distinct valid documents and a ten-section newsletter', () => {
-    expect(new Set(templates.map((t) => t.id)).size).toBe(10);
+  it('provides sixteen distinct valid documents and a ten-section newsletter', () => {
+    expect(new Set(templates.map((t) => t.id)).size).toBe(16);
     for (const t of templates) expect(validPosterDocument(createTemplate(t.id)), t.name).toBe(true);
     const newsletter = createTemplate('newsletter');
     expect(newsletter.elements).toHaveLength(10);
@@ -23,10 +23,10 @@ describe('structured poster sections', () => {
       'greeting',
       'text',
       'highlight',
-      'info',
+      'list',
       'schedule',
       'table',
-      'info',
+      'list',
       'footer',
     ]);
   });
@@ -77,7 +77,7 @@ describe('structured poster sections', () => {
       cards.forEach((e, i) => {
         expect(e.fontSize).toBeGreaterThanOrEqual(16);
         expect(e.x).toBeGreaterThanOrEqual(32);
-        expect(e.y + e.height).toBeLessThan(970);
+        expect(e.y + e.height).toBeLessThan(fixed.find((f) => f.block?.role === 'footer')!.y);
         for (const other of cards.slice(i + 1)) expect(intersects(e, other)).toBe(false);
       });
     },

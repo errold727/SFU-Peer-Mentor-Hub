@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test('poster start, blank setup, ten real template previews and newsletter loading', async ({
+test('poster start, blank setup, sixteen real template previews and newsletter loading', async ({
   page,
 }) => {
   await page.goto('./#/poster');
@@ -13,10 +13,10 @@ test('poster start, blank setup, ten real template previews and newsletter loadi
   await expect(page.locator('.layer-list button')).toHaveCount(0);
   await expect(page.locator('canvas')).toBeVisible();
   await page.getByRole('link', { name: 'Browse templates' }).click();
-  await expect(page.getByRole('button', { name: /Use template:/ })).toHaveCount(10);
-  await expect(page.locator('.real-template-preview canvas').first()).toBeVisible();
+  await expect(page.getByRole('button', { name: /Use template:/ })).toHaveCount(16);
+  await expect(page.locator('.real-template-preview img').first()).toBeVisible();
   await page
-    .getByRole('button', { name: 'Use template: Check-In Newsletter', exact: true })
+    .getByRole('button', { name: 'Use template: Weekly Check-In Newsletter', exact: true })
     .click();
   await expect(page.getByLabel('Poster template')).toHaveValue('newsletter');
   await expect(page.locator('.layer-list button')).toHaveCount(10);
@@ -26,7 +26,7 @@ import { PNG } from 'pngjs';
 async function chooseNewsletter(page: import('@playwright/test').Page) {
   await page.goto('./#/poster/templates');
   await page
-    .getByRole('button', { name: 'Use template: Check-In Newsletter', exact: true })
+    .getByRole('button', { name: 'Use template: Weekly Check-In Newsletter', exact: true })
     .click();
   await expect(page.locator('.canvas-paper canvas').first()).toBeVisible();
 }
@@ -132,7 +132,8 @@ test('newsletter creation, image replacement, sections, tables, resources, undo 
   await page.getByText('Source metadata', { exact: true }).click();
   await expect(page.locator('.source-metadata')).toContainText('Unverified');
   // Rebalance after deleting a section, adding one and replacing a resource.
-  await page.locator('.poster-quality summary').click();
+  if (!(await page.locator('.poster-quality').evaluate((node) => (node as HTMLDetailsElement).open)))
+    await page.locator('.poster-quality summary').click();
   await page.getByRole('button', { name: 'Auto Arrange', exact: true }).click();
   await expect(page.locator('.poster-quality')).not.toContainText('text overflows');
   await page.locator('.poster-quality summary').click();
@@ -216,6 +217,7 @@ test('inline text, drag reorder, content modes, image undo and guide-free previe
   await page.getByRole('button', { name: 'Undo', exact: true }).click();
   expect(await page.locator('.section-select').allTextContents()).toEqual(before);
   await section(page, 'Get Involved');
+  await page.getByLabel('Content mode').selectOption('info');
   await page.getByLabel('Body', { exact: true }).fill('Check schedules\nConfirm prerequisites');
   await page.getByLabel('Content mode').selectOption('checklist');
   await expect(page.getByLabel('Item 1', { exact: true })).toHaveValue('Check schedules');

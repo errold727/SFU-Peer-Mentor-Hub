@@ -72,8 +72,8 @@ describe('poster editor', () => {
         makeElement('text', { text: 'visible' }),
       ]).map((e) => e.text),
     ).toEqual(['visible']));
-  it('provides exactly ten templates with structured editable content', () => {
-    expect(templates).toHaveLength(10);
+  it('provides sixteen templates with structured editable content', () => {
+    expect(templates).toHaveLength(16);
     for (const t of templates)
       expect(
         t.id === 'blank'

@@ -36,6 +36,7 @@ import { autoArrange, MIN_BODY_FONT, textHeight } from '../poster/layout';
 import { posterQuality } from '../poster/quality';
 import { posterStyles, applyPosterStyle } from '../poster/styles';
 import { LocalDrafts } from '../poster/LocalDrafts';
+import { enrollmentSnapshotTable } from '../course/comparison';
 
 export default function Poster() {
   const s = usePosterStore(),
@@ -51,6 +52,7 @@ export default function Poster() {
   const [guides, setGuides] = useState(false);
   const [preview, setPreview] = useState(false);
   const [quality, setQuality] = useState(1);
+  const [qualityOpen, setQualityOpen] = useState(false);
   const [message, setMessage] = useState('');
   const [busy, setBusy] = useState(false);
   const [qr, setQr] = useState('https://www.sfu.ca/');
@@ -77,6 +79,91 @@ export default function Poster() {
       return;
     }
     if (selected && !selected.locked) s.update(selected.id, patch);
+  };
+  const reportInsertedContent = (element: PosterElement, success: string) => {
+    const overflow = textHeight(element, s.recipientName) > element.height + 1;
+    const outOfBounds =
+      element.y + element.height > size.height || element.x + element.width > size.width;
+    if (overflow || outOfBounds) {
+      setQualityOpen(true);
+      setMessage(
+        `${success} ${
+          overflow
+            ? 'Text does not fit this section and is clipped.'
+            : 'This section extends outside the canvas.'
+        } Full content and sources are retained. ${
+          overflow
+            ? 'Use Grow to fit text or Auto Arrange, then review Poster Quality before exporting.'
+            : 'Use Auto Arrange or reposition the section, then review Poster Quality before exporting.'
+        }`,
+      );
+    } else setMessage(success);
+  };
+  const insertCourseTable = (enrollment = false) => {
+    const courses = basket.items.filter((r) => r.id.startsWith('course:'));
+    const snapshot = enrollmentSnapshotTable(courses);
+    const block = makeBlock(
+      'table',
+      {
+        label: enrollment ? 'Enrollment Snapshot' : 'Course Offerings',
+        title: enrollment ? snapshot.title : 'COURSE OFFERINGS',
+        subtitle: enrollment
+          ? snapshot.subtitle
+          : [...new Set(courses.map((r) => r.term))].join(' · '),
+        columns: enrollment ? snapshot.columns : ['Course', 'Instructor'],
+        rows: enrollment
+          ? snapshot.rows
+          : courses.map((r) => [
+              r.title.split(' · ')[0],
+              r.facts?.find((f) => f.label === 'Instructor')?.value || 'Unavailable',
+            ]),
+      },
+      {
+        x: 32,
+        y: 250,
+        width: 752,
+        height: Math.max(250, courses.length * (enrollment ? 78 : 48) + 120),
+        fontSize: 18,
+        provenance: enrollment
+          ? snapshot.provenance
+          : courses.map((r) => ({
+              id: r.id,
+              title: r.title,
+              sourceUrl: r.sourceUrl,
+              lastVerified: r.lastVerified,
+            })),
+      },
+    );
+    let inserted = block;
+    if (selected?.block && ['table', 'schedule'].includes(selected.block.kind)) {
+      if (selected.locked) {
+        setMessage('Unlock the selected table to replace its content.');
+        return;
+      }
+      const patch: Partial<PosterElement> = {
+        block: {
+          ...selected.block,
+          kind: 'table',
+          label: block.block!.label,
+          title: block.block!.title,
+          subtitle: block.block!.subtitle,
+          columns: block.block!.columns,
+          rows: block.block!.rows,
+          columnAlign: block.block!.columns.map((_, i) => selected.block!.columnAlign[i] || 'left'),
+        },
+        provenance: block.provenance,
+        sourceUrl: block.sourceUrl,
+        text: block.text,
+      };
+      inserted = { ...selected, ...patch };
+      update(patch);
+    } else s.add(block);
+    reportInsertedContent(
+      inserted,
+      enrollment
+        ? 'Enrollment snapshot inserted. Recorded counts are not live seat availability.'
+        : 'Course table inserted. Review Poster Quality after adding rows.',
+    );
   };
   useEffect(() => {
     const el = canvasArea.current;
@@ -244,7 +331,11 @@ export default function Poster() {
         {message}
       </p>
       <div className="editor-utilities">
-        <details className="poster-quality" open={issues.some((i) => i.code === 'invalid')}>
+        <details
+          className="poster-quality"
+          open={qualityOpen || issues.some((i) => i.code === 'invalid')}
+          onToggle={(event) => setQualityOpen(event.currentTarget.open)}
+        >
           <summary>
             Poster Quality ·{' '}
             {issues.length ? `${issues.length} advisory warning(s)` : 'No issues detected'}
@@ -360,48 +451,12 @@ export default function Poster() {
                 <div className="course-insert">
                   <Link to="/course-planner">Choose courses ↗</Link>
                   {basket.items.some((r) => r.id.startsWith('course:')) && (
-                    <button
-                      onClick={() => {
-                        const courses = basket.items.filter((r) => r.id.startsWith('course:'));
-                        const block = makeBlock(
-                          'table',
-                          {
-                            label: 'Course Offerings',
-                            title: 'COURSE OFFERINGS',
-                            subtitle: [...new Set(courses.map((r) => r.term))].join(' · '),
-                            columns: ['Course', 'Instructor'],
-                            rows: courses.map((r) => [
-                              r.title.split(' · ')[0],
-                              r.facts?.find((f) => f.label === 'Instructor')?.value ||
-                                'Unavailable',
-                            ]),
-                          },
-                          {
-                            x: 32,
-                            y: 360,
-                            width: 752,
-                            height: 300,
-                            sourceUrl: courses[0].sourceUrl,
-                            provenance: courses.map((r) => ({
-                              id: r.id,
-                              title: r.title,
-                              sourceUrl: r.sourceUrl,
-                              lastVerified: r.lastVerified,
-                            })),
-                          },
-                        );
-                        if (selected?.block && ['table', 'schedule'].includes(selected.block.kind))
-                          update({
-                            block: block.block,
-                            provenance: block.provenance,
-                            sourceUrl: block.sourceUrl,
-                            text: block.text,
-                          });
-                        else s.add(block);
-                      }}
-                    >
-                      Insert course table
-                    </button>
+                    <>
+                      <button onClick={() => insertCourseTable()}>Insert course table</button>
+                      <button onClick={() => insertCourseTable(true)}>
+                        Insert enrollment snapshot
+                      </button>
+                    </>
                   )}
                 </div>
 
@@ -418,9 +473,13 @@ export default function Poster() {
                       onClick={() => {
                         const target = s.document.elements.find((e) => e.id === replaceTarget);
                         if (target && !target.locked) {
-                          s.update(target.id, resourceBlockPatch(target, r));
+                          const patch = resourceBlockPatch(target, r);
+                          s.update(target.id, patch);
                           setReplaceTarget(null);
-                          setMessage('Section content replaced. Source metadata retained.');
+                          reportInsertedContent(
+                            { ...target, ...patch },
+                            'Section content replaced. Source metadata retained.',
+                          );
                         } else s.importResources([r]);
                       }}
                     >

@@ -1,4 +1,5 @@
 import { campusArt, blockNames } from './blocks';
+import { posterSceneAssets } from './templates/packAssets';
 import { posterSizes, type PosterDocument } from './posterTypes';
 export const DRAFT_KEY = 'sfu-peer-mentor-hub:poster-drafts:v1';
 export type LocalDraft = {
@@ -86,6 +87,7 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
       (e.type !== 'block' || !!e.block) &&
       (e.block === undefined || validBlock(e.block)) &&
       (e.src === undefined ||
+        posterSceneAssets.includes(e.src) ||
         e.src === campusArt ||
         /^data:image\/(png|jpeg|webp|gif);base64,[a-z\d+/=]+$/i.test(e.src))
     );

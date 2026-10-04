@@ -1805,6 +1805,12 @@ dialog.detail-drawer {
 .real-template-preview canvas {
   display: block;
 }
+.real-template-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .v2-gallery .template-info h2 {
   font-size: 20px;
 }
@@ -2121,4 +2127,12 @@ dialog.detail-drawer {
 .v2-editor .canvas-meta > span {
   font-size: 11px;
 }
-.poster-workspace .editor-heading h1{font-size:28px}.poster-workspace .editor-heading .actions{gap:12px}.poster-workspace .editor-heading .button{padding:10px 14px}
+.poster-workspace .editor-heading h1 {
+  font-size: 28px;
+}
+.poster-workspace .editor-heading .actions {
+  gap: 12px;
+}
+.poster-workspace .editor-heading .button {
+  padding: 10px 14px;
+}
