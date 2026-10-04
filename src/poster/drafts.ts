@@ -58,6 +58,10 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
       /^#[\da-f]{6}$/i.test(e.color) &&
       /^#[\da-f]{6}$/i.test(e.borderColor) &&
       /^(transparent|#[\da-f]{6})$/i.test(e.backgroundColor) &&
+      (e.sourceUrl === undefined ||
+        (typeof e.sourceUrl === 'string' &&
+          /^https:\/\//.test(e.sourceUrl) &&
+          e.sourceUrl.length <= 2048)) &&
       (e.src === undefined || /^data:image\/(png|jpeg|webp|gif);base64,[a-z\d+/=]+$/i.test(e.src))
     );
   });

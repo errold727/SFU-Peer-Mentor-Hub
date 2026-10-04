@@ -799,6 +799,29 @@ export default function Poster() {
             <p className="muted">Select an element to edit its content and appearance.</p>
           )}
           <h3 className="sidebar-title">Layers</h3>
+          {selected?.sourceUrl && (
+            <button
+              onClick={() => {
+                const url = selected.sourceUrl!;
+                if (!/^https:\/\//.test(url)) {
+                  setMessage('This source URL is unavailable.');
+                  return;
+                }
+                s.add(
+                  makeElement('qrcode', {
+                    text: url,
+                    width: 140,
+                    height: 140,
+                    x: size.width - 188,
+                    y: Math.min(size.height - 188, selected.y),
+                  }),
+                );
+                setMessage('Official source QR added. Position it beside the relevant card.');
+              }}
+            >
+              Add official source QR
+            </button>
+          )}
           <div className="layer-list">
             {[...s.document.elements]
               .sort((a, b) => b.zIndex - a.zIndex)

@@ -34,10 +34,10 @@ export function validateCourseDataset(data: unknown): asserts data is CourseData
       throw new Error('Invalid course record.');
     if (
       !/^(Spring|Summer|Fall) 20\d{2}$/.test(c.term) ||
-      !/^[A-Z]{2,5}$/.test(c.department) ||
-      !/^\d{3}[A-Z]?$/.test(c.courseNumber) ||
+      !/^[A-Z]{2,8}$/.test(c.department) ||
+      !/^(?:\d{3}[A-Z]?|X\d{2})$/.test(c.courseNumber) ||
       c.code !== `${c.department} ${c.courseNumber}` ||
-      !/^(?:[A-Z]\d{3}|[A-Z]{2}\d{2})$/.test(c.section)
+      !/^(?:[A-Z]\d{3}|[A-Z]{2}\d{2}|[A-Z]{3}\d)$/.test(c.section)
     )
       throw new Error('Invalid course identifier or term.');
     const [season, year] = c.term.toLowerCase().split(' ');

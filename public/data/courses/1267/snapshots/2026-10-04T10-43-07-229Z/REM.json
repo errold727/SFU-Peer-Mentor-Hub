@@ -1,0 +1,1758 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-04T10:44:37.264Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "100",
+      "code": "REM 100",
+      "section": "D100",
+      "title": "Global Change",
+      "instructors": [
+        "Wilson, Kyle"
+      ],
+      "instructor": "Wilson, Kyle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 109,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "109/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/100/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:09.921Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "The Earth is experiencing the most dramatic environmental changes it has for thousands of years. How did we end up here? Provides an interdisciplinary perspective on the forces behind our ever-increasing environmental footprint. Highlights how ideologies and societal structures have shaped how we interact with the environment and explores the necessary changes for a more sustainable future.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2908",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "202W",
+      "code": "REM 202W",
+      "section": "D100",
+      "title": "Tech Com - Enviro Profs & Plan",
+      "instructors": [
+        "Harrison, Scott"
+      ],
+      "instructor": "Harrison, Scott",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 59,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "59/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/202w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/202w/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:10.206Z",
+      "prerequisiteText": "One of REM 100, GEOG 100, GEOG 111, or EVSC 100.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Teaches students to communicate technical information clearly and concisely. Reviews the fundamentals of writing and progress to the creation and presentation of professional documents. Students improve their skills through writing-intensive assignments related to the fields of resource management and planning. Students should familiarize themselves with a reference-management software; the course references the free, online program, Zotero.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2909",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "211",
+      "code": "REM 211",
+      "section": "D100",
+      "title": "Intro to Applied Ecology",
+      "instructors": [
+        "Gutzmann, Sarah"
+      ],
+      "instructor": "Gutzmann, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 69,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "69/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/211/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/211/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:10.536Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Balancing the needs of people and other components of nature is among the foremost challenges of our time. Understanding key processes that structure nature across space and through time can help inform this challenge. Introduces students to the foundational concepts of applied ecology motivated by real-world management and conservation problems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4209",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "221",
+      "code": "REM 221",
+      "section": "D100",
+      "title": "Systems Thinking",
+      "instructors": [
+        "Gonzalez Espinosa, Pedro"
+      ],
+      "instructor": "Gonzalez Espinosa, Pedro",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 57,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "57/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/221/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/221/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:10.825Z",
+      "prerequisiteText": "One of REM 100, GEOG 100, GEOG 111, or EVSC 100.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces systems thinking in the context of environmental and sustainability challenges using system archetypes and system dynamics theory. Analytical and modeling techniques are applied to understand and project systems complexity. Emphasis is placed on using systems thinking concepts to finding solutions in a complex world.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4208",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "311",
+      "code": "REM 311",
+      "section": "D100",
+      "title": "Applied Population Ecology",
+      "instructors": [
+        "Harrison, Scott"
+      ],
+      "instructor": "Harrison, Scott",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "36/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/311/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/311/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:11.112Z",
+      "prerequisiteText": "REM 100 or EVSC 100; BISC 204 or GEOG 215 or REM 211; STAT 201 or STAT 203 or STAT 205 or GEOG 251 or equivalent. Recommended: REM 225.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Builds on foundational ecological concepts to study the ecological processes that govern the dynamics of populations. Uses quantitative models to examine the role of data, variability, uncertainty, and assumptions in science and decision making. Students learn how to improve the sustainable use of natural capital by applying scientific data, ecological theory, ecological models, critical thinking, and Adaptive Management to societal decisions. Uses R to code, run, and interpret ecological population models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2911",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "321",
+      "code": "REM 321",
+      "section": "D100",
+      "title": "Ecological Economics",
+      "instructors": [
+        "Cisneros-Montemayor, Andres"
+      ],
+      "instructor": "Cisneros-Montemayor, Andres",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 70,
+        "capacity": 125,
+        "waitlistCount": 0,
+        "raw": "70/125"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/321/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/321/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:11.408Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Social Sciences",
+      "description": "Introduces students to the concepts and methods of ecological economics. Provides students with grounding in the core principles of conventional economics applied to the environment but then extends this to the integration of economics and ecology to create a new ecological-economic understanding of environmental change and sustainability.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2912",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "334",
+      "code": "REM 334",
+      "section": "D100",
+      "title": "Past Climates",
+      "instructors": [
+        "Kohfeld, Karen"
+      ],
+      "instructor": "Kohfeld, Karen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "21/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 334 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/334/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/334/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:11.706Z",
+      "prerequisiteText": "REM 100 or EVSC 100; GEOG 111 or EASC 101 or EASC 106; and 45 units. Recommended: EASC 210, GEOG 214 or GEOG 215.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Paleoclimatology is the study of how and why Earth's climate has changed in the past. Paleoclimatologists study ice ages, past abrupt changes, and what the Earth was like during past climate warm periods. The knowledge gained from paleoclimate studies provides us with the information needed to refine climate models, so that we understand how the Earth's climate works, and better predict how human activity will impact climate in the future. Describes the tools used by paleoclimatologists to reconstruct past climate change and evaluate the hypothesis put forth to explain those changes.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5995",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "350",
+      "code": "REM 350",
+      "section": "D100",
+      "title": "Sustainable Climate & Society",
+      "instructors": [
+        "Sudmant, Andrew"
+      ],
+      "instructor": "Sudmant, Andrew",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 60,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "60/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/350/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/350/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:12.011Z",
+      "prerequisiteText": "42 units.",
+      "units": "4",
+      "designation": "Breadth-Social Sciences",
+      "description": "An interdisciplinary approach to transforming energy systems in pursuit of sustainable climate and society. Perspectives include thermodynamics, resource potentials, technological potentials, economic evaluation, implementation of transformative public policies, political-economy assessment of policy constraints, national and sub-national governance options, behavioural change potentials, global diplomacy, and pursuit of greater equity within and between countries.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2913",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "356W",
+      "code": "REM 356W",
+      "section": "D100",
+      "title": "Environmental Policy",
+      "instructors": [
+        "Niver, Will"
+      ],
+      "instructor": "Niver, Will",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 97,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "97/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/356w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/356w/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:12.323Z",
+      "prerequisiteText": "One of REM 100, GEOG 100, GEOG 111, or EVSC 100; and 45 units.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Provides an overview of policy and governance approaches used to manage the natural environment from international to local levels. The history, basic concepts, and key strategies of modern environmental policy are presented and discussed. Students then analyze and critique environmental policy across scales regarding climate, forests, oceans, and urban landscapes focusing on determining the effectiveness and efficiency of different approaches to regulate and manage the environment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2914",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "357",
+      "code": "REM 357",
+      "section": "D100",
+      "title": "Sustainable Food Systems",
+      "instructors": [
+        "Sarah-Louise Ruder"
+      ],
+      "instructor": "Sarah-Louise Ruder",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 41,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "41/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/357/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/357/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:12.626Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Provides students with the tools to identify the strengths and weaknesses of the current food system and will encourage them to critically analyze diverse solutions from both the global South and global North to build a more sustainable food system. Students will work collaboratively with the instructor to examine diverse and interdisciplinary approaches to food sustainability and strengthen their problem-solving skills.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2946",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "388",
+      "code": "REM 388",
+      "section": "D100",
+      "title": "Wildlife Conservation",
+      "instructors": [
+        "Harrison, Scott"
+      ],
+      "instructor": "Harrison, Scott",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 88,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "88/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/388/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/388/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:12.933Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Provides an overview of the taxonomic, ecological, and conservation relationships among wildlife and with humans. This knowledge is used to identify the ecological and social opportunities and constraints for sustainable resource and environmental management and planning related to the ecosystems that support wild populations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2935",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "412",
+      "code": "REM 412",
+      "section": "D100",
+      "title": "Environmental Model.",
+      "instructors": [
+        "Van Poorten, Brett"
+      ],
+      "instructor": "Van Poorten, Brett",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 23,
+        "waitlistCount": 0,
+        "raw": "20/23"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "REM 612 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/412/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/412/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:15.371Z",
+      "prerequisiteText": "REM 100 or EVSC 100; BISC 204 or GEOG 215 or REM 211; STAT 201 or STAT 203 or STAT 205 or GEOG 251 or equivalent; and 60 units. Recommended: REM 225.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Students receive hands-on experience in the construction and analysis of computer simulation models of environmental and ecological systems and problems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2945",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "431",
+      "code": "REM 431",
+      "section": "D100",
+      "title": "Climate Change and Env. Mgt",
+      "instructors": [
+        "Kou-Giesbrecht, Sian"
+      ],
+      "instructor": "Kou-Giesbrecht, Sian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "22/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/431/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/431/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:15.370Z",
+      "prerequisiteText": "REM 100 or EVSC 100 or GEOG 111; EVSC 201W or REM 221; 60 units; or permission from instructor.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Reviews how climate change is impacting multiple facets of earth system (e.g. atmosphere, oceans, and terrestrial and freshwater systems). Students will examine the challenges faced by environmental managers as they attempt to mitigate or adapt to these changes. One major goal of the course is to teach an appreciation of uncertainties and predictability in earth systems, to better address resource management issues on regional to global scales.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2936",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "471",
+      "code": "REM 471",
+      "section": "D100",
+      "title": "Forest Ecosystems & Management",
+      "instructors": [
+        "Cebulski, Alex"
+      ],
+      "instructor": "Cebulski, Alex",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 41,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "41/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/471/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/471/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:13.831Z",
+      "prerequisiteText": "One of REM 100, or GEOG 100 or 111, or EVSC 100 or BISC 102; and 45 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Forests are critical components of the earth system and provide diverse ecological, economic, social, and cultural services. They are also a source of conflict regarding their conservation and use. Students will begin by examining the ecological characteristics of forest ecosystems and disturbances pertinent to North America. This knowledge will then be applied to evaluate tools of forest management for a variety of goals and objectives. The final section of the course will examine challenges and opportunities in the management of British Columbia’s forested ecosystems, including Indigenous Protected Conservation Areas, carbon accounting, and wildfire management. This course will involve lectures, group work, assignments, and possible field trips.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2962",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "491",
+      "code": "REM 491",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/491/d100",
+      "outlineRetrievedAt": "2026-10-04T10:59:14.144Z",
+      "prerequisiteText": "90 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent study on resource management topics selected in consultation with the supervising instructor. A directed study proposal must be completed and approved by the instructor and the REM undergraduate chair or designate prior to enrollment. Students may take this course only once. Variable units: 1, 2, 3, 4, 5, 6, 7, 8.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6855",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "602",
+      "code": "REM 602",
+      "section": "G100",
+      "title": "Professional Planning Practice",
+      "instructors": [
+        "Tate, Laura"
+      ],
+      "instructor": "Tate, Laura",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "12/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/602/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/602/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:15.376Z",
+      "prerequisiteText": "Enrollment in REM MRM (Planning).",
+      "units": "5",
+      "description": "Examines planning practice, principles, theory, and ethics. Reviews issues in current professional planning practice and requirements for professional planning accreditation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2937",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "611",
+      "code": "REM 611",
+      "section": "G100",
+      "title": "Applied Ecology",
+      "instructors": [
+        "Wilkinson, Sophie"
+      ],
+      "instructor": "Wilkinson, Sophie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 800,
+          "displayStart": "11:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 800,
+          "displayStart": "11:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "17/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/611/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/611/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:15.521Z",
+      "units": "5",
+      "description": "Explores the foundations of applied population, community, and ecosystem ecology within the context of contemporary management and conservation strategies. Topics are explored by way of interactive lectures, field trips, and group activities exploring imperiled species recovery, protected area design, and ecosystem-based management.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2947",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "612",
+      "code": "REM 612",
+      "section": "G100",
+      "title": "Simulation Modelling",
+      "instructors": [
+        "Van Poorten, Brett"
+      ],
+      "instructor": "Van Poorten, Brett",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 7,
+        "waitlistCount": 0,
+        "raw": "7/7"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "REM 412 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/612/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/612/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:15.807Z",
+      "units": "5",
+      "description": "Methods of constructing simulations models and analyzing them through sensitivity analysis. Application of simulation modelling to research and management of environmental and resource systems. Topics will include management of wildlife, forests, insect pests, fisheries, pollution problems, energy resources, and recreational land use.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2949",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "621",
+      "code": "REM 621",
+      "section": "G100",
+      "title": "Ecological Economics",
+      "instructors": [
+        "Cisneros-Montemayor, Andres"
+      ],
+      "instructor": "Cisneros-Montemayor, Andres",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 25,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "25/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/621/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/621/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.083Z",
+      "units": "5",
+      "description": "Introduction to economic concepts for management of the environment and specific natural resources. Key topics include market failure, cost-benefit analysis, non-market valuation, pollution economics, analysis of transboundary environmental problems and the application of economics to sustainable development analysis and policies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2938",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "643",
+      "code": "REM 643",
+      "section": "G100",
+      "title": "Pub Engagement/Conflict Res",
+      "instructors": [
+        "Gunton, Tom"
+      ],
+      "instructor": "Gunton, Tom",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1100,
+          "displayStart": "2:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "14/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PLAN 443 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/643/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/643/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.077Z",
+      "units": "5",
+      "description": "Theory and techniques of public engagement, negotiation, and conflict resolution in planning and public policy.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2939",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "662",
+      "code": "REM 662",
+      "section": "G100",
+      "title": "Spec Topics in Res Mgmt",
+      "instructors": [
+        "Boron, Jonathan"
+      ],
+      "instructor": "Boron, Jonathan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "1/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PLAN 404 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/662/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/662/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.082Z",
+      "units": "5",
+      "description": "Special Topics in areas not currently offered within the offerings of the resource and environmental management program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5994",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "664",
+      "code": "REM 664",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "2/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/664/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/664/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.247Z",
+      "units": "5",
+      "description": "Special topics in areas not currently offered within the offerings of the resource and environmental management program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2940",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "664",
+      "code": "REM 664",
+      "section": "G200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/664/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/664/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.519Z",
+      "units": "5",
+      "description": "Special topics in areas not currently offered within the offerings of the resource and environmental management program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2941",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "665",
+      "code": "REM 665",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "2/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/665/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/665/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:18.815Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2942",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "665",
+      "code": "REM 665",
+      "section": "G200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/665/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/665/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:19.121Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2943",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "669",
+      "code": "REM 669",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/669/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/669/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:19.423Z",
+      "prerequisiteText": "Admission to REM graduate program (MRM or PhD).",
+      "units": "3",
+      "description": "Directed studies under the supervision of a faculty supervisor or instructor. Topics will be decided by instructor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6766",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "669",
+      "code": "REM 669",
+      "section": "G200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/669/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/669/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:19.716Z",
+      "prerequisiteText": "Admission to REM graduate program (MRM or PhD).",
+      "units": "3",
+      "description": "Directed studies under the supervision of a faculty supervisor or instructor. Topics will be decided by instructor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6767",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "697",
+      "code": "REM 697",
+      "section": "G100",
+      "title": "MRM Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "22/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/697/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/697/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:20.024Z",
+      "units": "18",
+      "description": "Thesis course for the MRM - thesis stream degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2944",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "697",
+      "code": "REM 697",
+      "section": "G200",
+      "title": "MRM Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "4/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/697/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/697/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:20.351Z",
+      "units": "18",
+      "description": "Thesis course for the MRM - thesis stream degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2967",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "698",
+      "code": "REM 698",
+      "section": "G100",
+      "title": "Field Resource Mgmt",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 31,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "31/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/698/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/698/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:20.611Z",
+      "units": "3",
+      "description": "An intensive field course introducing students to the diversity of issues and viewpoints concerning management of natural resources. Problem areas will include forestry, mining, fisheries and wildlife management, energy, recreation and land use planning. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2965",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "699",
+      "code": "REM 699",
+      "section": "G100",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "14/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/699/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/699/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:20.924Z",
+      "units": "10",
+      "description": "A research project dealing with a specific interdisciplinary problem in resource management, administration or allocation. The study must result in the preparation of a formal paper and the presentation of a seminar. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2968",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "699",
+      "code": "REM 699",
+      "section": "G200",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "1/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/699/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/699/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:21.218Z",
+      "units": "10",
+      "description": "A research project dealing with a specific interdisciplinary problem in resource management, administration or allocation. The study must result in the preparation of a formal paper and the presentation of a seminar. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2969",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "801",
+      "code": "REM 801",
+      "section": "G100",
+      "title": "Sustainability Res & Practice",
+      "instructors": [
+        "Axsen, Jonn"
+      ],
+      "instructor": "Axsen, Jonn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 26,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "26/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/801/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/801/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:21.547Z",
+      "units": "5",
+      "description": "Sustainability research and practice are by nature interdisciplinary. Both demand that results are mobilized to diverse audiences outside the academy. Through a combination of workshops, peer-to-peer learning, self-designed assignments, and interactive lectures, students will expand their professional toolbox with cutting-edge research, communication, and leadership skills to help them advance their sustainability research and practice goals.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2966",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "898",
+      "code": "REM 898",
+      "section": "G100",
+      "title": "Thesis Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "8/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/898/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:21.846Z",
+      "description": "Students will present and orally defend their proposal before an approved oral examination committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2970",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "898",
+      "code": "REM 898",
+      "section": "G200",
+      "title": "Thesis Proposal",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "1/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/898/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:22.120Z",
+      "description": "Students will present and orally defend their proposal before an approved oral examination committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2971",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "899",
+      "code": "REM 899",
+      "section": "G100",
+      "title": "Phd Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "11/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/899/g100",
+      "outlineRetrievedAt": "2026-10-04T10:59:22.429Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2972",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "REM",
+      "courseNumber": "899",
+      "code": "REM 899",
+      "section": "G200",
+      "title": "Phd Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "8/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=REM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T10:44:37.264Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/rem/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/rem/899/g200",
+      "outlineRetrievedAt": "2026-10-04T10:59:22.717Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2973",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

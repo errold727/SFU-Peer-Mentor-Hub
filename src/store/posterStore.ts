@@ -7,7 +7,7 @@ import {
   type PosterElement,
 } from '../poster/posterTypes';
 import type { SFUResource } from '../data/resources/types';
-import { resourceText } from '../utils/search';
+import { resourcePosterText } from '../utils/search';
 type State = {
   document: PosterDocument;
   past: PosterDocument[];
@@ -112,7 +112,7 @@ export const usePosterStore = create<State>((set, get) => ({
       ...s.document.elements.filter((e) => e.type === 'resource').map((e) => e.y + e.height + 20),
     );
     const added = fresh.map((r, i) => {
-      const text = resourceText(r);
+      const text = resourcePosterText(r);
       const height = Math.max(
         220,
         text
@@ -124,6 +124,7 @@ export const usePosterStore = create<State>((set, get) => ({
       const e = makeElement('resource', {
         text,
         resourceId: r.id,
+        sourceUrl: r.sourceUrl,
         x: 48,
         y,
         width: size.width - 96,

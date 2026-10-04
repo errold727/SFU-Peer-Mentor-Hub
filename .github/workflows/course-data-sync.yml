@@ -1,0 +1,72 @@
+name: Reviewed course data refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 7 * * *'
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: course-data-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - name: Reuse the maintenance branch without rewriting history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin
+          if git show-ref --verify --quiet refs/remotes/origin/data/course-offerings-sync; then
+            git switch -c data/course-offerings-sync origin/data/course-offerings-sync
+            git merge --no-edit origin/main
+          else
+            git switch -c data/course-offerings-sync origin/main
+          fi
+      - run: npm ci
+      - name: Stage every CourSys subject and enrich available outlines
+        run: npm run courses:sync:all
+      - name: Promote only fully validated term snapshots
+        run: npm run courses:publish -- all
+      - run: npm run courses:validate
+      - run: npm run courses:report
+      - run: npm test
+      - run: npm run lint
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Update one review PR
+        run: |
+          npx tsx scripts/course-import/pr-report.ts
+          git add public/data/courses docs/COURSE_DATA_STATUS.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: refresh SFU course offerings'
+          git push origin data/course-offerings-sync
+          number=$(gh pr list --head data/course-offerings-sync --base main --state open --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh pr edit "$number" --title 'data: refresh SFU course offerings' --body-file .course-import/sync-pr.md
+          else
+            gh pr create --base main --head data/course-offerings-sync --title 'data: refresh SFU course offerings' --body-file .course-import/sync-pr.md
+          fi
+      - name: Preserve resumable import and diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: course-import-diagnostics
+          include-hidden-files: true
+          path: |
+            .course-import/1267/
+            .course-import/1271/
+            test-results/
+          retention-days: 7

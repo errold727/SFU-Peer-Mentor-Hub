@@ -21,6 +21,7 @@ export type SFUResource = {
   sourceUrl: string;
   lastVerified: string | null;
   verificationNote?: string;
+  posterContent?: string;
   posterCompatible: boolean;
   tags: string[];
   date?: string;

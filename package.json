@@ -14,7 +14,12 @@
     "preview": "vite preview --host 127.0.0.1",
     "verify:resources": "tsx scripts/verify-resources.ts",
     "courses:import": "tsx scripts/course-import/import.ts",
-    "courses:validate": "tsx scripts/course-import/validate.ts"
+    "courses:validate": "tsx scripts/course-import/maintenance.ts validate",
+    "courses:discover": "tsx scripts/course-import/cli.ts discover",
+    "courses:sync": "tsx scripts/course-import/cli.ts sync",
+    "courses:sync:all": "tsx scripts/course-import/cli.ts sync all",
+    "courses:publish": "tsx scripts/course-import/cli.ts publish",
+    "courses:report": "tsx scripts/course-import/maintenance.ts report"
   },
   "repository": {
     "type": "git",

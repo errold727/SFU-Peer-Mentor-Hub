@@ -1,17 +1,17 @@
-# SFU Peer Mentor Hub — V1
+# SFU Peer Mentor Hub
 
 [Live site](https://errold727.github.io/SFU-Peer-Mentor-Hub/) · [Repository](https://github.com/errold727/SFU-Peer-Mentor-Hub) · [Actions](https://github.com/errold727/SFU-Peer-Mentor-Hub/actions)
 
 A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find public SFU information, collect resources, and create editable posters or neutral course comparisons. This is not an official Simon Fraser University website or a replacement for official advice.
 
-## What V1 does
+## What the hub does
 
 - **Resource Hub:** 32 sourced resources, useful search aliases, category/campus/term filters, details, copy, Vancouver-aware deadlines, and sport/day recreation filtering. Cards distinguish Verified, Review Soon, Review Recommended / Stale, and Unverified. Printing is included; international topics link directly to their official guidance.
-- **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, including source URLs and verification notes.
+- **Poster Basket:** add, deduplicate, remove, clear, and reuse public facts directly as editable poster text, with concise poster bodies and optional official-source QR codes. Full details and copied text retain source URLs and verification metadata.
 - **Poster Maker:** eight editable templates and five optional styles; temporary recipient personalization; text, image, shape, icon, resource, QR, divider and footer elements; pointer and keyboard editing; layers, hide/lock, undo/redo, snapping, alignment, typography and borders. Auto Arrange reserves margins/header/footer and avoids existing content. Body text is never automatically reduced below 16 px. Poster Quality detects overflow, overlap, small text, low contrast, empty content, placeholders, density and edge problems. Grow to fit text and Fit text safely address overflow.
 - **Optional local drafts:** explicit Save locally, Open, Duplicate and Delete. No autosave or automatic restore. Recipient fields require a separate opt-in. Storage is browser-local with a visible usage indicator.
 - **Exports:** standard, 2x and print PNG; PDF with matching page bounds. Hidden content, guides and selection handles are excluded. Letter print PNG is 2550 × 3300; Letter PDF is 612 × 792 points. PDF is a rendered visual, not an editable document or hidden student JSON.
-- **Course Planner:** 1,628 published undergraduate sections across CMPT, ENGL, ECON, LING, CRIM, PSYC, POL and ARCH, for Fall 2026 and Spring 2027. Search by code/title/instructor/section, sort, filter section types, browse result pages, inspect details/prerequisites, compare across terms, show weekly meetings, identify precise conflicts, clear selections and add courses to posters. No course ranking or demand prediction.
+- **Course Planner:** dynamically discovered CourSys offerings for Fall 2026 (1267) and Spring 2027 (1271), across every subject returned for each term. All Subjects browsing, grouped sections, search by code/title/instructor/section/campus, filters, lazy details, temporary cross-subject selections, weekly meetings and deterministic conflicts. Counts, snapshot times and enrichment gaps are published in [COURSE_DATA_STATUS](docs/COURSE_DATA_STATUS.md). No course ranking or demand prediction.
 - **Responsive routes:** Home, Resources, Poster Maker, Template Gallery, Course Planner and About. Hash URLs support refresh on GitHub Pages. Keyboard alternatives, focus containment/restoration, reduced motion and explicit form labels support accessibility.
 
 ## Privacy architecture
@@ -26,7 +26,7 @@ PNG/PDF downloads contain the visible text the user chose. A recipient name may 
 
 ## Local development and checks
 
-Use Node 24 and npm. V1 development uses `codex/v1`; `main` is the deployed branch.
+Use Node 24 and npm. Course Offerings V2 development uses `codex/course-offerings-v2`; `main` is the deployed branch.
 
 ```sh
 npm ci
@@ -67,7 +67,7 @@ scripts/verify-resources.ts   Read-only metadata / link report
  docs/                        Audit evidence and maintenance/release notes
 ```
 
-Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; only the selected term/department JSON is fetched. New requests abort stale fetches, search/sort is memoized, and results render 20 sections at a time. Poster measurements are memoized by document/name rather than selection. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster Maker is about 120 KB gzip on demand. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
+Poster Maker, Course Planner and Template Gallery load lazily. PDF dependencies load on PDF export. No course datasets are bundled in the initial application; the browser loads a term manifest and compact all-subject index or individual subject snapshot. Long descriptions, prerequisite text and registrar notes load on detail/selection. New requests abort stale fetches, search/sort is memoized, and results render 12 course groups at a time. Poster measurements are memoized by document/name rather than selection. Production initial app JavaScript is roughly 114 KB gzip including shared React code; Poster Maker is about 120 KB gzip on demand. PDF chunks are larger but stay out of initial navigation. No large stock images or font downloads are used.
 
 ## Resource maintenance
 
@@ -86,15 +86,17 @@ See [the resource audit](docs/resource-audit.md). Four Library cards remain unve
 
 ## Course data import and schema
 
-Run `npm run courses:import -- 2027-spring ENGL`. This reads the public SFU Course Outlines JSON API and writes candidates only to ignored `.course-import/`. It never edits published data. Inspect the candidate and its adjacent review report, run `npm run courses:validate -- .course-import`, compare official outlines and the Git diff, then copy approved JSON to `public/data/courses/`. Run validation, tests, build and browser checks before committing. All nine original offerings were retained in V1.
+CourSys determines the offering universe. The public endpoint uses DataTables GET parameters including `tabledata=yes`, `semester[]=1267` (Fall) or `semester[]=1271` (Spring), deterministic ordering and pages capped at 500. URL hash filters are only browser state. Public source code documents this interface; no login, private credentials or student records are used.
 
-See [importer instructions](scripts/course-import/README.md) and [V1 review records](docs/course-data-review.json). The latter documents omitted sources; a missing API schedule or unavailable course directory is not filled in from assumptions.
+`npm run courses:sync:all` stages a complete import with three workers, a global 300 ms request-start interval, 20-second timeouts and at most three attempts for transient errors. Successful discovery pages, outlines and subject results are cached for resuming. `--force` starts a fresh sync run. Missing outlines retain the CourSys offering and an empty schedule rather than deleting it.
 
-Schema version 1 contains lastVerified, a scope note and course records. Identity is term/department/courseNumber/code/section. Each meeting has canonical days, integer start/end minutes, matching display times and optional teaching dates/kind/location. Optional fields include instructor, campus, prerequisite text, section type, associated group, source URLs and seats. Unavailable values remain absent. An empty schedule is not described as asynchronous; partially unavailable schedules show a warning. Exams are excluded from weekly class conflicts.
+Review the candidates and reports under ignored `.course-import/1267/` and `.course-import/1271/`. Then run `npm run courses:publish -- all`, `npm run courses:validate` and `npm run courses:report`. Promotion validates source totals, every discovered subject, identities, schedules, enrollment and index consistency before writing immutable snapshot files and atomically replacing each term manifest. Failed imports preserve the previous published pointer. No command writes to GitHub automatically.
 
-Conflicts require the same term, a shared day and `a.start < b.end && b.start < a.end`, with teaching-date overlap when known. Any lecture/tutorial/lab meeting block can cause a conflict. Back-to-back meetings do not overlap; the app does not estimate travel time. Associated groups are official metadata, not a registration-validity engine. Confirm all required components in official outlines and goSFU. Empty prerequisite text never means no prerequisites. The source does not supply seat/waitlist availability.
+Schema version 2 retains existing code/department/term identities and adds termCode, instructors, provenance, snapshotAt, optional outlineRetrievedAt, delivery, units, designation, class number, description, corequisites, crosslisting and enrollment counts. Missing fields remain absent. CourSys counts may legitimately exceed capacity; preserve and report that evidence. Snapshot/retrieval time never claims SFU updated a record then.
 
-To add a department or term: import and review its data first, register it in `src/course/courseTypes.ts`, publish validated files for each available selector combination, then test. A future scheduled importer should open reviewable data PRs with bounded retries and caching; V1 does not schedule data imports or claim live data.
+Conflicts require the same term, overlapping time intervals and a shared teaching weekday within overlapping date ranges where published. Multiple blocks are checked. Adjacent classes do not overlap, and missing schedules are not assumed asynchronous. Confirm all required registration components through SFU.
+
+The prior V1 datasets remain under their original named term folders as historical migration evidence and offline regression fixtures. The application exclusively reads the numeric-term manifests; no handwritten subject list remains. V1 may list outline-only tutorial components that CourSys does not index; these are not silently relabeled as CourSys offerings. See [pipeline instructions](scripts/course-import/README.md) and [generated coverage report](docs/COURSE_DATA_STATUS.md).
 
 ## Poster development
 
@@ -106,16 +108,20 @@ Canvas zoom uses Fit/150/200/300% of fit and a scrollable viewport. Layers and t
 
 ## CI/CD and release
 
-Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1 and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
+Vite base: `/SFU-Peer-Mentor-Hub/`. GitHub Pages source: **GitHub Actions**. `deploy.yml` runs on main, codex/phase0, codex/v1, codex/course-offerings-v2, the data maintenance branch and PRs into main. Gates are npm ci, lint, unit/integration tests, normalized course validation, offline resource metadata validation, production build and browser tests. Failed browser diagnostics are retained for seven days. Only a passing main run deploys dist using the official Pages artifact/deployment actions. PRs never deploy. No personal token is committed.
 
 The monthly read-only `resource-health.yml` reports public resource links and data schema health. It never creates commits, updates verification dates or posts issues. Bot blocks/timeouts remain non-failing review states; genuine malformed/dead sources require maintainer review.
+
+The daily/manual `course-data-sync.yml` stages both terms, validates, generates the coverage report, runs tests/lint/build/browser checks, and updates one `data/course-offerings-sync` PR without force-pushing or auto-merging. GitHub must allow Actions to create pull requests. Failed imports and browser diagnostics are retained for seven days.
+
+The course browser's separate JavaScript chunk is about 9.2 KB gzip. The October 4 snapshots' all-subject indexes are 189 KiB (Fall) and 162 KiB (Spring) gzip; full details remain lazy. A local Node 24 benchmark of 100 mixed searches over each complete index measured about 1 ms median and 9–10 ms at the 95th percentile for filtering and sorting; these are development-machine measurements, not a guarantee for every device. Browser tests check that the homepage requests no course JSON and results are paginated.
 
 Release process: push the tested development branch, open a PR, wait for checks, merge without rewriting history, wait for Pages, run production browser checks and inspect real routes/features. Only then create and push `v1.0.0` at the deployed main commit. Package version was already 1.0.0 in the original scaffold and is retained for the first tagged release.
 
 ## Known limitations and next work
 
 - Four official Library sources remain inaccessible to automated verification; obtain a current human-verified guide before changing their null dates.
-- Course snapshots can change, omit rejected/unavailable records and cover only the listed departments/terms and published undergraduate sections. Seats, live registration and automatic combination validation are unavailable. Maintain reviewed refreshes; do not predict demand.
+- CourSys is a snapshot of its public index, not a complete registration-validity engine. Cancelled/locally merged offerings and some tutorial/lab components are outside that index. Missing outlines and schedules remain visible; see the generated report. No live seat guarantee or demand prediction.
 - One page per poster. Dense factual content may require fewer cards, a larger format or separate posters. Quality checks are conservative geometry/text checks and cannot guarantee contrast over arbitrary images or printed legibility.
 - Local drafts are explicit browser storage, not encrypted or backed up. No cross-device sync or editable PDF. Private-browsing/storage limits may prevent saving.
 - Automated accessibility and keyboard checks supplement, but do not replace, testing with screen-reader and other assistive-technology users.

@@ -60,3 +60,21 @@ export function resourceText(r: SFUResource) {
     .filter(Boolean)
     .join('\n');
 }
+// Full detail/copy keeps provenance. Poster body stays concise; the source can be added as a QR.
+export function resourcePosterText(r: SFUResource) {
+  return (
+    r.posterContent ??
+    [
+      r.shortTitle ?? r.title,
+      r.date,
+      r.summary,
+      ...((r.facts?.length ?? 0) <= 4
+        ? (r.facts ?? []).map((f) => `${f.label ? f.label + ': ' : ''}${f.value}`)
+        : ['See the official source for the full guide or schedule.']),
+      `Source: ${r.sourceName}`,
+      !r.lastVerified ? 'Confirm details with SFU before sharing.' : undefined,
+    ]
+      .filter(Boolean)
+      .join('\n')
+  );
+}

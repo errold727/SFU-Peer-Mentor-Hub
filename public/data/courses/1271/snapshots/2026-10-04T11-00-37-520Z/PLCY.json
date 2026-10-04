@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-04T11:00:37.522Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "200",
+      "code": "PLCY 200",
+      "section": "D100",
+      "title": "Introduction to Public Policy",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/200/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/200/d100",
+      "outlineRetrievedAt": "2026-10-04T11:13:28.230Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Government policies affect nearly every aspect of daily life. Covers basic methods for public policy to deepen student's understanding of what public policy is, why it is important, and the way in which public policy is made. Students examine competing perspectives for explaining the relationship between power, knowledge, advocacy, and policy making.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4670",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "300",
+      "code": "PLCY 300",
+      "section": "D100",
+      "title": "Applied Public Policy Analysis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "0/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/300/d100",
+      "outlineRetrievedAt": "2026-10-04T11:13:28.832Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduces the basic principles and techniques of policy analysis and how to apply them to pressing policy issues and address gaps in policy. Builds on the theoretical and methodological foundations across the disciplines. Promotes critical thinking, problem solving, and communication of findings in ways appropriate for policy decision makers.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4678",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "302",
+      "code": "PLCY 302",
+      "section": "D100",
+      "title": "Health Policy",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 920,
+          "displayStart": "12:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/302/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/302/d100",
+      "outlineRetrievedAt": "2026-10-04T11:13:28.524Z",
+      "prerequisiteText": "PLCY 100 and PLCY 200.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines the root causes of health and the actors, institutions, and forces shaping health and healthcare policy in Canada and globally. Students explore and analyze key health policy challenges, assess policy responses, and consider solutions for addressing inequitable health outcomes, with attention to the historical, political, and economic contexts of health policy and practice.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4682",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "802",
+      "code": "PLCY 802",
+      "section": "G100",
+      "title": "Econ.Found/Policy Analysis II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 710,
+          "displayStart": "9:00 AM",
+          "displayEnd": "11:50 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/802/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/802/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:29.125Z",
+      "units": "5",
+      "description": "Application of economic concepts and techniques to a variety of public policy issues.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4671",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "806",
+      "code": "PLCY 806",
+      "section": "G100",
+      "title": "Research Methods",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 710,
+          "displayStart": "9:00 AM",
+          "displayEnd": "11:50 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/806/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/806/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:29.472Z",
+      "units": "5",
+      "description": "Develops key analytical and practical skills that include use of programs such as Excel and SPSS. Identifies and frames public policy problems and structure effective research questions and study designs. Introduces to methodologies for interviews, focus groups, case studies, surveys, and how to incorporate these data sources into policy research.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4679",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "807",
+      "code": "PLCY 807",
+      "section": "G100",
+      "title": "Policy Analysis II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 710,
+          "displayStart": "9:00 AM",
+          "displayEnd": "11:50 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/807/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/807/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:29.719Z",
+      "prerequisiteText": "PLCY 800 or MPP 800, or permission of the instructor.",
+      "units": "5",
+      "description": "Introduces the basic principles and techniques of policy analysis and examination of current public policy issues. A continuation of MPP 800.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4672",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "809",
+      "code": "PLCY 809",
+      "section": "G100",
+      "title": "Major Research Project",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/809/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/809/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:30.032Z",
+      "prerequisiteText": "Open only to students enrolled in the MPP program.",
+      "units": "6",
+      "description": "Covers advanced policy analysis techniques that are applied by students to individual projects on current public policy issues. This course will constitute the Capstone project component of the program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4673",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "813",
+      "code": "PLCY 813",
+      "section": "G100",
+      "title": "Select Topics/Public Policy II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 840,
+          "endMinutes": 1010,
+          "displayStart": "2:00 PM",
+          "displayEnd": "4:50 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/813/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/813/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:30.322Z",
+      "units": "5",
+      "description": "Specialized study in topics germane to the field of public policy.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4681",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "815",
+      "code": "PLCY 815",
+      "section": "G100",
+      "title": "Select.Topics Public Policy IV",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 840,
+          "endMinutes": 1010,
+          "displayStart": "2:00 PM",
+          "displayEnd": "4:50 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/815/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/815/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:30.622Z",
+      "units": "5",
+      "description": "This course provides an opportunity to cover topics appropriate to the program but not covered extensively in the core courses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4675",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "816",
+      "code": "PLCY 816",
+      "section": "E100",
+      "title": "Select.Topics Public Policy V",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1020,
+          "endMinutes": 1190,
+          "displayStart": "5:00 PM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/816/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/816/e100",
+      "outlineRetrievedAt": "2026-10-04T11:13:30.925Z",
+      "units": "5",
+      "description": "This course provides an opportunity to cover topics appropriate to the program but not covered extensively in the core courses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4676",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "821",
+      "code": "PLCY 821",
+      "section": "G100",
+      "title": "Indigenous Policy",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 710,
+          "displayStart": "9:00 AM",
+          "displayEnd": "11:50 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/821/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/821/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:31.224Z",
+      "units": "5",
+      "description": "Overview of aboriginal and First Nations policy issues and policy choices in BC and Canada. Examines demographic trends, social and economic data, and development issues. Rights and title, accommodation and infringement, treaty and self government issues and policies are a focus as well as socio-economic issues and problems, including those of urban people.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4680",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "823",
+      "code": "PLCY 823",
+      "section": "G100",
+      "title": "Health Policy",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 840,
+          "endMinutes": 1010,
+          "displayStart": "2:00 PM",
+          "displayEnd": "4:50 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/823/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/823/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:31.544Z",
+      "units": "5",
+      "description": "Examines health policy in Canada from a range of perspectives with a focus on the rapidly changing and increasingly politicized health care environment in which efficiency, evidence, and social justice are important driving forces. Compares the Canadian system to the US and other international jurisdictions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4674",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "850",
+      "code": "PLCY 850",
+      "section": "G100",
+      "title": "Co-op",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/850/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/850/g100",
+      "outlineRetrievedAt": "2026-10-04T11:13:31.821Z",
+      "description": "Students who do not have prior work experience in public policy are placed in a public or private organization connected to public policy. The work they undertake must be of sufficient depth and breadth to allow the student the opportunity to demonstrate his or her acquired knowledge and skills. Students will be required to produce a work report that will be an appraisal of the student's work experience. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1407",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "850",
+      "code": "PLCY 850",
+      "section": "G200",
+      "title": "Co-op",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/850/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/850/g200",
+      "outlineRetrievedAt": "2026-10-04T11:13:32.146Z",
+      "description": "Students who do not have prior work experience in public policy are placed in a public or private organization connected to public policy. The work they undertake must be of sufficient depth and breadth to allow the student the opportunity to demonstrate his or her acquired knowledge and skills. Students will be required to produce a work report that will be an appraisal of the student's work experience. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1408",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLCY",
+      "courseNumber": "850",
+      "code": "PLCY 850",
+      "section": "I100",
+      "title": "Co-op",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLCY",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-04T11:00:37.522Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plcy/850/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plcy/850/i100",
+      "outlineRetrievedAt": "2026-10-04T11:13:32.458Z",
+      "description": "Students who do not have prior work experience in public policy are placed in a public or private organization connected to public policy. The work they undertake must be of sufficient depth and breadth to allow the student the opportunity to demonstrate his or her acquired knowledge and skills. Students will be required to produce a work report that will be an appraisal of the student's work experience. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1409",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

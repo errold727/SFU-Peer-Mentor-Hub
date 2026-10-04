@@ -85,7 +85,7 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
   await page.setViewportSize({ width: 375, height: 812 });
   await page.goto('./#/course-planner');
   await page.getByLabel('Find a course').fill('ENGL 211');
-  await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Primary');
+  await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Enrollment');
   await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
   await page.getByLabel('Find a course').fill('ENGL 234');
   await page.getByRole('button', { name: 'Add to Comparison', exact: true }).first().click();
@@ -103,7 +103,7 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
   ).toEqual([]);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Clear comparison', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'Course comparison (0)' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Selected Courses (0)' })).toBeVisible();
 });
 for (const failure of ['missing', 'offline'])
   test(`course ${failure} data has a recoverable state`, async ({ page }) => {
@@ -116,5 +116,5 @@ for (const failure of ['missing', 'offline'])
     await expect(page.getByRole('alert')).toContainText(
       failure === 'missing' ? 'could not be loaded' : 'Connection unavailable',
     );
-    await expect(page.getByRole('link', { name: 'Official SFU Course Outlines' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Official SFU CourSys' })).toBeVisible();
   });
