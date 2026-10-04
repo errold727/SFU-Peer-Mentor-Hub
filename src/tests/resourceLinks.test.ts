@@ -2,15 +2,26 @@ import { describe, it, expect, vi } from 'vitest';
 import { checkResourceLinks, retryAfterMilliseconds } from '../utils/resourceLinks';
 const now = () => new Date('2026-10-04T18:00Z');
 describe('bounded read-only source checks', () => {
-  it('deduplicates requests and distinguishes blocked challenge from factual review', async () => {
+  it('contains response-body timeouts so other source results are retained', async () => {
+    const body = new Response('partial', { headers: { 'content-type': 'text/html' } });
+    vi.spyOn(body, 'text').mockRejectedValue(new DOMException('body timed out', 'AbortError'));
     const fetch = vi
       .fn<typeof globalThis.fetch>()
-      .mockResolvedValue(
-        new Response('Anubis browser challenge', {
-          status: 200,
-          headers: { 'content-type': 'text/html' },
-        }),
-      );
+      .mockResolvedValueOnce(body)
+      .mockResolvedValueOnce(new Response('ok'));
+    const results = await checkResourceLinks(['https://www.sfu.ca/a', 'https://www.sfu.ca/b'], 1, {
+      fetch,
+      now,
+    });
+    expect(results.map((r) => r.status)).toEqual(['timeout', 'reachable']);
+  });
+  it('deduplicates requests and distinguishes blocked challenge from factual review', async () => {
+    const fetch = vi.fn<typeof globalThis.fetch>().mockResolvedValue(
+      new Response('Anubis browser challenge', {
+        status: 200,
+        headers: { 'content-type': 'text/html' },
+      }),
+    );
     const result = await checkResourceLinks(
       ['https://www.lib.sfu.ca/', 'https://www.lib.sfu.ca/'],
       3,

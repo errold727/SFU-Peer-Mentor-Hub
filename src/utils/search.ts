@@ -91,14 +91,19 @@ function rank(r: SFUResource, score = 0, now: Date, query: string) {
   );
 }
 export function thisWeekResources(resources: SFUResource[], now = new Date()) {
-  const timely = resources.filter(
-    (r) =>
-      resourceStatus(r, now).lifecycle === 'active' &&
-      resourceStatus(r, now).reviewed &&
-      [r.date, ...(r.dates ?? []).map((d) => d.start)].some(
-        (date) => date && daysUntil(date, now) >= 0 && daysUntil(date, now) <= 7,
-      ),
-  );
+  const upcomingOffsets = (r: SFUResource) =>
+    [r.date, ...(r.dates ?? []).flatMap((d) => [d.start, d.end])]
+      .filter((date): date is string => !!date)
+      .map((date) => daysUntil(date, now))
+      .filter((offset) => offset >= 0 && offset <= 7);
+  const timely = resources
+    .filter(
+      (r) =>
+        resourceStatus(r, now).lifecycle === 'active' &&
+        resourceStatus(r, now).reviewed &&
+        upcomingOffsets(r).length > 0,
+    )
+    .sort((a, b) => Math.min(...upcomingOffsets(a)) - Math.min(...upcomingOffsets(b)));
   return [
     ...timely,
     ...resources.filter(

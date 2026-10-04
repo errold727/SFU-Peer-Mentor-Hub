@@ -90,4 +90,25 @@ describe('published directory integration', () => {
     expect(resourcePosterText(r)).toContain('Published access details conflict');
     expect(resourcePosterText(r)).not.toMatch(/12:30|Wednesday|Friday|1330/);
   });
+  it('retains membership requirements in a filtered recreation poster', () => {
+    const selected = filteredScheduleResource(
+      find('drop-in-recreation'),
+      'Badminton',
+      'Monday',
+      now,
+    )!;
+    expect(selected.sessions).toHaveLength(1);
+    expect(resourcePosterText(selected)).toMatch(/valid Burnaby Recreation membership/);
+    expect(resourcePosterText(selected)).toMatch(/community participants need an eligible pass/);
+    expect(resourcePosterText(selected)).toContain('2026-12-04');
+  });
+  it('recommends range closing dates and orders imminent dates first', () => {
+    const later = find('spring-fees-due');
+    const closing = find('spring-aid-dates');
+    const jan14 = new Date('2027-01-14T20:00:00Z');
+    expect(thisWeekResources([later, closing], jan14).map((r) => r.id)).toEqual([
+      'spring-aid-dates',
+      'spring-fees-due',
+    ]);
+  });
 });

@@ -37,7 +37,7 @@ export const fixture = () =>
         title: 'SFU Library',
         url: 'https://www.lib.sfu.ca/',
         locator: 'Synthetic fixture',
-        fields: ['summary', 'access', 'eligibility'],
+        fields: ['summary', 'access', 'eligibility', 'poster'],
         retrievalStatus: 'retrieved',
         lastRetrievalAttemptAt: checked,
         lastRetrievedAt: checked,
@@ -53,7 +53,11 @@ describe('resource evidence model', () => {
       ...r,
       verification: { ...r.verification, status: 'partial', verifiedAt: null },
       sources: [
-        { ...r.sources[0], locator: 'Identity only', fields: ['summary', 'access', 'eligibility'] },
+        {
+          ...r.sources[0],
+          locator: 'Identity only',
+          fields: ['summary', 'access', 'eligibility', 'poster'],
+        },
       ],
     });
     expect(partial.lastVerified).toBeNull();
@@ -116,6 +120,16 @@ describe('resource evidence model', () => {
     expect(errors).toMatch(/unsafe HTML/);
     expect(errors).toMatch(/credential field/);
     expect(errors).toMatch(/cannot mean free/);
+  });
+  it('rejects published cost, dates and poster claims without field evidence', () => {
+    const r = fixture();
+    r.cost = { status: 'published', details: 'Synthetic fee $9999' };
+    r.dates = [{ label: 'Synthetic cutoff', kind: 'date', start: '2026-11-01' }];
+    r.evidence = r.evidence.filter((e) => e.field !== 'poster');
+    const errors = validateResources([r], now).errors.join(' ');
+    expect(errors).toMatch(/published cost/);
+    expect(errors).toMatch(/dates.0/);
+    expect(errors).toMatch(/poster.facts.0/);
   });
   it('bounds recurring sessions and excludes known closures in Vancouver', () => {
     const session = {

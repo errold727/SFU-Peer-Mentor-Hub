@@ -1425,7 +1425,7 @@ const libraryResources: CatalogInput[] = [
       'Bennett Library',
       [
         'Burnaby campus library.',
-        'Check the official branch page for current hours and study-space guidance.',
+        'Follow SFU’s Library Hours of Operation link before visiting.',
       ],
       [],
       'link',
@@ -1436,7 +1436,7 @@ const libraryResources: CatalogInput[] = [
         'SFU Indigenous Student Centre: Student spaces',
         '2026-10-04T15:31:00.894Z',
         'Library Space; Indigenous Reading Room; Library Hours of Operation links',
-        ['summary', 'access', 'eligibility', 'locations', 'details.0', 'poster.facts.0'],
+        ['summary', 'access', 'eligibility', 'locations', 'details.0', 'poster.facts'],
       ),
       source(
         `${it}KB/Article/4308/Student-Computer-Labs-Locations`,
@@ -2010,6 +2010,14 @@ const learningResources: CatalogInput[] = [
       'Ask your instructor or TA for course guidance.',
       'Check the course’s instructions for times and access.',
     ]),
+    evidence: [
+      {
+        field: 'poster.facts.1',
+        sourceId: 's2',
+        locator: 'About this service → instructor-published course materials',
+        note: 'Hub-written navigation advice to consult the instructor’s course materials. The source establishes the Canvas course-material route; it does not establish uniform office-hour times or access.',
+      },
+    ],
     sources: [
       learning('Instructor Support', ['summary', 'eligibility', 'poster.facts.0']),
       source(

@@ -13,6 +13,11 @@ const defaults: Dependencies = {
   sleep: (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
   now: () => new Date(),
 };
+const isTimeout = (error: unknown) =>
+  typeof error === 'object' &&
+  error !== null &&
+  'name' in error &&
+  /timeout|abort/i.test(String(error.name));
 export function retryAfterMilliseconds(value: string | null, now: Date) {
   if (!value) return 1000;
   const seconds = Number(value);
@@ -67,10 +72,7 @@ export async function checkResourceLinks(
           return {
             url,
             checkedAt,
-            status:
-              error instanceof Error && /timeout|abort/i.test(error.name)
-                ? 'timeout'
-                : 'unverified',
+            status: isTimeout(error) ? 'timeout' : 'unverified',
             finalUrl: current,
             note: 'Network request unavailable; not evidence of discontinuation',
           };
@@ -101,9 +103,21 @@ export async function checkResourceLinks(
         current = destination;
         continue;
       }
-      const text = /text|html/.test(response.headers.get('content-type') ?? '')
-        ? (await response.text()).slice(0, 200000)
-        : '';
+      let text = '';
+      try {
+        if (/text|html/.test(response.headers.get('content-type') ?? ''))
+          text = (await response.text()).slice(0, 200000);
+        else await response.body?.cancel();
+      } catch (error) {
+        return {
+          url,
+          checkedAt,
+          finalUrl: current,
+          httpStatus: response.status,
+          status: isTimeout(error) ? 'timeout' : 'unverified',
+          note: 'Response body could not be read; other source checks continue',
+        };
+      }
       return {
         url,
         checkedAt,

@@ -31,8 +31,13 @@ export function filteredScheduleResource(
               'Multiple sessions match your filter.',
               'Open the official schedule for all times and locations.',
             ],
-      conditions: resource.poster?.conditions ?? [
-        'Membership conditions apply. Check closures before attending.',
+      conditions: [
+        ...new Set([
+          ...(resource.eligibility ?? []),
+          ...(resource.poster?.conditions ?? [
+            'Membership conditions apply. Check closures before attending.',
+          ]),
+        ]),
       ],
       mode: 'facts',
     },

@@ -432,7 +432,7 @@ section {
 }
 .resource-card .resource-provider {
   flex: 0;
-  color: var(--muted);
+  color: var(--gray-700);
   font-size: 12px;
   margin: 0 0 4px;
 }

@@ -3032,7 +3032,7 @@ export const pathwaysResources = [
           'SFU — Office of the Ombudsperson',
           'Help navigating university processes and finding options',
           recordsRead,
-          ['summary', 'access.0', 'access.1', 'eligibility.0', 'details.1', 'poster.facts.1'],
+          ['summary', 'access.0', 'access.1', 'eligibility.0', 'details.1', 'poster.facts'],
         ),
         note: 'Hub-written referral summary derived from the reviewed office scope; not an official SFU-authored guide.',
       },

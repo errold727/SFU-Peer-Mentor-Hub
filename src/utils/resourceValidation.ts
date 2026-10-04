@@ -115,10 +115,15 @@ export function validateResources(
       r[field]?.forEach((_, i) => {
         if (!mapped(`${field}.${i}`)) fail(`missing retrieved evidence for ${field}.${i}`);
       });
-    for (const field of ['facts', 'contacts', 'sessions'] as const)
+    for (const field of ['facts', 'contacts', 'sessions', 'dates'] as const)
       r[field]?.forEach((_, i) => {
         if (!mapped(`${field}.${i}`)) fail(`missing evidence for ${field}.${i}`);
       });
+    if (r.cost?.status === 'published' && !mapped('cost'))
+      fail('missing evidence for published cost');
+    r.poster?.facts.forEach((_, i) => {
+      if (!mapped(`poster.facts.${i}`)) fail(`missing evidence for poster.facts.${i}`);
+    });
     if (
       (r.highImpact ||
         r.cost?.status === 'published' ||
