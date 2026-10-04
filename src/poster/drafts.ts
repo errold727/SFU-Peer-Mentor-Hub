@@ -71,6 +71,7 @@ export function validPosterDocument(value: unknown): value is PosterDocument {
         (typeof e.sourceUrl === 'string' &&
           /^https:\/\//.test(e.sourceUrl) &&
           e.sourceUrl.length <= 2048)) &&
+      (e.type !== 'block' || !!e.block) &&
       (e.block === undefined || validBlock(e.block)) &&
       (e.src === undefined ||
         e.src === campusArt ||

@@ -57,6 +57,17 @@ export function applyPosterStyle(
                   ? 'transparent'
                   : style.card,
             borderColor: style.accent,
+            ...(e.block
+              ? {
+                  block: {
+                    ...e.block,
+                    accentColor: style.accent,
+                    headerColor: style.accent,
+                    rowColor: style.card,
+                  },
+                  color: e.block.kind === 'title' ? '#ffffff' : style.text,
+                }
+              : {}),
           },
     ),
   };

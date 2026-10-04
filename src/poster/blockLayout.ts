@@ -79,7 +79,7 @@ export function blockParts(e: PosterElement, name = '') {
         w,
         e.fontSize,
         b.bannerStyle === 'underline' ? b.accentColor : e.color,
-        true,
+        e.fontWeight === 'bold',
       ) + 4;
   } else if (['greeting', 'text', 'footer'].includes(b.kind)) {
     if (b.title) y += addText(b.title, p, y, w, e.fontSize + 3, e.color, true) + 8;
@@ -116,7 +116,7 @@ export function blockParts(e: PosterElement, name = '') {
             addText(
               c,
               p + i * cw + 7,
-              y + 8,
+              y + 6,
               cw - 14,
               e.fontSize,
               header ? '#ffffff' : e.color,
@@ -124,7 +124,7 @@ export function blockParts(e: PosterElement, name = '') {
               b.columnAlign[i] || 'left',
             ),
           );
-        const h = Math.max(e.fontSize * e.lineHeight, ...heights) + 16;
+        const h = Math.max(e.fontSize * e.lineHeight, ...heights) + 12;
         parts.splice(start, 0, {
           kind: 'rect',
           x: p,

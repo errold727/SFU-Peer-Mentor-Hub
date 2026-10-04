@@ -1,4 +1,5 @@
-import { Rect, Text } from 'react-konva';
+import { useMemo } from 'react';
+import { Group, Rect, Text } from 'react-konva';
 import type { PosterElement } from './posterTypes';
 import { blockParts } from './blockLayout';
 export function BlockContentRenderer({
@@ -8,9 +9,10 @@ export function BlockContentRenderer({
   element: PosterElement;
   recipientName: string;
 }) {
+  const layout = useMemo(() => blockParts(element, recipientName), [element, recipientName]);
   return (
-    <>
-      {blockParts(element, recipientName).parts.map((p, i) =>
+    <Group clipX={0} clipY={0} clipWidth={element.width} clipHeight={element.height}>
+      {layout.parts.map((p, i) =>
         p.kind === 'rect' ? (
           <Rect
             key={i}
@@ -39,6 +41,6 @@ export function BlockContentRenderer({
           />
         ),
       )}
-    </>
+    </Group>
   );
 }

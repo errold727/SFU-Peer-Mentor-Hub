@@ -1,3 +1,4 @@
+import { blockText, isQR, isImageBlock } from './blocks';
 import { posterSizes, resolveRecipient, type PosterDocument } from './posterTypes';
 import { elementBounds, intersects, MIN_BODY_FONT, textHeight, type MeasureText } from './layout';
 import { contrastRatio } from './contrast';
@@ -13,7 +14,7 @@ export function posterQuality(
   const issues: QualityIssue[] = [],
     visible = doc.elements.filter((e) => e.visible);
   for (const e of visible) {
-    const label = e.text.slice(0, 35) || e.type;
+    const label = (e.block?.label || e.text).slice(0, 35) || e.type;
     const add = (code: string, message: string) =>
       issues.push({ code, message: `${label}: ${message}`, elementId: e.id });
     if (
@@ -27,11 +28,17 @@ export function posterQuality(
     const b = elementBounds(e);
     if (b.x < -1 || b.y < -1 || b.x + b.width > size.width + 1 || b.y + b.height > size.height + 1)
       add('bounds', 'extends outside the canvas and will be cropped.');
-    const text = ['text', 'resource', 'footer', 'icon'].includes(e.type);
+    const text =
+      ['text', 'resource', 'footer', 'icon'].includes(e.type) ||
+      (e.block && !['hero', 'image', 'qr', 'divider'].includes(e.block.kind));
     if (text) {
-      if (!resolveRecipient(e.text, name).trim() && e.type !== 'footer')
+      if (
+        !resolveRecipient(blockText(e), name).trim() &&
+        e.type !== 'footer' &&
+        e.block?.kind !== 'footer'
+      )
         add('empty', 'empty text. Enter content or remove this element.');
-      if (e.fontSize < (e.type === 'footer' ? 12 : MIN_BODY_FONT))
+      if (e.fontSize < (e.type === 'footer' || e.block?.kind === 'footer' ? 12 : MIN_BODY_FONT))
         add('small', 'text is small. Use at least 16 px for body text and 12 px for footers.');
       if (measure(e, name) > e.height + 1)
         add(
@@ -41,7 +48,11 @@ export function posterQuality(
       if (
         contrastRatio(
           e.color,
-          e.backgroundColor === 'transparent' ? doc.background : e.backgroundColor,
+          e.block?.kind === 'title' && e.block.bannerStyle !== 'underline'
+            ? e.block.accentColor
+            : e.backgroundColor === 'transparent'
+              ? doc.background
+              : e.backgroundColor,
         ) < 4.5
       )
         add('contrast', 'low text contrast against the background.');
@@ -55,11 +66,18 @@ export function posterQuality(
       )
         add('margin', 'text is close to a printable edge; allow safe margins.');
     }
-    if (e.type === 'qrcode' && Math.min(e.width, e.height) < 100)
+    if ((isImageBlock(e) || e.type === 'image') && (!e.src || e.imageError))
+      add('image', 'image missing or broken. Choose Replace Image.');
+    if (isQR(e) && !/^https?:\/\//.test(e.text))
+      add('qr-data', 'invalid QR destination. Use an http or https URL.');
+    if (isQR(e) && Math.min(e.width, e.height) < 100)
       add('qr', 'QR code is small; scan-test the exported poster.');
   }
   const major = visible.filter(
-    (e) => e.type === 'resource' || (e.type === 'text' && e.height >= 100),
+    (e) =>
+      (e.block && e.block.kind !== 'divider') ||
+      e.type === 'resource' ||
+      (e.type === 'text' && e.height >= 100),
   );
   for (let i = 0; i < major.length; i++)
     for (let j = i + 1; j < major.length; j++)
@@ -70,7 +88,7 @@ export function posterQuality(
           elementId: major[j].id,
         });
   if (
-    visible.filter((e) => e.type === 'resource').length >= 5 &&
+    visible.filter((e) => e.type === 'resource' || e.block?.role === 'content').length >= 5 &&
     issues.some((i) => ['overflow', 'overlap', 'small'].includes(i.code))
   )
     issues.push({

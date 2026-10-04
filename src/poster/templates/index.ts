@@ -132,7 +132,7 @@ export function createTemplate(id = 'information'): PosterDocument {
       752,
       h,
       { title: text, accentColor: '#a6192e', bannerStyle: 'brush' },
-      { fontSize: size, color: '#ffffff', padding: 18, borderWidth: 0, backgroundColor: '#faf9f6' },
+      { fontSize: size, color: '#ffffff', padding: 12, borderWidth: 0, backgroundColor: '#faf9f6' },
     );
   const footer = () =>
     add(
@@ -262,7 +262,7 @@ export function createTemplate(id = 'information'): PosterDocument {
       752,
       62,
       { body: 'Hello, {{recipientName}}!' },
-      { fontSize: 26, borderWidth: 0, backgroundColor: 'transparent' },
+      { fontSize: 26, padding: 14, borderWidth: 0, backgroundColor: 'transparent' },
     );
     info(
       'Meet Your Peer Mentor',

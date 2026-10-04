@@ -11,6 +11,8 @@ test('resource to editable poster, PNG/PDF export, and temporary recipient', asy
   await page.getByRole('link', { name: 'Create Poster' }).click();
   await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();
   await page.getByRole('button', { name: 'Create Poster', exact: true }).click();
+  await page.getByRole('button', { name: 'Resources', exact: true }).click();
+  await page.getByRole('button', { name: /Add selected resources/ }).click();
   await expect(page.locator('canvas').first()).toBeVisible();
   await page.locator('.layer-list button').filter({ hasText: 'Campus Public Safety' }).click();
   await expect(page.getByLabel('Editable text')).toContainText('778-782-4500');

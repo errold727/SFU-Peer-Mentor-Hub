@@ -6,7 +6,11 @@ import { type PosterElement, resolveRecipient } from './posterTypes';
 import { BlockContentRenderer } from './BlockContentRenderer';
 import { imagePlacement, isImageBlock, isQR } from './blocks';
 function useImage(src?: string) {
-  const [loaded, setLoaded] = useState<{ src: string; image: HTMLImageElement }>();
+  const [loaded, setLoaded] = useState<{
+    src: string;
+    image?: HTMLImageElement;
+    error?: boolean;
+  }>();
   useEffect(() => {
     if (!src) return;
     let active = true;
@@ -14,12 +18,18 @@ function useImage(src?: string) {
     img.onload = () => {
       if (active) setLoaded({ src, image: img });
     };
+    img.onerror = () => {
+      if (active) setLoaded({ src, error: true });
+    };
     img.src = src;
     return () => {
       active = false;
     };
   }, [src]);
-  return loaded && loaded.src === src ? loaded.image : undefined;
+  return {
+    image: loaded && loaded.src === src ? loaded.image : undefined,
+    failed: loaded && loaded.src === src && !!loaded.error,
+  };
 }
 export const PosterElementRenderer = memo(function PosterElementRenderer({
   element: e,
@@ -52,7 +62,10 @@ export const PosterElementRenderer = memo(function PosterElementRenderer({
       active = false;
     };
   }, [qrElement, e.text]);
-  const image = useImage(isQR(e) ? (qr.text === e.text ? qr.src : undefined) : e.src);
+  const { image, failed } = useImage(isQR(e) ? (qr.text === e.text ? qr.src : undefined) : e.src);
+  useEffect(() => {
+    if (failed && !e.imageError) onChange({ imageError: true });
+  }, [failed, e.imageError, onChange]);
   const props = {
     id: e.id,
     x: e.x,
@@ -117,7 +130,22 @@ export const PosterElementRenderer = memo(function PosterElementRenderer({
       />
       {e.type === 'image' || isQR(e) || isImageBlock(e) ? (
         image ? (
-          <Group clipX={0} clipY={0} clipWidth={e.width} clipHeight={e.height}>
+          <Group
+            clipFunc={(ctx) => {
+              const r = Math.min(e.block?.radius || 0, e.width / 2, e.height / 2);
+              ctx.beginPath();
+              ctx.moveTo(r, 0);
+              ctx.lineTo(e.width - r, 0);
+              ctx.quadraticCurveTo(e.width, 0, e.width, r);
+              ctx.lineTo(e.width, e.height - r);
+              ctx.quadraticCurveTo(e.width, e.height, e.width - r, e.height);
+              ctx.lineTo(r, e.height);
+              ctx.quadraticCurveTo(0, e.height, 0, e.height - r);
+              ctx.lineTo(0, r);
+              ctx.quadraticCurveTo(0, 0, r, 0);
+              ctx.closePath();
+            }}
+          >
             <CanvasImage
               image={image}
               {...(e.block && !isQR(e)
@@ -141,7 +169,13 @@ export const PosterElementRenderer = memo(function PosterElementRenderer({
           </Group>
         ) : (
           <Text
-            text={e.src || isQR(e) ? 'Preparing image…' : 'Replace Image'}
+            text={
+              failed
+                ? 'Image unavailable — replace image'
+                : e.src || isQR(e)
+                  ? 'Preparing image…'
+                  : 'Replace Image'
+            }
             width={e.width}
             height={e.height}
             fill="#666666"

@@ -63,6 +63,7 @@ export type PosterElement = {
   borderColor: string;
   borderWidth: number;
   src?: string;
+  imageError?: boolean;
   shape?: string;
   resourceId?: string;
   sourceUrl?: string;
@@ -115,4 +116,4 @@ export function makeElement(
 export const visibleElements = (elements: PosterElement[]) =>
   elements.filter((e) => e.visible).sort((a, b) => a.zIndex - b.zIndex);
 export const resolveRecipient = (text: string, name: string) =>
-  text.replaceAll('{{recipientName}}', name.trim());
+  text.replaceAll('{{recipientName}}', name.trim() || 'Student Name');
