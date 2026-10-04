@@ -17,6 +17,8 @@ The static catalog is curated source data, not a scraper output or a service dat
 npm run resources:validate
 npm run resources:report -- --output .resource-reports/coverage.json
 npm run resources:links -- --output .resource-reports/links.json
+npm run audit:weekly
+npm run audit:weekly -- --offline
 npm run resources:validate -- --input path/to/staged-candidate.json
 npm test
 npm run lint
@@ -26,7 +28,11 @@ npm run test:e2e
 
 `--input` only validates a nonempty candidate array. It never imports, overwrites or publishes records. Reports use a pending file then rename. Publishing remains an explicit reviewed Git change. The legacy `verify:resources -- --offline` remains supported for existing integrations.
 
-The existing resource-health Actions workflow now produces downloadable coverage and link reports. It never edits resource facts, verification timestamps or source dates. Link checks use GET, three workers, URL deduplication, a 15-second request timeout, bounded redirects and at most one transient retry. They respect short Retry-After delays and defer longer ones. HTTP200 challenges and 401/403/429 are blocked; 404/410 are invalid; timeouts are unknown, not discontinued. A redirect to an unrecognized provider or generic homepage is flagged for inspection. Domain recognition is a URL-safety allowlist, not evidence that a claim is true.
+The **Weekly Resource Audit** replaces the old monthly health workflow. It runs every Monday at 00:07 America/Vancouver and can be triggered manually. It audits all records, source health and fingerprints, freshness, expiry, search, poster content and both course snapshots; runs tests/lint/build; uploads JSON/Markdown reports and a readable Job Summary; and creates or updates one marked maintenance issue only when findings require action. See [AUDIT_SYSTEM](AUDIT_SYSTEM.md) for commands, policy, artifact retention, issue semantics and troubleshooting.
+
+Link checks use GET, up to two workers, deduplicated URLs, spaced requests, a 15-second timeout, bounded streaming responses/redirects and at most one transient retry. They respect Retry-After and defer long delays. HTTP200 challenges and 401/403 remain blocked; 429 is rate limited; 404/410 is not found. None of those classifications proves that a service is discontinued. Suspicious redirects require inspection. Domain recognition is a URL-safety allowlist, not evidence that a claim is true.
+
+**Automation detects → maintainer reviews → factual content updated → verifiedAt changed only after actual review.** Reachable or unchanged pages never refresh `verifiedAt`, `lastVerified` or source-review dates. Source-change alerts persist through unchanged/inaccessible runs until later factual review metadata is recorded for each affected resource. Public snapshots are retained as Actions artifacts, not weekly factual commits. The workflow has no content-write permission. A clean run does not create an issue; existing issues are not automatically closed because factual resolution requires review.
 
 ## Review targets and lifecycle
 
