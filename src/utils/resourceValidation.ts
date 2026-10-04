@@ -2,6 +2,27 @@ import { categories, type SFUResource } from '../data/resources/types';
 import { auditResources, officialSource } from './resourceHealth';
 import { validISODate } from './verification';
 
+const weekdays = new Set([
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday',
+]);
+function sessionMinutes(value: string) {
+  const match = /^(\d{1,2}):([0-5]\d)(?:\s*(AM|PM))?$/i.exec(value.trim());
+  if (!match) return null;
+  const hour = Number(match[1]),
+    minute = Number(match[2]);
+  if (match[3])
+    return hour < 1 || hour > 12
+      ? null
+      : ((hour % 12) + (match[3].toUpperCase() === 'PM' ? 12 : 0)) * 60 + minute;
+  return hour > 23 ? null : hour * 60 + minute;
+}
+
 export function validateResources(
   items: SFUResource[],
   now = new Date(),
@@ -147,6 +168,10 @@ export function validateResources(
     if (r.highImpact && r.verification?.status !== 'reviewed' && r.poster?.mode !== 'link')
       fail('unresolved high-impact poster must be a service link');
     for (const s of r.sessions ?? []) {
+      const start = typeof s.start === 'string' ? sessionMinutes(s.start) : null;
+      const end = typeof s.end === 'string' ? sessionMinutes(s.end) : null;
+      if (!weekdays.has(s.day) || start === null || end === null || end <= start)
+        fail('invalid recurring session time or weekday');
       if (
         !validISODate(s.validFrom) ||
         !validISODate(s.validUntil) ||

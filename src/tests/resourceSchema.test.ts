@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { defineResource } from '../data/resources/catalog/define';
 import { validateResources } from '../utils/resourceValidation';
 import { resourceStatus, sessionOccursOn } from '../utils/resourceStatus';
+import { resources } from '../data/resources';
 
 const now = new Date('2026-10-04T18:00:00Z');
 const checked = '2026-10-04T15:00:00Z';
@@ -45,6 +46,32 @@ export const fixture = () =>
     ],
   });
 describe('resource evidence model', () => {
+  it.each([
+    { day: 'Banana' },
+    { start: '25:99' },
+    { start: '20:00', end: '10:00' },
+    { start: '00:00 PM' },
+    { start: '10:30', end: '10:30' },
+  ])('rejects malformed recurring session metadata %j', (patch) => {
+    const r = structuredClone(resources.find((item) => item.id === 'drop-in-recreation')!);
+    Object.assign(r.sessions![0], patch);
+    expect(validateResources([r], now).errors.join(' ')).toContain(
+      'invalid recurring session time or weekday',
+    );
+  });
+  it('accepts exact 12-hour and 24-hour recurring times without changing them', () => {
+    const r = structuredClone(resources.find((item) => item.id === 'drop-in-recreation')!);
+    for (const [start, end] of [
+      ['11:30 AM', '1:30 PM'],
+      ['09:30', '10:20'],
+    ]) {
+      Object.assign(r.sessions![0], { start, end });
+      expect(validateResources([r], now).errors.join(' ')).not.toContain(
+        'invalid recurring session',
+      );
+      expect(r.sessions![0].start).toBe(start);
+    }
+  });
   it('derives compatibility fields without certifying partial reviews', () => {
     const r = fixture();
     expect(validateResources([r], now).errors).toEqual([]);
