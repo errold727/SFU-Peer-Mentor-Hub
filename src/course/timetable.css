@@ -148,9 +148,7 @@
   font-size: 10px;
 }
 .tt-meeting-short {
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 4px;
+  gap: 0;
   padding: 0 3px;
   border-left-width: 2px;
   line-height: 10px;
@@ -158,9 +156,27 @@
 .tt-meeting-short .tt-meeting-code,
 .tt-meeting-short .tt-meeting-time {
   font-size: 10px;
-  flex-shrink: 1;
+}
+.tt-meeting-short .tt-meeting-code {
+  padding-right: 7px;
 }
 .tt-meeting-short .tt-conflict-mark {
+  position: absolute;
+  top: 1px;
+  right: 2px;
+}
+.tt-meeting-tiny {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+}
+.tt-meeting-tiny .tt-meeting-code,
+.tt-meeting-tiny .tt-meeting-time {
+  flex-shrink: 1;
+  padding-right: 0;
+}
+.tt-meeting-tiny .tt-conflict-mark {
+  position: static;
   margin-left: auto;
 }
 .tt-meeting-conflict {
@@ -271,6 +287,7 @@
   margin: 2px 0 0;
 }
 .tt-text-inspect {
+  justify-content: flex-start;
   min-height: 28px;
   margin: 0;
   padding: 2px 0;

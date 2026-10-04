@@ -145,7 +145,7 @@ export function Timetable({
                         key={entry.id}
                         type="button"
                         draggable={false}
-                        className={`tt-meeting tt-color-${entry.colorIndex}${compact ? ' tt-meeting-short' : ''}${conflict ? ' tt-meeting-conflict' : ''}`}
+                        className={`tt-meeting tt-color-${entry.colorIndex}${compact ? ' tt-meeting-short' : ''}${blockHeight < 22 ? ' tt-meeting-tiny' : ''}${conflict ? ' tt-meeting-conflict' : ''}`}
                         data-testid="timetable-meeting"
                         data-course-id={courseId(course)}
                         data-day={day}
