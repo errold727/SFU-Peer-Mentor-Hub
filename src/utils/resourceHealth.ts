@@ -11,7 +11,19 @@ export function officialSource(value: string) {
       !url.password &&
       (url.hostname === 'sfu.ca' ||
         url.hostname.endsWith('.sfu.ca') ||
-        url.hostname === 'sfu.teamdynamix.com')
+        url.hostname === 'sfu.teamdynamix.com' ||
+        [
+          'sfss.ca',
+          'sfugradsociety.ca',
+          'studentcare.ca',
+          'translink.ca',
+          'compasscard.ca',
+          'canada.ca',
+          'gov.bc.ca',
+          'studentaidbc.ca',
+          'guard.me',
+          'go2hr.ca',
+        ].some((domain) => url.hostname === domain || url.hostname.endsWith('.' + domain)))
     );
   } catch {
     return false;
@@ -45,6 +57,9 @@ export function auditResources(items: SFUResource[], now = new Date()) {
     if (r.validUntil && validISODate(r.validUntil) && r.validUntil < now.toISOString().slice(0, 10))
       warnings.push(`${r.id}: expired schedule`);
   }
+  for (const r of items)
+    for (const s of r.sources ?? [])
+      sources.set(s.url, [...new Set([...(sources.get(s.url) ?? []), r.id])]);
   return {
     errors,
     warnings,
