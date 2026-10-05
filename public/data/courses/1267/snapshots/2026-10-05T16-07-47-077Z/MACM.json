@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-05T16:07:47.078Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "101",
+      "code": "MACM 101",
+      "section": "D100",
+      "title": "Discrete Math I",
+      "instructors": [
+        "Ternovska, Evgenia (Eugenia)"
+      ],
+      "instructor": "Ternovska, Evgenia (Eugenia)",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 194,
+        "capacity": 195,
+        "waitlistCount": 0,
+        "raw": "194/195"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+      "outlineRetrievedAt": "2026-10-05T16:18:56.388Z",
+      "prerequisiteText": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to graph theory, trees, induction, automata theory, formal reasoning, modular arithmetic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4935",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "101",
+      "code": "MACM 101",
+      "section": "D200",
+      "title": "Discrete Math I",
+      "instructors": [
+        "Cheung, Victor"
+      ],
+      "instructor": "Cheung, Victor",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 64,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "64/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/101/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+      "outlineRetrievedAt": "2026-10-05T16:18:56.691Z",
+      "prerequisiteText": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to graph theory, trees, induction, automata theory, formal reasoning, modular arithmetic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4936",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "101",
+      "code": "MACM 101",
+      "section": "D300",
+      "title": "Discrete Math I",
+      "instructors": [
+        "Pearce, Steve"
+      ],
+      "instructor": "Pearce, Steve",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 56,
+        "waitlistCount": 0,
+        "raw": "16/56"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/101/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d300",
+      "outlineRetrievedAt": "2026-10-05T16:18:56.988Z",
+      "prerequisiteText": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to graph theory, trees, induction, automata theory, formal reasoning, modular arithmetic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4937",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "201",
+      "code": "MACM 201",
+      "section": "D100",
+      "title": "Discrete Math II",
+      "instructors": [
+        "Stephen, Tamon"
+      ],
+      "instructor": "Stephen, Tamon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 94,
+        "capacity": 300,
+        "waitlistCount": 0,
+        "raw": "94/300"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/201/d100",
+      "outlineRetrievedAt": "2026-10-05T16:18:57.302Z",
+      "prerequisiteText": "MATH 141 or MACM 101 or (ENSC 251 and one of MATH 232 or MATH 240).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A continuation of MACM 101. Topics covered include graph theory, trees, inclusion-exclusion, generating functions, recurrence relations, and optimization and matching.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4419",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "204",
+      "code": "MACM 204",
+      "section": "D100",
+      "title": "Computing with Calculus",
+      "instructors": [
+        "Monagan, Michael"
+      ],
+      "instructor": "Monagan, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 42,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "42/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/204/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/204/d100",
+      "outlineRetrievedAt": "2026-10-05T16:18:57.592Z",
+      "prerequisiteText": "One of CMPT 102, 120, 126, 128 or 130 and one of MATH 152, 155, or 158.",
+      "units": "2",
+      "designation": "N/A",
+      "description": "Using a mathematical software package for doing computations from calculus. Development of computer models that analyze and illustrate applications of calculus. All calculations and experiments will be done in the Maple software package. Topics include: graphing functions and data, preparing visual aids for illustrating mathematical concepts, integration, Taylor series, numerical approximation methods, 3D visualization of curves and surfaces, multi-dimensional optimization, differential equations and disease spread models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4420",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "316",
+      "code": "MACM 316",
+      "section": "D100",
+      "title": "Numerical Analysis I",
+      "instructors": [
+        "Muraki, David"
+      ],
+      "instructor": "Muraki, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-17",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-10-18",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 205,
+        "capacity": 266,
+        "waitlistCount": 0,
+        "raw": "205/266"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/316/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/316/d100",
+      "outlineRetrievedAt": "2026-10-05T16:18:57.886Z",
+      "prerequisiteText": "MATH 152 or 155 or 158, and MATH 232 or 240, and computing experience.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "A presentation of the problems commonly arising in numerical analysis and scientific computing and the basic methods for their solutions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4417",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "MACM",
+      "courseNumber": "416",
+      "code": "MACM 416",
+      "section": "D100",
+      "title": "Numerical Analysis 2",
+      "instructors": [
+        "McCoid, Conor"
+      ],
+      "instructor": "McCoid, Conor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "20/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=MACM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "MATH 716 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/macm/416/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/416/d100",
+      "outlineRetrievedAt": "2026-10-05T16:18:58.194Z",
+      "prerequisiteText": "(MATH 260 or MATH 310) and MACM 316.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The numerical solution of ordinary differential equations and elliptic, hyperbolic and parabolic partial differential equations will be considered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4421",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

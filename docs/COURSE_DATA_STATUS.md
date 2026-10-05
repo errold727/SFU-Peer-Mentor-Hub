@@ -4,8 +4,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-04T10:44:37.264Z
-- Enrichment completed: 2026-10-04T11:16:07.119Z
+- CourSys snapshot: 2026-10-05T16:07:47.078Z
+- Enrichment completed: 2026-10-05T16:23:08.209Z
 - Subjects discovered/imported: 81/81
 - Course codes: 1868
 - Sections: 3033 (CourSys source total 3033)
@@ -17,7 +17,7 @@ Generated from validated manifests. Coverage means every section returned by the
 - Sections enriched from Course Outlines: 3005
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3952 KiB raw / 189 KiB gzip
+- All-subject index: 3952 KiB raw / 188 KiB gzip
 - Over-capacity enrollment snapshots retained: 90
 
 | Subject | Course codes | Sections |
@@ -123,9 +123,9 @@ Generated from validated manifests. Coverage means every section returned by the
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
+- WDA 801 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404
-- WDA 801 G100: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404
@@ -137,8 +137,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-04T11:00:37.522Z
-- Enrichment completed: 2026-10-04T11:16:07.670Z
+- CourSys snapshot: 2026-10-05T16:23:08.496Z
+- Enrichment completed: 2026-10-05T16:37:56.351Z
 - Subjects discovered/imported: 80/80
 - Course codes: 1815
 - Sections: 2916 (CourSys source total 2916)
@@ -242,14 +242,14 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 150 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 993 G100: Outline HTTP 404
 - EXCH 992 G100: Outline HTTP 404
-- EXCH 996 G100: Outline HTTP 404
-- EXCH 995 G100: Outline HTTP 404
+- EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
+- EXCH 995 G100: Outline HTTP 404
+- EXCH 996 G100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
-- WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404
+- WDA 801 G200: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-05T16:23:08.496Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SD",
+      "courseNumber": "100",
+      "code": "SD 100",
+      "section": "OL01",
+      "title": "Sustainable Futures",
+      "instructors": [
+        "Wilkinson, Sophie"
+      ],
+      "instructor": "Wilkinson, Sophie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SD",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/sd/100/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/sd/100/ol01",
+      "outlineRetrievedAt": "2026-10-05T16:37:04.749Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "During a time of increasing environmental and social challenges, we focus on the bright spots, the opportunities for positive change. Equips students with practical knowledge, tools and strategies to become changemakers by living more sustainably, keeping a positive outlook, and actively contributing to a fairer society.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4017",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "2 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SD",
+      "courseNumber": "401",
+      "code": "SD 401",
+      "section": "D100",
+      "title": "Sustainable Development Studio",
+      "instructors": [
+        "Tate, Laura"
+      ],
+      "instructor": "Tate, Laura",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 740,
+          "displayStart": "8:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "0/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SD",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/sd/401/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/sd/401/d100",
+      "outlineRetrievedAt": "2026-10-05T16:37:05.359Z",
+      "prerequisiteText": "SD 281 and 60 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Engages students in creating innovative solutions to real-world challenges of sustainability and development, using studio-based approaches. Explores mechanisms for effective social and environmental change and develops policies and strategies for implementing sustainability in different locations and at different scales.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4018",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SD",
+      "courseNumber": "481",
+      "code": "SD 481",
+      "section": "D100",
+      "title": "Global Sust. Gov. and Action",
+      "instructors": [
+        "Cisneros-Montemayor, Andres"
+      ],
+      "instructor": "Cisneros-Montemayor, Andres",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SD",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/sd/481/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/sd/481/d100",
+      "outlineRetrievedAt": "2026-10-05T16:37:05.067Z",
+      "prerequisiteText": "SD 281; and 60 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "From sustainability debates to policy windows and strategic goals (e.g., UN Sustainable Development Goals), students engage with tools and concepts to enable equitable change across contexts and sectors. This includes how policy is created, who the main players are in effecting change, and how we track and adapt to outcomes.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4008",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

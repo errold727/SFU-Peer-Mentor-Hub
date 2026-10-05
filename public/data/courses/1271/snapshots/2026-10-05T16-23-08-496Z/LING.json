@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-05T16:23:08.496Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "100",
+      "code": "LING 100",
+      "section": "B100",
+      "title": "Cmns & Language",
+      "instructors": [
+        "Bliss, Heather"
+      ],
+      "instructor": "Bliss, Heather",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 250,
+        "waitlistCount": 0,
+        "raw": "0/250"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/100/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:39.978Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Explores the foundations of human language from a variety of perspectives. Young children acquire language effortlessly. How is this possible, and why is it so much more challenging to learn a new language later in life? How does the human brain use complex grammatical systems to communicate? Students will learn new ways to think critically about language and communication. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5663",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "100",
+      "code": "LING 100",
+      "section": "B900",
+      "title": "Cmns & Language",
+      "instructors": [
+        "Wong, Claudia Wei Wah"
+      ],
+      "instructor": "Wong, Claudia Wei Wah",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "0/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/100/b900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/100/b900",
+      "outlineRetrievedAt": "2026-10-05T16:33:40.277Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Explores the foundations of human language from a variety of perspectives. Young children acquire language effortlessly. How is this possible, and why is it so much more challenging to learn a new language later in life? How does the human brain use complex grammatical systems to communicate? Students will learn new ways to think critically about language and communication. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5659",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "111",
+      "code": "LING 111",
+      "section": "B100",
+      "title": "The Wonder of Words",
+      "instructors": [
+        "Wong, Claudia Wei Wah"
+      ],
+      "instructor": "Wong, Claudia Wei Wah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/111/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/111/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:40.581Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces students to theories about words and vocabulary. Explores topics such as the roots of the English vocabulary, how we create new words and how we learn them. Also discusses practical applications such as constructed languages for use in science fiction, and word recognition in artificial intelligence. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5827",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "160",
+      "code": "LING 160",
+      "section": "B100",
+      "title": "Language, Culture and Society",
+      "instructors": [
+        "Hilgendorf, Suzanne"
+      ],
+      "instructor": "Hilgendorf, Suzanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/160/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/160/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:40.881Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Examines the relationship between language use and social structure. Considers how social factors such as gender, class, age, and ethnicity may be reflected in language use, as well as \"big picture\" topics that include multilingualism, dialect variation, language policy and linguistic stereotypes. Encourages students to think critically about the social dimensions of language. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5664",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "190",
+      "code": "LING 190",
+      "section": "B100",
+      "title": "The Science of Speech",
+      "instructors": [
+        "Ng, Sara"
+      ],
+      "instructor": "Ng, Sara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/190/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/190/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:41.176Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces the scientific study of speech, focusing on the mechanisms of speech production and perception, the ways in which speech is described and analyzed, the relationship between speech and technology, and the practical applications of phonetic science. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5665",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "A970",
+      "title": "Introduction to Linguistics",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/a970",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/a970",
+      "outlineRetrievedAt": "2026-10-05T16:33:41.479Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Explores how language works. Introduces students to the systematic nature of language by exploring the patterns of sounds, words, sentences and meanings in English and other languages. Develops problem-solving and critical thinking skills through hands-on training in pattern recognition and language data analysis. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4643",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "220",
+      "code": "LING 220",
+      "section": "D100",
+      "title": "Introduction to Linguistics",
+      "instructors": [
+        "Tchizmarova, Ivelina Koleva"
+      ],
+      "instructor": "Tchizmarova, Ivelina Koleva",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/220/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/220/d100",
+      "outlineRetrievedAt": "2026-10-05T16:33:41.801Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Explores how language works. Introduces students to the systematic nature of language by exploring the patterns of sounds, words, sentences and meanings in English and other languages. Develops problem-solving and critical thinking skills through hands-on training in pattern recognition and language data analysis. Open to all students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5666",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "A320",
+      "title": "Writing for Linguistics",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/a320",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/a320",
+      "outlineRetrievedAt": "2026-10-05T16:33:42.085Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Develops skills in language analysis by focusing on reading and writing of linguistic argumentation. Explores the foundations of such argumentation in the core areas of linguistics. Students read and discuss primary literature in linguistics in order to understand how to formulate hypotheses and evaluate them. They also learn how to use writing to construct their own solutions to challenging linguistic problems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2289",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "282W",
+      "code": "LING 282W",
+      "section": "B100",
+      "title": "Writing for Linguistics",
+      "instructors": [
+        "Pappas, Panayiotis"
+      ],
+      "instructor": "Pappas, Panayiotis",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 54,
+        "waitlistCount": 0,
+        "raw": "0/54"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/282w/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/282w/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:42.397Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Develops skills in language analysis by focusing on reading and writing of linguistic argumentation. Explores the foundations of such argumentation in the core areas of linguistics. Students read and discuss primary literature in linguistics in order to understand how to formulate hypotheses and evaluate them. They also learn how to use writing to construct their own solutions to challenging linguistic problems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5674",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "309W",
+      "code": "LING 309W",
+      "section": "A970",
+      "title": "Sociolinguistics",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/309w/a970",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/309w/a970",
+      "outlineRetrievedAt": "2026-10-05T16:33:42.681Z",
+      "prerequisiteText": "LING 282W. Recommended: LING 160 and one of STAT 201, 203, 205 or PSYC 210.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "A systematic approach to the study of linguistic variation in different areal, social, and cultural settings.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4642",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "309W",
+      "code": "LING 309W",
+      "section": "B100",
+      "title": "Sociolinguistics",
+      "instructors": [
+        "Hilgendorf, Suzanne"
+      ],
+      "instructor": "Hilgendorf, Suzanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/309w/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/309w/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:42.976Z",
+      "prerequisiteText": "LING 282W. Recommended: LING 160 and one of STAT 201, 203, 205 or PSYC 210.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "A systematic approach to the study of linguistic variation in different areal, social, and cultural settings.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5660",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "321",
+      "code": "LING 321",
+      "section": "B100",
+      "title": "Phonology",
+      "instructors": [
+        "Farris-Trimble, Ashley"
+      ],
+      "instructor": "Farris-Trimble, Ashley",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/321/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/321/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:43.300Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An overview of theoretical principles in phonology.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5687",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "322",
+      "code": "LING 322",
+      "section": "D100",
+      "title": "Syntax",
+      "instructors": [
+        "Vander Klok, Jozina"
+      ],
+      "instructor": "Vander Klok, Jozina",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/322/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/322/d100",
+      "outlineRetrievedAt": "2026-10-05T16:33:43.576Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces theories of sentence structure.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5688",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "323",
+      "code": "LING 323",
+      "section": "D100",
+      "title": "Morphology",
+      "instructors": [
+        "Vander Klok, Jozina"
+      ],
+      "instructor": "Vander Klok, Jozina",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/323/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/323/d100",
+      "outlineRetrievedAt": "2026-10-05T16:33:43.878Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Word structure in natural languages and its relationship to phonological and syntactic levels of grammar.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5689",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "330",
+      "code": "LING 330",
+      "section": "D100",
+      "title": "Phonetics",
+      "instructors": [
+        "Wang, Yue"
+      ],
+      "instructor": "Wang, Yue",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/330/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/330/d100",
+      "outlineRetrievedAt": "2026-10-05T16:33:44.180Z",
+      "prerequisiteText": "LING 220. Recommended: One of STAT 201, 203, 205 or PSYC 210.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A survey of methods of speech sound description and transcription.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5719",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "360",
+      "code": "LING 360",
+      "section": "A320",
+      "title": "Intro Applied Linguistics",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/360/a320",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/360/a320",
+      "outlineRetrievedAt": "2026-10-05T16:33:44.887Z",
+      "prerequisiteText": "LING 220.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Theoretical and practical aspects of second language learning.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2483",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "380",
+      "code": "LING 380",
+      "section": "OL01",
+      "title": "Practical Skills in Ling",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/380/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/380/ol01",
+      "outlineRetrievedAt": "2026-10-05T16:33:44.925Z",
+      "units": "1",
+      "designation": "N/A",
+      "description": "Training in a single linguistics-related practical skills topic in each offering. This course can be taken up to a total of three times for credit when taught under different topics. Graded on a pass/fail basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5720",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "401",
+      "code": "LING 401",
+      "section": "B100",
+      "title": "Topics in Phonetics",
+      "instructors": [
+        "Wang, Yue"
+      ],
+      "instructor": "Wang, Yue",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/401/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/401/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:45.075Z",
+      "prerequisiteText": "LING 330. Recommended: One of STAT 201, 203, 205 or PSYC 210.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Advanced training in speech sound description and analysis in the impressionistic and instrumental modes.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5661",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "430",
+      "code": "LING 430",
+      "section": "B100",
+      "title": "Indigenous Languages",
+      "instructors": [
+        "Bliss, Heather"
+      ],
+      "instructor": "Bliss, Heather",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/430/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/430/b100",
+      "outlineRetrievedAt": "2026-10-05T16:33:45.374Z",
+      "prerequisiteText": "60 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Structural and genetic characteristics of Indigenous languages of the Americas and beyond, with a focus on the application of linguistic knowledge in community-based language revitalization. The course may include a detailed examination of one language or language family.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5662",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "450",
+      "code": "LING 450",
+      "section": "D100",
+      "title": "Computational Linguistics",
+      "instructors": [
+        "Ng, Sara",
+        "Taboada, Maite"
+      ],
+      "instructor": "Ng, Sara; Taboada, Maite",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/450/d100",
+      "outlineRetrievedAt": "2026-10-05T16:33:45.684Z",
+      "prerequisiteText": "LING 250 or SDA 250.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to theoretical and applied issues in the computational processing of natural language.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5721",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "803",
+      "code": "LING 803",
+      "section": "G100",
+      "title": "Discourse and Pragmatics",
+      "instructors": [
+        "Boelscher Ignace, Marianne",
+        "Taboada, Maite"
+      ],
+      "instructor": "Boelscher Ignace, Marianne; Taboada, Maite",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 7,
+        "waitlistCount": 0,
+        "raw": "0/7"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/803/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/803/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:45.981Z",
+      "units": "3",
+      "description": "Introduction to the analysis of discourse as the use of language in context, and the general discipline of pragmatics. Topics to be covered include coherence, reference, implicature, speech acts and information structure.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2740",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "891",
+      "code": "LING 891",
+      "section": "G100",
+      "title": "Graduate Seminar II",
+      "instructors": [
+        "Farris-Trimble, Ashley"
+      ],
+      "instructor": "Farris-Trimble, Ashley",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 7,
+        "waitlistCount": 0,
+        "raw": "0/7"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/891/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/891/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:46.281Z",
+      "units": "1",
+      "description": "An introduction to professional aspects in the field of Linguistics. Course consists of seminars, lectures and workshops. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5723",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "893",
+      "code": "LING 893",
+      "section": "G100",
+      "title": "MA Project",
+      "instructors": [
+        "Boelscher Ignace, Marianne"
+      ],
+      "instructor": "Boelscher Ignace, Marianne",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/893/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/893/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:46.574Z",
+      "units": "6",
+      "description": "Students who are working on their MA capstone project enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2736",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "895",
+      "code": "LING 895",
+      "section": "G100",
+      "title": "Qualifying Paper II",
+      "instructors": [
+        "Farris-Trimble, Ashley"
+      ],
+      "instructor": "Farris-Trimble, Ashley",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/895/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/895/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:46.886Z",
+      "prerequisiteText": "All PhD coursework in Linguistics.",
+      "units": "6",
+      "description": "Qualifying Paper for a PhD student. Grading Basis: Satisfactory/Unsatisfactory",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2735",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "895",
+      "code": "LING 895",
+      "section": "G200",
+      "title": "Qualifying Paper II",
+      "instructors": [
+        "Wang, Yue"
+      ],
+      "instructor": "Wang, Yue",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/895/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/895/g200",
+      "outlineRetrievedAt": "2026-10-05T16:33:47.184Z",
+      "prerequisiteText": "All PhD coursework in Linguistics.",
+      "units": "6",
+      "description": "Qualifying Paper for a PhD student. Grading Basis: Satisfactory/Unsatisfactory",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4607",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "896",
+      "code": "LING 896",
+      "section": "G100",
+      "title": "Directed Research",
+      "instructors": [
+        "Boelscher Ignace, Marianne"
+      ],
+      "instructor": "Boelscher Ignace, Marianne",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/896/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/896/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:47.481Z",
+      "units": "3",
+      "description": "Topic of a specific nature to be agreed upon by the student and a faculty member.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2739",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "898",
+      "code": "LING 898",
+      "section": "G100",
+      "title": "M.A. Thesis",
+      "instructors": [
+        "Bliss, Heather",
+        "Vander Klok, Jozina"
+      ],
+      "instructor": "Bliss, Heather; Vander Klok, Jozina",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/898/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:48.835Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Arts thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2723",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "898",
+      "code": "LING 898",
+      "section": "G200",
+      "title": "M.A. Thesis",
+      "instructors": [
+        "Taboada, Maite"
+      ],
+      "instructor": "Taboada, Maite",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "0/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/898/g200",
+      "outlineRetrievedAt": "2026-10-05T16:33:48.084Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Arts thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2724",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "898",
+      "code": "LING 898",
+      "section": "G300",
+      "title": "M.A. Thesis",
+      "instructors": [
+        "Boelscher Ignace, Marianne"
+      ],
+      "instructor": "Boelscher Ignace, Marianne",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/898/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/898/g300",
+      "outlineRetrievedAt": "2026-10-05T16:33:48.382Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Arts thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2725",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "899",
+      "code": "LING 899",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Farris-Trimble, Ashley",
+        "Taboada, Maite"
+      ],
+      "instructor": "Farris-Trimble, Ashley; Taboada, Maite",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/899/g100",
+      "outlineRetrievedAt": "2026-10-05T16:33:48.676Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2729",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "899",
+      "code": "LING 899",
+      "section": "G200",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Vigouroux, Cecile"
+      ],
+      "instructor": "Vigouroux, Cecile",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/899/g200",
+      "outlineRetrievedAt": "2026-10-05T16:33:48.977Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2730",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "899",
+      "code": "LING 899",
+      "section": "G300",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Boelscher Ignace, Marianne"
+      ],
+      "instructor": "Boelscher Ignace, Marianne",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/899/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/899/g300",
+      "outlineRetrievedAt": "2026-10-05T16:33:49.290Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2731",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "899",
+      "code": "LING 899",
+      "section": "G400",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Han, Chung-Hye"
+      ],
+      "instructor": "Han, Chung-Hye",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/899/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/899/g400",
+      "outlineRetrievedAt": "2026-10-05T16:33:49.578Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2732",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "LING",
+      "courseNumber": "899",
+      "code": "LING 899",
+      "section": "G500",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Wang, Yue"
+      ],
+      "instructor": "Wang, Yue",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=LING",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ling/899/g500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ling/899/g500",
+      "outlineRetrievedAt": "2026-10-05T16:33:49.887Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2733",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

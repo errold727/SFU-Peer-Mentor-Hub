@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-05T16:07:47.078Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SDA",
+      "courseNumber": "100",
+      "code": "SDA 100",
+      "section": "D100",
+      "title": "Data Visualization",
+      "instructors": [
+        "Peiris, Hashan",
+        "Weldon, Steven"
+      ],
+      "instructor": "Peiris, Hashan; Weldon, Steven",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "18/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SDA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sda/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sda/100/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:16.488Z",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Introduces the principles and tools of data visualization and visual storytelling with R. Learn foundational and advanced plotting techniques to create impactful visuals and interactive dashboards, transforming raw data into compelling data-driven stories for diverse audiences.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3437",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SDA",
+      "courseNumber": "250",
+      "code": "SDA 250",
+      "section": "D100",
+      "title": "Computational Text Analysis",
+      "instructors": [
+        "Ng, Sara"
+      ],
+      "instructor": "Ng, Sara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "16/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SDA",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "LING 250 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sda/250/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sda/250/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:16.783Z",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduces basics of text analysis through Python programming. Core concepts include: data capture and manipulation; data cleaning and preprocessing; database management; big data; natural language processing; introductory machine learning; text classification.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3883",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SDA",
+      "courseNumber": "270",
+      "code": "SDA 270",
+      "section": "D100",
+      "title": "Data, Ethics and Society",
+      "instructors": [
+        "Zhao, Kino"
+      ],
+      "instructor": "Zhao, Kino",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "13/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SDA",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHIL 270 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sda/270/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sda/270/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:17.085Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "This course would introduce students to the ethical, legal, and privacy issues surrounding the collection and use of big data and the implications of these for vulnerable populations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6564",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

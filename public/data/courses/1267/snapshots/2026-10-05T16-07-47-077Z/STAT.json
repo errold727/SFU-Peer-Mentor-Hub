@@ -1,0 +1,2994 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-05T16:07:47.078Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "100",
+      "code": "STAT 100",
+      "section": "D100",
+      "title": "Statistics in Everyday Life",
+      "instructors": [
+        "Isberg, Sonja",
+        "Loughin, Marie"
+      ],
+      "instructor": "Isberg, Sonja; Loughin, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 110,
+        "capacity": 141,
+        "waitlistCount": 0,
+        "raw": "110/141"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/100/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:37.495Z",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Should you trust media reports on statistics about climate change or the spread of a virus? How do advertisers use statistics to influence our thinking? Explore statistics in real-world applications (opinion polls, sports, lotteries, and investments). Designed for students from all backgrounds, with a focus on concepts, not technical calculations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6064",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "100",
+      "code": "STAT 100",
+      "section": "D900",
+      "title": "Statistics in Everyday Life",
+      "instructors": [
+        "Isberg, Sonja",
+        "Loughin, Marie",
+        "Perera, Gamage Harsha"
+      ],
+      "instructor": "Isberg, Sonja; Loughin, Marie; Perera, Gamage Harsha",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 800,
+          "displayStart": "11:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "17/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/100/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/100/d900",
+      "outlineRetrievedAt": "2026-10-05T16:22:37.780Z",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Should you trust media reports on statistics about climate change or the spread of a virus? How do advertisers use statistics to influence our thinking? Explore statistics in real-world applications (opinion polls, sports, lotteries, and investments). Designed for students from all backgrounds, with a focus on concepts, not technical calculations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6065",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "180",
+      "code": "STAT 180",
+      "section": "E100",
+      "title": "Career Development Seminar",
+      "instructors": [
+        "Cao, Jiguo"
+      ],
+      "instructor": "Cao, Jiguo",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1220,
+          "displayStart": "6:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "18/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "DATA 180 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/180/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/180/e100",
+      "outlineRetrievedAt": "2026-10-05T16:22:38.081Z",
+      "prerequisiteText": "Enrollment in the Statistics or Actuarial Science major or honours program, or STAT 270 with a minimum grade of C-.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "A seminar primarily for students undertaking a major or an honours program in Statistics. Visiting speakers share experience relevant to Statistics students and provide useful education and career advice.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6066",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "201",
+      "code": "STAT 201",
+      "section": "D100",
+      "title": "Statistics for Life Sciences",
+      "instructors": [
+        "Graham, Jinko",
+        "Isberg, Sonja",
+        "Loughin, Marie"
+      ],
+      "instructor": "Graham, Jinko; Isberg, Sonja; Loughin, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 208,
+        "capacity": 440,
+        "waitlistCount": 0,
+        "raw": "208/440"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/201/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:38.538Z",
+      "prerequisiteText": "Recommended: 30 units.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Research methodology and associated statistical analysis techniques for students with training in the life sciences. Intended to be particularly accessible to students who are not specializing in Statistics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6067",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "201",
+      "code": "STAT 201",
+      "section": "OL01",
+      "title": "Statistics for Life Sciences",
+      "instructors": [
+        "Swartz, Timothy"
+      ],
+      "instructor": "Swartz, Timothy",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 172,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "172/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/201/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/201/ol01",
+      "outlineRetrievedAt": "2026-10-05T16:22:38.683Z",
+      "prerequisiteText": "Recommended: 30 units.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Research methodology and associated statistical analysis techniques for students with training in the life sciences. Intended to be particularly accessible to students who are not specializing in Statistics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6068",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "203",
+      "code": "STAT 203",
+      "section": "D900",
+      "title": "Statistics for Social Sciences",
+      "instructors": [
+        "Isberg, Sonja",
+        "Loughin, Marie",
+        "Perera, Gamage Harsha"
+      ],
+      "instructor": "Isberg, Sonja; Loughin, Marie; Perera, Gamage Harsha",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 47,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "47/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/203/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/203/d900",
+      "outlineRetrievedAt": "2026-10-05T16:22:38.987Z",
+      "prerequisiteText": "Recommended: 30 units including a research methods course such as SA 255, CRIM 220, POL 200W, or equivalent.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Descriptive and inferential statistics aimed at students in the social sciences. Scales of measurement. Descriptive statistics. Measures of association. Hypothesis tests and confidence intervals. Students in Sociology and Anthropology are expected to take SA 255 before this course. Intended to be particularly accessible to students who are not specializing in Statistics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6069",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "203",
+      "code": "STAT 203",
+      "section": "OL01",
+      "title": "Statistics for Social Sciences",
+      "instructors": [
+        "Swartz, Timothy"
+      ],
+      "instructor": "Swartz, Timothy",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 102,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "102/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/203/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/203/ol01",
+      "outlineRetrievedAt": "2026-10-05T16:22:39.278Z",
+      "prerequisiteText": "Recommended: 30 units including a research methods course such as SA 255, CRIM 220, POL 200W, or equivalent.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Descriptive and inferential statistics aimed at students in the social sciences. Scales of measurement. Descriptive statistics. Measures of association. Hypothesis tests and confidence intervals. Students in Sociology and Anthropology are expected to take SA 255 before this course. Intended to be particularly accessible to students who are not specializing in Statistics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6072",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "270",
+      "code": "STAT 270",
+      "section": "D100",
+      "title": "Probability and Statistics",
+      "instructors": [
+        "Elliott, Lloyd",
+        "Isberg, Sonja",
+        "Loughin, Marie"
+      ],
+      "instructor": "Elliott, Lloyd; Isberg, Sonja; Loughin, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 84,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "84/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/270/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/270/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:39.581Z",
+      "prerequisiteText": "or Corequisite: MATH 152 or 155 or 158, with a minimum grade of C-. Students wishing an intuitive appreciation of a broad range of statistical strategies may wish to take STAT 100 first.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Basic laws of probability, sample distributions. Introduction to statistical inference and applications.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6070",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "271",
+      "code": "STAT 271",
+      "section": "D100",
+      "title": "Intro to Prob/Stat for CompSci",
+      "instructors": [
+        "Lin, Becky"
+      ],
+      "instructor": "Lin, Becky",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 188,
+        "capacity": 221,
+        "waitlistCount": 0,
+        "raw": "188/221"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/271/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/271/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:39.881Z",
+      "prerequisiteText": "CMPT 210 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an introductory course in probability and statistics that is designed for Computer Science students. Mainly covers basic probability theory and statistical methods for designing and analyzing computing algorithms and systems. Topics include continuous probability distributions, random variables, multivariate normal distributions, parameter estimation and inference theory, as well as design and analysis of statistical studies, including hypothesis testing and presentation of statistical data.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6075",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "285",
+      "code": "STAT 285",
+      "section": "D100",
+      "title": "Inter.Prob/Statistic",
+      "instructors": [
+        "Hu, Joan"
+      ],
+      "instructor": "Hu, Joan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 37,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "37/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/285/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/285/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:40.188Z",
+      "prerequisiteText": "STAT 270 and one of MATH 152, MATH 155, or MATH 158, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This course is a continuation of STAT 270. Review of probability models. Procedures for statistical inference using survey results and experimental data. Statistical model building. Elementary design of experiments. Regression methods. Introduction to categorical data analysis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6076",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "305",
+      "code": "STAT 305",
+      "section": "D100",
+      "title": "Introduction to Biostatistics",
+      "instructors": [
+        "Hu, Joan",
+        "Isberg, Sonja",
+        "Loughin, Marie"
+      ],
+      "instructor": "Hu, Joan; Isberg, Sonja; Loughin, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 101,
+        "capacity": 113,
+        "waitlistCount": 0,
+        "raw": "101/113"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 605 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/305/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:40.480Z",
+      "prerequisiteText": "One of STAT 201, STAT 203, STAT 205, STAT 270, STAT 271, BUS 232, or ECON 233, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Intermediate statistical techniques for the health sciences. Review of introductory concepts in statistics and probability including hypothesis testing, estimation and confidence intervals for means and proportions. Contingency tables and the analysis of multiple 2x2 tables. Correlation and regression. Multiple regression and model selection. Logistic regression and odds ratios. Basic concepts in survival analysis. This course may not be used to satisfy the upper division requirements of the following programs: statistics major, statistics honours, actuarial science major, and actuarial science honours.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6091",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "330",
+      "code": "STAT 330",
+      "section": "D100",
+      "title": "Math.Statistics",
+      "instructors": [
+        "Wang, Liangliang"
+      ],
+      "instructor": "Wang, Liangliang",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 54,
+        "capacity": 70,
+        "waitlistCount": 0,
+        "raw": "54/70"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/330/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/330/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:40.790Z",
+      "prerequisiteText": "STAT 285, MATH 251, and one of MATH 232 or MATH 240, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Review of probability and distributions. Multivariate distributions. Distributions of functions of random variables. Limiting distributions. Inference. Sufficient statistics for the exponential family. Maximum likelihood. Bayes estimation, Fisher information, limiting distributions of MLEs. Likelihood ratio tests.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6093",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "336",
+      "code": "STAT 336",
+      "section": "D100",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "12/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/336/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/336/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:41.080Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op co-ordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.5 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to statistics students. Interested students should contact their departmental advisors as early in their career as possible for proper counselling. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4015",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "336",
+      "code": "STAT 336",
+      "section": "D200",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/336/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/336/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:41.404Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op co-ordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.5 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to statistics students. Interested students should contact their departmental advisors as early in their career as possible for proper counselling. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4016",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "336",
+      "code": "STAT 336",
+      "section": "I100",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/336/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/336/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:41.699Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op co-ordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.5 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to statistics students. Interested students should contact their departmental advisors as early in their career as possible for proper counselling. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4017",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "337",
+      "code": "STAT 337",
+      "section": "D100",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "6/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/337/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/337/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:41.979Z",
+      "prerequisiteText": "STAT 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4018",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "337",
+      "code": "STAT 337",
+      "section": "D200",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "3/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/337/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/337/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:42.283Z",
+      "prerequisiteText": "STAT 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4019",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "337",
+      "code": "STAT 337",
+      "section": "I100",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/337/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/337/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:42.585Z",
+      "prerequisiteText": "STAT 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4020",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "350",
+      "code": "STAT 350",
+      "section": "D100",
+      "title": "Linear Models",
+      "instructors": [
+        "Altman, Rachel"
+      ],
+      "instructor": "Altman, Rachel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 27,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "27/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/350/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/350/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:42.898Z",
+      "prerequisiteText": "STAT 260, STAT 285, MATH 251, and one of MATH 232 or MATH 240, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Theory and application of linear regression. Normal distribution theory. Hypothesis tests and confidence intervals. Model selection. Model diagnostics. Introduction to weighted least squares and generalized linear models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6094",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "403",
+      "code": "STAT 403",
+      "section": "E100",
+      "title": "Inter.Sampling",
+      "instructors": [
+        "McNeney, Brad"
+      ],
+      "instructor": "McNeney, Brad",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 53,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "53/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 603 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/403/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/403/e100",
+      "outlineRetrievedAt": "2026-10-05T16:22:43.245Z",
+      "prerequisiteText": "STAT 260 and one of STAT 302, 305 or 350 or ECON 333, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A practical introduction to useful sampling techniques and intermediate level experimental designs. This course may not be used to satisfy the upper division requirements of the statistics major or honours program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6096",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "410",
+      "code": "STAT 410",
+      "section": "D100",
+      "title": "Sample Surveys",
+      "instructors": [
+        "Shukla, Abhishek"
+      ],
+      "instructor": "Shukla, Abhishek",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "21/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/410/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:43.530Z",
+      "prerequisiteText": "STAT 350 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to the major sample survey designs and their mathematical justification. Associated statistical analyses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6095",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "436",
+      "code": "STAT 436",
+      "section": "D100",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "5/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/436/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/436/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:43.792Z",
+      "prerequisiteText": "STAT 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4021",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "436",
+      "code": "STAT 436",
+      "section": "D200",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/436/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/436/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:44.091Z",
+      "prerequisiteText": "STAT 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4022",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "436",
+      "code": "STAT 436",
+      "section": "I100",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/436/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/436/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:44.382Z",
+      "prerequisiteText": "STAT 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4023",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "437",
+      "code": "STAT 437",
+      "section": "D100",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/437/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/437/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:44.686Z",
+      "prerequisiteText": "STAT 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass-withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4024",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "437",
+      "code": "STAT 437",
+      "section": "D200",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/437/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/437/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:45.009Z",
+      "prerequisiteText": "STAT 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass-withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4025",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "437",
+      "code": "STAT 437",
+      "section": "I100",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/437/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/437/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:45.289Z",
+      "prerequisiteText": "STAT 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass-withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4026",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "438",
+      "code": "STAT 438",
+      "section": "D100",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "1/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/438/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/438/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:45.690Z",
+      "prerequisiteText": "STAT 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4027",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "438",
+      "code": "STAT 438",
+      "section": "D200",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/438/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/438/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:45.888Z",
+      "prerequisiteText": "STAT 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4028",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "438",
+      "code": "STAT 438",
+      "section": "I100",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/438/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/438/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:46.185Z",
+      "prerequisiteText": "STAT 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op co-ordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to statistics students. Units from this course do not count towards the units required for an SFU degree. The course will be graded on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4029",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "440",
+      "code": "STAT 440",
+      "section": "D100",
+      "title": "Learning from Big Data",
+      "instructors": [
+        "Elliott, Lloyd"
+      ],
+      "instructor": "Elliott, Lloyd",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 56,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "56/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/440/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/440/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:46.507Z",
+      "prerequisiteText": "90 units including STAT 350 with a minimum grade of C- and one of STAT 341, STAT 260, or CMPT 225, with a minimum grade of C- (STAT 240 is also recommended); OR data science majors with 90 units including STAT 302 or STAT 305, CMPT 225, STAT 260, and STAT 240, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A data-first discovery of advanced statistical methods. Focus will be on a series of forecasting and prediction competitions, each based on a large real-world dataset. Additionally, practical tools for statistical modeling in real-world environments will be explored.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6106",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "450",
+      "code": "STAT 450",
+      "section": "D100",
+      "title": "Statistical Theory",
+      "instructors": [
+        "Graham, Jinko"
+      ],
+      "instructor": "Graham, Jinko",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "7/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/450/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:46.784Z",
+      "prerequisiteText": "STAT 330 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Distribution theory, methods for constructing tests, estimators, and confidence intervals with special attention to likelihood methods. Properties of the procedures including large sample theory.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6107",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "452",
+      "code": "STAT 452",
+      "section": "D100",
+      "title": "Stat Learning and Prediction",
+      "instructors": [
+        "Ward, Owen"
+      ],
+      "instructor": "Ward, Owen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 148,
+        "capacity": 185,
+        "waitlistCount": 0,
+        "raw": "148/185"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 652 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/452/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/452/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:47.082Z",
+      "prerequisiteText": "STAT 260 and one of STAT 302 or STAT 305 or STAT 350 or ECON 333 or equivalent, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to the essential modern supervised and unsupervised statistical learning methods. Topics include review of linear regression, classification, statistical error measurement, flexible regression and classification methods, clustering and dimension reduction.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6108",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "485",
+      "code": "STAT 485",
+      "section": "E100",
+      "title": "Appl. Time Series Anal.",
+      "instructors": [
+        "Lockhart, Richard"
+      ],
+      "instructor": "Lockhart, Richard",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1070,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1070,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 56,
+        "capacity": 135,
+        "waitlistCount": 0,
+        "raw": "56/135"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 685 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/485/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/485/e100",
+      "outlineRetrievedAt": "2026-10-05T16:22:47.391Z",
+      "prerequisiteText": "STAT 260 and one of STAT 285 or STAT 302 or STAT 305 or ECON 333 or equivalent, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to linear time series analysis including moving average, autoregressive and ARIMA models, estimation, data analysis, forecasting errors and confidence intervals, conditional and unconditional models, and seasonal models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6109",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "495",
+      "code": "STAT 495",
+      "section": "D100",
+      "title": "Probability/Stats.",
+      "instructors": [
+        "Clarke, Dave"
+      ],
+      "instructor": "Clarke, Dave",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/495/d100",
+      "outlineRetrievedAt": "2026-10-05T16:22:47.681Z",
+      "prerequisiteText": "Written permission of the department undergraduate studies committee.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent reading or research on consultation with the supervising instructor. This course can be repeated for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6884",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "495",
+      "code": "STAT 495",
+      "section": "D200",
+      "title": "Probability/Stats.",
+      "instructors": [
+        "Clarke, Dave"
+      ],
+      "instructor": "Clarke, Dave",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/495/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/495/d200",
+      "outlineRetrievedAt": "2026-10-05T16:22:47.993Z",
+      "prerequisiteText": "Written permission of the department undergraduate studies committee.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent reading or research on consultation with the supervising instructor. This course can be repeated for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6917",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "603",
+      "code": "STAT 603",
+      "section": "G100",
+      "title": "Quantitative Analysis",
+      "instructors": [
+        "McNeney, Brad"
+      ],
+      "instructor": "McNeney, Brad",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "10/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 403 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/603/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/603/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:48.279Z",
+      "prerequisiteText": "A course in statistics.",
+      "units": "5",
+      "description": "The use of statistical techniques and mathematical models in field research with special emphasis on experimentation, survey techniques, and statistical model construction. This course may not be used for the satisfaction of degree requirements in the Department of Statistics and Actuarial Science.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6119",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "605",
+      "code": "STAT 605",
+      "section": "G100",
+      "title": "Biostatistical Methods",
+      "instructors": [
+        "Hu, Joan",
+        "Isberg, Sonja",
+        "Loughin, Marie"
+      ],
+      "instructor": "Hu, Joan; Isberg, Sonja; Loughin, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "1/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 305 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/605/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/605/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:48.588Z",
+      "prerequisiteText": "Any course in Statistics. Open only to students in departments other than Statistics and Actuarial Science.",
+      "units": "3",
+      "description": "Intermediate statistical techniques for the health sciences. Review of introductory concepts in statistics and probability including hypothesis testing, estimation and confidence intervals for means and proportions. Contingency tables and the analysis of multiple 2x2 tables. Correlation and regression. Multiple regression and model selection. Logistic regression and odds ratios. Basic concepts in survival analysis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6110",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "652",
+      "code": "STAT 652",
+      "section": "G100",
+      "title": "Intro to Stat Learning",
+      "instructors": [
+        "Ward, Owen"
+      ],
+      "instructor": "Ward, Owen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 452 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/652/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/652/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:48.882Z",
+      "prerequisiteText": "STAT 302 or STAT 305 or STAT 350 or STAT 604 or STAT 605 or ECON 333 or equivalent.",
+      "units": "3",
+      "description": "An introduction to the essential modern supervised and unsupervised statistical learning methods. Topics include review of linear regression, classification, statistical error measurement, flexible regression and classification methods, clustering and dimension reduction. Open only to graduate students in departments other than Statistics and ActSci.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6112",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "685",
+      "code": "STAT 685",
+      "section": "G100",
+      "title": "Appl. Time Series Anal.",
+      "instructors": [
+        "Lockhart, Richard"
+      ],
+      "instructor": "Lockhart, Richard",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1070,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1070,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 485 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/685/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/685/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:49.189Z",
+      "prerequisiteText": "STAT 302 or STAT 305 or STAT 350 or STAT 604 or STAT 605 or ECON 333 or permission of instructor. Open only to graduate students in departments other than Statistics and Actuarial Science.",
+      "units": "3",
+      "description": "Introduction to linear time series analysis including moving average, autoregressive and ARIMA models, estimation, data analysis, forecasting errors and confidence intervals, conditional and unconditional models, and seasonal models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6113",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "811",
+      "code": "STAT 811",
+      "section": "G100",
+      "title": "Stat.Consulting I",
+      "instructors": [
+        "Bercovitz, Ian"
+      ],
+      "instructor": "Bercovitz, Ian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 770,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-09-13",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 770,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:50 PM",
+          "startDate": "2026-09-14",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "7/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/811/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/811/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:49.486Z",
+      "units": "2",
+      "description": "This course is designed to give students some practical experience as a statistical consultant through classroom discussion of issues in consulting and participation in the department's Statistical Consulting Service under the direction of faculty members or the director.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6114",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "812",
+      "code": "STAT 812",
+      "section": "G100",
+      "title": "Stat.Consulting II",
+      "instructors": [
+        "Bercovitz, Ian"
+      ],
+      "instructor": "Bercovitz, Ian",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "4/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/812/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/812/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:49.783Z",
+      "units": "2",
+      "description": "Students will participate in the department's Statistical Consulting Service under the direction of faculty members or the director.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6115",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "812",
+      "code": "STAT 812",
+      "section": "G200",
+      "title": "Stat.Consulting II",
+      "instructors": [
+        "Bercovitz, Ian"
+      ],
+      "instructor": "Bercovitz, Ian",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "4/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/812/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/812/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:50.085Z",
+      "units": "2",
+      "description": "Students will participate in the department's Statistical Consulting Service under the direction of faculty members or the director.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6116",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "830",
+      "code": "STAT 830",
+      "section": "G100",
+      "title": "Statistical Theory I",
+      "instructors": [
+        "Lockhart, Richard"
+      ],
+      "instructor": "Lockhart, Richard",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 19,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "19/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/830/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/830/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:50.383Z",
+      "prerequisiteText": "STAT 450 or permission of the instructor.",
+      "units": "4",
+      "description": "The statistical theory that supports modern statistical methodologies. Distribution theory, methods for construction of tests, estimators, and confidence intervals with special attention to likelihood and Bayesian methods. Properties of the procedures including large sample theory will be considered. Consistency and asymptotic normality for maximum likelihood and related methods (e.g., estimating equations, quasi-likelihood), as well as hypothesis testing and p-values. Additional topics may include: nonparametric models, the bootstrap, causal inference, and simulation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6117",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "850",
+      "code": "STAT 850",
+      "section": "G100",
+      "title": "Linear Models and Appls",
+      "instructors": [
+        "Tang, Boxin"
+      ],
+      "instructor": "Tang, Boxin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "14/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/850/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/850/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:50.692Z",
+      "prerequisiteText": "STAT 350 or equivalent.",
+      "units": "4",
+      "description": "A modern approach to normal theory for general linear models including models with random effects and \"messy\" data. Topics include experimental units, blocking, theory of quadratic forms, linear contrasts, analysis of covariance, heterogeneous variances, factorial treatment structures, means comparisons, missing data, multi-unit designs, pseudoreplication, repeated measures mixed model formulation and estimation and inference.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6118",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "852",
+      "code": "STAT 852",
+      "section": "G100",
+      "title": "Modern Meth Appl Stat",
+      "instructors": [
+        "Zhang, Lin"
+      ],
+      "instructor": "Zhang, Lin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "11/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/852/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/852/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:50.977Z",
+      "prerequisiteText": "STAT 830 and STAT 853 or permission of instructor.",
+      "units": "4",
+      "description": "An advanced treatment of modern methods of multivariate statistics and non-parametric regression. Topics may include: (1) dimension reduction techniques such as principal component analysis, multidimensional scaling and related extensions; (2) classification and clustering methods; (3) modern regression techniques such as generalized additive models, Gaussian process regression and splines.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6136",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "880",
+      "code": "STAT 880",
+      "section": "G100",
+      "title": "Co-op I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "1/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/880/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/880/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:51.287Z",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4030",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "880",
+      "code": "STAT 880",
+      "section": "G200",
+      "title": "Co-op I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/880/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/880/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:51.599Z",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4031",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "880",
+      "code": "STAT 880",
+      "section": "I100",
+      "title": "Co-op I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/880/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/880/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:51.881Z",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4032",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "881",
+      "code": "STAT 881",
+      "section": "G100",
+      "title": "Co-op II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "1/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/881/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/881/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:52.183Z",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4034",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "881",
+      "code": "STAT 881",
+      "section": "G200",
+      "title": "Co-op II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/881/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/881/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:52.482Z",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4035",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "881",
+      "code": "STAT 881",
+      "section": "I100",
+      "title": "Co-op II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/881/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/881/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:52.781Z",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4036",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "882",
+      "code": "STAT 882",
+      "section": "G100",
+      "title": "Co-op III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/882/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/882/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:53.079Z",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4037",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "882",
+      "code": "STAT 882",
+      "section": "G200",
+      "title": "Co-op III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/882/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/882/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:53.385Z",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4038",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "882",
+      "code": "STAT 882",
+      "section": "I100",
+      "title": "Co-op III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/882/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/882/i100",
+      "outlineRetrievedAt": "2026-10-05T16:22:53.698Z",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4039",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "894",
+      "code": "STAT 894",
+      "section": "G100",
+      "title": "Reading",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/894/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/894/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:53.978Z",
+      "units": "2",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4044",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "895",
+      "code": "STAT 895",
+      "section": "G100",
+      "title": "Reading",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "1/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/895/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/895/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:54.288Z",
+      "units": "4",
+      "description": "Reading. Variable Units 1, 2, 3 or 4 units.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4045",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "898",
+      "code": "STAT 898",
+      "section": "G100",
+      "title": "MSc Project",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "7/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/898/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:54.579Z",
+      "units": "10",
+      "description": "Students are required to submit and successfully defend a project based on a statistical analysis problem or on the development of new statistical methodology. The project is examined as a thesis and must be submitted to the library. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4040",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "898",
+      "code": "STAT 898",
+      "section": "G200",
+      "title": "MSc Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/898/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:54.898Z",
+      "units": "10",
+      "description": "Students are required to submit and successfully defend a project based on a statistical analysis problem or on the development of new statistical methodology. The project is examined as a thesis and must be submitted to the library. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4041",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "899",
+      "code": "STAT 899",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "18/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/899/g100",
+      "outlineRetrievedAt": "2026-10-05T16:22:55.188Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4042",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "STAT",
+      "courseNumber": "899",
+      "code": "STAT 899",
+      "section": "G200",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=STAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:07:47.078Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/stat/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/stat/899/g200",
+      "outlineRetrievedAt": "2026-10-05T16:22:55.489Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4043",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

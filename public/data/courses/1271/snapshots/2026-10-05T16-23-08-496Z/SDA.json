@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-05T16:23:08.496Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SDA",
+      "courseNumber": "100",
+      "code": "SDA 100",
+      "section": "D100",
+      "title": "Data Visualization",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SDA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/sda/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/sda/100/d100",
+      "outlineRetrievedAt": "2026-10-05T16:37:05.664Z",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Introduces the principles and tools of data visualization and visual storytelling with R. Learn foundational and advanced plotting techniques to create impactful visuals and interactive dashboards, transforming raw data into compelling data-driven stories for diverse audiences.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2612",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SDA",
+      "courseNumber": "490",
+      "code": "SDA 490",
+      "section": "D100",
+      "title": "Capstone Project Seminar",
+      "instructors": [
+        "Schnepel, Kevin",
+        "Weldon, Steven"
+      ],
+      "instructor": "Schnepel, Kevin; Weldon, Steven",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SDA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/sda/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/sda/490/d100",
+      "outlineRetrievedAt": "2026-10-05T16:37:05.961Z",
+      "prerequisiteText": "Admission into the Social Data Analytics Minor and 18 units completed in the minor.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Final capstone group project that applies the skills students have learned in their studies to gain experience tackling real-world policy and social problems and develop a portfolio that they can showcase to prospective employers or graduate programs. Topics vary.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4596",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-05T16:23:08.496Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "APMA",
+      "courseNumber": "901",
+      "code": "APMA 901",
+      "section": "G100",
+      "title": "Partial Differential Equations",
+      "instructors": [
+        "Nigam, Nilima"
+      ],
+      "instructor": "Nigam, Nilima",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=APMA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/apma/901/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/apma/901/g100",
+      "outlineRetrievedAt": "2026-10-05T16:23:13.873Z",
+      "units": "4",
+      "description": "First order non-linear partial differential equations (PDEs) and the method of characteristics. Hamilton-Jacobi equation and hyperbolic conservation laws; weak solutions. Second-order linear PDEs (Laplace, heat and wave equations); Green's functions. Sobolev spaces. Second-order elliptic PDEs; Lax-Milgram theorem.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4313",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "APMA",
+      "courseNumber": "990",
+      "code": "APMA 990",
+      "section": "G100",
+      "title": "Selected Topics Applied Math",
+      "instructors": [
+        "Ashby, Ben"
+      ],
+      "instructor": "Ashby, Ben",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=APMA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/apma/990/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/apma/990/g100",
+      "outlineRetrievedAt": "2026-10-05T16:23:14.181Z",
+      "units": "4",
+      "description": "Topics vary depending on faculty availability and student interest. Recent offerings include: geophysical fluid dynamics, adaptive numerical methods for differential equations, learning theory, and stability, pattern formation and chaos.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4310",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "APMA",
+      "courseNumber": "995",
+      "code": "APMA 995",
+      "section": "G100",
+      "title": "PhD Oral Candidacy Exam",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=APMA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/apma/995/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/apma/995/g100",
+      "outlineRetrievedAt": "2026-10-05T16:23:14.472Z",
+      "prerequisiteText": "Applied Mathematics PhD stream students only. Must be completed within first six terms of the program.",
+      "description": "An open oral candidacy exam given by the supervisory committee. The exam consists of a proposed thesis topic defence by the student and supervisory committee questions about related proposed research topics. The exam follows submission of a written PhD research proposal. Graded on a satisfactory/unsatisfactory basis. Students who fail will either successfully complete a second exam within six months or withdraw from the program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4311",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

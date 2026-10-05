@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-05T16:23:08.496Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G001",
+      "title": "Projects II",
+      "instructors": [
+        "Wiegert, Thelma"
+      ],
+      "instructor": "Wiegert, Thelma",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g001",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g001",
+      "outlineRetrievedAt": "2026-10-05T16:28:37.536Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1548",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G002",
+      "title": "Projects II",
+      "instructors": [
+        "Elliott, Jason"
+      ],
+      "instructor": "Elliott, Jason",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g002",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g002",
+      "outlineRetrievedAt": "2026-10-05T16:28:37.255Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1554",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G003",
+      "title": "Projects II",
+      "instructors": [
+        "Zhao, Shuai"
+      ],
+      "instructor": "Zhao, Shuai",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g003",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g003",
+      "outlineRetrievedAt": "2026-10-05T16:28:37.826Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1555",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G004",
+      "title": "Projects II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g004",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g004",
+      "outlineRetrievedAt": "2026-10-05T16:28:38.135Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1556",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G005",
+      "title": "Projects II",
+      "instructors": [
+        "Ong, Vic"
+      ],
+      "instructor": "Ong, Vic",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g005",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g005",
+      "outlineRetrievedAt": "2026-10-05T16:28:38.431Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1557",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G006",
+      "title": "Projects II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g006",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g006",
+      "outlineRetrievedAt": "2026-10-05T16:28:38.729Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1558",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G007",
+      "title": "Projects II",
+      "instructors": [
+        "King, Yossarian"
+      ],
+      "instructor": "King, Yossarian",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g007",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g007",
+      "outlineRetrievedAt": "2026-10-05T16:28:39.033Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1559",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G008",
+      "title": "Projects II",
+      "instructors": [
+        "Elliott, Jason"
+      ],
+      "instructor": "Elliott, Jason",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g008",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g008",
+      "outlineRetrievedAt": "2026-10-05T16:28:39.328Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1550",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G009",
+      "title": "Projects II",
+      "instructors": [
+        "King, Yossarian"
+      ],
+      "instructor": "King, Yossarian",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g009",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g009",
+      "outlineRetrievedAt": "2026-10-05T16:28:39.630Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1551",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G010",
+      "title": "Projects II",
+      "instructors": [
+        "Wiegert, Thelma"
+      ],
+      "instructor": "Wiegert, Thelma",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g010",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g010",
+      "outlineRetrievedAt": "2026-10-05T16:28:39.924Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1552",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "521",
+      "code": "DMED 521",
+      "section": "G011",
+      "title": "Projects II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "0/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/521/g011",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/521/g011",
+      "outlineRetrievedAt": "2026-10-05T16:28:40.224Z",
+      "prerequisiteText": "DMED 520 with a grade of B or higher.",
+      "units": "12",
+      "description": "Projects II cohesively builds on the Project I experience with increasingly complex technical, artistic and management challenges. Projects II is an independent, term length team-based project working with an external client and/or collaborators. Students learn, experience, and execute iterative processes through team collaboration and prototype/proof of concept delivery.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1553",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "531",
+      "code": "DMED 531",
+      "section": "G100",
+      "title": "Internship Continuation",
+      "instructors": [
+        "Ellis, Carolina"
+      ],
+      "instructor": "Ellis, Carolina",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/531/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/531/g100",
+      "outlineRetrievedAt": "2026-10-05T16:28:40.530Z",
+      "prerequisiteText": "DMED 530.",
+      "units": "6",
+      "description": "This course is a continuation of DMED 530. Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1549",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "540",
+      "code": "DMED 540",
+      "section": "G100",
+      "title": "Special Topics Digital Media",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1230,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:30 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "0/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/540/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/540/g100",
+      "outlineRetrievedAt": "2026-10-05T16:28:40.827Z",
+      "units": "3",
+      "description": "Special Topics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1560",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "540",
+      "code": "DMED 540",
+      "section": "G200",
+      "title": "Special Topics Digital Media",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1170,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:30 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/540/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/540/g200",
+      "outlineRetrievedAt": "2026-10-05T16:28:41.135Z",
+      "units": "3",
+      "description": "Special Topics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1561",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "540",
+      "code": "DMED 540",
+      "section": "G300",
+      "title": "Special Topics Digital Media",
+      "instructors": [
+        "Maclang, Maria Krisha Angela"
+      ],
+      "instructor": "Maclang, Maria Krisha Angela",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1230,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:30 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 23,
+        "waitlistCount": 0,
+        "raw": "0/23"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/540/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/540/g300",
+      "outlineRetrievedAt": "2026-10-05T16:28:41.425Z",
+      "units": "3",
+      "description": "Special Topics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1562",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "540",
+      "code": "DMED 540",
+      "section": "G400",
+      "title": "Special Topics Digital Media",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1170,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:30 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "0/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/540/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/540/g400",
+      "outlineRetrievedAt": "2026-10-05T16:28:41.725Z",
+      "units": "3",
+      "description": "Special Topics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1566",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "562",
+      "code": "DMED 562",
+      "section": "G100",
+      "title": "Pitching Digi Media Prof II",
+      "instructors": [
+        "Osian, Elisabeta"
+      ],
+      "instructor": "Osian, Elisabeta",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 840,
+          "endMinutes": 1035,
+          "displayStart": "2:00 PM",
+          "displayEnd": "5:15 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/562/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/562/g100",
+      "outlineRetrievedAt": "2026-10-05T16:28:42.026Z",
+      "units": "3",
+      "description": "Developing industry-ready pitching skills for MDM studies and career success. It emphasizes practical pitching, non-verbal communication, formal/informal registers, slide design, and audience engagement. Technical topics cover UI/UX design, web/iOS apps, game design, animation, web graphics, software development, media theories, social media and others.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1563",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DMED",
+      "courseNumber": "563",
+      "code": "DMED 563",
+      "section": "G100",
+      "title": "Multi-Platform Media",
+      "instructors": [
+        "Wong, Jaclynn"
+      ],
+      "instructor": "Wong, Jaclynn",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 900,
+          "endMinutes": 1080,
+          "displayStart": "3:00 PM",
+          "displayEnd": "6:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-09",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-05T16:23:08.496Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/dmed/563/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/dmed/563/g100",
+      "outlineRetrievedAt": "2026-10-05T16:28:42.325Z",
+      "units": "3",
+      "description": "Students will write a production development guide for their transmedia property that focuses on the treatment, functional, and design specifications. Students are expected to be able to create and implement art, audio, and code into interactive digital prototypes, both on their own and within a team.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1564",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}
