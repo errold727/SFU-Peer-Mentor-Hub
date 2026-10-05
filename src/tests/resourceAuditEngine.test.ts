@@ -36,6 +36,26 @@ const fetched = (
 });
 
 describe('weekly audit integration and safe reports', () => {
+  it('checks a program registration destination and reports a broken link without renewing verification', async () => {
+    const r = structuredClone(resources.find((item) => item.id === 'slc-writeaway')!);
+    const registrationUrl = 'https://www.sfu.ca/students/synthetic-registration.html';
+    r.program = { ...r.program!, registrationUrl, registrationStatus: 'verified' };
+    const before = registryDigest(r);
+    const fetchSources = vi.fn(async (urls: string[]) => [...new Set(urls)].map((url) =>
+      url === registrationUrl
+        ? { ...fetched(url), status: 'notFound' as const, httpStatus: 404, body: undefined }
+        : fetched(url),
+    ));
+    const { report } = await runAudit({ now }, {
+      loadResources: async () => [r], courses: courseAudit, fetchSources,
+    });
+    expect(fetchSources.mock.calls[0][0]).toContain(registrationUrl);
+    expect(report.findings).toContainEqual(expect.objectContaining({
+      code: 'SOURCE_UNAVAILABLE', url: registrationUrl, resourceIds: [r.id],
+    }));
+    expect(registryDigest(r)).toBe(before);
+    expect(report.integrity.unchanged).toBe(true);
+  });
   it('checks every registry record offline without network or factual mutation', async () => {
     const snapshot = structuredClone(resources);
     const before = registryDigest(snapshot);

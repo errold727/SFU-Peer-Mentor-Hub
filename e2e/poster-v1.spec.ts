@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import { readFile } from 'node:fs/promises';
 import { PNG } from 'pngjs';
 import jsQR from 'jsqr';

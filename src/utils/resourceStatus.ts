@@ -1,18 +1,23 @@
 import type { SFUResource, ResourceSession } from '../data/resources/types';
 import { localDate } from './dates';
 import { getVerificationStatus, verificationLabels } from './verification';
+import { programLifecycle } from './resourceOccurrences';
 
 export function resourceStatus(r: SFUResource, now = new Date()) {
   const today = localDate(now);
+  const programState = r.program ? programLifecycle(r, now) : undefined;
   const lifecycle =
     r.lifecycle === 'discontinued'
       ? 'discontinued'
       : r.lifecycle === 'historical'
         ? 'historical'
-        : r.validUntil && r.validUntil < today
+        : programState === 'completed'
           ? 'expired'
-          : 'active';
-  const future = !!r.validFrom && r.validFrom > today;
+          : (!programState || programState === 'unknown') && r.validUntil && r.validUntil < today
+            ? 'expired'
+            : 'active';
+  const future =
+    programState === 'upcoming' || (!r.program && !!r.validFrom && r.validFrom > today);
   const reviewed = r.verification
     ? r.verification.status === 'reviewed' &&
       !!r.verification.verifiedAt &&

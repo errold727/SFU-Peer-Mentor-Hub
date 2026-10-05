@@ -11,6 +11,7 @@ export function officialSource(value: string) {
       !url.password &&
       (url.hostname === 'sfu.ca' ||
         url.hostname.endsWith('.sfu.ca') ||
+        url.hostname === 'vowel-writers.weebly.com' ||
         url.hostname === 'sfu.teamdynamix.com' ||
         [
           'sfss.ca',

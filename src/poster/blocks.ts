@@ -100,8 +100,11 @@ export function resourceBlockPatch(
 ): Partial<PosterElement> {
   const b = e.block ?? makeBlock('info').block!;
   const full = resourcePosterText(resource);
+  const title = resource.program
+    ? (resource.poster?.title ?? resource.shortTitle ?? resource.title)
+    : resource.title;
   return {
-    text: resource.title,
+    text: title,
     resourceId: resource.id,
     sourceUrl: resource.sourceUrl,
     provenance: [
@@ -116,9 +119,9 @@ export function resourceBlockPatch(
       ...b,
       kind: 'info',
       label: resource.title,
-      title: resource.title,
+      title,
       subtitle: '',
-      body: full.startsWith(resource.title) ? full.slice(resource.title.length).trim() : full,
+      body: full.startsWith(title) ? full.slice(title.length).trim() : full,
       icon: '',
     },
   };

@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 test('poster start, blank setup, sixteen real template previews and newsletter loading', async ({
   page,
 }) => {
@@ -251,12 +251,12 @@ test('course selections populate an editable poster table with official metadata
   await page.getByLabel('Find a course').fill('ENGL 211');
   await page
     .getByRole('article', { name: 'ENGL 211 D100', exact: true })
-    .getByRole('button', { name: 'Poster', exact: true })
+    .getByRole('button', { name: 'Add to Poster', exact: true })
     .click();
   await page.getByLabel('Find a course').fill('ENGL 234');
   await page
     .getByRole('article', { name: 'ENGL 234 D100', exact: true })
-    .getByRole('button', { name: 'Poster', exact: true })
+    .getByRole('button', { name: 'Add to Poster', exact: true })
     .click();
   await page.getByRole('link', { name: /Poster Content/ }).click();
   await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();

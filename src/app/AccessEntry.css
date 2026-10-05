@@ -1,0 +1,87 @@
+main.access-entry {
+  min-height: 100dvh;
+  max-width: none;
+  margin: 0;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  border-top: 4px solid var(--sfu-red);
+}
+.access-panel {
+  width: min(100%, 440px);
+  padding: 36px 28px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: white;
+}
+.access-panel h1 {
+  font-size: 28px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+.access-panel h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.access-choices {
+  display: grid;
+  gap: 12px;
+}
+.access-choices button {
+  min-height: 50px;
+}
+.access-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.access-panel [role='alert'] {
+  color: var(--sfu-red);
+  margin: 12px 0 0;
+}
+.role-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.role-control button {
+  padding: 6px 9px;
+  min-height: 34px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.site-header.role-header nav {
+  gap: 18px;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .role-header .mobile-menu {
+    display: flex;
+  }
+  .site-header.role-header nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 10;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .site-header.role-header nav.open {
+    display: flex;
+  }
+  .role-control {
+    padding: 8px 0;
+  }
+  .role-control button {
+    min-height: 44px;
+  }
+}

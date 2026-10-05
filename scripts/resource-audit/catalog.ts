@@ -3,10 +3,19 @@ import type { SFUResource } from '../../src/data/resources/types';
 import { reviewCadenceDays } from '../../src/data/resources/catalog/define';
 import { currentTerm, daysUntil, localDate } from '../../src/utils/dates';
 import { resourceStatus } from '../../src/utils/resourceStatus';
-import { validateResources } from '../../src/utils/resourceValidation';
+import {
+  validateResources,
+  validateResourceProgram,
+  validateResourceDocument,
+} from '../../src/utils/resourceValidation';
 import { officialSource } from '../../src/utils/resourceHealth';
 import { validISODate } from '../../src/utils/verification';
 import { resourcePosterText, searchResources } from '../../src/utils/search';
+import {
+  programLifecycle,
+  programOccurrences,
+  splitProgramOccurrences,
+} from '../../src/utils/resourceOccurrences';
 import type { Finding } from './types';
 
 export type Freshness = 'fresh' | 'reviewSoon' | 'reviewDue' | 'stale';
@@ -58,9 +67,11 @@ const text = (value: unknown) => (typeof value === 'string' ? value : '');
 
 /** Shape guards protect the existing semantic validator from malformed nested values.
  * They do not supply defaults to, repair, or mutate the published registry. */
-function shapeProblems(value: unknown): string[] {
+function shapeProblems(value: unknown, now = new Date()): string[] {
   if (!object(value)) return ['record must be an object'];
   const issues: string[] = [];
+  if (value.program !== undefined)
+    issues.push(...validateResourceProgram(value.program).map((issue) => `program: ${issue}`));
   for (const key of ['id', 'title', 'summary', 'sourceName', 'sourceUrl', 'category', 'campus'])
     if (!string(value[key])) issues.push(`${key} must be a string`);
   for (const key of [
@@ -157,6 +168,12 @@ function shapeProblems(value: unknown): string[] {
         issues.push(`${key}.${i}.lastRetrievedAt must be a string or null`);
       if (key === 'sessions' && !strings(child.exceptions))
         issues.push(`${key}.${i}.exceptions must be a string array`);
+      if (key === 'sources' && child.document !== undefined)
+        issues.push(
+          ...validateResourceDocument(child.document, now).map(
+            (issue) => `${key}.${i}.document: ${issue}`,
+          ),
+        );
     }
   }
   if (value.poster !== undefined) {
@@ -186,6 +203,17 @@ export function collectResourceUrls(value: unknown): ResourceAuditUrl[] {
   };
   add(value.sourceUrl, 'source');
   add(value.actionUrl, 'action');
+  if (object(value.program)) {
+    add(value.program.registrationUrl, 'action');
+    if (value.program.registrationStatus === 'verified') add(value.program.registrationUrl, 'qr');
+    for (const key of ['occurrences', 'recurrences'])
+      if (Array.isArray(value.program[key]))
+        for (const occurrence of value.program[key])
+          if (object(occurrence)) {
+            add(occurrence.registrationUrl, 'action');
+            if (occurrence.registrationStatus === 'verified') add(occurrence.registrationUrl, 'qr');
+          }
+  }
   if (Array.isArray(value.sources))
     for (const source of value.sources) if (object(source)) add(source.url, 'source', source.id);
   for (const item of [value, value.poster])
@@ -272,6 +300,10 @@ export function resourceLifecycle(r: SFUResource, now = new Date()): Lifecycle {
   const today = localDate(now);
   const ui = resourceStatus(r, now);
   if (ui.lifecycle === 'historical' || ui.lifecycle === 'discontinued') return 'historical';
+  if (r.program) {
+    const lifecycle = programLifecycle(r, now);
+    return lifecycle === 'completed' ? 'expired' : lifecycle;
+  }
   if ([r.date, r.validFrom, r.validUntil].some((date) => date !== undefined && !validISODate(date)))
     return 'unknown';
   if (r.validFrom && r.validUntil && r.validUntil < r.validFrom) return 'unknown';
@@ -382,6 +414,30 @@ export const resourceSearchProbes: {
   },
   { query: '国际学生', expectedIds: international, categories: ['international'] },
   { query: '交换', expectedIds: exchange, categories: ['exchange'] },
+  ...[
+    ['study skills', 'slc-study-skills'],
+    ['学习技巧', 'slc-study-skills'],
+    ['procrastination', 'slc-procrastination'],
+    ['拖延', 'slc-procrastination'],
+    ['public speaking', 'slc-public-speaking'],
+    ['公开演讲', 'slc-public-speaking'],
+    ['scientific writing', 'slc-scientific-writing'],
+    ['exam anxiety', 'slc-exam-anxiety'],
+    ['考试焦虑', 'slc-exam-anxiety'],
+    ['quantitative exam', 'slc-quantitative-exams'],
+    ['English conversation', 'slc-lifes-little-debates'],
+    ['英语口语', 'slc-lifes-little-debates'],
+    ['Soup Circles', 'slc-soup-circles'],
+    ['AI rehearsal', 'slc-ai-rehearsal'],
+    ['zine', 'slc-zine-making'],
+    ['学习计划', 'slc-schedule-building'],
+  ].map(([query, id]) => ({ query, expectedIds: [id], categories: ['workshops-events'] })),
+  ...[
+    ['conversation partner', 'slc-conversation-partners'],
+    ['writing consultation', 'writing'],
+    ['WriteAway', 'slc-writeaway'],
+    ['VOWəL', 'slc-vowel'],
+  ].map(([query, id]) => ({ query, expectedIds: [id], categories: ['academic-support'] })),
 ];
 
 function searchAudit(
@@ -499,7 +555,7 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
       seenIds.add(id);
     }
     const urls = collectResourceUrls(raw);
-    const issues = shapeProblems(raw);
+    const issues = shapeProblems(raw, now);
     for (const issue of issues) add('RESOURCE_SCHEMA_INVALID', [id], issue, 'error', priority);
     for (const entry of urls)
       if (!officialSource(entry.url))
@@ -625,6 +681,40 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
         'warning',
         priority,
       );
+    if (r.program) {
+      const occurrences = programOccurrences(r);
+      const { past, uncertain } = splitProgramOccurrences(r, now);
+      if (past.length)
+        add(
+          'EVENT_PASSED',
+          [id],
+          `${past.length} published occurrence${past.length === 1 ? ' has' : 's have'} passed; exclude these from This Week and new poster session suggestions.`,
+          'warning',
+          priority,
+        );
+      if (programLifecycle(r, now) === 'completed' && occurrences.length > 1)
+        add(
+          'SERIES_COMPLETED',
+          [id],
+          'The final published occurrence has passed. Keep the canonical program and its history; do not treat earlier sessions as a current series.',
+          'warning',
+          priority,
+        );
+      if (
+        r.program.manualReviewRequired ||
+        uncertain.length ||
+        occurrences.some((occurrence) => occurrence.manualReviewRequired) ||
+        r.program.recurrences?.some((rule) => rule.manualReviewRequired)
+      )
+        add(
+          'PROGRAM_MANUAL_REVIEW_REQUIRED',
+          [id],
+          r.program.manualReviewNote ??
+            'One or more source schedule values need manual confirmation; do not normalize a guessed correction.',
+          'warning',
+          priority,
+        );
+    }
     if (term === 'past' && lifecycle !== 'historical')
       add(
         'TERM_OUT_OF_SCOPE',
@@ -641,11 +731,23 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
         'warning',
         priority,
       );
-    const recurring = !!r.sessions?.length || !!r.hours || r.reviewCadence === 'schedule';
+    const recurring =
+      !!r.sessions?.length ||
+      !!r.hours ||
+      r.reviewCadence === 'schedule' ||
+      !!r.program?.recurrences?.length;
     if (recurring) {
+      // A dated workshop/list already supplies its publication bounds. Recurrence
+      // rules reached here only after their explicit start/end dates passed the
+      // shape guard. An ongoing service's first listed date is not its end date.
+      const boundedProgramEvents =
+        r.program &&
+        r.program.kind !== 'service' &&
+        (!!r.program.occurrences.length || !!r.program.recurrences?.length);
       if (
         (r.validUntil && r.validUntil < localDate(now)) ||
-        r.sessions?.some((s) => s.validUntil < localDate(now))
+        r.sessions?.some((s) => s.validUntil < localDate(now)) ||
+        (r.program && programLifecycle(r, now) === 'completed')
       )
         add(
           'SCHEDULE_EXPIRED',
@@ -654,7 +756,12 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
           'warning',
           priority,
         );
-      if ((!r.validFrom || !r.validUntil) && !r.sessions?.length)
+      if (
+        (!r.validFrom || !r.validUntil) &&
+        !r.sessions?.length &&
+        !(r.program?.startDate && r.program.endDate) &&
+        !boundedProgramEvents
+      )
         add(
           'SCHEDULE_VALIDITY_MISSING',
           [id],
@@ -682,7 +789,11 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
       (restricted('graduate') &&
         (audience.includes('All students') || audience.includes('Undergraduate'))) ||
       (restricted('undergraduate') &&
-        (audience.includes('All students') || audience.includes('Graduate')))
+        (audience.includes('All students') || audience.includes('Graduate'))) ||
+      (r.eligibility?.some((condition) =>
+        /^(?:For )?(?:self-identified )?Indigenous students only[.!]?$/i.test(condition.trim()),
+      ) &&
+        audience.includes('All students'))
     )
       add(
         'AUDIENCE_CONFLICT',
@@ -705,7 +816,7 @@ export function auditCatalog(input: unknown, now = new Date()): CatalogAuditResu
         priority,
       );
     if (r.posterCompatible) {
-      const body = resourcePosterText(r);
+      const body = resourcePosterText(r, now);
       if (
         !body.trim() ||
         !r.poster ||

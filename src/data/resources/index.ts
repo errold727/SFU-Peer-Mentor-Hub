@@ -5,14 +5,15 @@ import { pathwaysResources } from './catalog/pathways';
 import { dateResources, mergedResourceIds } from './catalog/dates';
 import { safetyResources } from './catalog/safety';
 import { withIndependentReview } from './catalog/independentReviews';
+import { reconcileSlcFall2026 } from './slcFall2026';
 
-const catalog = [
+const catalog = reconcileSlcFall2026([
   ...academicResources,
   ...lifeResources,
   ...pathwaysResources,
   ...dateResources,
   ...safetyResources,
-];
+]);
 const familiar = [
   'bennett-library',
   'campus-safety',

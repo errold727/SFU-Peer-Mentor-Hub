@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import AxeBuilder from '@axe-core/playwright';
 for (const width of [375, 390, 768, 1024, 1440]) {
   test(`responsive and accessible routes at ${width}px`, async ({ page }) => {
@@ -89,9 +89,9 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
   await page.goto('./#/course-planner');
   await page.getByLabel('Find a course').fill('ENGL 211');
   await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Enrollment');
-  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Add', exact: true }).first().click();
   await page.getByLabel('Find a course').fill('ENGL 234');
-  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Add', exact: true }).first().click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
     true,

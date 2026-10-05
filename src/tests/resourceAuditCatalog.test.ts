@@ -209,6 +209,161 @@ describe('published lifecycle and term applicability', () => {
   });
 });
 
+describe('canonical program audit', () => {
+  const program = (): NonNullable<CatalogInput['program']> => ({
+    kind: 'multiple',
+    sourcePages: [8],
+    startDate: '2026-10-06',
+    endDate: '2026-10-26',
+    occurrences: ['2026-10-06', '2026-10-26'].map((date) => ({
+      id: `talk-${date}`,
+      date,
+      startTime: '12:30',
+      endTime: '13:30',
+      campus: 'Burnaby',
+      mode: 'hybrid',
+      locationDisplay: 'Arts Central, AQ 3020 & Zoom',
+      sourcePage: 8,
+    })),
+  });
+  it('keeps a series active after its first event and expires it only after its final event', () => {
+    const r = fixture({ program: program(), reviewCadence: 'schedule' });
+    const original = JSON.stringify(r);
+    const active = auditCatalog([r], new Date('2026-10-07T19:00:00Z'));
+    expect(active.records[0].lifecycle).toBe('active');
+    expect(active.findings.map((f) => f.code)).toContain('EVENT_PASSED');
+    expect(active.findings.map((f) => f.code)).not.toContain('SERIES_COMPLETED');
+    const completed = auditCatalog([r], new Date('2026-10-26T21:00:00Z'));
+    expect(completed.records[0].lifecycle).toBe('expired');
+    expect(completed.findings.map((f) => f.code)).toEqual(
+      expect.arrayContaining([
+        'EVENT_PASSED',
+        'SERIES_COMPLETED',
+        'SCHEDULE_EXPIRED',
+        'REVIEW_DUE',
+      ]),
+    );
+    expect(JSON.stringify(r)).toBe(original);
+  });
+  it('does not infer the end of a service from its one published starting session', () => {
+    const r = fixture({
+      program: {
+        ...program(),
+        kind: 'service',
+        endDate: undefined,
+        occurrences: [program().occurrences[0]],
+      },
+    });
+    expect(resourceLifecycle(r, new Date('2026-11-01T20:00:00Z'))).toBe('active');
+  });
+  it('accepts actual workshop dates and bounded recurrence rules without requiring duplicate parent bounds', () => {
+    const workshops = resources.filter((resource) => resource.category === 'workshops-events');
+    expect(workshops.length).toBeGreaterThan(0);
+    expect(workshops.some((resource) => resource.program?.recurrences?.length)).toBe(true);
+    const result = auditCatalog(workshops, now);
+    expect(result.records).toHaveLength(workshops.length);
+    expect(
+      result.findings.filter((finding) => finding.code === 'SCHEDULE_VALIDITY_MISSING'),
+    ).toEqual([]);
+  });
+  it('keeps unbounded services and undated programs flagged instead of guessing a final date', () => {
+    const unbounded = fixture({
+      program: {
+        ...program(),
+        kind: 'service',
+        endDate: undefined,
+        occurrences: [program().occurrences[0]],
+      },
+      reviewCadence: 'schedule',
+    });
+    expect(codes([unbounded])).toContain('SCHEDULE_VALIDITY_MISSING');
+    const undated = fixture({
+      program: { ...program(), startDate: undefined, endDate: undefined, occurrences: [] },
+      reviewCadence: 'schedule',
+    });
+    expect(codes([undated])).toContain('SCHEDULE_VALIDITY_MISSING');
+  });
+  it('still rejects a recurrence with a missing end before auditing its lifecycle', () => {
+    const value = fixture({ program: { ...program(), occurrences: [] } });
+    Object.assign(value.program!, {
+      recurrences: [
+        {
+          weekday: 'Tuesday',
+          startDate: '2026-10-06',
+          startTime: '12:30',
+          endTime: '13:30',
+          mode: 'online',
+          sourcePage: 8,
+        },
+      ],
+    });
+    const result = auditCatalog([value], now);
+    expect(result.findings.map((finding) => finding.code)).toContain('RESOURCE_SCHEMA_INVALID');
+    expect(result.records[0].lifecycle).toBe('unknown');
+    expect(result.findings.map((finding) => finding.code)).not.toContain('VALIDATION_CRASH');
+  });
+  it('collects program and occurrence registration URLs for existing link and QR checks', () => {
+    const registrationUrl = 'https://www.sfu.ca/students/register.html';
+    const occurrenceUrl = 'https://www.sfu.ca/students/session.html';
+    const r = fixture({
+      program: {
+        ...program(),
+        registrationUrl,
+        registrationStatus: 'verified',
+        occurrences: [
+          {
+            ...program().occurrences[0],
+            registrationUrl: occurrenceUrl,
+            registrationStatus: 'verified',
+          },
+        ],
+      },
+    });
+    expect(collectResourceUrls(r)).toEqual(
+      expect.arrayContaining([
+        { url: registrationUrl, roles: ['action', 'qr'], sourceIds: [] },
+        { url: occurrenceUrl, roles: ['action', 'qr'], sourceIds: [] },
+      ]),
+    );
+  });
+  it('retains source-review flags after questionable dated sessions have passed', () => {
+    const r = fixture({
+      program: {
+        ...program(),
+        occurrences: [
+          {
+            ...program().occurrences[0],
+            startTime: null,
+            endTime: null,
+            manualReviewRequired: true,
+            manualReviewNote: 'Source says 11pm to noon; confirm with provider.',
+            rawSource: { startTime: '11:00pm', endTime: '12:00pm' },
+          },
+        ],
+      },
+    });
+    const result = auditCatalog([r], new Date('2026-10-07T19:00:00Z'));
+    expect(result.findings.map((f) => f.code)).toContain('PROGRAM_MANUAL_REVIEW_REQUIRED');
+    expect(r.program!.occurrences[0].startTime).toBeNull();
+  });
+  it.each([
+    null,
+    { kind: 'multiple', occurrences: 'invalid' },
+    { ...program(), occurrences: [null] },
+  ])('reports malformed nested program data without crashing or fetching', (value) => {
+    const result = auditCatalog([{ ...fixture(), program: value }], now);
+    expect(result.findings.map((f) => f.code)).toContain('RESOURCE_SCHEMA_INVALID');
+    expect(result.findings.map((f) => f.code)).not.toContain('VALIDATION_CRASH');
+  });
+  it('flags an Indigenous-only program accidentally labelled for all students', () => {
+    const r = fixture({
+      eligibility: ['For self-identified Indigenous students only.'],
+      audiences: ['All students'],
+    });
+    expect(codes([r])).toContain('AUDIENCE_CONFLICT');
+  });
+});
+
 describe('schema, source, poster and high-impact audit', () => {
   it('does not mutate any factual content or verification on frozen published resources', () => {
     const input = frozen(structuredClone(resources));
@@ -397,7 +552,7 @@ describe('schema, source, poster and high-impact audit', () => {
 describe('real search engine probes', () => {
   it('covers the requested English and Mandarin queries against real IDs and current applicability', () => {
     const result = auditCatalog(resources, now);
-    expect(result.search).toHaveLength(23);
+    expect(result.search).toHaveLength(resourceSearchProbes.length);
     expect(
       resourceSearchProbes.every((probe) =>
         probe.expectedIds.every((id) => resources.some((r) => r.id === id)),

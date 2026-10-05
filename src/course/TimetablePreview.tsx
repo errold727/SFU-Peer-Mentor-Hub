@@ -2,10 +2,9 @@ import { useRef, useState } from 'react';
 import { CalendarDays, TriangleAlert, X } from 'lucide-react';
 import { Modal } from '../components/ui/Modal';
 import { courseId, type CourseOffering } from './courseTypes';
-import { WeeklySchedule } from './WeeklySchedule';
+import { WeeklySchedule, WeeklyScheduleDetails } from './WeeklySchedule';
 import { buildTimetableModel, type TimetableModel } from './timetableModel';
 import { defaultTimetableTerm, useCoursePlanner } from '../store/coursePlannerStore';
-import { scheduleLabel } from './comparison';
 import './TimetablePreview.css';
 
 export function TimetablePreview({
@@ -93,6 +92,7 @@ function TimetableDialog({
   const alternativeCodes = [...new Set(model.sections.map(({ course }) => course.code))].filter(
     (code) => model.sections.filter(({ course }) => course.code === code).length > 1,
   );
+  const conflictingIds = new Set(model.conflicts.flatMap(({ a, b }) => [courseId(a), courseId(b)]));
 
   return (
     <Modal
@@ -136,10 +136,11 @@ function TimetableDialog({
             {model.conflicts.length} conflicting section pair
             {model.conflicts.length === 1 ? '' : 's'} in {term}.
           </>
-        ) : model.sections.length > 0 && !model.incomplete ? (
-          `No detected time conflicts in ${term}'s published meetings.`
+        ) : model.sections.length > 0 ? (
+          'No detected conflicts among published meeting times.'
         ) : null}
-        {model.incomplete && ' Some schedules are unavailable; conflict checking is incomplete.'}
+        {model.incomplete &&
+          ' Some selected schedules are unavailable; conflict checking is incomplete.'}
       </p>
       <p className="sr-only" role="status">
         {announcement}
@@ -155,24 +156,7 @@ function TimetableDialog({
       ) : (
         <div className="timetable-workspace">
           <div className="timetable-calendar-panel">
-            <WeeklySchedule model={model} onInspect={inspect} />
-            {!!model.conflicts.length && (
-              <details className="timetable-conflict-details">
-                <summary>
-                  Conflict details ({model.conflicts.length}) · {term}
-                </summary>
-                <ul>
-                  {model.conflicts.map(({ a, b, details }) => (
-                    <li key={`${courseId(a)}:${courseId(b)}`}>
-                      <strong>
-                        {a.code} {a.section} / {b.code} {b.section}
-                      </strong>
-                      <span>{details.join('; ')}</span>
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            )}
+            <WeeklySchedule model={model} onInspect={inspect} showDetails={false} />
           </div>
           <aside className="timetable-side" aria-label="Selected sections and meeting details">
             {inspected && (
@@ -243,13 +227,15 @@ function TimetableDialog({
               open={panelOpen}
               onToggle={(event) => setPanelOpen(event.currentTarget.open)}
             >
-              <summary ref={panelHeading}>Selected sections ({model.sections.length})</summary>
+              <summary ref={panelHeading} tabIndex={0}>
+                Selected sections ({model.sections.length})
+              </summary>
               <button
                 ref={clearAction}
                 className="timetable-clear"
                 onClick={() => setClearPending(true)}
               >
-                Clear {term} selections
+                Clear selections
               </button>
               {clearPending && (
                 <div
@@ -285,12 +271,31 @@ function TimetableDialog({
               )}
               <ul>
                 {model.sections.map(({ course, status, meetings }) => (
-                  <li key={courseId(course)}>
-                    <button className="timetable-section-name" onClick={() => inspect(course)}>
-                      {course.code} · {course.section}{' '}
-                      <span>{course.sectionType ?? 'Component unavailable'}</span>
-                    </button>
-                    <p>{meetings.length ? scheduleLabel({ ...course, meetings }) : status}</p>
+                  <li
+                    key={courseId(course)}
+                    data-conflict={String(conflictingIds.has(courseId(course)))}
+                  >
+                    <div className="timetable-selection-heading">
+                      <button className="timetable-section-name" onClick={() => inspect(course)}>
+                        {course.code} · {course.section}
+                        <span>{course.sectionType ?? 'Component unavailable'}</span>
+                      </button>
+                      {conflictingIds.has(courseId(course)) && (
+                        <span className="timetable-selection-conflict">
+                          <TriangleAlert size={12} aria-hidden="true" /> Conflict
+                        </span>
+                      )}
+                    </div>
+                    <p>
+                      {meetings.length
+                        ? meetings
+                            .map(
+                              (meeting) =>
+                                `${meeting.days.join(', ')} ${meeting.displayStart}–${meeting.displayEnd}`,
+                            )
+                            .join('\n')
+                        : status}
+                    </p>
                     {alternativeCodes.includes(course.code) && (
                       <p className="timetable-alternative">
                         Multiple sections of this course selected.
@@ -310,12 +315,29 @@ function TimetableDialog({
                 official section requirements.
               </p>
             </details>
+            <WeeklyScheduleDetails model={model} onInspect={inspect} />
+            {!!model.conflicts.length && (
+              <details className="timetable-conflict-details">
+                <summary tabIndex={0}>
+                  Conflict details ({model.conflicts.length}) · {term}
+                </summary>
+                <ul>
+                  {model.conflicts.map(({ a, b, details }) => (
+                    <li key={`${courseId(a)}:${courseId(b)}`}>
+                      <strong>
+                        {a.code} {a.section} / {b.code} {b.section}
+                      </strong>
+                      <span>{details.join('; ')}</span>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
           </aside>
         </div>
       )}
       <p className="timetable-footer">
-        Planning preview only. Confirm schedules and enrol through SFU. Selections stay in memory
-        for this session.
+        Planning preview only. Confirm schedules and enrol through SFU.
       </p>
     </Modal>
   );

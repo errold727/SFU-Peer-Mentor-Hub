@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import type { CourseManifest, CourseOffering, OfferingDataset } from '../src/course/courseTypes';
 
 test('enrollment poster rows distinguish identical sections across terms and retain editable presentation and sources', async ({
@@ -42,8 +42,8 @@ test('enrollment poster rows distinguish identical sections across terms and ret
       'href',
       course.courSysUrl!,
     );
-    await card.getByRole('button', { name: 'Poster', exact: true }).click();
-    await expect(card.getByRole('button', { name: 'Added', exact: true })).toBeDisabled();
+    await card.getByRole('button', { name: 'Add to Poster', exact: true }).click();
+    await expect(card.getByRole('button', { name: 'In Poster', exact: true })).toBeDisabled();
   }
   await page.getByRole('link', { name: 'Poster Content (2) →', exact: true }).click();
   await page.getByRole('link', { name: 'Browse Templates', exact: true }).click();

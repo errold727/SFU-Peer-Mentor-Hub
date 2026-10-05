@@ -1,10 +1,10 @@
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures/mentor';
 import { mkdir, readFile } from 'node:fs/promises';
 
 const fraser = 'Fraser Library — Surrey quiet and silent study';
 const bennett = 'W.A.C. Bennett Library — Burnaby';
 const computing = 'Activate your SFU Computing ID';
-const writing = 'Writing consultations and WriteAway';
+const writing = 'WriteAway';
 const tuition = 'Tuition and fee payment dates — Fall 2026';
 const librarySource = 'https://www.sfu.ca/surrey/campus-services/library.html';
 const studySource = 'https://www.sfu.ca/surrey/students/campus-space/study-spaces-.html';
@@ -37,7 +37,7 @@ async function search(page: Page, query: string) {
 
 async function openHub(page: Page) {
   // Published term fixtures are intentionally exercised at their review date.
-  await page.clock.setFixedTime(new Date('2026-10-04T19:00:00Z'));
+  await page.clock.setFixedTime(new Date('2026-10-05T19:00:00Z'));
   await page.goto('./#/resources');
   await expect(page.getByRole('heading', { name: 'SFU Resource Hub', exact: true })).toBeVisible();
 }
@@ -157,9 +157,9 @@ test('resource hub: basket creates an editable poster and real PNG/PDF downloads
   await page.getByRole('button', { name: 'Sections', exact: true }).click();
   await expect(page.locator('.section-select')).toHaveCount(3);
   const body = page.getByRole('textbox', { name: 'Editable text', exact: true });
-  await page.locator('.section-select').filter({ hasText: 'Get writing feedback' }).click();
-  await expect(body).toHaveValue(/Check booking or submission conditions/);
-  await expect(body).toHaveValue(/Confirm current details before sharing/);
+  await page.locator('.section-select').filter({ hasText: 'WriteAway' }).click();
+  await expect(body).toHaveValue(/For undergraduates at participating institutions/);
+  await expect(body).toHaveValue(/Response times are a target, not guaranteed/);
   await page.locator('.section-select').filter({ hasText: 'Tuition and fee payment' }).click();
   await expect(body).toHaveValue(/Undergraduate dates/);
   await expect(body).toHaveValue(/Allow payment processing time/);

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { resources } from '../data/resources';
 import { categories } from '../data/resources/types';
@@ -7,9 +8,24 @@ import { usePosterBasket } from '../store/posterBasketStore';
 import { searchResources } from '../utils/search';
 import { ResourceCard } from '../components/resource/ResourceCard';
 import { PosterBasket } from '../components/resource/PosterBasket';
+import { ResourceDetailBody } from '../components/resource/ResourceDetailBody';
+import { Modal } from '../components/ui/Modal';
 export default function Resources() {
+  const [params, setParams] = useSearchParams();
+  const categoryParam = params.get('category') ?? 'All';
+  const category = Object.hasOwn(categories, categoryParam) ? categoryParam : 'All';
+  const setCategory = (value: string) =>
+    setParams((previous) => {
+      const next = new URLSearchParams(previous);
+      if (value === 'All') next.delete('category');
+      else next.set('category', value);
+      next.delete('resource');
+      return next;
+    });
+  const selected = resources.find((r) => r.id === params.get('resource'));
+  const basket = usePosterBasket();
+  const selectedAdded = !!selected && basket.items.some((item) => item.id === selected.id);
   const [query, setQuery] = useState(''),
-    [category, setCategory] = useState('All'),
     [campus, setCampus] = useState('All'),
     [audience, setAudience] = useState('All'),
     [term, setTerm] = useState('Current'),
@@ -65,6 +81,7 @@ export default function Resources() {
                   'Exchange',
                   'Visiting',
                   'FIC',
+                  'Indigenous students',
                 ].map((a) => (
                   <option key={a}>{a}</option>
                 ))}
@@ -143,7 +160,17 @@ export default function Resources() {
           )}
           <div className="resource-grid two">
             {results.map((r) => (
-              <ResourceCard resource={r} key={r.id} />
+              <ResourceCard
+                resource={r}
+                key={r.id}
+                onOpenDetails={() =>
+                  setParams((previous) => {
+                    const next = new URLSearchParams(previous);
+                    next.set('resource', r.id);
+                    return next;
+                  })
+                }
+              />
             ))}
           </div>
           {results.length === 0 && (
@@ -165,6 +192,31 @@ export default function Resources() {
         </div>
         <PosterBasket />
       </div>
+      {selected && (
+        <Modal
+          key={selected.id}
+          title={selected.title}
+          onClose={() =>
+            setParams(
+              (previous) => {
+                const next = new URLSearchParams(previous);
+                next.delete('resource');
+                return next;
+              },
+              { replace: true },
+            )
+          }
+        >
+          <ResourceDetailBody resource={selected} />
+          <button
+            className="primary"
+            disabled={selectedAdded || !selected.posterCompatible}
+            onClick={() => basket.add(selected)}
+          >
+            {selectedAdded ? 'Added to basket' : 'Add to Poster'}
+          </button>
+        </Modal>
+      )}
     </>
   );
 }

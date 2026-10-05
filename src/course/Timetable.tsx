@@ -1,10 +1,12 @@
-import { useRef, type CSSProperties } from 'react';
+import { useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+import { TriangleAlert } from 'lucide-react';
 import { courseId, type CourseOffering } from './courseTypes';
 import type { TimetableEntry, TimetableModel } from './timetableModel';
 import './timetable.css';
 
-const pixelsPerMinute = 1.2;
-const axisWidth = 64;
+const mobilePixelsPerMinute = 1.2;
+const axisWidth = 56;
+const dayHeaderHeight = 36;
 const dayNames: Record<string, string> = {
   Mon: 'Monday',
   Tue: 'Tuesday',
@@ -45,17 +47,42 @@ export function Timetable({
 }) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const dayRefs = useRef<Record<string, HTMLDivElement | null>>({});
-  const height = (model.endMinutes - model.startMinutes) * pixelsPerMinute;
+  const minutes = model.endMinutes - model.startMinutes;
+  const hasEntries = model.entries.length > 0;
+  const [height, setHeight] = useState(minutes * mobilePixelsPerMinute);
+  useLayoutEffect(() => {
+    const scroll = scrollRef.current;
+    if (!scroll) return;
+    const measure = () => {
+      const fitDesktop = window.matchMedia('(min-width: 1100px)').matches;
+      const next =
+        fitDesktop && scroll.clientHeight > dayHeaderHeight
+          ? scroll.clientHeight - dayHeaderHeight
+          : minutes * mobilePixelsPerMinute;
+      setHeight((previous) => (previous === next ? previous : next));
+    };
+    measure();
+    const observer = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(measure);
+    observer?.observe(scroll);
+    window.addEventListener('resize', measure);
+    return () => {
+      observer?.disconnect();
+      window.removeEventListener('resize', measure);
+    };
+  }, [minutes, hasEntries]);
+  const pixelsPerMinute = height / minutes;
   const dayWidths = model.days.map((day) =>
     Math.max(
-      176,
-      ...model.entries.filter((entry) => entry.day === day).map((entry) => entry.laneCount * 112),
+      144,
+      ...model.entries.filter((entry) => entry.day === day).map((entry) => entry.laneCount * 128),
     ),
   );
   const gridStyle: CSSProperties = {
-    minWidth: Math.max(950, axisWidth + dayWidths.reduce((sum, width) => sum + width, 0)),
+    minWidth: axisWidth + dayWidths.reduce((sum, width) => sum + width, 0),
     gridTemplateColumns: `${axisWidth}px ${dayWidths.map((width) => `minmax(${width}px, 1fr)`).join(' ')}`,
-  };
+    '--tt-hour-height': `${60 * pixelsPerMinute}px`,
+    '--tt-half-hour-height': `${30 * pixelsPerMinute}px`,
+  } as CSSProperties;
   function jumpToDay(day: string) {
     const column = dayRefs.current[day];
     if (column && scrollRef.current) {
@@ -138,7 +165,7 @@ export function Timetable({
                     const { course, meeting, lane, laneCount, conflict } = entry;
                     const blockHeight =
                       (meeting.endMinutes - meeting.startMinutes) * pixelsPerMinute;
-                    const compact = blockHeight < 42;
+                    const compact = blockHeight < 38;
                     const label = entryLabel(entry);
                     return (
                       <button
@@ -164,7 +191,14 @@ export function Timetable({
                         title={label}
                         onClick={() => onInspect(course)}
                       >
-                        <span className="tt-meeting-code">{course.code}</span>
+                        <span className="tt-meeting-heading">
+                          <span className="tt-meeting-code">{course.code}</span>
+                          {conflict && (
+                            <span className="tt-conflict-mark">
+                              <TriangleAlert size={10} aria-hidden="true" /> Conflict
+                            </span>
+                          )}
+                        </span>
                         <span className="tt-meeting-time">
                           {clockTime(meeting.startMinutes)}–{clockTime(meeting.endMinutes)}
                         </span>
@@ -173,16 +207,10 @@ export function Timetable({
                             {course.section} · {meeting.kind ?? course.sectionType ?? 'Meeting'}
                           </span>
                         )}
-                        {blockHeight >= 86 && (
+                        {blockHeight >= 74 && (
                           <span className="tt-meeting-location">
                             {meeting.location ?? course.campus ?? 'Location unavailable'}
                           </span>
-                        )}
-                        {blockHeight >= 106 && (meeting.startDate || meeting.endDate) && (
-                          <span className="tt-meeting-dates">Date range in details</span>
-                        )}
-                        {conflict && (
-                          <span className="tt-conflict-mark">{compact ? '!' : '! Conflict'}</span>
                         )}
                       </button>
                     );

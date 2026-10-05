@@ -58,6 +58,7 @@ export function defineResource(input: CatalogInput): DirectoryResource {
     retrievalStatus: s.retrievalStatus,
     ...(s.sourcePublishedAt ? { sourcePublishedAt: s.sourcePublishedAt } : {}),
     ...(s.sourceUpdatedAt ? { sourceUpdatedAt: s.sourceUpdatedAt } : {}),
+    ...(s.document ? { document: s.document } : {}),
   }));
   const reviewed = input.verification.status === 'reviewed' && input.verification.verifiedAt;
   const due = reviewed ? new Date(input.verification.verifiedAt!) : null;

@@ -31,6 +31,7 @@ import { contrastRatio } from '../poster/contrast';
 import { templates } from '../poster/templates';
 import { resources } from '../data/resources';
 import { searchResources } from '../utils/search';
+import { programRegistrationUrl } from '../utils/resourceOccurrences';
 import { Modal } from '../components/ui/Modal';
 import { autoArrange, MIN_BODY_FONT, textHeight } from '../poster/layout';
 import { posterQuality } from '../poster/quality';
@@ -64,6 +65,10 @@ export default function Poster() {
   const [resourceQuery, setResourceQuery] = useState('');
   const size = posterSizes[s.document.size];
   const selected = s.document.elements.find((e) => e.id === s.selected);
+  const selectedResource = resources.find((resource) => resource.id === selected?.resourceId);
+  const sourceQrUrl = selectedResource?.program
+    ? programRegistrationUrl(selectedResource)
+    : selected?.sourceUrl;
   const scale =
     Math.max(
       0.1,
@@ -1046,10 +1051,10 @@ export default function Poster() {
             <p className="muted">Select an element to edit.</p>
           )}
           <h3 className="sidebar-title">Layers</h3>
-          {selected?.sourceUrl && (
+          {selected && sourceQrUrl && (
             <button
               onClick={() => {
-                const url = selected.sourceUrl!;
+                const url = sourceQrUrl;
                 if (!/^https:\/\//.test(url)) {
                   setMessage('This source URL is unavailable.');
                   return;
@@ -1063,10 +1068,10 @@ export default function Poster() {
                     y: Math.min(size.height - 188, selected.y),
                   }),
                 );
-                setMessage('Official source QR added. Position it beside the relevant card.');
+                setMessage('Source QR added. Position it beside the relevant card.');
               }}
             >
-              Add official source QR
+              {selectedResource?.program ? 'Add program link QR' : 'Add official source QR'}
             </button>
           )}
           <div className="layer-list">

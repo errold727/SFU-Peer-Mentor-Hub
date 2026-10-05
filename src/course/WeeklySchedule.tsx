@@ -32,6 +32,23 @@ function timeRange(meeting: CourseMeeting) {
 export function WeeklySchedule({
   model,
   onInspect,
+  showDetails = true,
+}: {
+  model: TimetableModel;
+  onInspect: (course: CourseOffering) => void;
+  showDetails?: boolean;
+}) {
+  return (
+    <div className="timetable-preview">
+      <Timetable model={model} onInspect={onInspect} />
+      {showDetails && <WeeklyScheduleDetails model={model} onInspect={onInspect} />}
+    </div>
+  );
+}
+
+export function WeeklyScheduleDetails({
+  model,
+  onInspect,
 }: {
   model: TimetableModel;
   onInspect: (course: CourseOffering) => void;
@@ -42,8 +59,7 @@ export function WeeklySchedule({
   );
   const examSections = model.sections.filter((section) => section.exams.length > 0);
   return (
-    <div className="timetable-preview">
-      <Timetable model={model} onInspect={onInspect} />
+    <div className="timetable-schedule-details">
       {notPlaced.length > 0 && (
         <section className="tt-unplaced" aria-labelledby={notPlacedHeading}>
           <h3 id={notPlacedHeading}>Not placed on the timetable</h3>
@@ -60,7 +76,7 @@ export function WeeklySchedule({
                 <div>
                   <strong>{section.status}</strong>
                   {section.warning && <p>{section.warning}</p>}
-                  {section.meetings.length > 0 && <p>Known meetings are shown above.</p>}
+                  {section.meetings.length > 0 && <p>Known meetings appear on the timetable.</p>}
                 </div>
               </li>
             ))}
@@ -68,7 +84,7 @@ export function WeeklySchedule({
         </section>
       )}
       <details className="tt-text-schedule">
-        <summary>Text schedule</summary>
+        <summary tabIndex={0}>Text schedule</summary>
         <div className="tt-text-days">
           {model.days.map((day) => {
             const entries = model.entries.filter((entry) => entry.day === day);

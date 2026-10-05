@@ -1,6 +1,13 @@
 .timetable-preview {
   min-width: 0;
+  min-height: 0;
   color: var(--charcoal, #243039);
+}
+.tt-calendar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
 }
 .tt-toolbar {
   display: flex;
@@ -8,7 +15,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px 16px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+  flex: none;
 }
 .tt-view-label {
   margin: 0;
@@ -36,12 +44,12 @@
 }
 .tt-scroll {
   width: 100%;
-  max-height: calc(90dvh - 230px);
+  flex: 1;
+  min-height: 0;
   overflow: auto;
   border: 1px solid var(--border, #d6dde3);
   border-radius: 6px;
   background: white;
-  scrollbar-gutter: stable;
   scroll-padding: 44px 8px 8px 68px;
   overscroll-behavior: contain;
 }
@@ -90,14 +98,26 @@
   transform: translateY(5px);
 }
 .tt-time-axis span:last-child {
-  transform: translateY(-13px);
+  transform: translateY(-100%);
 }
 .tt-day-track {
   position: relative;
   border-right: 1px solid #e0e5e9;
   background:
-    repeating-linear-gradient(to bottom, #dce2e7 0, #dce2e7 1px, transparent 1px, transparent 72px),
-    repeating-linear-gradient(to bottom, #edf0f3 0, #edf0f3 1px, transparent 1px, transparent 36px);
+    repeating-linear-gradient(
+      to bottom,
+      #dce2e7 0,
+      #dce2e7 1px,
+      transparent 1px,
+      transparent var(--tt-hour-height)
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #edf0f3 0,
+      #edf0f3 1px,
+      transparent 1px,
+      transparent var(--tt-half-hour-height)
+    );
 }
 .tt-meeting {
   position: absolute;
@@ -105,11 +125,11 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  gap: 1px;
+  gap: 0;
   min-width: 0;
   min-height: 0;
   margin: 0;
-  padding: 4px 5px;
+  padding: 2px 3px;
   overflow: hidden;
   border: 1px solid var(--tt-accent);
   border-left-width: 3px;
@@ -136,57 +156,74 @@
   flex-shrink: 0;
 }
 .tt-meeting-code {
-  font-size: 12px;
+  min-width: 0;
+  font-size: 11.5px;
   font-weight: 750;
+}
+.tt-meeting-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  min-height: 14px;
+}
+.tt-meeting-heading .tt-meeting-code {
+  flex-shrink: 1;
 }
 .tt-meeting-time {
   font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  line-height: 12px;
 }
 .tt-meeting-section,
-.tt-meeting-location,
-.tt-meeting-dates {
+.tt-meeting-location {
   font-size: 10px;
+  line-height: 11px;
 }
 .tt-meeting-short {
   gap: 0;
   padding: 0 3px;
   border-left-width: 2px;
-  line-height: 10px;
+  line-height: 11px;
+}
+.tt-meeting-short .tt-meeting-heading {
+  min-height: 12px;
 }
 .tt-meeting-short .tt-meeting-code,
 .tt-meeting-short .tt-meeting-time {
   font-size: 10px;
-}
-.tt-meeting-short .tt-meeting-code {
-  padding-right: 7px;
-}
-.tt-meeting-short .tt-conflict-mark {
-  position: absolute;
-  top: 1px;
-  right: 2px;
+  line-height: 11px;
 }
 .tt-meeting-tiny {
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 4px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-.tt-meeting-tiny .tt-meeting-code,
+.tt-meeting-tiny .tt-meeting-heading {
+  min-height: 0;
+}
 .tt-meeting-tiny .tt-meeting-time {
-  flex-shrink: 1;
-  padding-right: 0;
+  display: none;
 }
-.tt-meeting-tiny .tt-conflict-mark {
-  position: static;
-  margin-left: auto;
-}
-.tt-meeting-conflict {
-  outline: 2px solid #b61935;
+.tt-meeting-conflict,
+.tt-meeting-conflict:hover {
+  outline: 2px solid #a6192e;
   outline-offset: -2px;
+  background: linear-gradient(#a6192e09, #a6192e09), var(--tt-bg);
 }
 .tt-conflict-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  border-radius: 3px;
+  padding: 0 2px;
+  background: #fff2f3;
   color: #8e1730;
-  font-size: 10px;
+  font-size: 9px;
+  line-height: 12px;
   font-weight: 800;
+}
+.tt-conflict-mark svg {
+  flex: none;
 }
 .tt-meeting:focus-visible,
 .tt-text-inspect:focus-visible,
@@ -248,8 +285,8 @@
   font-size: 13px;
 }
 .tt-unplaced {
-  margin-top: 14px;
-  padding: 12px;
+  margin-top: 10px;
+  padding: 9px;
   border: 1px solid #ddcfa9;
   border-radius: 6px;
   background: #fffbf2;
@@ -269,7 +306,7 @@
 }
 .tt-unplaced li {
   display: grid;
-  grid-template-columns: minmax(112px, auto) 1fr;
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
   gap: 6px 12px;
   margin-top: 8px;
@@ -307,24 +344,24 @@
   background: transparent;
 }
 .tt-text-schedule {
-  margin-top: 14px;
+  margin-top: 10px;
   border-top: 1px solid #d6dde3;
 }
 .tt-text-schedule > summary {
-  min-height: 42px;
-  padding: 12px 2px;
+  min-height: 36px;
+  padding: 8px 2px;
   cursor: pointer;
   font-size: 13px;
   font-weight: 700;
 }
 .tt-text-days {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
 }
 .tt-text-day {
   min-width: 0;
-  padding: 12px;
+  padding: 9px;
   border: 1px solid #dde3e7;
   border-radius: 6px;
   background: #fafbfc;
@@ -350,10 +387,20 @@
   font-weight: 700;
 }
 .tt-exams {
-  margin-top: 16px;
-  padding: 12px;
+  margin-top: 10px;
+  padding: 9px;
   border: 1px solid #dde3e7;
   border-radius: 6px;
+}
+@media (max-width: 1099px) {
+  .tt-scroll {
+    flex: none;
+    height: 56dvh;
+    max-height: 620px;
+  }
+  .tt-calendar {
+    height: auto;
+  }
 }
 @media (max-width: 600px) {
   .tt-toolbar {

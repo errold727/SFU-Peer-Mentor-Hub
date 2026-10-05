@@ -28,6 +28,7 @@ import { Modal } from '../components/ui/Modal';
 import { useCoursePlanner } from '../store/coursePlannerStore';
 import { buildTimetableModel } from '../course/timetableModel';
 import { TimetablePreview } from '../course/TimetablePreview';
+import { useRole } from '../app/access';
 
 function SourceLinks({ course: c }: { course: CourseOffering }) {
   return (
@@ -46,6 +47,7 @@ function SourceLinks({ course: c }: { course: CourseOffering }) {
   );
 }
 export default function Courses() {
+  const mentor = useRole().role === 'mentor';
   const [term, setTerm] = useState<TermCode>('1271'),
     [subject, setSubject] = useState('All');
   const [manifest, setManifest] = useState<CourseManifest>(),
@@ -161,9 +163,11 @@ export default function Courses() {
     }
   }
   function add(c: CourseOffering) {
+    if (!mentor) return;
     basket.add(courseToResource(c));
   }
   function addConflict(a: CourseOffering, b: CourseOffering, details: string[]) {
+    if (!mentor) return;
     const resource = courseToResource(a);
     basket.add({
       ...resource,
@@ -186,7 +190,7 @@ export default function Courses() {
     <div className={selected.length ? 'course-planner-with-selections' : undefined}>
       <header className="page-heading course-heading">
         <h1>SFU Course Planner</h1>
-        <Link to="/poster">Poster Content ({basket.items.length}) →</Link>
+        {mentor && <Link to="/poster">Poster Content ({basket.items.length}) →</Link>}
       </header>
       <form
         className="course-search"
@@ -431,11 +435,13 @@ export default function Courses() {
                             aria-pressed={chosen}
                           >
                             {chosen && <Check size={14} />}
-                            {chosen ? 'Selected' : '+ Compare'}
+                            {chosen ? 'Added' : 'Add'}
                           </button>
-                          <button className="tertiary" onClick={() => add(c)} disabled={added}>
-                            {added ? 'Added' : 'Poster'}
-                          </button>
+                          {mentor && (
+                            <button className="tertiary" onClick={() => add(c)} disabled={added}>
+                              {added ? 'In Poster' : 'Add to Poster'}
+                            </button>
+                          )}
                           <button
                             className="tertiary"
                             aria-disabled={!!busy}
@@ -492,7 +498,11 @@ export default function Courses() {
           </div>
           {!!selected.length && (
             <div className="actions">
-              <button onClick={() => selected.forEach(add)}>Add Selected Courses to Poster</button>
+              {mentor && (
+                <button onClick={() => selected.forEach(add)}>
+                  Add Selected Courses to Poster
+                </button>
+              )}
               {selected.some((course) => course.term === browsedTerm) && (
                 <button onClick={() => setClearPending(true)}>
                   Clear {browsedTerm} selections
@@ -502,7 +512,7 @@ export default function Courses() {
           )}
         </div>
         {clearPending && (
-          <div className="notice" role="group" aria-label="Confirm clear comparison">
+          <div className="notice" role="group" aria-label="Confirm clear selections">
             <p>Remove selections for {browsedTerm}? Choices in other terms will remain.</p>
             <div className="actions">
               <button
@@ -519,7 +529,7 @@ export default function Courses() {
         )}
         {!selected.length ? (
           <div className="empty-state">
-            <p>Select sections to compare schedules. Selection is temporary.</p>
+            <p>Add sections to build your timetable. Selections are temporary.</p>
           </div>
         ) : (
           <>
@@ -528,7 +538,7 @@ export default function Courses() {
                 <li key={courseId(c)}>
                   {c.code} {c.section} · {c.term}{' '}
                   <button
-                    aria-label={`Remove ${c.code} ${c.section} ${c.term} from comparison`}
+                    aria-label={`Remove ${c.code} ${c.section} ${c.term} from selections`}
                     onClick={() => removeSelectedSection(courseId(c))}
                   >
                     <X size={16} />
@@ -548,9 +558,11 @@ export default function Courses() {
                         <br />
                         {details.join('; ')}
                       </p>
-                      <button onClick={() => addConflict(a, b, details)}>
-                        Add Schedule Conflict to Poster
-                      </button>
+                      {mentor && (
+                        <button onClick={() => addConflict(a, b, details)}>
+                          Add Schedule Conflict to Poster
+                        </button>
+                      )}
                     </div>
                   ))}
                   {conflicts.length > 3 && (
@@ -575,14 +587,14 @@ export default function Courses() {
               </p>
             )}
             <details>
-              <summary>Compare offering details</summary>
+              <summary>Offering details</summary>
               {comparisonPages > 1 && (
                 <div className="comparison-detail-controls">
                   <button
                     disabled={activeComparisonPage === 0}
                     onClick={() => setComparisonPage(activeComparisonPage - 1)}
                   >
-                    Previous comparison
+                    Previous sections
                   </button>
                   <span>
                     Sections {activeComparisonPage * 4 + 1}–
@@ -592,7 +604,7 @@ export default function Courses() {
                     disabled={activeComparisonPage >= comparisonPages - 1}
                     onClick={() => setComparisonPage(activeComparisonPage + 1)}
                   >
-                    Next comparison
+                    Next sections
                   </button>
                 </div>
               )}
@@ -600,12 +612,12 @@ export default function Courses() {
                 className="table-scroll comparison-table"
                 tabIndex={0}
                 role="region"
-                aria-label="Course comparison table, scroll horizontally"
+                aria-label="Selected offering details, scroll horizontally"
               >
                 <table>
                   <thead>
                     <tr>
-                      <th>Compare offerings</th>
+                      <th>Selected offerings</th>
                       {compared.map((c) => (
                         <th key={courseId(c)}>
                           {c.code} {c.section}
@@ -694,15 +706,14 @@ export default function Courses() {
           <div className="actions">
             <button
               aria-disabled={!!busy}
+              aria-pressed={selected.some((c) => courseId(c) === courseId(detail))}
               onClick={() => {
                 if (!busy) void toggle(detail);
               }}
             >
-              {selected.some((c) => courseId(c) === courseId(detail))
-                ? 'Remove from Comparison'
-                : 'Add to Comparison'}
+              {selected.some((c) => courseId(c) === courseId(detail)) ? 'Added' : 'Add'}
             </button>
-            <button onClick={() => add(detail)}>Add to Poster</button>
+            {mentor && <button onClick={() => add(detail)}>Add to Poster</button>}
           </div>
         </Modal>
       )}

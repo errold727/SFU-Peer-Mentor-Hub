@@ -24,15 +24,17 @@ The local command performs the same non-GitHub audit logic, but never posts an i
 
 ## Checks and interpretation
 
+Fall 2026 SLC programs reuse this audit through the existing resource catalog. `EVENT_PASSED` records elapsed occurrences without expiring an entire series; `SERIES_COMPLETED` and schedule expiry follow the final published date. Bounded occurrences/recurrences satisfy workshop validity, while unbounded service schedules remain reviewable. Program and occurrence registration URLs enter the ordinary link/source-change checks. `PROGRAM_MANUAL_REVIEW_REQUIRED` preserves source ambiguities, including past occurrences with withheld hours. Document receipts validate file identity and reviewed pages; neither a receipt nor a reachable link automatically changes `verifiedAt`. Search probes include the English and Mandarin SLC aliases.
+
 The audit counts every canonical record, including malformed entries, and reuses the publication validator, resource search, poster formatter, date helpers, provider-domain allowlist and course validator. It inspects identity, provider/category/campus/audience/term, sources/actions/QR targets, evidence and review metadata, cost, relationships, dates, hours/sessions and poster content. Invalid records remain visible as failures; they are not silently skipped.
 
-| Dimension | What automation establishes | What it cannot establish |
-| --- | --- | --- |
-| Link health | Reachable, redirected, blocked, timed out, rate limited, not found, server error, invalid or unknown | Service discontinuation or factual correctness |
-| Source change | Normalized static source text differs from the last successful snapshot | Which Resource Hub sentence is wrong, or the correct replacement |
-| Freshness | An internal review target is approaching or overdue | That a stale record is necessarily false |
-| Validity | A published date/range/session validity period has passed or is upcoming | An unpublished deadline time or closure schedule |
-| Factual verification | Reads existing recorded review evidence without changing it | Automatic approval, human review or official SFU certification |
+| Dimension            | What automation establishes                                                                          | What it cannot establish                                         |
+| -------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Link health          | Reachable, redirected, blocked, timed out, rate limited, not found, server error, invalid or unknown | Service discontinuation or factual correctness                   |
+| Source change        | Normalized static source text differs from the last successful snapshot                              | Which Resource Hub sentence is wrong, or the correct replacement |
+| Freshness            | An internal review target is approaching or overdue                                                  | That a stale record is necessarily false                         |
+| Validity             | A published date/range/session validity period has passed or is upcoming                             | An unpublished deadline time or closure schedule                 |
+| Factual verification | Reads existing recorded review evidence without changing it                                          | Automatic approval, human review or official SFU certification   |
 
 Structural checks include duplicates, evidence and related-ID consistency, safe recognized HTTPS URLs, valid metadata/ranges, explicit unknown cost, unsupported zero/free implications, suspicious private fields and usable poster content. Shape guards let malformed records fail without crashing the rest of the audit. These checks cannot prove that all free text contains no personal information or that every natural-language qualification is equivalent to its source.
 
@@ -44,12 +46,12 @@ Search probes use the real search function with a fixed English/Mandarin query s
 
 The existing centralized `reviewCadenceDays` in `src/data/resources/catalog/define.ts` remains authoritative:
 
-| Cadence | Internal review interval |
-| --- | ---: |
-| Schedules, hours, events | 7 days |
-| Sensitive eligibility, fees, term dates | 14 days |
-| Safety contacts | 30 days |
-| Evergreen descriptions | 180 days |
+| Cadence                                 | Internal review interval |
+| --------------------------------------- | -----------------------: |
+| Schedules, hours, events                |                   7 days |
+| Sensitive eligibility, fees, term dates |                  14 days |
+| Safety contacts                         |                  30 days |
+| Evergreen descriptions                  |                 180 days |
 
 An explicit resource `reviewDueAt` overrides the derived target. A missing factual review remains `reviewDue`, even with a future override. `reviewSoon` begins in the final quarter of the interval, bounded to 1–7 days; `reviewDue` starts on the due date, and `stale` means more than another full interval overdue. Targets are maintenance policy, not SFU policy. Existing UI source-review labels remain separate from these audit details.
 
