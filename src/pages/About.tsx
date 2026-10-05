@@ -75,7 +75,6 @@ export default function About({
         </p>
         <div className="about-contact">
           <a href="mailto:zda32@sfu.ca">zda32@sfu.ca</a>
-          <SourceLink href="https://github.com/errold727">GitHub</SourceLink>
         </div>
       </section>
 
