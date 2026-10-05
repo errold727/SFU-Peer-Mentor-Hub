@@ -40,6 +40,8 @@ const errors: string[] = [];
 page.on('pageerror', (error) => errors.push(error.message));
 const previews: { id: string; name: string; file: string; width: number; height: number }[] = [];
 try {
+  // Preview generation exercises the mentor workspace without storing an access code.
+  await page.addInitScript(() => sessionStorage.setItem('pmh-role', 'mentor'));
   await page.goto(`${baseURL}#/poster/edit`);
   const selector = page.getByLabel('Poster template', { exact: true });
   await selector.waitFor();

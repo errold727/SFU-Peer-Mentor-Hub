@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom';
 import { resources } from '../data/resources';
-import { thisWeekResources } from '../utils/search';
-import { ResourceCard } from '../components/resource/ResourceCard';
-export default function Home() {
+import {
+  occurrenceLocationLabel,
+  occurrenceTimeLabel,
+  thisWeekItems,
+} from '../utils/resourceOccurrences';
+import '../components/resource/resourcePrograms.css';
+export default function Home({ now = new Date() }: { now?: Date }) {
+  const week = thisWeekItems(resources, now, 6);
   return (
     <>
       <section className="hero">
@@ -20,16 +25,44 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section>
+      <section className="this-week" aria-labelledby="this-week-heading">
         <div className="section-heading">
-          <h2>This week at SFU</h2>
-          <Link to="/resources">All resources ↗</Link>
+          <h2 id="this-week-heading">This week at SFU</h2>
+          <Link to="/resources?category=workshops-events">View all workshops →</Link>
         </div>
-        <div className="resource-grid">
-          {thisWeekResources(resources).map((r) => (
-            <ResourceCard resource={r} key={r.id} />
-          ))}
-        </div>
+        {week.length ? (
+          <ul className="this-week-list">
+            {week.map(({ resource, occurrence, date, label }, index) => (
+              <li key={`${resource.id}-${occurrence?.id ?? date}-${index}`}>
+                <time dateTime={date}>
+                  {new Intl.DateTimeFormat('en-CA', {
+                    month: 'short',
+                    day: 'numeric',
+                    timeZone: 'UTC',
+                  }).format(new Date(`${date}T12:00:00Z`))}
+                </time>
+                <Link
+                  to={`/resources?category=${encodeURIComponent(resource.category)}&resource=${encodeURIComponent(resource.id)}`}
+                >
+                  {resource.title}
+                  {label && <span className="this-week-date-label"> · {label}</span>}
+                </Link>
+                {occurrence && (
+                  <>
+                    <span className="this-week-time">{occurrenceTimeLabel(occurrence)}</span>
+                    <span className="this-week-location">
+                      {occurrenceLocationLabel(occurrence)}
+                    </span>
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="this-week-empty">
+            No confirmed events or date reminders in the next seven days.
+          </p>
+        )}
       </section>
     </>
   );

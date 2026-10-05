@@ -5,21 +5,41 @@ import { usePosterBasket } from '../../store/posterBasketStore';
 import { getRelativeDeadlineLabel, daysUntil } from '../../utils/dates';
 import { getVerificationStatus, verificationLabels } from '../../utils/verification';
 import { resourceStatus } from '../../utils/resourceStatus';
+import { splitProgramOccurrences } from '../../utils/resourceOccurrences';
 import { ResourceDetailBody } from './ResourceDetailBody';
 import { resourceText } from '../../utils/search';
 import { Modal } from '../ui/Modal';
-export function ResourceCard({ resource: r }: { resource: SFUResource }) {
+export function ResourceCard({
+  resource: r,
+  onOpenDetails,
+}: {
+  resource: SFUResource;
+  onOpenDetails?: () => void;
+}) {
   const [detail, setDetail] = useState(false);
   const [copied, setCopied] = useState('');
   const basket = usePosterBasket();
   const added = basket.items.some((i) => i.id === r.id);
   const status = getVerificationStatus(r.lastVerified);
   const reviewed = resourceStatus(r);
+  const upcomingDate = reviewed.future
+    ? r.program
+      ? (r.program.startDate ?? splitProgramOccurrences(r).upcoming[0]?.date)
+      : r.validFrom
+    : undefined;
   return (
     <article className="resource-card">
       <div className="eyebrow">
         <span>{categories[r.category]}</span>
-        <span>{r.campuses?.join(' · ') ?? (r.campus === 'All' ? 'All campuses' : r.campus)}</span>
+        <span>
+          {r.campuses
+            ? r.campuses.length
+              ? r.campuses.join(' · ')
+              : 'Location not specified'
+            : r.campus === 'All'
+              ? 'All campuses'
+              : r.campus}
+        </span>
       </div>
       <h3>{r.title}</h3>
       {r.date && (
@@ -28,6 +48,11 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
         </div>
       )}
       <p>{r.summary}</p>
+      {(r.program?.manualReviewRequired ||
+        r.program?.occurrences.some((occurrence) => occurrence.manualReviewRequired) ||
+        r.program?.recurrences?.some((rule) => rule.manualReviewRequired)) && (
+        <p className="resource-review-note">Some details need source confirmation.</p>
+      )}
       {r.provider && (
         <p className="resource-provider">
           {r.provider.name}
@@ -48,10 +73,21 @@ export function ResourceCard({ resource: r }: { resource: SFUResource }) {
         </span>
         {status !== 'fresh' && r.lastVerified && <span>Reviewed {r.lastVerified}</span>}
         {reviewed.freshness === 'due' && <span>Review due</span>}
-        {reviewed.future && <span>Starts {r.validFrom}</span>}
+        {upcomingDate && (
+          <span>
+            {r.program && r.program.kind !== 'service' && r.program.kind !== 'range'
+              ? 'Next confirmed date'
+              : 'Starts'}{' '}
+            {upcomingDate}
+          </span>
+        )}
+        {r.program && reviewed.lifecycle === 'expired' && <span>Completed</span>}
       </div>
       <div className="card-actions">
-        <button className="tertiary" onClick={() => setDetail(true)}>
+        <button
+          className="tertiary"
+          onClick={() => (onOpenDetails ? onOpenDetails() : setDetail(true))}
+        >
           View Details
         </button>
         <a href={r.sourceUrl} target="_blank" rel="noreferrer" title={r.sourceName}>

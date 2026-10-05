@@ -19,10 +19,18 @@ export type ResourceCategory =
   | 'career'
   | 'exchange'
   | 'records'
-  | 'rights';
+  | 'rights'
+  | 'workshops-events';
 export type Campus = 'Burnaby' | 'Surrey' | 'Vancouver' | 'Online';
 export type Audience =
-  'Undergraduate' | 'Graduate' | 'International' | 'Exchange' | 'Visiting' | 'FIC' | 'All students';
+  | 'Undergraduate'
+  | 'Graduate'
+  | 'International'
+  | 'Exchange'
+  | 'Visiting'
+  | 'FIC'
+  | 'Indigenous students'
+  | 'All students';
 export type Topic =
   | '01'
   | '02'
@@ -53,6 +61,8 @@ export type ResourceSource = {
   retrievalStatus: 'retrieved' | 'blocked' | 'unavailable' | 'not-published';
   sourcePublishedAt?: string;
   sourceUpdatedAt?: string;
+  // A received document can support a claim even when its linked website blocks retrieval.
+  document?: { filename: string; sha256: string; pages: number[]; readAt: string };
 };
 export type Evidence = { field: string; sourceId: string; locator: string; note?: string };
 export type ResourceReview = {
@@ -72,7 +82,60 @@ export type ResourceSession = {
   validUntil: string;
   exceptions: string[];
 };
+export type ResourceWeekday =
+  'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday' | 'Sunday';
+export type ResourceRegistration = {
+  registrationUrl?: string;
+  registrationStatus?: 'verified' | 'unavailable' | 'not-required';
+  registrationNote?: string;
+};
+export type ResourceOccurrenceDetails = ResourceRegistration & {
+  campus?: Campus;
+  building?: string;
+  room?: string;
+  mode: 'in-person' | 'online' | 'hybrid' | 'unknown';
+  locationDisplay?: string;
+  sourcePage: number;
+  manualReviewRequired?: boolean;
+  manualReviewNote?: string;
+  // Source wording is retained separately from normalized, publishable values.
+  rawSource?: {
+    date?: string;
+    startTime?: string;
+    endTime?: string;
+    location?: string;
+    description?: string;
+  };
+};
+export type ResourceOccurrence = ResourceOccurrenceDetails & {
+  id: string;
+  date: string;
+  startTime?: string | null;
+  endTime?: string | null;
+};
+export type ResourceRecurrence = ResourceOccurrenceDetails & {
+  weekday: ResourceWeekday;
+  startDate: string;
+  endDate: string;
+  startTime: string;
+  endTime: string;
+  excludeDates?: string[];
+};
+export type ResourceProgram = ResourceRegistration & {
+  kind: 'single' | 'multiple' | 'range' | 'recurring' | 'service';
+  occurrences: ResourceOccurrence[];
+  recurrences?: ResourceRecurrence[];
+  startDate?: string;
+  endDate?: string;
+  scheduleText?: string;
+  sourcePages: number[];
+  sourceDocument?: { filename: string; sha256: string; pages?: number };
+  // A description review must not invalidate a separately reliable occurrence.
+  manualReviewRequired?: boolean;
+  manualReviewNote?: string;
+};
 export type DirectoryMetadata = {
+  program?: ResourceProgram;
   dates?: {
     label: string;
     kind: 'date' | 'range' | 'timestamp';
@@ -150,4 +213,5 @@ export const categories: Record<ResourceCategory, string> = {
   exchange: 'Study Abroad',
   records: 'Student Records',
   rights: 'Rights & Referrals',
+  'workshops-events': 'Workshops & Events',
 };

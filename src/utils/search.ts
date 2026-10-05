@@ -2,6 +2,14 @@ import Fuse from 'fuse.js';
 import type { SFUResource } from '../data/resources/types';
 import { currentTerm, daysUntil } from './dates';
 import { resourceStatus } from './resourceStatus';
+import { thisWeekItems } from './resourceOccurrences';
+import {
+  occurrenceLocationLabel,
+  occurrenceTimeLabel,
+  programLifecycle,
+  programOccurrences,
+  splitProgramOccurrences,
+} from './resourceOccurrences';
 const aliases: Record<string, string> = {
   'quiet study': 'bennett library',
   'silent floor': 'bennett library',
@@ -54,6 +62,10 @@ export function searchResources(
           'provider.name',
           'locations.name',
           'locations.details',
+          'program.scheduleText',
+          'program.occurrences.locationDisplay',
+          'program.occurrences.building',
+          'program.occurrences.room',
         ],
         threshold: 0.35,
         ignoreLocation: true,
@@ -77,6 +89,10 @@ function rank(r: SFUResource, score = 0, now: Date, query: string) {
     ...(r.facts ?? []).map((f) => `${f.label ?? ''} ${f.value}`),
     r.provider?.name,
     ...(r.locations ?? []).map((l) => `${l.name} ${l.details ?? ''}`),
+    r.program?.scheduleText,
+    ...(r.program?.occurrences ?? []).map(
+      (o) => `${o.locationDisplay ?? ''} ${o.building ?? ''} ${o.room ?? ''}`,
+    ),
   ]
     .join(' ')
     .toLowerCase();
@@ -91,6 +107,15 @@ function rank(r: SFUResource, score = 0, now: Date, query: string) {
   );
 }
 export function thisWeekResources(resources: SFUResource[], now = new Date()) {
+  // Preserve the legacy resource-list adapter; occurrence-aware UI uses thisWeekItems.
+  if (resources.some((resource) => resource.program)) {
+    const seen = new Set<string>();
+    return thisWeekItems(resources, now).flatMap(({ resource }) => {
+      if (seen.has(resource.id)) return [];
+      seen.add(resource.id);
+      return [resource];
+    });
+  }
   const upcomingOffsets = (r: SFUResource) =>
     [r.date, ...(r.dates ?? []).flatMap((d) => [d.start, d.end])]
       .filter((date): date is string => !!date)
@@ -125,6 +150,18 @@ export function resourceText(r: SFUResource) {
     ...(r.access ?? []).map((s) => `Access: ${s}`),
     ...(r.eligibility ?? []).map((s) => `Condition: ${s}`),
     ...(r.details ?? []).map((s) => `${s.heading}: ${s.body}`),
+    ...(r.program
+      ? [
+          r.program.scheduleText,
+          ...programOccurrences(r).map((o) =>
+            [o.date, occurrenceTimeLabel(o), occurrenceLocationLabel(o), o.manualReviewNote]
+              .filter(Boolean)
+              .join(' · '),
+          ),
+          r.program.manualReviewNote,
+          `${r.program.sourceDocument?.filename ?? 'Program guide'} · pages ${r.program.sourcePages.join(', ')}`,
+        ]
+      : []),
     `Source: ${r.sourceName}`,
     r.sourceUrl,
     `Last verified: ${r.lastVerified ?? 'Not yet verified'}`,
@@ -134,7 +171,51 @@ export function resourceText(r: SFUResource) {
     .join('\n');
 }
 // Full detail/copy keeps provenance. Poster body stays concise; the source can be added as a QR.
-export function resourcePosterText(r: SFUResource) {
+export function resourcePosterText(r: SFUResource, now = new Date()) {
+  if (r.program) {
+    // Reuse the canonical schedule. A poster starts with the next reliable
+    // session, never a stale first occurrence or an invented time.
+    const next = splitProgramOccurrences(r, now).upcoming.find(
+      (o) => !o.manualReviewRequired && o.startTime && o.endTime,
+    );
+    const lifecycle = programLifecycle(r, now);
+    const date = next
+      ? `${r.program.occurrences.length > 1 || r.program.recurrences?.length ? 'Next session: ' : ''}${next.date}`
+      : lifecycle === 'completed'
+        ? 'This program has completed. Confirm future offerings with the provider.'
+        : undefined;
+    const { startDate, endDate } = r.program;
+    const serviceWindow =
+      !next &&
+      lifecycle !== 'completed' &&
+      ['range', 'service'].includes(r.program.kind) &&
+      (startDate || endDate)
+        ? `Guide service window${r.program.manualReviewRequired ? ' (confirm dates with provider)' : ''}: ${
+            startDate && endDate
+              ? `${startDate}–${endDate}`
+              : startDate
+                ? `from ${startDate}; end date not published`
+                : `through ${endDate}; start date not published`
+          }`
+        : undefined;
+    return [
+      r.poster?.title ?? r.shortTitle ?? r.title,
+      date,
+      serviceWindow,
+      next ? `${occurrenceTimeLabel(next)} · Pacific time` : undefined,
+      next ? occurrenceLocationLabel(next) : undefined,
+      r.summary,
+      ...(!next && lifecycle !== 'completed' ? (r.poster?.facts ?? []) : []),
+      ...(r.poster?.conditions ?? []),
+      r.program.manualReviewRequired && !serviceWindow
+        ? 'Some source details need confirmation.'
+        : undefined,
+      r.term,
+      `Source: ${r.provider?.name ?? r.sourceName}`,
+    ]
+      .filter((value, index, values) => value && values.indexOf(value) === index)
+      .join('\n');
+  }
   if (r.poster) {
     const safeLink = r.highImpact && r.verification?.status !== 'reviewed';
     return [
