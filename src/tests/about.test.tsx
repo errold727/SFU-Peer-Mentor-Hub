@@ -19,13 +19,13 @@ describe('About', () => {
     expect(author).toHaveTextContent('third-year Computing Science and Linguistics joint major');
     expect(author).toHaveTextContent('Developer · FASS Peer Mentor');
     expect(within(author).getByRole('link', { name: 'zda32@sfu.ca' })).toHaveAttribute(
-      'href',
-      'mailto:zda32@sfu.ca',
-    );
-    expect(within(author).getByRole('link', { name: 'GitHub ↗' })).toHaveAttribute(
-      'href',
-      'https://github.com/errold727',
-    );
+    'href',
+    'mailto:zda32@sfu.ca',
+);
+
+    expect(
+  within(author).queryByRole('link', { name: 'GitHub ↗' }),
+).not.toBeInTheDocument();
     expect(
       screen.getByRole('link', { name: 'Learn about FASS Peer Mentorship ↗' }),
     ).toHaveAttribute(
