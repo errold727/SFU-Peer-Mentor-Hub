@@ -1,4 +1,4 @@
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect, type Page } from './fixtures/mentor';
 import { readFile } from 'node:fs/promises';
 async function png(page: Page) {
   const wait = page.waitForEvent('download');
@@ -84,7 +84,9 @@ test('canvas supports pointer dragging and resizing; higher resolution and lands
 test('all templates load editable content and QR code exports render', async ({ page }) => {
   await page.goto('./#/poster/templates');
   await expect(page.getByRole('button', { name: 'Use template' })).toHaveCount(16);
-  await page.getByRole('button', { name: 'Use template: Weekly Check-In Newsletter', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Use template: Weekly Check-In Newsletter', exact: true })
+    .click();
   await page.getByLabel('Recipient first name').fill('Avery');
   await page.getByRole('button', { name: 'Sections', exact: true }).click();
   await page.locator('.section-select').filter({ hasText: 'Greeting' }).click();

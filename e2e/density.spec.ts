@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 
 test('desktop course density preserves grouping, source disclosure and compact actions', async ({
   page,

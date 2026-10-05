@@ -1,4 +1,4 @@
-import { expect, test, type Locator, type Page } from '@playwright/test';
+import { expect, test, type Locator, type Page } from './fixtures/mentor';
 import AxeBuilder from '@axe-core/playwright';
 import { installTimetableFixtures } from './fixtures/timetable';
 
@@ -177,7 +177,8 @@ test('timetable: desktop shared selection survives filters, pages, details and i
       local: Object.keys(localStorage),
       session: Object.keys(sessionStorage),
     })),
-  ).toEqual({ local: [], session: [] });
+  ).toEqual({ local: [], session: ['pmh-role'] });
+  expect(await page.evaluate(() => sessionStorage.getItem('pmh-role'))).toBe('mentor');
   expect(new URL(page.url()).hash).toBe('#/course-planner');
   expect(new URL(page.url()).search).toBe('');
   expect(observed.external).toEqual([]);

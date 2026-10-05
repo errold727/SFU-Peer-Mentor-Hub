@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import type { CourseManifest, CourseOffering, OfferingDataset } from '../src/course/courseTypes';
 
 test('enrollment poster rows distinguish identical sections across terms and retain editable presentation and sources', async ({

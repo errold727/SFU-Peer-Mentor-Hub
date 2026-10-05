@@ -1,4 +1,4 @@
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures/mentor';
 import { mkdir, readFile } from 'node:fs/promises';
 
 const fraser = 'Fraser Library — Surrey quiet and silent study';

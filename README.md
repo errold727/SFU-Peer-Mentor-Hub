@@ -16,11 +16,15 @@ A peer-created tool for SFU Peer Mentors. **Find → Select → Create**: find p
 
 ## Privacy architecture
 
-There is **no backend, login, analytics, mentee database, student profile, mentor/mentee assignment, communication history or central recipient storage**.
+There is **no backend, account authentication, analytics, mentee database, student profile, mentor/mentee assignment, communication history or central recipient storage**.
+
+The entry screen offers Peer Mentor or Mentee / Student access. Mentors enter a code checked locally using SHA-256; students share the same Course Planner and About pages with poster actions hidden. Mentor routes are guarded before their components mount. Switch role returns to the entry screen. Only `pmh-role` (`mentor` or `mentee`) is stored in `sessionStorage`; the code and attempts are never logged, stored or transmitted. If session storage is unavailable, the current role remains in memory until refresh. Existing in-memory editing and planning work is preserved on role switches.
+
+**This mentor access code is a lightweight client-side access gate. It is not secure authentication and must not protect confidential data.** Hashing does not make it secure: all shipped assets and browser session state remain inspectable and editable. No confidential mentee records belong in this application.
 
 The three Zustand stores are memory-only. Course section selections survive internal navigation and remain separate by term; a full refresh clears them along with the active basket, editor, uploaded images and recipient field. Recipient placeholders resolve only for rendering. The editor makes no third-party requests: QR images are generated locally and image uploads become local data URLs. Planning choices are never written into storage, shared URLs or network requests.
 
-`src/poster/drafts.ts` is the only persistence boundary. It writes only after explicit Save locally or Duplicate actions. The recipient field is excluded by default; checking the personalized-draft option explicitly includes it. All manually entered poster text, hidden layers and images are part of an intentionally saved draft, so review them on shared devices. Drafts are never restored automatically and can be individually or entirely deleted. They are not encrypted, synced or backed up; browser data clearing removes them. Storage is limited to 20 drafts and approximately 4 million serialized characters, subject to browser quota. Invalid/remote-image draft payloads are rejected.
+`src/poster/drafts.ts` is the only poster-content persistence boundary. It writes only after explicit Save locally or Duplicate actions. The recipient field is excluded by default; checking the personalized-draft option explicitly includes it. All manually entered poster text, hidden layers and images are part of an intentionally saved draft, so review them on shared devices. Drafts are never restored automatically and can be individually or entirely deleted. They are not encrypted, synced or backed up; browser data clearing removes them. Storage is limited to 20 drafts and approximately 4 million serialized characters, subject to browser quota. Invalid/remote-image draft payloads are rejected.
 
 PNG/PDF downloads contain the visible text the user chose. A recipient name may appear in the local filename and pixels. There is no embedded editable poster model, hidden recipient JSON or custom personal metadata. GitHub serves static assets and may retain ordinary hosting logs; this app never sends editor content or recipient names to GitHub.
 

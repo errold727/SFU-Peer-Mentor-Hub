@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import AxeBuilder from '@axe-core/playwright';
 for (const width of [375, 390, 768, 1024, 1440]) {
   test(`responsive and accessible routes at ${width}px`, async ({ page }) => {

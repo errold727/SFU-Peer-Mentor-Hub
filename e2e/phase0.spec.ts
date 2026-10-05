@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 import { readFile } from 'node:fs/promises';
 test('resource to editable poster, PNG/PDF export, and temporary recipient', async ({ page }) => {
   const errors: string[] = [];

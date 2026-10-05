@@ -1,4 +1,4 @@
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect, type Page } from './fixtures/mentor';
 async function ready(page: Page) {
   await expect(page.locator('.course-card').first()).toBeVisible();
   await expect(page.getByText('Loading course offerings…')).toHaveCount(0);

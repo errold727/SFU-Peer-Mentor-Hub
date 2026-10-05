@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures/mentor';
 test('poster start, blank setup, sixteen real template previews and newsletter loading', async ({
   page,
 }) => {
