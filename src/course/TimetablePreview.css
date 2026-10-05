@@ -28,7 +28,6 @@
   padding: 11px 16px;
   gap: 12px;
   text-align: left;
-  animation: timetable-appear 150ms ease-out;
 }
 .timetable-launcher:hover {
   background: var(--sfu-red-dark);
@@ -51,25 +50,15 @@
   padding: 0 7px;
   font-size: 13px;
 }
-@keyframes timetable-appear {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 dialog.timetable-dialog[open] {
-  width: min(95vw, 1500px);
-  max-width: 95vw;
-  height: 90dvh;
-  max-height: 90dvh;
-  padding: 20px;
+  width: min(96vw, 1800px);
+  max-width: 96vw;
+  height: 94dvh;
+  max-height: 94dvh;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   overflow: hidden;
   background: var(--paper);
 }
@@ -79,6 +68,11 @@ dialog.timetable-dialog[open] {
 }
 .timetable-dialog > header h2 {
   margin: 0;
+  font-size: 22px;
+}
+.timetable-dialog > header button {
+  min-height: 34px;
+  padding: 5px 10px;
 }
 .timetable-toolbar {
   display: flex;
@@ -109,19 +103,24 @@ dialog.timetable-dialog[open] {
 }
 .timetable-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 275px;
-  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) 224px;
+  gap: 12px;
   min-height: 0;
   flex: 1;
-  overflow: auto;
+  overflow: hidden;
 }
 .timetable-calendar-panel,
 .timetable-side {
   min-width: 0;
+  min-height: 0;
+}
+.timetable-calendar-panel > .timetable-preview {
+  height: 100%;
 }
 .timetable-side {
   overflow: auto;
-  padding: 1px 5px 5px;
+  padding: 1px 4px 5px;
+  scrollbar-gutter: stable;
 }
 .timetable-side p {
   font-size: 13px;
@@ -131,8 +130,9 @@ dialog.timetable-dialog[open] {
 .timetable-conflict-details > summary {
   cursor: pointer;
   font-weight: 700;
-  min-height: 44px;
-  padding: 9px 0;
+  min-height: 36px;
+  padding: 7px 0;
+  font-size: 13px;
 }
 .timetable-selections ul,
 .timetable-meeting-details ul,
@@ -145,7 +145,7 @@ dialog.timetable-dialog[open] {
 .timetable-meeting-details li,
 .timetable-conflict-details li {
   border-bottom: 1px solid var(--border);
-  padding: 10px 0;
+  padding: 8px 0;
   overflow-wrap: anywhere;
 }
 .timetable-section-name {
@@ -156,6 +156,34 @@ dialog.timetable-dialog[open] {
   background: transparent;
   color: var(--sfu-red);
   display: block;
+  min-height: 32px;
+  font-size: 12px;
+}
+.timetable-selection-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 4px;
+}
+.timetable-selections li[data-conflict='true'] {
+  border: 1px solid #bb5362;
+  border-left: 3px solid var(--sfu-red);
+  border-radius: 5px;
+  padding: 6px;
+  margin: 6px 0;
+  background: #fff3f3;
+}
+.timetable-selection-conflict {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  flex: none;
+  padding: 2px 3px;
+  background: #f8dce1;
+  color: #8e1730;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
 }
 .timetable-section-name > span,
 .timetable-meeting-details li span,
@@ -166,10 +194,20 @@ dialog.timetable-dialog[open] {
 }
 .timetable-selections li > p {
   white-space: pre-line;
+  font-size: 12px;
+  line-height: 1.35;
+  margin: 3px 0;
+}
+.timetable-selections li > button {
+  min-height: 28px;
+  padding: 3px 7px;
+  font-size: 11px;
 }
 .timetable-clear {
   font-size: 13px;
   width: 100%;
+  min-height: 32px;
+  padding: 5px 8px;
 }
 .timetable-clear-confirm {
   padding: 8px;
@@ -184,8 +222,8 @@ dialog.timetable-dialog[open] {
   color: var(--sfu-red-dark);
 }
 .timetable-meeting-details {
-  padding: 12px;
-  margin-bottom: 12px;
+  padding: 9px;
+  margin-bottom: 8px;
   background: white;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -233,6 +271,10 @@ dialog.timetable-dialog[open] {
 @media (max-width: 1099px) {
   .timetable-workspace {
     display: block;
+    overflow: auto;
+  }
+  .timetable-calendar-panel > .timetable-preview {
+    height: auto;
   }
   .timetable-side {
     overflow: visible;
@@ -264,6 +306,7 @@ dialog.timetable-dialog[open] {
   }
   .timetable-dialog > header button,
   .timetable-side button,
+  .timetable-selections li > button,
   .timetable-empty button {
     min-height: 44px;
   }

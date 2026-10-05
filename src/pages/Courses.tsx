@@ -435,11 +435,11 @@ export default function Courses() {
                             aria-pressed={chosen}
                           >
                             {chosen && <Check size={14} />}
-                            {chosen ? 'Selected' : '+ Compare'}
+                            {chosen ? 'Added' : 'Add'}
                           </button>
                           {mentor && (
                             <button className="tertiary" onClick={() => add(c)} disabled={added}>
-                              {added ? 'Added' : 'Poster'}
+                              {added ? 'In Poster' : 'Add to Poster'}
                             </button>
                           )}
                           <button
@@ -512,7 +512,7 @@ export default function Courses() {
           )}
         </div>
         {clearPending && (
-          <div className="notice" role="group" aria-label="Confirm clear comparison">
+          <div className="notice" role="group" aria-label="Confirm clear selections">
             <p>Remove selections for {browsedTerm}? Choices in other terms will remain.</p>
             <div className="actions">
               <button
@@ -529,7 +529,7 @@ export default function Courses() {
         )}
         {!selected.length ? (
           <div className="empty-state">
-            <p>Select sections to compare schedules. Selection is temporary.</p>
+            <p>Add sections to build your timetable. Selections are temporary.</p>
           </div>
         ) : (
           <>
@@ -538,7 +538,7 @@ export default function Courses() {
                 <li key={courseId(c)}>
                   {c.code} {c.section} · {c.term}{' '}
                   <button
-                    aria-label={`Remove ${c.code} ${c.section} ${c.term} from comparison`}
+                    aria-label={`Remove ${c.code} ${c.section} ${c.term} from selections`}
                     onClick={() => removeSelectedSection(courseId(c))}
                   >
                     <X size={16} />
@@ -587,14 +587,14 @@ export default function Courses() {
               </p>
             )}
             <details>
-              <summary>Compare offering details</summary>
+              <summary>Offering details</summary>
               {comparisonPages > 1 && (
                 <div className="comparison-detail-controls">
                   <button
                     disabled={activeComparisonPage === 0}
                     onClick={() => setComparisonPage(activeComparisonPage - 1)}
                   >
-                    Previous comparison
+                    Previous sections
                   </button>
                   <span>
                     Sections {activeComparisonPage * 4 + 1}–
@@ -604,7 +604,7 @@ export default function Courses() {
                     disabled={activeComparisonPage >= comparisonPages - 1}
                     onClick={() => setComparisonPage(activeComparisonPage + 1)}
                   >
-                    Next comparison
+                    Next sections
                   </button>
                 </div>
               )}
@@ -612,12 +612,12 @@ export default function Courses() {
                 className="table-scroll comparison-table"
                 tabIndex={0}
                 role="region"
-                aria-label="Course comparison table, scroll horizontally"
+                aria-label="Selected offering details, scroll horizontally"
               >
                 <table>
                   <thead>
                     <tr>
-                      <th>Compare offerings</th>
+                      <th>Selected offerings</th>
                       {compared.map((c) => (
                         <th key={courseId(c)}>
                           {c.code} {c.section}
@@ -706,13 +706,12 @@ export default function Courses() {
           <div className="actions">
             <button
               aria-disabled={!!busy}
+              aria-pressed={selected.some((c) => courseId(c) === courseId(detail))}
               onClick={() => {
                 if (!busy) void toggle(detail);
               }}
             >
-              {selected.some((c) => courseId(c) === courseId(detail))
-                ? 'Remove from Comparison'
-                : 'Add to Comparison'}
+              {selected.some((c) => courseId(c) === courseId(detail)) ? 'Added' : 'Add'}
             </button>
             {mentor && <button onClick={() => add(detail)}>Add to Poster</button>}
           </div>

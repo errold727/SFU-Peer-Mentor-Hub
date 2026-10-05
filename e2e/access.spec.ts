@@ -223,8 +223,8 @@ test('access: mobile student course details, selections, conflicts and timetable
   for (const code of ['TEST 101', 'TEST 102']) {
     await page.getByRole('textbox', { name: 'Find a course', exact: true }).fill(code);
     const card = page.getByRole('article', { name: `${code} D100`, exact: true });
-    await card.getByRole('button', { name: '+ Compare', exact: true }).click();
-    await expect(card.getByRole('button', { name: 'Selected', exact: true })).toHaveAttribute(
+    await card.getByRole('button', { name: 'Add', exact: true }).click();
+    await expect(card.getByRole('button', { name: 'Added', exact: true })).toHaveAttribute(
       'aria-pressed',
       'true',
     );
@@ -242,7 +242,9 @@ test('access: mobile student course details, selections, conflicts and timetable
   await expect(dialog).toBeVisible();
   await expect(dialog.getByTestId('timetable-meeting')).toHaveCount(4);
   await expect(dialog.locator('.timetable-status')).toContainText('1 conflicting section pair');
-  await expect(dialog.locator('[data-conflict="true"]')).toHaveCount(2);
+  await expect(
+    dialog.locator('[data-testid="timetable-meeting"][data-conflict="true"]'),
+  ).toHaveCount(2);
   await expectNoPosterActions(page);
   await dialog.getByRole('button', { name: 'Close timetable', exact: true }).click();
   await expect(page.getByRole('button', { name: /^View Timetable/ })).toBeFocused();

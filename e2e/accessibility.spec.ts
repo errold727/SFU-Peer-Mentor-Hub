@@ -89,9 +89,9 @@ test('mobile comparison and detail drawer stay within the viewport', async ({ pa
   await page.goto('./#/course-planner');
   await page.getByLabel('Find a course').fill('ENGL 211');
   await page.getByRole('combobox', { name: 'Sections', exact: true }).selectOption('Enrollment');
-  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Add', exact: true }).first().click();
   await page.getByLabel('Find a course').fill('ENGL 234');
-  await page.getByRole('button', { name: '+ Compare', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Add', exact: true }).first().click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
     true,

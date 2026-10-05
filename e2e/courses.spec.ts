@@ -19,18 +19,22 @@ test('all-subject search, section details, conflict, cross-subject comparison an
   await expect(page.getByRole('dialog')).toContainText('prerequisites');
   await expect(page.getByRole('dialog')).toContainText('snapshot');
   await page.getByRole('button', { name: 'Close details' }).click();
-  await first.getByRole('button', { name: '+ Compare' }).click();
+  await first.getByRole('button', { name: 'Add', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Selected sections (1)' })).toBeVisible();
   await page.getByLabel('Find a course').fill('ENGL 234');
   await page
     .getByRole('article', { name: 'ENGL 234 D100', exact: true })
-    .getByRole('button', { name: '+ Compare' })
+    .getByRole('button', { name: 'Add', exact: true })
     .click();
   await expect(page.getByText('Schedule Conflict', { exact: true })).toBeVisible();
   await page.getByRole('combobox', { name: 'Subject', exact: true }).selectOption('CMPT');
   await page.getByLabel('Find a course').fill('CMPT 354');
   await ready(page);
-  await page.locator('.course-card').first().getByRole('button', { name: '+ Compare' }).click();
+  await page
+    .locator('.course-card')
+    .first()
+    .getByRole('button', { name: 'Add', exact: true })
+    .click();
   await expect(page.getByRole('heading', { name: 'Selected sections (3)' })).toBeVisible();
   await page.getByRole('button', { name: /^View Timetable/ }).click();
   await expect(page.getByRole('dialog', { name: 'My Timetable' })).toContainText('ENGL 211');

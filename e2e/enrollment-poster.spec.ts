@@ -42,8 +42,8 @@ test('enrollment poster rows distinguish identical sections across terms and ret
       'href',
       course.courSysUrl!,
     );
-    await card.getByRole('button', { name: 'Poster', exact: true }).click();
-    await expect(card.getByRole('button', { name: 'Added', exact: true })).toBeDisabled();
+    await card.getByRole('button', { name: 'Add to Poster', exact: true }).click();
+    await expect(card.getByRole('button', { name: 'In Poster', exact: true })).toBeDisabled();
   }
   await page.getByRole('link', { name: 'Poster Content (2) →', exact: true }).click();
   await page.getByRole('link', { name: 'Browse Templates', exact: true }).click();
