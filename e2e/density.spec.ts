@@ -43,11 +43,14 @@ test('home exposes current resources and editor exposes canvas above the desktop
   page,
 }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
+  await page.clock.setFixedTime(new Date('2026-10-05T15:00:00Z'));
   await page.goto('./');
   for (const name of ['Search Resources', 'Create Poster', 'Course Planner'])
     await expect(page.locator('.hero').getByRole('link', { name, exact: true })).toBeVisible();
-  const resource = (await page.locator('.resource-card').first().boundingBox())!;
-  expect(resource.y + resource.height).toBeLessThan(900);
+  const upcoming = page.locator('.this-week-list > li');
+  await expect(upcoming).toHaveCount(6);
+  const lastEvent = (await upcoming.last().boundingBox())!;
+  expect(lastEvent.y + lastEvent.height).toBeLessThan(900);
   await page.locator('.hero').getByRole('link', { name: 'Create Poster', exact: true }).click();
   await page.getByRole('button', { name: 'Create Blank Poster', exact: true }).click();
   await page.getByRole('button', { name: 'Create Poster', exact: true }).click();
