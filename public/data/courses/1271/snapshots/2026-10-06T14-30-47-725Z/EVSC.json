@@ -1,0 +1,963 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "100",
+      "code": "EVSC 100",
+      "section": "B100",
+      "title": "Environmental Science",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 300,
+        "waitlistCount": 0,
+        "raw": "0/300"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/100/b100",
+      "outlineRetrievedAt": "2026-10-06T14:38:03.689Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Introduces students to the study of environmental science. Lecture material spans contributing disciplines, emphasizing integration of diverse concepts to understand environmental problems. Tutorials develop core academic skills in environmental science context.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4690",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "201W",
+      "code": "EVSC 201W",
+      "section": "D100",
+      "title": "Environ. Science in Practice",
+      "instructors": [
+        "Rosengard, Sarah",
+        "Venditti, Jeremy"
+      ],
+      "instructor": "Rosengard, Sarah; Venditti, Jeremy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/201w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/201w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:03.986Z",
+      "prerequisiteText": "EVSC 100.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "A survey of environmental science practice that exposes students to what environmental scientists do, with guest lectures from environmental scientists and practitioners across contributing disciplines and workplaces. Coursework emphasizes literature research, analysis and synthesis along with scientific writing and communication skills.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4688",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "300",
+      "code": "EVSC 300",
+      "section": "D100",
+      "title": "Environmental Investigations",
+      "instructors": [
+        "Rosengard, Sarah"
+      ],
+      "instructor": "Rosengard, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/300/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:04.288Z",
+      "prerequisiteText": "A minimum of 45 units of courses or permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Provides students the opportunity to investigate environmental science topics in depth, through hands-on projects, learning to formulate research questions that are testable with data. Students will learn to evaluate competing hypotheses, integrate multiple evidence sources, explore data, and apply modern methods to environmental challenges.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4694",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "320",
+      "code": "EVSC 320",
+      "section": "D100",
+      "title": "Watershed Ecology",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/320/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/320/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:04.585Z",
+      "prerequisiteText": "BISC 204, REM 211, or GEOG 215.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Watersheds are fundamental organizational units on the landscape for physical processes, biological communities, and management. They also deliver many services that humans rely on. This course is intended to introduce students to landscape-scale thinking and spatial ecology, and teaches physical and biological approaches in watershed science.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4693",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "350",
+      "code": "EVSC 350",
+      "section": "D100",
+      "title": "Isotopes of Human Impact",
+      "instructors": [
+        "Rosengard, Sarah"
+      ],
+      "instructor": "Rosengard, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 39,
+        "waitlistCount": 0,
+        "raw": "0/39"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/350/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/350/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:04.883Z",
+      "prerequisiteText": "One of EVSC 100 or GEOG 111 or EASC 101 or REM 100; and one of Chemistry 12 (or equivalent) or CHEM 120 or CHEM 121.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Inspects the record of human impact on the environment by diving into the subatomic world of isotopes. Students will study modern local/global case studies from mapping Pacific food webs to the Fukushima nuclear disaster. Students will develop a diverse “isotope toolbox” for understanding different environmental issues and controversies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4696",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "391",
+      "code": "EVSC 391",
+      "section": "D100",
+      "title": "Directed Study in Environ. Sci",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/391/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/391/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:05.188Z",
+      "prerequisiteText": "60 units, 3.0 cumulative grade point average.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent study on environmental topics selected in consultation with the supervising instructor. A directed study proposal must be completed and approved by the instructor and the EVSC Director prior to registration. Students may take this course only once. Variable units: 1, 2, 3, 4, 5, 6, 7, 8.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4695",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "400",
+      "code": "EVSC 400",
+      "section": "D100",
+      "title": "Environmental Science Capstone",
+      "instructors": [
+        "Venditti, Jeremy"
+      ],
+      "instructor": "Venditti, Jeremy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/400/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/400/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:05.486Z",
+      "prerequisiteText": "EVSC 300 and EVSC 305.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "In the final year of undergraduate study, students from all Environmental Science concentrations will integrate their disciplinary, science backgrounds to solve environmental problems. Project-based coursework will promote collaborative group work, emphasizing research skills, data analysis, scientific writing and communication, preparing students for employment as Environmental Scientists.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4689",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "410",
+      "code": "EVSC 410",
+      "section": "D100",
+      "title": "River Restoration",
+      "instructors": [
+        "Chartrand, Shawn"
+      ],
+      "instructor": "Chartrand, Shawn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 29,
+        "waitlistCount": 0,
+        "raw": "0/29"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 610 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/410/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:05.788Z",
+      "prerequisiteText": "One of EVSC 100, REM 100, EASC 101, or GEOG 111; and one of CHEM 122, PHYS 102, PHYS 121, or PHYS 141; and one of MATH 152, MATH 155, MATH 158, or REM 225; or permission of the instructor. Recommended: GEOG 313.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An overview of watersheds, hydrology and rivers providing common knowledge concerning fluvial systems. How basic science philosophy relates to river restoration. River restoration practice from technical analysis to monitoring and adaptation. Students will develop their own river restoration plan, focusing on use of simple computing and open source software.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4692",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "489",
+      "code": "EVSC 489",
+      "section": "D100",
+      "title": "Environmental Science Thesis I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/489/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/489/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:06.092Z",
+      "prerequisiteText": "EVSC 305, 90 units and consent of EVSC Director.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent research on an environmental science topic, undertaken under the supervision of SFU faculty with the permission of the EVSC Director.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4697",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "490W",
+      "code": "EVSC 490W",
+      "section": "D100",
+      "title": "Environmental Sci. Thesis II",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/490w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/490w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:06.387Z",
+      "prerequisiteText": "EVSC 305, EVSC 489, 90 units and consent of EVSC Director.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Independent research on an environmental science topic, undertaken under the supervision of SFU faculty with the permission of the EVSC Director.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4698",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "491",
+      "code": "EVSC 491",
+      "section": "D100",
+      "title": "Directed Study in Environ. Sci",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/491/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:06.691Z",
+      "prerequisiteText": "60 units, 3.0 cumulative grade point average.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent study on environmental topics selected in consultation with the supervising instructor. A directed study proposal must be completed and approved by the instructor and the Director prior to registration. Students may take this course only once. Variable units: 1, 2, 3, 4, 5, 6, 7, 8.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4699",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "495",
+      "code": "EVSC 495",
+      "section": "D100",
+      "title": "Special Topics in Environ. Sci",
+      "instructors": [
+        "Joy, Ruth"
+      ],
+      "instructor": "Joy, Ruth",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 695 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/495/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:06.989Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A specific topic within the field of Environment not examined in depth in regular courses. This course will provide students with understanding, perspective and experience in emerging and important areas of environment. Variable units: 4, 5, 6, 7, 8.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4691",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "608",
+      "code": "EVSC 608",
+      "section": "G100",
+      "title": "Environmental Science Seminar",
+      "instructors": [
+        "Venditti, Jeremy"
+      ],
+      "instructor": "Venditti, Jeremy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 808 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/608/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/608/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:07.286Z",
+      "units": "1",
+      "description": "Students are required to attend the seminar series and provide brief written summaries of series. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4720",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "610",
+      "code": "EVSC 610",
+      "section": "G100",
+      "title": "Advanced River Restoration",
+      "instructors": [
+        "Chartrand, Shawn"
+      ],
+      "instructor": "Chartrand, Shawn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 410 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/610/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/610/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:07.586Z",
+      "units": "4",
+      "description": "The topic of this course is river restoration including: basis of river restoration in physical science, the basic structure of river corridors and systems emphasizing mountain rivers, and the restoration process covering differing approaches to river restoration, development of plans, budget and contract management and post-project monitoring.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4723",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "691",
+      "code": "EVSC 691",
+      "section": "G100",
+      "title": "Directed Study in EVSC",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/691/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/691/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:07.886Z",
+      "units": "3",
+      "description": "Independent study on environmental topics selected in consultation with the supervising instructor. Variable units: 1, 2, 3, 4.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4721",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "695",
+      "code": "EVSC 695",
+      "section": "G100",
+      "title": "Special Topics in Environ. Sci",
+      "instructors": [
+        "Joy, Ruth"
+      ],
+      "instructor": "Joy, Ruth",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 495 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/695/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/695/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:08.189Z",
+      "units": "4",
+      "description": "A specific topic within the field of Environment not examined in depth in regular courses. Students will learn emerging and important areas of the environment. Students may repeat this course for further credit under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4722",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "698",
+      "code": "EVSC 698",
+      "section": "G100",
+      "title": "MSc Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/698/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/698/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:08.488Z",
+      "prerequisiteText": "Enrolled in the master of science in environmental science program.",
+      "units": "18",
+      "description": "Thesis course for master's in environmental science. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4718",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "698",
+      "code": "EVSC 698",
+      "section": "G200",
+      "title": "MSc Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/698/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/698/g200",
+      "outlineRetrievedAt": "2026-10-06T14:38:08.785Z",
+      "prerequisiteText": "Enrolled in the master of science in environmental science program.",
+      "units": "18",
+      "description": "Thesis course for master's in environmental science. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4729",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "808",
+      "code": "EVSC 808",
+      "section": "G100",
+      "title": "Environmental Science Seminar",
+      "instructors": [
+        "Venditti, Jeremy"
+      ],
+      "instructor": "Venditti, Jeremy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "EVSC 608 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/808/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/808/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:09.087Z",
+      "units": "1",
+      "description": "PhD students are required to attend the seminar series and provide brief written summaries of series. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4724",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "898",
+      "code": "EVSC 898",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/898/g100",
+      "outlineRetrievedAt": "2026-10-06T14:38:09.384Z",
+      "units": "18",
+      "description": "An examination into the general philosophical foundations of science, the nature of scientific disputes, and the relevance of these to environmental science. Topics covered include the following fundamental concepts: science, the scientific method, reliable knowledge, poor science, hypothetical-deductive approach, hypothesis testing and research design, and multiple knowledge systems. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4719",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "EVSC",
+      "courseNumber": "898",
+      "code": "EVSC 898",
+      "section": "G200",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=EVSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/evsc/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/evsc/898/g200",
+      "outlineRetrievedAt": "2026-10-06T14:38:09.682Z",
+      "units": "18",
+      "description": "An examination into the general philosophical foundations of science, the nature of scientific disputes, and the relevance of these to environmental science. Topics covered include the following fundamental concepts: science, the scientific method, reliable knowledge, poor science, hypothetical-deductive approach, hypothesis testing and research design, and multiple knowledge systems. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4730",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

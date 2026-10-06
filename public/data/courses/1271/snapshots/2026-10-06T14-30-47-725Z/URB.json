@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "201",
+      "code": "URB 201",
+      "section": "D100",
+      "title": "Urban Inquiry & Practice",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/201/d100",
+      "outlineRetrievedAt": "2026-10-06T14:45:21.460Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Effective inquiries in urban studies require the application of approaches to find, analyze, and communicate data about the city, its residents, and its functions. From these applications, they can become the keys to professional urban practices in careers that focus on examining cities.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4608",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "202",
+      "code": "URB 202",
+      "section": "OL01",
+      "title": "STT-Intro Age-Friendly Cities",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "GERO 202 OL01"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/202/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/202/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:45:21.761Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces age-friendly cities and communities through urban studies and gerontology. Students explore how neighbourhoods, services, policies, and everyday environments shape aging, with attention to WHO age-friendly domains, healthy aging, sustainability, equity, inclusion, and community change.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6528",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "413",
+      "code": "URB 413",
+      "section": "B100",
+      "title": "Indig City: Transf Storyscapes",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "URB 613 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/413/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/413/b100",
+      "outlineRetrievedAt": "2026-10-06T14:45:22.063Z",
+      "prerequisiteText": "30 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "Creative, critical ‘reading’ of the colonialism embedded within the stories, landscapes, and systems of the Canadian city, and the foundational place of Indigenous planning, laws, stories, and cultures in shaping sustainable decolonial futures. Focuses on Vancouver and its journey to being a “City of Reconciliation”, in the context of UNDRIP.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4609",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "499",
+      "code": "URB 499",
+      "section": "E100",
+      "title": "Urban Lab",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "URB 692 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/499/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/499/e100",
+      "outlineRetrievedAt": "2026-10-06T14:45:22.360Z",
+      "prerequisiteText": "60 units and permission of the instructor. Students should seek permission from the instructor prior to the term in which they wish to enroll.",
+      "units": "9",
+      "designation": "N/A",
+      "description": "Immersive capstone experience in organizational change processes with external urban laboratory organization. Students will learn and apply understandings of urban innovation, systemic and transformational change, and sustainability transitions. The lab course will consist of lectures, discussions and exercises, intensive reading, extensive time in the field, and preparing a team-based project.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6415",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "613",
+      "code": "URB 613",
+      "section": "G100",
+      "title": "Indig City: Transf Storyscapes",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "URB 413 B1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/613/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/613/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:22.664Z",
+      "units": "4",
+      "description": "Creative, critical ‘reading’ of the colonialism embedded within the stories, landscapes, and systems of the Canadian city, and the foundational place of Indigenous planning, laws, stories, and cultures in shaping sustainable decolonial futures. Focuses on Vancouver and its journey to being a “City of Reconciliation”, within the current context of UNDRIP.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4610",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "630",
+      "code": "URB 630",
+      "section": "G100",
+      "title": "Devel.Plan.Policy",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "0/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/630/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/630/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:22.960Z",
+      "units": "4",
+      "description": "The focus of this course is the evolving relationship between state interventions into the city, and dynamics of urban development. The class emphasizes the historical context to urban planning and policy, with particular reference to the Canadian city.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4617",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "692",
+      "code": "URB 692",
+      "section": "G100",
+      "title": "Urban Innovation Lab",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "URB 499 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/692/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/692/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:23.260Z",
+      "prerequisiteText": "Enrollment in either GDUS or MURB or permission of instructor.",
+      "units": "6",
+      "description": "lmmersive field course in organizational change processes with external urban laboratory organization. Students will learn and apply understandings of urban innovation, systemic and transformational change, and sustainability transitions. The course consists of lectures, discussions and exercises, intensive reading, extensive time in the field, and preparing a team-based project.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6416",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "693",
+      "code": "URB 693",
+      "section": "G100",
+      "title": "Directed Readings I",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "0/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/693/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/693/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:23.556Z",
+      "units": "2",
+      "description": "Supervised readings in an aspect of urban studies. Enrolment in URB 693 requires the prior approval of the Urban Studies Graduate Program Committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4616",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "694",
+      "code": "URB 694",
+      "section": "G100",
+      "title": "Directed Readings II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/694/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/694/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:23.859Z",
+      "units": "4",
+      "description": "Supervised readings in an aspect of urban studies. Enrolment in URB 694 requires the prior approval of the Urban Studies Graduate Program Committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4611",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "697",
+      "code": "URB 697",
+      "section": "G100",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 14,
+        "waitlistCount": 0,
+        "raw": "0/14"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/697/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/697/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:24.160Z",
+      "prerequisiteText": "URB 696 with a grade of A- or higher. Students who receive a B+ in URB 696 may enroll for URB 697 with permission of the Graduate Program Committee.",
+      "units": "10",
+      "description": "A research project on some aspect of urban studies supervised by a faculty member with the participation of a supervisory committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4612",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "697",
+      "code": "URB 697",
+      "section": "G200",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 6,
+        "waitlistCount": 0,
+        "raw": "0/6"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/697/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/697/g200",
+      "outlineRetrievedAt": "2026-10-06T14:45:24.462Z",
+      "prerequisiteText": "URB 696 with a grade of A- or higher. Students who receive a B+ in URB 696 may enroll for URB 697 with permission of the Graduate Program Committee.",
+      "units": "10",
+      "description": "A research project on some aspect of urban studies supervised by a faculty member with the participation of a supervisory committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4613",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "697",
+      "code": "URB 697",
+      "section": "G300",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 14,
+        "waitlistCount": 0,
+        "raw": "0/14"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/697/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/697/g300",
+      "outlineRetrievedAt": "2026-10-06T14:45:24.788Z",
+      "prerequisiteText": "URB 696 with a grade of A- or higher. Students who receive a B+ in URB 696 may enroll for URB 697 with permission of the Graduate Program Committee.",
+      "units": "10",
+      "description": "A research project on some aspect of urban studies supervised by a faculty member with the participation of a supervisory committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4614",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "697",
+      "code": "URB 697",
+      "section": "G400",
+      "title": "Research Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 6,
+        "waitlistCount": 0,
+        "raw": "0/6"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/697/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/697/g400",
+      "outlineRetrievedAt": "2026-10-06T14:45:25.067Z",
+      "prerequisiteText": "URB 696 with a grade of A- or higher. Students who receive a B+ in URB 696 may enroll for URB 697 with permission of the Graduate Program Committee.",
+      "units": "10",
+      "description": "A research project on some aspect of urban studies supervised by a faculty member with the participation of a supervisory committee. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4615",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "701",
+      "code": "URB 701",
+      "section": "G100",
+      "title": "Co-operative Education I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/701/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/701/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:25.359Z",
+      "prerequisiteText": "Enrollment in the M.URB program with a CGPA of at least of 3.0.",
+      "description": "The first term of work experience in the Urban Studies Program's Co-operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser University degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1410",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "701",
+      "code": "URB 701",
+      "section": "G200",
+      "title": "Co-operative Education I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/701/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/701/g200",
+      "outlineRetrievedAt": "2026-10-06T14:45:25.792Z",
+      "prerequisiteText": "Enrollment in the M.URB program with a CGPA of at least of 3.0.",
+      "description": "The first term of work experience in the Urban Studies Program's Co-operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser University degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1411",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "701",
+      "code": "URB 701",
+      "section": "I100",
+      "title": "Co-operative Education I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/701/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/701/i100",
+      "outlineRetrievedAt": "2026-10-06T14:45:26.015Z",
+      "prerequisiteText": "Enrollment in the M.URB program with a CGPA of at least of 3.0.",
+      "description": "The first term of work experience in the Urban Studies Program's Co-operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser University degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1412",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "702",
+      "code": "URB 702",
+      "section": "G100",
+      "title": "Co-operative Education II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/702/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/702/g100",
+      "outlineRetrievedAt": "2026-10-06T14:45:26.257Z",
+      "prerequisiteText": "Cooperative Education Practicum I and a CGPA of at least 3.0.",
+      "description": "A second term of work experience in the Urban Studies Program's Co-Operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser Univeristy degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1413",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "702",
+      "code": "URB 702",
+      "section": "G200",
+      "title": "Co-operative Education II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/702/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/702/g200",
+      "outlineRetrievedAt": "2026-10-06T14:45:26.561Z",
+      "prerequisiteText": "Cooperative Education Practicum I and a CGPA of at least 3.0.",
+      "description": "A second term of work experience in the Urban Studies Program's Co-Operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser Univeristy degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1414",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "URB",
+      "courseNumber": "702",
+      "code": "URB 702",
+      "section": "I100",
+      "title": "Co-operative Education II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=URB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/urb/702/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/urb/702/i100",
+      "outlineRetrievedAt": "2026-10-06T14:45:26.859Z",
+      "prerequisiteText": "Cooperative Education Practicum I and a CGPA of at least 3.0.",
+      "description": "A second term of work experience in the Urban Studies Program's Co-Operative Education Program for M.URB students. Units of this course do not count towards the units required for a Simon Fraser Univeristy degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1415",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

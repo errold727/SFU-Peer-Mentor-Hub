@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "COGS",
+      "courseNumber": "100",
+      "code": "COGS 100",
+      "section": "D100",
+      "title": "Exploring the Mind",
+      "instructors": [
+        "Anwarzai, Zara"
+      ],
+      "instructor": "Anwarzai, Zara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "0/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=COGS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cogs/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cogs/100/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:55.294Z",
+      "prerequisiteText": "Open to all students.",
+      "units": "3",
+      "designation": "Breadth-Humanities/Sciences",
+      "description": "This course provides a basic integrative overview of how cognitive science aspires to integrate the empirical findings, theories, and methods of psychology, neuroscience, linguistics, computing science and philosophy.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5423",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "COGS",
+      "courseNumber": "100",
+      "code": "COGS 100",
+      "section": "D900",
+      "title": "Exploring the Mind",
+      "instructors": [
+        "Alexandra Jewell"
+      ],
+      "instructor": "Alexandra Jewell",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=COGS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cogs/100/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cogs/100/d900",
+      "outlineRetrievedAt": "2026-10-06T14:35:55.585Z",
+      "prerequisiteText": "Open to all students.",
+      "units": "3",
+      "designation": "Breadth-Humanities/Sciences",
+      "description": "This course provides a basic integrative overview of how cognitive science aspires to integrate the empirical findings, theories, and methods of psychology, neuroscience, linguistics, computing science and philosophy.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5424",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "COGS",
+      "courseNumber": "110",
+      "code": "COGS 110",
+      "section": "D100",
+      "title": "Learning in Everyday Life",
+      "instructors": [
+        "Alexandra Jewell"
+      ],
+      "instructor": "Alexandra Jewell",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=COGS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cogs/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cogs/110/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:55.883Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "An introduction to learning and decision-making in everyday life. Projects in this course piggyback on each student's other coursework or outside interests and so are directly relevant to their personal circumstances. This course gives students the knowledge necessary to make any learning situation easier and more fun.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5425",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "COGS",
+      "courseNumber": "200",
+      "code": "COGS 200",
+      "section": "D100",
+      "title": "Foundations Cognitive Science",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=COGS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cogs/200/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cogs/200/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:56.190Z",
+      "prerequisiteText": "COGS 100.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to major empirical methods and theoretical frameworks for exploring the mind that examines some of the foundational debates that have fueled investigations over the past fifty years. Taking an interdisciplinary approach, the course illustrates how a convergence of ideas from psychology, philosophy, linguistics, and computer science has led to deep explanations of a range of cognitive science topics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5426",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "COGS",
+      "courseNumber": "300",
+      "code": "COGS 300",
+      "section": "D100",
+      "title": "Sel.Top. in Cognitive Science",
+      "instructors": [
+        "Alexandra Jewell"
+      ],
+      "instructor": "Alexandra Jewell",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=COGS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/cogs/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/cogs/300/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:56.492Z",
+      "prerequisiteText": "60 credits.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An interdisciplinary exploration of recent work on some special topic in cognitive science (such as vision, reasoning, connectionism, etc.)",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5427",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

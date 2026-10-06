@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLAN",
+      "courseNumber": "100",
+      "code": "PLAN 100",
+      "section": "D100",
+      "title": "Introduction to Planning",
+      "instructors": [
+        "Soma, Tammara"
+      ],
+      "instructor": "Soma, Tammara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 125,
+        "waitlistCount": 0,
+        "raw": "0/125"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plan/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plan/100/d100",
+      "outlineRetrievedAt": "2026-10-06T14:43:16.852Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Students will be exposed to a broad overview of the field of planning. The course will introduce students to the role of a planner while exploring the practice of planning (human settlements and community planning) in varying contexts within Canada and internationally.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3948",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLAN",
+      "courseNumber": "300",
+      "code": "PLAN 300",
+      "section": "D100",
+      "title": "Planning Methods and Analysis",
+      "instructors": [
+        "Tate, Laura"
+      ],
+      "instructor": "Tate, Laura",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plan/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plan/300/d100",
+      "outlineRetrievedAt": "2026-10-06T14:43:17.448Z",
+      "prerequisiteText": "PLAN 100 or PLAN 200.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Explores the qualitative and quantitative methods used by planners in both urban and regional settings. Students gain a basic understanding of approaches used for collecting, analyzing and communicating relevant-data between and within different communities. Introduces the roles of planners and other participants/actors in planning processes. Reviews issues in current professional planning practice and requirements for professional planning accreditation, including planners’ professional ethics and responsibility to the public interest.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3956",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLAN",
+      "courseNumber": "319",
+      "code": "PLAN 319",
+      "section": "D100",
+      "title": "Environmental and Planning Law",
+      "instructors": [
+        "Page, Devon"
+      ],
+      "instructor": "Page, Devon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLAN",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "REM 319 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plan/319/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plan/319/d100",
+      "outlineRetrievedAt": "2026-10-06T14:43:17.150Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Provides a practical introduction to the legal system governing the use and protection of the environment and planning and land use law in Canada. A central theme is the difference between the law on paper and the law in practice.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3953",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PLAN",
+      "courseNumber": "495",
+      "code": "PLAN 495",
+      "section": "D100",
+      "title": "Professional Planning Capstone",
+      "instructors": [
+        "Harrison, Scott"
+      ],
+      "instructor": "Harrison, Scott",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PLAN",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "REM 495 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/plan/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/plan/495/d100",
+      "outlineRetrievedAt": "2026-10-06T14:43:17.743Z",
+      "prerequisiteText": "PLAN 300, PLAN 302, CENV 302 or ENV 302, and 75 units; or with instructor permission. Students must be enrolled in the bachelor of environment in resource and environmental (planning) program.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Provides students with an opportunity to integrate the knowledge that they have gained through their undergraduate degree by working through the inception, development, and communication of a planning capstone project. Students will work collaboratively in class-based \"consulting firms\" to evaluate a planning issue and develop solutions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3957",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

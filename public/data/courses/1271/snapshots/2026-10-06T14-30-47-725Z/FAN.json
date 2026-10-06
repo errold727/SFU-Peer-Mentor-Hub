@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FAN",
+      "courseNumber": "X92",
+      "code": "FAN X92",
+      "section": "P100",
+      "title": "Analytcl/Quant Reasoning II",
+      "instructors": [
+        "Wills, Danielle"
+      ],
+      "instructor": "Wills, Danielle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fan/x92/p100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fan/x92/p100",
+      "outlineRetrievedAt": "2026-10-06T14:38:13.887Z",
+      "prerequisiteText": "FAN X91 with a grade of at least a C.",
+      "units": "2",
+      "designation": "N/A",
+      "description": "An in-depth look at mathematical reasoning, problem solving and math study skills. Develops students’ math study skills, confidence in their quantitative abilities, and to learn how understanding mathematics is both one of the keys to mastering other disciplines, and useful in everyday situations. Topics include language and notation of mathematics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5991",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FAN",
+      "courseNumber": "X99",
+      "code": "FAN X99",
+      "section": "D100",
+      "title": "Analytical/Quant Reasoning",
+      "instructors": [
+        "Tan, Sheena Miao Ying"
+      ],
+      "instructor": "Tan, Sheena Miao Ying",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 32,
+        "waitlistCount": 0,
+        "raw": "0/32"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fan/x99/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fan/x99/d100",
+      "outlineRetrievedAt": "2026-10-06T14:38:14.187Z",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Designed for students who need to upgrade their mathematical background in preparation for SFU Q courses. Also recommended for students who wish to refresh skills after several years away from mathematics. An in-depth look at what mathematics is; mathematical reasoning, problem solving and math study skills. Review of fundamental topics and concepts of mathematics and their real-world applications. This course aims to develop students' math study skills, confidence in their quantitative abilities, and to learn how understanding mathematics is both one of the keys to mastering other disciplines, and useful in everyday situations. Students who receive a grade less than a C on their first attempt may re-enroll. The offering of this course is for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6007",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FAN",
+      "courseNumber": "X99",
+      "code": "FAN X99",
+      "section": "D200",
+      "title": "Analytical/Quant Reasoning",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 32,
+        "waitlistCount": 0,
+        "raw": "0/32"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fan/x99/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fan/x99/d200",
+      "outlineRetrievedAt": "2026-10-06T14:38:14.490Z",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Designed for students who need to upgrade their mathematical background in preparation for SFU Q courses. Also recommended for students who wish to refresh skills after several years away from mathematics. An in-depth look at what mathematics is; mathematical reasoning, problem solving and math study skills. Review of fundamental topics and concepts of mathematics and their real-world applications. This course aims to develop students' math study skills, confidence in their quantitative abilities, and to learn how understanding mathematics is both one of the keys to mastering other disciplines, and useful in everyday situations. Students who receive a grade less than a C on their first attempt may re-enroll. The offering of this course is for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6008",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FAN",
+      "courseNumber": "X99",
+      "code": "FAN X99",
+      "section": "D300",
+      "title": "Analytical/Quant Reasoning",
+      "instructors": [
+        "Burrill, Sophie"
+      ],
+      "instructor": "Burrill, Sophie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 32,
+        "waitlistCount": 0,
+        "raw": "0/32"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fan/x99/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fan/x99/d300",
+      "outlineRetrievedAt": "2026-10-06T14:38:14.786Z",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Designed for students who need to upgrade their mathematical background in preparation for SFU Q courses. Also recommended for students who wish to refresh skills after several years away from mathematics. An in-depth look at what mathematics is; mathematical reasoning, problem solving and math study skills. Review of fundamental topics and concepts of mathematics and their real-world applications. This course aims to develop students' math study skills, confidence in their quantitative abilities, and to learn how understanding mathematics is both one of the keys to mastering other disciplines, and useful in everyday situations. Students who receive a grade less than a C on their first attempt may re-enroll. The offering of this course is for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6009",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FAN",
+      "courseNumber": "X99",
+      "code": "FAN X99",
+      "section": "E100",
+      "title": "Analytical/Quant Reasoning",
+      "instructors": [
+        "Wills, Danielle"
+      ],
+      "instructor": "Wills, Danielle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1160,
+          "displayStart": "5:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1160,
+          "displayStart": "5:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 32,
+        "waitlistCount": 0,
+        "raw": "0/32"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FAN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fan/x99/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fan/x99/e100",
+      "outlineRetrievedAt": "2026-10-06T14:38:15.088Z",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Designed for students who need to upgrade their mathematical background in preparation for SFU Q courses. Also recommended for students who wish to refresh skills after several years away from mathematics. An in-depth look at what mathematics is; mathematical reasoning, problem solving and math study skills. Review of fundamental topics and concepts of mathematics and their real-world applications. This course aims to develop students' math study skills, confidence in their quantitative abilities, and to learn how understanding mathematics is both one of the keys to mastering other disciplines, and useful in everyday situations. Students who receive a grade less than a C on their first attempt may re-enroll. The offering of this course is for credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6010",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

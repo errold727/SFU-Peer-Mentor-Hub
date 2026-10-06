@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-06T14:15:22.797Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "100",
+      "code": "WL 100",
+      "section": "D100",
+      "title": "Introduction World Literature",
+      "instructors": [
+        "Deggan, Mark"
+      ],
+      "instructor": "Deggan, Mark",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 40,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "40/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/100/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:45.574Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Explores how texts travel beyond their cultures of origin, influence other cultural contexts and ideas, and become works of world literature. Introduces the concepts of cross-cultural literary criticism and translation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6174",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "101W",
+      "code": "WL 101W",
+      "section": "D100",
+      "title": "Writing in World Literature",
+      "instructors": [
+        "Akinwumi, Joel"
+      ],
+      "instructor": "Akinwumi, Joel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 39,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "39/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/101w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/101w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:45.877Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Explores literary texts from diverse linguistic and cultural origins while introducing students to the fundamentals of comparative literary analysis and critical writing. May examine cross-cultural interactions, or compare texts thematically.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6175",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "103W",
+      "code": "WL 103W",
+      "section": "D100",
+      "title": "Early World Literatures",
+      "instructors": [
+        "Mehri, Rastin"
+      ],
+      "instructor": "Mehri, Rastin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 33,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "33/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/103w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/103w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:46.181Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Introduces ways of comparing early world literatures across time and space. May explore fundamental themes such as love, heroism, or the underworld.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6176",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "201",
+      "code": "WL 201",
+      "section": "D100",
+      "title": "East/West Encounters",
+      "instructors": [
+        "Aguilera-Moradipour, Maral"
+      ],
+      "instructor": "Aguilera-Moradipour, Maral",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "10/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/201/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:46.472Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Explores the relationship between Eastern and Western narratives. The focus may include the mutual influence of Eastern and Western cultural traditions and modernities, the construction of the 'East' in the West and of the 'West' in the East, theories of Orientalism and Occidentalism, and forms of East/West syncretism. This course may be repeated once for credit when different topics are offered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6177",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "304",
+      "code": "WL 304",
+      "section": "D100",
+      "title": "Exile and Migration",
+      "instructors": [
+        "Aguilera-Moradipour, Maral"
+      ],
+      "instructor": "Aguilera-Moradipour, Maral",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "15/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/304/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/304/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:46.780Z",
+      "prerequisiteText": "45 units; or 30 units for students enrolled in the SFU-Exeter accelerated law dual degree program.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Explores the culture of peoples and individuals displaced by force or migrating by choice. May focus on the literary cultures of exiles and emigres or on the depiction of refugees, immigrants or exiles.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6178",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "308",
+      "code": "WL 308",
+      "section": "D100",
+      "title": "Travel and Trade",
+      "instructors": [
+        "Deggan, Mark"
+      ],
+      "instructor": "Deggan, Mark",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 26,
+        "waitlistCount": 0,
+        "raw": "20/26"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/308/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/308/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:47.074Z",
+      "prerequisiteText": "45 units; or 30 units for students enrolled in the SFU-Exeter accelerated law dual degree program.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "Explores how travel and trade contribute to literary history and the exchange of ideas across space. May focus on chronicles of discovery, travel writing, accounts of religious pilgrimage, mythical quest narratives, or other literary texts dealing with the traveler's experience of cross-cultural encounter. This course may be repeated for credit when different topics are offered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6179",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "WL",
+      "courseNumber": "401",
+      "code": "WL 401",
+      "section": "D100",
+      "title": "Early Modern. Beyond the Med.",
+      "instructors": [
+        "Deggan, Mark"
+      ],
+      "instructor": "Deggan, Mark",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "10/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=WL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/wl/401/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/wl/401/d100",
+      "outlineRetrievedAt": "2026-10-06T14:30:47.375Z",
+      "prerequisiteText": "45 units including two 300-level courses in world literature, English, and/or humanities.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "In regions the world over, classical civilizations covering large territories separated over time into more locally defined cultures. This course examines the transitions from cosmopolitan literatures characterized by lingua francas (e.g. Latin, Sanskrit) to popular, vernacular literatures and cultures from the 8th century CE to 1500.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6523",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

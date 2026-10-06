@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-06T14:15:22.797Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ONC",
+      "courseNumber": "502",
+      "code": "ONC 502",
+      "section": "G100",
+      "title": "Concepts in Oncology",
+      "instructors": [
+        "Gorski, Sharon"
+      ],
+      "instructor": "Gorski, Sharon",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 960,
+          "endMinutes": 1050,
+          "displayStart": "4:00 PM",
+          "displayEnd": "5:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "1/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ONC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/onc/502/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/onc/502/g100",
+      "outlineRetrievedAt": "2026-10-06T14:28:00.650Z",
+      "prerequisiteText": "Enrollment in a participating graduate program. No specific courses are prerequisites.",
+      "units": "3",
+      "description": "This course covers the biology and epidemiology of cancer and theories behind prevention, diagnosis and treatment of different types of cancer. A major goal of the course is to integrate knowledge and research on the biology of cancer with all disciplines in oncology. This course can only be taken once, either during an MSc or during a PhD.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4530",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ONC",
+      "courseNumber": "510",
+      "code": "ONC 510",
+      "section": "G100",
+      "title": "Seminars in Oncology",
+      "instructors": [
+        "Gorski, Sharon"
+      ],
+      "instructor": "Gorski, Sharon",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 590,
+          "displayStart": "9:00 AM",
+          "displayEnd": "9:50 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "2/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ONC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/onc/510/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/onc/510/g100",
+      "outlineRetrievedAt": "2026-10-06T14:28:00.949Z",
+      "prerequisiteText": "Enrollment in a participating graduate program. No specific courses are prerequisites.",
+      "units": "3",
+      "description": "Features cancer-related research by trainees and faculty located at the BC Cancer Research Centre and other sites. Topics include recent developments in the molecular basis of oncogenesis, cancer bioinformatics, cancer epidemiology, cancer treatment and other clinical studies, and ethical issues. Students are required to present seminars on their research. Students undertaking the interdisciplinary oncology graduate specialization must enroll in this course throughout their entire time as a graduate student. This course can be taken twice, if a student does the interdisciplinary oncology graduate specialization (IOGS) as an MSc student, and also does it as a PhD student. Students who transfer from MSc to PhD would only take it once. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5807",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

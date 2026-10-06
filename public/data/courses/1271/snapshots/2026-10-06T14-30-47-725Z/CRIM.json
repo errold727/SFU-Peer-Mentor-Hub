@@ -1,0 +1,3232 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-06T14:30:47.725Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "101",
+      "code": "CRIM 101",
+      "section": "D200",
+      "title": "Introduction to Criminology",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "0/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/101/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/101/d200",
+      "outlineRetrievedAt": "2026-10-06T14:35:56.788Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Introduces terms and concepts commonly used in criminology. Students explore criminology as a body of knowledge and a profession, examining its subject matter, its position within the social sciences, and its relationship with other disciplines. Covers the history and evolution of criminological thought. Discussions address different levels of explanation in criminology, crime typologies, the relationship between theory and practice, and the application of criminological research in shaping modern criminal policy. Emphasizes the role of empirical research in understanding crime patterns, evaluating theories, and informing policy decisions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3338",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "B100",
+      "title": "Psychological Expln. Behavior",
+      "instructors": [
+        "Morrison, Brenda"
+      ],
+      "instructor": "Morrison, Brenda",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "0/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/103/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/103/b100",
+      "outlineRetrievedAt": "2026-10-06T14:35:57.090Z",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to, and critical examination of, biogenetic, psychiatric, and psychological explanations of criminal and deviant behavior. Special attention will be given to the hypothesized links between criminality and genetics, physiology, the endocrine system, mental disorders, personality, moral development, and other forms of social learning.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3339",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "103",
+      "code": "CRIM 103",
+      "section": "D200",
+      "title": "Psychological Expln. Behavior",
+      "instructors": [
+        "Helmus, Maaike"
+      ],
+      "instructor": "Helmus, Maaike",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "0/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/103/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/103/d200",
+      "outlineRetrievedAt": "2026-10-06T14:35:57.386Z",
+      "prerequisiteText": "PSYC 100 and 102 are recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to, and critical examination of, biogenetic, psychiatric, and psychological explanations of criminal and deviant behavior. Special attention will be given to the hypothesized links between criminality and genetics, physiology, the endocrine system, mental disorders, personality, moral development, and other forms of social learning.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3340",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "104",
+      "code": "CRIM 104",
+      "section": "D100",
+      "title": "Sociological Expln. Behavior",
+      "instructors": [
+        "Andrea Krusi Penney"
+      ],
+      "instructor": "Andrea Krusi Penney",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "0/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/104/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/104/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:57.687Z",
+      "prerequisiteText": "SA 150 is recommended.",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "A survey of some major sociological perspectives on crime and deviance that will include both mainstream and critical theories. These will include: anomie, neutralization, control, group conflict, sub-cultural, ecological, functionalist and critical theories. Critical analysis of the assumptions upon which each theory is based. Examination of the similarities and differences between/among the various explanations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3367",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D100",
+      "title": "Int Cdn Law/Legal In",
+      "instructors": [
+        "O&#x27",
+        "Doherty, Tamara"
+      ],
+      "instructor": "O&#x27; Doherty, Tamara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 136,
+        "waitlistCount": 0,
+        "raw": "0/136"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/135/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/135/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:57.993Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "A general introduction to the fundamental and competing principles of jurisprudence and to the basic legal institutions of Canada. Prepares students for those law and law related courses offered within the School of Criminology and will consider the history of Canadian law, the development of the Canadian constitution, the system of Canadian courts and the roles and responsibilities of members of the legal profession. In addition, the course will consider the nature of legal reasoning, the doctrine of precedent, principles of statutory interpretation and will also introduce the fields of contract, torts, administrative law, and family law. Also examines the process of law reform in Canada.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3369",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "135",
+      "code": "CRIM 135",
+      "section": "D900",
+      "title": "Int Cdn Law/Legal In",
+      "instructors": [
+        "Conroy, Amy"
+      ],
+      "instructor": "Conroy, Amy",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 85,
+        "waitlistCount": 0,
+        "raw": "0/85"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/135/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/135/d900",
+      "outlineRetrievedAt": "2026-10-06T14:35:58.295Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "A general introduction to the fundamental and competing principles of jurisprudence and to the basic legal institutions of Canada. Prepares students for those law and law related courses offered within the School of Criminology and will consider the history of Canadian law, the development of the Canadian constitution, the system of Canadian courts and the roles and responsibilities of members of the legal profession. In addition, the course will consider the nature of legal reasoning, the doctrine of precedent, principles of statutory interpretation and will also introduce the fields of contract, torts, administrative law, and family law. Also examines the process of law reform in Canada.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3399",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D100",
+      "title": "Research Methods",
+      "instructors": [
+        "Palys, Ted"
+      ],
+      "instructor": "Palys, Ted",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 136,
+        "waitlistCount": 0,
+        "raw": "0/136"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/220/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/220/d100",
+      "outlineRetrievedAt": "2026-10-06T14:35:58.592Z",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to criminological research that is intended to develop the student's research and analytical skills. Specifically, the course will focus on the theory of inquiry, the logic, and structure of criminological inquiry, research design, data gathering, analysis and reporting.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3397",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "220",
+      "code": "CRIM 220",
+      "section": "D200",
+      "title": "Research Methods",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 204,
+        "waitlistCount": 0,
+        "raw": "0/204"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/220/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/220/d200",
+      "outlineRetrievedAt": "2026-10-06T14:35:58.887Z",
+      "prerequisiteText": "Any 100 division CRIM course is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to criminological research that is intended to develop the student's research and analytical skills. Specifically, the course will focus on the theory of inquiry, the logic, and structure of criminological inquiry, research design, data gathering, analysis and reporting.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3400",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B100",
+      "title": "Criminal Law",
+      "instructors": [
+        "O&#x27",
+        "Doherty, Tamara"
+      ],
+      "instructor": "O&#x27; Doherty, Tamara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 85,
+        "waitlistCount": 0,
+        "raw": "0/85"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/230/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/230/b100",
+      "outlineRetrievedAt": "2026-10-06T14:35:59.192Z",
+      "prerequisiteText": "CRIM 135.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Nature, purpose, scope, sources and basic principles of the criminal law. Study of certain fundamental legal concepts such as mens rea, negligence and strict liability. Analysis of the concept of criminal responsibility in Canada. Critical examination of the legislative policies expressed in the Criminal Code. Study of the basic elements of a criminal offence. Examination of the legal principles relating to certain specific crimes and to certain major defences. Impact of Canadian Charter of Rights and Freedoms on the criminal law.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3398",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "230",
+      "code": "CRIM 230",
+      "section": "B200",
+      "title": "Criminal Law",
+      "instructors": [
+        "Conroy, Amy"
+      ],
+      "instructor": "Conroy, Amy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 170,
+        "waitlistCount": 0,
+        "raw": "0/170"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/230/b200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/230/b200",
+      "outlineRetrievedAt": "2026-10-06T14:35:59.487Z",
+      "prerequisiteText": "CRIM 135.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Nature, purpose, scope, sources and basic principles of the criminal law. Study of certain fundamental legal concepts such as mens rea, negligence and strict liability. Analysis of the concept of criminal responsibility in Canada. Critical examination of the legislative policies expressed in the Criminal Code. Study of the basic elements of a criminal offence. Examination of the legal principles relating to certain specific crimes and to certain major defences. Impact of Canadian Charter of Rights and Freedoms on the criminal law.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3431",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "251",
+      "code": "CRIM 251",
+      "section": "E100",
+      "title": "Intro to Policing",
+      "instructors": [
+        "Simpson, Rylan"
+      ],
+      "instructor": "Simpson, Rylan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 160,
+        "waitlistCount": 0,
+        "raw": "0/160"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/251/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/251/e100",
+      "outlineRetrievedAt": "2026-10-06T14:35:59.795Z",
+      "prerequisiteText": "CRIM 131.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An examination of the organization and operation of Canadian policing. Explores the history and development of policing, the role of the police in contemporary society, and the various facets of the police occupation. Examines the management of police organizations, the operational practices of police agencies, the recruitment and retention of police officers, the exercise of discretion and force by police officers, and the importance of public-police relations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3427",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D100",
+      "title": "Theories/Perspectives in Crim",
+      "instructors": [
+        "Lysova, Alexandra"
+      ],
+      "instructor": "Lysova, Alexandra",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 135,
+        "waitlistCount": 0,
+        "raw": "0/135"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/300w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/300w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:00.085Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "A detailed examination of current theories and perspectives in criminology. The content of the course will change with developments in the area. Students can expect to study biological, psychological and sociological theories and perspectives, as well as those from other relevant disciplines and fields of inquiry (e.g. geography, political science and cultural studies).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3428",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "300W",
+      "code": "CRIM 300W",
+      "section": "D200",
+      "title": "Theories/Perspectives in Crim",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 165,
+        "waitlistCount": 0,
+        "raw": "0/165"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/300w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/300w/d200",
+      "outlineRetrievedAt": "2026-10-06T14:36:00.390Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "A detailed examination of current theories and perspectives in criminology. The content of the course will change with developments in the area. Students can expect to study biological, psychological and sociological theories and perspectives, as well as those from other relevant disciplines and fields of inquiry (e.g. geography, political science and cultural studies).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3429",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "304",
+      "code": "CRIM 304",
+      "section": "B100",
+      "title": "Women/Crim Justice",
+      "instructors": [
+        "Murdoch, Danielle"
+      ],
+      "instructor": "Murdoch, Danielle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/304/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/304/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:00.690Z",
+      "prerequisiteText": "Any 100 division CRIM courses.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Offers an historical and analytical overview of women and crime, taking into account the role of gender in both criminality and social responses to crime. Specific emphasis will be given to feminist theories. Attention will focus on the specific crimes and patterns of control and punishment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3432",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "315",
+      "code": "CRIM 315",
+      "section": "B100",
+      "title": "Restorative Justice",
+      "instructors": [
+        "Morrison, Brenda"
+      ],
+      "instructor": "Morrison, Brenda",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/315/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/315/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:01.005Z",
+      "prerequisiteText": "45 units.",
+      "units": "4",
+      "designation": "Breadth-Social Sciences",
+      "description": "The course will contrast restorative justice with the dominant adversarial/retributive/punitive model of justice through a critical analysis of these two paradigms of justice. Several key principles, assumptions, and concepts necessary for understanding the foundation and practice of restorative justice will be introduced and explored.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3430",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "318",
+      "code": "CRIM 318",
+      "section": "D200",
+      "title": "Special Topics in Criminology",
+      "instructors": [
+        "Tetrault, Justin"
+      ],
+      "instructor": "Tetrault, Justin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/318/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/318/d200",
+      "outlineRetrievedAt": "2026-10-06T14:36:01.323Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A critical analysis of specific areas of criminology or criminal justice. The subjects covered will change from term to term depending on the specific interests of faculty, or students and current issues in criminology.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3459",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "319",
+      "code": "CRIM 319",
+      "section": "D100",
+      "title": "Special Topics in Criminology",
+      "instructors": [
+        "Tetrault, Justin"
+      ],
+      "instructor": "Tetrault, Justin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/319/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/319/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:01.598Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A critical analysis of specific areas of criminology or criminal justice. The subjects covered will change from term to term depending on the specific interests of faculty, or students and current issues in criminology.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3457",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "320",
+      "code": "CRIM 320",
+      "section": "B100",
+      "title": "Quantitative Research Methods",
+      "instructors": [
+        "Andresen, Martin"
+      ],
+      "instructor": "Andresen, Martin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-07",
+          "endDate": "2027-01-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-21",
+          "endDate": "2027-01-21",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-02-04",
+          "endDate": "2027-02-04",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-02-25",
+          "endDate": "2027-02-25",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-03-11",
+          "endDate": "2027-03-11",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-03-25",
+          "endDate": "2027-03-25",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-04-08",
+          "endDate": "2027-04-08",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/320/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/320/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:01.891Z",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220; one of STAT 201, 203, 205, BUS 232, or PSYC 210. CRIM 320 may be taken concurrently with CRIM 321.",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "A detailed examination of the quantitative research methods and techniques most frequently used in criminological research. Advantages and shortcomings of each method and the appropriateness of each technique for criminological research. Problems of pure and applied research. Specific issues of interdisciplinary research are discussed.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3460",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "D100",
+      "title": "Qualitative Research Methods",
+      "instructors": [
+        "Krusi Penney, Andrea"
+      ],
+      "instructor": "Krusi Penney, Andrea",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/321/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/321/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:02.192Z",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "A detailed examination and application of qualitative research methods and techniques most frequently used in criminological research. Advantages and disadvantages of each method and the appropriateness of each technique for criminological research. Ethics of criminological research. Specific issues of interdisciplinary research. Critical evaluation of qualitative methods used in certain major criminological studies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3487",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "321",
+      "code": "CRIM 321",
+      "section": "D200",
+      "title": "Qualitative Research Methods",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/321/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/321/d200",
+      "outlineRetrievedAt": "2026-10-06T14:36:02.501Z",
+      "prerequisiteText": "CRIM 101; one of CRIM 120 or 220. This course may be taken concurrently with CRIM 320.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "A detailed examination and application of qualitative research methods and techniques most frequently used in criminological research. Advantages and disadvantages of each method and the appropriateness of each technique for criminological research. Ethics of criminological research. Specific issues of interdisciplinary research. Critical evaluation of qualitative methods used in certain major criminological studies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3490",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "330",
+      "code": "CRIM 330",
+      "section": "D100",
+      "title": "Criminal Procedure/Evidence",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 136,
+        "waitlistCount": 0,
+        "raw": "0/136"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/330/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/330/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:02.785Z",
+      "prerequisiteText": "CRIM 101 and 230.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Critical examination of selected topics in criminal procedure and evidence, including jurisdiction, police powers of search and seizure, the right to counsel and pre-trial and trial procedures. Brief survey of the system of rules and standards by means of which the admissibility of evidence is determined. Close examination of the Charter of Rights and Freedoms and its impact on criminal procedure and evidence.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3488",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "330",
+      "code": "CRIM 330",
+      "section": "OL01",
+      "title": "Criminal Procedure/Evidence",
+      "instructors": [
+        "Love, Helene"
+      ],
+      "instructor": "Love, Helene",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/330/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/330/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:36:03.085Z",
+      "prerequisiteText": "CRIM 101 and 230.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Critical examination of selected topics in criminal procedure and evidence, including jurisdiction, police powers of search and seizure, the right to counsel and pre-trial and trial procedures. Brief survey of the system of rules and standards by means of which the admissibility of evidence is determined. Close examination of the Charter of Rights and Freedoms and its impact on criminal procedure and evidence.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3491",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "331",
+      "code": "CRIM 331",
+      "section": "B100",
+      "title": "Advanced Criminal Law",
+      "instructors": [
+        "Conroy, Amy"
+      ],
+      "instructor": "Conroy, Amy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 85,
+        "waitlistCount": 0,
+        "raw": "0/85"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/331/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/331/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:03.385Z",
+      "prerequisiteText": "CRIM 101 and 230.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "In depth critical examination of select criminal offences and key legal principles covered in CRIM 230. Offers a deeper understanding of how certain crimes are defined in the Criminal Code and applied in case law, and how the criminal law has been amended to take account of new societal realities. Discusses challenges advanced under the Canadian Charter of Rights and Freedoms in relation to certain crimes. Crimes examined will vary by student and faculty interest.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3492",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "332",
+      "code": "CRIM 332",
+      "section": "OL01",
+      "title": "Sociology of Law",
+      "instructors": [
+        "Conroy, Amy"
+      ],
+      "instructor": "Conroy, Amy",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/332/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/332/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:36:03.689Z",
+      "prerequisiteText": "CRIM 101 and 135.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces the theory of sociology of law, including discussion of the law and social/political structures, law as a product of a social system, and law as an instrument of social change. Examines social functions of the law and the relationships between law and various social institutions. Considers ongoing colonization in Canada, overall power and influence in the law-making process. Students will examine the social reality of the law, and the law in action. Discussions will explore social science findings into the operation and practice of the law with a focus on critical, feminist, and anti-oppressive research approaches.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3493",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "335",
+      "code": "CRIM 335",
+      "section": "OL01",
+      "title": "Human Rights",
+      "instructors": [
+        "O&#x27",
+        "Doherty, Tamara"
+      ],
+      "instructor": "O&#x27; Doherty, Tamara",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/335/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/335/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:36:03.988Z",
+      "prerequisiteText": "CRIM 101 and CRIM 135.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A study of the relationship between the government and the individual. Focus upon the Canadian Charter of Rights and Freedoms and its interpretation by the judiciary. Examination of the issues of equality before the law, freedom of speech, freedom of religion and freedom of expression. A study of human rights at the federal and provincial levels.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3489",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "338",
+      "code": "CRIM 338",
+      "section": "D100",
+      "title": "Philosophy of Law",
+      "instructors": [
+        "MacAlister, David"
+      ],
+      "instructor": "MacAlister, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 85,
+        "waitlistCount": 0,
+        "raw": "0/85"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/338/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/338/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:04.284Z",
+      "prerequisiteText": "CRIM 101 and 135.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to the philosophy of law. Concepts of law, constitution and sovereignty. The nature and sources of the law. Examination of natural law, legal positivism, Kelsen's pure theory of law, legal realism, modern normative and analytical theories, critical legal theory and feminist theory.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3624",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "346",
+      "code": "CRIM 346",
+      "section": "B100",
+      "title": "Current Issues in Corrections",
+      "instructors": [
+        "Butler, Amanda"
+      ],
+      "instructor": "Butler, Amanda",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/346/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/346/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:04.591Z",
+      "prerequisiteText": "CRIM 101. Recommended: CRIM 241",
+      "units": "3",
+      "designation": "N/A",
+      "description": "In-depth critical assessment of contemporary challenges facing criminologists and those responsible for the management and operation of correctional facilities. Explores the profile of correctional populations and unique subpopulations. Discusses the classification, assessment, and management of these groups, alongside broader issues related to prison governance, ethics, and human rights. Emphasis on evidence-based correctional practices, challenges in rehabilitation and reintegration, and the broader implications for correctional policy and practice.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3517",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "350",
+      "code": "CRIM 350",
+      "section": "D100",
+      "title": "Crime Prevention",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 180,
+        "waitlistCount": 0,
+        "raw": "0/180"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/350/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/350/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:04.887Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Techniques of mobilizing community resources for crime prevention. Organizing, implementing and managing citizen efforts to reduce crime. Recruiting citizen assistance, training requirements, establishing and operating citizen organizations, evaluating results. Organizing programs for reducing criminal opportunity, programs for education, employment and recreation. Operating youth services centres, residential programs, crisis intervention and emergency centres.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3518",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "356",
+      "code": "CRIM 356",
+      "section": "D100",
+      "title": "The Forensic Sciences II",
+      "instructors": [
+        "Bell, Lynne"
+      ],
+      "instructor": "Bell, Lynne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "0/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/356/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/356/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:05.194Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces the methodological principles of analytical procedures and applications relevant to 21st century criminalistics as applied to skeletonized remains.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3519",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "358",
+      "code": "CRIM 358",
+      "section": "B100",
+      "title": "Forensic Entomology",
+      "instructors": [
+        "Anderson, Gail"
+      ],
+      "instructor": "Anderson, Gail",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/358/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/358/b100",
+      "outlineRetrievedAt": "2026-10-06T14:36:05.484Z",
+      "prerequisiteText": "CRIM 101 and one Q course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Forensic entomology is the study of the insects associated with a dead body. This course will introduce students to entomology and its applications to law. Instruction will include lectures, tutorials and also laboratories where students will handle, dissect and identify a variety of insects.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3516",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D100",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/370/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/370/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:05.787Z",
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3546",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D200",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/370/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/370/d200",
+      "outlineRetrievedAt": "2026-10-06T14:36:06.091Z",
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3547",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D300",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/370/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/370/d300",
+      "outlineRetrievedAt": "2026-10-06T14:36:06.407Z",
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3548",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D400",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/370/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/370/d400",
+      "outlineRetrievedAt": "2026-10-06T14:36:06.687Z",
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3549",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "370",
+      "code": "CRIM 370",
+      "section": "D500",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/370/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/370/d500",
+      "outlineRetrievedAt": "2026-10-06T14:36:06.996Z",
+      "prerequisiteText": "CRIM 320 and 330, and written application to the school no later than the last day of classes of the preceding term. CRIM 370 and 470 may not be taken concurrently.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent readings in a selected field of study, under the direction of a single faculty member. Papers will be required. Variable units: 1, 2, 3.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3628",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "402",
+      "code": "CRIM 402",
+      "section": "OL01",
+      "title": "Biological Explanations Crime",
+      "instructors": [
+        "Anderson, Gail"
+      ],
+      "instructor": "Anderson, Gail",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/402/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/402/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:36:07.289Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines biological factors that could result in a predisposition towards criminal behavior. These include not only the genetic factors that affect behaviour so could potentially predispose towards crime, but also biochemical, neurological, nutritive and accidental effects such as head injuries. Critically examines all evidence both for and against possible biological predispositions for criminogenic behaviours, together with the interaction with the environment. In particular, moral and ethical issues will be considered and debated.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3550",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "406",
+      "code": "CRIM 406",
+      "section": "D100",
+      "title": "Family Violence",
+      "instructors": [
+        "Lysova, Alexandra"
+      ],
+      "instructor": "Lysova, Alexandra",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/406/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/406/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:07.588Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines the social and cultural context of family violence and legal and social service interventions to prevent this violence. Topics may include: child and elder abuse and neglect, sibling abuse, violence against women, victimization of men, violence in same-sex couples, the police response, courts and corrections.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3625",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "411",
+      "code": "CRIM 411",
+      "section": "D100",
+      "title": "Offender Assessment",
+      "instructors": [
+        "Helmus, Maaike"
+      ],
+      "instructor": "Helmus, Maaike",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/411/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/411/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:07.891Z",
+      "prerequisiteText": "CRIM 103 and CRIM 131.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Critical analysis of offender assessments throughout the Canadian criminal justice system. Evaluating research and policies on validity, reliability, utility, and fairness of current practice. Types of assessment (e.g., risk assessment, psychopathy, criminal responsibility, mental health) and subgroups of offenders (e.g., by gender, race/ethnicity, age, offence type) will vary by term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4938",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "413",
+      "code": "CRIM 413",
+      "section": "D100",
+      "title": "Terrorism",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/413/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/413/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:08.191Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Provides a broad, critical introduction to terrorism and political violence. Examines the historical foundations of terrorism, and theoretical and conceptual understandings of this phenomenon. Identifies and explains a wide range of terrorist motivations and ideologies. Applied and comparative approaches are used to explore the central question of how to respond to terrorism.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3556",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "418",
+      "code": "CRIM 418",
+      "section": "D100",
+      "title": "Current Issues/Crim Justice",
+      "instructors": [
+        "Simpson, Rylan"
+      ],
+      "instructor": "Simpson, Rylan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/418/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/418/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:08.490Z",
+      "prerequisiteText": "CRIM 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A critical analysis of certain 'hot' issues in criminology and criminal justice. The topics covered change from term to term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3552",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "429",
+      "code": "CRIM 429",
+      "section": "D100",
+      "title": "Indigenous Peoples and Law",
+      "instructors": [
+        "Palys, Ted"
+      ],
+      "instructor": "Palys, Ted",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 17,
+        "waitlistCount": 0,
+        "raw": "0/17"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "INDG 429 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/429/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/429/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:08.789Z",
+      "prerequisiteText": "CRIM 101 or FNST 101 or 201 or permission of instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An examination of how relations between indigenous and non-indigenous peoples framed and were framed by the development of international law from the 15th century onward.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3553",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "438",
+      "code": "CRIM 438",
+      "section": "D100",
+      "title": "Wrongful Convictions",
+      "instructors": [
+        "Love, Helene"
+      ],
+      "instructor": "Love, Helene",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 136,
+        "waitlistCount": 0,
+        "raw": "0/136"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/438/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/438/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:09.083Z",
+      "prerequisiteText": "CRIM 330 is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines the issues of wrongful convictions and other miscarriages of justice. Considers the major factors that contribute to wrongful convictions despite the safeguards built into the system, and ways to prevent or reduce their number.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3554",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "452",
+      "code": "CRIM 452",
+      "section": "D100",
+      "title": "Skeletal Pathology",
+      "instructors": [
+        "Bell, Lynne"
+      ],
+      "instructor": "Bell, Lynne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/452/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/452/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:09.387Z",
+      "prerequisiteText": "CRIM 101. Recommended: CRIM 357.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The examination of disease processes which affect and reveal themselves in the human skeleton at the level of surface morphology, radiology and histology and other relevant analytical methodologies relevant to criminalistics and human identification.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3555",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/470/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/470/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:09.696Z",
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3551",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/470/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/470/d200",
+      "outlineRetrievedAt": "2026-10-06T14:36:10.680Z",
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3575",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D300",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/470/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/470/d300",
+      "outlineRetrievedAt": "2026-10-06T14:36:10.679Z",
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3629",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D400",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/470/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/470/d400",
+      "outlineRetrievedAt": "2026-10-06T14:36:10.592Z",
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3630",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "470",
+      "code": "CRIM 470",
+      "section": "D500",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/470/d500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/470/d500",
+      "outlineRetrievedAt": "2026-10-06T14:36:10.895Z",
+      "prerequisiteText": "CRIM 320, 321 and 330. Written application to the school no later than the last day of classes of the preceding term. Reserved for criminology honours and majors. Recommended: CRIM 370.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Independent research in a selected criminological area, under the direction and supervision of at least one faculty member. A research report is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3593",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "485",
+      "code": "CRIM 485",
+      "section": "OL01",
+      "title": "Prof Dev-CJ Practice",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/485/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/485/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:36:11.190Z",
+      "prerequisiteText": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared criminology majors.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "Workplace skills and ethical issues confronting the professional in the criminal justice system are examined, including: communication and conflict resolution; confidentiality, conflict of interest; professionalism and professional ethics; team work and time management. Completion of this course does not guarantee admission to Field Placement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3576",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "486",
+      "code": "CRIM 486",
+      "section": "D100",
+      "title": "Field Placement - Agency - PT",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/486/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/486/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:11.488Z",
+      "prerequisiteText": "Permission of the school, and minimum 90 units and CGPA of 2.75. Applicants must be declared criminology majors and must be enrolled in or have completed CRIM 320, 321 and 485. Corequisite: CRIM 488. A criminal record check may be required dependent on agency.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "Supervised three month part-time (20-25 hours per week) field practicum in selected criminal justice agencies. Field Placement - Agency - Part-Time is a pass/fail course assessed by the agency at which the student completes the practicum.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3626",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "487",
+      "code": "CRIM 487",
+      "section": "D100",
+      "title": "Field Placement - Agency - FT",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/487/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/487/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:11.787Z",
+      "prerequisiteText": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the school. Applicants must be declared criminology majors. Corequisite: CRIM 489. A criminal record check may be required dependent on agency.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Supervised three month full-time (35-40 hours per week) field practicum in selected criminal justice agencies. Field Placement - Agency - FT is a pass/fail course assessed by the agency at which the student completes the practicum.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3627",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "488",
+      "code": "CRIM 488",
+      "section": "D100",
+      "title": "Field Placement-Academic-PT",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/488/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/488/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:12.088Z",
+      "prerequisiteText": "Permission of the school, CRIM 485, a minimum of 90 units and CGPA of 2.75. Applicants must be declared criminology majors. Corequisite: CRIM 486. A criminal record check may be required dependent on agency.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Supervised three month part-time (20-25 hours per week) field practicum in selected criminal justice agencies. Students are required to complete a series of reports addressing theoretical and practical issues relating to their placement as well as to attend regular feedback seminar discussions with faculty supervisors and other field practicum students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3577",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "489",
+      "code": "CRIM 489",
+      "section": "D100",
+      "title": "Field Placement-Academic-FT",
+      "instructors": [
+        "Rault, Dawn"
+      ],
+      "instructor": "Rault, Dawn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/489/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/489/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:12.391Z",
+      "prerequisiteText": "CRIM 485, a minimum of 90 units and CGPA of 2.75, and/or permission of the school. Applicants must be declared criminology majors. Corequisite: CRIM 487. A criminal record check may be required dependent on agency.",
+      "units": "8",
+      "designation": "N/A",
+      "description": "Supervised three month full-time (35-40 hours per week) field practicum in selected criminal justice agencies. Students are required to complete a series of reports addressing theoretical and practical issues relating to their placement as well as to attend regular feedback seminar discussions with faculty supervisors and other field practicum students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3578",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "499",
+      "code": "CRIM 499",
+      "section": "D100",
+      "title": "Honours Thesis II",
+      "instructors": [
+        "Murdoch, Danielle"
+      ],
+      "instructor": "Murdoch, Danielle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/499/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/499/d100",
+      "outlineRetrievedAt": "2026-10-06T14:36:12.693Z",
+      "prerequisiteText": "A minimum grade of B in CRIM 490 and 491 is required. Open only to students who have been admitted to the criminology honours program.",
+      "units": "9",
+      "designation": "N/A",
+      "description": "An honours thesis is a research report written under the supervision of a faculty member. Students must attend a weekly seminar where issues associated with the linking of theory and method are examined and students discuss their progress and research experiences. On completion, the thesis is orally presented in a school seminar. Students are not permitted to take other courses while enrolled in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3579",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "801",
+      "code": "CRIM 801",
+      "section": "G100",
+      "title": "Criminological Theory II",
+      "instructors": [
+        "Beauregard, Eric"
+      ],
+      "instructor": "Beauregard, Eric",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/801/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/801/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:12.993Z",
+      "prerequisiteText": "CRIM 800, or permission of the instructor.",
+      "units": "3",
+      "description": "Advanced topics in criminological theory. Topics for in-depth analysis will be selected according to the availability and interest in specific course instructors. The course will emphasize theoretical construction and development, the importance of theory, and how it structure criminological thought.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3580",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "831",
+      "code": "CRIM 831",
+      "section": "G100",
+      "title": "Sexual Violence",
+      "instructors": [
+        "Beauregard, Eric"
+      ],
+      "instructor": "Beauregard, Eric",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/831/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/831/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:13.316Z",
+      "units": "3",
+      "description": "An examination of theoretical, clinical, legal, and empirical issues related to sexual violence. Subject matter will vary according to instructor interests and specialization. Specific areas of concentration may include: theoretical models, developmental risk factors, and typologies of sexual violence, criminal careers of sexual offenders, actuarial and clinical risk assessment, treatment programs for sexual offenders, and criminal justice responses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3595",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "861",
+      "code": "CRIM 861",
+      "section": "G100",
+      "title": "Research Methods II",
+      "instructors": [
+        "Ouellet, Marie"
+      ],
+      "instructor": "Ouellet, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/861/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/861/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:13.590Z",
+      "units": "3",
+      "description": "The coverage of a range of statistical techniques, including linear regression, logistic regression, and data reduction techniques such as cluster and factor analysis. The purposes, assumptions, and conduct of such analyses using a statistical software package for social sciences (e.g. SPSS, Stata, R) will be covered. Attention will be given to the decisions involved in data exploration and preparation for statistical modeling purposes. Students enrolling in this course are expected to have a solid background in undergraduate quantitative research methods, equivalent to CRIM 320.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3581",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "862",
+      "code": "CRIM 862",
+      "section": "G100",
+      "title": "Research Methods III",
+      "instructors": [
+        "Krusi Penney, Andrea"
+      ],
+      "instructor": "Krusi Penney, Andrea",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/862/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/862/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:13.893Z",
+      "units": "3",
+      "description": "A range of research techniques generally subsumed under the rubric of qualitative research including field research, interview techniques, historical and legal research, and documentary analysis. Emphasis will be on the logic underlying such inquiry, the advantages and limitations associated with different sources of information and procedures, and the processes by which analytical rigor is achieved. Students enrolling in this course are expected to have a solid background in undergraduate qualitative research methods, equivalent to CRIM 321.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3582",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "863",
+      "code": "CRIM 863",
+      "section": "G100",
+      "title": "Research Methods IV",
+      "instructors": [
+        "Rowan, Zachary"
+      ],
+      "instructor": "Rowan, Zachary",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/863/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/863/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:14.194Z",
+      "prerequisiteText": "CRIM 861, or permission of the instructor.",
+      "units": "3",
+      "description": "A survey of advanced statistical techniques in criminological research. Specific topics may include: limited (e.g., categorical, ordinal, and count) dependent variables, multi-level modeling, longitudinal data techniques, spatial data analysis, missing values analysis, and propensity score matching. Attention will be given to the decisions involved in data exploration and preparation for statistical modeling purposes using the appropriate statistical software. There is an emphasis on conceptual foundations and application. A strong background in regression-based techniques is assumed.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3594",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "870",
+      "code": "CRIM 870",
+      "section": "G100",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/870/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/870/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:14.486Z",
+      "units": "3",
+      "description": "Intensive readings under the supervision of a faculty member, in areas of interest related to the student's program. MA students may take a maximum of one directed studies course during their program. PhD students may take a maximum of two directed studies courses during their program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3583",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "870",
+      "code": "CRIM 870",
+      "section": "G200",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/870/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/870/g200",
+      "outlineRetrievedAt": "2026-10-06T14:36:14.791Z",
+      "units": "3",
+      "description": "Intensive readings under the supervision of a faculty member, in areas of interest related to the student's program. MA students may take a maximum of one directed studies course during their program. PhD students may take a maximum of two directed studies courses during their program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3584",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "890",
+      "code": "CRIM 890",
+      "section": "G100",
+      "title": "PhD Thesis Prospectus",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/890/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/890/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:15.090Z",
+      "prerequisiteText": "CRIM 897.",
+      "description": "Development and presentation of proposal for PhD thesis research. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3585",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "890",
+      "code": "CRIM 890",
+      "section": "G200",
+      "title": "PhD Thesis Prospectus",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/890/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/890/g200",
+      "outlineRetrievedAt": "2026-10-06T14:36:15.387Z",
+      "prerequisiteText": "CRIM 897.",
+      "description": "Development and presentation of proposal for PhD thesis research. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3586",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "897",
+      "code": "CRIM 897",
+      "section": "G100",
+      "title": "Comprehensive Exam",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/897/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:15.690Z",
+      "prerequisiteText": "Completion of all course work within the PhD program.",
+      "units": "6",
+      "description": "A one term course that will allow students to complete the comprehensive exam process.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3587",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "897",
+      "code": "CRIM 897",
+      "section": "G200",
+      "title": "Comprehensive Exam",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/897/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/897/g200",
+      "outlineRetrievedAt": "2026-10-06T14:36:15.992Z",
+      "prerequisiteText": "Completion of all course work within the PhD program.",
+      "units": "6",
+      "description": "A one term course that will allow students to complete the comprehensive exam process.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3588",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "898",
+      "code": "CRIM 898",
+      "section": "G100",
+      "title": "M.A. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/898/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:16.291Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3589",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "898",
+      "code": "CRIM 898",
+      "section": "G200",
+      "title": "M.A. Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/898/g200",
+      "outlineRetrievedAt": "2026-10-06T14:36:16.587Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3590",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "899",
+      "code": "CRIM 899",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/899/g100",
+      "outlineRetrievedAt": "2026-10-06T14:36:16.890Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3591",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "CRIM",
+      "courseNumber": "899",
+      "code": "CRIM 899",
+      "section": "G200",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=CRIM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:30:47.725Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/crim/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/crim/899/g200",
+      "outlineRetrievedAt": "2026-10-06T14:36:17.185Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3592",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

@@ -1,0 +1,3596 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-06T14:15:22.797Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "100",
+      "code": "IAT 100",
+      "section": "D100",
+      "title": "Digital Image Design",
+      "instructors": [
+        "Gagnon, Natalie"
+      ],
+      "instructor": "Gagnon, Natalie",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 94,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "94/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/100/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:10.083Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "This is a project-based course that introduces the theory and hands-on practice of art and design in digital media. As the introductory course in IAT, this course teaches the core fundamental principles in 2D visual design, sequential and animation design. Students learn the fundamentals of digital photography and vector image creation. The theory is contextualized in contemporary new media design practice and is broadly applicable across disciplines.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4585",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "102",
+      "code": "IAT 102",
+      "section": "D100",
+      "title": "Graphic Design",
+      "instructors": [
+        "Clements-Vivian, Susan"
+      ],
+      "instructor": "Clements-Vivian, Susan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 860,
+          "displayStart": "10:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 71,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "71/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/102/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/102/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:10.390Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to fundamental design principles for visual communication. Organized as a continual interplay of theory and practice, students will examine historical, philosophical, perceptual and semiotic approaches to understanding graphic design, and will explore principles of form, such as structure and composition, hierarchy, form, color, space, scale, typography, and legibility and readability through hands-on projects. Traditional time-based and interactive media forms will be compared and contrasted.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4586",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "102",
+      "code": "IAT 102",
+      "section": "E100",
+      "title": "Graphic Design",
+      "instructors": [
+        "Clements-Vivian, Susan"
+      ],
+      "instructor": "Clements-Vivian, Susan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "18/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/102/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/102/e100",
+      "outlineRetrievedAt": "2026-10-06T14:25:10.685Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to fundamental design principles for visual communication. Organized as a continual interplay of theory and practice, students will examine historical, philosophical, perceptual and semiotic approaches to understanding graphic design, and will explore principles of form, such as structure and composition, hierarchy, form, color, space, scale, typography, and legibility and readability through hands-on projects. Traditional time-based and interactive media forms will be compared and contrasted.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4587",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "103W",
+      "code": "IAT 103W",
+      "section": "D100",
+      "title": "Design Commun and Collab",
+      "instructors": [
+        "Rajah, Niranjan"
+      ],
+      "instructor": "Rajah, Niranjan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 80,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "80/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/103w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/103w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:11.016Z",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Teaches essential skills for negotiating first-year course work successfully. Covers the principles, practice and understanding of effective communication, research, critical thinking, and teamwork with a focus on issues central to the practice of IAT as a profession. Presents opportunities to practice and develop interpersonal skills and make that expertise transferable to the workplace.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4588",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "106",
+      "code": "IAT 106",
+      "section": "D100",
+      "title": "Spatial Thinking Communicating",
+      "instructors": [
+        "Erhan, Halil"
+      ],
+      "instructor": "Erhan, Halil",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 95,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "95/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/106/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/106/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:11.285Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces the world of 3D thinking, representation and communication, with a focus on spatial thinking. Provides the foundational skills and knowledge needed to understand, create, and use computer-generated 3D representations. Covers the technical bases of representing 3D environments, technical sketching, computer-based modelling (Computer-Aided Design) and physical modelling.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4589",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "111",
+      "code": "IAT 111",
+      "section": "OL01",
+      "title": "AI Today and Tomorrow",
+      "instructors": [
+        "DiPaola, Steve"
+      ],
+      "instructor": "DiPaola, Steve",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 129,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "129/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/111/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/111/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:25:11.639Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Provides non-technical students with a comprehensive exploration of artificial intelligence (AI) technologies, their underlying principles, societal implications, and transformative potential. Through a non-technical, interdisciplinary approach, students will develop a nuanced understanding of AI systems, examining their technological foundations, practical applications, and critical ethical considerations. Primarily for non-SIAT majors; SIAT students may take for credit, but does not count for SIAT degree requirements.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4597",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "167",
+      "code": "IAT 167",
+      "section": "D100",
+      "title": "Digital Games",
+      "instructors": [
+        "Hatala, Marek"
+      ],
+      "instructor": "Hatala, Marek",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 58,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "58/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/167/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/167/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:11.885Z",
+      "prerequisiteText": "CMPT 120 (or equivalent first year programming course such as CMPT 102, 125, 126, 128, 130, 135, or 166) with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces game genres, structures, and programming methods basic to developing games. Students learn how games are designed and how to program the underlying patterns that facilitate play and engagement. Issues of user interface, skills and competition are discussed as are principles of compelling entertainment for players.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4590",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "201",
+      "code": "IAT 201",
+      "section": "B100",
+      "title": "Human-Computer Interaction",
+      "instructors": [
+        "Fisher, Brian"
+      ],
+      "instructor": "Fisher, Brian",
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 92,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "92/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/201/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/201/b100",
+      "outlineRetrievedAt": "2026-10-06T14:25:12.187Z",
+      "prerequisiteText": "Completion of at least one lower division \"W\" course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces topics in human perception, cognition and embodied action as a foundation of design for human use. It explores the practical application of techniques for analyzing diverse interactive situations and designing effective user interfaces. Students will engage in the analysis and design of a simple user interface, gaining detailed knowledge and experience with the standard basic techniques for interface specification, prototyping and evaluation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4591",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "202",
+      "code": "IAT 202",
+      "section": "B100",
+      "title": "Visual Storytelling",
+      "instructors": [
+        "Nazemi, Mark"
+      ],
+      "instructor": "Nazemi, Mark",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 56,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "56/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/202/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/202/b100",
+      "outlineRetrievedAt": "2026-10-06T14:25:12.486Z",
+      "prerequisiteText": "IAT 100 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Examines the principles of effective storytelling through visual media, with an emphasis on social media platforms and short-form content. Students will gain foundational skills in video production, including basic filming techniques, lighting, and the application of motion graphics and visual effects. The course provides a framework for content creators, equipping them with the knowledge and tools needed to produce visually-driven narratives.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4592",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "206W",
+      "code": "IAT 206W",
+      "section": "D100",
+      "title": "Media Across Cultures",
+      "instructors": [
+        "Hennessy, Kate"
+      ],
+      "instructor": "Hennessy, Kate",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 81,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "81/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/206w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/206w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:12.782Z",
+      "prerequisiteText": "IAT 103W with a minimum grade of C-.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Introduces a discursive framework for media, design and cultural interfaces enabling students to interpret, negotiate, and engage with new media with an awareness of the significance of cultural and contextual difference. Assessment is based on written and project work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4593",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "210",
+      "code": "IAT 210",
+      "section": "OL01",
+      "title": "Game Studies",
+      "instructors": [
+        "Horrigan, Matthew"
+      ],
+      "instructor": "Horrigan, Matthew",
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 89,
+        "capacity": 154,
+        "waitlistCount": 0,
+        "raw": "89/154"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/210/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/210/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:25:13.083Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "Reviews the history of games, tracing the evolution of game design from board and card games through the latest electronic products. Examines the medium of games through various lenses: games as rules (game design), games as play (game experience), and games as culture (culture within games, and role of games and game cultures).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4594",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "233",
+      "code": "IAT 233",
+      "section": "D100",
+      "title": "Spatial Design",
+      "instructors": [
+        "Erhan, Halil"
+      ],
+      "instructor": "Erhan, Halil",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "34/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/233/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/233/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:13.384Z",
+      "prerequisiteText": "IAT 102 and IAT 106, both with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Designing and understanding spaces used by people. The iterative process of making and criticizing, experiencing and analyzing spatial form. Compositional ideas for form-making. Critical thinking applied to design. Computers are the principal medium used in this course for form-making and visualization.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4595",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "235",
+      "code": "IAT 235",
+      "section": "D100",
+      "title": "Information Design",
+      "instructors": [
+        "Antle, Alissa"
+      ],
+      "instructor": "Antle, Alissa",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 860,
+          "displayStart": "10:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 54,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "54/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/235/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/235/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:13.687Z",
+      "prerequisiteText": "IAT 102 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces theory and practice of designing visual representations of information. Students will learn to visually translate textual, numerical and evidentiary information so that it can be communicated to diverse user communities and contexts. An emphasis will be on understanding how the meaning of images can change over time and across contexts and cultures. Beginning with photographic images, interactive charts, graphs, and maps, projects progress to more complex information in media forms ranging from advanced aspects of the web to interactive 3D visualizations. The relationship between visual display is explored in relation to its technology of creation, including code and information architecture.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4596",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "238",
+      "code": "IAT 238",
+      "section": "D100",
+      "title": "Fdn for Designing Interactions",
+      "instructors": [
+        "Brokenshire, Paul"
+      ],
+      "instructor": "Brokenshire, Paul",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 69,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "69/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/238/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/238/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:13.983Z",
+      "prerequisiteText": "IAT 102 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The course integrates visual communication and interaction design alongside developing skills in design process such as prototyping, ideation and iteration. Emphasis is placed on seeking the right solution for the right problem and receiving feedback effectively. The course culminates in an intermediate-level design project that connects interactions to foundational concepts in designing.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4615",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "265",
+      "code": "IAT 265",
+      "section": "D100",
+      "title": "Multimedia Program Art/Design",
+      "instructors": [
+        "Yang, Yingchen"
+      ],
+      "instructor": "Yang, Yingchen",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 46,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "46/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/265/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/265/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:14.288Z",
+      "prerequisiteText": "IAT 167 with a minimum grade of C- and one of MATH 130, MACM 101, MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Using cases from topics such as animation, cinema, music and design, this course introduces a variety of programming tools and techniques. Practical use of multimedia scripting languages and authoring environments is covered in the context of a series of composition and design projects. Code libraries and programming techniques for specific media will be introduced. Assessment will be based on both programming and the expressive use of programs in their case context.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4618",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "271",
+      "code": "IAT 271",
+      "section": "D100",
+      "title": "Co-op Practicum I",
+      "instructors": [
+        "Basaria, Afshan",
+        "McDonald, Ryan"
+      ],
+      "instructor": "Basaria, Afshan; McDonald, Ryan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "16/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/271/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/271/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:14.587Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. Students with credit for WKTM 100 cannot complete this course for further credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4619",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "271",
+      "code": "IAT 271",
+      "section": "D200",
+      "title": "Co-op Practicum I",
+      "instructors": [
+        "Basaria, Afshan",
+        "McDonald, Ryan"
+      ],
+      "instructor": "Basaria, Afshan; McDonald, Ryan",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "3/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/271/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/271/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:14.887Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. Students with credit for WKTM 100 cannot complete this course for further credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4620",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "271",
+      "code": "IAT 271",
+      "section": "I100",
+      "title": "Co-op Practicum I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/271/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/271/i100",
+      "outlineRetrievedAt": "2026-10-06T14:25:15.183Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. Students with credit for WKTM 100 cannot complete this course for further credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4621",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "272",
+      "code": "IAT 272",
+      "section": "D100",
+      "title": "Co-op Practicum II",
+      "instructors": [
+        "Basaria, Afshan",
+        "McDonald, Ryan"
+      ],
+      "instructor": "Basaria, Afshan; McDonald, Ryan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "17/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/272/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/272/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:15.486Z",
+      "prerequisiteText": "IAT 271 (or WKTM 100).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4622",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "272",
+      "code": "IAT 272",
+      "section": "D200",
+      "title": "Co-op Practicum II",
+      "instructors": [
+        "Basaria, Afshan",
+        "McDonald, Ryan"
+      ],
+      "instructor": "Basaria, Afshan; McDonald, Ryan",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/272/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/272/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:15.788Z",
+      "prerequisiteText": "IAT 271 (or WKTM 100).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4623",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "272",
+      "code": "IAT 272",
+      "section": "I100",
+      "title": "Co-op Practicum II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/272/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/272/i100",
+      "outlineRetrievedAt": "2026-10-06T14:25:16.088Z",
+      "prerequisiteText": "IAT 271 (or WKTM 100).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4624",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "309W",
+      "code": "IAT 309W",
+      "section": "D100",
+      "title": "Writing Methods for Research",
+      "instructors": [
+        "Gibson, Chantal"
+      ],
+      "instructor": "Gibson, Chantal",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 70,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "70/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/309w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/309w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:16.381Z",
+      "prerequisiteText": "IAT 206W with a minimum grade of C- and completion of 48 units.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Develops critical thinking and writing strategies adaptable to professional communications in design, media arts and technology.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4625",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "312",
+      "code": "IAT 312",
+      "section": "D100",
+      "title": "Foundations of Game Design",
+      "instructors": [
+        "Yang, Yingchen"
+      ],
+      "instructor": "Yang, Yingchen",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 26,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "26/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/312/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/312/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:16.681Z",
+      "prerequisiteText": "Completion of 48 units, including IAT 265 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines the discipline of game design. Games are studied across three analytical frameworks: games as rules (formal system), games as play (experiential system), games as culture (social system). Includes analytical and practical exercises in game design.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4626",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "313",
+      "code": "IAT 313",
+      "section": "D100",
+      "title": "Narrative and New Media",
+      "instructors": [
+        "Gibson, Chantal"
+      ],
+      "instructor": "Gibson, Chantal",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 63,
+        "capacity": 77,
+        "waitlistCount": 0,
+        "raw": "63/77"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/313/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/313/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:16.983Z",
+      "prerequisiteText": "Completion of 48 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Explores the role of narrative in various media and New Media environments, from traditional linear environments and multi-linear and networked media environments. Examines the relationship of narrative elements in the light of the practice and the aesthetics of New Media. It will include an overview of New Media theorists.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4627",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "333",
+      "code": "IAT 333",
+      "section": "D100",
+      "title": "Interaction Design Methods",
+      "instructors": [
+        "Russell, Gillian"
+      ],
+      "instructor": "Russell, Gillian",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 740,
+          "displayStart": "8:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 47,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "47/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/333/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/333/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:17.289Z",
+      "prerequisiteText": "Completion of 48 units, including IAT 238 with a minimum grade of C- or IAT 235 with a minimum grade of C- completed before the Spring 2025 term.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines concepts of design practice and related design methods for interaction designers. Design methods include ethnography, personas, design games, role-playing, scenarios, participatory workshops, and prototyping.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4628",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "334",
+      "code": "IAT 334",
+      "section": "D100",
+      "title": "Interface Design",
+      "instructors": [
+        "Brokenshire, Paul"
+      ],
+      "instructor": "Brokenshire, Paul",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 73,
+        "capacity": 77,
+        "waitlistCount": 0,
+        "raw": "73/77"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/334/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/334/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:17.586Z",
+      "prerequisiteText": "Completion of 48 units, including IAT 235 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Provides an introduction to the art and design of human-computer interfaces, design methods, prototyping and evaluation of user interfaces. Examines issues of interactivity and its relation to human contexts and technological systems. The role of aesthetic, symbolic, affective and cultural factors will be assessed in concert with scientific and technological issues. The class is primarily focused on visual interfaces on computer monitors and hand-held devices, but culminates with considerations of increasingly physical interactions in ubiquitous environments.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4629",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "339",
+      "code": "IAT 339",
+      "section": "D100",
+      "title": "Web Design and Development",
+      "instructors": [
+        "Serban, Helmine"
+      ],
+      "instructor": "Serban, Helmine",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 29,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "29/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/339/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/339/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:17.885Z",
+      "prerequisiteText": "IAT 235 and IAT 265, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Advanced theory and implementation of web media from a design perspective. Students will design and develop web media that focuses on communication and design issues for a variety of users. This course will address design methods and approaches for technical aspects such as content management, responsive design, and server-side support.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4632",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "343",
+      "code": "IAT 343",
+      "section": "D100",
+      "title": "Animation",
+      "instructors": [
+        "DiPaola, Steve"
+      ],
+      "instructor": "DiPaola, Steve",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 59,
+        "capacity": 66,
+        "waitlistCount": 0,
+        "raw": "59/66"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 885 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/343/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/343/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:18.185Z",
+      "prerequisiteText": "Minimum of 24 units, including MATH 130 or MACM 101 or MATH 150 or MATH 151 or MATH 154 or MATH 157, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An introduction to techniques for 3D computer animation such as keyframing, performance animation, procedural methods, motion capture, and simulation. The course also includes an overview of story-boarding, scene composition, lighting and sound track generation. The course will explore current research topics in computer animation such as facial animation, behavioral animation, artificial life and interactive systems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4633",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "344",
+      "code": "IAT 344",
+      "section": "D100",
+      "title": "Moving Images",
+      "instructors": [
+        "Hennessy, Kate"
+      ],
+      "instructor": "Hennessy, Kate",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 44,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "44/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 886 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/344/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/344/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:18.485Z",
+      "prerequisiteText": "Minimum of 48 units and IAT 202 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Reviews and consolidates the fundamentals of digital video production, including camera and composition skills, the role of sound, lighting, and continuity and montage editing. Students will review and analyze works from traditional cinema and from contemporary digital video. The course will reinforce fundamental skills and extend the student's abilities to use a range of digital production, post-production, and presentation techniques.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4646",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "351",
+      "code": "IAT 351",
+      "section": "B100",
+      "title": "Human-Computer Interaction",
+      "instructors": [
+        "Fisher, Brian"
+      ],
+      "instructor": "Fisher, Brian",
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 92,
+        "capacity": 96,
+        "waitlistCount": 0,
+        "raw": "92/96"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/351/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/351/b100",
+      "outlineRetrievedAt": "2026-10-06T14:25:18.784Z",
+      "prerequisiteText": "Completion of 48 units, including IAT 201 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Students will learn about and gain experience with a variety of research methods, models, and frameworks useful for the design of interactive systems for work, learning and leisure purposes. Topics include, but are not limited to, distributed and heterogenous interaction; and immersive, ubiquitous and responsive environments. Application topics include knowledge work, community and organizational collaboration, security, trust and privacy. Emphasis is on practical outcomes through a project that includes system analysis, design, and development plan.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4647",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "359",
+      "code": "IAT 359",
+      "section": "D100",
+      "title": "Mobile Computing",
+      "instructors": [
+        "Serban, Helmine"
+      ],
+      "instructor": "Serban, Helmine",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 45,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "45/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/359/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/359/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:19.090Z",
+      "prerequisiteText": "Completion of 48 units, including IAT 265 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An introduction to mobile computing and the development of applications for mobile environments. The three areas that will be covered in the course are mobile technologies, application development and user interaction in a mobile setting. Students will make use of mobile application frameworks and development environments to develop their own application and project, while reinforcing concepts covered in the lectures. Topics covered include mobile development environments, user interfaces, user experience and application development guidelines, gesture recognition, location, sensors, and graphics, and others, as will be outlined in the weekly schedule.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4648",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "360",
+      "code": "IAT 360",
+      "section": "B100",
+      "title": "Exploring AI",
+      "instructors": [
+        "Yalçin, Ö. Nilay"
+      ],
+      "instructor": "Yalçin, Ö. Nilay",
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 71,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "71/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/360/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/360/b100",
+      "outlineRetrievedAt": "2026-10-06T14:25:19.383Z",
+      "prerequisiteText": "IAT 265 or CMPT 225, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Designed to provide a comprehensive and accessible introduction to the world of artificial intelligence that will empower the students to navigate the AI-driven future. Students will explore fundamental AI concepts, including machine learning, neural networks, natural language processing, and computer vision; discover real-world applications, ethical considerations, and the societal impact of AI.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6451",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "373",
+      "code": "IAT 373",
+      "section": "D100",
+      "title": "Co-op Practicum III",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 9,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "9/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/373/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/373/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:19.685Z",
+      "prerequisiteText": "IAT 272 (or WKTM 200).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4650",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "373",
+      "code": "IAT 373",
+      "section": "D200",
+      "title": "Co-op Practicum III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "1/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/373/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/373/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:19.987Z",
+      "prerequisiteText": "IAT 272 (or WKTM 200).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4651",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "373",
+      "code": "IAT 373",
+      "section": "I100",
+      "title": "Co-op Practicum III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/373/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/373/i100",
+      "outlineRetrievedAt": "2026-10-06T14:25:20.284Z",
+      "prerequisiteText": "IAT 272 (or WKTM 200).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4652",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "374",
+      "code": "IAT 374",
+      "section": "D100",
+      "title": "Co-op Practicum IV",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "2/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/374/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/374/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:20.584Z",
+      "prerequisiteText": "IAT 373 (or WKTM 300).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4653",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "374",
+      "code": "IAT 374",
+      "section": "D200",
+      "title": "Co-op Practicum IV",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/374/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/374/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:20.882Z",
+      "prerequisiteText": "IAT 373 (or WKTM 300).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4654",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "374",
+      "code": "IAT 374",
+      "section": "I100",
+      "title": "Co-op Practicum IV",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/374/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/374/i100",
+      "outlineRetrievedAt": "2026-10-06T14:25:21.181Z",
+      "prerequisiteText": "IAT 373 (or WKTM 300).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4655",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "375",
+      "code": "IAT 375",
+      "section": "D100",
+      "title": "Co-op Practicum V",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "3/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/375/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/375/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:21.487Z",
+      "prerequisiteText": "IAT 374 (or WKTM 400).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4656",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "375",
+      "code": "IAT 375",
+      "section": "D200",
+      "title": "Co-op Practicum V",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/375/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/375/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:21.790Z",
+      "prerequisiteText": "IAT 374 (or WKTM 400).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4657",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "375",
+      "code": "IAT 375",
+      "section": "I100",
+      "title": "Co-op Practicum V",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1190,
+          "displayStart": "8:30 AM",
+          "displayEnd": "7:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/375/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/375/i100",
+      "outlineRetrievedAt": "2026-10-06T14:25:22.095Z",
+      "prerequisiteText": "IAT 374 (or WKTM 400).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the SIAT Co-operative Education Program. Units from this course do not count towards completion of an SFU degree. Graded as pass/fail. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4658",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "386",
+      "code": "IAT 386",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/386/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/386/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:22.384Z",
+      "prerequisiteText": "Completion of 45 units, and permission of the instructor and of the school are required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent reading and research topics selected in consultation with individual members of the SIAT faculty. This course can be repeated for credit up to a maximum of three times, if topic studied is different. No more than two directed studies may be used towards the IAT major requirements. Variable units: 1, 2, 3, 4, 5, 6.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4659",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "386",
+      "code": "IAT 386",
+      "section": "D200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "0/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/386/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/386/d200",
+      "outlineRetrievedAt": "2026-10-06T14:25:22.681Z",
+      "prerequisiteText": "Completion of 45 units, and permission of the instructor and of the school are required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent reading and research topics selected in consultation with individual members of the SIAT faculty. This course can be repeated for credit up to a maximum of three times, if topic studied is different. No more than two directed studies may be used towards the IAT major requirements. Variable units: 1, 2, 3, 4, 5, 6.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4660",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "386",
+      "code": "IAT 386",
+      "section": "D300",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "0/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/386/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/386/d300",
+      "outlineRetrievedAt": "2026-10-06T14:25:22.987Z",
+      "prerequisiteText": "Completion of 45 units, and permission of the instructor and of the school are required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent reading and research topics selected in consultation with individual members of the SIAT faculty. This course can be repeated for credit up to a maximum of three times, if topic studied is different. No more than two directed studies may be used towards the IAT major requirements. Variable units: 1, 2, 3, 4, 5, 6.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4661",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "386",
+      "code": "IAT 386",
+      "section": "D400",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "0/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/386/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/386/d400",
+      "outlineRetrievedAt": "2026-10-06T14:25:23.283Z",
+      "prerequisiteText": "Completion of 45 units, and permission of the instructor and of the school are required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent reading and research topics selected in consultation with individual members of the SIAT faculty. This course can be repeated for credit up to a maximum of three times, if topic studied is different. No more than two directed studies may be used towards the IAT major requirements. Variable units: 1, 2, 3, 4, 5, 6.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4663",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "431",
+      "code": "IAT 431",
+      "section": "D100",
+      "title": "Speculative Design",
+      "instructors": [
+        "Russell, Gillian"
+      ],
+      "instructor": "Russell, Gillian",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 46,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "46/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/431/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/431/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:23.592Z",
+      "prerequisiteText": "Completion of 60 units, including IAT 309W and IAT 333, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Provides students with the opportunity to experiment with designing in various non-normative frameworks provided by cultural studies, critical theory and phenomenology. Students will examine design's potential for cultural, social and ethical critique of emerging technologies and society. Rather than merely illustrating theoretical positions, this examination involves enacting and embodying differing theoretical positions, thereby rendering criticism productive. Individual design expertise and voice is emphasized.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4668",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "432",
+      "code": "IAT 432",
+      "section": "E100",
+      "title": "Design Evaluation",
+      "instructors": [
+        "Nazemi, Mark"
+      ],
+      "instructor": "Nazemi, Mark",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 37,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "37/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/432/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/432/e100",
+      "outlineRetrievedAt": "2026-10-06T14:25:23.882Z",
+      "prerequisiteText": "IAT 334 with a minimum grade of C- and completion of 60 units. Recommended: IAT 201 and 235.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines evaluation concepts and methods for designers. Introduces a range of evaluation approaches including informal usability studies, lab experiments, field studies, and analytically-based evaluations. Students will explore techniques for feedback including usability tests, observation, interviews, heuristic reviews, and discursive evaluations. Underlying concepts of evaluation including scientific experimentation, ethnography, phenomenology, and aesthetics will be discussed. Students will learn how to design and implement appropriate evaluation studies for a range of design projects.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4669",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "443",
+      "code": "IAT 443",
+      "section": "D100",
+      "title": "Sen. Project in Creative Media",
+      "instructors": [
+        "Clements-Vivian, Susan"
+      ],
+      "instructor": "Clements-Vivian, Susan",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 800,
+          "displayStart": "9:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-09-11",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 800,
+          "displayStart": "9:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-17",
+          "endDate": "2026-10-22",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 800,
+          "displayStart": "9:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-10-23",
+          "endDate": "2026-10-23",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 800,
+          "displayStart": "9:30 AM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-10-26",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "36/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/443/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/443/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:24.181Z",
+      "prerequisiteText": "Completion of 60 units, including IAT 313, IAT 340, or IAT 344, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "A senior level investigation of skills and knowledge learned across creative media concentration. Examines recombinant, computational and compositional structures related to image, sound, video and/or motion capture. Students will explore emergent creative production areas to tackle meaningful problems and tell thoughtful stories. They will design, produce and critically appraise both their own work and the work of others. Students will produce a project of significant size and scope that helps to prepare students to be creative producers in our rapidly evolving computer-mediated world.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4677",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "460",
+      "code": "IAT 460",
+      "section": "BLS1",
+      "title": "GenAI and Comp Creativity",
+      "instructors": [
+        "Pasquier, Philippe"
+      ],
+      "instructor": "Pasquier, Philippe",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1140,
+          "endMinutes": 1220,
+          "displayStart": "7:00 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 28,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "28/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 882 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/460/bls1",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/460/bls1",
+      "outlineRetrievedAt": "2026-10-06T14:25:24.484Z",
+      "prerequisiteText": "IAT 360.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Proposes an in-depth introduction to design and use of generative systems in the context of creative practices. It surveys the families of algorithms and interfaces used in generative artificial intelligence (Al) and computational creativity, to augment or automate creative tasks across domains.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4701",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "486",
+      "code": "IAT 486",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/486/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/486/d100",
+      "outlineRetrievedAt": "2026-10-06T14:25:24.783Z",
+      "prerequisiteText": "Completion of 69 units, and permission of the instructor and of the school are required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Independent reading and research topics selected in consultation with individual members of the SIAT faculty. This course can be repeated for credit up to a maximum of three times, if topic studied is different. No more than two directed studies may be used towards the IAT major requirements. Variable units: 1, 2, 3, 4, 5, 6.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4679",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "804",
+      "code": "IAT 804",
+      "section": "G100",
+      "title": "Foundations of Research Design",
+      "instructors": [
+        "Corbett, Jon"
+      ],
+      "instructor": "Corbett, Jon",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "16/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/804/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/804/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:25.084Z",
+      "prerequisiteText": "SIAT Graduate Student.",
+      "units": "3",
+      "description": "Provides an introduction to different epistemological worldviews, research approaches and methodological traditions of inquiry that are used to conduct research within SIAT. Students are introduced to a range of ways of knowing and inquiring in human-centred design, development and analysis of interactive technologies including scientific, social science, humanities, design and art-based approaches.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4688",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "805",
+      "code": "IAT 805",
+      "section": "G100",
+      "title": "Research Colloquium",
+      "instructors": [
+        "Aceves-Sepulveda, Gabriela"
+      ],
+      "instructor": "Aceves-Sepulveda, Gabriela",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "20/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/805/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/805/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:25.386Z",
+      "prerequisiteText": "Enrollment in the SIAT graduate program.",
+      "description": "Through an interdisciplinary speaker series, presents research topics relevant to the SIAT graduate program. Engages students in discussion and debate on the utility, results and methods of research. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4689",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "806",
+      "code": "IAT 806",
+      "section": "G100",
+      "title": "Design Approaches to Computing",
+      "instructors": [
+        "Karduni, Alireza"
+      ],
+      "instructor": "Karduni, Alireza",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "21/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/806/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/806/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:25.688Z",
+      "prerequisiteText": "SIAT Graduate Student.",
+      "units": "3",
+      "description": "Introduces students to computer programming that encompasses knowledge of art/design history and practices, and introduces a deep approach to design thinking in creating interactive software projects. This programming-intensive course includes an introduction to Interactive Design Computing and the history of ideas that lead to modern interactive computing systems and emphasizes decision making in software design process, historical perspective of art and design, interactive software objects, iterative design cycles and design rationale in producing interactive software and introduces a historical perspective on these techniques.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4690",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "871",
+      "code": "IAT 871",
+      "section": "G100",
+      "title": "Directed Readings I",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "1/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/871/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/871/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:25.984Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4692",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "871",
+      "code": "IAT 871",
+      "section": "G200",
+      "title": "Directed Readings I",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/871/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/871/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:26.284Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4694",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "872",
+      "code": "IAT 872",
+      "section": "G100",
+      "title": "Directed Readings II",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/872/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/872/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:26.586Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4695",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "882",
+      "code": "IAT 882",
+      "section": "G100",
+      "title": "Special Topics II",
+      "instructors": [
+        "Pasquier, Philippe"
+      ],
+      "instructor": "Pasquier, Philippe",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1140,
+          "endMinutes": 1220,
+          "displayStart": "7:00 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "6/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 460 BLS1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/882/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/882/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:26.887Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4700",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "885",
+      "code": "IAT 885",
+      "section": "G100",
+      "title": "Special Topics V",
+      "instructors": [
+        "DiPaola, Steve"
+      ],
+      "instructor": "DiPaola, Steve",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 6,
+        "waitlistCount": 0,
+        "raw": "2/6"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 343 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/885/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/885/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:27.182Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4699",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "886",
+      "code": "IAT 886",
+      "section": "G100",
+      "title": "Special Topics VI",
+      "instructors": [
+        "Hennessy, Kate"
+      ],
+      "instructor": "Hennessy, Kate",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "1/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "IAT 344 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/886/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/886/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:27.485Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4716",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "888",
+      "code": "IAT 888",
+      "section": "G200",
+      "title": "Special Topics VIII",
+      "instructors": [
+        "Odom, William"
+      ],
+      "instructor": "Odom, William",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "6/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/888/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/888/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:27.789Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4715",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "890",
+      "code": "IAT 890",
+      "section": "G100",
+      "title": "PhD Comprehensive Exam",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/890/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/890/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:28.085Z",
+      "prerequisiteText": "Enrollment in SIAT PhD Program and completion of Annotated Bibliography.",
+      "description": "With the consent of their supervisory committee, students may sit the Comprehensive Examination following completion of required course work. Upon passing the student will be admitted to full degree candidacy. Graded on a satisfactory/unsatisfactory basis. The examination may be retaken once.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4707",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "890",
+      "code": "IAT 890",
+      "section": "G200",
+      "title": "PhD Comprehensive Exam",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/890/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/890/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:28.382Z",
+      "prerequisiteText": "Enrollment in SIAT PhD Program and completion of Annotated Bibliography.",
+      "description": "With the consent of their supervisory committee, students may sit the Comprehensive Examination following completion of required course work. Upon passing the student will be admitted to full degree candidacy. Graded on a satisfactory/unsatisfactory basis. The examination may be retaken once.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4708",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "897",
+      "code": "IAT 897",
+      "section": "G100",
+      "title": "MA Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "8/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/897/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:28.688Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Arts thesis enroll in this course. This course will not count towards the course work requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4709",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "897",
+      "code": "IAT 897",
+      "section": "G200",
+      "title": "MA Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/897/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/897/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:28.982Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Arts thesis enroll in this course. This course will not count towards the course work requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4710",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "898",
+      "code": "IAT 898",
+      "section": "G100",
+      "title": "MSc Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "17/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/898/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:29.289Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Science thesis enroll in this course. This course will not count towards the course work requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4711",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "898",
+      "code": "IAT 898",
+      "section": "G200",
+      "title": "MSc Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/898/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:29.587Z",
+      "units": "18",
+      "description": "Students who are working on their Master of Science thesis enroll in this course. This course will not count towards the course work requirements. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4712",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "899",
+      "code": "IAT 899",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 38,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "38/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/899/g100",
+      "outlineRetrievedAt": "2026-10-06T14:25:29.884Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. This course will not count towards the course work requirements. PhD candidate status is neither required for nor implied by enrollment in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4713",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "IAT",
+      "courseNumber": "899",
+      "code": "IAT 899",
+      "section": "G200",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "3/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=IAT",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/iat/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/iat/899/g200",
+      "outlineRetrievedAt": "2026-10-06T14:25:30.186Z",
+      "units": "18",
+      "description": "Students who are working on their PhD thesis enroll in this course. This course will not count towards the course work requirements. PhD candidate status is neither required for nor implied by enrollment in this course. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4714",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    }
+  ]
+}

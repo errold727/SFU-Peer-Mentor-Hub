@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-06T14:15:22.797Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "101",
+      "code": "LBST 101",
+      "section": "D100",
+      "title": "Intro.Labour Studies",
+      "instructors": [
+        "Harter, John-Henry"
+      ],
+      "instructor": "Harter, John-Henry",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "34/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/101/d100",
+      "outlineRetrievedAt": "2026-10-06T14:26:17.284Z",
+      "units": "3",
+      "designation": "Breadth-Social Sciences",
+      "description": "Introduces key concepts and approaches for understanding the character and organization of work, employment relations, worker’s rights, and labour movements in contemporary society. Explores who does paid and unpaid work and under what conditions through the study of trends and issues, including migration and immigration, unionization, precarious employment, and automation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2895",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "202",
+      "code": "LBST 202",
+      "section": "D100",
+      "title": "Labour Research for Social Chg",
+      "instructors": [
+        "Hu, Xinying"
+      ],
+      "instructor": "Hu, Xinying",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "11/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/202/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/202/d100",
+      "outlineRetrievedAt": "2026-10-06T14:26:17.586Z",
+      "prerequisiteText": "LBST 100 or LBST 101 is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces students to labour research through methodology and research methods for social change. Explores what methodology is, the methods common in labour and community-based research, and understandings of social justice. Students gain experience of quantitative and qualitative approaches through hands-on learning, including survey research, interviews, and ethnography. Focuses on using and interpreting a range of data for social justice and social change projects.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2897",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "301W",
+      "code": "LBST 301W",
+      "section": "D100",
+      "title": "Labour, Social Media, and News",
+      "instructors": [
+        "Harter, John-Henry"
+      ],
+      "instructor": "Harter, John-Henry",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "20/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/301w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/301w/d100",
+      "outlineRetrievedAt": "2026-10-06T14:26:17.884Z",
+      "prerequisiteText": "LBST 100 or LBST 101 or on permission of instructor.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Provides a comprehensive understanding of the contemporary structure, issues, and perceptions of labour unions and other forms of working-class organization and social movements. The treatment of labour in the media and popular culture will provide an understanding of how labour is viewed in society, how labour views itself, and how working-class culture informs and is informed by the larger culture.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2898",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "305",
+      "code": "LBST 305",
+      "section": "OL01",
+      "title": "Gendering Economy",
+      "instructors": [
+        "Morgan, Jeannie"
+      ],
+      "instructor": "Morgan, Jeannie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 28,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "28/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/305/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/305/ol01",
+      "outlineRetrievedAt": "2026-10-06T14:26:18.193Z",
+      "prerequisiteText": "30 units including LBST 100 or three units in GSWS or WS or GDST.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Takes a broad approach to gender, placing it dialogue with race and ethnicity, class, nation, and space, to think through the complex dynamic between gender and labour from a variety of perspectives. Explores workers’ lived experiences of gender regimes while critically examining how gender ‘matters’ within the workplace.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2899",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "306",
+      "code": "LBST 306",
+      "section": "B100",
+      "title": "Crit Pol Econ of Labour Market",
+      "instructors": [
+        "Krauss, Amy"
+      ],
+      "instructor": "Krauss, Amy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 29,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "29/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/306/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/306/b100",
+      "outlineRetrievedAt": "2026-10-06T14:26:18.485Z",
+      "prerequisiteText": "Strongly Recommended: LBST 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An exploration of critical and radical political economy traditions in Labour Studies with a focus on how these approaches have diverged from, and provided alternatives to, classical and orthodox economic understandings of labour and labour markets.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3005",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "307",
+      "code": "LBST 307",
+      "section": "D100",
+      "title": "Unfree Labour and Modern Slave",
+      "instructors": [
+        "Kihika, Maureen"
+      ],
+      "instructor": "Kihika, Maureen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "13/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/307/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/307/d100",
+      "outlineRetrievedAt": "2026-10-06T14:26:18.787Z",
+      "prerequisiteText": "Strongly Recommended: LBST 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An exploration of the expanding forms of unfree labour in capitalist economies as products of changing labour processes, global labour markets, and the policies of neoliberalism and 'austerity'.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2901",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "312",
+      "code": "LBST 312",
+      "section": "D100",
+      "title": "Migration, Migrants, and Work",
+      "instructors": [
+        "Encalada Grez, Evelyn"
+      ],
+      "instructor": "Encalada Grez, Evelyn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 19,
+        "waitlistCount": 0,
+        "raw": "16/19"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/312/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/312/d100",
+      "outlineRetrievedAt": "2026-10-06T14:26:19.087Z",
+      "prerequisiteText": "Strongly Recommended: LBST 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Global labour migration has increased substantially in the last several decades. What factors contribute to the current wave of labour migration? Which countries send and receive migrants, and what is the role of internal migration? What challenges do migrant workers face in their host countries? This course will examine these questions to uncover the nature, trends and impacts of this growing phenomenon.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2902",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LBST",
+      "courseNumber": "313",
+      "code": "LBST 313",
+      "section": "B100",
+      "title": "Canadian Labour Law",
+      "instructors": [
+        "Strauss, Kendra"
+      ],
+      "instructor": "Strauss, Kendra",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "36/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LBST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/lbst/313/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/lbst/313/b100",
+      "outlineRetrievedAt": "2026-10-06T14:26:19.392Z",
+      "prerequisiteText": "Strongly Recommended: LBST 101.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to labour and employment law in Canada, covering both union and non-union sectors. The course will focus variously on: the principles and practice of the BC Labour Relations Code, the Canada Labour Code, BC Employment Standards Act. BC Human Rights Code, the Workers Compensation Act (WorkSafeBC), and the contested history of labour legislation and related common law.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2903",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

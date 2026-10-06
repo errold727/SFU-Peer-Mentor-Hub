@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-06T14:15:22.797Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DATA",
+      "courseNumber": "180",
+      "code": "DATA 180",
+      "section": "E100",
+      "title": "Seminar - Data Science",
+      "instructors": [
+        "Cao, Jiguo"
+      ],
+      "instructor": "Cao, Jiguo",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1220,
+          "displayStart": "6:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 63,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "63/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DATA",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "STAT 180 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/data/180/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/data/180/e100",
+      "outlineRetrievedAt": "2026-10-06T14:21:15.732Z",
+      "prerequisiteText": "Major or honours in Data Science or permission of the program director.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "A seminar primarily for students undertaking a major or an honours program in Data Science.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6053",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DATA",
+      "courseNumber": "260",
+      "code": "DATA 260",
+      "section": "E100",
+      "title": "Intro R for Data Science",
+      "instructors": [
+        "Stenning, David"
+      ],
+      "instructor": "Stenning, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 137,
+        "capacity": 172,
+        "waitlistCount": 0,
+        "raw": "137/172"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DATA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-06T14:15:22.797Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/data/260/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/data/260/e100",
+      "outlineRetrievedAt": "2026-10-06T14:21:16.028Z",
+      "prerequisiteText": "One of STAT 201, STAT 203, STAT 205, STAT 270, STAT 271, BUS 232, ECON 233, or POL 201, with a grade of at least C- or permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to the R programming language for data science. Exploring data: visualization, transformation and summaries. Data wrangling: reading, tidying, and data types. No prior computer programming experience required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6430",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}
