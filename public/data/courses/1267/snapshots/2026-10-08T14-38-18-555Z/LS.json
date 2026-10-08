@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-08T14:38:18.555Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "800",
+      "code": "LS 800",
+      "section": "G100",
+      "title": "Reason and Passion I",
+      "instructors": [
+        "McCarron, Gary"
+      ],
+      "instructor": "McCarron, Gary",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1290,
+          "displayStart": "6:30 PM",
+          "displayEnd": "9:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "OLC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "13/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/800/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/800/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:40.613Z",
+      "units": "5",
+      "description": "The first of two core courses that constitute an extended examination of the tension between reason and passion in human experience. This course will emphasize close reading and discussion of works, drawn from different cultures and epochs, that reflect on human passion.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6531",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "OLC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "810",
+      "code": "LS 810",
+      "section": "G100",
+      "title": "Self and Society",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Sun"
+          ],
+          "startMinutes": 600,
+          "endMinutes": 780,
+          "displayStart": "10:00 AM",
+          "displayEnd": "1:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "OLC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 14,
+        "waitlistCount": 0,
+        "raw": "12/14"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/810/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/810/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:40.989Z",
+      "units": "5",
+      "description": "This course will examine some aspects of the relationship between selfhood, as idea and experience, and social organization. Approaches to the topic will vary, but may involve scientific, social scientific, philosophical and aesthetic perspectives.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2881",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "OLC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "811",
+      "code": "LS 811",
+      "section": "G100",
+      "title": "Tradition/Modernity",
+      "instructors": [
+        "Ivakhiv, Adrian"
+      ],
+      "instructor": "Ivakhiv, Adrian",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1290,
+          "displayStart": "6:30 PM",
+          "displayEnd": "9:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "8/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/811/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/811/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:41.210Z",
+      "units": "5",
+      "description": "This course will examine ways in which ideas of tradition and traditional societies conflict with forces of modernization and ideas of modernity.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2882",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "819",
+      "code": "LS 819",
+      "section": "G100",
+      "title": "Selected Topics",
+      "instructors": [
+        "O&#x27",
+        "Brien, Emily"
+      ],
+      "instructor": "O&#x27; Brien, Emily",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1110,
+          "endMinutes": 1290,
+          "displayStart": "6:30 PM",
+          "displayEnd": "9:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "OLC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "14/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/819/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/819/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:41.631Z",
+      "units": "5",
+      "description": "This course provides an opportunity for the occasional offering of a seminar course appropriate to the program but on a topic outside the regular courses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2883",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "OLC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "829",
+      "code": "LS 829",
+      "section": "G100",
+      "title": "Directed Study",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "3/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/829/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/829/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:41.822Z",
+      "units": "5",
+      "description": "This course provides an opportunity for individual study on a topic of the student's choice, under the guidance of one or more faculty. Arrangements for this course must be approved by the graduate chair in advance of enrolment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6532",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "829",
+      "code": "LS 829",
+      "section": "G200",
+      "title": "Directed Study",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/829/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/829/g200",
+      "outlineRetrievedAt": "2026-10-08T14:49:42.115Z",
+      "units": "5",
+      "description": "This course provides an opportunity for individual study on a topic of the student's choice, under the guidance of one or more faculty. Arrangements for this course must be approved by the graduate chair in advance of enrolment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6533",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "998",
+      "code": "LS 998",
+      "section": "G100",
+      "title": "MA Extended Essays",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/998/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/998/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:42.417Z",
+      "units": "5",
+      "description": "Students will present two of their essays for formal examination in order to satisfy the Simon Fraser University requirements for a master's degree. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6534",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "999",
+      "code": "LS 999",
+      "section": "G100",
+      "title": "M.A. Project",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "6/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/999/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/999/g100",
+      "outlineRetrievedAt": "2026-10-08T14:49:42.722Z",
+      "units": "5",
+      "description": "This course is for students choosing to satisfy part of the requirements for an MA in liberal studies by presenting a project for formal examination. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6535",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "LS",
+      "courseNumber": "999",
+      "code": "LS 999",
+      "section": "G200",
+      "title": "M.A. Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=LS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ls/999/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ls/999/g200",
+      "outlineRetrievedAt": "2026-10-08T14:49:43.019Z",
+      "units": "5",
+      "description": "This course is for students choosing to satisfy part of the requirements for an MA in liberal studies by presenting a project for formal examination. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6536",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

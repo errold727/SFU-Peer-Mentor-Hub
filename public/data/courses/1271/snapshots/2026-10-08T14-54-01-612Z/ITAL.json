@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-08T14:54:01.613Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ITAL",
+      "courseNumber": "100",
+      "code": "ITAL 100",
+      "section": "B100",
+      "title": "Intro Italian I",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ITAL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ital/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ital/100/b100",
+      "outlineRetrievedAt": "2026-10-08T15:04:40.329Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Italian for students with no previous background in the language. Introduces basic oral and written skills, and cultural competence. (A1 level of CEFR). Students with previous Italian training should contact the department for assessment and placement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5168",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ITAL",
+      "courseNumber": "110",
+      "code": "ITAL 110",
+      "section": "D100",
+      "title": "Introductory Italian II",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "0/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ITAL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ital/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ital/110/d100",
+      "outlineRetrievedAt": "2026-10-08T15:04:40.638Z",
+      "prerequisiteText": "ITAL 100 or equivalent.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Follows ITAL 100. Continues introduction to Italian for students who have developed the necessary foundations from ITAL 100. Students will acquire elementary conversational skills and basic reading ability, along with cultural competence. (A2 level of CEFR)",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5169",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    }
+  ]
+}

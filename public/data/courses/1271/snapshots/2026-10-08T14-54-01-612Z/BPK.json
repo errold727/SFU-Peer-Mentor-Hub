@@ -1,0 +1,3075 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-08T14:54:01.613Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "105",
+      "code": "BPK 105",
+      "section": "OL01",
+      "title": "Anatomy & Physiology Hum Surv",
+      "instructors": [
+        "Dill, Ryan"
+      ],
+      "instructor": "Dill, Ryan",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 120,
+        "waitlistCount": 0,
+        "raw": "0/120"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/105/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/105/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:55:08.001Z",
+      "prerequisiteText": "Recommended: Grade 11 Biology, Chemistry and Physics.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Discover how detailed cellular and system level physiological functions contribute to the survival of the human organism. Includes a survey of the muscular, nervous, endocrine, cardiovascular, respiratory, urinary, digestive, and immune systems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6239",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "110",
+      "code": "BPK 110",
+      "section": "D100",
+      "title": "Human Nutrition",
+      "instructors": [
+        "Lunnie, Kevin"
+      ],
+      "instructor": "Lunnie, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/110/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:08.302Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "An introduction of the principles of human nutrition with an emphasis on topics of current interest. The material is presented in a Canadian context to focus on nutrition practices and problems in this country. Students will gain an understanding of factors affecting food selection and the role of nutrition in maintaining good health. Students will develop the ability to discriminate between reliable and unreliable information on the subject of food and nutrition.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6240",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "110",
+      "code": "BPK 110",
+      "section": "OL01",
+      "title": "Human Nutrition",
+      "instructors": [
+        "Lunnie, Kevin"
+      ],
+      "instructor": "Lunnie, Kevin",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 220,
+        "waitlistCount": 0,
+        "raw": "0/220"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/110/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/110/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:55:08.601Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "An introduction of the principles of human nutrition with an emphasis on topics of current interest. The material is presented in a Canadian context to focus on nutrition practices and problems in this country. Students will gain an understanding of factors affecting food selection and the role of nutrition in maintaining good health. Students will develop the ability to discriminate between reliable and unreliable information on the subject of food and nutrition.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6241",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "140",
+      "code": "BPK 140",
+      "section": "D100",
+      "title": "Contemporary Health",
+      "instructors": [
+        "Ng, David"
+      ],
+      "instructor": "Ng, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/140/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/140/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:08.896Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Explores health from a holistic perspective, in which health is viewed as physical, psychological, and social well-being. Considers genetics, environment, personal health behaviors (such as diet, exercise, stress management, and drug use), socioeconomic status, health care delivery systems, and aging with the intent to improve students' abilities to evaluate health information.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6242",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "140",
+      "code": "BPK 140",
+      "section": "OL01",
+      "title": "Contemporary Health",
+      "instructors": [
+        "Ng, David"
+      ],
+      "instructor": "Ng, David",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 220,
+        "waitlistCount": 0,
+        "raw": "0/220"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/140/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/140/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:55:09.197Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Explores health from a holistic perspective, in which health is viewed as physical, psychological, and social well-being. Considers genetics, environment, personal health behaviors (such as diet, exercise, stress management, and drug use), socioeconomic status, health care delivery systems, and aging with the intent to improve students' abilities to evaluate health information.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6243",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "142",
+      "code": "BPK 142",
+      "section": "D100",
+      "title": "Introduction to BPK",
+      "instructors": [
+        "Dill, Ryan"
+      ],
+      "instructor": "Dill, Ryan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 280,
+        "waitlistCount": 0,
+        "raw": "0/280"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/142/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/142/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:09.506Z",
+      "prerequisiteText": "One of Grade 12 Anatomy and Physiology, Biology, Chemistry or Physics with a grade of B or better; or one of BPK 105, BPK 110, BPK 143, BISC 100, BISC 113 or HSCI 100 with a grade of C or better.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Survey of theories and laboratory procedures for assessing human health status and physical performance, including biomechanics, body composition, development, environmental physiology, ergonomics, exercise physiology and motor learning. Functional anatomy and physiology of the cardiovascular, nervous, respiratory, skeletal and skeletal muscle systems in relation to physical activity are explored.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6244",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "143",
+      "code": "BPK 143",
+      "section": "D100",
+      "title": "Exercise: Health Performance",
+      "instructors": [
+        "Jean, Liane"
+      ],
+      "instructor": "Jean, Liane",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "0/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/143/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/143/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:09.806Z",
+      "prerequisiteText": "Recommended: Medical clearance from a personal physician.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces the student to exercise physiology. Focuses on personal exercise prescription to improve aerobic capacity, muscular strength and endurance, and flexibility. Also discusses athletic conditioning, e.g. speed and power training. The effects of nutritional and environmental factors on exercise and the role of exercise in weight control and stress management are considered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6245",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "201",
+      "code": "BPK 201",
+      "section": "D100",
+      "title": "Biomechanics",
+      "instructors": [
+        "Lee, Sabrina"
+      ],
+      "instructor": "Lee, Sabrina",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 125,
+        "waitlistCount": 0,
+        "raw": "0/125"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/201/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:12.605Z",
+      "prerequisiteText": "MATH 150, 151 or 154, MATH 152 or 155 (may be taken concurrently), PHYS 101 (or 120 or 125 or 140), BPK 142.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "This course will cover the application of basic mechanics to human movement. It will provide students with a basic understanding of how forces act on body segments and how movements are produced. The subject matter of this course is relevant to quantifying all forms of physical activity, from activities of daily living, physically challenged movement patterns, to elite athletic performance. It also has applications in medical settings, including rehabilitation and sports medicine.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6269",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "205",
+      "code": "BPK 205",
+      "section": "D100",
+      "title": "Human Physiology",
+      "instructors": [
+        "Poburko, Damon"
+      ],
+      "instructor": "Poburko, Damon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "0/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "BPK 208 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/205/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/205/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:10.405Z",
+      "prerequisiteText": "BISC 101, CHEM 281, PHYS 101 and 102.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introductory survey of human physiology with an emphasis on mechanisms of regulation and integration. Anatomy of structures will be detailed only when it is critical to a functional understanding. Although this is intended as a survey course, some topics will be covered in reasonable detail in order to give insight into mechanisms of function.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6270",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "207",
+      "code": "BPK 207",
+      "section": "D100",
+      "title": "Sensorimotor Cntl and Learning",
+      "instructors": [
+        "Cooke, Dylan"
+      ],
+      "instructor": "Cooke, Dylan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 172,
+        "waitlistCount": 0,
+        "raw": "0/172"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/207/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/207/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:12.606Z",
+      "prerequisiteText": "BPK 142.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Students are introduced to basic concepts in the sensorimotor planning and control of movement. Topics include the factors and disorders affecting movement, sensory and motor physiology, sensorimotor integration, current theories of motor control, and motor learning. Taught from a behavioral and neurophysiological perspective that explores psychological influences on motor control.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6271",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "208",
+      "code": "BPK 208",
+      "section": "D100",
+      "title": "Intro to Physiological Systems",
+      "instructors": [
+        "Poburko, Damon"
+      ],
+      "instructor": "Poburko, Damon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 16,
+        "waitlistCount": 0,
+        "raw": "0/16"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "BPK 205 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/208/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/208/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:12.604Z",
+      "corequisites": "CHEM 180.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to anatomy and physiological function of the major human systems, from a biomedical engineering perspective. Normally only available to students in the Biomedical Engineering Program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6272",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "241",
+      "code": "BPK 241",
+      "section": "D100",
+      "title": "Sports Injuries",
+      "instructors": [
+        "Lunnie, Kevin"
+      ],
+      "instructor": "Lunnie, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 68,
+        "waitlistCount": 0,
+        "raw": "0/68"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/241/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/241/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:12.899Z",
+      "prerequisiteText": "BPK 142.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Includes delineation of the role of the sports therapist and will study the structural and functional characteristics of the body with regard to the prevention of injury in sport. A first aid approach to athletic injuries will be developed with practical experience in routine treatments.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6273",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "303",
+      "code": "BPK 303",
+      "section": "D100",
+      "title": "Assess. of Movement & Function",
+      "instructors": [
+        "Jean, Liane"
+      ],
+      "instructor": "Jean, Liane",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/303/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/303/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:13.145Z",
+      "prerequisiteText": "BPK 201, BPK 241 and STAT 201 or an equivalent statistics course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Clinical orthopedic assessment involves measurements of the human body to determine its capability for function and movement. The theoretical background, practical application and assessment for topics including anthropometrics, posture, balance, range of motion, strength, motor and sensory function, coordination and balance, and walking and running gait will be investigated.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6299",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "304W",
+      "code": "BPK 304W",
+      "section": "D100",
+      "title": "Inquiry and Measurement",
+      "instructors": [
+        "Lee, Sabrina"
+      ],
+      "instructor": "Lee, Sabrina",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "0/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/304w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/304w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.932Z",
+      "prerequisiteText": "BPK 142, STAT 201 and two of BPK 201, 205 and 207.",
+      "units": "3",
+      "designation": "Writing/Quantitative",
+      "description": "Covers research design, measurement, data analysis, and hypothesis testing, as well as techniques for data acquisition, signal processing, and modeling relevant to research in Biomedical Physiology and Kinesiology. There is also a focus on scientific writing, with opportunities for feedback and revision.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6300",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "305",
+      "code": "BPK 305",
+      "section": "D100",
+      "title": "Human Physiology I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 125,
+        "waitlistCount": 0,
+        "raw": "0/125"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/305/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.938Z",
+      "prerequisiteText": "BPK 205, MBB 231 (or 201), MATH 155 (or 152). Majors from outside BPK require BPK 205 (or BISC 305), MBB 231 (or 201), MATH 155 (or 152) plus permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A detailed examination of the physiology and pathophysiology of the cardiac, vascular and respiratory systems. The course focuses on integration of physiological mechanisms at the molecular, cellular and systems levels.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6301",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "306",
+      "code": "BPK 306",
+      "section": "D100",
+      "title": "Human Physiology II",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/306/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/306/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.056Z",
+      "prerequisiteText": "BPK 207. Corequisite: BPK 305. Majors from outside BPK require BPK 205 (or BISC 305), MBB 231 (or 201), MATH 155 (or 152) plus permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A detailed examination of the physiology and pathophysiology of the nervous system, skeletal muscle and connective tissue. The course focuses on integration of physiological mechanisms at the molecular, cellular and systems levels.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6302",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "307",
+      "code": "BPK 307",
+      "section": "D100",
+      "title": "Human Physiology III",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "0/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/307/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/307/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.342Z",
+      "prerequisiteText": "BPK 305. Corequisite: BPK 306; however, students who took BPK 306 prior to Fall 2017, cannot take this course. Majors from outside BPK require BPK 205 (or BISC 305), MBB 231 (or 201), MATH 155 or 152 plus permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A detailed examination of the physiology and pathophysiology of the gastrointestinal, renal, endocrine, immune and reproductive systems. The course focuses on integration of physiological mechanisms at the molecular, cellular and systems levels.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6303",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "310",
+      "code": "BPK 310",
+      "section": "E100",
+      "title": "Exer/Work Physiology",
+      "instructors": [
+        "Dill, Ryan"
+      ],
+      "instructor": "Dill, Ryan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 70,
+        "waitlistCount": 0,
+        "raw": "0/70"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/310/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/310/e100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.643Z",
+      "prerequisiteText": "BPK 205, MBB 201 (or 231). Recommended: BPK 201.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The study of human physiological responses and adaptations to acute and chronic exercise/work. Cardiorespiratory, cellular and metabolic adaptations will be studied and discussed in detail.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6304",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "312",
+      "code": "BPK 312",
+      "section": "D100",
+      "title": "Nutrition/Fitness",
+      "instructors": [
+        "White, Matt"
+      ],
+      "instructor": "White, Matt",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/312/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/312/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:14.972Z",
+      "prerequisiteText": "BPK 105 (or 205), and 110.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This course examines the theory and application of nutrition for fitness and sport. Students will study issues around dietary practices commonly promoted for performance enhancement, including mechanisms, effectiveness, risks and regulations. Students will learn skills for critical evaluation of nutrition research and nutrition claims, and will employ these in several small group projects investigating specific nutrition issues and products.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6305",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "325",
+      "code": "BPK 325",
+      "section": "B100",
+      "title": "Clinical Human Anatomy",
+      "instructors": [
+        "Ramer, Leanne"
+      ],
+      "instructor": "Ramer, Leanne",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "0/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/325/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/325/b100",
+      "outlineRetrievedAt": "2026-10-08T14:55:15.245Z",
+      "prerequisiteText": "BPK 142 (with a grade of C- or higher) and either BPK 105 (with a grade of C or higher) or BPK 205 (with a grade of C- or higher).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Investigates the structure of the human body with an emphasis on functional, clinically relevant anatomy. Using a blended format, students engage in hands-on labs with physical models and virtual cadaver dissection, alongside online clinical case-based activities. Major body systems are examined through structure–function relationships relevant to health and rehabilitation. This course will not be counted as an upper level course for any major or honours in BPK.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6329",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "326",
+      "code": "BPK 326",
+      "section": "D100",
+      "title": "Functional Anatomy",
+      "instructors": [
+        "Ramer, Leanne"
+      ],
+      "instructor": "Ramer, Leanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 64,
+        "waitlistCount": 0,
+        "raw": "0/64"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/326/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/326/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:15.552Z",
+      "prerequisiteText": "Admission to the major or honours program in behavioural neuroscience or biomedical physiology or kinesiology. BPK 142, 201, 205 and at least 60 units. Behavioural neuroscience major and honours students require BPK 142, 205, PSYC 280 and at least 60 units.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "A detailed study of human anatomy with emphasis on clinically relevant applications in health, injury and disease. Virtual cadaver dissection, comparative laboratory work, and an introduction to medical imaging emphasize the layered, three-dimensional organization of the human body. Participation in all labs is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6330",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "340",
+      "code": "BPK 340",
+      "section": "D100",
+      "title": "Active Health",
+      "instructors": [
+        "Bedoya, Diana"
+      ],
+      "instructor": "Bedoya, Diana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 680,
+          "displayStart": "8:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/340/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/340/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:15.860Z",
+      "prerequisiteText": "BPK 142, STAT 201 (or PSYC 201). Recommended: BPK 140.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Relationships among health, physical activity, and other health-associated behaviors are examined. In addition, the theories and models of health behavior, in the context of intervention and promotion strategies, are discussed. Pertinent background information is provided, concerning the influence of fitness on various disease states, as well as the epidemiology of health and exercise behaviors.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6331",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "342",
+      "code": "BPK 342",
+      "section": "OL01",
+      "title": "Active Health",
+      "instructors": [
+        "Bott, Carmen"
+      ],
+      "instructor": "Bott, Carmen",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/342/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/342/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:55:16.144Z",
+      "prerequisiteText": "BPK 105 (or 205), 142 and 143.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Builds on BPK 143, Exercise Management, and is designed for students in the kinesiology minor program. The course provides an opportunity to appreciate principles of professionalism in exercise prescription, explain how various fitness assessments have been developed and validated, and design effective exercise programs for healthy populations. This course is available online only.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6332",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "343",
+      "code": "BPK 343",
+      "section": "D000",
+      "title": "Active Health",
+      "instructors": [
+        "Bott, Carmen"
+      ],
+      "instructor": "Bott, Carmen",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "0/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/343/d000",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/343/d000",
+      "outlineRetrievedAt": "2026-10-08T14:55:16.528Z",
+      "prerequisiteText": "BPK 142, 143 and 205; STAT 201 or an equivalent statistics course, BPK 340 (may be taken concurrently). Students must successfully complete a Criminal Record Check prior to enrolling.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An extension of BPK 143, Exercise: Health and Performance, designed to provide students with an opportunity to appreciate principles of exercise leadership, assess individual fitness needs, design programs and monitor effects of prescribed exercise. The course includes a 34 hour unpaid practicum with an industry partner. The partner may require the student to enter into (1) a confidentiality agreement and (2) an Intellectual property agreement the result of which will be that the SFU Intellectual Policy R 30.03 will not apply to the intellectual property created by the student during the practicum. By registering for the course, each student acknowledges that it is aware of these requirements and understands that their entering into these agreements may be a requirement to complete the applicable course work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6338",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "343",
+      "code": "BPK 343",
+      "section": "D100",
+      "title": "Active Health",
+      "instructors": [
+        "Bott, Carmen"
+      ],
+      "instructor": "Bott, Carmen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "0/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/343/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/343/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:16.748Z",
+      "prerequisiteText": "BPK 142, 143 and 205; STAT 201 or an equivalent statistics course, BPK 340 (may be taken concurrently). Students must successfully complete a Criminal Record Check prior to enrolling.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An extension of BPK 143, Exercise: Health and Performance, designed to provide students with an opportunity to appreciate principles of exercise leadership, assess individual fitness needs, design programs and monitor effects of prescribed exercise. The course includes a 34 hour unpaid practicum with an industry partner. The partner may require the student to enter into (1) a confidentiality agreement and (2) an Intellectual property agreement the result of which will be that the SFU Intellectual Policy R 30.03 will not apply to the intellectual property created by the student during the practicum. By registering for the course, each student acknowledges that it is aware of these requirements and understands that their entering into these agreements may be a requirement to complete the applicable course work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6333",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "351",
+      "code": "BPK 351",
+      "section": "D100",
+      "title": "Practicum I",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/351/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/351/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:17.036Z",
+      "prerequisiteText": "Approval into the science co-op program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first term of work experience in the Biomedical Physiology and Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2142",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "351",
+      "code": "BPK 351",
+      "section": "D200",
+      "title": "Practicum I",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/351/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/351/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:17.342Z",
+      "prerequisiteText": "Approval into the science co-op program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first term of work experience in the Biomedical Physiology and Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2156",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "351",
+      "code": "BPK 351",
+      "section": "I100",
+      "title": "Practicum I",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/351/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/351/i100",
+      "outlineRetrievedAt": "2026-10-08T14:55:17.646Z",
+      "prerequisiteText": "Approval into the science co-op program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first term of work experience in the Biomedical Physiology and Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2155",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "352",
+      "code": "BPK 352",
+      "section": "D100",
+      "title": "Practicum II",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/352/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/352/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:17.951Z",
+      "prerequisiteText": "BPK 351.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second term of work experience in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2143",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "352",
+      "code": "BPK 352",
+      "section": "D200",
+      "title": "Practicum II",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/352/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/352/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:18.244Z",
+      "prerequisiteText": "BPK 351.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second term of work experience in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2157",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "352",
+      "code": "BPK 352",
+      "section": "I100",
+      "title": "Practicum II",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/352/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/352/i100",
+      "outlineRetrievedAt": "2026-10-08T14:55:18.548Z",
+      "prerequisiteText": "BPK 351.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second term of work experience in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2158",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "405",
+      "code": "BPK 405",
+      "section": "D100",
+      "title": "Clinical Exercise Physiology",
+      "instructors": [
+        "Coates, Alexandra"
+      ],
+      "instructor": "Coates, Alexandra",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/405/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/405/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:18.853Z",
+      "prerequisiteText": "BPK 310, 343. Recommended: BPK 305, 340.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A study of the clinical aspects of exercise physiology by thoroughly examining the relationship between exercise and chronic disease. For each chronic disease state and condition, this course covers its physiology, pathophysiology, and pharmacotherapy along with exercise testing, prescription, safety, and programming issues.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6334",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "407",
+      "code": "BPK 407",
+      "section": "D100",
+      "title": "Human Physiology Lab",
+      "instructors": [
+        "Carter, Jim"
+      ],
+      "instructor": "Carter, Jim",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 1040,
+          "displayStart": "1:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "0/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/407/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/407/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:19.142Z",
+      "prerequisiteText": "BPK 304W, 305 and 306.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Experiments dealing with the nervous, muscular, cardiovascular, respiratory, and renal systems are covered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2139",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "407",
+      "code": "BPK 407",
+      "section": "D200",
+      "title": "Human Physiology Lab",
+      "instructors": [
+        "Carter, Jim"
+      ],
+      "instructor": "Carter, Jim",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 740,
+          "displayStart": "8:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "0/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/407/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/407/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:19.443Z",
+      "prerequisiteText": "BPK 304W, 305 and 306.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Experiments dealing with the nervous, muscular, cardiovascular, respiratory, and renal systems are covered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2140",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "407",
+      "code": "BPK 407",
+      "section": "D300",
+      "title": "Human Physiology Lab",
+      "instructors": [
+        "Carter, Jim"
+      ],
+      "instructor": "Carter, Jim",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "0/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/407/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/407/d300",
+      "outlineRetrievedAt": "2026-10-08T14:55:19.745Z",
+      "prerequisiteText": "BPK 304W, 305 and 306.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Experiments dealing with the nervous, muscular, cardiovascular, respiratory, and renal systems are covered.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2170",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "408W",
+      "code": "BPK 408W",
+      "section": "D100",
+      "title": "Cell Physiology Lab",
+      "instructors": [
+        "Barker, Megan"
+      ],
+      "instructor": "Barker, Megan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "0/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/408w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/408w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:20.051Z",
+      "prerequisiteText": "75 units, STAT 201, (BISC 205 or BPK 305), (MBB 201 or MBB 231), and one of (BISC 302W, BISC 303, BISC 357, or BPK 304W), all with a C- or better. Enrollment of non-BPK and non-BISC majors require permission of the instructor or advisor.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "An advanced laboratory course in cellular physiological techniques providing students with theoretical and practical training in cellular physiology laboratory techniques such as DNA and RNA manipulation and quantification, immunofluorescence imaging of protein expression, tissue contraction studies and recording of nerve action potentials and modulation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6335",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "417",
+      "code": "BPK 417",
+      "section": "E100",
+      "title": "Obesity and Weight Management",
+      "instructors": [
+        "Bedoya, Diana"
+      ],
+      "instructor": "Bedoya, Diana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1160,
+          "displayStart": "4:30 PM",
+          "displayEnd": "7:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/417/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/417/e100",
+      "outlineRetrievedAt": "2026-10-08T14:55:20.337Z",
+      "prerequisiteText": "BPK 306, 340. Recommended: BPK 110.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A complex systems lens is used to study the causes, complications and comorbidities of obesity, including diabetes and cardiovascular disease. The etiology of obesity is explored from genetics to environment, including the neuroendocrine biology of appetite regulation. Lifestyle, medical and pharmacological obesity management options and challenges are examined.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6336",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "443",
+      "code": "BPK 443",
+      "section": "E100",
+      "title": "Advanced Exercise Programming",
+      "instructors": [
+        "Clarke, Dave"
+      ],
+      "instructor": "Clarke, Dave",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "0/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/443/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/443/e100",
+      "outlineRetrievedAt": "2026-10-08T14:55:20.642Z",
+      "prerequisiteText": "BPK 304W, 310 and 343 (one of which may be taken as a corequisite).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This course covers evidence-based practice and quantitative modeling skills for prescribing effective exercise programs to any individual who has a specific health, rehabilitation or performance goal. Programming considerations for various special populations (e.g., those with chronic disease, elite athletes) will be emphasized through laboratory-based case studies representing diverse professional settings such as active rehabilitation, strength & conditioning and clinical exercise physiology.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6337",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "444",
+      "code": "BPK 444",
+      "section": "D100",
+      "title": "Cardiac Disease",
+      "instructors": [
+        "Claydon, Victoria"
+      ],
+      "instructor": "Claydon, Victoria",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/444/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/444/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:20.951Z",
+      "prerequisiteText": "BPK 305. Recommended: BPK 110, 306, 310 and 343.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines the etiology, prevention, and rehabilitation of cardiovascular disease. Involves the assessment of patient risk factors, and non-invasive cardiovascular assessments. Particular emphasis will be placed upon the recording and interpretation of the electrocardiogram in health and disease.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6357",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "446",
+      "code": "BPK 446",
+      "section": "D100",
+      "title": "Neurological Disorders",
+      "instructors": [
+        "Balbinot, Gustavo"
+      ],
+      "instructor": "Balbinot, Gustavo",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/446/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/446/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:21.244Z",
+      "prerequisiteText": "BPK 306. Recommended: BPK 336 and/or BPK 415.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines neural and neuromuscular diseases, including Alzheimer's disease, amyotrophic lateral sclerosis, multiple sclerosis, stroke, and myasthenia gravis. Emphasizes currently favoured hypotheses, underlying evidence and pathogenic mechanisms.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6354",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "448",
+      "code": "BPK 448",
+      "section": "D100",
+      "title": "Rehab. of Movement Control",
+      "instructors": [
+        "Hoffer, Joaquin"
+      ],
+      "instructor": "Hoffer, Joaquin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 65,
+        "waitlistCount": 0,
+        "raw": "0/65"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/448/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/448/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:21.543Z",
+      "prerequisiteText": "BPK 201 or 207, and BPK 306, or for biomedical engineering students, BPK 201 and 208.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This course is aimed at students interested in neuromuscular rehabilitation. Students will learn about movement disorders associated with disease or trauma that cause impaired function of sensory and motor systems. The course will be focused on the stages and strategies for recovery of voluntary control of essential functions. The range of rehabilitation interventions available to assist recovery and restore voluntary control will be explored, with special emphasis on advanced techniques to restore control of movement and bodily functions in paralyzed people.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6355",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "451",
+      "code": "BPK 451",
+      "section": "D100",
+      "title": "Practicum III",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/451/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/451/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:21.857Z",
+      "prerequisiteText": "BPK 352.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The third term of work experience for students in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as Pass/Fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2144",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "451",
+      "code": "BPK 451",
+      "section": "D200",
+      "title": "Practicum III",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/451/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/451/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:22.144Z",
+      "prerequisiteText": "BPK 352.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The third term of work experience for students in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as Pass/Fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2159",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "451W",
+      "code": "BPK 451W",
+      "section": "D100",
+      "title": "Practicum III",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/451w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/451w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:22.453Z",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2145",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "451W",
+      "code": "BPK 451W",
+      "section": "D200",
+      "title": "Practicum III",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/451w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/451w/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:22.746Z",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2160",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "451W",
+      "code": "BPK 451W",
+      "section": "I100",
+      "title": "Practicum III",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/451w/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/451w/i100",
+      "outlineRetrievedAt": "2026-10-08T14:55:23.045Z",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2161",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "452",
+      "code": "BPK 452",
+      "section": "D100",
+      "title": "Practicum IV",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/452/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/452/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:23.355Z",
+      "prerequisiteText": "BPK 451.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The fourth term of work experience for students in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2146",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "452",
+      "code": "BPK 452",
+      "section": "D200",
+      "title": "Practicum IV",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/452/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/452/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:23.712Z",
+      "prerequisiteText": "BPK 451.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The fourth term of work experience for students in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2162",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "452",
+      "code": "BPK 452",
+      "section": "I100",
+      "title": "Practicum IV",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/452/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/452/i100",
+      "outlineRetrievedAt": "2026-10-08T14:55:23.949Z",
+      "prerequisiteText": "BPK 451.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The fourth term of work experience for students in the Kinesiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2163",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "453",
+      "code": "BPK 453",
+      "section": "D100",
+      "title": "Practicum V",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/453/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/453/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:24.242Z",
+      "prerequisiteText": "BPK 452.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the Kinesiology to Biomedical Physiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F). This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2147",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "453",
+      "code": "BPK 453",
+      "section": "D200",
+      "title": "Practicum V",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/453/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/453/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:24.543Z",
+      "prerequisiteText": "BPK 452.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the Kinesiology to Biomedical Physiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F). This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2164",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "453",
+      "code": "BPK 453",
+      "section": "I100",
+      "title": "Practicum V",
+      "instructors": [
+        "Bussard, Natalia"
+      ],
+      "instructor": "Bussard, Natalia",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/453/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/453/i100",
+      "outlineRetrievedAt": "2026-10-08T14:55:24.857Z",
+      "prerequisiteText": "BPK 452.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional term of work experience for students in the Kinesiology to Biomedical Physiology Co-operative Education Program. Units from this course do not count towards the units required for an SFU degree. Work terms are graded as pass/fail (P/F). This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2165",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "457",
+      "code": "BPK 457",
+      "section": "D100",
+      "title": "Behav Neuro Honours Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/457/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/457/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:25.142Z",
+      "prerequisiteText": "75 units, with a minimum CGPA of 3.00, PSYC 301 or BPK 304W with a minimum grade of B, and permission from one of the Co-chairs of the Behavioural Neuroscience Program Committee.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed study and research leading to an Honours thesis proposal, the topic of which must be relevant to neuroscience.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2148",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "459",
+      "code": "BPK 459",
+      "section": "D100",
+      "title": "Behav Neurosci Honours Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/459/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/459/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:25.445Z",
+      "prerequisiteText": "A minimum grade of B in BPK 457. Corequisite: Must be enrolled in the Honours Program of the B.Sc. in Behavioural Neuroscience. Students must seek permission from their honours project supervisor to enroll in additional courses at the same time.",
+      "units": "9",
+      "designation": "N/A",
+      "description": "A written thesis based on research previously proposed in BPK 457.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2149",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "491",
+      "code": "BPK 491",
+      "section": "D100",
+      "title": "Thesis Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/491/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:25.772Z",
+      "prerequisiteText": "90 units, BPK 304W (may be taken concurrently) and permission of the chair of the undergraduate program committee. A minimum grade of B in this course is needed to register in BPK 495 or BPK 499.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Only students in the honours program may enroll in BPK 491.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2150",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "495",
+      "code": "BPK 495",
+      "section": "D100",
+      "title": "Undergraduate Honours Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/495/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/495/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:26.048Z",
+      "prerequisiteText": "BPK 491 (minimum grade of B). Corequisite: BPK 499. Only students in the honours program may enroll in BPK 495.",
+      "units": "6",
+      "designation": "N/A",
+      "description": "Student will perform an individual research project under the guidance and supervision of a faculty member. The project will carry out the research for the honours thesis proposed in BPK 491 - Undergraduate Honours Thesis Proposal.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2151",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "496",
+      "code": "BPK 496",
+      "section": "D100",
+      "title": "Directed Study Literature",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/496/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/496/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:26.352Z",
+      "prerequisiteText": "BPK 304W (may be taken concurrently) or PSYC 210, and permission from the chair of the undergraduate program committee. Usually, upper level standing with at least 75 units in the Biomedical Physiology and Kinesiology program will be required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and literature research on topics selected in consultation with the supervising instructor. A short proposal of the project, approved by the course supervisor, must be submitted for approval to the chair of the undergraduate program committee by the end of the first week of classes of the term. May be repeated once for credit with a different course supervisor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2166",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "496",
+      "code": "BPK 496",
+      "section": "D200",
+      "title": "Directed Study Literature",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/496/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/496/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:26.645Z",
+      "prerequisiteText": "BPK 304W (may be taken concurrently) or PSYC 210, and permission from the chair of the undergraduate program committee. Usually, upper level standing with at least 75 units in the Biomedical Physiology and Kinesiology program will be required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and literature research on topics selected in consultation with the supervising instructor. A short proposal of the project, approved by the course supervisor, must be submitted for approval to the chair of the undergraduate program committee by the end of the first week of classes of the term. May be repeated once for credit with a different course supervisor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2169",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "498",
+      "code": "BPK 498",
+      "section": "D100",
+      "title": "Directed Study Experiential",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/498/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:26.954Z",
+      "prerequisiteText": "BPK 304W (may be taken concurrently) or PSYC 210, and permission from the chair of the undergraduate program committee. Usually, upper level standing with at least 75 units in the Biomedical Physiology and Kinesiology program will be required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed study and research selected in consultation with the supervising instructor. A short proposal of the project approved by the course supervisor, must be submitted for approval to the chair of the undergraduate program committee by the end of the first week of classes of the term. May be repeated once for credit with a different course supervisor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2167",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "498",
+      "code": "BPK 498",
+      "section": "D200",
+      "title": "Directed Study Experiential",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/498/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/498/d200",
+      "outlineRetrievedAt": "2026-10-08T14:55:27.247Z",
+      "prerequisiteText": "BPK 304W (may be taken concurrently) or PSYC 210, and permission from the chair of the undergraduate program committee. Usually, upper level standing with at least 75 units in the Biomedical Physiology and Kinesiology program will be required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed study and research selected in consultation with the supervising instructor. A short proposal of the project approved by the course supervisor, must be submitted for approval to the chair of the undergraduate program committee by the end of the first week of classes of the term. May be repeated once for credit with a different course supervisor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2168",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "499",
+      "code": "BPK 499",
+      "section": "D100",
+      "title": "Honours Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/499/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/499/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:27.555Z",
+      "prerequisiteText": "BPK 491 (minimum grade of B). Corequisite: BPK 495. Only students in the honours program may enroll in BPK 499.",
+      "units": "6",
+      "designation": "N/A",
+      "description": "A written thesis based on research previously proposed in BPK 491 and performed in BPK 495. Regulations regarding the locale of the work, supervision and other arrangements, follow those for BPK 491. The written thesis should be submitted to the chair of the undergraduate program committee by the last day of exams of the term. The thesis will also be presented orally as a seminar in an open forum at the end of the term. Students may enroll in a maximum of one additional course concurrently with BPK 499 and BPK 495 with permission from the faculty honours supervisor.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2154",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "805",
+      "code": "BPK 805",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/805/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/805/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:27.848Z",
+      "units": "3",
+      "description": "An opportunity to develop with a faculty supervisor considerable depth of knowledge and expertise in a focused area of study. Normally, BPK (or KIN) 805 may not be taken for credit more than once and may not be taken for credit by MSc (course work) students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2133",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "806",
+      "code": "BPK 806",
+      "section": "D100",
+      "title": "Special Topics",
+      "instructors": [
+        "Wakeling, James"
+      ],
+      "instructor": "Wakeling, James",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/806/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/806/d100",
+      "outlineRetrievedAt": "2026-10-08T14:55:28.137Z",
+      "units": "3",
+      "description": "Special topics in areas not currently covered within the graduate program offerings. The course may be offered as a lecture, seminar course or a distance education course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6358",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "895",
+      "code": "BPK 895",
+      "section": "G100",
+      "title": "MSc Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/895/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/895/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:28.455Z",
+      "description": "A formal Thesis Proposal is written and defended to the supervisory committee. The Proposal is circulated to faculty and resident graduate students, and presented for an open forum discussion. The Graduate Program Committee Chair or designate will chair the presentation of the proposal. The Thesis Proposal is intended to establish the objectives, methodology and scope of the thesis project at an early stage of the degree and provides an opportunity for the Supervisory Committee to influence the direction of the research at an early stage and to offer feedback to aid the growth and development of the research trainee. The Supervisory Committee will also explore the student's knowledge in any area that is relevant to the proposed research. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2134",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "896",
+      "code": "BPK 896",
+      "section": "G100",
+      "title": "PhD Comprehensive Examination",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/896/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/896/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:28.750Z",
+      "description": "The PhD comprehensive exam consists of a written research proposal, and a related oral exam conducted by the Supervisory Committee and one additional member external to the committee. The written research proposal will be written in the format of an Operating Grant application, with an eleven page limit exclusive of references, appendices, figures and tables. The proposal is to be written independently by the candidate, and should be written in enough detail to determine that the research is feasible and sufficient for PhD level work. The oral examination is designed to assess the candidate's ability to understand the underlying science and their ability to undertake the proposed research. The examining committee will explore the student's knowledge in any area that is relevant to the proposed research. The Graduate Program Committee Chair or designate will chair the examination. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2135",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "897",
+      "code": "BPK 897",
+      "section": "G100",
+      "title": "PhD Seminar",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/897/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:29.053Z",
+      "description": "The student will present two seminars on topics approved by the student's senior supervisor. One of the seminars will be presented as a Departmental seminar in the student's last term, and will summarize, integrate, and synthesize the thesis work for the whole department. The second seminar should be at a national or international conference, or an oral presentation at BPK Research Day, and must be approved by the Graduate Program Committee Chair. BPK 897 can be repeated once. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2136",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "898",
+      "code": "BPK 898",
+      "section": "G100",
+      "title": "M.Sc. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/898/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:29.350Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2137",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "BPK",
+      "courseNumber": "899",
+      "code": "BPK 899",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=BPK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/bpk/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/bpk/899/g100",
+      "outlineRetrievedAt": "2026-10-08T14:55:29.659Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2138",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

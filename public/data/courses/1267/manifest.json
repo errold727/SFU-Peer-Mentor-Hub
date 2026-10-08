@@ -3,509 +3,509 @@
   "termCode": "1267",
   "termLabel": "Fall 2026",
   "source": "SFU CourSys",
-  "snapshotAt": "2026-10-06T14:15:22.797Z",
-  "completedAt": "2026-10-06T14:30:47.377Z",
+  "snapshotAt": "2026-10-08T14:38:18.555Z",
+  "completedAt": "2026-10-08T14:54:01.238Z",
   "subjectCount": 81,
-  "courseCount": 1868,
-  "sectionCount": 3033,
-  "sourceSectionCount": 3033,
+  "courseCount": 1867,
+  "sectionCount": 3032,
+  "sourceSectionCount": 3032,
   "subjects": [
     {
       "code": "ALS",
       "courseCount": 5,
       "sectionCount": 5,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ALS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ALS.json"
     },
     {
       "code": "APMA",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/APMA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/APMA.json"
     },
     {
       "code": "ARCH",
       "courseCount": 31,
       "sectionCount": 57,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ARCH.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ARCH.json"
     },
     {
       "code": "BISC",
       "courseCount": 48,
       "sectionCount": 116,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/BISC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/BISC.json"
     },
     {
       "code": "BOT",
       "courseCount": 5,
       "sectionCount": 11,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/BOT.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/BOT.json"
     },
     {
       "code": "BPK",
       "courseCount": 49,
       "sectionCount": 74,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/BPK.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/BPK.json"
     },
     {
       "code": "BUS",
       "courseCount": 151,
       "sectionCount": 254,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/BUS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/BUS.json"
     },
     {
       "code": "CA",
       "courseCount": 90,
       "sectionCount": 107,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CA.json"
     },
     {
       "code": "CENV",
       "courseCount": 7,
       "sectionCount": 21,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CENV.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CENV.json"
     },
     {
       "code": "CHEM",
       "courseCount": 52,
       "sectionCount": 119,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CHEM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CHEM.json"
     },
     {
       "code": "CHIN",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CHIN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CHIN.json"
     },
     {
       "code": "CMNS",
       "courseCount": 47,
       "sectionCount": 115,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CMNS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CMNS.json"
     },
     {
       "code": "CMPT",
       "courseCount": 76,
       "sectionCount": 175,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CMPT.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CMPT.json"
     },
     {
       "code": "COGS",
       "courseCount": 6,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/COGS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/COGS.json"
     },
     {
       "code": "CRIM",
       "courseCount": 45,
       "sectionCount": 68,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/CRIM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/CRIM.json"
     },
     {
       "code": "DATA",
       "courseCount": 2,
       "sectionCount": 2,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/DATA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/DATA.json"
     },
     {
       "code": "DMED",
       "courseCount": 7,
       "sectionCount": 11,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/DMED.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/DMED.json"
     },
     {
       "code": "EASC",
       "courseCount": 26,
       "sectionCount": 30,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/EASC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/EASC.json"
     },
     {
       "code": "ECON",
       "courseCount": 44,
       "sectionCount": 58,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ECON.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ECON.json"
     },
     {
       "code": "EDUC",
-      "courseCount": 87,
-      "sectionCount": 166,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/EDUC.json"
+      "courseCount": 86,
+      "sectionCount": 165,
+      "file": "snapshots/2026-10-08T14-38-18-555Z/EDUC.json"
     },
     {
       "code": "ENGL",
       "courseCount": 40,
       "sectionCount": 44,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ENGL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ENGL.json"
     },
     {
       "code": "ENSC",
       "courseCount": 43,
       "sectionCount": 62,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ENSC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ENSC.json"
     },
     {
       "code": "EVSC",
       "courseCount": 19,
       "sectionCount": 23,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/EVSC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/EVSC.json"
     },
     {
       "code": "EXCH",
       "courseCount": 6,
       "sectionCount": 6,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/EXCH.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/EXCH.json"
     },
     {
       "code": "FAL",
       "courseCount": 1,
       "sectionCount": 5,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/FAL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/FAL.json"
     },
     {
       "code": "FAN",
       "courseCount": 2,
       "sectionCount": 6,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/FAN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/FAN.json"
     },
     {
       "code": "FASS",
       "courseCount": 6,
       "sectionCount": 16,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/FASS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/FASS.json"
     },
     {
       "code": "FEP",
       "courseCount": 7,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/FEP.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/FEP.json"
     },
     {
       "code": "FREN",
       "courseCount": 19,
       "sectionCount": 20,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/FREN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/FREN.json"
     },
     {
       "code": "GA",
       "courseCount": 5,
       "sectionCount": 5,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GA.json"
     },
     {
       "code": "GEOG",
       "courseCount": 40,
       "sectionCount": 45,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GEOG.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GEOG.json"
     },
     {
       "code": "GERM",
       "courseCount": 3,
       "sectionCount": 4,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GERM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GERM.json"
     },
     {
       "code": "GERO",
       "courseCount": 19,
       "sectionCount": 29,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GERO.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GERO.json"
     },
     {
       "code": "GRAD",
       "courseCount": 3,
       "sectionCount": 5,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GRAD.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GRAD.json"
     },
     {
       "code": "GRK",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GRK.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GRK.json"
     },
     {
       "code": "GSWS",
       "courseCount": 23,
       "sectionCount": 34,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/GSWS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/GSWS.json"
     },
     {
       "code": "HIST",
       "courseCount": 35,
       "sectionCount": 44,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/HIST.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/HIST.json"
     },
     {
       "code": "HSCI",
       "courseCount": 70,
       "sectionCount": 129,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/HSCI.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/HSCI.json"
     },
     {
       "code": "HUM",
       "courseCount": 22,
       "sectionCount": 23,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/HUM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/HUM.json"
     },
     {
       "code": "IAT",
       "courseCount": 49,
       "sectionCount": 68,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/IAT.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/IAT.json"
     },
     {
       "code": "INDG",
       "courseCount": 17,
       "sectionCount": 23,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/INDG.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/INDG.json"
     },
     {
       "code": "INLG",
       "courseCount": 16,
       "sectionCount": 57,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/INLG.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/INLG.json"
     },
     {
       "code": "INS",
       "courseCount": 12,
       "sectionCount": 28,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/INS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/INS.json"
     },
     {
       "code": "IS",
       "courseCount": 23,
       "sectionCount": 30,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/IS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/IS.json"
     },
     {
       "code": "ITAL",
       "courseCount": 1,
       "sectionCount": 1,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ITAL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ITAL.json"
     },
     {
       "code": "JAPN",
       "courseCount": 4,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/JAPN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/JAPN.json"
     },
     {
       "code": "LANG",
       "courseCount": 1,
       "sectionCount": 1,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/LANG.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/LANG.json"
     },
     {
       "code": "LBRL",
       "courseCount": 3,
       "sectionCount": 9,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/LBRL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/LBRL.json"
     },
     {
       "code": "LBST",
       "courseCount": 8,
       "sectionCount": 8,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/LBST.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/LBST.json"
     },
     {
       "code": "LING",
       "courseCount": 27,
       "sectionCount": 45,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/LING.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/LING.json"
     },
     {
       "code": "LS",
       "courseCount": 7,
       "sectionCount": 9,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/LS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/LS.json"
     },
     {
       "code": "MACM",
       "courseCount": 5,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MACM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MACM.json"
     },
     {
       "code": "MASC",
       "courseCount": 5,
       "sectionCount": 5,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MASC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MASC.json"
     },
     {
       "code": "MATH",
       "courseCount": 50,
       "sectionCount": 80,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MATH.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MATH.json"
     },
     {
       "code": "MBB",
       "courseCount": 43,
       "sectionCount": 99,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MBB.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MBB.json"
     },
     {
       "code": "MEDS",
       "courseCount": 1,
       "sectionCount": 1,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MEDS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MEDS.json"
     },
     {
       "code": "MSE",
       "courseCount": 40,
       "sectionCount": 75,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/MSE.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/MSE.json"
     },
     {
       "code": "NEUR",
       "courseCount": 1,
       "sectionCount": 1,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/NEUR.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/NEUR.json"
     },
     {
       "code": "NUSC",
       "courseCount": 5,
       "sectionCount": 11,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/NUSC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/NUSC.json"
     },
     {
       "code": "ONC",
       "courseCount": 2,
       "sectionCount": 2,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/ONC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/ONC.json"
     },
     {
       "code": "PHIL",
       "courseCount": 25,
       "sectionCount": 26,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PHIL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PHIL.json"
     },
     {
       "code": "PHYS",
       "courseCount": 34,
       "sectionCount": 47,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PHYS.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PHYS.json"
     },
     {
       "code": "PLAN",
       "courseCount": 7,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PLAN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PLAN.json"
     },
     {
       "code": "PLCY",
       "courseCount": 15,
       "sectionCount": 17,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PLCY.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PLCY.json"
     },
     {
       "code": "POL",
       "courseCount": 33,
       "sectionCount": 49,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/POL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/POL.json"
     },
     {
       "code": "PSYC",
       "courseCount": 74,
       "sectionCount": 102,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PSYC.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PSYC.json"
     },
     {
       "code": "PUB",
       "courseCount": 16,
       "sectionCount": 21,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PUB.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PUB.json"
     },
     {
       "code": "PUNJ",
       "courseCount": 1,
       "sectionCount": 1,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/PUNJ.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/PUNJ.json"
     },
     {
       "code": "REM",
       "courseCount": 30,
       "sectionCount": 37,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/REM.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/REM.json"
     },
     {
       "code": "RISK",
       "courseCount": 13,
       "sectionCount": 23,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/RISK.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/RISK.json"
     },
     {
       "code": "SA",
       "courseCount": 37,
       "sectionCount": 49,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SA.json"
     },
     {
       "code": "SCI",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SCI.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SCI.json"
     },
     {
       "code": "SD",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SD.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SD.json"
     },
     {
       "code": "SDA",
       "courseCount": 3,
       "sectionCount": 3,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SDA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SDA.json"
     },
     {
       "code": "SEE",
       "courseCount": 35,
       "sectionCount": 61,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SEE.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SEE.json"
     },
     {
       "code": "SPAN",
       "courseCount": 5,
       "sectionCount": 6,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/SPAN.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/SPAN.json"
     },
     {
       "code": "STAT",
       "courseCount": 38,
       "sectionCount": 61,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/STAT.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/STAT.json"
     },
     {
       "code": "TEKX",
       "courseCount": 2,
       "sectionCount": 2,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/TEKX.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/TEKX.json"
     },
     {
       "code": "URB",
       "courseCount": 11,
       "sectionCount": 18,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/URB.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/URB.json"
     },
     {
       "code": "WDA",
       "courseCount": 6,
       "sectionCount": 11,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/WDA.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/WDA.json"
     },
     {
       "code": "WL",
       "courseCount": 7,
       "sectionCount": 7,
-      "file": "snapshots/2026-10-06T14-15-22-796Z/WL.json"
+      "file": "snapshots/2026-10-08T14-38-18-555Z/WL.json"
     }
   ],
   "failedSubjects": [],
   "complete": true,
-  "indexFile": "snapshots/2026-10-06T14-15-22-796Z/index.json",
-  "enrollmentSections": 3005,
+  "indexFile": "snapshots/2026-10-08T14-38-18-555Z/index.json",
+  "enrollmentSections": 3004,
   "tutorialLabSections": 44,
   "withSchedules": 1517,
-  "withoutSchedules": 1516,
-  "withEnrollment": 3033,
-  "enrichedSections": 3005,
+  "withoutSchedules": 1515,
+  "withEnrollment": 3032,
+  "enrichedSections": 3004,
   "enrichmentFailures": [
     {
       "code": "BOT 110",
@@ -568,12 +568,12 @@
       "reason": "Outline HTTP 404"
     },
     {
-      "code": "EXCH 992",
+      "code": "EXCH 993",
       "section": "G100",
       "reason": "Outline HTTP 404"
     },
     {
-      "code": "EXCH 993",
+      "code": "EXCH 992",
       "section": "G100",
       "reason": "Outline HTTP 404"
     },
@@ -609,12 +609,12 @@
     },
     {
       "code": "WDA 803",
-      "section": "G100",
+      "section": "G200",
       "reason": "Outline HTTP 404"
     },
     {
       "code": "WDA 803",
-      "section": "G200",
+      "section": "G100",
       "reason": "Outline HTTP 404"
     },
     {

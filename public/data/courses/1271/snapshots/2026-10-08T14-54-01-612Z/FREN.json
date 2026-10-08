@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-08T14:54:01.613Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "101",
+      "code": "FREN 101",
+      "section": "OL01",
+      "title": "Elementary French I",
+      "instructors": [
+        "Atakora, Anas"
+      ],
+      "instructor": "Atakora, Anas",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 500,
+        "waitlistCount": 0,
+        "raw": "0/500"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/101/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/101/ol01",
+      "outlineRetrievedAt": "2026-10-08T15:01:50.917Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Elementary French I is a carefully sequenced and highly interactive presentation of French language and culture in a media-rich course environment. To successfully take this course, students should be motivated with a sincere desire to learn about French language and francophone cultures, and be comfortable with computer technologies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4525",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "102",
+      "code": "FREN 102",
+      "section": "OL01",
+      "title": "Elementary French II",
+      "instructors": [
+        "Atakora, Anas"
+      ],
+      "instructor": "Atakora, Anas",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 250,
+        "waitlistCount": 0,
+        "raw": "0/250"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/102/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/102/ol01",
+      "outlineRetrievedAt": "2026-10-08T15:01:51.213Z",
+      "prerequisiteText": "FREN 101, FREN 120, or FREN 121 or consult with a French advisor.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Elementary French II is a carefully sequenced and highly interactive presentation of French language and culture in a media-rich course environment. To successfully take this course, students should be motivated with a sincere desire to learn about French language and francophone cultures, and be comfortable with computer technologies. This course continues on where FREN 101 left off to develop new pathways.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4526",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "201",
+      "code": "FREN 201",
+      "section": "OL01",
+      "title": "Intermediate French I",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/201/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/201/ol01",
+      "outlineRetrievedAt": "2026-10-08T15:01:51.531Z",
+      "prerequisiteText": "Grade 12 French or FREN 102 or FREN 122 or permission of the Department of French.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "This is the first of two intermediate level courses in French. Through a variety of original documents in French (descriptive articles, audio-visual interviews and presentations, recorded testimonies from French speakers, …), students will be introduced to francophone cultures and communicative situations related to one’s personal environment such as city life, housing, relationships, education and work. A strong focus will be made on the development of listening skills and oral production, as well as reading and writing. Grammar will be introduced and practiced mostly online with only short review sessions in class. It will cover present, past and future tenses as well as some basic sentence structures. Classes will be taught entirely in French and students will be expected to communicate in French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4527",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "202",
+      "code": "FREN 202",
+      "section": "OL01",
+      "title": "Intermediate French II",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/202/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/202/ol01",
+      "outlineRetrievedAt": "2026-10-08T15:01:51.813Z",
+      "prerequisiteText": "FREN 201 or FREN 210 or permission of the Department of French.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "This is the second of two intermediate level courses in French. Through a variety of original material in French (newspaper articles, fictional writings, radio and tv news, as well as other written and audiovisual documents), students will be introduced to francophone cultures, current events, and new vocabulary on topics such as the media, politics, the environment, immigration stories and popular tales. A strong focus will be made on the development of listening skills and oral production, as well as reading and writing. Grammar will be introduced and practiced mostly online with only short review sessions in class and lessons will cover most tenses/modes as well as some complex sentence structures such as relative pronouns and indirect speech. Classes will be taught entirely in French and students will be expected to communicate in French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4528",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "245",
+      "code": "FREN 245",
+      "section": "D100",
+      "title": "Intro Fren & Francophone Stud.",
+      "instructors": [
+        "Atakora, Anas"
+      ],
+      "instructor": "Atakora, Anas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/245/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/245/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:52.115Z",
+      "prerequisiteText": "Grade 12 French Immersion or FREN 202 or FREN 221 or permission of the Department of French.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "An introduction to French literary studies with selected works in poetry and prose, including theatre. Attention will be given to methods of analysis. The course will be conducted in French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4540",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "275",
+      "code": "FREN 275",
+      "section": "D100",
+      "title": "French Inside Out",
+      "instructors": [
+        "Canac-Marquis, Rejean"
+      ],
+      "instructor": "Canac-Marquis, Rejean",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/275/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/275/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:52.436Z",
+      "prerequisiteText": "Grade 12 French Immersion or FREN 202 or FREN 221 or permission of the Department of French.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces some fundamental questions about human behaviour that can be answered by the study of the language forms, structure, and use. Topics such as how did language begin? Where is French from, and how did it change over the years? How does French vary from place to place, from context to context?",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4536",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "301W",
+      "code": "FREN 301W",
+      "section": "D100",
+      "title": "Writing: Toward French Prof.",
+      "instructors": [
+        "Bossavit, Claire"
+      ],
+      "instructor": "Bossavit, Claire",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/301w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/301w/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:52.750Z",
+      "prerequisiteText": "Grade 12 French Immersion or FREN 202 or FREN 221 or permission of the Department of French.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "A writing course to improve precision, organization and style when writing academically or creatively in French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4529",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "301W",
+      "code": "FREN 301W",
+      "section": "F100",
+      "title": "Writing: Toward French Prof.",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 26,
+        "waitlistCount": 0,
+        "raw": "0/26"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/301w/f100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/301w/f100",
+      "outlineRetrievedAt": "2026-10-08T15:01:53.020Z",
+      "prerequisiteText": "Grade 12 French Immersion or FREN 202 or FREN 221 or permission of the Department of French.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "A writing course to improve precision, organization and style when writing academically or creatively in French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4530",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "331",
+      "code": "FREN 331",
+      "section": "D100",
+      "title": "Accents of French",
+      "instructors": [
+        "Guilbault, Christian"
+      ],
+      "instructor": "Guilbault, Christian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/331/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/331/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:53.322Z",
+      "prerequisiteText": "FREN 275 and FREN 301W.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to notions paramount to the study of French accents such as linguistic norm, representations and attitudes, phoneme and allophones for instance. Analyses on short corpora will provide students a hands-on experience and will lead to discussions about relevant methodologies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4531",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "344",
+      "code": "FREN 344",
+      "section": "D100",
+      "title": "Survey of French Literature",
+      "instructors": [
+        "Steele, Stephen"
+      ],
+      "instructor": "Steele, Stephen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/344/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/344/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:53.628Z",
+      "prerequisiteText": "FREN 245 and FREN 301W.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to the history of French literature from the late eighteenth century to the late twentieth century.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4532",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "351",
+      "code": "FREN 351",
+      "section": "D100",
+      "title": "Francophone Caribbean Lit",
+      "instructors": [
+        "Akinwumi, Joel"
+      ],
+      "instructor": "Akinwumi, Joel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/351/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/351/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:53.936Z",
+      "prerequisiteText": "FREN 245, FREN 301W.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Explores Caribbean literature across various cultural spaces. Topics may include identity, culture, créolité, black feminism, family, slavery, trauma, natural disasters, environment, memory, migration, circulation, transnationalism and worldliness.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4533",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "424",
+      "code": "FREN 424",
+      "section": "D100",
+      "title": "Topics in French Linguistics",
+      "instructors": [
+        "Guilbault, Christian"
+      ],
+      "instructor": "Guilbault, Christian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 21,
+        "waitlistCount": 0,
+        "raw": "0/21"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/424/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/424/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:54.217Z",
+      "prerequisiteText": "FREN 275 and FREN 301W and at least one 300-level FREN linguistics course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The subject matter will vary according to faculty and student interests. Selected aspects of French linguistic theories as they apply to the study, teaching and/or learning of French.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4534",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "425",
+      "code": "FREN 425",
+      "section": "D100",
+      "title": "Topics in Varieties of French",
+      "instructors": [
+        "Canac-Marquis, Rejean"
+      ],
+      "instructor": "Canac-Marquis, Rejean",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 21,
+        "waitlistCount": 0,
+        "raw": "0/21"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/425/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/425/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:54.506Z",
+      "prerequisiteText": "FREN 275 and FREN 301W and at least one 300-level FREN linguistics course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Study of selected topics in French dialectal variation. Subject matter may include, but is not limited to, French Dialects, Canadian French and French Creoles.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4535",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "440",
+      "code": "FREN 440",
+      "section": "D100",
+      "title": "Topics in French Genre Studies",
+      "instructors": [
+        "Steele, Stephen"
+      ],
+      "instructor": "Steele, Stephen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/440/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/440/d100",
+      "outlineRetrievedAt": "2026-10-08T15:01:54.839Z",
+      "prerequisiteText": "FREN 245 and FREN 301W and at least one 300-level FREN literature course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Advanced study of selected works belonging to a literary genre (novel, theatre, poetry, etc.). May be organized by author, period, movement, theme or approach.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4541",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "896",
+      "code": "FREN 896",
+      "section": "G100",
+      "title": "Thesis Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/896/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/896/g100",
+      "outlineRetrievedAt": "2026-10-08T15:01:55.117Z",
+      "description": "Thesis Proposal. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4537",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "898",
+      "code": "FREN 898",
+      "section": "G100",
+      "title": "M.A. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/898/g100",
+      "outlineRetrievedAt": "2026-10-08T15:01:55.422Z",
+      "units": "18",
+      "description": "Please see Graduate Studies Chair for details about this course offering. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4538",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "FREN",
+      "courseNumber": "998",
+      "code": "FREN 998",
+      "section": "G100",
+      "title": "Extended Essays",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=FREN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/fren/998/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/fren/998/g100",
+      "outlineRetrievedAt": "2026-10-08T15:01:55.713Z",
+      "units": "6",
+      "description": "Extended Essays. A minimum B grade is required for FREN 998.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4539",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

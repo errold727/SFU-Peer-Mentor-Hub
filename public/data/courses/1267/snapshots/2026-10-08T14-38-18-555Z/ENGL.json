@@ -1,0 +1,2170 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-08T14:38:18.555Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "111W",
+      "code": "ENGL 111W",
+      "section": "D100",
+      "title": "Literary Classics in English",
+      "instructors": [
+        "Sebastian, Troy"
+      ],
+      "instructor": "Sebastian, Troy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-17",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-10-18",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 185,
+        "capacity": 190,
+        "waitlistCount": 0,
+        "raw": "185/190"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/111w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/111w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:38.124Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Examines literary “classics”, variously defined, apprehending them both on their own terms and within larger critical conversations. May incorporate the comparative study of work in related artistic fields and engage relevant media trends. Includes attention to writing skills.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2633",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "113W",
+      "code": "ENGL 113W",
+      "section": "D100",
+      "title": "Literature and Performance",
+      "instructors": [
+        "Budra, Paul"
+      ],
+      "instructor": "Budra, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 225,
+        "capacity": 228,
+        "waitlistCount": 0,
+        "raw": "225/228"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/113w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/113w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:38.421Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "Introduces students to plays and performance works created and adapted for the stage, and/or the performative dimensions of other literary forms. May be organized historically, generically or thematically. The course may also explore the links between literary and performance theory. Includes attention to writing skills.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2632",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "115W",
+      "code": "ENGL 115W",
+      "section": "D100",
+      "title": "Literature and Culture",
+      "instructors": [
+        "Bogle, Cornel"
+      ],
+      "instructor": "Bogle, Cornel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 220,
+        "capacity": 228,
+        "waitlistCount": 0,
+        "raw": "220/228"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/115w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/115w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:38.803Z",
+      "units": "3",
+      "designation": "Writing/Breadth-Humanities",
+      "description": "An Introduction to the study of literature within the wider cultural field, with a focus on contemporary issues across genres and media.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2634",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "199W",
+      "code": "ENGL 199W",
+      "section": "D100",
+      "title": "Writing to Persuade",
+      "instructors": [
+        "Zwagerman, Sean"
+      ],
+      "instructor": "Zwagerman, Sean",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 19,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "19/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/199w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/199w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:39.017Z",
+      "prerequisiteText": "12 units.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "An introduction to reading and writing from a rhetorical perspective. The course treats reading and writing as activities that take place in particular circumstances and situations, in contrast to the traditional emphasis on decontextualized, formal features of texts. It prepares students for reading and writing challenges they are likely to encounter within and beyond the classroom.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2624",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "202",
+      "code": "ENGL 202",
+      "section": "B100",
+      "title": "Environmental Imagination",
+      "instructors": [
+        "Levy, Michelle"
+      ],
+      "instructor": "Levy, Michelle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 72,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "72/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/202/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/202/b100",
+      "outlineRetrievedAt": "2026-10-08T14:45:39.319Z",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Explores how literature and language imagine the natural world and engage with environmental and ecological crisis. Topics may include ecocriticism: eco-poetics; approaches to the natural world; local, imperial, and Indigenous ecologies. May be further organized by historical period or genre. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2876",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "211",
+      "code": "ENGL 211",
+      "section": "D100",
+      "title": "Place of the Past",
+      "instructors": [
+        "Fleming, James"
+      ],
+      "instructor": "Fleming, James",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 64,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "64/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/211/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/211/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:39.617Z",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Examines literature and language within specific social, cultural, geographical, and textual environments to explore the mutually informing relationship between history and text. May be further organized by historical period, genre, or critical approach. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2663",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "213",
+      "code": "ENGL 213",
+      "section": "D100",
+      "title": "Reading Across Media",
+      "instructors": [
+        "Davis, Leith"
+      ],
+      "instructor": "Davis, Leith",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 70,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "70/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/213/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/213/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:39.915Z",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Explores texts in relation to their different material forms, including oral, manuscript, print, film, and digital media. May be further organized by methodology (e.g. book history, textual scholarship, media studies, adaptation studies, digital humanities), historical period, or genre. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2664",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "214",
+      "code": "ENGL 214",
+      "section": "D100",
+      "title": "History/Principles of Rhetoric",
+      "instructors": [
+        "Zwagerman, Sean"
+      ],
+      "instructor": "Zwagerman, Sean",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 32,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "32/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/214/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/214/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:40.302Z",
+      "prerequisiteText": "12 units or one 100-division English course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to the history and principles of rhetoric, and their application to the creation and analysis of written, visual, and other forms of persuasion.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2665",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "272",
+      "code": "ENGL 272",
+      "section": "D100",
+      "title": "Creative Reading",
+      "instructors": [
+        "Burnham, Clint"
+      ],
+      "instructor": "Burnham, Clint",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 65,
+        "capacity": 72,
+        "waitlistCount": 0,
+        "raw": "65/72"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/272/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/272/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:40.523Z",
+      "prerequisiteText": "ENGL 111W, 112W, 113W, 114W, or 115W; or WL 105W; or PUB 101.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "An introduction to the art of reading for creative writers, focusing on the linguistic, literary, and conceptual tools writers use to manipulate language to create different experiences for those encountering it, and exposing new writers to innovative literature. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2666",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "312",
+      "code": "ENGL 312",
+      "section": "OL01",
+      "title": "Shakespeare and the Stage",
+      "instructors": [
+        "Budra, Paul"
+      ],
+      "instructor": "Budra, Paul",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 87,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "87/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/312/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/312/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:45:40.812Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Study of the dramatic works of William Shakespeare and other early modern English authors. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2667",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "320",
+      "code": "ENGL 320",
+      "section": "D100",
+      "title": "Long 18 C. & the Romantic Era",
+      "instructors": [
+        "Davis, Leith"
+      ],
+      "instructor": "Davis, Leith",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 28,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "28/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/320/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/320/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:41.120Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "The study of literature and culture between c. 1660 and 1830, Texts may be drawn from a variety of media, forms, and genres, and may address issues of gender, race, class, national identity, and more. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2692",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "330",
+      "code": "ENGL 330",
+      "section": "OL01",
+      "title": "The Long Nineteenth Century",
+      "instructors": [
+        "Lesjak, Carolyn"
+      ],
+      "instructor": "Lesjak, Carolyn",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 85,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "85/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/330/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/330/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:45:41.504Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Study of literature and culture during the long nineteenth century (c. 1780 – 1920). Selected content may include a variety of forms and genres and may consider different cultural and geographical contexts within local, national, colonial, imperial, global, transnational, and /or planetary frameworks. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2693",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "345",
+      "code": "ENGL 345",
+      "section": "D100",
+      "title": "American Literatures",
+      "instructors": [
+        "Smith, Jon"
+      ],
+      "instructor": "Smith, Jon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 29,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "29/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/345/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/345/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:41.725Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Study of selected works of American literature. May survey a particular era or topic, may draw on transnational or hemispheric perspectives, and may be organized by any number of critical approaches including race, Indigeneity, sexuality, gender, historicism, class, or ecocriticism. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2625",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "355",
+      "code": "ENGL 355",
+      "section": "OL01",
+      "title": "Canadian Literatures",
+      "instructors": [
+        "Burnham, Clint"
+      ],
+      "instructor": "Burnham, Clint",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 71,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "71/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/355/ol01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/355/ol01",
+      "outlineRetrievedAt": "2026-10-08T14:45:42.077Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Study of selected works of Canadian literature, including Indigenous, diasporic, and settler texts. May draw from a variety of methods, critical debates, regions, and historical periods. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2694",
+      "deliveryMethod": "Online",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "360",
+      "code": "ENGL 360",
+      "section": "D100",
+      "title": "Indigenous Popular Writing",
+      "instructors": [
+        "Sebastian, Troy"
+      ],
+      "instructor": "Sebastian, Troy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 29,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "29/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/360/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/360/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:42.320Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines works of popular fiction by Indigenous authors, and their use of specific genres (e.g. the mystery novel, vampire thriller, sci fi, comic book). This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2696",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "362",
+      "code": "ENGL 362",
+      "section": "D100",
+      "title": "Transnational Lit",
+      "instructors": [
+        "Leow, Joanne"
+      ],
+      "instructor": "Leow, Joanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 26,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "26/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/362/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/362/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:42.688Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Study of primarily 20th- and 21st-century literatures and cultures in a comparative transnational framework. Focus may be hemispheric American literatures, the literatures of ‘the global south’, historical colonial and/or contemporary postcolonial/decolonial literatures, global environmental literature, and contemporary avant garde poetry and poetics. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2605",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "372",
+      "code": "ENGL 372",
+      "section": "D100",
+      "title": "Creative Writing I: Poetry",
+      "instructors": [
+        "Collis, Stephen"
+      ],
+      "instructor": "Collis, Stephen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "20/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/372/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/372/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:42.925Z",
+      "prerequisiteText": "30 units; or two 200-division English courses; or formal declaration in the creative writing minor and ENGL 272.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "A seminar workshop in the theory and practice of creative writing with specific emphasis on poetry. This course may be repeated for credit when a different topic is taken.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2606",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "376",
+      "code": "ENGL 376",
+      "section": "D100",
+      "title": "Special Studies",
+      "instructors": [
+        "Fleming, James"
+      ],
+      "instructor": "Fleming, James",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "22/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/376/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/376/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:43.221Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "The course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2697",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "383",
+      "code": "ENGL 383",
+      "section": "D100",
+      "title": "Popular Literature and Culture",
+      "instructors": [
+        "Kehler, Torsten"
+      ],
+      "instructor": "Kehler, Torsten",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 67,
+        "capacity": 69,
+        "waitlistCount": 0,
+        "raw": "67/69"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/383/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:43.540Z",
+      "prerequisiteText": "30 units or two 200-division English courses.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "A study of popular literature and its cultural contexts. May be defined by genre, author, period, or critical approach.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2607",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "398",
+      "code": "ENGL 398",
+      "section": "D100",
+      "title": "Major Authors for Non-Majors",
+      "instructors": [
+        "Solomon, Diana"
+      ],
+      "instructor": "Solomon, Diana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 23,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "23/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/398/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/398/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:43.821Z",
+      "prerequisiteText": "30 units or two 200-division English courses. English majors, minors, extended minors, joint majors, and honours may take this course with permission of the instructor. This course may be counted towards general degree requirements, but not for credit towards an English major, minor, extended minor, joint major or honours.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "In-depth study of the literature of a major anglophone author of wide influence. Course is not intended for English majors, minors, extended minors, joint majors, or honours. May be repeated for credit once if different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2626",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "411W",
+      "code": "ENGL 411W",
+      "section": "D100",
+      "title": "Sem in Lit and Race",
+      "instructors": [
+        "Bogle, Cornel"
+      ],
+      "instructor": "Bogle, Cornel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "18/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/411w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/411w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:44.129Z",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Advanced seminar on selected literary works as they intersect with and are shaped by issues of race. May be organized by theme, critical approach, historical period, or individual author. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2698",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "413W",
+      "code": "ENGL 413W",
+      "section": "D100",
+      "title": "Sem in Lit and Environment",
+      "instructors": [
+        "Yan, Ziwei"
+      ],
+      "instructor": "Yan, Ziwei",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "16/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/413w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/413w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:44.417Z",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Advanced seminar on selected literary works as they intersect with and are shaped by environmental and ecological issues. May be organized by theme, critical approach, historical period, or individual author. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2699",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "431W",
+      "code": "ENGL 431W",
+      "section": "D100",
+      "title": "Sem. in Indigenous Literatures",
+      "instructors": [
+        "Reder, Deanna"
+      ],
+      "instructor": "Reder, Deanna",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 19,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "19/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/431w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/431w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:44.716Z",
+      "prerequisiteText": "45 units or two 300-division English courses. Strongly recommended: At least one Indigenous studies course.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Advanced seminar on selected works by Indigenous writers. May be organized by author, genre, or critical approach. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2608",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "433W",
+      "code": "ENGL 433W",
+      "section": "D100",
+      "title": "Sem in British Literatures",
+      "instructors": [
+        "Coley, David"
+      ],
+      "instructor": "Coley, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "20/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/433w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/433w/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:45.026Z",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Advanced seminar in British literature. May be organized by author, genre, period, or critical approach. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2627",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "433W",
+      "code": "ENGL 433W",
+      "section": "D200",
+      "title": "Sem in British Literatures",
+      "instructors": [
+        "Solomon, Diana"
+      ],
+      "instructor": "Solomon, Diana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "18/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/433w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/433w/d200",
+      "outlineRetrievedAt": "2026-10-08T14:45:45.322Z",
+      "prerequisiteText": "45 units or two 300-division English courses.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Advanced seminar in British literature. May be organized by author, genre, period, or critical approach. This course may be repeated for credit if a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2628",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "490",
+      "code": "ENGL 490",
+      "section": "D100",
+      "title": "Directed Studies A",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "0/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/490/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:45.628Z",
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "units": "4",
+      "designation": "N/A",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2978",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "490",
+      "code": "ENGL 490",
+      "section": "D200",
+      "title": "Directed Studies A",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "1/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/490/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/490/d200",
+      "outlineRetrievedAt": "2026-10-08T14:45:45.930Z",
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "units": "4",
+      "designation": "N/A",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2979",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "491",
+      "code": "ENGL 491",
+      "section": "D100",
+      "title": "Directed Studies B",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/491/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/491/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:46.223Z",
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "units": "2",
+      "designation": "N/A",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2977",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "491",
+      "code": "ENGL 491",
+      "section": "D200",
+      "title": "Directed Studies B",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "0/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/491/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/491/d200",
+      "outlineRetrievedAt": "2026-10-08T14:45:46.521Z",
+      "prerequisiteText": "Two 100-division English courses, two 200-division English courses and two 300-division English courses. Reserved for English honours, major, joint major and minor students. Admission is by permission of the instructor and the department.",
+      "units": "2",
+      "designation": "N/A",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4219",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "494",
+      "code": "ENGL 494",
+      "section": "D100",
+      "title": "Honours Research Methods Sem",
+      "instructors": [
+        "Arab, Ronda"
+      ],
+      "instructor": "Arab, Ronda",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "3/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/494/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:46.821Z",
+      "prerequisiteText": "Permission of the department, plus normally a minimum of 90 units, including credit or standing in two 100-division English courses, two 200-division English courses, and four 300 or 400-division English courses, one of which must be ENGL 364.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduces students enrolled in the English honours program to the basic methodological issues and procedures that define the field, and provides them with the opportunity to work with a faculty supervisor in researching a specific topic for their honours graduating essay.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2700",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "496",
+      "code": "ENGL 496",
+      "section": "D100",
+      "title": "Honours Graduating Essay",
+      "instructors": [
+        "Arab, Ronda"
+      ],
+      "instructor": "Arab, Ronda",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/496/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/496/d100",
+      "outlineRetrievedAt": "2026-10-08T14:45:47.118Z",
+      "prerequisiteText": "Lower division requirements for the English major. Open only to students who have been accepted into the English honours program, and who have completed ENGL 494.",
+      "units": "4",
+      "designation": "N/A",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2701",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "810",
+      "code": "ENGL 810",
+      "section": "G100",
+      "title": "Studies in Theory I",
+      "instructors": [
+        "Lesjak, Carolyn"
+      ],
+      "instructor": "Lesjak, Carolyn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 14,
+        "waitlistCount": 0,
+        "raw": "12/14"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/810/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/810/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:47.425Z",
+      "units": "4",
+      "description": "Provides a detailed and contextual overview of critical debates in twentieth-century literary and cultural theory. The critical lineage explored will vary according to theoretical focus.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3239",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "820",
+      "code": "ENGL 820",
+      "section": "G100",
+      "title": "Studies - Print Culture Theory",
+      "instructors": [
+        "Levy, Michelle"
+      ],
+      "instructor": "Levy, Michelle",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "5/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/820/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/820/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:47.727Z",
+      "units": "4",
+      "description": "Introduces the history of print culture along with a variety of theoretical approaches. Students enrolled in the Print Culture program are required to take this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3238",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "830",
+      "code": "ENGL 830",
+      "section": "G100",
+      "title": "Studies in Medieval Literature",
+      "instructors": [
+        "Coley, David",
+        "Hussey, Matthew"
+      ],
+      "instructor": "Coley, David; Hussey, Matthew",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "5/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/830/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/830/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:48.012Z",
+      "units": "4",
+      "description": "Examines selected medieval works in a variety of genres from Britain and Europe, organized by critical issues or theoretical approaches. May include works in a variety of media and study texts in the original language or in translation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3241",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "834",
+      "code": "ENGL 834",
+      "section": "G100",
+      "title": "20th Century Lit & Cultures",
+      "instructors": [
+        "Derksen, Jeff"
+      ],
+      "instructor": "Derksen, Jeff",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1220,
+          "displayStart": "4:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "12/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/834/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/834/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:48.313Z",
+      "units": "4",
+      "description": "Examines selected twentieth-century works in a variety of genres, organized by cultural movements, critical issues, or theoretical approaches. May include cultural production in various media and explore regional, national, and/or transnational and other literatures.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3240",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "875",
+      "code": "ENGL 875",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "1/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/875/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/875/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:48.619Z",
+      "units": "4",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4175",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "880",
+      "code": "ENGL 880",
+      "section": "G100",
+      "title": "Pro-seminar I",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "13/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/880/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/880/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:48.932Z",
+      "units": "4",
+      "description": "A professional seminar that provides students with a grounding in pedagogy and introduces professional aspects of English studies. Course will be graded Satisfactory/Unsatisfactory.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3242",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "882",
+      "code": "ENGL 882",
+      "section": "G100",
+      "title": "MA Project",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "7/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/882/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/882/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:49.225Z",
+      "units": "10",
+      "description": "The MA project may take a number of forms: a research paper; a digital project; an archival project; a research creation project; or a critical research project. The precise scope will be determined by the student in consultation with the student's supervisory committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4176",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "891",
+      "code": "ENGL 891",
+      "section": "G100",
+      "title": "MA Paper/Project",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "0/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/891/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/891/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:49.520Z",
+      "units": "6",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4177",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "892",
+      "code": "ENGL 892",
+      "section": "G100",
+      "title": "PhD Field Exam One",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "2/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/892/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/892/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:49.820Z",
+      "units": "4",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4178",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "893",
+      "code": "ENGL 893",
+      "section": "G100",
+      "title": "PhD Field Exam Two",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "3/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/893/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/893/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:50.126Z",
+      "units": "4",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4179",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "894",
+      "code": "ENGL 894",
+      "section": "G100",
+      "title": "PhD Thesis Prospectus",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "2/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/894/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/894/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:50.420Z",
+      "prerequisiteText": "ENGL 892 and ENGL 893.",
+      "units": "4",
+      "description": "The Thesis Prospectus helps to guide the student toward defining a significant thesis topic. The student will draft a thesis prospectus, describing the project and its relation to current scholarship, succinctly stating the theoretical approach and methodology, and outlining the thesis chapters. At the thesis prospectus meeting, the prospectus, along with a timeline for completion, will be discussed with the student, his/her committee, and the Graduate Chair. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4180",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "899",
+      "code": "ENGL 899",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "5/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/899/g100",
+      "outlineRetrievedAt": "2026-10-08T14:45:50.724Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4181",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ENGL",
+      "courseNumber": "899",
+      "code": "ENGL 899",
+      "section": "G200",
+      "title": "Ph.D. Thesis",
+      "instructors": [
+        "Linley, Margaret"
+      ],
+      "instructor": "Linley, Margaret",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 12,
+        "waitlistCount": 0,
+        "raw": "1/12"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ENGL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/engl/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/engl/899/g200",
+      "outlineRetrievedAt": "2026-10-08T14:45:51.020Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4182",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

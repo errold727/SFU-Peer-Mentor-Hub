@@ -1,0 +1,3064 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-08T14:54:01.613Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "111",
+      "code": "SEE 111",
+      "section": "D100",
+      "title": "Integrated Energy Solution I",
+      "instructors": [
+        "Xu, Min"
+      ],
+      "instructor": "Xu, Min",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/111/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/111/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:18.742Z",
+      "prerequisiteText": "SEE 110.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduction to the process of sustainable engineering design. Historical perspective on role of energy, resources and technology in society. Development and demonstration of sustainability thinking through research, case study and design project undertaken by teams of students with integration of socio-economic factors and planning. Course introduces Project Based Learning methods.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5613",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "222",
+      "code": "SEE 222",
+      "section": "D100",
+      "title": "Materials for Energy Systems",
+      "instructors": [
+        "Kaur, Manpreet"
+      ],
+      "instructor": "Kaur, Manpreet",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "0/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/222/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/222/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:19.033Z",
+      "prerequisiteText": "CHEM 121 or (CHEM 122 and CHEM 126).",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to engineering materials course designed around the principle of structure, property and performance relationship. Topics will include crystalline solids, diffusion, equilibrium phase diagrams, mechanical properties, principles of material failure; structure and properties of polymers, ceramics, composites, nano-materials and electronic materials.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5612",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "224",
+      "code": "SEE 224",
+      "section": "D100",
+      "title": "Thermodynamics for Energy Eng",
+      "instructors": [
+        "Ahmadi, Mehran"
+      ],
+      "instructor": "Ahmadi, Mehran",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 70,
+        "waitlistCount": 0,
+        "raw": "0/70"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/224/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/224/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:19.336Z",
+      "prerequisiteText": "MATH 251.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Basic energy concepts and definitions; first and second laws of thermodynamics; ideal and real gases; thermodynamic properties; with emphasis on analysis and applications to energy systems engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5614",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "225",
+      "code": "SEE 225",
+      "section": "D100",
+      "title": "Fluid Mechanics",
+      "instructors": [
+        "McTaggart-Cowan, Gordon"
+      ],
+      "instructor": "McTaggart-Cowan, Gordon",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "0/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/225/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/225/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:19.635Z",
+      "prerequisiteText": "PHYS 140, MATH 251, MATH 260.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "The fundamentals of fluid mechanics for engineers, emphasizing the basics of fluid statics and fluid motion, with applications in energy system engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5611",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "231",
+      "code": "SEE 231",
+      "section": "D100",
+      "title": "Electronic Devices and Systems",
+      "instructors": [
+        "Shabani, Amir"
+      ],
+      "instructor": "Shabani, Amir",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "0/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/231/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/231/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:19.951Z",
+      "prerequisiteText": "SEE 230.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Analysis of the basic electronic components, amplifiers, diodes, semiconductors, transistors and MOSFETs. Introduction to specific instrumentation, including actuators and sensors. Design of electronic circuits based on real world scenarios.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5615",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "242",
+      "code": "SEE 242",
+      "section": "D100",
+      "title": "Computational Methods",
+      "instructors": [
+        "Haji Hajikolaei, Kambiz"
+      ],
+      "instructor": "Haji Hajikolaei, Kambiz",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "0/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/242/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/242/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:20.240Z",
+      "prerequisiteText": "MATH 152, MATH 232.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Apply numerical methods to solve engineering problems with an emphasis on sustainable energy engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5616",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "251",
+      "code": "SEE 251",
+      "section": "D100",
+      "title": "Electric Machines",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 1040,
+          "displayStart": "3:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/251/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/251/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:20.537Z",
+      "prerequisiteText": "SEE 230, MATH 260.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Principles, operation, and analysis of three phase systems, magnetic circuits, transformers and electromechanical energy conversion systems and their applications.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5617",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "290",
+      "code": "SEE 290",
+      "section": "D100",
+      "title": "Industrial Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/290/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/290/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:20.837Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4547",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "290",
+      "code": "SEE 290",
+      "section": "D200",
+      "title": "Industrial Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/290/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/290/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:21.138Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4548",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "290",
+      "code": "SEE 290",
+      "section": "I100",
+      "title": "Industrial Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/290/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/290/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:21.436Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The first of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4549",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "294",
+      "code": "SEE 294",
+      "section": "D100",
+      "title": "Special Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/294/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/294/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:21.741Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship I must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4550",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "294",
+      "code": "SEE 294",
+      "section": "D200",
+      "title": "Special Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/294/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/294/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:22.037Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship I must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4551",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "294",
+      "code": "SEE 294",
+      "section": "I100",
+      "title": "Special Internship I",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/294/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/294/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:22.343Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship I must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4552",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "390",
+      "code": "SEE 390",
+      "section": "D100",
+      "title": "Industrial Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/390/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/390/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:22.640Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4553",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "390",
+      "code": "SEE 390",
+      "section": "D200",
+      "title": "Industrial Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/390/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/390/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:22.937Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4554",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "390",
+      "code": "SEE 390",
+      "section": "I100",
+      "title": "Industrial Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/390/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/390/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:23.229Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The second of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4555",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "394",
+      "code": "SEE 394",
+      "section": "D100",
+      "title": "Special Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/394/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/394/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:23.546Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship II must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4556",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "394",
+      "code": "SEE 394",
+      "section": "D200",
+      "title": "Special Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/394/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/394/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:23.831Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship II must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4557",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "394",
+      "code": "SEE 394",
+      "section": "I100",
+      "title": "Special Internship II",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/394/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/394/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:24.139Z",
+      "prerequisiteText": "SEE 290 or SEE 294.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship II must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4558",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "411",
+      "code": "SEE 411",
+      "section": "D100",
+      "title": "Sust Energy Design Project II",
+      "instructors": [
+        "Kaur, Manpreet",
+        "Xu, Min"
+      ],
+      "instructor": "Kaur, Manpreet; Xu, Min",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/411/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/411/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:24.435Z",
+      "prerequisiteText": "SEE 410W. Must be taken in the term immediately following 410W. In order to obtain credit, students must successfully complete both SEE 410W and SEE 411.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second course in the team-based, two-course capstone sequence. Students synthesize their learning across the SEE program to research, design, build and test the hardware and/or software implementation of a working system. Includes shop training workshops, engineering standards on how to design for safety, and human factors. Final output will include a prototype or other proof-of-concept, a final presentation, and other documentation commensurate to the needs of the project.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5610",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "463",
+      "code": "SEE 463",
+      "section": "D100",
+      "title": "Embedded Computer Systems",
+      "instructors": [
+        "Shabani, Amir"
+      ],
+      "instructor": "Shabani, Amir",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/463/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/463/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:24.739Z",
+      "prerequisiteText": "CMPT 130, SEE 231.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Implementation and design of embedded computer systems used in various real-time applications including energy systems, power electronics, and automation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5618",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "475",
+      "code": "SEE 475",
+      "section": "D100",
+      "title": "Special Topics in SEE",
+      "instructors": [
+        "Pecunia, Vincenzo"
+      ],
+      "instructor": "Pecunia, Vincenzo",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "0/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/475/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/475/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:25.041Z",
+      "prerequisiteText": "As set by the course instructor when the course is offered.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Special topics in sustainable energy engineering. Students may repeat this course for further credit under a different topic. Note: Students must not repeat a special topics course with a similar topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5644",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "476",
+      "code": "SEE 476",
+      "section": "D100",
+      "title": "Special Topics in SEE",
+      "instructors": [
+        "Tariku, Fitsum"
+      ],
+      "instructor": "Tariku, Fitsum",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "0/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/476/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/476/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:25.337Z",
+      "prerequisiteText": "As set by the course instructor when the course is offered.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Special topics in sustainable energy engineering. Students may repeat this course for further credit under a different topic. Note: Students must not repeat a special topics course with a similar topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5645",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "477",
+      "code": "SEE 477",
+      "section": "D100",
+      "title": "Special Topics in SEE",
+      "instructors": [
+        "Hosseini, Vahid"
+      ],
+      "instructor": "Hosseini, Vahid",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "SEE 894 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/477/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/477/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:25.641Z",
+      "prerequisiteText": "As set by the course instructor when the course is offered.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Special topics in sustainable energy engineering. Students may repeat this course for further credit under a different topic. Note: Students must not repeat a special topics course with a similar topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5650",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "486",
+      "code": "SEE 486",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/486/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/486/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:25.941Z",
+      "prerequisiteText": "A minimum of 100 units and permission of the chair of the undergraduate curriculum committee. The specific prerequisite courses will be identified by the course supervisor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and research in a topic chosen in consultation with a supervisor. Admission requires agreement by a proposed faculty supervisor and submission of a proposal to the school at least one month prior to the start of the term in which the course will be taken. Upon completion of a directed study course, the student must submit a copy of the ‘deliverables’ to the chair of the undergraduate curriculum committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4567",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "486",
+      "code": "SEE 486",
+      "section": "D200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/486/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/486/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:26.239Z",
+      "prerequisiteText": "A minimum of 100 units and permission of the chair of the undergraduate curriculum committee. The specific prerequisite courses will be identified by the course supervisor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and research in a topic chosen in consultation with a supervisor. Admission requires agreement by a proposed faculty supervisor and submission of a proposal to the school at least one month prior to the start of the term in which the course will be taken. Upon completion of a directed study course, the student must submit a copy of the ‘deliverables’ to the chair of the undergraduate curriculum committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4568",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "486",
+      "code": "SEE 486",
+      "section": "D300",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/486/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/486/d300",
+      "outlineRetrievedAt": "2026-10-08T15:08:26.532Z",
+      "prerequisiteText": "A minimum of 100 units and permission of the chair of the undergraduate curriculum committee. The specific prerequisite courses will be identified by the course supervisor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and research in a topic chosen in consultation with a supervisor. Admission requires agreement by a proposed faculty supervisor and submission of a proposal to the school at least one month prior to the start of the term in which the course will be taken. Upon completion of a directed study course, the student must submit a copy of the ‘deliverables’ to the chair of the undergraduate curriculum committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4569",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "486",
+      "code": "SEE 486",
+      "section": "D400",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/486/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/486/d400",
+      "outlineRetrievedAt": "2026-10-08T15:08:26.838Z",
+      "prerequisiteText": "A minimum of 100 units and permission of the chair of the undergraduate curriculum committee. The specific prerequisite courses will be identified by the course supervisor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading and research in a topic chosen in consultation with a supervisor. Admission requires agreement by a proposed faculty supervisor and submission of a proposal to the school at least one month prior to the start of the term in which the course will be taken. Upon completion of a directed study course, the student must submit a copy of the ‘deliverables’ to the chair of the undergraduate curriculum committee.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4570",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "490",
+      "code": "SEE 490",
+      "section": "D100",
+      "title": "Industrial Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/490/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:27.191Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The third of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4561",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "490",
+      "code": "SEE 490",
+      "section": "D200",
+      "title": "Industrial Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/490/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/490/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:27.440Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The third of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4562",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "490",
+      "code": "SEE 490",
+      "section": "I100",
+      "title": "Industrial Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/490/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/490/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:27.744Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The third of 3 term-long work placements in which students gain real-world experience in research or industrial facilities, often designing and building real products. Students integrate theory and practice as a student engineer. Students are supported to prepare their job search strategies, conduct professional interviews and explore and develop their career goals. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4563",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "494",
+      "code": "SEE 494",
+      "section": "D100",
+      "title": "Special Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/494/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:28.040Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship III must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4564",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "494",
+      "code": "SEE 494",
+      "section": "D200",
+      "title": "Special Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/494/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/494/d200",
+      "outlineRetrievedAt": "2026-10-08T15:08:28.334Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship III must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4565",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "494",
+      "code": "SEE 494",
+      "section": "I100",
+      "title": "Special Internship III",
+      "instructors": [
+        "DeRapp, Stephanie",
+        "Greaves, Stephanie",
+        "Schwartz, Tyler"
+      ],
+      "instructor": "DeRapp, Stephanie; Greaves, Stephanie; Schwartz, Tyler",
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 1220,
+          "displayStart": "8:30 AM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/494/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/494/i100",
+      "outlineRetrievedAt": "2026-10-08T15:08:28.642Z",
+      "prerequisiteText": "SEE 390 or SEE 394.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An alternative experience to a regular co-op work term. This may include, but is not restricted to, a self-directed project (eg. sustainable community project), service (eg. intern with Engineers Without Borders), entrepreneurial, or research terms. Prior approval of the Internship Coordinator is required. To be granted credit Special Internship III must meet the regular criteria for a co-op work term. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4566",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "498",
+      "code": "SEE 498",
+      "section": "D100",
+      "title": "SEE Honours Thesis Proposal",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/498/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:28.943Z",
+      "prerequisiteText": "At least 115 units with a minimum 3.0 CGPA and approval of the department, or permission of the academic supervisor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Supervised study, research and preliminary work leading to a formal proposal for the thesis project work in SEE 499. This activity can be directly augmented by other course work and by directed study. The locale of the work may be external to the University or within a University laboratory, or may bridge the two locations. A plan for the student's SEE 498 activities must be submitted to the school at the time of enrollment in the course and must include agreement from the supervisory committee. At least two of the three supervisors must be registered professional engineers, and at least one must be a faculty member in SEE. Completion of the undergraduate thesis project proposal is the formal requirement of this course and the basis upon which it is graded. Grading will be on a pass/fail basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4559",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "499",
+      "code": "SEE 499",
+      "section": "D100",
+      "title": "SEE Honours Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/499/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/499/d100",
+      "outlineRetrievedAt": "2026-10-08T15:08:29.228Z",
+      "prerequisiteText": "SEE 498.",
+      "units": "9",
+      "designation": "N/A",
+      "description": "A thesis based on a research or development project that incorporates a significant level of engineering design. Typically undertaken in the student's final year, but in no case before the student has completed 115 units. Enrollment for SEE 499 takes place in the term in which the thesis will be presented and defended. The locale of the work, supervision and other arrangements follow those for SEE 498. Grading of the thesis will be on a pass/fail basis, but recognition will be given to outstanding work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4560",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "772",
+      "code": "SEE 772",
+      "section": "G100",
+      "title": "Sustainable Energy Systems II",
+      "instructors": [
+        "Haji Hajikolaei, Kambiz"
+      ],
+      "instructor": "Haji Hajikolaei, Kambiz",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/772/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/772/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:29.538Z",
+      "prerequisiteText": "SEE 771.",
+      "units": "4",
+      "description": "Application of engineering principles from electrical engineering, material sciences, and thermodynamics to sustainable energy systems. Topics will include electrical energy production, sustainable buildings, smart grids, and low-carbon transportations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5643",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "773",
+      "code": "SEE 773",
+      "section": "G100",
+      "title": "Sustainable Energy Policy",
+      "instructors": [
+        "Adeel, Zafar"
+      ],
+      "instructor": "Adeel, Zafar",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 1040,
+          "displayStart": "1:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "POL 452 D1",
+        "POL 855 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/773/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/773/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:29.835Z",
+      "units": "4",
+      "description": "Writing intensive graduate course designed to examine one of the most pressing issues of our time: how to develop alternative and sustainable energy sources in the face of climate change. Students receive a technical introduction to how energy works, then moves to a historical perspective focusing on how petroleum-based economy has evolved, and what the future holds for it. Next, students review energy policy frameworks in economic, political, and regulatory terms. Students will learn how to write a policy brief or memo, using qualitative and quantitative analysis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5649",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "795",
+      "code": "SEE 795",
+      "section": "G100",
+      "title": "Industrial Internship",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/795/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/795/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:30.209Z",
+      "prerequisiteText": "Completion of all required coursework towards the students’ degree and satisfactory academic standing. Approval of supervisor and a GPC representative is required prior to accepting an internship.",
+      "units": "3",
+      "description": "Full time working internship (excluding Mitacs) in industry or a research environment for SEE graduate research students. A final report will be submitted and graded by the student's supervisor. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4584",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "795",
+      "code": "SEE 795",
+      "section": "G200",
+      "title": "Industrial Internship",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/795/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/795/g200",
+      "outlineRetrievedAt": "2026-10-08T15:08:30.432Z",
+      "prerequisiteText": "Completion of all required coursework towards the students’ degree and satisfactory academic standing. Approval of supervisor and a GPC representative is required prior to accepting an internship.",
+      "units": "3",
+      "description": "Full time working internship (excluding Mitacs) in industry or a research environment for SEE graduate research students. A final report will be submitted and graded by the student's supervisor. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4585",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "795",
+      "code": "SEE 795",
+      "section": "G300",
+      "title": "Industrial Internship",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/795/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/795/g300",
+      "outlineRetrievedAt": "2026-10-08T15:08:30.736Z",
+      "prerequisiteText": "Completion of all required coursework towards the students’ degree and satisfactory academic standing. Approval of supervisor and a GPC representative is required prior to accepting an internship.",
+      "units": "3",
+      "description": "Full time working internship (excluding Mitacs) in industry or a research environment for SEE graduate research students. A final report will be submitted and graded by the student's supervisor. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4586",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "811",
+      "code": "SEE 811",
+      "section": "G100",
+      "title": "Research and Comm Skills",
+      "instructors": [
+        "Neal, Vivian"
+      ],
+      "instructor": "Neal, Vivian",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/811/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/811/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:31.040Z",
+      "units": "3",
+      "description": "Students develop essential skills and foundations for building successful research and professional careers in academia and industry. Topics covered include defining research and its procedures, literature retrieval and management, data management, technical communication, research proposal and grant writing, research ethics, writing papers for scientific journals, presentation skills, and thesis writing.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5640",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "890",
+      "code": "SEE 890",
+      "section": "G100",
+      "title": "PhD Qualifying Exam",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/890/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/890/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:31.645Z",
+      "corequisites": "SEE 897.",
+      "description": "PhD Qualifying Exam. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4580",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 4,
+        "waitlistCount": 0,
+        "raw": "0/4"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:31.645Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4571",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G200",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g200",
+      "outlineRetrievedAt": "2026-10-08T15:08:31.942Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4572",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G300",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g300",
+      "outlineRetrievedAt": "2026-10-08T15:08:32.307Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4573",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G400",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g400",
+      "outlineRetrievedAt": "2026-10-08T15:08:32.538Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4574",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G500",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g500",
+      "outlineRetrievedAt": "2026-10-08T15:08:32.827Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4575",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G600",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g600",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g600",
+      "outlineRetrievedAt": "2026-10-08T15:08:33.390Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4576",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G700",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g700",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g700",
+      "outlineRetrievedAt": "2026-10-08T15:08:33.433Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4577",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G800",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g800",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g800",
+      "outlineRetrievedAt": "2026-10-08T15:08:33.740Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4578",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "891",
+      "code": "SEE 891",
+      "section": "G900",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/891/g900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/891/g900",
+      "outlineRetrievedAt": "2026-10-08T15:08:34.040Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Directed Study in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4579",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "893",
+      "code": "SEE 893",
+      "section": "G100",
+      "title": "Special Topics I",
+      "instructors": [
+        "Shoa Hassani Lashidani, Tina"
+      ],
+      "instructor": "Shoa Hassani Lashidani, Tina",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/893/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/893/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:34.336Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Special Topics in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5646",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "894",
+      "code": "SEE 894",
+      "section": "G100",
+      "title": "Special Topics II",
+      "instructors": [
+        "Hosseini, Vahid"
+      ],
+      "instructor": "Hosseini, Vahid",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "SEE 477 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/894/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/894/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:34.642Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Special Topics in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5647",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "894",
+      "code": "SEE 894",
+      "section": "G200",
+      "title": "Special Topics II",
+      "instructors": [
+        "Pecunia, Vincenzo"
+      ],
+      "instructor": "Pecunia, Vincenzo",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/894/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/894/g200",
+      "outlineRetrievedAt": "2026-10-08T15:08:34.935Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Special Topics in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5651",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "895",
+      "code": "SEE 895",
+      "section": "G100",
+      "title": "Special Topics III",
+      "instructors": [
+        "Tariku, Fitsum"
+      ],
+      "instructor": "Tariku, Fitsum",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/895/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/895/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:35.228Z",
+      "corequisites": "SEE 896 or SEE 897.",
+      "units": "3",
+      "description": "Special Topics in Sustainable Energy Engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5648",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "896",
+      "code": "SEE 896",
+      "section": "G100",
+      "title": "MASc Research Seminar",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "SEE 897 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/896/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/896/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:35.538Z",
+      "description": "Presentation and discussion of current research topics. Includes guest speakers, student presentations, readings, and professional development workshops. A focus is building a community of sustainability scholars while enhancing student well-being. MASc students must enroll in SEE 896 every term in which they are enrolled, until all program requirements have been met. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5641",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "897",
+      "code": "SEE 897",
+      "section": "G100",
+      "title": "PhD Research Seminar",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "SEE 896 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/897/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:35.839Z",
+      "description": "Presentation and discussion of current research topics. Includes guest speakers, student presentations, readings, and professional development workshops. A focus is building a community of sustainability scholars while enhancing student well-being. PhD students must enroll in this course at least one time each academic year. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5642",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "898",
+      "code": "SEE 898",
+      "section": "G100",
+      "title": "MASc Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/898/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:36.142Z",
+      "corequisites": "SEE 896.",
+      "units": "18",
+      "description": "MASc Thesis. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4581",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "899",
+      "code": "SEE 899",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/899/g100",
+      "outlineRetrievedAt": "2026-10-08T15:08:36.431Z",
+      "prerequisiteText": "SEE 890. Corequisite: SEE 897.",
+      "units": "18",
+      "description": "PhD Thesis. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4582",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "SEE",
+      "courseNumber": "899",
+      "code": "SEE 899",
+      "section": "G200",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Surrey",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=SEE",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:54:01.613Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/see/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/see/899/g200",
+      "outlineRetrievedAt": "2026-10-08T15:08:36.733Z",
+      "prerequisiteText": "SEE 890. Corequisite: SEE 897.",
+      "units": "18",
+      "description": "PhD Thesis. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4583",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

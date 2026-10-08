@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-08T14:38:18.555Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SCI",
+      "courseNumber": "100",
+      "code": "SCI 100",
+      "section": "D100",
+      "title": "Success Strategies in Science",
+      "instructors": [
+        "Johnson, Sarah"
+      ],
+      "instructor": "Johnson, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 29,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "29/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SCI",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sci/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sci/100/d100",
+      "outlineRetrievedAt": "2026-10-08T14:53:06.300Z",
+      "prerequisiteText": "Only Faculty of Science students may take this course.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "An introduction to recommended strategies to be a successful science student. Topics include study skills, time management, university resources, program options, and research and extracurricular opportunities for undergraduate students in the Faculty of Science. Graded on a pass/fail basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5085",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SCI",
+      "courseNumber": "130",
+      "code": "SCI 130",
+      "section": "D100",
+      "title": "Busting Science Myths",
+      "instructors": [
+        "Ramer, Leanne"
+      ],
+      "instructor": "Ramer, Leanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 74,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "74/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SCI",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sci/130/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sci/130/d100",
+      "outlineRetrievedAt": "2026-10-08T14:53:06.912Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Are vaccines dangerous? Is global warming real? Why is science so controversial? Unravel the truth through lively discussions and critical analysis. Sharpen your skills to separate fact from fiction and make informed choices – whether shaping public policy or navigating everyday life.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6090",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "SCI",
+      "courseNumber": "300",
+      "code": "SCI 300",
+      "section": "B100",
+      "title": "Science and Impact on Society",
+      "instructors": [
+        "Kreis, Uwe"
+      ],
+      "instructor": "Kreis, Uwe",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1130,
+          "displayStart": "5:30 PM",
+          "displayEnd": "6:50 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 44,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "44/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=SCI",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-08T14:38:18.555Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/sci/300/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/sci/300/b100",
+      "outlineRetrievedAt": "2026-10-08T14:53:06.601Z",
+      "prerequisiteText": "60 units.",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "The impact of science in our society. This course introduces upper level university students to all facets of science and their resulting technologies. Governmental policies often involve far-reaching scientific/technological decisions and this course attempts to provide a scientific perspective to help achieve rational and effective policies.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1764",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}
