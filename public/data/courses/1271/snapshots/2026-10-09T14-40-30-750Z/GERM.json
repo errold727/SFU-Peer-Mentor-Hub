@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-09T14:40:30.751Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GERM",
+      "courseNumber": "100",
+      "code": "GERM 100",
+      "section": "D100",
+      "title": "Introductory German I",
+      "instructors": [
+        "Hein, Claudia"
+      ],
+      "instructor": "Hein, Claudia",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GERM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/germ/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/germ/100/d100",
+      "outlineRetrievedAt": "2026-10-09T14:48:57.126Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to German for students with no previous background in the language. Course develops German language acquisition through listening, speaking, reading, and writing skills, using practical and situational materials that stress both language and culture. By the end of the term, students will have acquired basic conversational skills. (A1.1 level of CEFR). Students with previous German training should contact the department for placement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5161",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GERM",
+      "courseNumber": "110",
+      "code": "GERM 110",
+      "section": "D100",
+      "title": "Introductory German II",
+      "instructors": [
+        "Hein, Claudia"
+      ],
+      "instructor": "Hein, Claudia",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GERM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/germ/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/germ/110/d100",
+      "outlineRetrievedAt": "2026-10-09T14:48:57.304Z",
+      "prerequisiteText": "GERM 100 (or GERM 102) or equivalent.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Follows GERM 100. Continues introduction to German for students who have developed the necessary foundations from GERM 100. Students will acquire elementary conversational skills and basic reading ability, along with cultural competence. By the end of the term, students will be able to communicate in basic German. (A1 level of CEFR completed)",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5162",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GERM",
+      "courseNumber": "210",
+      "code": "GERM 210",
+      "section": "D100",
+      "title": "Intermediate German II",
+      "instructors": [
+        "Hein, Claudia"
+      ],
+      "instructor": "Hein, Claudia",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GERM",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/germ/210/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/germ/210/d100",
+      "outlineRetrievedAt": "2026-10-09T14:48:57.609Z",
+      "prerequisiteText": "GERM 200 (or GERM 201) or equivalent.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Continues the work of GERM 200. Students will receive further training in speaking, reading and writing, with extensive references made to German culture. After completion of the course, students should have attained the A2 level of the CEFR.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5163",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    }
+  ]
+}

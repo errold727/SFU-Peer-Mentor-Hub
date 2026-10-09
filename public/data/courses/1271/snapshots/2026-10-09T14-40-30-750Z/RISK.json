@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-09T14:40:30.751Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "102",
+      "code": "RISK 102",
+      "section": "D100",
+      "title": "The Science of Risk",
+      "instructors": [
+        "Sanders, Barbara"
+      ],
+      "instructor": "Sanders, Barbara",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/102/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/102/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:43.103Z",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "A practical introduction to the science of risk management, applicable in both personal and business contexts for making data-driven decisions under uncertainty. Topics include risk identification and classification, qualitative and quantitative risk assessment, risk mitigation through pooling and insurance, and emerging risks. Applications in finance, cybersecurity, healthcare.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5846",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "201",
+      "code": "RISK 201",
+      "section": "D100",
+      "title": "Interest Theory & Applications",
+      "instructors": [
+        "Zhang, Lin"
+      ],
+      "instructor": "Zhang, Lin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/201/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:43.396Z",
+      "prerequisiteText": "MATH 152 with a minimum grade of C; or MATH 155 or MATH 158, with a grade of at least B. Recommended: RISK (or ACMA) 101 or RISK 102.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Measurement of interest, present value. Equations of value. Annuities. Loans and amortization schedules. Bonds and other securities. Cash flows: yield rates, duration, convexity, immunization. Yield curves: spot rates, forward rates. Interest rate swaps.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5842",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "336",
+      "code": "RISK 336",
+      "section": "D100",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/336/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/336/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:43.698Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op coordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.50 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in a co-operative education program for actuarial students. Students should contact an advisor as early in their career as possible for counseling. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2087",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "336",
+      "code": "RISK 336",
+      "section": "D200",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/336/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/336/d200",
+      "outlineRetrievedAt": "2026-10-09T14:54:43.999Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op coordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.50 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in a co-operative education program for actuarial students. Students should contact an advisor as early in their career as possible for counseling. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2088",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "336",
+      "code": "RISK 336",
+      "section": "I100",
+      "title": "Job Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/336/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/336/i100",
+      "outlineRetrievedAt": "2026-10-09T14:54:44.305Z",
+      "prerequisiteText": "Students must apply and receive permission from the co-op coordinator at least one but preferably two terms in advance. They will normally be required to have completed 45 units with a GPA of 2.50 before they may take this practicum course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in a co-operative education program for actuarial students. Students should contact an advisor as early in their career as possible for counseling. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2089",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "337",
+      "code": "RISK 337",
+      "section": "D100",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/337/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/337/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:44.610Z",
+      "prerequisiteText": "RISK (or ACMA) 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2090",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "337",
+      "code": "RISK 337",
+      "section": "D200",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/337/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/337/d200",
+      "outlineRetrievedAt": "2026-10-09T14:54:44.886Z",
+      "prerequisiteText": "RISK (or ACMA) 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2091",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "337",
+      "code": "RISK 337",
+      "section": "I100",
+      "title": "Job Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/337/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/337/i100",
+      "outlineRetrievedAt": "2026-10-09T14:54:45.191Z",
+      "prerequisiteText": "RISK (or ACMA) 336 or Job Practicum I from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2092",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "360W",
+      "code": "RISK 360W",
+      "section": "D100",
+      "title": "Actuarial Communication",
+      "instructors": [
+        "Begin, Jean-Francois"
+      ],
+      "instructor": "Begin, Jean-Francois",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/360w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/360w/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:45.494Z",
+      "prerequisiteText": "RISK 311 (or ACMA 301 or 320), with a minimum grade of C.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "Guided experiences in written and oral communication of actuarial ideas and results to both expert and lay audiences.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5843",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "411",
+      "code": "RISK 411",
+      "section": "D100",
+      "title": "Adv LT Actuarial Math",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/411/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/411/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:45.801Z",
+      "prerequisiteText": "RISK 311 (or ACMA 301 or 320), with a minimum grade of C.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Advanced survival models. Multiple state models. Advanced premium calculations and policy values. Profit testing. Pension plans and retirement benefits. Computer applications for pricing, reserving and risk measurement of life insurance portfolios.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5847",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "421",
+      "code": "RISK 421",
+      "section": "E100",
+      "title": "Adv Models for Short-Term Ins",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "RISK 803 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/421/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/421/e100",
+      "outlineRetrievedAt": "2026-10-09T14:54:46.089Z",
+      "prerequisiteText": "RISK (or ACMA) 321 with a minimum grade of C. Corequisite: STAT 350.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Risk measures. Extreme value theory: models and applications. Aggregate models for claims. Regression-based approaches to claims modeling: generalized linear models, linear mixed models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5844",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "422",
+      "code": "RISK 422",
+      "section": "E100",
+      "title": "Short-Term Insurance Practice",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 1050,
+          "endMinutes": 1220,
+          "displayStart": "5:30 PM",
+          "displayEnd": "8:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/422/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/422/e100",
+      "outlineRetrievedAt": "2026-10-09T14:54:46.392Z",
+      "prerequisiteText": "RISK (or ACMA) 321 with a minimum grade of C.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Advanced ratemaking: trend analysis, ultimate losses, expense provisions, profit and contingencies, overall rate indications, classification rates. Experience rating: credibility theory and applications, bonus-malus systems. Loss reserving: estimating unpaid losses and IBNR, statistical models and assumptions for outstanding claim reserves.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5845",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "436",
+      "code": "RISK 436",
+      "section": "D100",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/436/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/436/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:46.695Z",
+      "prerequisiteText": "RISK (or ACMA) 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2093",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "436",
+      "code": "RISK 436",
+      "section": "D200",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/436/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/436/d200",
+      "outlineRetrievedAt": "2026-10-09T14:54:46.997Z",
+      "prerequisiteText": "RISK (or ACMA) 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2094",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "436",
+      "code": "RISK 436",
+      "section": "I100",
+      "title": "Job Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/436/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/436/i100",
+      "outlineRetrievedAt": "2026-10-09T14:54:47.301Z",
+      "prerequisiteText": "RISK (or ACMA) 337 or Job Practicum II from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2095",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "437",
+      "code": "RISK 437",
+      "section": "D100",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/437/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/437/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:47.595Z",
+      "prerequisiteText": "RISK (or ACMA) 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2096",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "437",
+      "code": "RISK 437",
+      "section": "D200",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/437/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/437/d200",
+      "outlineRetrievedAt": "2026-10-09T14:54:47.898Z",
+      "prerequisiteText": "RISK (or ACMA) 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2097",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "437",
+      "code": "RISK 437",
+      "section": "I100",
+      "title": "Job Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/437/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/437/i100",
+      "outlineRetrievedAt": "2026-10-09T14:54:48.191Z",
+      "prerequisiteText": "RISK (or ACMA) 436 or Job Practicum III from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2098",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "438",
+      "code": "RISK 438",
+      "section": "D100",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/438/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/438/d100",
+      "outlineRetrievedAt": "2026-10-09T14:54:48.494Z",
+      "prerequisiteText": "RISK (or ACMA) 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional fifth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2099",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "438",
+      "code": "RISK 438",
+      "section": "D200",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/438/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/438/d200",
+      "outlineRetrievedAt": "2026-10-09T14:54:48.795Z",
+      "prerequisiteText": "RISK (or ACMA) 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional fifth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2100",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "438",
+      "code": "RISK 438",
+      "section": "I100",
+      "title": "Job Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/438/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/438/i100",
+      "outlineRetrievedAt": "2026-10-09T14:54:49.105Z",
+      "prerequisiteText": "RISK (or ACMA) 437 or Job Practicum IV from another department. Students must apply and receive permission from the co-op coordinator at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Optional fifth term of work experience in a co-operative education program available to actuarial students. Units from this course do not count towards the units required for an SFU degree. Grading is on a pass/withdraw basis. A course fee is required. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2101",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "803",
+      "code": "RISK 803",
+      "section": "G100",
+      "title": "Adv Models for ST Ins",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "RISK 421 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/803/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/803/g100",
+      "outlineRetrievedAt": "2026-10-09T14:54:49.404Z",
+      "units": "3",
+      "description": "Risk measures. Extreme value theory: models and applications. Aggregate models for claims. Regression-based approaches to claims modeling: generalized linear models, linear mixed models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5863",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "RISK",
+      "courseNumber": "804",
+      "code": "RISK 804",
+      "section": "G100",
+      "title": "Actuarial Risk Management",
+      "instructors": [
+        "Begin, Jean-Francois"
+      ],
+      "instructor": "Begin, Jean-Francois",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 920,
+          "displayStart": "1:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=RISK",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/risk/804/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/risk/804/g100",
+      "outlineRetrievedAt": "2026-10-09T14:54:49.693Z",
+      "units": "3",
+      "description": "Economic perspectives on risk and insurance. Multivariate risk models, copulas and dependence. Risk aggregation and capital allocation. Risk management in practice.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5864",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-09T14:25:01.529Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "100",
+      "code": "PHYS 100",
+      "section": "D100",
+      "title": "Introduction to Physics",
+      "instructors": [
+        "Girt, Erol"
+      ],
+      "instructor": "Girt, Erol",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 191,
+        "capacity": 326,
+        "waitlistCount": 0,
+        "raw": "191/326"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/100/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:51.730Z",
+      "prerequisiteText": "BC Pre-Calculus 12 (or equivalent) or MATH 100 or MATH 110, with a minimum grade of C-. BC Physics 11 (or equivalent) is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "For students without Physics 12 (or equivalent) to prepare for further physics courses. Introduction to kinematics, dynamics, and conservation of energy and momentum.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4966",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "100",
+      "code": "PHYS 100",
+      "section": "D200",
+      "title": "Introduction to Physics",
+      "instructors": [
+        "Emberly, Eldon"
+      ],
+      "instructor": "Emberly, Eldon",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 41,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "41/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/100/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/100/d200",
+      "outlineRetrievedAt": "2026-10-09T14:37:52.025Z",
+      "prerequisiteText": "BC Pre-Calculus 12 (or equivalent) or MATH 100 or MATH 110, with a minimum grade of C-. BC Physics 11 (or equivalent) is recommended.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "For students without Physics 12 (or equivalent) to prepare for further physics courses. Introduction to kinematics, dynamics, and conservation of energy and momentum.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4967",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "101",
+      "code": "PHYS 101",
+      "section": "D100",
+      "title": "Physics for Life Sciences I",
+      "instructors": [
+        "Johnson, Sarah"
+      ],
+      "instructor": "Johnson, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 241,
+        "capacity": 324,
+        "waitlistCount": 0,
+        "raw": "241/324"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/101/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:52.329Z",
+      "prerequisiteText": "BC Principles of Physics 12 or PHYS 100 or equivalent, with a minimum grade of C-. This prerequisite may be waived, at the discretion of the department, as determined by the student's performance on a regularly scheduled PHYS 100 final exam. Please consult the physics advisor for further details. Corequisite: MATH 150 or 151 or 154 or 157; BISC 100 or 101 or 102 or 113. Recommended Corequisite: PHYS 132.",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "Force and motion, conservation of energy and momentum, fluids, properties of soft matter and thermal physics with applications taken from the life sciences.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4968",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "102",
+      "code": "PHYS 102",
+      "section": "D100",
+      "title": "Physics for Life Sciences II",
+      "instructors": [
+        "Betts, Sabine"
+      ],
+      "instructor": "Betts, Sabine",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 164,
+        "capacity": 265,
+        "waitlistCount": 0,
+        "raw": "164/265"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/102/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/102/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:52.627Z",
+      "prerequisiteText": "PHYS 101 or 120 or 125 or 140; MATH 150 or 151 or 154 or 157; both with a minimum grade of C-. Corequisite: BISC 100 or 101 or 102 or 113. Recommended Corequisites: MATH 152, 155 or 158; PHYS 133.",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "Waves and optics; electricity and magnetism; modern physics emphasizing radioactivity, with applications taken from the life sciences.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4996",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "120",
+      "code": "PHYS 120",
+      "section": "D100",
+      "title": "Mechanics and Modern Physics",
+      "instructors": [
+        "Sonier, Jeff"
+      ],
+      "instructor": "Sonier, Jeff",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 191,
+        "capacity": 342,
+        "waitlistCount": 0,
+        "raw": "191/342"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/120/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/120/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:52.922Z",
+      "prerequisiteText": "BC Principles of Physics 12 or PHYS 100 or equivalent, with a minimum grade of C-. This prerequisite may be waived, at the discretion of the department, as determined by the student's performance on a regularly scheduled PHYS 100 final exam. Please consult the physics advisor for further details. Corequisite: MATH 150 or 151 or 154. Recommended Corequisite: PHYS 132.",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "A general calculus-based introduction to mechanics. Topics include translational and rotational motion, momentum, energy, gravitation, and selected topics in modern physics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4997",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "125",
+      "code": "PHYS 125",
+      "section": "D100",
+      "title": "Mechanics/Special Relativity",
+      "instructors": [
+        "Danninger, Matthias"
+      ],
+      "instructor": "Danninger, Matthias",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 58,
+        "waitlistCount": 0,
+        "raw": "36/58"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/125/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/125/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:53.231Z",
+      "prerequisiteText": "Permission of the department. Corequisite: MATH 151. Recommended Corequisite: PHYS 132.",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "A course in mechanics and modern physics designed for students who want to study translational and rotational dynamics, conservation laws, and oscillations in depth and gain additional insight into foundations of special relativity and select topics in modern physics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5026",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "132",
+      "code": "PHYS 132",
+      "section": "LA01",
+      "title": "Physics Laboratory I",
+      "instructors": [
+        "Dodge, Steve"
+      ],
+      "instructor": "Dodge, Steve",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 1040,
+          "displayStart": "1:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 103,
+        "capacity": 108,
+        "waitlistCount": 0,
+        "raw": "103/108"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/132/la01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/132/la01",
+      "outlineRetrievedAt": "2026-10-09T14:37:53.525Z",
+      "corequisites": "PHYS 101 or 120 or 125.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "Introduction to experimental physics with an emphasis on measurement and experimental design. Includes elementary experiments in mechanics designed to support and enrich conceptual learning.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5027",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "140",
+      "code": "PHYS 140",
+      "section": "D100",
+      "title": "Mechanics and Modern Physics",
+      "instructors": [
+        "Ahrensmeier, Daria"
+      ],
+      "instructor": "Ahrensmeier, Daria",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 58,
+        "capacity": 81,
+        "waitlistCount": 0,
+        "raw": "58/81"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/140/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/140/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:53.819Z",
+      "prerequisiteText": "BC Principles of Physics 12, or PHYS 100 or equivalent, with a minimum grade of C-. Corequisite: MATH 150 or 151 or 154.",
+      "units": "4",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "A general calculus-based introduction to mechanics taught in an integrated lecture-laboratory environment. Topics include translational and rotational motion, momentum, energy, gravitation, and selected topics in modern physics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5028",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "190",
+      "code": "PHYS 190",
+      "section": "D100",
+      "title": "Intro to Astronomy",
+      "instructors": [
+        "Hill, Ryley"
+      ],
+      "instructor": "Hill, Ryley",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 103,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "103/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/190/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/190/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:54.125Z",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "A survey of astronomy designed primarily for non-science students, with a strong emphasis on active learning outside the classroom. Covers the development of astronomy from the ancient Greeks through the Renaissance, to the modern view of the cosmos as revealed by the scientific method. Topics include naked-eye observation of the night sky, modern observational equipment and techniques, the solar system, stellar evolution, galaxies, the Hubble expansion, the Big Bang, dark matter, dark energy, and startling new theories of the origin and destiny of the universe. Experiential activities involve active observations of the moon, stars and planets, and introductory experiments in some of the basic physics that astronomers use to explore the cosmos.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5029",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "201",
+      "code": "PHYS 201",
+      "section": "D100",
+      "title": "Physics Undergrad Seminar",
+      "instructors": [
+        "Haljan, Paul"
+      ],
+      "instructor": "Haljan, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 39,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "39/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 432 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/201/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:54.425Z",
+      "prerequisiteText": "PHYS 121 or PHYS 126 or PHYS 141, with a minimum grade of C-, or PHYS 102 with a minimum grade of B.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "A seminar to expose students majoring in any Physics program to opportunities available with a physics degree. Seminar will include invited speakers, group discussions, and student presentations on topics including modern physics research, industrial physics, career opportunities, and communication and other professional skills. May be repeated once for credit. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5030",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "233",
+      "code": "PHYS 233",
+      "section": "LA01",
+      "title": "Physics Laboratory III",
+      "instructors": [
+        "Sonier, Jeff"
+      ],
+      "instructor": "Sonier, Jeff",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 1040,
+          "displayStart": "1:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 44,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "44/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/233/la01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/233/la01",
+      "outlineRetrievedAt": "2026-10-09T14:37:54.725Z",
+      "prerequisiteText": "PHYS 133 or PHYS 141 or ENSC 120, with a minimum grade of C-. Recommended Prerequisite: CMPT 120.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Statistical data analysis, experimental design and scientific communication, studied in the context of experiments spanning a range of physical systems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5056",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "255",
+      "code": "PHYS 255",
+      "section": "D100",
+      "title": "Vibrations and Waves",
+      "instructors": [
+        "Mun, Eundeok"
+      ],
+      "instructor": "Mun, Eundeok",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 54,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "54/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/255/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/255/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:55.028Z",
+      "prerequisiteText": "PHYS 126 or PHYS 121 or PHYS 141, with a minimum grade of C-, or PHYS 102 with a minimum grade of B. Corequisite: MATH 251; MATH 232 or MATH 240. Recommended Corequisite: MATH 260.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The physics of vibrations and waves. Topics include periodic motion, including free and forced oscillations, coupled oscillators, normal modes, and waves in one and higher dimensions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5057",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "326",
+      "code": "PHYS 326",
+      "section": "LA01",
+      "title": "Electronics/Instrumentation",
+      "instructors": [
+        "Girt, Erol"
+      ],
+      "instructor": "Girt, Erol",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LAB"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "13/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/326/la01",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/326/la01",
+      "outlineRetrievedAt": "2026-10-09T14:37:55.325Z",
+      "prerequisiteText": "PHYS 234 with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Circuits and circuit theory, passive and active devices, amplifiers, feedback, modern measurement techniques and instrumentation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5070",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LAB"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "335",
+      "code": "PHYS 335",
+      "section": "D100",
+      "title": "Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "2/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/335/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/335/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:55.620Z",
+      "prerequisiteText": "Completion of 30 units, with a minimum GPA of 2.75 in the physics program. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4000",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "335",
+      "code": "PHYS 335",
+      "section": "D200",
+      "title": "Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/335/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/335/d200",
+      "outlineRetrievedAt": "2026-10-09T14:37:55.925Z",
+      "prerequisiteText": "Completion of 30 units, with a minimum GPA of 2.75 in the physics program. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4001",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "335",
+      "code": "PHYS 335",
+      "section": "D300",
+      "title": "Practicum I",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/335/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/335/d300",
+      "outlineRetrievedAt": "2026-10-09T14:37:56.221Z",
+      "prerequisiteText": "Completion of 30 units, with a minimum GPA of 2.75 in the physics program. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the first term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4002",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "336",
+      "code": "PHYS 336",
+      "section": "D100",
+      "title": "Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "4/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/336/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/336/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:56.529Z",
+      "prerequisiteText": "PHYS 335 followed by 12 units. A minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4003",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "336",
+      "code": "PHYS 336",
+      "section": "D200",
+      "title": "Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/336/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/336/d200",
+      "outlineRetrievedAt": "2026-10-09T14:37:56.826Z",
+      "prerequisiteText": "PHYS 335 followed by 12 units. A minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4004",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "336",
+      "code": "PHYS 336",
+      "section": "D300",
+      "title": "Practicum II",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/336/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/336/d300",
+      "outlineRetrievedAt": "2026-10-09T14:37:57.126Z",
+      "prerequisiteText": "PHYS 335 followed by 12 units. A minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the second term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4005",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "344",
+      "code": "PHYS 344",
+      "section": "D100",
+      "title": "Thermal Physics",
+      "instructors": [
+        "Watkins, Simon P."
+      ],
+      "instructor": "Watkins, Simon P.",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 32,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "32/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/344/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/344/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:57.428Z",
+      "prerequisiteText": "PHYS 121 or PHYS 126 or PHYS 141 (or PHYS 102 with a minimum grade of B); MATH 251; both with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Heat, temperature, heat transfer, kinetic theory, laws of thermodynamics, entropy, heat engines, applications of thermodynamics to special systems, phase transitions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5058",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "384",
+      "code": "PHYS 384",
+      "section": "D100",
+      "title": "Theoretical Phys I",
+      "instructors": [
+        "Kennett, Malcolm"
+      ],
+      "instructor": "Kennett, Malcolm",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 39,
+        "waitlistCount": 0,
+        "raw": "36/39"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/384/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/384/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:57.726Z",
+      "prerequisiteText": "MATH 252 or 254; MATH 260; PHYS 211; PHYS 255 or ENSC 320. All prerequisite courses require a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Applications of mathematical methods in physics, differential equations of physics, eigenvalue problems, solutions to wave equations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5059",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "385",
+      "code": "PHYS 385",
+      "section": "D100",
+      "title": "Quantum II",
+      "instructors": [
+        "Ahrensmeier, Daria"
+      ],
+      "instructor": "Ahrensmeier, Daria",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 43,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "43/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/385/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/385/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:58.020Z",
+      "prerequisiteText": "MATH 251; MATH 260; PHYS 255 or ENSC 380; PHYS 285 or CHEM 260. All prerequisite courses require a minimum grade of C-. Recommended Prerequisite: PHYS 211.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Stern-Gerlach experiments and the structure of quantum mechanics; operators; angular momentum and spin; Schrödinger equation and examples for time evolution; systems of two spin-½ particles; density operators; wave mechanics in one dimension including the double slit experiment, particle in a box, scattering in one dimension, tunnelling; one-dimensional harmonic oscillator; coherent states.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5060",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "391",
+      "code": "PHYS 391",
+      "section": "D100",
+      "title": "Intro Observational Astrophys.",
+      "instructors": [
+        "Woo, Joanna"
+      ],
+      "instructor": "Woo, Joanna",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 24,
+        "capacity": 24,
+        "waitlistCount": 0,
+        "raw": "24/24"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/391/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/391/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:58.323Z",
+      "prerequisiteText": "PHYS 233 or equivalent, with a minimum grade of C-. Recommended Prerequisite: CMPT 120 or equivalent.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Hands-on introduction to observational astronomy including the astrophysics of stellar clusters, galaxies, nebulae, and the expanding universe; calculation of the conditions for observing target objects; and analysis of photometric and spectroscopic data with Python. Data will be acquired using the Trottier Observatory, weather permitting, otherwise, archival data will be used.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5064",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "413",
+      "code": "PHYS 413",
+      "section": "D100",
+      "title": "Advanced Mechanics",
+      "instructors": [
+        "Herbut, Igor"
+      ],
+      "instructor": "Herbut, Igor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 32,
+        "waitlistCount": 0,
+        "raw": "30/32"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 813 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/413/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/413/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:58.625Z",
+      "prerequisiteText": "PHYS 384 or permission of the department. Non-physics majors may enter with MATH 252; MATH 260; PHYS 211. All prerequisite courses require a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Central forces, rigid body motion, small oscillations. Lagrangian and Hamiltonian formulations of mechanics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5061",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "421",
+      "code": "PHYS 421",
+      "section": "D100",
+      "title": "Electromagnetic Waves",
+      "instructors": [
+        "Mun, Eundeok"
+      ],
+      "instructor": "Mun, Eundeok",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 25,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "25/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/421/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/421/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:58.934Z",
+      "prerequisiteText": "PHYS 321 (no substitution); PHYS 255 or ENSC 380; both with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A continuation of PHYS 321: properties of electromagnetic waves and their interaction with matter. Transmission lines and waveguides; antennas, radiation and scattering; propagation of electromagnetic waves in free space and in matter; reflection and refraction at boundaries; polarization, interference and diffraction.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5062",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "432",
+      "code": "PHYS 432",
+      "section": "D100",
+      "title": "Honors Thesis",
+      "instructors": [
+        "Haljan, Paul"
+      ],
+      "instructor": "Haljan, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "11/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 201 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/432/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/432/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:59.228Z",
+      "prerequisiteText": "All students interested in taking this course must consult with their faculty supervisor regarding prerequisites.",
+      "units": "6",
+      "designation": "N/A",
+      "description": "Undergraduate research and preparation of an honours thesis over the fall and the subsequent spring semesters. The research project may be in experimental or theoretical physics. Prospective students must obtain agreement of a faculty member willing to supervise the project.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5065",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "435",
+      "code": "PHYS 435",
+      "section": "D100",
+      "title": "Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "1/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/435/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/435/d100",
+      "outlineRetrievedAt": "2026-10-09T14:37:59.528Z",
+      "prerequisiteText": "PHYS 336 and 60 units with a minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4006",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "435",
+      "code": "PHYS 435",
+      "section": "D200",
+      "title": "Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/435/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/435/d200",
+      "outlineRetrievedAt": "2026-10-09T14:38:00.632Z",
+      "prerequisiteText": "PHYS 336 and 60 units with a minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4007",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "435",
+      "code": "PHYS 435",
+      "section": "D300",
+      "title": "Practicum III",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/435/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/435/d300",
+      "outlineRetrievedAt": "2026-10-09T14:38:00.122Z",
+      "prerequisiteText": "PHYS 336 and 60 units with a minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the third term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4008",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "436",
+      "code": "PHYS 436",
+      "section": "D100",
+      "title": "Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/436/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/436/d100",
+      "outlineRetrievedAt": "2026-10-09T14:38:00.432Z",
+      "prerequisiteText": "PHYS 435 followed by 12 units. A minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4009",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "436",
+      "code": "PHYS 436",
+      "section": "D200",
+      "title": "Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/436/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/436/d200",
+      "outlineRetrievedAt": "2026-10-09T14:38:00.723Z",
+      "prerequisiteText": "PHYS 435 followed by 12 units. A minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4010",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "436",
+      "code": "PHYS 436",
+      "section": "D300",
+      "title": "Practicum IV",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/436/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/436/d300",
+      "outlineRetrievedAt": "2026-10-09T14:38:01.021Z",
+      "prerequisiteText": "PHYS 435 followed by 12 units. A minimum cumulative GPA of 2.75.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is the fourth term of work experience in a co-operative education program available to students who are studying physics or related areas, such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. Students should apply to the department at least one term in advance. A course fee is required. This course is evaluated on a pass/withdrawal basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4011",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "437",
+      "code": "PHYS 437",
+      "section": "D100",
+      "title": "Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/437/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/437/d100",
+      "outlineRetrievedAt": "2026-10-09T14:38:01.329Z",
+      "prerequisiteText": "PHYS 436 and a minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to students who are studying physics or related areas such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4012",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "437",
+      "code": "PHYS 437",
+      "section": "D200",
+      "title": "Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/437/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/437/d200",
+      "outlineRetrievedAt": "2026-10-09T14:38:01.630Z",
+      "prerequisiteText": "PHYS 436 and a minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to students who are studying physics or related areas such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4013",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "437",
+      "code": "PHYS 437",
+      "section": "D300",
+      "title": "Practicum V",
+      "instructors": [
+        "Erickson, Natalie"
+      ],
+      "instructor": "Erickson, Natalie",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/437/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/437/d300",
+      "outlineRetrievedAt": "2026-10-09T14:38:01.925Z",
+      "prerequisiteText": "PHYS 436 and a minimum cumulative GPA of 2.75. Students should apply to the department at least one term in advance.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This is an optional fifth term of work experience in a co-operative education program available to students who are studying physics or related areas such as biophysics, chemical physics or mathematical physics. Units from this course do not count towards the units required for an SFU degree. A course fee is required. This course is evaluated on a pass/withdrawal basis. This course may be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4014",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "490",
+      "code": "PHYS 490",
+      "section": "D100",
+      "title": "Relativ/Gravitation",
+      "instructors": [
+        "Frolov, Andrei"
+      ],
+      "instructor": "Frolov, Andrei",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "18/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 890 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/490/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/490/d100",
+      "outlineRetrievedAt": "2026-10-09T14:38:02.225Z",
+      "prerequisiteText": "PHYS 384 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Gravity and space-time, Einstein's equations and their solution, tests of relativity, black holes, stellar equilibrium and collapse, and cosmological models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5077",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "801",
+      "code": "PHYS 801",
+      "section": "G100",
+      "title": "Student Seminar",
+      "instructors": [
+        "Mohlabeng, Gopolang"
+      ],
+      "instructor": "Mohlabeng, Gopolang",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "36/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/801/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/801/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:02.553Z",
+      "units": "1",
+      "description": "Discussion of recent developments in physics, based on student seminars. Attendance is required for all first and second year students proceeding toward MSc or PhD degrees in physics. Course offered regularly. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5078",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "802",
+      "code": "PHYS 802",
+      "section": "G100",
+      "title": "Intro to Grad Studies",
+      "instructors": [
+        "Sivak, David"
+      ],
+      "instructor": "Sivak, David",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 920,
+          "displayStart": "1:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "20/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/802/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/802/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:02.823Z",
+      "units": "2",
+      "description": "Basic skills for research and teaching in physics. Required for all students beginning an MSc or PhD degree in physics. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5079",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "810",
+      "code": "PHYS 810",
+      "section": "G100",
+      "title": "Advanced Quantum Mechanics",
+      "instructors": [
+        "Haljan, Paul"
+      ],
+      "instructor": "Haljan, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "13/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/810/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/810/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:03.128Z",
+      "prerequisiteText": "PHYS 415, or equivalent.",
+      "units": "3",
+      "description": "Advanced non-relativistic and some basic relativistic quantum mechanics: symmetries, Schroedinger/Heisenberg pictures, mixtures, variational and perturbative methods, Dirac equation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5080",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "813",
+      "code": "PHYS 813",
+      "section": "G100",
+      "title": "Advanced Mechanics",
+      "instructors": [
+        "Herbut, Igor"
+      ],
+      "instructor": "Herbut, Igor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 413 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/813/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/813/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:03.423Z",
+      "prerequisiteText": "PHYS 384 or permission of the department.",
+      "units": "3",
+      "description": "Central forces, rigid body motion, small oscillations. Lagrangian and Hamiltonian formulations of mechanics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5082",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "821",
+      "code": "PHYS 821",
+      "section": "G100",
+      "title": "Electromagnetism I",
+      "instructors": [
+        "Frolov, Andrei"
+      ],
+      "instructor": "Frolov, Andrei",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 740,
+          "displayStart": "11:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 23,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "23/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/821/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/821/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:03.725Z",
+      "prerequisiteText": "PHYS 421 or equivalent.",
+      "units": "3",
+      "description": "Advanced topics in classical electromagnetic theory: review of Maxwell's equations in free space and in macroscopic media, with applications in contemporary research; relativistic unification of electromagnetism; Lagrangian and Hamiltonian methods in electromagnetism.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5081",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "862",
+      "code": "PHYS 862",
+      "section": "G200",
+      "title": "Solid State Phys II",
+      "instructors": [
+        "Herbut, Igor"
+      ],
+      "instructor": "Herbut, Igor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 21,
+        "waitlistCount": 0,
+        "raw": "3/21"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/862/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/862/g200",
+      "outlineRetrievedAt": "2026-10-09T14:38:04.027Z",
+      "prerequisiteText": "PHYS 861.",
+      "units": "3",
+      "description": "Special topics in solid state physics such as superconductivity, magnetism, optical properties of solids, electron correlations. Course offered regularly.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6836",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "890",
+      "code": "PHYS 890",
+      "section": "G100",
+      "title": "Relativity and Gravitation",
+      "instructors": [
+        "Frolov, Andrei"
+      ],
+      "instructor": "Frolov, Andrei",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1040,
+          "displayStart": "4:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "6/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PHYS 490 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/890/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/890/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:04.358Z",
+      "units": "3",
+      "description": "Gravity and space-time, Einstein's equations and their solution, tests of relativity, black holes, stellar equilibrium and collapse, and cosmological models.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5083",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "898",
+      "code": "PHYS 898",
+      "section": "G100",
+      "title": "M.Sc. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 37,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "37/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/898/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:04.623Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3996",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "898",
+      "code": "PHYS 898",
+      "section": "G200",
+      "title": "M.Sc. Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/898/g200",
+      "outlineRetrievedAt": "2026-10-09T14:38:04.924Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3997",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "899",
+      "code": "PHYS 899",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 51,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "51/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/899/g100",
+      "outlineRetrievedAt": "2026-10-09T14:38:05.226Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3998",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PHYS",
+      "courseNumber": "899",
+      "code": "PHYS 899",
+      "section": "G200",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "2/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PHYS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/phys/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/phys/899/g200",
+      "outlineRetrievedAt": "2026-10-09T14:38:05.526Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3999",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

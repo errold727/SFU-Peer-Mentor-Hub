@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-09T14:25:01.529Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "500",
+      "code": "DMED 500",
+      "section": "G100",
+      "title": "Foundations of Digital Media",
+      "instructors": [
+        "Elliott, Jason"
+      ],
+      "instructor": "Elliott, Jason",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 720,
+          "displayStart": "9:00 AM",
+          "displayEnd": "12:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 52,
+        "capacity": 64,
+        "waitlistCount": 0,
+        "raw": "52/64"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/500/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/500/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:50.533Z",
+      "units": "3",
+      "description": "The emergence and ongoing development of the digital media landscape is discussed through a historical exploration and critical analysis of the business, technical innovations, social, ethical, and legal demands which define it. Outcomes are critical perspectives from explorations of digital media aspects, which will act as a common basis for all subsequent discussion and collaboration between students with artistic, technical or interdisciplinary backgrounds.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3608",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "502",
+      "code": "DMED 502",
+      "section": "G100",
+      "title": "Improvisation & Collaboration",
+      "instructors": [
+        "Fracchia, Dave"
+      ],
+      "instructor": "Fracchia, Dave",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 720,
+          "displayStart": "9:00 AM",
+          "displayEnd": "12:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 780,
+          "endMinutes": 960,
+          "displayStart": "1:00 PM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 52,
+        "capacity": 64,
+        "waitlistCount": 0,
+        "raw": "52/64"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/502/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/502/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:51.127Z",
+      "units": "3",
+      "description": "This course provides students with the practical skills to improve collaboration with others, for the end goal of creating successful projects together. From improving their performance in team based scenarios and developing strong presentation skills, to creating stories and characters on the fly, improvisation is an essential skill in a digital media industry that demands increasing flexibility and creativity, relies on innovative minds for its evolution and depends on rapid prototyping and iterative product creation for its survival.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3728",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "503",
+      "code": "DMED 503",
+      "section": "G100",
+      "title": "Game Design and Gamification",
+      "instructors": [
+        "Elliott, Jason"
+      ],
+      "instructor": "Elliott, Jason",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 720,
+          "displayStart": "9:00 AM",
+          "displayEnd": "12:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 52,
+        "capacity": 64,
+        "waitlistCount": 0,
+        "raw": "52/64"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/503/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/503/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:50.839Z",
+      "units": "3",
+      "description": "Game design and gamification explores what motivates people, what constitutes “fun”, and how through these principles we can create more meaningful and engaging experiences. Primarily, we will focus on video games, ranging from indie to AAA, mobile to VR, to understand the core concepts of game design and discuss how these can be applied to other interactive forms through gamification. We will cover various aspects of games including mechanics, emotion, agency, balance, and player motivation through practical in-class activities, game deconstructions, and projects. In these projects, students will work in teams to design, prototype, and test their own games, with a focus on user-centered design and iteration. Projects will be iterative, with multiple rounds of feedback and revision, and will culminate in a final presentation where students will present their games to the class and invited guests.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3729",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "520",
+      "code": "DMED 520",
+      "section": "G100",
+      "title": "Projects I",
+      "instructors": [
+        "Kwong, Vincy Wing Sze",
+        "Wiegert, Thelma"
+      ],
+      "instructor": "Kwong, Vincy Wing Sze; Wiegert, Thelma",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 540,
+          "endMinutes": 960,
+          "displayStart": "9:00 AM",
+          "displayEnd": "4:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 52,
+        "capacity": 64,
+        "waitlistCount": 0,
+        "raw": "52/64"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/520/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/520/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:51.436Z",
+      "prerequisiteText": "This course is only available to students enrolled in the master of digital media program.",
+      "units": "6",
+      "description": "Building digital artifacts is the first in a series of project courses that focuses on design thinking, production pipeline, user experience and project management techniques. It emphasizes team-based problem solving and is designed to foster iterative practices through agile processes, planning, prototyping, and user testing through immersive hands-on learning activities.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3730",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "530",
+      "code": "DMED 530",
+      "section": "G100",
+      "title": "Internship",
+      "instructors": [
+        "Ong, Vic"
+      ],
+      "instructor": "Ong, Vic",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "15/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/530/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/530/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:51.787Z",
+      "units": "6",
+      "description": "Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3731",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "530",
+      "code": "DMED 530",
+      "section": "G200",
+      "title": "Internship",
+      "instructors": [
+        "Wiegert, Thelma"
+      ],
+      "instructor": "Wiegert, Thelma",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "14/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/530/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/530/g200",
+      "outlineRetrievedAt": "2026-10-09T14:30:52.032Z",
+      "units": "6",
+      "description": "Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3735",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "530",
+      "code": "DMED 530",
+      "section": "G300",
+      "title": "Internship",
+      "instructors": [
+        "Zhao, Shuai"
+      ],
+      "instructor": "Zhao, Shuai",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "12/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/530/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/530/g300",
+      "outlineRetrievedAt": "2026-10-09T14:30:52.334Z",
+      "units": "6",
+      "description": "Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3736",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "530",
+      "code": "DMED 530",
+      "section": "G400",
+      "title": "Internship",
+      "instructors": [
+        "Leung, Rock"
+      ],
+      "instructor": "Leung, Rock",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "10/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/530/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/530/g400",
+      "outlineRetrievedAt": "2026-10-09T14:30:52.635Z",
+      "units": "6",
+      "description": "Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3737",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "530",
+      "code": "DMED 530",
+      "section": "G500",
+      "title": "Internship",
+      "instructors": [
+        "Beretta, Tiz"
+      ],
+      "instructor": "Beretta, Tiz",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "15/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/530/g500",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/530/g500",
+      "outlineRetrievedAt": "2026-10-09T14:30:52.930Z",
+      "units": "6",
+      "description": "Students will practice what they have learned in the MDM program through the pursuit and/or completion of full-time work experience in the field of digital media. Students learn firsthand the importance of effective job search, interview, networking, communication, collaboration, time management and teamwork skills. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6709",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "560",
+      "code": "DMED 560",
+      "section": "G100",
+      "title": "Production Team Dynamics",
+      "instructors": [
+        "Wong, Jaclynn"
+      ],
+      "instructor": "Wong, Jaclynn",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 900,
+          "endMinutes": 1080,
+          "displayStart": "3:00 PM",
+          "displayEnd": "6:00 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "11/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/560/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/560/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:53.228Z",
+      "units": "3",
+      "description": "Learners will be given the tools and guidelines to ensure successful communication with each other, with lecturers and advisers, and with clients and coworkers. Learners explore effective approaches to messaging for different purposes, summarizing (verbal and written), presenting in academic/professional environments, engaging in group discussion, collaborating efficiently, and producing documentation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3732",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "DMED",
+      "courseNumber": "561",
+      "code": "DMED 561",
+      "section": "G100",
+      "title": "Pitching for Digi Media Prof I",
+      "instructors": [
+        "Osian, Elisabeta"
+      ],
+      "instructor": "Osian, Elisabeta",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 840,
+          "endMinutes": 1035,
+          "displayStart": "2:00 PM",
+          "displayEnd": "5:15 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "11/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=DMED",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/dmed/561/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/dmed/561/g100",
+      "outlineRetrievedAt": "2026-10-09T14:30:53.539Z",
+      "units": "3",
+      "description": "Learners are immersed in the language of pitching in digital media through real-world contexts, guided practice, and hands-on tasks. Topics cover project proposal pitches, UI/UX design, game design, animation tools, web graphics, software development, contemporary media theories, and others.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3733",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

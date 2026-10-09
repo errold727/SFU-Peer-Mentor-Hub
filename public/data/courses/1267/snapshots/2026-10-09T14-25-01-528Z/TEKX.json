@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-09T14:25:01.529Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "TEKX",
+      "courseNumber": "101",
+      "code": "TEKX 101",
+      "section": "D100",
+      "title": "3D Printing Technologies",
+      "instructors": [
+        "Rawicz, Andrew"
+      ],
+      "instructor": "Rawicz, Andrew",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 40,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "40/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=TEKX",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/tekx/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/tekx/101/d100",
+      "outlineRetrievedAt": "2026-10-09T14:40:19.297Z",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Science",
+      "description": "Provides the background and skill set to use 3D printer and laser scanning technologies, and will be done in cooperation with the Maker Space initiative at the SFU Library. Students will learn the basic concepts of 3D printing, computer design tools, and the use of 3D scanners to make replicas of existing objects. Students will complete several 3D printed projects within the course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3123",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "TEKX",
+      "courseNumber": "102",
+      "code": "TEKX 102",
+      "section": "D100",
+      "title": "Everyday Engineering Concepts",
+      "instructors": [
+        "Ferrer, Juan"
+      ],
+      "instructor": "Ferrer, Juan",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 26,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "26/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=TEKX",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/tekx/102/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/tekx/102/d100",
+      "outlineRetrievedAt": "2026-10-09T14:40:19.596Z",
+      "units": "3",
+      "designation": "Breadth-Science",
+      "description": "Introduces non-engineers to fundamental engineering concepts like systems thinking, signal processing, and AI, focusing on their everyday applications. Through relatable examples and cutting-edge technologies, students will explore how engineering shapes modern life, from noise reduction and digital media to smart devices, artificial intelligence, health care and emerging innovations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3141",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

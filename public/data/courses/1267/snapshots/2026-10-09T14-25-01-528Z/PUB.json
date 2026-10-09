@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-09T14:25:01.529Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "101",
+      "code": "PUB 101",
+      "section": "D100",
+      "title": "Publication of Self",
+      "instructors": [
+        "Norman, Suzanne"
+      ],
+      "instructor": "Norman, Suzanne",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 32,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "32/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/101/d100",
+      "outlineRetrievedAt": "2026-10-09T14:38:58.331Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An exploration of how social media have transformed social behaviour (presentation of self) into proto-publishing (publication of self) by encouraging greater public participation in publishing in all forms of publishing in society. Using online tracking to discern practices, attention is given to how social media contribute to the social identities of participants and how they affect social interaction.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6585",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "131",
+      "code": "PUB 131",
+      "section": "B100",
+      "title": "Publication Design Technologie",
+      "instructors": [
+        "Gagnon, Natalie"
+      ],
+      "instructor": "Gagnon, Natalie",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "30/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/131/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/131/b100",
+      "outlineRetrievedAt": "2026-10-09T14:39:00.729Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to the elements and principles of graphic design with a focus on the development of software skills, in design, layout, and production.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4723",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "331",
+      "code": "PUB 331",
+      "section": "B100",
+      "title": "Graphic Design Transition:Book",
+      "instructors": [
+        "Page, Mauve"
+      ],
+      "instructor": "Page, Mauve",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "17/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/331/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/331/b100",
+      "outlineRetrievedAt": "2026-10-09T14:38:58.924Z",
+      "prerequisiteText": "PUB 231.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An in-depth study of the design methods fundamental to books in print and digital media. Students evaluate, and engage in the design and repurposing of publications, exploring current practices of content delivery online and through mobile devices. Emphasis is placed on innovative methods and design practices for screen-based publishing.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4728",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "372",
+      "code": "PUB 372",
+      "section": "B100",
+      "title": "The Book Publishing Process",
+      "instructors": [
+        "Norman, Suzanne"
+      ],
+      "instructor": "Norman, Suzanne",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 28,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "28/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/372/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/372/b100",
+      "outlineRetrievedAt": "2026-10-09T14:38:59.223Z",
+      "prerequisiteText": "60 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Students will follow the book-publishing process from the acquisition and editing of manuscripts through to production, promotion and distribution. Each topic proceeds from basic concepts and precepts to case studies of particular kinds of publishing companies (e.g., literary, regional and general trade) and particular types of books (e.g., children's, genre, fiction and poetry). The publishing decision-to-publish process is simulated. Required readings focus on the history of book publishing, as well as on current developments.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4744",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "448",
+      "code": "PUB 448",
+      "section": "D100",
+      "title": "Publishing and Social Change",
+      "instructors": [
+        "Lastoria, Amanda"
+      ],
+      "instructor": "Lastoria, Amanda",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "20/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PUB 648 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/448/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/448/d100",
+      "outlineRetrievedAt": "2026-10-09T14:39:00.730Z",
+      "prerequisiteText": "60 units.",
+      "units": "4",
+      "designation": "Breadth-Humanities",
+      "description": "An exploration of the relationship between publishing and social change, both historically and today. This seminar explores the history of publishing and revolutions - democracy, science, abolition, feminism - as well as how students can use publishing techniques and skills to advocate for social and political issues in which they are engaged.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4748",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "450",
+      "code": "PUB 450",
+      "section": "D100",
+      "title": "Business of Book Publishing",
+      "instructors": [
+        "Steedman, Scott"
+      ],
+      "instructor": "Steedman, Scott",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "7/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/450/d100",
+      "outlineRetrievedAt": "2026-10-09T14:38:59.832Z",
+      "prerequisiteText": "75 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course examines business practices within book publishing firms. It emphasizes financial planning and operations, acquisitions, marketing and promotion.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4747",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "456",
+      "code": "PUB 456",
+      "section": "D100",
+      "title": "Event Planning and Management",
+      "instructors": [
+        "Battye, Trevor"
+      ],
+      "instructor": "Battye, Trevor",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "21/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PUB 656 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/456/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/456/d100",
+      "outlineRetrievedAt": "2026-10-09T14:39:00.124Z",
+      "prerequisiteText": "75 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An exploration of events and their management with emphasis on theories, social context, practices in the context of audience building, market creation and community building. Skill development, including curating, planning, design, marketing, human and financial resource management, sponsorship, budgeting, risk management and program evaluation are featured in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4725",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "600",
+      "code": "PUB 600",
+      "section": "G100",
+      "title": "Topics/Publish.Mgmt",
+      "instructors": [
+        "Page, Mauve"
+      ],
+      "instructor": "Page, Mauve",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 19,
+        "waitlistCount": 0,
+        "raw": "12/19"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/600/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/600/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:00.424Z",
+      "prerequisiteText": "Admittance to the program.",
+      "units": "4",
+      "description": "An analysis of management issues essential to the daily operation of publishing firms. Emphasis will be placed on the distinctive nature of publishing as a cultural/information industry, the applicability of theory and practice in marketing and accounting and the legal underpinnings of publishing.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4721",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "601",
+      "code": "PUB 601",
+      "section": "G100",
+      "title": "Editorial Theory",
+      "instructors": [
+        "Steedman, Scott"
+      ],
+      "instructor": "Steedman, Scott",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 19,
+        "waitlistCount": 0,
+        "raw": "11/19"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/601/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/601/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:00.807Z",
+      "prerequisiteText": "Admittance to the program.",
+      "units": "4",
+      "description": "An examination of and engagement with editorial work, which comprises tasks ranging from conceptual to copy editing, as well as close collaboration with artists, designers, and marketers. Through readings, discussions, exercises, and assignments, all approached in the context of rhetorical theory, students learn to edit text, images, and combined forms - in print and online.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4722",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "648",
+      "code": "PUB 648",
+      "section": "G100",
+      "title": "Publishing and Social Change",
+      "instructors": [
+        "Lastoria, Amanda"
+      ],
+      "instructor": "Lastoria, Amanda",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "4/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PUB 448 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/648/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/648/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:01.021Z",
+      "units": "4",
+      "description": "An exploration of the relationship between publishing and major moments of social and political change, with a focus on how publishing has historically been linked to revolution: democracy, science, abolition, anti-fascism, and feminism.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4749",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "656",
+      "code": "PUB 656",
+      "section": "G100",
+      "title": "Event Planning",
+      "instructors": [
+        "Battye, Trevor"
+      ],
+      "instructor": "Battye, Trevor",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "3/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "PUB 456 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/656/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/656/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:01.330Z",
+      "units": "4",
+      "description": "An exploration of events and their management with emphasis on theories, social context, practices in the context of audience building, market creation and community building. Skill development, including curating, planning, design, marketing, human and financial resource management, sponsorship, budgeting, risk management and program evaluation are featured in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4734",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "800",
+      "code": "PUB 800",
+      "section": "G100",
+      "title": "Pub & Problem of Capitalism",
+      "instructors": [
+        "Maxwell, John"
+      ],
+      "instructor": "Maxwell, John",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 19,
+        "waitlistCount": 0,
+        "raw": "12/19"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/800/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/800/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:01.629Z",
+      "prerequisiteText": "Admittance to the program.",
+      "units": "4",
+      "description": "A critical analysis of the state of contemporary publishing in the context of public policy, legal frameworks, international agreements, cultural and professional practice. Emphasis is placed on trade, educational, and scholarly publishing, with attention to both research and industry discourse.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4726",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "890",
+      "code": "PUB 890",
+      "section": "G100",
+      "title": "Pro Seminar I",
+      "instructors": [
+        "Norman, Suzanne"
+      ],
+      "instructor": "Norman, Suzanne",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 19,
+        "waitlistCount": 0,
+        "raw": "12/19"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/890/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/890/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:01.929Z",
+      "description": "A non-credit course for master of publishing students that foregrounds professional skills in preparation for their professional placement term. Includes visits with publishing professionals, as well as workshops on industry positions, CVs and cover letters, interview techniques, and topics of concern within the publishing industry (e.g. remote versus in-person work, mental health, etc.). Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4727",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "899",
+      "code": "PUB 899",
+      "section": "G100",
+      "title": "Publishing Internship",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "8/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/899/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:02.223Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a one term industry placement. Following the completion of this placement, they will work with their supervisory committee to complete a report that summarizes and reflects critically on their experience and the work completed. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4733",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "899",
+      "code": "PUB 899",
+      "section": "G200",
+      "title": "Publishing Internship",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 8,
+        "waitlistCount": 0,
+        "raw": "1/8"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/899/g200",
+      "outlineRetrievedAt": "2026-10-09T14:39:02.528Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a one term industry placement. Following the completion of this placement, they will work with their supervisory committee to complete a report that summarizes and reflects critically on their experience and the work completed. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4736",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "900",
+      "code": "PUB 900",
+      "section": "G100",
+      "title": "Self-Directed Pub Report",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 7,
+        "waitlistCount": 0,
+        "raw": "1/7"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/900/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/900/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:02.823Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a self-directed publishing project. The project must be accompanied by a report that summarizes and reflects critically on the work completed. They will work with their supervisory committee to bring their project and report to a final acceptable form. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4732",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "900",
+      "code": "PUB 900",
+      "section": "G200",
+      "title": "Self-Directed Pub Report",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 7,
+        "waitlistCount": 0,
+        "raw": "0/7"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/900/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/900/g200",
+      "outlineRetrievedAt": "2026-10-09T14:39:03.125Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a self-directed publishing project. The project must be accompanied by a report that summarizes and reflects critically on the work completed. They will work with their supervisory committee to bring their project and report to a final acceptable form. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4737",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "900",
+      "code": "PUB 900",
+      "section": "G300",
+      "title": "Self-Directed Pub Report",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "0/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/900/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/900/g300",
+      "outlineRetrievedAt": "2026-10-09T14:39:03.426Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a self-directed publishing project. The project must be accompanied by a report that summarizes and reflects critically on the work completed. They will work with their supervisory committee to bring their project and report to a final acceptable form. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4731",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "900",
+      "code": "PUB 900",
+      "section": "G400",
+      "title": "Self-Directed Pub Report",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "1/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/900/g400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/900/g400",
+      "outlineRetrievedAt": "2026-10-09T14:39:03.726Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students will complete a self-directed publishing project. The project must be accompanied by a report that summarizes and reflects critically on the work completed. They will work with their supervisory committee to bring their project and report to a final acceptable form. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4738",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "901",
+      "code": "PUB 901",
+      "section": "G100",
+      "title": "Publishing Research Project",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "1/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/901/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/901/g100",
+      "outlineRetrievedAt": "2026-10-09T14:39:04.023Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students must complete two extended essays or a single article-length work. The student will select a research topic in consultation with their supervisor. Essay topics may not substantively duplicate papers presented in coursework. The work will be examined by two faculty members and submitted to the library after approval. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4735",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUB",
+      "courseNumber": "901",
+      "code": "PUB 901",
+      "section": "G200",
+      "title": "Publishing Research Project",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "0/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUB",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/pub/901/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/pub/901/g200",
+      "outlineRetrievedAt": "2026-10-09T14:39:04.328Z",
+      "prerequisiteText": "PUB 600, PUB 800, PUB 801, PUB 802, PUB 890, and PUB 891.",
+      "units": "6",
+      "description": "Students must complete two extended essays or a single article-length work. The student will select a research topic in consultation with their supervisor. Essay topics may not substantively duplicate papers presented in coursework. The work will be examined by two faculty members and submitted to the library after approval. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4739",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

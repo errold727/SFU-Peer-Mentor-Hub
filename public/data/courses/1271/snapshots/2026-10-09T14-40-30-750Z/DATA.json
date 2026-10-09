@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-09T14:40:30.751Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "DATA",
+      "courseNumber": "260",
+      "code": "DATA 260",
+      "section": "D100",
+      "title": "Intro R for Data Science",
+      "instructors": [
+        "Ward, Owen"
+      ],
+      "instructor": "Ward, Owen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=DATA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/data/260/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/data/260/d100",
+      "outlineRetrievedAt": "2026-10-09T14:46:13.260Z",
+      "prerequisiteText": "One of STAT 201, STAT 203, STAT 205, STAT 270, STAT 271, BUS 232, ECON 233, or POL 201, with a grade of at least C- or permission of the instructor.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An introduction to the R programming language for data science. Exploring data: visualization, transformation and summaries. Data wrangling: reading, tidying, and data types. No prior computer programming experience required.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6374",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

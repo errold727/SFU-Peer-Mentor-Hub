@@ -1,0 +1,2899 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-09T14:25:01.529Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D100",
+      "title": "Principles of Microeconomics",
+      "instructors": [
+        "Allen, Douglas"
+      ],
+      "instructor": "Allen, Douglas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 149,
+        "capacity": 210,
+        "waitlistCount": 0,
+        "raw": "149/210"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:04.729Z",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "The principal elements of theory concerning utility and value, price and costs, factor analysis, productivity, labor organization, competition and monopoly, and the theory of the firm.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1836",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D200",
+      "title": "Principles of Microeconomics",
+      "instructors": [
+        "Santamaria, Martin"
+      ],
+      "instructor": "Santamaria, Martin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 185,
+        "capacity": 195,
+        "waitlistCount": 0,
+        "raw": "185/195"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d200",
+      "outlineRetrievedAt": "2026-10-09T14:31:05.027Z",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "The principal elements of theory concerning utility and value, price and costs, factor analysis, productivity, labor organization, competition and monopoly, and the theory of the firm.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3161",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "103",
+      "code": "ECON 103",
+      "section": "D900",
+      "title": "Principles of Microeconomics",
+      "instructors": [
+        "Barkin, Gulriz"
+      ],
+      "instructor": "Barkin, Gulriz",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 45,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "45/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/103/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/103/d900",
+      "outlineRetrievedAt": "2026-10-09T14:31:05.325Z",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "The principal elements of theory concerning utility and value, price and costs, factor analysis, productivity, labor organization, competition and monopoly, and the theory of the firm.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2043",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "105",
+      "code": "ECON 105",
+      "section": "D100",
+      "title": "Principles of Macroeconomics",
+      "instructors": [
+        "Santamaria, Martin"
+      ],
+      "instructor": "Santamaria, Martin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 309,
+        "capacity": 317,
+        "waitlistCount": 0,
+        "raw": "309/317"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/105/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/105/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:05.634Z",
+      "units": "4",
+      "designation": "Quantitative/Breadth-Soc",
+      "description": "The principal elements of theory concerning money and income, distribution, social accounts, public finance, international trade, comparative systems, and development and growth.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1837",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "113",
+      "code": "ECON 113",
+      "section": "D100",
+      "title": "Introduction to Microeconomics",
+      "instructors": [
+        "Mouganie, Pierre"
+      ],
+      "instructor": "Mouganie, Pierre",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 297,
+        "capacity": 300,
+        "waitlistCount": 0,
+        "raw": "297/300"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/113/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/113/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:05.923Z",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Soc",
+      "description": "Focused on basic competencies in microeconomics, this course is suitable for business and other students not intending to specialize in economics. Topics include gains from trade, supply and demand, prices, competition and monopoly, market failures, and government policies. Economic literacy is an important part of the course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1838",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "115",
+      "code": "ECON 115",
+      "section": "D100",
+      "title": "Introduction to Macroeconomics",
+      "instructors": [
+        "Santamaria, Martin"
+      ],
+      "instructor": "Santamaria, Martin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 197,
+        "capacity": 211,
+        "waitlistCount": 0,
+        "raw": "197/211"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/115/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/115/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:06.225Z",
+      "units": "3",
+      "designation": "Quantitative/Breadth-Soc",
+      "description": "Focused on basic competencies in macroeconomics, this course is suitable for business and other students not intending to specialize in economics. Topics include GDP, economic growth, business cycles, unemployment, inflation, money, monetary and fiscal policies, exchange rates, government debt, globalization and trade policy. Economic literacy is an important part of the course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1839",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "182",
+      "code": "ECON 182",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructors": [
+        "Laughren, Kevin"
+      ],
+      "instructor": "Laughren, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 46,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "46/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/182/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/182/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:06.525Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The subject matter will vary from term to term. Students may repeat this course for further credit under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2048",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "201",
+      "code": "ECON 201",
+      "section": "D100",
+      "title": "Microeconomic Theory I",
+      "instructors": [
+        "Luelfesmann, Christoph"
+      ],
+      "instructor": "Luelfesmann, Christoph",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 120,
+        "capacity": 126,
+        "waitlistCount": 0,
+        "raw": "120/126"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/201/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:06.830Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "Aspects of microeconomic theory involving competitive markets. Topics include the behavior of households and firms, partial equilibrium analysis of product and factor markets, and general equilibrium.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1906",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D100",
+      "title": "Communication in Economics",
+      "instructors": [
+        "Bidner, Chris",
+        "Fotovatian, Sepideh"
+      ],
+      "instructor": "Bidner, Chris; Fotovatian, Sepideh",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 35,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "35/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:07.156Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Examine and review today's global economy through critical analysis of differing perspectives. Develop techniques and strategies for clear and effective written and oral communication of economic ideas. Improve critical and analytical thinking via the application of core principles to news stories or other economic data in writing and presentations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1907",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D200",
+      "title": "Communication in Economics",
+      "instructors": [
+        "Bidner, Chris",
+        "Fotovatian, Sepideh"
+      ],
+      "instructor": "Bidner, Chris; Fotovatian, Sepideh",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "36/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d200",
+      "outlineRetrievedAt": "2026-10-09T14:31:07.456Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Examine and review today's global economy through critical analysis of differing perspectives. Develop techniques and strategies for clear and effective written and oral communication of economic ideas. Improve critical and analytical thinking via the application of core principles to news stories or other economic data in writing and presentations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1908",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D300",
+      "title": "Communication in Economics",
+      "instructors": [
+        "Fotovatian, Sepideh",
+        "Laughren, Kevin"
+      ],
+      "instructor": "Fotovatian, Sepideh; Laughren, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 930,
+          "endMinutes": 980,
+          "displayStart": "3:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "36/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d300",
+      "outlineRetrievedAt": "2026-10-09T14:31:07.757Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Examine and review today's global economy through critical analysis of differing perspectives. Develop techniques and strategies for clear and effective written and oral communication of economic ideas. Improve critical and analytical thinking via the application of core principles to news stories or other economic data in writing and presentations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1909",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "220W",
+      "code": "ECON 220W",
+      "section": "D400",
+      "title": "Communication in Economics",
+      "instructors": [
+        "Fotovatian, Sepideh",
+        "Laughren, Kevin"
+      ],
+      "instructor": "Fotovatian, Sepideh; Laughren, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 35,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "35/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/220w/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/220w/d400",
+      "outlineRetrievedAt": "2026-10-09T14:31:08.039Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-, minimum 30 units and no more than 80 units. Corequisite: ECON 201, with a minimum grade of C-. ECON 201 may be taken prior to or concurrently with ECON 220W.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Examine and review today's global economy through critical analysis of differing perspectives. Develop techniques and strategies for clear and effective written and oral communication of economic ideas. Improve critical and analytical thinking via the application of core principles to news stories or other economic data in writing and presentations.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1910",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "260",
+      "code": "ECON 260",
+      "section": "D100",
+      "title": "Environmental Econ.",
+      "instructors": [
+        "Gilraine, Michael"
+      ],
+      "instructor": "Gilraine, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 73,
+        "capacity": 80,
+        "waitlistCount": 0,
+        "raw": "73/80"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/260/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/260/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:08.338Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Economic analysis of environmental problems (water and air pollution, etc.). Evaluation of market failures due to externalities and public goods. Market and non-market regulation of environmental problems.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1958",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "280",
+      "code": "ECON 280",
+      "section": "D100",
+      "title": "Intro Labour Econ.",
+      "instructors": [
+        "Canaan, Serena"
+      ],
+      "instructor": "Canaan, Serena",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 41,
+        "capacity": 78,
+        "waitlistCount": 0,
+        "raw": "41/78"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/280/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/280/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:08.642Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-.",
+      "units": "3",
+      "designation": "Quantitative",
+      "description": "Basic analysis of the labor market and the industrial relations system with emphasis on the major issues of public policy in Canada.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1959",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "302",
+      "code": "ECON 302",
+      "section": "D100",
+      "title": "Microeconomic Theory II",
+      "instructors": [
+        "Lu, Shih En"
+      ],
+      "instructor": "Lu, Shih En",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 83,
+        "capacity": 84,
+        "waitlistCount": 0,
+        "raw": "83/84"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/302/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/302/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:08.929Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Aspects of microeconomic theory concerned with strategic behavior, imperfect information, and market failure. Topics include game theory and oligopoly; uncertainty and insurance; asymmetric information and market power, externalities and public goods, together with related issues in welfare economics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1960",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "305",
+      "code": "ECON 305",
+      "section": "D100",
+      "title": "Intermediate Macroecon.Theory",
+      "instructors": [
+        "Petersen, Luba"
+      ],
+      "instructor": "Petersen, Luba",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 65,
+        "capacity": 65,
+        "waitlistCount": 0,
+        "raw": "65/65"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/305/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/305/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:09.228Z",
+      "prerequisiteText": "ECON 201 with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 103 and 105 at Simon Fraser University at their first attempt can complete ECON 305 concurrently with ECON 201 after 30 units. Students seeking permission to enroll on this basis must contact the undergraduate advisor in economics.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Concepts and methods of analysis of macroeconomic variables -- consumption, investment, government and foreign trade. Classical and Keynesian models compared; analysis of economic statics and dynamics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1970",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "325",
+      "code": "ECON 325",
+      "section": "D100",
+      "title": "Industrial Organization",
+      "instructors": [
+        "Rekkas, Marie"
+      ],
+      "instructor": "Rekkas, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 60,
+        "capacity": 66,
+        "waitlistCount": 0,
+        "raw": "60/66"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/325/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/325/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:09.522Z",
+      "prerequisiteText": "ECON 201 or BUS 207, with a minimum grade of C-; 45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces students to the economics of imperfect competition. Topics covered include the theory of the firm, market structure, and various aspects of firm strategy such as pricing, advertising, product differentiation, and innovation. Related questions of public policy will also be addressed.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1991",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "332",
+      "code": "ECON 332",
+      "section": "D100",
+      "title": "Computational Economics",
+      "instructors": [
+        "Hou, Chenyu"
+      ],
+      "instructor": "Hou, Chenyu",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 21,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "21/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/332/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/332/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:09.827Z",
+      "prerequisiteText": "ECON 201 and one of ECON 233, STAT 270, or STAT 271. Recommended: ECON 305.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Computational methods for solving and analyzing economic models. Topics include solving systems of equations, optimization, computing equilibria of economic models, computing dynamic and stochastic models, and data-driven estimation. Students will apply these methods to conduct economic analysis using a general-purpose programming language like Python.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1971",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "333",
+      "code": "ECON 333",
+      "section": "D100",
+      "title": "Introduction to Econometrics",
+      "instructors": [
+        "Rekkas, Marie"
+      ],
+      "instructor": "Rekkas, Marie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 800,
+          "displayStart": "12:30 PM",
+          "displayEnd": "1:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 112,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "112/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/333/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/333/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:10.121Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271, with a minimum grade of C-; MATH 150, MATH 151, MATH 154, or MATH 157, with a minimum grade of C-; 45 units. Students with a minimum grade of A- in ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 can take ECON 333 after 30 units. Students seeking permission to enroll based on their ECON 233, BUS (or BUEC) 232, STAT 270, or STAT 271 grade must contact the undergraduate advisor in economics.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An introduction to the use and interpretation of statistical analysis in the context of data typical of economic applications.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1982",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "334",
+      "code": "ECON 334",
+      "section": "D100",
+      "title": "Data Visualization & Econ",
+      "instructors": [
+        "Woodcock, Simon"
+      ],
+      "instructor": "Woodcock, Simon",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 117,
+        "capacity": 126,
+        "waitlistCount": 0,
+        "raw": "117/126"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/334/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/334/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:10.426Z",
+      "prerequisiteText": "ECON 233, BUS 232, STAT 203, STAT 270, STAT 271 or POL 201, with a minimum grade of C-; and three units of ECON or SDA 100, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Explores how to recognize and learn from patterns in data using modern statistical software for the purpose of economic analysis. Introduces students to techniques for managing, visualizing, and analyzing data to answer real-world economic questions.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1992",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "342",
+      "code": "ECON 342",
+      "section": "D100",
+      "title": "International Trade",
+      "instructors": [
+        "Aguiar Lozano, Victor"
+      ],
+      "instructor": "Aguiar Lozano, Victor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 62,
+        "capacity": 66,
+        "waitlistCount": 0,
+        "raw": "62/66"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/342/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/342/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:10.731Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units or permission of the department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Topics discussed in this course are: gains from trade in a classical world; the modern theory of international trade; factor price equalization; empirical tests and extensions of the pure theory model; economic growth and international trade; the nature and effects of protection; motives and welfare effects of factor movements; multinational enterprises; the brain drain; customs union theory; pollution control and international trade.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6570",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "355W",
+      "code": "ECON 355W",
+      "section": "D100",
+      "title": "Economic Development",
+      "instructors": [
+        "Bidner, Chris"
+      ],
+      "instructor": "Bidner, Chris",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 83,
+        "capacity": 86,
+        "waitlistCount": 0,
+        "raw": "83/86"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/355w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/355w/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:12.712Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-; ECON 105 with a minimum grade of C- or ECON 115 with a minimum grade of B-; 45 units.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "Analysis of theories of economic development. Consideration will be given to the requirements of successful development, to aspects of international co-operation, and to procedures of economic planning. Problems of emerging countries and models of various developing economies will be studied.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2005",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "370",
+      "code": "ECON 370",
+      "section": "D100",
+      "title": "Health Economics",
+      "instructors": [
+        "Kissel, Helen"
+      ],
+      "instructor": "Kissel, Helen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 83,
+        "capacity": 88,
+        "waitlistCount": 0,
+        "raw": "83/88"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/370/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/370/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:11.327Z",
+      "prerequisiteText": "ECON 103 with a minimum grade of C- or ECON 113 with a minimum grade of B-;",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Presents key concepts of health economics as a basis to understand the current debates on health policy issues. Topics covered include demand and supply for medical care, the demand and supply for health insurance, universal insurance, and externalities in health and medical care. Discusses recent health policy issues.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2528",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "383",
+      "code": "ECON 383",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructors": [
+        "Laughren, Kevin"
+      ],
+      "instructor": "Laughren, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 87,
+        "capacity": 88,
+        "waitlistCount": 0,
+        "raw": "87/88"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/383/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:12.710Z",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The subject matter will vary from term to term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2006",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "402",
+      "code": "ECON 402",
+      "section": "D100",
+      "title": "Advanced Microeconomic Theory",
+      "instructors": [
+        "Kessler, Anke"
+      ],
+      "instructor": "Kessler, Anke",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "8/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/402/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/402/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:11.919Z",
+      "prerequisiteText": "ECON 302 and 331, with a minimum grade of C-. Students who have completed both MATH 232 and 251 may substitute these courses for ECON 331. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Advanced coverage of microeconomic theory for students intending to pursue graduate study in economics. Topics may include general equilibrium, game theory, and asymmetric information.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2024",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "425",
+      "code": "ECON 425",
+      "section": "D100",
+      "title": "Imperfect Competition",
+      "instructors": [
+        "Luelfesmann, Christoph"
+      ],
+      "instructor": "Luelfesmann, Christoph",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "30/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/425/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/425/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:12.228Z",
+      "prerequisiteText": "ECON 302 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An in depth examination of firm behavior in the context of imperfect competition. Topics covered may include: monopoly and oligopoly pricing; product differentiation; market power; entry deterrence; antitrust laws; and regulation. Emphasis will be given to covering a limited number of issues in detail rather than attempting a broad survey of industrial organization theories.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2028",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "435",
+      "code": "ECON 435",
+      "section": "D100",
+      "title": "Econometric Methods",
+      "instructors": [
+        "Krauth, Brian"
+      ],
+      "instructor": "Krauth, Brian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "13/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/435/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/435/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:12.529Z",
+      "prerequisiteText": "ECON 201, ECON (or BUEC) 333, and one of (ECON 331, MATH 232, or MATH 240), all with a minimum grade of C-. Entry into this course requires a minimum CGPA of 3.0 or permission of the department.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "The application of econometric techniques to the empirical investigation of economic issues.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2025",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "454",
+      "code": "ECON 454",
+      "section": "D100",
+      "title": "Seminar Economics of Family",
+      "instructors": [
+        "Allen, Douglas"
+      ],
+      "instructor": "Allen, Douglas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 560,
+          "displayStart": "8:30 AM",
+          "displayEnd": "9:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 11,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "11/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/454/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/454/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:12.852Z",
+      "prerequisiteText": "ECON 201 and ECON (or BUEC) 333, all with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "An economic analysis of behaviour within the family, institutional aspects of the family, and the economic role of families. Topics include bargaining, household production, intra-family transfers, fertility, marriage, divorce and other topics like dowries, footbinding and mate matching behaviour.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6519",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "482",
+      "code": "ECON 482",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructors": [
+        "Aragon Sanchez, Fernando"
+      ],
+      "instructor": "Aragon Sanchez, Fernando",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 680,
+          "displayStart": "10:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "17/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/482/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/482/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:15.463Z",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The subject matter will vary from term to term depending upon the interests of faculty and students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2030",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "483",
+      "code": "ECON 483",
+      "section": "D100",
+      "title": "Selected Topics in Economics",
+      "instructors": [
+        "Petersen, Luba"
+      ],
+      "instructor": "Petersen, Luba",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "16/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/483/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/483/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:13.425Z",
+      "prerequisiteText": "To be determined by the instructor subject to approval by the department chair.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The subject matter will vary from term to term depending upon the interests of faculty and students.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2103",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "494",
+      "code": "ECON 494",
+      "section": "D100",
+      "title": "Honours Research Proposal",
+      "instructors": [
+        "Blanc, Guillaume"
+      ],
+      "instructor": "Blanc, Guillaume",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 9,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "9/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/494/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/494/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:13.726Z",
+      "prerequisiteText": "ECON 302, 305 and ECON (or BUEC) 333, all with a minimum grade of C-. A minimum CGPA of 3.0.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Preparation for honours research project, including literature review, data collection, ethics approval (if necessary), and presentation of work in progress at end of term. This course is intended for students in the Honours and Joint Honours Programs.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2026",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "498",
+      "code": "ECON 498",
+      "section": "D100",
+      "title": "Directed Studies",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "1/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/498/d100",
+      "outlineRetrievedAt": "2026-10-09T14:31:14.026Z",
+      "prerequisiteText": "ECON 201 and ECON 305, all with a minimum grade of C- and permission of the undergraduate chair of the department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Independent reading and research on topics selected in consultation with the supervising instructor. This course may not be repeated for additional credit. Variable units: 1, 2 or 3 units.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6944",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "750",
+      "code": "ECON 750",
+      "section": "G100",
+      "title": "Co-op I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "1/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/750/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/750/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:14.329Z",
+      "prerequisiteText": "Completion of core MA degree requirements of ECON 802, 807 (or 808), 835, and 836 with a minimum GPA of 3.0.",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1820",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "750",
+      "code": "ECON 750",
+      "section": "G200",
+      "title": "Co-op I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "1/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/750/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/750/g200",
+      "outlineRetrievedAt": "2026-10-09T14:31:15.464Z",
+      "prerequisiteText": "Completion of core MA degree requirements of ECON 802, 807 (or 808), 835, and 836 with a minimum GPA of 3.0.",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1821",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "750",
+      "code": "ECON 750",
+      "section": "I100",
+      "title": "Co-op I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/750/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/750/i100",
+      "outlineRetrievedAt": "2026-10-09T14:31:14.926Z",
+      "prerequisiteText": "Completion of core MA degree requirements of ECON 802, 807 (or 808), 835, and 836 with a minimum GPA of 3.0.",
+      "description": "First term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1822",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "751",
+      "code": "ECON 751",
+      "section": "G100",
+      "title": "Co-op II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "2/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/751/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/751/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:15.221Z",
+      "prerequisiteText": "ECON 750.",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1802",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "751",
+      "code": "ECON 751",
+      "section": "G200",
+      "title": "Co-op II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/751/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/751/g200",
+      "outlineRetrievedAt": "2026-10-09T14:31:15.527Z",
+      "prerequisiteText": "ECON 750.",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1803",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "751",
+      "code": "ECON 751",
+      "section": "I100",
+      "title": "Co-op II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/751/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/751/i100",
+      "outlineRetrievedAt": "2026-10-09T14:31:15.824Z",
+      "prerequisiteText": "ECON 750.",
+      "description": "Second term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1804",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "752",
+      "code": "ECON 752",
+      "section": "G100",
+      "title": "Co-op III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/752/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/752/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:16.121Z",
+      "prerequisiteText": "ECON 751 and department approval.",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1799",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "752",
+      "code": "ECON 752",
+      "section": "G200",
+      "title": "Co-op III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/752/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/752/g200",
+      "outlineRetrievedAt": "2026-10-09T14:31:16.423Z",
+      "prerequisiteText": "ECON 751 and department approval.",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1800",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "752",
+      "code": "ECON 752",
+      "section": "I100",
+      "title": "Co-op III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/752/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/752/i100",
+      "outlineRetrievedAt": "2026-10-09T14:31:16.728Z",
+      "prerequisiteText": "ECON 751 and department approval.",
+      "description": "Third term of work experience in the Co-operative Education Program. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1801",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "798",
+      "code": "ECON 798",
+      "section": "G100",
+      "title": "Mathematical Econ.",
+      "instructors": [
+        "Karaivanov, Alexander"
+      ],
+      "instructor": "Karaivanov, Alexander",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 9,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "9/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/798/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/798/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:17.025Z",
+      "units": "4",
+      "description": "Applications of static optimization techniques, matrix algebra, differential and difference equations in economic models. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2031",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "2 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "802",
+      "code": "ECON 802",
+      "section": "G100",
+      "title": "Microeconomics",
+      "instructors": [
+        "Karaivanov, Alexander"
+      ],
+      "instructor": "Karaivanov, Alexander",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 860,
+          "displayStart": "1:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "10/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/802/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/802/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:17.325Z",
+      "prerequisiteText": "ECON 331.",
+      "units": "4",
+      "description": "An examination of the economic theory of market prices with reference to behavior of individual households, firms, and markets. Special emphasis will be placed on the implications of individual behavior for the allocation of resources. Offered once a year.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2032",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "803",
+      "code": "ECON 803",
+      "section": "G100",
+      "title": "Microeconomic Theory I",
+      "instructors": [
+        "Aguiar Lozano, Victor"
+      ],
+      "instructor": "Aguiar Lozano, Victor",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 8,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "8/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/803/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/803/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:17.623Z",
+      "prerequisiteText": "ECON 802 or equivalent.",
+      "units": "4",
+      "description": "Covers: (i) individual decision-making (including choice theory, consumer choice, producer choice, and choice under uncertainty); (ii) competitive markets (including Pareto optimality and welfare analysis); (iii) general equilibrium (including equilibrium under uncertainty and equilibrium and time).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2033",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "808",
+      "code": "ECON 808",
+      "section": "G100",
+      "title": "Macroeconomic Theory I",
+      "instructors": [
+        "Herrenbrueck, Lucas"
+      ],
+      "instructor": "Herrenbrueck, Lucas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 920,
+          "displayStart": "1:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "7/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/808/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/808/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:18.052Z",
+      "prerequisiteText": "ECON 807 or equivalent.",
+      "units": "4",
+      "description": "Covers modern macroeconomic theory, with a focus on mathematical and computational foundations. Topics may include: long-run growth, dynamic general equilibrium models, and business cycle analysis, as well as abstract spaces, measure theory, dynamic optimization, notions of equilibrium and welfare theorems with infinitely many goods.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2034",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "818",
+      "code": "ECON 818",
+      "section": "G100",
+      "title": "Applied Economics: Time Series",
+      "instructors": [
+        "Antoine, Bertille"
+      ],
+      "instructor": "Antoine, Bertille",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "10/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/818/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/818/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:18.225Z",
+      "units": "4",
+      "description": "Econometric and statistical methods and models to analyze and forecast financial and macroeconomic data. This is an applied time series course focused on: (i) practical implementation of these methods and models for data analysis using appropriate computer programs; (ii) understanding their implications for economic and financial interpretation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2035",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "831",
+      "code": "ECON 831",
+      "section": "G100",
+      "title": "Mathematical Econ",
+      "instructors": [
+        "Freeman, David"
+      ],
+      "instructor": "Freeman, David",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "7/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/831/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/831/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:18.531Z",
+      "prerequisiteText": "ECON 331.",
+      "units": "4",
+      "description": "Introduction to mathematics required for PhD level coursework and research in economics. Topics may include real analysis, analysis on metric spaces, differential calculus, convexity, and optimization. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2036",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "2 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "835",
+      "code": "ECON 835",
+      "section": "G100",
+      "title": "Econometrics",
+      "instructors": [
+        "Canaan, Serena"
+      ],
+      "instructor": "Canaan, Serena",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "10/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/835/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/835/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:18.824Z",
+      "prerequisiteText": "ECON 435 and ECON 798.",
+      "units": "4",
+      "description": "An introduction to econometric theory. Applications of econometric methods to both time series and cross-section data. Offered once a year.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2038",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "837",
+      "code": "ECON 837",
+      "section": "G100",
+      "title": "Econometric Theory I",
+      "instructors": [
+        "Sun, Xiaoting"
+      ],
+      "instructor": "Sun, Xiaoting",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 7,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "7/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/837/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/837/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:19.126Z",
+      "prerequisiteText": "ECON 835 or equivalent.",
+      "units": "4",
+      "description": "Covers probability theory and statistical inference. Topics may include an introduction to measure and probability theory, integration and mathematical expectations, stochastic limit theory, asymptotic theory, mathematical statistics, and an introduction to GMM and maximum likelihood estimation and the concept of identification.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2039",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "899",
+      "code": "ECON 899",
+      "section": "G100",
+      "title": "MA Research Paper",
+      "instructors": [
+        "Krauth, Brian"
+      ],
+      "instructor": "Krauth, Brian",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 680,
+          "displayStart": "9:30 AM",
+          "displayEnd": "11:20 AM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "CAP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 5,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "5/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/899/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:19.425Z",
+      "prerequisiteText": "ECON 802, 807 (or 808), 835, and 836 (or 837).",
+      "units": "4",
+      "description": "The student will write an original research paper in their field of interest. The paper can be empirical or theoretical, in any field of economics, but it should make an original contribution to knowledge.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1811",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "CAP"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "900",
+      "code": "ECON 900",
+      "section": "G100",
+      "title": "PhD Field Paper",
+      "instructors": [
+        "Schnepel, Kevin"
+      ],
+      "instructor": "Schnepel, Kevin",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 920,
+          "displayStart": "2:30 PM",
+          "displayEnd": "3:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "IND"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "10/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/900/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/900/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:19.726Z",
+      "description": "In the summer term following the completion of a PhD student's theory comprehensive exams, the student will enrol in this course. In consultations between the student, the graduate chair, and faculty, the student will be assigned a supervisor for the course. During the term, the student will write a research paper in their field of interest. A satisfactory completion of the course is through the presentation of the paper as an economics department thesis proposal seminar. Graded as satisfactory or unsatisfactory.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1812",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "IND"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "913",
+      "code": "ECON 913",
+      "section": "G100",
+      "title": "Selected Topics in Economics",
+      "instructors": [
+        "Gilraine, Michael"
+      ],
+      "instructor": "Gilraine, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 17,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "17/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/913/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/913/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:20.025Z",
+      "units": "4",
+      "description": "Offered by arrangement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2040",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM",
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "921",
+      "code": "ECON 921",
+      "section": "G100",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 3,
+        "waitlistCount": 0,
+        "raw": "3/3"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/921/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/921/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:20.325Z",
+      "units": "4",
+      "description": "Supervised reading in a particular field of specialization. Offered by arrangement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6538",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "921",
+      "code": "ECON 921",
+      "section": "G200",
+      "title": "Directed Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/921/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/921/g200",
+      "outlineRetrievedAt": "2026-10-09T14:31:20.634Z",
+      "units": "4",
+      "description": "Supervised reading in a particular field of specialization. Offered by arrangement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6539",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "990",
+      "code": "ECON 990",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 14,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "14/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/990/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/990/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:20.925Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1814",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "999",
+      "code": "ECON 999",
+      "section": "G100",
+      "title": "M.A. Project",
+      "instructors": [
+        "Woodcock, Simon"
+      ],
+      "instructor": "Woodcock, Simon",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "1/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/999/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/999/g100",
+      "outlineRetrievedAt": "2026-10-09T14:31:21.224Z",
+      "units": "10",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6499",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "999",
+      "code": "ECON 999",
+      "section": "G200",
+      "title": "M.A. Project",
+      "instructors": [
+        "Gilraine, Michael"
+      ],
+      "instructor": "Gilraine, Michael",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/999/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/999/g200",
+      "outlineRetrievedAt": "2026-10-09T14:31:21.519Z",
+      "units": "10",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6541",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ECON",
+      "courseNumber": "999",
+      "code": "ECON 999",
+      "section": "G300",
+      "title": "M.A. Project",
+      "instructors": [
+        "Luelfesmann, Christoph"
+      ],
+      "instructor": "Luelfesmann, Christoph",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "0/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ECON",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:25:01.529Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/econ/999/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/econ/999/g300",
+      "outlineRetrievedAt": "2026-10-09T14:31:21.828Z",
+      "units": "10",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6542",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

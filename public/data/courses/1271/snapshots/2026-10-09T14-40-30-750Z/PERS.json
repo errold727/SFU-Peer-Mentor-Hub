@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-09T14:40:30.751Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "PERS",
+      "courseNumber": "100",
+      "code": "PERS 100",
+      "section": "D100",
+      "title": "Introductory Persian I",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=PERS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/pers/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/pers/100/d100",
+      "outlineRetrievedAt": "2026-10-09T14:53:13.913Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "An introduction to the Persian alphabet, phonology, morphology, and basic syntax in relation to the reading, writing and translating of basic sentences. Students with any prior knowledge or experience in Persian beyond the level of this course may not enroll in PERS 100.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5190",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    }
+  ]
+}

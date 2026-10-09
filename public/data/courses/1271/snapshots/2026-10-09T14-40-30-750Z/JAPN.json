@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-09T14:40:30.751Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "100",
+      "code": "JAPN 100",
+      "section": "D100",
+      "title": "Japanese I",
+      "instructors": [
+        "Furukawa, Chie"
+      ],
+      "instructor": "Furukawa, Chie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/100/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/100/d100",
+      "outlineRetrievedAt": "2026-10-09T14:51:28.448Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Japanese for students with no background in that language. Introduces basic oral and written skills, and the three Japanese writing systems (Hiragana, Katakana and Kanji). Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5170",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "100",
+      "code": "JAPN 100",
+      "section": "D200",
+      "title": "Japanese I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/100/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/100/d200",
+      "outlineRetrievedAt": "2026-10-09T14:51:28.758Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Japanese for students with no background in that language. Introduces basic oral and written skills, and the three Japanese writing systems (Hiragana, Katakana and Kanji). Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5173",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "100",
+      "code": "JAPN 100",
+      "section": "D300",
+      "title": "Japanese I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/100/d300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/100/d300",
+      "outlineRetrievedAt": "2026-10-09T14:51:29.052Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Japanese for students with no background in that language. Introduces basic oral and written skills, and the three Japanese writing systems (Hiragana, Katakana and Kanji). Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5174",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "100",
+      "code": "JAPN 100",
+      "section": "D400",
+      "title": "Japanese I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/100/d400",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/100/d400",
+      "outlineRetrievedAt": "2026-10-09T14:51:29.356Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Japanese for students with no background in that language. Introduces basic oral and written skills, and the three Japanese writing systems (Hiragana, Katakana and Kanji). Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5175",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "110",
+      "code": "JAPN 110",
+      "section": "D100",
+      "title": "Japanese II",
+      "instructors": [
+        "Takei, Naoko"
+      ],
+      "instructor": "Takei, Naoko",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/110/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/110/d100",
+      "outlineRetrievedAt": "2026-10-09T14:51:29.657Z",
+      "prerequisiteText": "JAPN 100 or equivalent. Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Follows JAPN 100. Students will acquire elementary conversational skills and basic reading ability. Students successfully completing the course attain proficiency equivalent to the level N5 Japanese Language Proficiency Test.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5171",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "110",
+      "code": "JAPN 110",
+      "section": "D200",
+      "title": "Japanese II",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/110/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/110/d200",
+      "outlineRetrievedAt": "2026-10-09T14:51:29.948Z",
+      "prerequisiteText": "JAPN 100 or equivalent. Students who took Japanese courses in secondary school and/or with previous knowledge of Japanese may need to be evaluated for placement into JAPN 110 or higher level of courses and are required to contact the instructor before enrollment.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Follows JAPN 100. Students will acquire elementary conversational skills and basic reading ability. Students successfully completing the course attain proficiency equivalent to the level N5 Japanese Language Proficiency Test.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5184",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "200",
+      "code": "JAPN 200",
+      "section": "E100",
+      "title": "Japanese III",
+      "instructors": [
+        "Takei, Naoko"
+      ],
+      "instructor": "Takei, Naoko",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/200/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/200/e100",
+      "outlineRetrievedAt": "2026-10-09T14:51:30.249Z",
+      "prerequisiteText": "JAPN 110 (or JAPN 101) or equivalent.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Follows JAPN 110. Everyday language usage is emphasized in providing students with communicative skills at the advanced introductory level of Japanese. Students learn to comprehend everyday language in various situations using the appropriate speech style, and to read adapted texts and write coherently.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6120",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "210",
+      "code": "JAPN 210",
+      "section": "D100",
+      "title": "Japanese IV",
+      "instructors": [
+        "Takei, Naoko"
+      ],
+      "instructor": "Takei, Naoko",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/210/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/210/d100",
+      "outlineRetrievedAt": "2026-10-09T14:51:30.554Z",
+      "prerequisiteText": "JAPN 200 or equivalent.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Follows JAPN 200. Provides a solid foundation in Japanese through oral and written communicative skills and prepares students for the intermediate level. Common grammatical structures and forms are introduced. At the completion of the course, students should be able to function in day-to-day conversations using Japanese and attain proficiency equivalent to the level N4 Japanese Language Proficiency Test.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5188",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "211",
+      "code": "JAPN 211",
+      "section": "E100",
+      "title": "STT-Kanji & Japn Calligraphy",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/211/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/211/e100",
+      "outlineRetrievedAt": "2026-10-09T14:51:30.855Z",
+      "prerequisiteText": "JAPN 100 and/or Corequisite: JAPN 110.",
+      "units": "2",
+      "designation": "N/A",
+      "description": "While learning basic Japanese calligraphy techniques, students develop kanji knowledge, including stroke order and precise shapes of kanji. Approximately 170 kanji are introduced. This course helps students build a strong foundation in kanji, benefiting them as they advance to 300-level Japanese courses, where more complex vocabulary is introduced using kanji.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5825",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "JAPN",
+      "courseNumber": "300",
+      "code": "JAPN 300",
+      "section": "D100",
+      "title": "Intermediate Japanese I",
+      "instructors": [
+        "Furukawa, Chie"
+      ],
+      "instructor": "Furukawa, Chie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=JAPN",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-09T14:40:30.751Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/japn/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/japn/300/d100",
+      "outlineRetrievedAt": "2026-10-09T14:51:31.146Z",
+      "prerequisiteText": "JAPN 201 or by permission of the department",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Comprehension of intellectually oriented materials, processing information needed for judgment and decision making, and expression of inner feelings and thoughts.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5824",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    }
+  ]
+}
