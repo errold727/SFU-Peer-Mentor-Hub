@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "121",
+      "code": "FASS 121",
+      "section": "P100",
+      "title": "STT-Fdn for Academic Learning",
+      "instructors": [
+        "du Bois, Lydia"
+      ],
+      "instructor": "du Bois, Lydia",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 18,
+        "waitlistCount": 0,
+        "raw": "12/18"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/121/p100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/121/p100",
+      "outlineRetrievedAt": "2026-10-10T13:56:09.649Z",
+      "prerequisiteText": "Program approval.",
+      "units": "2",
+      "designation": "N/A",
+      "description": "Provides students with the foundations for academic learning needed to succeed in a post-secondary environment during the lecture as well as help them develop diverse skills during the tutorial. This course will help in facilitating the establishment of connections with self, the cohort, instructors, the university, and with individual future educational and career aspirations. Students will learn strategies and skills critical to their success, such as different learning techniques, time management strategies, exam preparation, study skills, researching and referencing for academic writing. Two thirds of the course (lectures and assignments) develop the foundations for academic learning while one third of the course (tutorials) develop practical skills. Students will receive support to navigate and access available resources needed to thrive in diverse and dynamic learning environments.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6525",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "201",
+      "code": "FASS 201",
+      "section": "D100",
+      "title": "FASS Co-op Practicum I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 23,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "23/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/201/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/201/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:10.244Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1785",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "201",
+      "code": "FASS 201",
+      "section": "D200",
+      "title": "FASS Co-op Practicum I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/201/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/201/d200",
+      "outlineRetrievedAt": "2026-10-10T13:56:09.946Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1786",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "201",
+      "code": "FASS 201",
+      "section": "I100",
+      "title": "FASS Co-op Practicum I",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "1/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/201/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/201/i100",
+      "outlineRetrievedAt": "2026-10-10T13:56:10.543Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1787",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "301",
+      "code": "FASS 301",
+      "section": "D100",
+      "title": "FASS Co-op Practicum II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 19,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "19/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/301/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/301/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:10.845Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1788",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "301",
+      "code": "FASS 301",
+      "section": "D200",
+      "title": "FASS Co-op Practicum II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "3/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/301/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/301/d200",
+      "outlineRetrievedAt": "2026-10-10T13:56:11.146Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1789",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "301",
+      "code": "FASS 301",
+      "section": "I100",
+      "title": "FASS Co-op Practicum II",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/301/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/301/i100",
+      "outlineRetrievedAt": "2026-10-10T13:56:11.452Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1790",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "302",
+      "code": "FASS 302",
+      "section": "D100",
+      "title": "FASS Co-op Practicum III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 12,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "12/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/302/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/302/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:11.748Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1782",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "302",
+      "code": "FASS 302",
+      "section": "D200",
+      "title": "FASS Co-op Practicum III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/302/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/302/d200",
+      "outlineRetrievedAt": "2026-10-10T13:56:12.050Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1783",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "302",
+      "code": "FASS 302",
+      "section": "I100",
+      "title": "FASS Co-op Practicum III",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "1/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/302/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/302/i100",
+      "outlineRetrievedAt": "2026-10-10T13:56:12.335Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1784",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "401",
+      "code": "FASS 401",
+      "section": "D100",
+      "title": "FASS Co-op Practicum IV",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "3/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/401/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/401/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:15.200Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1791",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "401",
+      "code": "FASS 401",
+      "section": "D200",
+      "title": "FASS Co-op Practicum IV",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/401/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/401/d200",
+      "outlineRetrievedAt": "2026-10-10T13:56:12.950Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1792",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "401",
+      "code": "FASS 401",
+      "section": "I100",
+      "title": "FASS Co-op Practicum IV",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/401/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/401/i100",
+      "outlineRetrievedAt": "2026-10-10T13:56:15.211Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fourth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F).",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1793",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "402",
+      "code": "FASS 402",
+      "section": "D100",
+      "title": "FASS Co-op Practicum V",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "1/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/402/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/402/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:15.207Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fifth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F). May be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1794",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "402",
+      "code": "FASS 402",
+      "section": "D200",
+      "title": "FASS Co-op Practicum V",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/402/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/402/d200",
+      "outlineRetrievedAt": "2026-10-10T13:56:15.434Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fifth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F). May be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1795",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "FASS",
+      "courseNumber": "402",
+      "code": "FASS 402",
+      "section": "I100",
+      "title": "FASS Co-op Practicum V",
+      "instructors": [
+        "Jurock, Liesl"
+      ],
+      "instructor": "Jurock, Liesl",
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=FASS",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/fass/402/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/fass/402/i100",
+      "outlineRetrievedAt": "2026-10-10T13:56:15.731Z",
+      "prerequisiteText": "Open only to students accepted to the FASS Co-op Program.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Fifth term of work experience in the Faculty of Arts and Social Sciences Co-operative Education Program. Units for this course do not count towards the units required for an SFU degree. Graded as pass/fail (P/F). May be repeated for additive credit.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1796",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

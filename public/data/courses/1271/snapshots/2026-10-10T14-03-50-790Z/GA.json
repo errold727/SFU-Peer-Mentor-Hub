@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-10T14:03:50.791Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GA",
+      "courseNumber": "101",
+      "code": "GA 101",
+      "section": "D100",
+      "title": "Introduction to Global Asia",
+      "instructors": [
+        "Aguilera-Moradipour, Maral"
+      ],
+      "instructor": "Aguilera-Moradipour, Maral",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 71,
+        "waitlistCount": 0,
+        "raw": "0/71"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ga/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ga/101/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:33.815Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "Introduces students to the interconnected, border-crossing worlds of Asian and Asian diasporic people through discussion of scholarship, films, short stories, essays, oral histories, and visual art. Surveys key topics in the study of globalizing processes, such as migration, trade, imperialism, decolonization, globalization, and environmental change.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1425",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GA",
+      "courseNumber": "202",
+      "code": "GA 202",
+      "section": "D100",
+      "title": "Studies in Global Asia",
+      "instructors": [
+        "Attewell, Nadine"
+      ],
+      "instructor": "Attewell, Nadine",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ga/202/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ga/202/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:34.112Z",
+      "prerequisiteText": "15 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces students to a topic in Global Asian Studies not otherwise covered in depth by regularly scheduled courses. Sample topics include South Asian diasporas; Global Asia in Vancouver; refugee experiences; or Korean culture. This course may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2174",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GA",
+      "courseNumber": "301",
+      "code": "GA 301",
+      "section": "D100",
+      "title": "Asian Can. Culture & Activism",
+      "instructors": [
+        "Kong, Shuyu"
+      ],
+      "instructor": "Kong, Shuyu",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ga/301/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ga/301/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:34.415Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Focuses on the cultural production and activism of migrant, refugee, and diasporic Asians in Canada. It investigates how people of Asian origin and descent have used literature, film, music, visual art, and other media to represent their histories, experiences, and communities, as well as to advocate for themselves and others.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1426",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GA",
+      "courseNumber": "333",
+      "code": "GA 333",
+      "section": "D100",
+      "title": "STT-Critical Refugee Studies",
+      "instructors": [
+        "Aguilera-Moradipour, Maral"
+      ],
+      "instructor": "Aguilera-Moradipour, Maral",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ga/333/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ga/333/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:34.710Z",
+      "prerequisiteText": "45 units. Recommended: GA 101 or GA 211.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduces students to the interdisciplinary field of critical refugee studies drawing on a Global Asia framework. The course centers Asian refugee knowledge and cultural production to examine critiques of imperialism, colonialism, capitalism, and patriarchy and imagine alternative models of coexistence.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1427",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "GA",
+      "courseNumber": "400",
+      "code": "GA 400",
+      "section": "D100",
+      "title": "Selected Topics in Global Asia",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ga/400/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ga/400/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:35.011Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Content will vary according to interests of faculty and students but will involve Global-Asia-related study within one or more of the social science or humanities disciplines. This course may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "1428",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}

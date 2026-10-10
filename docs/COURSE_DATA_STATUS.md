@@ -4,20 +4,20 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-09T14:25:01.529Z
-- Enrichment completed: 2026-10-09T14:40:30.404Z
+- CourSys snapshot: 2026-10-10T13:48:16.986Z
+- Enrichment completed: 2026-10-10T14:03:50.443Z
 - Subjects discovered/imported: 81/81
-- Course codes: 1867
-- Sections: 3032 (CourSys source total 3032)
-- Confirmed enrollment sections: 3004
+- Course codes: 1869
+- Sections: 3034 (CourSys source total 3034)
+- Confirmed enrollment sections: 3006
 - Tutorial/lab sections: 44
 - Sections with schedules: 1517
-- Sections without schedules: 1515
-- Sections with enrollment data: 3032
-- Sections enriched from Course Outlines: 3004
+- Sections without schedules: 1517
+- Sections with enrollment data: 3034
+- Sections enriched from Course Outlines: 3006
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3954 KiB raw / 188 KiB gzip
+- All-subject index: 3956 KiB raw / 188 KiB gzip
 - Over-capacity enrollment snapshots retained: 91
 
 | Subject | Course codes | Sections |
@@ -41,7 +41,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | DMED | 7 | 11 |
 | EASC | 26 | 30 |
 | ECON | 44 | 58 |
-| EDUC | 86 | 165 |
+| EDUC | 87 | 166 |
 | ENGL | 40 | 44 |
 | ENSC | 43 | 62 |
 | EVSC | 19 | 23 |
@@ -71,7 +71,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | LANG | 1 | 1 |
 | LBRL | 3 | 9 |
 | LBST | 8 | 8 |
-| LING | 27 | 45 |
+| LING | 28 | 46 |
 | LS | 7 | 9 |
 | MACM | 5 | 7 |
 | MASC | 5 | 5 |
@@ -137,20 +137,20 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-09T14:40:30.751Z
-- Enrichment completed: 2026-10-09T14:55:53.727Z
+- CourSys snapshot: 2026-10-10T14:03:50.791Z
+- Enrichment completed: 2026-10-10T14:18:57.247Z
 - Subjects discovered/imported: 80/80
-- Course codes: 1821
-- Sections: 2925 (CourSys source total 2925)
-- Confirmed enrollment sections: 2904
+- Course codes: 1820
+- Sections: 2924 (CourSys source total 2924)
+- Confirmed enrollment sections: 2896
 - Tutorial/lab sections: 53
-- Sections with schedules: 1447
-- Sections without schedules: 1478
-- Sections with enrollment data: 2925
-- Sections enriched from Course Outlines: 2904
+- Sections with schedules: 1442
+- Sections without schedules: 1482
+- Sections with enrollment data: 2924
+- Sections enriched from Course Outlines: 2896
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3734 KiB raw / 162 KiB gzip
+- All-subject index: 3729 KiB raw / 162 KiB gzip
 - Over-capacity enrollment snapshots retained: 0
 
 | Subject | Course codes | Sections |
@@ -187,7 +187,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | GA | 5 | 5 |
 | GEOG | 41 | 46 |
 | GERM | 3 | 3 |
-| GERO | 21 | 33 |
+| GERO | 20 | 32 |
 | GRAD | 3 | 5 |
 | GRK | 4 | 4 |
 | GSWS | 26 | 34 |
@@ -242,12 +242,19 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 150 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 993 G100: Outline HTTP 404
 - EXCH 992 G100: Outline HTTP 404
+- EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
-- GERO 411 D100: Outline HTTP 404
+- FREN 201 OL01: Outline HTTP 404
+- FREN 344 D100: Outline HTTP 404
+- FREN 424 D100: Outline HTTP 404
+- HIST 102 F100: Outline HTTP 404
+- HIST 151 D100: Outline HTTP 404
+- HIST 430 F100: Outline HTTP 404
+- INDG 286 B100: Outline HTTP 404
+- LING 330 D100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404

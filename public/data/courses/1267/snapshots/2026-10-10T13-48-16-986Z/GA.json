@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "GA",
+      "courseNumber": "101",
+      "code": "GA 101",
+      "section": "D100",
+      "title": "Introduction to Global Asia",
+      "instructors": [
+        "Shrestha, Rupak"
+      ],
+      "instructor": "Shrestha, Rupak",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 65,
+        "capacity": 71,
+        "waitlistCount": 0,
+        "raw": "65/71"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ga/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ga/101/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:24.133Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "Introduces students to the interconnected, border-crossing worlds of Asian and Asian diasporic people through discussion of scholarship, films, short stories, essays, oral histories, and visual art. Surveys key topics in the study of globalizing processes, such as migration, trade, imperialism, decolonization, globalization, and environmental change.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3174",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "GA",
+      "courseNumber": "202",
+      "code": "GA 202",
+      "section": "D100",
+      "title": "Studies in Global Asia",
+      "instructors": [
+        "Shrestha, Rupak"
+      ],
+      "instructor": "Shrestha, Rupak",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "15/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ga/202/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ga/202/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:24.424Z",
+      "prerequisiteText": "15 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduces students to a topic in Global Asian Studies not otherwise covered in depth by regularly scheduled courses. Sample topics include South Asian diasporas; Global Asia in Vancouver; refugee experiences; or Korean culture. This course may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3175",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "GA",
+      "courseNumber": "210",
+      "code": "GA 210",
+      "section": "D100",
+      "title": "How Asia Became Global",
+      "instructors": [
+        "Malik, Anushay"
+      ],
+      "instructor": "Malik, Anushay",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 15,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "15/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ga/210/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ga/210/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:24.733Z",
+      "prerequisiteText": "15 units.",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "An interdisciplinary course that examines how empire, migration, and globalization have transformed Asia through connecting Asian people and places with each other and the world. Explores such interactions as part of histories of nationalism, trade, communalism, revolution, war, and authoritarianism in Asia; and as incubators of cultural exchange and experimentation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3176",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "GA",
+      "courseNumber": "303",
+      "code": "GA 303",
+      "section": "D100",
+      "title": "Sel. Top. Global Japanese Stud",
+      "instructors": [
+        "Iwama, Daniel"
+      ],
+      "instructor": "Iwama, Daniel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 24,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "24/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=GA",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ga/303/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ga/303/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:25.031Z",
+      "prerequisiteText": "45 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "In this interdisciplinary course, students will investigate a topic relating to the histories, societies, cultures, knowledges, geographies, and/or ecologies of Japan, Japanese-speaking people, and/or people of Japanese descent in Asia and beyond. May be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3177",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "GA",
+      "courseNumber": "388",
+      "code": "GA 388",
+      "section": "D100",
+      "title": "Topics in Queer Global Asias",
+      "instructors": [
+        "Attewell, Nadine"
+      ],
+      "instructor": "Attewell, Nadine",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 10,
+        "capacity": 11,
+        "waitlistCount": 0,
+        "raw": "10/11"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=GA",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "GSWS 388 D1",
+        "GSWS 830 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ga/388/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ga/388/d100",
+      "outlineRetrievedAt": "2026-10-10T13:56:25.335Z",
+      "prerequisiteText": "15 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Focuses on the experiences, histories, knowledges, and activism of marginalized gender and sexual subjects across Asia and its diasporas from the perspectives of feminist, queer, and trans studies. May be further organized by region or historical period. The topic will vary by instructor. Students may repeat for credit up to three times under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3178",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    }
+  ]
+}

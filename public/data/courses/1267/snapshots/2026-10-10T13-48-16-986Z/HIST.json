@@ -1,0 +1,2007 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "101",
+      "code": "HIST 101",
+      "section": "D100",
+      "title": "Can to Confederation",
+      "instructors": [
+        "Bird, John"
+      ],
+      "instructor": "Bird, John",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 101,
+        "capacity": 102,
+        "waitlistCount": 0,
+        "raw": "101/102"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/101/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/101/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:01.625Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "A survey of Canadian history to 1867.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2778",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "115",
+      "code": "HIST 115",
+      "section": "D100",
+      "title": "History of Sexuality",
+      "instructors": [
+        "Chenier, Elise"
+      ],
+      "instructor": "Chenier, Elise",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "30/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/115/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/115/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:01.937Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Uses lectures, music, film and images to explore the beliefs and social practices through which sexual identities are created and transformed over time. Introduces some of the main theories and concepts used in the field.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2780",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "130",
+      "code": "HIST 130",
+      "section": "B700",
+      "title": "Introduction to Global History",
+      "instructors": [
+        "Clossey, Luke"
+      ],
+      "instructor": "Clossey, Luke",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 34,
+        "waitlistCount": 0,
+        "raw": "30/34"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/130/b700",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/130/b700",
+      "outlineRetrievedAt": "2026-10-10T13:57:02.232Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "A survey of the history of the world, with a focus on global historical phenomena of the last six centuries.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2785",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "130",
+      "code": "HIST 130",
+      "section": "D100",
+      "title": "Introduction to Global History",
+      "instructors": [
+        "Clossey, Luke"
+      ],
+      "instructor": "Clossey, Luke",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 68,
+        "capacity": 68,
+        "waitlistCount": 0,
+        "raw": "68/68"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/130/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/130/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:02.533Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "A survey of the history of the world, with a focus on global historical phenomena of the last six centuries.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2781",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "135W",
+      "code": "HIST 135W",
+      "section": "D100",
+      "title": "Capitalism",
+      "instructors": [
+        "Leier, Mark"
+      ],
+      "instructor": "Leier, Mark",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 109,
+        "capacity": 114,
+        "waitlistCount": 0,
+        "raw": "109/114"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/135w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/135w/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:02.834Z",
+      "units": "3",
+      "designation": "Writing",
+      "description": "An introductory survey of the dynamic history of capitalism.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6597",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "151",
+      "code": "HIST 151",
+      "section": "D100",
+      "title": "Modern Middle East",
+      "instructors": [
+        "Sedra, Paul"
+      ],
+      "instructor": "Sedra, Paul",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 40,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "40/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/151/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/151/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:03.132Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "An introductory survey of the changing societies of the Middle East since 1800. Emphasis will be placed on familiarizing students with the basic aspects of Islamic society, the influence of European imperialism, the modernization of traditional societies, the origins of the Arab-Israeli conflict, and the social and political ferment in the period since the Second World War.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2808",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "185",
+      "code": "HIST 185",
+      "section": "D100",
+      "title": "Studies in History",
+      "instructors": [
+        "Essame, Jeanne"
+      ],
+      "instructor": "Essame, Jeanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 16,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "16/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/185/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/185/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:03.434Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Special topics. Students may repeat this course for further credit under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2809",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "200",
+      "code": "HIST 200",
+      "section": "D100",
+      "title": "Making History",
+      "instructors": [
+        "Walshaw, Sarah"
+      ],
+      "instructor": "Walshaw, Sarah",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "22/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/200/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/200/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:03.725Z",
+      "units": "3",
+      "designation": "Breadth-Humanities/Social Sciences",
+      "description": "Learning history by doing history. Introduction to a historical problem, and learning how to build and defend a historical interpretation through the analysis of primary and secondary sources. Small seminar format will allow hands-on experience developing research, writing, and presentation skills applicable to other history courses.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2814",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "206",
+      "code": "HIST 206",
+      "section": "D100",
+      "title": "Imperial Japan (ca. 1868-1952)",
+      "instructors": [
+        "Brown, Jeremy"
+      ],
+      "instructor": "Brown, Jeremy",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 70,
+        "capacity": 71,
+        "waitlistCount": 0,
+        "raw": "70/71"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/206/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/206/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:04.028Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "A survey of Japanese history from 1868 until 1952 which will examine, among other topics, the evolution of its colonial empire and wars with Russia, China and the United States, as well as the post-war Allied Occupation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2815",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "212",
+      "code": "HIST 212",
+      "section": "BLS1",
+      "title": "The U.S. to 1877",
+      "instructors": [
+        "Taylor, Joseph"
+      ],
+      "instructor": "Taylor, Joseph",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 26,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "26/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/212/bls1",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/212/bls1",
+      "outlineRetrievedAt": "2026-10-10T13:57:04.326Z",
+      "prerequisiteText": "Recommended: HIST 104.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "The emergence and development of American civilization from the establishment of the colonies through the Civil War and Reconstruction.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5425",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "223",
+      "code": "HIST 223",
+      "section": "D100",
+      "title": "Early Modern Europe",
+      "instructors": [
+        "Pabel, Hilmar"
+      ],
+      "instructor": "Pabel, Hilmar",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 33,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "33/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/223/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/223/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:04.632Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "A survey of early modern European history which will examine, among other topics, the wars of religion, the 17th century revolutions, 16th and 17th century economic development, the scientific revolution, the enlightenment and the political and social character of the old regime.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2820",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "243",
+      "code": "HIST 243",
+      "section": "D100",
+      "title": "History of Modern India",
+      "instructors": [
+        "Ray, Bidisha"
+      ],
+      "instructor": "Ray, Bidisha",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 30,
+        "capacity": 36,
+        "waitlistCount": 0,
+        "raw": "30/36"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/243/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/243/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:04.934Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "A survey of South Asian history designed to equip those students completely unfamiliar with the region, with a foundation in the political, social and cultural contours of South Asia from 1757 to 1947.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2823",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "276",
+      "code": "HIST 276",
+      "section": "D100",
+      "title": "History of Mediterranean",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 34,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "34/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "HUM 276 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/276/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/276/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:05.229Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Examines the history of the Mediterranean world in the early modern and modern periods with a focus on human exchanges and conflicts, geopolitical rivalries and collaborations, and the movement of people, ideas, and goods.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2826",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "300",
+      "code": "HIST 300",
+      "section": "D100",
+      "title": "Historiography",
+      "instructors": [
+        "Pabel, Hilmar"
+      ],
+      "instructor": "Pabel, Hilmar",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 19,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "19/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/300/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/300/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:05.527Z",
+      "prerequisiteText": "45 units, including six units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines the conceptual problems involved in the historian's attempt to apprehend the past. Focuses on the nature of historical knowledge and explanation, and to the broad systems and patterns in which history has been conceived.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2829",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "325",
+      "code": "HIST 325",
+      "section": "D100",
+      "title": "Indigenous Peoples to 1850",
+      "instructors": [
+        "Bird, John"
+      ],
+      "instructor": "Bird, John",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 33,
+        "capacity": 29,
+        "waitlistCount": 0,
+        "raw": "33/29"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "INDG 325 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/325/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/325/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:05.825Z",
+      "prerequisiteText": "45 units, including six units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines selected themes in the history of Indigenous Peoples of North America from the beginning to the mid-nineteenth century.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2830",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "354",
+      "code": "HIST 354",
+      "section": "D100",
+      "title": "Imp/Modernity in Middle East",
+      "instructors": [
+        "Kuehn, Thomas"
+      ],
+      "instructor": "Kuehn, Thomas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 36,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "36/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/354/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/354/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:06.129Z",
+      "prerequisiteText": "45 units, including six units of lower division history. Recommended: one of HIST 151, 249.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course examines the role of imperialism in the transformation of societies in the Middle East and North Africa over the last two centuries. Focusing mainly on the cases of Ottoman, British and French empire building, the course discusses the socio-economic, cultural and political changes brought about by the interaction of various segments of local societies with these imperial powers.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6478",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "377",
+      "code": "HIST 377",
+      "section": "BLS1",
+      "title": "Environmental History",
+      "instructors": [
+        "Taylor, Joseph"
+      ],
+      "instructor": "Taylor, Joseph",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 20,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "20/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "GEOG 377 BLS1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/377/bls1",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/377/bls1",
+      "outlineRetrievedAt": "2026-10-10T13:57:06.435Z",
+      "prerequisiteText": "45 units, including six units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Examines the reciprocal influences between humans and nature through time. Topics may include settlement, agriculture, technology, politics, urbanization, science, and conservation.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "5426",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "390",
+      "code": "HIST 390",
+      "section": "D100",
+      "title": "Studies in History I",
+      "instructors": [
+        "Essame, Jeanne"
+      ],
+      "instructor": "Essame, Jeanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 24,
+        "capacity": 27,
+        "waitlistCount": 0,
+        "raw": "24/27"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/390/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/390/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:06.775Z",
+      "prerequisiteText": "45 units, including six units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Special topics. Students may repeat this course for further credit under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2832",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "391",
+      "code": "HIST 391",
+      "section": "D100",
+      "title": "Studies in History II",
+      "instructors": [
+        "Panchasi, Roxanne"
+      ],
+      "instructor": "Panchasi, Roxanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 40,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "40/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/391/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/391/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:07.029Z",
+      "prerequisiteText": "45 units, including six units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Special topics. Students may repeat this course for further credit under a different topic.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2833",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "400",
+      "code": "HIST 400",
+      "section": "D100",
+      "title": "Methodology",
+      "instructors": [
+        "Panchasi, Roxanne"
+      ],
+      "instructor": "Panchasi, Roxanne",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 13,
+        "capacity": 13,
+        "waitlistCount": 0,
+        "raw": "13/13"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/400/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/400/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:07.343Z",
+      "prerequisiteText": "Admission to the honours program in history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An advanced seminar on historical methods. Focuses on the identification and analysis of sources in preparation for writing the honours essay.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2834",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "438W",
+      "code": "HIST 438W",
+      "section": "D100",
+      "title": "History British Empire",
+      "instructors": [
+        "Ray, Bidisha"
+      ],
+      "instructor": "Ray, Bidisha",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 980,
+          "displayStart": "12:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "22/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/438w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/438w/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:07.628Z",
+      "prerequisiteText": "45 units including 9 units of lower division history.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "An investigation of advanced concepts and methodologies in the history of the British empire. Content may vary from offering to offering; see course outline for further information. HIST 438W may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2836",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "440",
+      "code": "HIST 440",
+      "section": "D100",
+      "title": "Selected Topics in US History",
+      "instructors": [
+        "Ferguson, Karen"
+      ],
+      "instructor": "Ferguson, Karen",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 740,
+          "displayStart": "9:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 21,
+        "waitlistCount": 0,
+        "raw": "22/21"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/440/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/440/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:07.934Z",
+      "prerequisiteText": "45 units, including nine units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An examination of selected topics in United States history. Content may vary from offering to offering. See course outline for further information. HIST 440 may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2837",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "456",
+      "code": "HIST 456",
+      "section": "D100",
+      "title": "The Late Ottoman Empire",
+      "instructors": [
+        "Kuehn, Thomas"
+      ],
+      "instructor": "Kuehn, Thomas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 24,
+        "capacity": 26,
+        "waitlistCount": 0,
+        "raw": "24/26"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/456/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/456/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:08.234Z",
+      "prerequisiteText": "45 units including nine units of lower division history. Recommended: HIST 151 and 249.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Focuses on major issues and trends in the history of the Ottoman Empire from the mid-eighteenth century to its demise in the aftermath of World War I.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2838",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "464",
+      "code": "HIST 464",
+      "section": "D100",
+      "title": "Problems in Mod Asian History",
+      "instructors": [
+        "Jeong, Janice"
+      ],
+      "instructor": "Jeong, Janice",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 1040,
+          "displayStart": "2:30 PM",
+          "displayEnd": "5:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 23,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "23/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/464/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/464/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:08.529Z",
+      "prerequisiteText": "45 units including nine units of lower division history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Concepts and methodology of modern Asian history. Selected themes may include revolution, inequality, mass violence, ideology, imperialism, leadership, and the Cold War. Content may vary from offering to offering; see course outline for further information. HIST 464 may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2839",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "468W",
+      "code": "HIST 468W",
+      "section": "D100",
+      "title": "Problems in the History of Rel",
+      "instructors": [
+        "May, Nicholas"
+      ],
+      "instructor": "May, Nicholas",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 690,
+          "endMinutes": 860,
+          "displayStart": "11:30 AM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 22,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "22/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/468w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/468w/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:08.830Z",
+      "prerequisiteText": "45 units, including nine units of lower division history.",
+      "units": "4",
+      "designation": "Writing",
+      "description": "An advanced examination into the concepts and methodology of the history of religion. Content may vary from offering to offering; see course outline for further information. HIST 468W may be repeated for credit only when a different topic is taught.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6796",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "489",
+      "code": "HIST 489",
+      "section": "D100",
+      "title": "Studies in History",
+      "instructors": [
+        "Walshaw, Sarah"
+      ],
+      "instructor": "Walshaw, Sarah",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 0,
+        "waitlistCount": 0,
+        "raw": "1/0"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/489/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/489/d100",
+      "outlineRetrievedAt": "2026-10-10T13:57:09.132Z",
+      "prerequisiteText": "45 units including nine units of lower division history. Recommended: at least three upper division courses in history.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Allows students to pursue in greater depth a particular historical problem. It will be offered either as an individual reading course or as small seminars, depending upon student and faculty interest.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3179",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "800",
+      "code": "HIST 800",
+      "section": "G100",
+      "title": "Field Directed Project",
+      "instructors": [
+        "Adcock, Tina"
+      ],
+      "instructor": "Adcock, Tina",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/800/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/800/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:09.435Z",
+      "prerequisiteText": "23 units of graduate coursework.",
+      "units": "5",
+      "description": "Students will be required to pass an oral examination of an article length essay (8,000) or project on their major field under the supervision of a faculty member of the department. For details on the format of the examination, students should consult the History website. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6764",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "814",
+      "code": "HIST 814",
+      "section": "G100",
+      "title": "Historical Methods",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 810,
+          "displayStart": "10:30 AM",
+          "displayEnd": "1:30 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "3/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/814/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/814/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:09.728Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2840",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "815",
+      "code": "HIST 815",
+      "section": "G100",
+      "title": "Professional Workshop",
+      "instructors": [
+        "Sedra, Paul"
+      ],
+      "instructor": "Sedra, Paul",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "3/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/815/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/815/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:10.026Z",
+      "units": "5",
+      "description": "Students will be provided with support towards professional development, networking and research interests. Includes topics on research skill development, grant writing, academic and public dissemination of work, practical tips for career advancement and presentations of works in progress. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2841",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "860",
+      "code": "HIST 860",
+      "section": "G100",
+      "title": "Comprehensive Field 1",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "3/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/860/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/860/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:11.083Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2842",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "860",
+      "code": "HIST 860",
+      "section": "G200",
+      "title": "Comprehensive Field 1",
+      "instructors": [
+        "Kuehn, Thomas"
+      ],
+      "instructor": "Kuehn, Thomas",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/860/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/860/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:10.627Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3183",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "861",
+      "code": "HIST 861",
+      "section": "G100",
+      "title": "Comprehensive Field 2",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "2/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/861/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/861/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:11.082Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2843",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "861",
+      "code": "HIST 861",
+      "section": "G200",
+      "title": "Comprehensive Field 2",
+      "instructors": [
+        "Kuehn, Thomas"
+      ],
+      "instructor": "Kuehn, Thomas",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "1/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/861/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/861/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:11.232Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3184",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "862",
+      "code": "HIST 862",
+      "section": "G100",
+      "title": "Comprehensive Field 3",
+      "instructors": [
+        "Doxiadis, Evdoxios"
+      ],
+      "instructor": "Doxiadis, Evdoxios",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 3,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "3/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/862/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/862/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:11.542Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2844",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "862",
+      "code": "HIST 862",
+      "section": "G200",
+      "title": "Comprehensive Field 3",
+      "instructors": [
+        "Kuehn, Thomas"
+      ],
+      "instructor": "Kuehn, Thomas",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/862/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/862/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:11.825Z",
+      "units": "6",
+      "description": "A requirement for all PhD students, this course is based on a reading list of the equivalent of 40 to 45 books agreed upon by the student and faculty field supervisor in the first semester of study. Students cover the material on these lists through a structured reading program in order to demonstrate scholarly proficiency in a specific field of historical inquiry determined by the student and the student's supervisory committee. The assessment of scholarly proficiency takes the form of a written and oral examination to be scheduled in the fourth semester of study. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3185",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "888",
+      "code": "HIST 888",
+      "section": "G100",
+      "title": "Indigenous Peoples",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "1/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/888/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/888/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:12.127Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6928",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "897",
+      "code": "HIST 897",
+      "section": "G100",
+      "title": "Supervised Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/897/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:12.431Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2845",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "897",
+      "code": "HIST 897",
+      "section": "G200",
+      "title": "Supervised Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/897/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/897/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:12.730Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3186",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "897",
+      "code": "HIST 897",
+      "section": "G300",
+      "title": "Supervised Readings",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 1,
+        "waitlistCount": 0,
+        "raw": "0/1"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/897/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/897/g300",
+      "outlineRetrievedAt": "2026-10-10T13:57:13.030Z",
+      "units": "5",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3187",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "898",
+      "code": "HIST 898",
+      "section": "G100",
+      "title": "MA Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 6,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "6/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/898/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:15.983Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2848",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "898",
+      "code": "HIST 898",
+      "section": "G200",
+      "title": "MA Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 2,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "2/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/898/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:13.625Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2846",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "899",
+      "code": "HIST 899",
+      "section": "G100",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 4,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "4/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/899/g100",
+      "outlineRetrievedAt": "2026-10-10T13:57:13.923Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2849",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "899",
+      "code": "HIST 899",
+      "section": "G200",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/899/g200",
+      "outlineRetrievedAt": "2026-10-10T13:57:15.995Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "2847",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "HIST",
+      "courseNumber": "899",
+      "code": "HIST 899",
+      "section": "G300",
+      "title": "PhD Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 1,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "1/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=HIST",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/hist/899/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/hist/899/g300",
+      "outlineRetrievedAt": "2026-10-10T13:57:14.521Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6933",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    }
+  ]
+}

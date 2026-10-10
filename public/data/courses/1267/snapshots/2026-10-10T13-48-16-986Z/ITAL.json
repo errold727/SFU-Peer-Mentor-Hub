@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "ITAL",
+      "courseNumber": "100",
+      "code": "ITAL 100",
+      "section": "B100",
+      "title": "Intro Italian I",
+      "instructors": [
+        "Del Torto, Sonia"
+      ],
+      "instructor": "Del Torto, Sonia",
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 24,
+        "capacity": 29,
+        "waitlistCount": 0,
+        "raw": "24/29"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=ITAL",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/ital/100/b100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/ital/100/b100",
+      "outlineRetrievedAt": "2026-10-10T13:59:05.470Z",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Introduction to Italian for students with no previous background in the language. Introduces basic oral and written skills, and cultural competence. (A1 level of CEFR). Students with previous Italian training should contact the department for assessment and placement.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6153",
+      "deliveryMethod": "Blended",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

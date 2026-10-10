@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "PUNJ",
+      "courseNumber": "110",
+      "code": "PUNJ 110",
+      "section": "D900",
+      "title": "Introductory Punjabi II",
+      "instructors": [
+        "Sessional"
+      ],
+      "instructor": "Sessional",
+      "campus": "Surrey",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "TUT"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "18/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=PUNJ",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/punj/110/d900",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/punj/110/d900",
+      "outlineRetrievedAt": "2026-10-10T14:02:23.005Z",
+      "prerequisiteText": "PUNJ 100 or equivalent.",
+      "units": "3",
+      "designation": "Breadth-Humanities",
+      "description": "Follow PUNJ 100. Students who have a basic knowledge of Punjabi (Gurmukhi) script will learn to further develop their ability to speak, comprehend, read and write Punjabi while exploring the Punjabi culture.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6521",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "TUT"
+    }
+  ]
+}

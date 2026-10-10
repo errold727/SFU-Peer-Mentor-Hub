@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-10T14:03:50.791Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "346",
+      "code": "NUSC 346",
+      "section": "D100",
+      "title": "Radiochemistry Lab",
+      "instructors": [
+        "Starosta, Krzysztof"
+      ],
+      "instructor": "Starosta, Krzysztof",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 16,
+        "waitlistCount": 0,
+        "raw": "0/16"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/346/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/346/d100",
+      "outlineRetrievedAt": "2026-10-10T14:16:13.362Z",
+      "prerequisiteText": "NUSC 341 with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Techniques of radiochemistry including safe handling of radioisotopes, safety and decontamination of radiochemistry workspaces, synthesis and separation of labeled compounds, radiation detection and measurements, beta-, gamma-, and alpha-spectroscopy, principles of data analysis from nuclear decay measurements, and identification of isotopes based on measured energy spectra and decay rate constants.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4261",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "444",
+      "code": "NUSC 444",
+      "section": "D100",
+      "title": "Special Topics Nuclear Science",
+      "instructors": [
+        "Andreoiu, Corina",
+        "Kreis, Uwe"
+      ],
+      "instructor": "Andreoiu, Corina; Kreis, Uwe",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "CHEM 842 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/444/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/444/d100",
+      "outlineRetrievedAt": "2026-10-10T14:16:13.660Z",
+      "prerequisiteText": "NUSC 342 or 442, with a minimum grade of C- or permission of the Department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Advanced topics in nuclear science.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4276",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "481",
+      "code": "NUSC 481",
+      "section": "D001",
+      "title": "Undergraduate Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/481/d001",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/481/d001",
+      "outlineRetrievedAt": "2026-10-10T14:16:13.991Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4270",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "481",
+      "code": "NUSC 481",
+      "section": "D002",
+      "title": "Undergraduate Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/481/d002",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/481/d002",
+      "outlineRetrievedAt": "2026-10-10T14:16:14.264Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4271",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "481",
+      "code": "NUSC 481",
+      "section": "D003",
+      "title": "Undergraduate Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/481/d003",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/481/d003",
+      "outlineRetrievedAt": "2026-10-10T14:16:14.555Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "5",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4272",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "482",
+      "code": "NUSC 482",
+      "section": "D001",
+      "title": "Directed Study Nuclear Science",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/482/d001",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/482/d001",
+      "outlineRetrievedAt": "2026-10-10T14:16:14.868Z",
+      "prerequisiteText": "Permission of the Department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading in a topic chosen in consultation with a supervisor. Admission requires selection of a faculty supervisor and submission of a study topic to the department at least one month prior to the start of the term in which the course will be taken. Normally taken during the fourth year of study.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4264",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "482",
+      "code": "NUSC 482",
+      "section": "D002",
+      "title": "Directed Study Nuclear Science",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/482/d002",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/482/d002",
+      "outlineRetrievedAt": "2026-10-10T14:16:15.161Z",
+      "prerequisiteText": "Permission of the Department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading in a topic chosen in consultation with a supervisor. Admission requires selection of a faculty supervisor and submission of a study topic to the department at least one month prior to the start of the term in which the course will be taken. Normally taken during the fourth year of study.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4265",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "482",
+      "code": "NUSC 482",
+      "section": "D003",
+      "title": "Directed Study Nuclear Science",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/482/d003",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/482/d003",
+      "outlineRetrievedAt": "2026-10-10T14:16:15.468Z",
+      "prerequisiteText": "Permission of the Department.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Directed reading in a topic chosen in consultation with a supervisor. Admission requires selection of a faculty supervisor and submission of a study topic to the department at least one month prior to the start of the term in which the course will be taken. Normally taken during the fourth year of study.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4266",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "484",
+      "code": "NUSC 484",
+      "section": "D001",
+      "title": "Two-Term UG Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/484/d001",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/484/d001",
+      "outlineRetrievedAt": "2026-10-10T14:16:15.764Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "10",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4273",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "484",
+      "code": "NUSC 484",
+      "section": "D002",
+      "title": "Two-Term UG Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/484/d002",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/484/d002",
+      "outlineRetrievedAt": "2026-10-10T14:16:16.058Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "10",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4274",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "NUSC",
+      "courseNumber": "484",
+      "code": "NUSC 484",
+      "section": "D003",
+      "title": "Two-Term UG Research",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 2,
+        "waitlistCount": 0,
+        "raw": "0/2"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=NUSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/nusc/484/d003",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/nusc/484/d003",
+      "outlineRetrievedAt": "2026-10-10T14:16:16.360Z",
+      "prerequisiteText": "Permission of the department; knowledge of nuclear science at an advanced level. Normally taken after completion of 300-level course requirements.",
+      "units": "10",
+      "designation": "N/A",
+      "description": "Experimental and/or theoretical research; preparation of a written report and oral presentation in research seminar format. Admission requires selection of a faculty supervisor and submission of a research proposal. Prospective students must contact the chemistry advisor to register their interest in this course before the last day of classes of the previous term. The research proposal is due by the end of the examination period preceding the research term.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "4275",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

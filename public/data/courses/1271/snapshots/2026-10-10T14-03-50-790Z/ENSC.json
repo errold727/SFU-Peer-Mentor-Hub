@@ -1,0 +1,3459 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1271",
+  "snapshotAt": "2026-10-10T14:03:50.791Z",
+  "courses": [
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "180",
+      "code": "ENSC 180",
+      "section": "D100",
+      "title": "Introduction to Engineering An",
+      "instructors": [
+        "Stewart, Matthew"
+      ],
+      "instructor": "Stewart, Matthew",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 240,
+        "waitlistCount": 0,
+        "raw": "0/240"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/180/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/180/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:49.460Z",
+      "prerequisiteText": "ENSC 151 and (MATH 151 or MATH 150), all with a minimum grade of C-. Corequisite: MATH 152 and MATH 232.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Introduction to MATLAB and its use in engineering. Implementation, verification, and analysis of various engineering algorithms used in signal and image processing, robotics, communications engineering.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3678",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "194",
+      "code": "ENSC 194",
+      "section": "D100",
+      "title": "Optional Job Practicum",
+      "instructors": [
+        "Eftenaru, Cristina"
+      ],
+      "instructor": "Eftenaru, Cristina",
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/194/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/194/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:49.751Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship of a non-technical nature. May be taken at any point during the program but will not count toward one of the three mandatory co-op work terms. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3694",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "195",
+      "code": "ENSC 195",
+      "section": "D100",
+      "title": "Industrial Internship I",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 35,
+        "waitlistCount": 0,
+        "raw": "0/35"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/195/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/195/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:50.055Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First four month internship in industry. Credit is given as pass/withdraw/fail (P/W/F) only, based on the employer's and co-operative education co-ordinator's evaluations. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3695",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "195",
+      "code": "ENSC 195",
+      "section": "D200",
+      "title": "Industrial Internship I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": false
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "195",
+      "code": "ENSC 195",
+      "section": "I100",
+      "title": "Industrial Internship I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/195/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/195/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:50.652Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "First four month internship in industry. Credit is given as pass/withdraw/fail (P/W/F) only, based on the employer's and co-operative education co-ordinator's evaluations. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3697",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "196",
+      "code": "ENSC 196",
+      "section": "D100",
+      "title": "Special Internship I",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/196/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/196/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:50.959Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Prior approval of Internship Co-ordinator required. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3698",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "196",
+      "code": "ENSC 196",
+      "section": "D200",
+      "title": "Special Internship I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/196/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/196/d200",
+      "outlineRetrievedAt": "2026-10-10T14:10:51.254Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Prior approval of Internship Co-ordinator required. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3699",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "196",
+      "code": "ENSC 196",
+      "section": "I100",
+      "title": "Special Internship I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/196/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/196/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:51.658Z",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Prior approval of Internship Co-ordinator required. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3700",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "225",
+      "code": "ENSC 225",
+      "section": "D100",
+      "title": "Microelectronics I",
+      "instructors": [
+        "Shokoufi, Majid"
+      ],
+      "instructor": "Shokoufi, Majid",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/225/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/225/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:51.926Z",
+      "prerequisiteText": "(ENSC 220 or MSE 250 or SEE 230), MATH 232, and (MATH 260 or MATH 310), all with a minimum grade of C-.",
+      "units": "4",
+      "designation": "Quantitative",
+      "description": "Introduces the fundamentals of electronic devices with applications to active electronic circuits. Topics include physical structure and terminal characteristics of diodes and transistors; application of large and small signal device models in elementary amplifiers, current mirrors, and bias networks; behavioural models and frequency limitations of operational amplifiers.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3903",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "295",
+      "code": "ENSC 295",
+      "section": "D100",
+      "title": "Industrial Internship II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/295/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/295/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:52.225Z",
+      "prerequisiteText": "ENSC 195 or 196.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3701",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "295",
+      "code": "ENSC 295",
+      "section": "D200",
+      "title": "Industrial Internship II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/295/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/295/d200",
+      "outlineRetrievedAt": "2026-10-10T14:10:52.456Z",
+      "prerequisiteText": "ENSC 195 or 196.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3702",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "295",
+      "code": "ENSC 295",
+      "section": "I100",
+      "title": "Industrial Internship II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/295/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/295/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:52.890Z",
+      "prerequisiteText": "ENSC 195 or 196.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Second four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3703",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "296",
+      "code": "ENSC 296",
+      "section": "D100",
+      "title": "Special Internship II",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/296/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/296/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:53.147Z",
+      "prerequisiteText": "ENSC 195 or 196 and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3704",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "296",
+      "code": "ENSC 296",
+      "section": "D200",
+      "title": "Special Internship II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/296/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/296/d200",
+      "outlineRetrievedAt": "2026-10-10T14:10:53.430Z",
+      "prerequisiteText": "ENSC 195 or 196 and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3705",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "296",
+      "code": "ENSC 296",
+      "section": "I100",
+      "title": "Special Internship II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/296/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/296/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:53.723Z",
+      "prerequisiteText": "ENSC 195 or 196 and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3706",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "325",
+      "code": "ENSC 325",
+      "section": "E100",
+      "title": "Microelectronics II",
+      "instructors": [
+        "Shokoufi, Majid"
+      ],
+      "instructor": "Shokoufi, Majid",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 94,
+        "waitlistCount": 0,
+        "raw": "0/94"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/325/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/325/e100",
+      "outlineRetrievedAt": "2026-10-10T14:10:53.952Z",
+      "prerequisiteText": "ENSC 225 or ENSC 226 or MSE 251, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course introduces Students to analog integrated circuit design in the context of modern silicon integrated circuits technology. Topics included: integrated circuit technology and design tools; integrated component characteristics and limitations, differential amplifiers; multi stage amplifiers; feedback amplifiers; stability and frequency compensation; integrated operational amplifiers; bipolar and MOS digital circuits; analog aspects of digital electronics.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3679",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "327",
+      "code": "ENSC 327",
+      "section": "D100",
+      "title": "Communication System",
+      "instructors": [
+        "Vaughan, Rodney"
+      ],
+      "instructor": "Vaughan, Rodney",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 150,
+        "waitlistCount": 0,
+        "raw": "0/150"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/327/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/327/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:54.256Z",
+      "prerequisiteText": "(ENSC 380 or MSE 280) and ENSC 280, all with a minimum grade of C-. Students who completed STAT 270 prior to Spring 2015 may use STAT 270 instead of ENSC 280.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course represents and introduction to analog and digital communications systems. The main topics are: a review of Fourier Transform; the representation of bandpass signals; random signals in communications, including stationarity, ergodicity, correlation, power spectra and noise; amplitude and frequency modulation; circuits and techniques for modulation and demodulation; frequency division multiplexing; baseband digital communication; time division and multiplexing; an introduction to basic digital modulation schemes such as BPSK, FSK and QPSK. Laboratory work is included in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3680",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "350",
+      "code": "ENSC 350",
+      "section": "D100",
+      "title": "Digital Syst.Design",
+      "instructors": [
+        "One, Lakshman"
+      ],
+      "instructor": "One, Lakshman",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 90,
+        "waitlistCount": 0,
+        "raw": "0/90"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/350/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/350/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:54.638Z",
+      "prerequisiteText": "(ENSC 215 and either ENSC 250 or CMPT 250) or (ENSC 252 and ENSC 254), all with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Presents advanced topics in digital design such as advanced state machine concepts, asynchronous design, hardware description languages, bus interfacing and DSP architecture. It also covers both the architecture and programming or field programmable logic devices. Some laboratory work is expected.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3681",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "383",
+      "code": "ENSC 383",
+      "section": "D100",
+      "title": "Feedback Control",
+      "instructors": [
+        "Gupta, Kamal"
+      ],
+      "instructor": "Gupta, Kamal",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 115,
+        "waitlistCount": 0,
+        "raw": "0/115"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/383/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/383/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:54.946Z",
+      "prerequisiteText": "ENSC 380 (or MSE 280), with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course is an introduction to the analysis, design, and applications of continuous time linear control systems. Topics include transfer function representation of open and closed loop systems, time domain specifications and steady state error, sensitivity analysis, time and frequency response, and stability criteria. It includes a treatment of methods for the analysis of control systems based on the root locus, Bode plots and Nyquist criterion, and their use in the design of PID, and lead-lag compensation. Lab work is included in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3682",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "386",
+      "code": "ENSC 386",
+      "section": "D100",
+      "title": "Mechanical Design",
+      "instructors": [
+        "Payandeh, Shahram"
+      ],
+      "instructor": "Payandeh, Shahram",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/386/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/386/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:55.231Z",
+      "prerequisiteText": "PHYS 120, (MATH 260 or MATH 310), and (ENSC 281 or ENSC 385), all with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course presents the elements and principles involved in design and analysis of basic mechanical structures and mechanisms. Mechanical elements such as gears, cams and bearings and fundamental relationships between the forces and corresponding motion or deflection are investigated through examples and experiments. This background can then be used in the design, analysis and development of computer controlled machines such as robotic devices.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3707",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "387",
+      "code": "ENSC 387",
+      "section": "D100",
+      "title": "Sensors and Actuators",
+      "instructors": [
+        "Adachi, Michael"
+      ],
+      "instructor": "Adachi, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 55,
+        "waitlistCount": 0,
+        "raw": "0/55"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/387/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/387/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:55.452Z",
+      "prerequisiteText": "ENSC 380 or MSE 280, with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "This course provides an introduction to sensors and actuators for electromechanical, computer-controlled machines and devices. Topics include operating principles, design considerations, and applications of analog sensors, digital transducers, stepper motors, continuous-drive actuators, and drive system electronics. Component integration and design considerations are studied through examples selected from applications of machine tools, mechatronics, precision machines, robotics, aerospace systems, and ground and underwater vehicles. Laboratory exercises strengthen the understanding of component performance, system design and integration.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3708",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "395",
+      "code": "ENSC 395",
+      "section": "D100",
+      "title": "Industrial Internship III",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "0/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/395/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/395/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:55.819Z",
+      "prerequisiteText": "ENSC 295 or 296 and a minimum of 75 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3731",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "395",
+      "code": "ENSC 395",
+      "section": "D200",
+      "title": "Industrial Internship III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/395/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/395/d200",
+      "outlineRetrievedAt": "2026-10-10T14:10:56.057Z",
+      "prerequisiteText": "ENSC 295 or 296 and a minimum of 75 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3732",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "395",
+      "code": "ENSC 395",
+      "section": "I100",
+      "title": "Industrial Internship III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/395/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/395/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:56.432Z",
+      "prerequisiteText": "ENSC 295 or 296 and a minimum of 75 units.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Third four month internship in industry. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3733",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "396",
+      "code": "ENSC 396",
+      "section": "D100",
+      "title": "Special Internship III",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "0/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/396/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/396/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:56.819Z",
+      "prerequisiteText": "ENSC 295 or 296, a minimum of 75 units and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Approved entrepreneurial projects will also be accepted. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3734",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "396",
+      "code": "ENSC 396",
+      "section": "D200",
+      "title": "Special Internship III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 25,
+        "waitlistCount": 0,
+        "raw": "0/25"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/396/d200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/396/d200",
+      "outlineRetrievedAt": "2026-10-10T14:10:57.025Z",
+      "prerequisiteText": "ENSC 295 or 296, a minimum of 75 units and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Approved entrepreneurial projects will also be accepted. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3735",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "396",
+      "code": "ENSC 396",
+      "section": "I100",
+      "title": "Special Internship III",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+          ],
+          "startMinutes": 480,
+          "endMinutes": 1200,
+          "displayStart": "8:00 AM",
+          "displayEnd": "8:00 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "COP"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/396/i100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/396/i100",
+      "outlineRetrievedAt": "2026-10-10T14:10:57.367Z",
+      "prerequisiteText": "ENSC 295 or 296, a minimum of 75 units and approval of internship co-ordinator required.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Four month internship in industry or university research environment. Approved entrepreneurial projects will also be accepted. Credit is awarded as in ENSC 195. Units from this course do not count towards the units required for an SFU degree.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3736",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "COP"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "405W",
+      "code": "ENSC 405W",
+      "section": "D100",
+      "title": "Capstone A",
+      "instructors": [
+        "Hegedus, Michael"
+      ],
+      "instructor": "Hegedus, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 78,
+        "waitlistCount": 0,
+        "raw": "0/78"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/405w/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/405w/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:57.717Z",
+      "prerequisiteText": "(ENSC 105W or MSE 101W), ENSC 204, all with a minimum grade of C-, completion of a minimum of 22 units of required upper division ENSC courses, and completion of (or concurrent enrollment in) two upper division technical electives meeting the requirements of the program. Students are required to complete at least two co-ops before enrolling in ENSC 440 Capstone B. Capstone B must be taken in the term immediately following Capstone A. Enrollment into Capstone A is by approval of the department via Capstone application form.",
+      "units": "3",
+      "designation": "Writing",
+      "description": "This is the first course in a group-based, two-course capstone sequence: ENSC 405W, ENSC 440. Topics include group writing processes, project documentation and engineering design, group dynamics, engineering standards, project management, dispute resolution, intellectual property, entrepreneurship, and user interface design. These groups will be maintained for the completion of the capstone project in ENSC 440. Students must take ENSC 440 in the term directly following successful completion of ENSC 405W.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3712",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "406",
+      "code": "ENSC 406",
+      "section": "D100",
+      "title": "Eng.Ethics,Law,Prof.Practice",
+      "instructors": [
+        "Hegedus, Michael"
+      ],
+      "instructor": "Hegedus, Michael",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 570,
+          "endMinutes": 620,
+          "displayStart": "9:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 200,
+        "waitlistCount": 0,
+        "raw": "0/200"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/406/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/406/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:57.868Z",
+      "prerequisiteText": "100 units including one of ENSC 100, ENSC 106, CMPT 106, or MSE 102, with a minimum grade of C-.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "Provides an introduction to the engineering profession, professional practice, engineering law and ethics, including the issues of worker and public safety. It also offers opportunities to explore the social implications and environmental impacts of technologies, including sustainability, and to consider engineers' responsibility to society. Special emphasis will be on technical communication skills. This course helps students successfully negotiate the transition to a professional career.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3719",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "410",
+      "code": "ENSC 410",
+      "section": "D100",
+      "title": "The Business of Engineering",
+      "instructors": [
+        "Payandeh, Shahram"
+      ],
+      "instructor": "Payandeh, Shahram",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 140,
+        "waitlistCount": 0,
+        "raw": "0/140"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/410/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/410/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:58.259Z",
+      "prerequisiteText": "A minimum of 80 units is required to enroll in this course.",
+      "units": "3",
+      "designation": "N/A",
+      "description": "This course covers the business, management and entrepreneurial concepts that are important to engineers who manage projects, run businesses, or need to decide on the most efficient method for accomplishing a task. The topics to be covered include: financial accounting, rates of return, taxes, cost-benefit analyses, marketing, financing methods, and business plans.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3709",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "413",
+      "code": "ENSC 413",
+      "section": "D100",
+      "title": "Deep Learning Systems",
+      "instructors": [
+        "Beg, Faisal"
+      ],
+      "instructor": "Beg, Faisal",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 813 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/413/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/413/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:58.456Z",
+      "prerequisiteText": "MATH 251, ENSC 280, ENSC 351, ENSC 380, all with a minimum grade of B.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Machine learning basics, generalization theory, training, validation, and testing. Introduction to artificial neural networks: feedforward, convolutional, recurrent networks. Types of layers in deep models. Architectural and memory calculations. Regularization and optimization. Hardware architectures for deep learning. The course culminates in a major project focusing on engineering applications of deep learning.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3710",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "414",
+      "code": "ENSC 414",
+      "section": "E100",
+      "title": "SAR and InSAR Applications",
+      "instructors": [
+        "Rabus, Bernhard"
+      ],
+      "instructor": "Rabus, Bernhard",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 812 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/414/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/414/e100",
+      "outlineRetrievedAt": "2026-10-10T14:10:58.764Z",
+      "prerequisiteText": "MATH 251, ENSC 316 and permission of instructor.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Principles of synthetic aperture radar (SAR) and interferometric SAR (InSAR) remote sensing and its applications. Overview of basic theory, linking SAR with related coherent imaging techniques (e.g. optical holography). Understanding capabilities and limitations of complex SAR data and their key land and marine applications. Main focus is on InSAR methods and their Earth science monitoring and detection applications.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3713",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "416",
+      "code": "ENSC 416",
+      "section": "D100",
+      "title": "Engin. Electromag. II: Design",
+      "instructors": [
+        "Sederberg, Shawn"
+      ],
+      "instructor": "Sederberg, Shawn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/416/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/416/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:59.987Z",
+      "prerequisiteText": "ENSC 316 and MATH 254, both with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Introduction to boundary value problems, intermediate description of waves. Differential and integral forms of Maxwell equations. Transmission lines, co-axial cables, optical waveguides: antennas, Smith charts. Design of impedance matching networks. Reflection and transmission in complex networks. Cross-talk and interference in circuits.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3711",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "425",
+      "code": "ENSC 425",
+      "section": "E100",
+      "title": "Electronic System Design",
+      "instructors": [
+        "One, Lakshman"
+      ],
+      "instructor": "One, Lakshman",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/425/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/425/e100",
+      "outlineRetrievedAt": "2026-10-10T14:10:59.424Z",
+      "prerequisiteText": "ENSC 320, ENSC 325, (ENSC 380 or MSE 280), all with a minimum grade of C- and a minimum of 80 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "The principles and processes involved in designing analog circuits, emphasizing the functional blocks that comprise subsystems of a larger analog signal processing system. Topics include linear and nonlinear amplifiers, active filters, signal generators, signal modulators, switchmode power converters and analog/digital data conversion. The effects of non-ideal aspects of IC operational amplifiers on system performance are discussed and verified using laboratory projects. Students should be familiar with the behaviour and application of discrete semiconductor devices.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3765",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "427",
+      "code": "ENSC 427",
+      "section": "E100",
+      "title": "Cmns Networks",
+      "instructors": [
+        "Trajkovic, Ljiljana"
+      ],
+      "instructor": "Trajkovic, Ljiljana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 30,
+        "waitlistCount": 0,
+        "raw": "0/30"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 894 G3"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/427/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/427/e100",
+      "outlineRetrievedAt": "2026-10-10T14:10:59.659Z",
+      "prerequisiteText": "ENSC 327 with a minimum grade of C-. A minimum of 80 units required.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Quantitative performance analysis and design of data and integrated services networks. Re-transmission error recovery schemes, networks of queues, congestion control, routing strategies. Multiple access techniques in data networks, design for specified throughput and delay performance. Wireless networks, routing approaches in mobile networks. Analysis and design of broadband integrated services digital networks, asynchronous time division multiplexing. Laboratory work is included in this course.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3737",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "450",
+      "code": "ENSC 450",
+      "section": "D100",
+      "title": "VLSI Systems Design",
+      "instructors": [
+        "Stewart, Matthew"
+      ],
+      "instructor": "Stewart, Matthew",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 75,
+        "waitlistCount": 0,
+        "raw": "0/75"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/450/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/450/d100",
+      "outlineRetrievedAt": "2026-10-10T14:10:59.952Z",
+      "prerequisiteText": "(ENSC 225 or MSE 251 or SEE 231) and ENSC 350, all with a minimum grade of C- and a minimum of 80 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "An introduction to the design of Very Large Scale Integrated (VLSI) circuits and systems (System-on-Chip, SoC) using mainly CMOS technology. SoC design techniques and applications will be covered. Basic topics will include: CMOS technology and circuit layout rules; combinational and sequential logic; logic simulation; systems design; design for verification and testability; and embedded-processor design and application. An advanced digital design flow based on the VHDL hardware description language will be introduced and exercised in the labs.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3738",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "452",
+      "code": "ENSC 452",
+      "section": "D100",
+      "title": "Advanced Digital System",
+      "instructors": [
+        "Shannon, Lesley"
+      ],
+      "instructor": "Shannon, Lesley",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 48,
+        "waitlistCount": 0,
+        "raw": "0/48"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 894 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/452/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/452/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:00.260Z",
+      "prerequisiteText": "ENSC 350 and 351, with a minimum grade of C- and a minimum of 80 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Digital system design considerations including methodologies, specification, SoC partitioning, fault tolerance, design reuse, debugging and verification.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3739",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "453",
+      "code": "ENSC 453",
+      "section": "D100",
+      "title": "Prog. for Hetero. Cmpt. Sys.",
+      "instructors": [
+        "Li, Yingjie"
+      ],
+      "instructor": "Li, Yingjie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 60,
+        "waitlistCount": 0,
+        "raw": "0/60"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 845 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/453/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/453/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:00.553Z",
+      "prerequisiteText": "ENSC 350 and ENSC 351, both with a minimum grade of C-.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "The computing industry has been actively exploring specialized and programmable hardware accelerators, such as GPUs and FPGAs, to bring orders-of-magnitude performance and energy gains for important application domains. This course covers fundamental concepts, designs, and programming of heterogeneous computing systems, including multicore CPUs, GPUs, and FPGAs.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3750",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "474",
+      "code": "ENSC 474",
+      "section": "D100",
+      "title": "Digital/Medical Image Process",
+      "instructors": [
+        "Saeedi, Parvaneh"
+      ],
+      "instructor": "Saeedi, Parvaneh",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 45,
+        "waitlistCount": 0,
+        "raw": "0/45"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 895 G2"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/474/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/474/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:01.021Z",
+      "prerequisiteText": "((ENSC 180 and ENSC 251) or CMPT 225) with a minimum grade of C- and a minimum of 80 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Develops signal processing techniques of wide applicability, presented in the context of processing and analysis of digital images, in particular 2D and3D biomedical images. Covers acquisition, formation and representation of digital images, filtering, enhancement and restoration in both spatial and frequency domains, image segmentation, image registration, and discrete image transforms.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3740",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "475",
+      "code": "ENSC 475",
+      "section": "E100",
+      "title": "Biomedical Instrumentation",
+      "instructors": [
+        "Gray, Bonnie"
+      ],
+      "instructor": "Gray, Bonnie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 16,
+        "waitlistCount": 0,
+        "raw": "0/16"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 875 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/475/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/475/e100",
+      "outlineRetrievedAt": "2026-10-10T14:11:01.152Z",
+      "prerequisiteText": "(ENSC 225 or MSE 251), ENSC 320, (ENSC 380 or MSE 280), all with a minimum grade of C- and a minimum of 80 units. ENSC 380/MSE 280 can be taken concurrently.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Instrumentation techniques for measuring common physiological signals. Bioelectric and biochemical sensors. Biostimulation. Electronic design issues: electrical safety, signal conditioning and protection against noise, digital signal acquisition. Live subject ethical considerations. Laboratory work to include use of data acquisition packages in conjunction with various sensors, as well as design and construction of a full signal acquisition chain, from sensor to RAM.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3741",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "488",
+      "code": "ENSC 488",
+      "section": "D100",
+      "title": "Intro.To Robotics",
+      "instructors": [
+        "Gupta, Kamal"
+      ],
+      "instructor": "Gupta, Kamal",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 50,
+        "waitlistCount": 0,
+        "raw": "0/50"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 884 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/488/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/488/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:01.451Z",
+      "prerequisiteText": "(ENSC 230 or ENSC 386) and (ENSC 383 or MSE 381), all with a minimum grade of C- and 80 units.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Fundamentals of robotics: mathematical representation of kinematics, dynamics and compliance. Planning and execution of robot trajectories. Feedback from the environment: use of sensors and machine vision. A brief introduction to robot languages. Different application domains for manipulator robots, e.g., assembly, manufacturing, etc.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3742",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "495",
+      "code": "ENSC 495",
+      "section": "E100",
+      "title": "Microelectronic Fabrication",
+      "instructors": [
+        "Chapman, Glenn"
+      ],
+      "instructor": "Chapman, Glenn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 851 G1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/495/e100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/495/e100",
+      "outlineRetrievedAt": "2026-10-10T14:11:01.829Z",
+      "prerequisiteText": "ENSC 225 or MSE 251 or PHYS 365 or SEE 231, with a minimum grade of C- and permission of the instructor and a minimum of 80 units. Enrollment in this course is by application only.",
+      "units": "4",
+      "designation": "N/A",
+      "description": "Lectures provide the theory of integrated circuit fabrication. Students fabricate diodes, transistors and test structures in the laboratory. Topics: clean room practice, thermal oxidation and diffusion, photolithography, thin film deposition, etching, ion implantation, packaging, CMOS and bipolar processes.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3743",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "498",
+      "code": "ENSC 498",
+      "section": "D100",
+      "title": "Eng Sci Thesis Proposal",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/498/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/498/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:02.053Z",
+      "prerequisiteText": "At least 115 units or permission of the academic supervisor.",
+      "units": "1",
+      "designation": "N/A",
+      "description": "Supervised study, research and preliminary work leading to a formal proposal for the thesis project work in ENSC 499. This activity can be directly augmented by other course work and by directed study. The locale of the work may be external to the University or within a University laboratory, or may bridge the two locations. Supervision may be by technical personnel at an external organization, or by faculty members, or through some combination. At least one of the supervisors must be a registered professional engineer. A plan for the student's ENSC 498 activities must be submitted to the school at the time of enrolment in the course. Completion of the undergraduate thesis project proposal is the formal requirement of this course and the basis upon which it is graded. Grading will be on a pass/fail basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3748",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "499",
+      "code": "ENSC 499",
+      "section": "D100",
+      "title": "Eng Sc Undergraduate Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/499/d100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/499/d100",
+      "outlineRetrievedAt": "2026-10-10T14:11:02.360Z",
+      "prerequisiteText": "ENSC 498 with a minimum grade of P.",
+      "units": "9",
+      "designation": "N/A",
+      "description": "A thesis is based on the research or development project that incorporates a significant level of engineering design. This work is typically undertaken in the student's final year, but in no case before the student has completed 115 units. Registration for ENSC 499 takes place in the term in which the thesis will be presented and defended. The locale of the work, supervision and other arrangements follow those for ENSC 498. Grading of the thesis will be on a pass/fail basis, but recognition will be given to outstanding work.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3749",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "704",
+      "code": "ENSC 704",
+      "section": "G100",
+      "title": "Industrial Internship",
+      "instructors": [],
+      "campus": "Vancouver",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/704/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/704/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:02.662Z",
+      "prerequisiteText": "12 units of ENSC course work at the 800-level or higher with an SFU CGPA of at least 3.0. Approval of supervisor and a GPC representative is required prior to applying for, and accepting an internship.",
+      "units": "3",
+      "description": "The first term of an internship in industry or a research environment for MASc, PhD and MEng students. A final report will be submitted and graded by the student's supervisor. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3746",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "704",
+      "code": "ENSC 704",
+      "section": "G200",
+      "title": "Industrial Internship",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "0/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/704/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/704/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:02.955Z",
+      "prerequisiteText": "12 units of ENSC course work at the 800-level or higher with an SFU CGPA of at least 3.0. Approval of supervisor and a GPC representative is required prior to applying for, and accepting an internship.",
+      "units": "3",
+      "description": "The first term of an internship in industry or a research environment for MASc, PhD and MEng students. A final report will be submitted and graded by the student's supervisor. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3751",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "812",
+      "code": "ENSC 812",
+      "section": "G100",
+      "title": "SAR Backscatter and In. App.",
+      "instructors": [
+        "Rabus, Bernhard"
+      ],
+      "instructor": "Rabus, Bernhard",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        },
+        {
+          "days": [
+            "Fri"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 4,
+        "waitlistCount": 0,
+        "raw": "0/4"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 414 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/812/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/812/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:03.262Z",
+      "prerequisiteText": "Permission of instructor. Recommended Prerequisite: ENSC 251, 316.",
+      "units": "3",
+      "description": "A review of the principles of Synthetic Aperture Radar (SAR) and Interferometric SAR (InSAR) Remote Sensing and its applications. An overview of the basic theory of is presented, linking SAR with related coherent imaging techniques (e.g. optical holography, MRI, and sonar/ultrasound) and providing an understanding of the capabilities and limitations of complex SAR data and their key land and marine applications. The focus is on interferometric SAR (InSAR) methods and applications, including generation of topographic maps as well as advanced time series analysis for measuring ground surface motion associated with seismic displacement, compaction related subsidence, volcanic inflation, and landslides.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3753",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "813",
+      "code": "ENSC 813",
+      "section": "G100",
+      "title": "Deep Learning Systems",
+      "instructors": [
+        "Beg, Faisal"
+      ],
+      "instructor": "Beg, Faisal",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 40,
+        "waitlistCount": 0,
+        "raw": "0/40"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 413 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/813/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/813/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:03.560Z",
+      "prerequisiteText": "Must be active in an SFU graduate program.",
+      "units": "3",
+      "description": "Covers machine learning basics, generalization theory, training, validation and testing. Introduces artificial neural networks, feedforward networks, convolutional networks, and types of layers in deep models. Provides overview of hardware architectures for deep learning: architectural and memory calculations; regularization and optimization of deep learning models. Analyzes recurrent and discursive networks. Culminates in a major project focusing on engineering applications of deep learning in signal processing, communications, biomedical engineering, robotics, or other areas.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3744",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "845",
+      "code": "ENSC 845",
+      "section": "G100",
+      "title": "Prog. for Hetero. Cmpt. Sys.",
+      "instructors": [
+        "Li, Yingjie"
+      ],
+      "instructor": "Li, Yingjie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 510,
+          "endMinutes": 620,
+          "displayStart": "8:30 AM",
+          "displayEnd": "10:20 AM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 453 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/845/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/845/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:03.853Z",
+      "prerequisiteText": "Recommended Prerequisite: ENSC 350 and ENSC 351; or taken equivalent C++ programming and digital system design courses before.",
+      "units": "3",
+      "description": "The computing industry has been actively exploring specialized and programmable hardware accelerators, such as GPUs and FPGAs, to bring orders-of-magnitude performance and energy gains for important application domains. It teaches fundamental concepts, designs, and programming of heterogeneous computing systems, including multicore CPUs, GPUs, and FPGAs.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3752",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "851",
+      "code": "ENSC 851",
+      "section": "G100",
+      "title": "Circuit Technology",
+      "instructors": [
+        "Chapman, Glenn"
+      ],
+      "instructor": "Chapman, Glenn",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 4,
+        "waitlistCount": 0,
+        "raw": "0/4"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 495 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/851/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/851/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:04.292Z",
+      "units": "3",
+      "description": "Review of semiconductor physics. Technology of semiconductor devices and integrated circuits: material evaluation, crystal growth, doping, epitaxy, thermal diffusion, ion implantation, lithography and device patterning, and thin film formation. Design and fabrication of active and passive semiconductor devices, packaging techniques and reliability of integrated circuits.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3745",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "870",
+      "code": "ENSC 870",
+      "section": "G100",
+      "title": "MEng Course Portfolio",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/870/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/870/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:04.560Z",
+      "prerequisiteText": "Students may only register for the ENSC 870-0 during their final term.",
+      "description": "Students in the course option of the MEng program develop a portfolio of their MEng graduate work. This includes a brief report submitted to the Graduate Program Committee that describes the work undertaken in each course and how the overall set of courses contributes to their areas of expertise and future careers. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3747",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "875",
+      "code": "ENSC 875",
+      "section": "G100",
+      "title": "Biomedical Instrumentation",
+      "instructors": [
+        "Gray, Bonnie"
+      ],
+      "instructor": "Gray, Bonnie",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 4,
+        "waitlistCount": 0,
+        "raw": "0/4"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 475 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/875/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/875/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:04.757Z",
+      "prerequisiteText": "Permission of instructor.",
+      "units": "4",
+      "description": "Instrumentation techniques for measuring common physiological signals. Bioelectric and biophysical sensors. Electronic design issues: electrical safety, signal conditioning and protection against noise, digital signal acquisition. Live subject ethical considerations. Laboratory work to include use of data acquisition packages in conjunction with various sensors, as well as design and construction of a full signal acquisition chain, from sensor to RAM.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3784",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "880",
+      "code": "ENSC 880",
+      "section": "G100",
+      "title": "PhD Qualifying Exam",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/880/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/880/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:05.053Z",
+      "prerequisiteText": "ENSC PhD student.",
+      "description": "Qualifying examination for admission to doctoral candidate standing in the School of Engineering Science. A written thesis proposal is to be submitted to the Supervisory Committee and presented orally no earlier than two weeks after submission. The proposal's defence will be judged according to the feasibility and scientific merits of the proposed research, and demonstration of a sophisticated understanding of general material in the student's major area of research. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3771",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "884",
+      "code": "ENSC 884",
+      "section": "G100",
+      "title": "Robotics: Motion and Control I",
+      "instructors": [
+        "Gupta, Kamal"
+      ],
+      "instructor": "Gupta, Kamal",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 870,
+          "endMinutes": 980,
+          "displayStart": "2:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 488 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/884/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/884/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:05.354Z",
+      "prerequisiteText": "Recommended Prerequisite: A basic control course (ENSC 383) and basic mechanics course.",
+      "units": "3",
+      "description": "Fundamentals of robotics: mathematical representation of kinematics, dynamics and control. Planning and execution of robot trajectories. Feedback from the environment: use of sensors and machine vision. A brief introduction to robot languages. Different application domains for manipulator robots, e.g., assembly, manufacturing, etc.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3785",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "891",
+      "code": "ENSC 891",
+      "section": "G100",
+      "title": "Directed Studies I",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/891/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/891/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:05.651Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3772",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "891",
+      "code": "ENSC 891",
+      "section": "G200",
+      "title": "Directed Studies I",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/891/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/891/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:05.960Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3773",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "892",
+      "code": "ENSC 892",
+      "section": "G100",
+      "title": "Directed Studies II",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/892/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/892/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:06.257Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3774",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "892",
+      "code": "ENSC 892",
+      "section": "G200",
+      "title": "Directed Studies II",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/892/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/892/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:06.551Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3775",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "894",
+      "code": "ENSC 894",
+      "section": "G100",
+      "title": "Special Topics II",
+      "instructors": [
+        "Shannon, Lesley"
+      ],
+      "instructor": "Shannon, Lesley",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Wed",
+            "Fri"
+          ],
+          "startMinutes": 630,
+          "endMinutes": 740,
+          "displayStart": "10:30 AM",
+          "displayEnd": "12:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 6,
+        "waitlistCount": 0,
+        "raw": "0/6"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 452 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/894/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/894/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:06.856Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3768",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "894",
+      "code": "ENSC 894",
+      "section": "G300",
+      "title": "Special Topics II",
+      "instructors": [
+        "Trajkovic, Ljiljana"
+      ],
+      "instructor": "Trajkovic, Ljiljana",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "startMinutes": 990,
+          "endMinutes": 1100,
+          "displayStart": "4:30 PM",
+          "displayEnd": "6:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 427 E1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/894/g300",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/894/g300",
+      "outlineRetrievedAt": "2026-10-10T14:11:07.151Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3767",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "895",
+      "code": "ENSC 895",
+      "section": "G200",
+      "title": "Special Topics III",
+      "instructors": [
+        "Saeedi, Parvaneh"
+      ],
+      "instructor": "Saeedi, Parvaneh",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "startMinutes": 750,
+          "endMinutes": 860,
+          "displayStart": "12:30 PM",
+          "displayEnd": "2:20 PM",
+          "startDate": "2027-01-05",
+          "endDate": "2027-04-12",
+          "kind": "LEC"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": true,
+      "crosslistedWith": [
+        "ENSC 474 D1"
+      ],
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/895/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/895/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:07.459Z",
+      "units": "3",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3783",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "LEC"
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "896",
+      "code": "ENSC 896",
+      "section": "G100",
+      "title": "MEng Project (Completion)",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 15,
+        "waitlistCount": 0,
+        "raw": "0/15"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/896/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/896/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:07.747Z",
+      "units": "6",
+      "description": "Students who do not complete ENSC 897 in one term must enroll for this course in all subsequent terms. The tuition for ENSC 896 is half of that of ENSC 897. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3776",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "896",
+      "code": "ENSC 896",
+      "section": "G200",
+      "title": "MEng Project (Completion)",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 10,
+        "waitlistCount": 0,
+        "raw": "0/10"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/896/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/896/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:08.072Z",
+      "units": "6",
+      "description": "Students who do not complete ENSC 897 in one term must enroll for this course in all subsequent terms. The tuition for ENSC 896 is half of that of ENSC 897. Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3777",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "897",
+      "code": "ENSC 897",
+      "section": "G100",
+      "title": "M.Eng. Project",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/897/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/897/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:08.360Z",
+      "units": "6",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3778",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "897",
+      "code": "ENSC 897",
+      "section": "G200",
+      "title": "M.Eng. Project",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 5,
+        "waitlistCount": 0,
+        "raw": "0/5"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/897/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/897/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:08.655Z",
+      "units": "6",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3770",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "898",
+      "code": "ENSC 898",
+      "section": "G100",
+      "title": "MASc Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/898/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/898/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:08.952Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3779",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "898",
+      "code": "ENSC 898",
+      "section": "G200",
+      "title": "MASc Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/898/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/898/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:09.256Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3780",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "899",
+      "code": "ENSC 899",
+      "section": "G100",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Burnaby",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/899/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/899/g100",
+      "outlineRetrievedAt": "2026-10-10T14:11:09.553Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3781",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    },
+    {
+      "term": "Spring 2027",
+      "termCode": "1271",
+      "department": "ENSC",
+      "courseNumber": "899",
+      "code": "ENSC 899",
+      "section": "G200",
+      "title": "Ph.D. Thesis",
+      "instructors": [],
+      "campus": "Other",
+      "meetings": [],
+      "enrollment": {
+        "enrolled": 0,
+        "capacity": 100,
+        "waitlistCount": 0,
+        "raw": "0/100"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1271&subject=ENSC",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T14:03:50.791Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2027/spring/ensc/899/g200",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2027/spring/ensc/899/g200",
+      "outlineRetrievedAt": "2026-10-10T14:11:09.853Z",
+      "units": "18",
+      "description": "Graded on a satisfactory/unsatisfactory basis.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "3782",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "scheduleNote": "1 meeting block(s) have unavailable times. Check the official outline."
+    }
+  ]
+}

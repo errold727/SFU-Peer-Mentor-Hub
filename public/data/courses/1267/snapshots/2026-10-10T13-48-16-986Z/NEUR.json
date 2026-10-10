@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "termCode": "1267",
+  "snapshotAt": "2026-10-10T13:48:16.986Z",
+  "courses": [
+    {
+      "term": "Fall 2026",
+      "termCode": "1267",
+      "department": "NEUR",
+      "courseNumber": "801",
+      "code": "NEUR 801",
+      "section": "G100",
+      "title": "Systems Neuroscience",
+      "instructors": [
+        "Cooke, Dylan",
+        "Marigold, Daniel"
+      ],
+      "instructor": "Cooke, Dylan; Marigold, Daniel",
+      "campus": "Burnaby",
+      "meetings": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "startMinutes": 810,
+          "endMinutes": 980,
+          "displayStart": "1:30 PM",
+          "displayEnd": "4:20 PM",
+          "startDate": "2026-09-09",
+          "endDate": "2026-12-07",
+          "kind": "SEM"
+        }
+      ],
+      "enrollment": {
+        "enrolled": 18,
+        "capacity": 20,
+        "waitlistCount": 0,
+        "raw": "18/20"
+      },
+      "courSysUrl": "https://coursys.sfu.ca/browse/#!semester=1267&subject=NEUR",
+      "crosslisted": false,
+      "source": {
+        "courSys": true,
+        "courseOutlines": true
+      },
+      "snapshotAt": "2026-10-10T13:48:16.986Z",
+      "outlineUrl": "https://www.sfu.ca/outlines.html?2026/fall/neur/801/g100",
+      "sourceUrl": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/neur/801/g100",
+      "outlineRetrievedAt": "2026-10-10T14:00:53.841Z",
+      "units": "3",
+      "description": "Fundamental concepts related to information processing (sensing, encoding, planning, decision-making, execution) by neural circuits are discussed. Topics include: neural communication, sensorimotor control of movement, neuroplasticity, and diseases of the brain. Issues of experimental design and application of modern neuroscience methods will be integrated across these topics. Additional topics will vary depending on the year. This course can only be taken once, either during a Masters or Doctoral program.",
+      "registrarNotes": "ACADEMIC INTEGRITY: YOUR WORK, YOUR SUCCESS At SFU, you are expected to act honestly and responsibly in all your academic work. Cheating, plagiarism, or any other form of academic dishonesty harms your own learning, undermines the efforts of your classmates who pursue their studies honestly, and goes against the core values of the university. To learn more about the academic disciplinary process and relevant academic supports, visit: SFU’s Academic Integrity Policy: S10-01 Policy SFU’s Academic Integrity website, which includes helpful videos and tips in plain language: Academic Integrity at SFU RELIGIOUS ACCOMMODATION Students with a faith background who may need accommodations during the term are encouraged to assess their needs as soon as possible and review the Multifaith religious accommodations website . The page outlines ways they begin working toward an accommodation and ensure solutions can be reached in a timely fashion.",
+      "classNumber": "6404",
+      "deliveryMethod": "In Person",
+      "enrollmentSection": true,
+      "sectionType": "SEM"
+    }
+  ]
+}
