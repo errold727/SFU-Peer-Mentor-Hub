@@ -4,8 +4,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-10T13:48:16.986Z
-- Enrichment completed: 2026-10-10T14:03:50.443Z
+- CourSys snapshot: 2026-10-11T14:07:17.998Z
+- Enrichment completed: 2026-10-11T14:23:00.360Z
 - Subjects discovered/imported: 81/81
 - Course codes: 1869
 - Sections: 3034 (CourSys source total 3034)
@@ -125,7 +125,6 @@ Generated from validated manifests. Coverage means every section returned by the
 - EXCH 996 G100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
-- WDA 802 G100: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404
@@ -134,23 +133,24 @@ Generated from validated manifests. Coverage means every section returned by the
 - WDA 805 G200: Outline HTTP 404
 - WDA 806 G100: Outline HTTP 404
 - WDA 806 G200: Outline HTTP 404
+- WDA 802 G100: Outline HTTP 404
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-10T14:03:50.791Z
-- Enrichment completed: 2026-10-10T14:18:57.247Z
+- CourSys snapshot: 2026-10-11T14:23:00.718Z
+- Enrichment completed: 2026-10-11T14:37:53.759Z
 - Subjects discovered/imported: 80/80
-- Course codes: 1820
-- Sections: 2924 (CourSys source total 2924)
-- Confirmed enrollment sections: 2896
-- Tutorial/lab sections: 53
-- Sections with schedules: 1442
-- Sections without schedules: 1482
-- Sections with enrollment data: 2924
-- Sections enriched from Course Outlines: 2896
+- Course codes: 1818
+- Sections: 2921 (CourSys source total 2921)
+- Confirmed enrollment sections: 2901
+- Tutorial/lab sections: 54
+- Sections with schedules: 1447
+- Sections without schedules: 1474
+- Sections with enrollment data: 2921
+- Sections enriched from Course Outlines: 2901
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3729 KiB raw / 162 KiB gzip
+- All-subject index: 3730 KiB raw / 162 KiB gzip
 - Over-capacity enrollment snapshots retained: 0
 
 | Subject | Course codes | Sections |
@@ -183,7 +183,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | FAN | 2 | 5 |
 | FASS | 6 | 16 |
 | FEP | 6 | 6 |
-| FREN | 16 | 17 |
+| FREN | 15 | 16 |
 | GA | 5 | 5 |
 | GEOG | 41 | 46 |
 | GERM | 3 | 3 |
@@ -191,7 +191,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | GRAD | 3 | 5 |
 | GRK | 4 | 4 |
 | GSWS | 26 | 34 |
-| HIST | 36 | 48 |
+| HIST | 35 | 46 |
 | HSCI | 70 | 106 |
 | HUM | 20 | 25 |
 | IAT | 55 | 92 |
@@ -247,14 +247,6 @@ Generated from validated manifests. Coverage means every section returned by the
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
-- FREN 201 OL01: Outline HTTP 404
-- FREN 344 D100: Outline HTTP 404
-- FREN 424 D100: Outline HTTP 404
-- HIST 102 F100: Outline HTTP 404
-- HIST 151 D100: Outline HTTP 404
-- HIST 430 F100: Outline HTTP 404
-- INDG 286 B100: Outline HTTP 404
-- LING 330 D100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404
