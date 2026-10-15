@@ -4,10 +4,10 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-14T12:55:17.825Z
-- Enrichment completed: 2026-10-14T13:10:52.065Z
+- CourSys snapshot: 2026-10-15T12:42:01.915Z
+- Enrichment completed: 2026-10-15T12:57:38.772Z
 - Subjects discovered/imported: 81/81
-- Course codes: 1869
+- Course codes: 1870
 - Sections: 3034 (CourSys source total 3034)
 - Confirmed enrollment sections: 3006
 - Tutorial/lab sections: 44
@@ -17,7 +17,7 @@ Generated from validated manifests. Coverage means every section returned by the
 - Sections enriched from Course Outlines: 3006
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3957 KiB raw / 189 KiB gzip
+- All-subject index: 3957 KiB raw / 188 KiB gzip
 - Over-capacity enrollment snapshots retained: 91
 
 | Subject | Course codes | Sections |
@@ -40,7 +40,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | DATA | 2 | 2 |
 | DMED | 7 | 11 |
 | EASC | 26 | 30 |
-| ECON | 44 | 58 |
+| ECON | 45 | 58 |
 | EDUC | 87 | 166 |
 | ENGL | 40 | 44 |
 | ENSC | 43 | 62 |
@@ -113,13 +113,13 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 120 D008: Outline HTTP 404
 - BOT 120 D009: Outline HTTP 404
 - BOT 120 D011: Outline HTTP 404
-- BOT 140 D300: Outline HTTP 404
 - BOT 145 D200: Outline HTTP 404
 - BOT 145 D300: Outline HTTP 404
 - BOT 150 D100: Outline HTTP 404
+- BOT 140 D300: Outline HTTP 404
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 993 G100: Outline HTTP 404
 - EXCH 992 G100: Outline HTTP 404
+- EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
@@ -137,20 +137,20 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-14T13:10:52.332Z
-- Enrichment completed: 2026-10-14T13:25:50.889Z
+- CourSys snapshot: 2026-10-15T12:57:39.141Z
+- Enrichment completed: 2026-10-15T13:12:56.782Z
 - Subjects discovered/imported: 80/80
-- Course codes: 1818
+- Course codes: 1819
 - Sections: 2921 (CourSys source total 2921)
 - Confirmed enrollment sections: 2901
 - Tutorial/lab sections: 54
-- Sections with schedules: 1447
-- Sections without schedules: 1474
+- Sections with schedules: 1446
+- Sections without schedules: 1475
 - Sections with enrollment data: 2921
 - Sections enriched from Course Outlines: 2901
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3733 KiB raw / 163 KiB gzip
+- All-subject index: 3733 KiB raw / 162 KiB gzip
 - Over-capacity enrollment snapshots retained: 0
 
 | Subject | Course codes | Sections |
@@ -160,7 +160,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | ARCH | 33 | 58 |
 | BISC | 50 | 112 |
 | BOT | 2 | 2 |
-| BPK | 50 | 68 |
+| BPK | 50 | 69 |
 | BUS | 144 | 242 |
 | CA | 81 | 96 |
 | CENV | 7 | 21 |
@@ -172,7 +172,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | CRIM | 50 | 71 |
 | DATA | 1 | 1 |
 | DMED | 5 | 17 |
-| EASC | 26 | 28 |
+| EASC | 27 | 29 |
 | ECON | 39 | 49 |
 | EDUC | 80 | 159 |
 | ENGL | 31 | 32 |
@@ -185,7 +185,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | FEP | 6 | 6 |
 | FREN | 15 | 16 |
 | GA | 5 | 5 |
-| GEOG | 41 | 46 |
+| GEOG | 42 | 47 |
 | GERM | 3 | 3 |
 | GERO | 20 | 32 |
 | GRAD | 3 | 5 |
@@ -220,7 +220,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | PLAN | 4 | 4 |
 | PLCY | 13 | 15 |
 | POL | 42 | 56 |
-| PSYC | 67 | 88 |
+| PSYC | 66 | 85 |
 | PUB | 14 | 23 |
 | PUNJ | 1 | 1 |
 | REM | 27 | 34 |
@@ -242,8 +242,8 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 150 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 992 G100: Outline HTTP 404
 - EXCH 993 G100: Outline HTTP 404
+- EXCH 992 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
