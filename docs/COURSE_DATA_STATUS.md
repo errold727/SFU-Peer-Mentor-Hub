@@ -4,8 +4,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-16T12:30:18.748Z
-- Enrichment completed: 2026-10-16T12:45:49.881Z
+- CourSys snapshot: 2026-10-18T12:05:45.099Z
+- Enrichment completed: 2026-10-18T12:21:15.478Z
 - Subjects discovered/imported: 81/81
 - Course codes: 1870
 - Sections: 3033 (CourSys source total 3033)
@@ -17,8 +17,8 @@ Generated from validated manifests. Coverage means every section returned by the
 - Sections enriched from Course Outlines: 3005
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3956 KiB raw / 188 KiB gzip
-- Over-capacity enrollment snapshots retained: 92
+- All-subject index: 3957 KiB raw / 188 KiB gzip
+- Over-capacity enrollment snapshots retained: 91
 
 | Subject | Course codes | Sections |
 | --- | ---: | ---: |
@@ -118,11 +118,11 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 145 D300: Outline HTTP 404
 - BOT 150 D100: Outline HTTP 404
 - EXCH 991 G100: Outline HTTP 404
+- EXCH 992 G100: Outline HTTP 404
 - EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
-- EXCH 996 G100: Outline HTTP 404
-- EXCH 992 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
+- EXCH 996 G100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404
@@ -137,20 +137,20 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-16T12:45:50.241Z
-- Enrichment completed: 2026-10-16T13:00:47.995Z
+- CourSys snapshot: 2026-10-18T12:21:15.831Z
+- Enrichment completed: 2026-10-18T12:36:09.840Z
 - Subjects discovered/imported: 80/80
-- Course codes: 1819
-- Sections: 2921 (CourSys source total 2921)
-- Confirmed enrollment sections: 2901
+- Course codes: 1816
+- Sections: 2918 (CourSys source total 2918)
+- Confirmed enrollment sections: 2895
 - Tutorial/lab sections: 54
-- Sections with schedules: 1446
-- Sections without schedules: 1475
-- Sections with enrollment data: 2921
-- Sections enriched from Course Outlines: 2901
+- Sections with schedules: 1441
+- Sections without schedules: 1477
+- Sections with enrollment data: 2918
+- Sections enriched from Course Outlines: 2895
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3733 KiB raw / 163 KiB gzip
+- All-subject index: 3726 KiB raw / 162 KiB gzip
 - Over-capacity enrollment snapshots retained: 0
 
 | Subject | Course codes | Sections |
@@ -166,7 +166,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | CENV | 7 | 21 |
 | CHEM | 48 | 120 |
 | CHIN | 3 | 3 |
-| CMNS | 53 | 117 |
+| CMNS | 50 | 114 |
 | CMPT | 75 | 161 |
 | COGS | 4 | 5 |
 | CRIM | 50 | 71 |
@@ -240,16 +240,19 @@ Generated from validated manifests. Coverage means every section returned by the
 
 - BOT 150 D100: Outline HTTP 404
 - BOT 110 D100: Outline HTTP 404
+- CMPT 263 D100: Outline HTTP 404
+- CMPT 411 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 993 G100: Outline HTTP 404
 - EXCH 992 G100: Outline HTTP 404
+- EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
+- PHIL 332 D100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
-- WDA 801 G200: Outline HTTP 404
 - WDA 802 G100: Outline HTTP 404
+- WDA 801 G200: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404
