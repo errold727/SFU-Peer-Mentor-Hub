@@ -4,8 +4,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-18T12:05:45.099Z
-- Enrichment completed: 2026-10-18T12:21:15.478Z
+- CourSys snapshot: 2026-10-19T14:44:14.354Z
+- Enrichment completed: 2026-10-19T14:59:42.415Z
 - Subjects discovered/imported: 81/81
 - Course codes: 1870
 - Sections: 3033 (CourSys source total 3033)
@@ -17,7 +17,7 @@ Generated from validated manifests. Coverage means every section returned by the
 - Sections enriched from Course Outlines: 3005
 - Failed subjects: None
 - Complete CourSys index: true
-- All-subject index: 3957 KiB raw / 188 KiB gzip
+- All-subject index: 3957 KiB raw / 189 KiB gzip
 - Over-capacity enrollment snapshots retained: 91
 
 | Subject | Course codes | Sections |
@@ -137,8 +137,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-18T12:21:15.831Z
-- Enrichment completed: 2026-10-18T12:36:09.840Z
+- CourSys snapshot: 2026-10-19T14:59:42.757Z
+- Enrichment completed: 2026-10-19T15:14:40.861Z
 - Subjects discovered/imported: 80/80
 - Course codes: 1816
 - Sections: 2918 (CourSys source total 2918)
@@ -238,8 +238,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ### Missing or unusable outlines
 
-- BOT 150 D100: Outline HTTP 404
 - BOT 110 D100: Outline HTTP 404
+- BOT 150 D100: Outline HTTP 404
 - CMPT 263 D100: Outline HTTP 404
 - CMPT 411 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
@@ -251,8 +251,8 @@ Generated from validated manifests. Coverage means every section returned by the
 - EXCH 996 G100: Outline HTTP 404
 - PHIL 332 D100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
-- WDA 802 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
+- WDA 802 G100: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404
