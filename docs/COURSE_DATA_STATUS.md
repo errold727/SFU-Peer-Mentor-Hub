@@ -4,8 +4,8 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Fall 2026 / 1267
 
-- CourSys snapshot: 2026-10-20T12:46:27.229Z
-- Enrichment completed: 2026-10-20T13:01:55.045Z
+- CourSys snapshot: 2026-10-21T12:59:18.570Z
+- Enrichment completed: 2026-10-21T13:14:48.033Z
 - Subjects discovered/imported: 81/81
 - Course codes: 1871
 - Sections: 3034 (CourSys source total 3034)
@@ -118,14 +118,14 @@ Generated from validated manifests. Coverage means every section returned by the
 - BOT 145 D300: Outline HTTP 404
 - BOT 150 D100: Outline HTTP 404
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 992 G100: Outline HTTP 404
 - EXCH 993 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
+- EXCH 992 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
 - WDA 801 G100: Outline HTTP 404
-- WDA 802 G100: Outline HTTP 404
 - WDA 801 G200: Outline HTTP 404
+- WDA 802 G100: Outline HTTP 404
 - WDA 803 G100: Outline HTTP 404
 - WDA 803 G200: Outline HTTP 404
 - WDA 804 G100: Outline HTTP 404
@@ -137,16 +137,16 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ## Spring 2027 / 1271
 
-- CourSys snapshot: 2026-10-20T13:01:55.393Z
-- Enrichment completed: 2026-10-20T13:16:48.478Z
+- CourSys snapshot: 2026-10-21T13:14:48.320Z
+- Enrichment completed: 2026-10-21T13:30:06.771Z
 - Subjects discovered/imported: 80/80
-- Course codes: 1816
-- Sections: 2918 (CourSys source total 2918)
+- Course codes: 1814
+- Sections: 2919 (CourSys source total 2919)
 - Confirmed enrollment sections: 2898
 - Tutorial/lab sections: 54
-- Sections with schedules: 1444
-- Sections without schedules: 1474
-- Sections with enrollment data: 2918
+- Sections with schedules: 1442
+- Sections without schedules: 1477
+- Sections with enrollment data: 2919
 - Sections enriched from Course Outlines: 2898
 - Failed subjects: None
 - Complete CourSys index: true
@@ -167,8 +167,8 @@ Generated from validated manifests. Coverage means every section returned by the
 | CHEM | 48 | 120 |
 | CHIN | 3 | 3 |
 | CMNS | 50 | 114 |
-| CMPT | 76 | 162 |
-| COGS | 4 | 5 |
+| CMPT | 76 | 163 |
+| COGS | 3 | 4 |
 | CRIM | 50 | 71 |
 | DATA | 1 | 1 |
 | DMED | 5 | 17 |
@@ -191,7 +191,7 @@ Generated from validated manifests. Coverage means every section returned by the
 | GRAD | 3 | 5 |
 | GRK | 4 | 4 |
 | GSWS | 26 | 34 |
-| HIST | 35 | 46 |
+| HIST | 35 | 47 |
 | HSCI | 70 | 106 |
 | HUM | 20 | 25 |
 | IAT | 55 | 92 |
@@ -206,8 +206,8 @@ Generated from validated manifests. Coverage means every section returned by the
 | LBST | 5 | 5 |
 | LING | 23 | 34 |
 | LS | 7 | 9 |
-| MACM | 6 | 7 |
-| MATH | 53 | 85 |
+| MACM | 6 | 8 |
+| MATH | 52 | 84 |
 | MBB | 41 | 95 |
 | MEDS | 1 | 1 |
 | MHSS | 1 | 1 |
@@ -238,12 +238,13 @@ Generated from validated manifests. Coverage means every section returned by the
 
 ### Missing or unusable outlines
 
+- ARCH 101 D100: Outline HTTP 404
 - BOT 110 D100: Outline HTTP 404
 - BOT 150 D100: Outline HTTP 404
 - ENSC 195 D200: End before start
 - EXCH 991 G100: Outline HTTP 404
-- EXCH 992 G100: Outline HTTP 404
 - EXCH 993 G100: Outline HTTP 404
+- EXCH 992 G100: Outline HTTP 404
 - EXCH 994 G100: Outline HTTP 404
 - EXCH 995 G100: Outline HTTP 404
 - EXCH 996 G100: Outline HTTP 404
